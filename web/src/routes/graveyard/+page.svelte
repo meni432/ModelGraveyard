@@ -1,6 +1,8 @@
 <script lang="ts">
   import { base } from "$app/paths";
   import { priceLabel, lifespanLabel, contextLabel } from "$lib/format.ts";
+  import Head from "$lib/components/Head.svelte";
+  import { meta } from "$lib/seo.ts";
   let { data } = $props();
 
   let query = $state("");
@@ -18,7 +20,15 @@
       return b.id.toLowerCase().includes(q) || b.name.toLowerCase().includes(q);
     }),
   );
+
+  const m = meta({
+    path: "/graveyard",
+    title: "Graveyard — retired and removed LLMs",
+    description: `${data.buried.length} models have been retired or silently removed from OpenRouter. Searchable index with final pricing, lifespan, and suggested replacements.`,
+  });
 </script>
+
+<Head meta={m} />
 
 <section class="mb-8">
   <h1 class="font-serif text-4xl font-bold mb-2">The Graveyard</h1>

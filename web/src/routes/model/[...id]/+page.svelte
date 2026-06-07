@@ -2,7 +2,9 @@
   import { base } from "$app/paths";
   import PriceChart from "$lib/components/PriceChart.svelte";
   import EventBadge from "$lib/components/EventBadge.svelte";
+  import Head from "$lib/components/Head.svelte";
   import { priceLabel, contextLabel, lifespanLabel } from "$lib/format.ts";
+  import { meta, SITE_URL } from "$lib/seo.ts";
   import type { Pricing } from "$lib/types.ts";
 
   let { data } = $props();
@@ -11,6 +13,35 @@
   const buried = $derived(data.buried);
   const history = $derived(data.history);
   const isDead = $derived(!!buried && !active);
+  const displayName = $derived(active?.name ?? buried?.name ?? id);
+
+  const m = $derived(
+    meta({
+      path: `/model/${id}`,
+      title: isDead
+        ? `${displayName} (deceased)`
+        : active?.expiration_date
+          ? `${displayName} (sunset ${active.expiration_date})`
+          : displayName,
+      description: isDead
+        ? `${displayName} was removed from OpenRouter on ${buried?.buried_at}. Final prompt price: ${priceLabel(buried?.final_pricing.prompt ?? null)}. ${buried?.suggested_replacement ? `Survivor: ${buried.suggested_replacement}.` : ""} View its lifecycle history and copy a status badge.`
+        : `Lifecycle history for ${displayName} on OpenRouter — prompt ${priceLabel(active?.pricing.prompt ?? null)}, completion ${priceLabel(active?.pricing.completion ?? null)}, ${contextLabel(active?.context_length ?? null)} context. ${history.length} recorded events.`,
+    }),
+  );
+
+  const jsonLd = $derived({
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: displayName,
+    identifier: id,
+    category: "AI Language Model",
+    url: `${SITE_URL}/model/${id}`,
+    brand: { "@type": "Brand", name: active?.provider ?? buried?.provider ?? "" },
+    description: m.description,
+    ...(isDead
+      ? { offers: { "@type": "Offer", availability: "https://schema.org/Discontinued" } }
+      : {}),
+  });
 
   // Build price-over-time series. Seed from current/buried snapshot's first_seen,
   // then walk price_changed events.
@@ -92,6 +123,8 @@
     navigator.clipboard.writeText(badgeSvg());
   }
 </script>
+
+<Head meta={m} {jsonLd} />
 
 <article>
   <header class="mb-6">

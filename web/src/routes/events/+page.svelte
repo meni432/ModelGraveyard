@@ -1,7 +1,9 @@
 <script lang="ts">
   import { base } from "$app/paths";
   import EventBadge from "$lib/components/EventBadge.svelte";
+  import Head from "$lib/components/Head.svelte";
   import { priceLabel } from "$lib/format.ts";
+  import { meta } from "$lib/seo.ts";
   import type { EventType } from "$lib/types.ts";
 
   let { data } = $props();
@@ -29,7 +31,15 @@
       return true;
     }),
   );
+
+  const m = meta({
+    path: "/events",
+    title: "Event log — every OpenRouter catalog change",
+    description: `${data.events.length} recorded events: model additions, silent removals, price changes, context-window updates, and announced deprecations. Filter by type or provider; subscribe via RSS.`,
+  });
 </script>
+
+<Head meta={m} />
 
 <section class="mb-6">
   <h1 class="font-serif text-4xl font-bold mb-2">Event log</h1>

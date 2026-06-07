@@ -2,7 +2,9 @@
   import { base } from "$app/paths";
   import Tombstone from "$lib/components/Tombstone.svelte";
   import EventBadge from "$lib/components/EventBadge.svelte";
+  import Head from "$lib/components/Head.svelte";
   import { priceLabel } from "$lib/format.ts";
+  import { meta, SITE_URL, SITE_NAME } from "$lib/seo.ts";
 
   let { data } = $props();
   const summary = $derived(data.summary);
@@ -10,7 +12,27 @@
 
   const recentBurials = $derived(graveyard.buried.slice(0, 6));
   const upcoming = $derived(summary.scheduled_funerals.slice(0, 8));
+
+  const m = meta({
+    path: "/",
+    description: `Public lifecycle ledger for ${summary.active_count} LLMs on OpenRouter. ${summary.dead_count} retired models in the graveyard, ${summary.scheduled_funerals.length} scheduled funerals. Atom feed, raw JSON, per-model status badges.`,
+  });
+
+  const jsonLd = $derived({
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: SITE_NAME,
+    url: SITE_URL,
+    description: m.description,
+    potentialAction: {
+      "@type": "SearchAction",
+      target: `${SITE_URL}/graveyard?q={search_term_string}`,
+      "query-input": "required name=search_term_string",
+    },
+  });
 </script>
+
+<Head meta={m} {jsonLd} />
 
 <section class="text-center mb-12">
   <h1 class="font-serif text-5xl font-bold tracking-tight mb-2">
@@ -18,7 +40,59 @@
   </h1>
   <p class="epitaph text-lg max-w-2xl mx-auto">
     A running record of every LLM that appeared on, vanished from, or quietly
-    cost more on OpenRouter — so the next outage isn&rsquo;t a surprise.
+    cost more on
+    <a
+      href="https://openrouter.ai"
+      target="_blank"
+      rel="noopener"
+      class="underline decoration-tomb-300 hover:text-tomb-900">OpenRouter</a
+    > — so the next outage isn&rsquo;t a surprise.
+  </p>
+  <p class="mt-3 text-sm text-tomb-500">
+    <a
+      href="{base}/about"
+      class="underline decoration-tomb-300 hover:text-tomb-900"
+      >Why this exists →</a
+    >
+  </p>
+</section>
+
+<section class="mb-12 rounded-lg border border-tomb-200 bg-white p-5 sm:p-6">
+  <h2 class="font-serif text-xl font-bold mb-2">What this is</h2>
+  <p class="text-sm leading-relaxed text-tomb-700 mb-3">
+    <a
+      href="https://openrouter.ai"
+      target="_blank"
+      rel="noopener"
+      class="text-moss-600 hover:underline">OpenRouter</a
+    > is the unified gateway thousands of apps use to call 300+ LLMs from Anthropic, OpenAI,
+    Google, Meta, Mistral, xAI, and others. Its
+    <a
+      href="https://openrouter.ai/api/v1/models"
+      target="_blank"
+      rel="noopener"
+      class="text-moss-600 hover:underline"
+      ><code class="font-mono text-xs bg-tomb-100 px-1 rounded">/api/v1/models</code></a
+    > catalog mutates constantly — models appear, get retired, change price.
+  </p>
+  <p class="text-sm leading-relaxed text-tomb-700">
+    The problem: many models disappear silently. The canonical receipt is
+    <a
+      href="https://github.com/BerriAI/litellm/issues/20521"
+      target="_blank"
+      rel="noopener"
+      class="text-rose-700 hover:underline font-semibold">BerriAI/litellm #20521</a
+    > — 39 OpenRouter models vanished from the live API while still appearing in
+    pricing JSONs, with no <code class="font-mono text-xs bg-tomb-100 px-1 rounded">deprecation_date</code> to warn downstream apps. ModelGraveyard fetches the catalog every 6 hours,
+    diffs it, and publishes the diff as typed events + an
+    <a
+      href="{base}/feeds/all.xml"
+      class="text-moss-600 hover:underline">Atom feed</a
+    >.
+    <a
+      href="{base}/about"
+      class="text-moss-600 hover:underline">Read more →</a
+    >
   </p>
 </section>
 
