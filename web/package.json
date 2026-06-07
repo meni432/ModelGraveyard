@@ -23,5 +23,8 @@
   },
   "dependencies": {
     "uplot": "^1.6.32"
+  },
+  "overrides": {
+    "picomatch": "^4.0.4"
   }
 }
