@@ -133,13 +133,28 @@
         subscription, drop into any RSS reader.
       </li>
       <li>
+        Per-event-type feeds for narrower subscriptions:
+        <a class="moss" href="/feeds/by-type/model_removed.xml">removals</a>,
+        <a class="moss" href="/feeds/by-type/deprecation_announced.xml">deprecations</a>,
+        <a class="moss" href="/feeds/by-type/price_changed.xml">price changes</a>,
+        <a class="moss" href="/feeds/by-type/context_changed.xml">context changes</a>,
+        <a class="moss" href="/feeds/by-type/model_added.xml">additions</a>.
+        The <em>removals</em> feed is the most-subscribed slice — it maps directly
+        to the production-app outage signal.
+      </li>
+      <li>
         Per-provider feeds under
         <a
           class="moss"
           href="https://github.com/meni432/ModelGraveyard/tree/main/feeds/by-provider"
           target="_blank"
           rel="noopener"><code>feeds/by-provider/</code></a
-        > — narrower subscriptions for "only tell me when an Anthropic model changes."
+        > — for example
+        <a class="moss" href="/feeds/by-provider/anthropic.xml">anthropic.xml</a>,
+        <a class="moss" href="/feeds/by-provider/openai.xml">openai.xml</a>,
+        <a class="moss" href="/feeds/by-provider/google.xml">google.xml</a>.
+        Or pick a provider from the
+        <a class="moss" href="/events">event log</a> filter to get the URL automatically.
       </li>
       <li>
         Raw JSON: <a

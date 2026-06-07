@@ -62,6 +62,21 @@
       <ul class="space-y-1.5 text-tomb-500">
         <li><a href="{base}/feeds/all.xml" class="hover:text-tomb-900 underline">Atom feed (all events)</a></li>
         <li>
+          <a href="{base}/feeds/by-type/model_removed.xml" class="hover:text-tomb-900 underline"
+            >RSS · removals only</a
+          >
+        </li>
+        <li>
+          <a href="{base}/feeds/by-type/deprecation_announced.xml" class="hover:text-tomb-900 underline"
+            >RSS · deprecations</a
+          >
+        </li>
+        <li>
+          <a href="{base}/feeds/by-type/price_changed.xml" class="hover:text-tomb-900 underline"
+            >RSS · price changes</a
+          >
+        </li>
+        <li>
           <a
             href="https://github.com/meni432/ModelGraveyard/tree/main/feeds/by-provider"
             class="hover:text-tomb-900 underline"

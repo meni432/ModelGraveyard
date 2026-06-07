@@ -6,7 +6,16 @@ import type { Event, PriceChange } from "./diff.ts";
 const SITE_URL = Deno.env.get("SITE_URL") ?? "https://modelgraveyard.com";
 const FEED_DIR = "feeds";
 const PROVIDER_DIR = `${FEED_DIR}/by-provider`;
+const TYPE_DIR = `${FEED_DIR}/by-type`;
 const MAX_ITEMS = 100;
+
+const TYPE_LABELS: Record<string, string> = {
+  model_added: "additions",
+  model_removed: "removals",
+  price_changed: "price changes",
+  context_changed: "context changes",
+  deprecation_announced: "deprecations",
+};
 
 const esc = (s: string): string =>
   s.replace(/&/g, "&amp;")
@@ -145,6 +154,31 @@ export async function writeFeeds(events: Event[]): Promise<void> {
       renderFeed({
         title: `ModelGraveyard — ${provider}`,
         selfPath: `feeds/by-provider/${provider}.xml`,
+        events: list.slice(0, MAX_ITEMS),
+      }),
+    );
+  }
+
+  // Per-event-type feeds. Always emit one per known type (even if empty) so
+  // subscription URLs are stable from day one — an empty Atom feed is valid
+  // and just tells subscribers "nothing yet." The "removals" feed is the
+  // most-subscribed slice since it maps directly to the production-app
+  // outage signal.
+  const byType = new Map<string, Event[]>(
+    Object.keys(TYPE_LABELS).map((t) => [t, []]),
+  );
+  for (const ev of sorted) {
+    const bucket = byType.get(ev.type) ?? [];
+    bucket.push(ev);
+    byType.set(ev.type, bucket);
+  }
+  for (const [type, list] of byType) {
+    const label = TYPE_LABELS[type] ?? type;
+    await writeText(
+      `${TYPE_DIR}/${type}.xml`,
+      renderFeed({
+        title: `ModelGraveyard — ${label}`,
+        selfPath: `feeds/by-type/${type}.xml`,
         events: list.slice(0, MAX_ITEMS),
       }),
     );
