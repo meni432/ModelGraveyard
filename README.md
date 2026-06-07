@@ -4,7 +4,7 @@ A public record of every LLM that appeared on, vanished from, or quietly changed
 
 Existing trackers (PricePerToken, llmrates.live, simonw/llm-prices) show *current* pricing. ModelGraveyard shows the **lifecycle**: when a model was added, when it silently disappeared, when its price doubled, when its context window shifted, when a sunset date was announced. Built around the receipt in [BerriAI/litellm #20521](https://github.com/BerriAI/litellm/issues/20521): 39 OpenRouter models vanished from the live API while still appearing in pricing JSONs, with no `deprecation_date`.
 
-**Live site:** https://meni432.github.io/ModelGraveyard
+**Live site:** https://modelgraveyard.com
 **Atom feeds:** [`feeds/all.xml`](feeds/all.xml), per-provider feeds under [`feeds/by-provider/`](feeds/by-provider/)
 
 ## How it works

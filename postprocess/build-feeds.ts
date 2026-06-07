@@ -3,7 +3,7 @@
 
 import type { Event, PriceChange } from "./diff.ts";
 
-const SITE_URL = Deno.env.get("SITE_URL") ?? "https://meni432.github.io/ModelGraveyard";
+const SITE_URL = Deno.env.get("SITE_URL") ?? "https://modelgraveyard.com";
 const FEED_DIR = "feeds";
 const PROVIDER_DIR = `${FEED_DIR}/by-provider`;
 const MAX_ITEMS = 100;
