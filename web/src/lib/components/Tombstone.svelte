@@ -12,7 +12,7 @@
 <article
   class="relative rounded-t-3xl border border-tomb-300 bg-tomb-100 px-5 pt-6 pb-4 shadow-sm hover:shadow-md transition-shadow"
 >
-  <div class="absolute -top-1 left-1/2 -translate-x-1/2 text-tomb-400 text-2xl">✝</div>
+  <div class="absolute -top-1 left-1/2 -translate-x-1/2 text-tomb-400 text-2xl">✡</div>
   <header class="text-center mb-3">
     <a
       href="{base}/model/{entry.id}"
