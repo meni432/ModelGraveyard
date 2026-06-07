@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ModelGraveyard — ai21</title>
+  <id>https://meni432.github.io/ModelGraveyard/feeds/by-provider/ai21.xml</id>
+  <link rel="self" href="https://meni432.github.io/ModelGraveyard/feeds/by-provider/ai21.xml"/>
+  <link rel="alternate" href="https://meni432.github.io/ModelGraveyard"/>
+  <updated>2026-05-27T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-05-27:model_added:ai21%2Fjamba-large-1.7</id>
+    <title>Added: ai21/jamba-large-1.7</title>
+    <updated>2026-05-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://meni432.github.io/ModelGraveyard/model/ai21%2Fjamba-large-1.7"/>
+    <category term="model_added"/>
+    <category term="provider:ai21"/>
+    <summary>New model on OpenRouter. Initial prompt price: $2.0000/Mtok, context: 256000.</summary>
+  </entry>
+</feed>

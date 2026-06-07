@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-feature-settings: "ss01", "cv11";
+  }
+}
+
+@layer components {
+  .epitaph {
+    @apply font-serif italic text-tomb-600 leading-snug;
+  }
+  .price {
+    @apply font-mono tabular-nums text-tomb-900;
+  }
+  .pill {
+    @apply inline-flex items-center rounded-full px-2 py-0.5 text-xs font-mono;
+  }
+}

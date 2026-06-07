@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ModelGraveyard — inclusionai</title>
+  <id>https://meni432.github.io/ModelGraveyard/feeds/by-provider/inclusionai.xml</id>
+  <link rel="self" href="https://meni432.github.io/ModelGraveyard/feeds/by-provider/inclusionai.xml"/>
+  <link rel="alternate" href="https://meni432.github.io/ModelGraveyard"/>
+  <updated>2026-05-27T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-05-27:model_added:inclusionai%2Fring-2.6-1t</id>
+    <title>Added: inclusionai/ring-2.6-1t</title>
+    <updated>2026-05-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://meni432.github.io/ModelGraveyard/model/inclusionai%2Fring-2.6-1t"/>
+    <category term="model_added"/>
+    <category term="provider:inclusionai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0750/Mtok, context: 262144.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-05-27:model_added:inclusionai%2Fling-2.6-1t</id>
+    <title>Added: inclusionai/ling-2.6-1t</title>
+    <updated>2026-05-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://meni432.github.io/ModelGraveyard/model/inclusionai%2Fling-2.6-1t"/>
+    <category term="model_added"/>
+    <category term="provider:inclusionai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0750/Mtok, context: 262144.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-05-27:model_added:inclusionai%2Fling-2.6-flash</id>
+    <title>Added: inclusionai/ling-2.6-flash</title>
+    <updated>2026-05-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://meni432.github.io/ModelGraveyard/model/inclusionai%2Fling-2.6-flash"/>
+    <category term="model_added"/>
+    <category term="provider:inclusionai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0100/Mtok, context: 262144.</summary>
+  </entry>
+</feed>

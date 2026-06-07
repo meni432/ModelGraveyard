@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ModelGraveyard — relace</title>
+  <id>https://meni432.github.io/ModelGraveyard/feeds/by-provider/relace.xml</id>
+  <link rel="self" href="https://meni432.github.io/ModelGraveyard/feeds/by-provider/relace.xml"/>
+  <link rel="alternate" href="https://meni432.github.io/ModelGraveyard"/>
+  <updated>2026-05-27T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-05-27:model_added:relace%2Frelace-search</id>
+    <title>Added: relace/relace-search</title>
+    <updated>2026-05-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://meni432.github.io/ModelGraveyard/model/relace%2Frelace-search"/>
+    <category term="model_added"/>
+    <category term="provider:relace"/>
+    <summary>New model on OpenRouter. Initial prompt price: $1.0000/Mtok, context: 256000.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-05-27:model_added:relace%2Frelace-apply-3</id>
+    <title>Added: relace/relace-apply-3</title>
+    <updated>2026-05-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://meni432.github.io/ModelGraveyard/model/relace%2Frelace-apply-3"/>
+    <category term="model_added"/>
+    <category term="provider:relace"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.8500/Mtok, context: 256000.</summary>
+  </entry>
+</feed>

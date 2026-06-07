@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ModelGraveyard — xiaomi</title>
+  <id>https://meni432.github.io/ModelGraveyard/feeds/by-provider/xiaomi.xml</id>
+  <link rel="self" href="https://meni432.github.io/ModelGraveyard/feeds/by-provider/xiaomi.xml"/>
+  <link rel="alternate" href="https://meni432.github.io/ModelGraveyard"/>
+  <updated>2026-05-27T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-05-27:model_added:xiaomi%2Fmimo-v2.5-pro</id>
+    <title>Added: xiaomi/mimo-v2.5-pro</title>
+    <updated>2026-05-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://meni432.github.io/ModelGraveyard/model/xiaomi%2Fmimo-v2.5-pro"/>
+    <category term="model_added"/>
+    <category term="provider:xiaomi"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.4350/Mtok, context: 1048576.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-05-27:model_added:xiaomi%2Fmimo-v2.5</id>
+    <title>Added: xiaomi/mimo-v2.5</title>
+    <updated>2026-05-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://meni432.github.io/ModelGraveyard/model/xiaomi%2Fmimo-v2.5"/>
+    <category term="model_added"/>
+    <category term="provider:xiaomi"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.1400/Mtok, context: 1048576.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-05-27:model_added:xiaomi%2Fmimo-v2-omni</id>
+    <title>Added: xiaomi/mimo-v2-omni</title>
+    <updated>2026-05-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://meni432.github.io/ModelGraveyard/model/xiaomi%2Fmimo-v2-omni"/>
+    <category term="model_added"/>
+    <category term="provider:xiaomi"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.4000/Mtok, context: 262144.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-05-27:model_added:xiaomi%2Fmimo-v2-pro</id>
+    <title>Added: xiaomi/mimo-v2-pro</title>
+    <updated>2026-05-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://meni432.github.io/ModelGraveyard/model/xiaomi%2Fmimo-v2-pro"/>
+    <category term="model_added"/>
+    <category term="provider:xiaomi"/>
+    <summary>New model on OpenRouter. Initial prompt price: $1.0000/Mtok, context: 1048576.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-05-27:model_added:xiaomi%2Fmimo-v2-flash</id>
+    <title>Added: xiaomi/mimo-v2-flash</title>
+    <updated>2026-05-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://meni432.github.io/ModelGraveyard/model/xiaomi%2Fmimo-v2-flash"/>
+    <category term="model_added"/>
+    <category term="provider:xiaomi"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.1000/Mtok, context: 262144.</summary>
+  </entry>
+</feed>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ModelGraveyard — x-ai</title>
+  <id>https://meni432.github.io/ModelGraveyard/feeds/by-provider/x-ai.xml</id>
+  <link rel="self" href="https://meni432.github.io/ModelGraveyard/feeds/by-provider/x-ai.xml"/>
+  <link rel="alternate" href="https://meni432.github.io/ModelGraveyard"/>
+  <updated>2026-05-27T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-05-27:model_added:x-ai%2Fgrok-build-0.1</id>
+    <title>Added: x-ai/grok-build-0.1</title>
+    <updated>2026-05-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://meni432.github.io/ModelGraveyard/model/x-ai%2Fgrok-build-0.1"/>
+    <category term="model_added"/>
+    <category term="provider:x-ai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $1.0000/Mtok, context: 256000.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-05-27:model_added:x-ai%2Fgrok-4.3</id>
+    <title>Added: x-ai/grok-4.3</title>
+    <updated>2026-05-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://meni432.github.io/ModelGraveyard/model/x-ai%2Fgrok-4.3"/>
+    <category term="model_added"/>
+    <category term="provider:x-ai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $1.2500/Mtok, context: 1000000.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-05-27:model_added:x-ai%2Fgrok-4.20-multi-agent</id>
+    <title>Added: x-ai/grok-4.20-multi-agent</title>
+    <updated>2026-05-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://meni432.github.io/ModelGraveyard/model/x-ai%2Fgrok-4.20-multi-agent"/>
+    <category term="model_added"/>
+    <category term="provider:x-ai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $2.0000/Mtok, context: 2000000.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-05-27:model_added:x-ai%2Fgrok-4.20</id>
+    <title>Added: x-ai/grok-4.20</title>
+    <updated>2026-05-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://meni432.github.io/ModelGraveyard/model/x-ai%2Fgrok-4.20"/>
+    <category term="model_added"/>
+    <category term="provider:x-ai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $1.2500/Mtok, context: 2000000.</summary>
+  </entry>
+</feed>

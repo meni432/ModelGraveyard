@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ModelGraveyard — rekaai</title>
+  <id>https://meni432.github.io/ModelGraveyard/feeds/by-provider/rekaai.xml</id>
+  <link rel="self" href="https://meni432.github.io/ModelGraveyard/feeds/by-provider/rekaai.xml"/>
+  <link rel="alternate" href="https://meni432.github.io/ModelGraveyard"/>
+  <updated>2026-05-27T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-05-27:model_added:rekaai%2Freka-edge</id>
+    <title>Added: rekaai/reka-edge</title>
+    <updated>2026-05-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://meni432.github.io/ModelGraveyard/model/rekaai%2Freka-edge"/>
+    <category term="model_added"/>
+    <category term="provider:rekaai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.1000/Mtok, context: 16384.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-05-27:model_added:rekaai%2Freka-flash-3</id>
+    <title>Added: rekaai/reka-flash-3</title>
+    <updated>2026-05-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://meni432.github.io/ModelGraveyard/model/rekaai%2Freka-flash-3"/>
+    <category term="model_added"/>
+    <category term="provider:rekaai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.1000/Mtok, context: 65536.</summary>
+  </entry>
+</feed>

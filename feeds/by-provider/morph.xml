@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ModelGraveyard — morph</title>
+  <id>https://meni432.github.io/ModelGraveyard/feeds/by-provider/morph.xml</id>
+  <link rel="self" href="https://meni432.github.io/ModelGraveyard/feeds/by-provider/morph.xml"/>
+  <link rel="alternate" href="https://meni432.github.io/ModelGraveyard"/>
+  <updated>2026-05-27T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-05-27:model_added:morph%2Fmorph-v3-large</id>
+    <title>Added: morph/morph-v3-large</title>
+    <updated>2026-05-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://meni432.github.io/ModelGraveyard/model/morph%2Fmorph-v3-large"/>
+    <category term="model_added"/>
+    <category term="provider:morph"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.9000/Mtok, context: 262144.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-05-27:model_added:morph%2Fmorph-v3-fast</id>
+    <title>Added: morph/morph-v3-fast</title>
+    <updated>2026-05-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://meni432.github.io/ModelGraveyard/model/morph%2Fmorph-v3-fast"/>
+    <category term="model_added"/>
+    <category term="provider:morph"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.8000/Mtok, context: 81920.</summary>
+  </entry>
+</feed>

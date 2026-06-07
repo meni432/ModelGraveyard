@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ModelGraveyard — arcee-ai</title>
+  <id>https://meni432.github.io/ModelGraveyard/feeds/by-provider/arcee-ai.xml</id>
+  <link rel="self" href="https://meni432.github.io/ModelGraveyard/feeds/by-provider/arcee-ai.xml"/>
+  <link rel="alternate" href="https://meni432.github.io/ModelGraveyard"/>
+  <updated>2026-05-27T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-05-27:model_added:arcee-ai%2Ftrinity-large-thinking</id>
+    <title>Added: arcee-ai/trinity-large-thinking</title>
+    <updated>2026-05-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://meni432.github.io/ModelGraveyard/model/arcee-ai%2Ftrinity-large-thinking"/>
+    <category term="model_added"/>
+    <category term="provider:arcee-ai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.2200/Mtok, context: 262144.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-05-27:model_added:arcee-ai%2Ftrinity-mini</id>
+    <title>Added: arcee-ai/trinity-mini</title>
+    <updated>2026-05-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://meni432.github.io/ModelGraveyard/model/arcee-ai%2Ftrinity-mini"/>
+    <category term="model_added"/>
+    <category term="provider:arcee-ai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0450/Mtok, context: 131072.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-05-27:model_added:arcee-ai%2Fspotlight</id>
+    <title>Added: arcee-ai/spotlight</title>
+    <updated>2026-05-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://meni432.github.io/ModelGraveyard/model/arcee-ai%2Fspotlight"/>
+    <category term="model_added"/>
+    <category term="provider:arcee-ai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.1800/Mtok, context: 131072.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-05-27:model_added:arcee-ai%2Fmaestro-reasoning</id>
+    <title>Added: arcee-ai/maestro-reasoning</title>
+    <updated>2026-05-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://meni432.github.io/ModelGraveyard/model/arcee-ai%2Fmaestro-reasoning"/>
+    <category term="model_added"/>
+    <category term="provider:arcee-ai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.9000/Mtok, context: 131072.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-05-27:model_added:arcee-ai%2Fvirtuoso-large</id>
+    <title>Added: arcee-ai/virtuoso-large</title>
+    <updated>2026-05-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://meni432.github.io/ModelGraveyard/model/arcee-ai%2Fvirtuoso-large"/>
+    <category term="model_added"/>
+    <category term="provider:arcee-ai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.7500/Mtok, context: 131072.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-05-27:model_added:arcee-ai%2Fcoder-large</id>
+    <title>Added: arcee-ai/coder-large</title>
+    <updated>2026-05-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://meni432.github.io/ModelGraveyard/model/arcee-ai%2Fcoder-large"/>
+    <category term="model_added"/>
+    <category term="provider:arcee-ai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.5000/Mtok, context: 32768.</summary>
+  </entry>
+</feed>

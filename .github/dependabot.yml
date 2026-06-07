@@ -1,0 +1,33 @@
+# Dependabot serves two purposes:
+#  1. Keeps npm and GitHub Actions dependencies up to date.
+#  2. Doubles as a heartbeat — its weekly PRs (when merged) count as repository
+#     activity, preventing the 60-day public-repo auto-disable on the
+#     fetch-openrouter cron. In practice the 6-hourly catalog fetches also keep
+#     activity fresh, but Dependabot covers any extended quiet stretches.
+
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /web
+    schedule:
+      interval: weekly
+    groups:
+      sveltekit:
+        patterns:
+          - "@sveltejs/*"
+          - "svelte"
+          - "svelte-check"
+      vite:
+        patterns:
+          - "vite"
+          - "@sveltejs/vite-plugin-svelte"
+      tailwind:
+        patterns:
+          - "tailwindcss"
+          - "postcss"
+          - "autoprefixer"
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly

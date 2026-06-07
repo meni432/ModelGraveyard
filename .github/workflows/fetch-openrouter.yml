@@ -1,0 +1,26 @@
+name: fetch-openrouter
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Fetch OpenRouter catalog
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://openrouter.ai/api/v1/models
+          downloaded_filename: data/raw/openrouter-models.json
+          postprocess: postprocess/process-openrouter.ts

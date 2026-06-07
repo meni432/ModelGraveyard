@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ModelGraveyard — bytedance-seed</title>
+  <id>https://meni432.github.io/ModelGraveyard/feeds/by-provider/bytedance-seed.xml</id>
+  <link rel="self" href="https://meni432.github.io/ModelGraveyard/feeds/by-provider/bytedance-seed.xml"/>
+  <link rel="alternate" href="https://meni432.github.io/ModelGraveyard"/>
+  <updated>2026-05-27T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-05-27:model_added:bytedance-seed%2Fseed-2.0-lite</id>
+    <title>Added: bytedance-seed/seed-2.0-lite</title>
+    <updated>2026-05-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://meni432.github.io/ModelGraveyard/model/bytedance-seed%2Fseed-2.0-lite"/>
+    <category term="model_added"/>
+    <category term="provider:bytedance-seed"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.2500/Mtok, context: 262144.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-05-27:model_added:bytedance-seed%2Fseed-2.0-mini</id>
+    <title>Added: bytedance-seed/seed-2.0-mini</title>
+    <updated>2026-05-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://meni432.github.io/ModelGraveyard/model/bytedance-seed%2Fseed-2.0-mini"/>
+    <category term="model_added"/>
+    <category term="provider:bytedance-seed"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.1000/Mtok, context: 262144.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-05-27:model_added:bytedance-seed%2Fseed-1.6-flash</id>
+    <title>Added: bytedance-seed/seed-1.6-flash</title>
+    <updated>2026-05-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://meni432.github.io/ModelGraveyard/model/bytedance-seed%2Fseed-1.6-flash"/>
+    <category term="model_added"/>
+    <category term="provider:bytedance-seed"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0750/Mtok, context: 262144.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-05-27:model_added:bytedance-seed%2Fseed-1.6</id>
+    <title>Added: bytedance-seed/seed-1.6</title>
+    <updated>2026-05-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://meni432.github.io/ModelGraveyard/model/bytedance-seed%2Fseed-1.6"/>
+    <category term="model_added"/>
+    <category term="provider:bytedance-seed"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.2500/Mtok, context: 262144.</summary>
+  </entry>
+</feed>

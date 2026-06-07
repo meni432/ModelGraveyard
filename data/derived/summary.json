@@ -1,0 +1,510 @@
+{
+  "generated_at": "2026-05-27",
+  "active_count": 356,
+  "dead_count": 0,
+  "last_event_ts": "2026-05-27",
+  "recent_events": [
+    {
+      "ts": "2026-05-27",
+      "type": "model_added",
+      "id": "openai/gpt-3.5-turbo",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-3.5-turbo",
+        "name": "OpenAI: GPT-3.5 Turbo",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.0000005",
+          "completion": "0.0000015",
+          "image": null,
+          "request": null
+        },
+        "context_length": 16385,
+        "max_completion_tokens": 4096,
+        "expiration_date": null,
+        "created": 1685232000,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-05-27"
+      }
+    },
+    {
+      "ts": "2026-05-27",
+      "type": "model_added",
+      "id": "openai/gpt-4",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-4",
+        "name": "OpenAI: GPT-4",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.00003",
+          "completion": "0.00006",
+          "image": null,
+          "request": null
+        },
+        "context_length": 8191,
+        "max_completion_tokens": 4096,
+        "expiration_date": null,
+        "created": 1685232000,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-05-27"
+      }
+    },
+    {
+      "ts": "2026-05-27",
+      "type": "model_added",
+      "id": "openai/gpt-4-0314",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-4-0314",
+        "name": "OpenAI: GPT-4 (older v0314)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.00003",
+          "completion": "0.00006",
+          "image": null,
+          "request": null
+        },
+        "context_length": 8191,
+        "max_completion_tokens": 4096,
+        "expiration_date": null,
+        "created": 1685232000,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-05-27"
+      }
+    },
+    {
+      "ts": "2026-05-27",
+      "type": "model_added",
+      "id": "gryphe/mythomax-l2-13b",
+      "provider": "gryphe",
+      "snapshot": {
+        "id": "gryphe/mythomax-l2-13b",
+        "name": "MythoMax 13B",
+        "provider": "gryphe",
+        "pricing": {
+          "prompt": "0.00000006",
+          "completion": "0.00000006",
+          "image": null,
+          "request": null
+        },
+        "context_length": 4096,
+        "max_completion_tokens": 4096,
+        "expiration_date": null,
+        "created": 1688256000,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-05-27"
+      }
+    },
+    {
+      "ts": "2026-05-27",
+      "type": "model_added",
+      "id": "undi95/remm-slerp-l2-13b",
+      "provider": "undi95",
+      "snapshot": {
+        "id": "undi95/remm-slerp-l2-13b",
+        "name": "ReMM SLERP 13B",
+        "provider": "undi95",
+        "pricing": {
+          "prompt": "0.00000045",
+          "completion": "0.00000065",
+          "image": null,
+          "request": null
+        },
+        "context_length": 6144,
+        "max_completion_tokens": 4096,
+        "expiration_date": null,
+        "created": 1689984000,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-05-27"
+      }
+    },
+    {
+      "ts": "2026-05-27",
+      "type": "model_added",
+      "id": "mancer/weaver",
+      "provider": "mancer",
+      "snapshot": {
+        "id": "mancer/weaver",
+        "name": "Mancer: Weaver (alpha)",
+        "provider": "mancer",
+        "pricing": {
+          "prompt": "0.00000075",
+          "completion": "0.000001",
+          "image": null,
+          "request": null
+        },
+        "context_length": 8000,
+        "max_completion_tokens": 2000,
+        "expiration_date": null,
+        "created": 1690934400,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-05-27"
+      }
+    },
+    {
+      "ts": "2026-05-27",
+      "type": "model_added",
+      "id": "openai/gpt-3.5-turbo-16k",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-3.5-turbo-16k",
+        "name": "OpenAI: GPT-3.5 Turbo 16k",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.000003",
+          "completion": "0.000004",
+          "image": null,
+          "request": null
+        },
+        "context_length": 16385,
+        "max_completion_tokens": 4096,
+        "expiration_date": null,
+        "created": 1693180800,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-05-27"
+      }
+    },
+    {
+      "ts": "2026-05-27",
+      "type": "model_added",
+      "id": "openai/gpt-3.5-turbo-instruct",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-3.5-turbo-instruct",
+        "name": "OpenAI: GPT-3.5 Turbo Instruct",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.0000015",
+          "completion": "0.000002",
+          "image": null,
+          "request": null
+        },
+        "context_length": 4095,
+        "max_completion_tokens": 4096,
+        "expiration_date": null,
+        "created": 1695859200,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-05-27"
+      }
+    },
+    {
+      "ts": "2026-05-27",
+      "type": "model_added",
+      "id": "mistralai/mistral-7b-instruct-v0.1",
+      "provider": "mistralai",
+      "snapshot": {
+        "id": "mistralai/mistral-7b-instruct-v0.1",
+        "name": "Mistral: Mistral 7B Instruct v0.1",
+        "provider": "mistralai",
+        "pricing": {
+          "prompt": "0.00000011",
+          "completion": "0.00000019",
+          "image": null,
+          "request": null
+        },
+        "context_length": 4096,
+        "max_completion_tokens": 2824,
+        "expiration_date": "2026-05-30",
+        "created": 1695859200,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-05-27"
+      }
+    },
+    {
+      "ts": "2026-05-27",
+      "type": "model_added",
+      "id": "openai/gpt-4-1106-preview",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-4-1106-preview",
+        "name": "OpenAI: GPT-4 Turbo (older v1106)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.00001",
+          "completion": "0.00003",
+          "image": null,
+          "request": null
+        },
+        "context_length": 128000,
+        "max_completion_tokens": 4096,
+        "expiration_date": null,
+        "created": 1699228800,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-05-27"
+      }
+    },
+    {
+      "ts": "2026-05-27",
+      "type": "model_added",
+      "id": "openrouter/auto",
+      "provider": "openrouter",
+      "snapshot": {
+        "id": "openrouter/auto",
+        "name": "Auto Router",
+        "provider": "openrouter",
+        "pricing": {
+          "prompt": "-1",
+          "completion": "-1",
+          "image": null,
+          "request": null
+        },
+        "context_length": 2000000,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1699401600,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-05-27"
+      }
+    },
+    {
+      "ts": "2026-05-27",
+      "type": "model_added",
+      "id": "openai/gpt-4-turbo-preview",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-4-turbo-preview",
+        "name": "OpenAI: GPT-4 Turbo Preview",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.00001",
+          "completion": "0.00003",
+          "image": null,
+          "request": null
+        },
+        "context_length": 128000,
+        "max_completion_tokens": 4096,
+        "expiration_date": null,
+        "created": 1706140800,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-05-27"
+      }
+    },
+    {
+      "ts": "2026-05-27",
+      "type": "model_added",
+      "id": "openai/gpt-3.5-turbo-0613",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-3.5-turbo-0613",
+        "name": "OpenAI: GPT-3.5 Turbo (older v0613)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.000001",
+          "completion": "0.000002",
+          "image": null,
+          "request": null
+        },
+        "context_length": 4095,
+        "max_completion_tokens": 4096,
+        "expiration_date": null,
+        "created": 1706140800,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-05-27"
+      }
+    },
+    {
+      "ts": "2026-05-27",
+      "type": "model_added",
+      "id": "mistralai/mistral-large",
+      "provider": "mistralai",
+      "snapshot": {
+        "id": "mistralai/mistral-large",
+        "name": "Mistral Large",
+        "provider": "mistralai",
+        "pricing": {
+          "prompt": "0.000002",
+          "completion": "0.000006",
+          "image": null,
+          "request": null
+        },
+        "context_length": 128000,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1708905600,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-05-27"
+      }
+    },
+    {
+      "ts": "2026-05-27",
+      "type": "model_added",
+      "id": "anthropic/claude-3-haiku",
+      "provider": "anthropic",
+      "snapshot": {
+        "id": "anthropic/claude-3-haiku",
+        "name": "Anthropic: Claude 3 Haiku",
+        "provider": "anthropic",
+        "pricing": {
+          "prompt": "0.00000025",
+          "completion": "0.00000125",
+          "image": null,
+          "request": null
+        },
+        "context_length": 200000,
+        "max_completion_tokens": 4096,
+        "expiration_date": null,
+        "created": 1710288000,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-05-27"
+      }
+    },
+    {
+      "ts": "2026-05-27",
+      "type": "model_added",
+      "id": "openai/gpt-4-turbo",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-4-turbo",
+        "name": "OpenAI: GPT-4 Turbo",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.00001",
+          "completion": "0.00003",
+          "image": null,
+          "request": null
+        },
+        "context_length": 128000,
+        "max_completion_tokens": 4096,
+        "expiration_date": null,
+        "created": 1712620800,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-05-27"
+      }
+    },
+    {
+      "ts": "2026-05-27",
+      "type": "model_added",
+      "id": "microsoft/wizardlm-2-8x22b",
+      "provider": "microsoft",
+      "snapshot": {
+        "id": "microsoft/wizardlm-2-8x22b",
+        "name": "WizardLM-2 8x22B",
+        "provider": "microsoft",
+        "pricing": {
+          "prompt": "0.00000062",
+          "completion": "0.00000062",
+          "image": null,
+          "request": null
+        },
+        "context_length": 65536,
+        "max_completion_tokens": 8000,
+        "expiration_date": null,
+        "created": 1713225600,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-05-27"
+      }
+    },
+    {
+      "ts": "2026-05-27",
+      "type": "model_added",
+      "id": "mistralai/mixtral-8x22b-instruct",
+      "provider": "mistralai",
+      "snapshot": {
+        "id": "mistralai/mixtral-8x22b-instruct",
+        "name": "Mistral: Mixtral 8x22B Instruct",
+        "provider": "mistralai",
+        "pricing": {
+          "prompt": "0.000002",
+          "completion": "0.000006",
+          "image": null,
+          "request": null
+        },
+        "context_length": 65536,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1713312000,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-05-27"
+      }
+    },
+    {
+      "ts": "2026-05-27",
+      "type": "model_added",
+      "id": "meta-llama/llama-3-8b-instruct",
+      "provider": "meta-llama",
+      "snapshot": {
+        "id": "meta-llama/llama-3-8b-instruct",
+        "name": "Meta: Llama 3 8B Instruct",
+        "provider": "meta-llama",
+        "pricing": {
+          "prompt": "0.00000004",
+          "completion": "0.00000004",
+          "image": null,
+          "request": null
+        },
+        "context_length": 8192,
+        "max_completion_tokens": 8192,
+        "expiration_date": null,
+        "created": 1713398400,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-05-27"
+      }
+    },
+    {
+      "ts": "2026-05-27",
+      "type": "model_added",
+      "id": "meta-llama/llama-3-70b-instruct",
+      "provider": "meta-llama",
+      "snapshot": {
+        "id": "meta-llama/llama-3-70b-instruct",
+        "name": "Meta: Llama 3 70B Instruct",
+        "provider": "meta-llama",
+        "pricing": {
+          "prompt": "0.00000051",
+          "completion": "0.00000074",
+          "image": null,
+          "request": null
+        },
+        "context_length": 8192,
+        "max_completion_tokens": 8000,
+        "expiration_date": null,
+        "created": 1713398400,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-05-27"
+      }
+    }
+  ],
+  "scheduled_funerals": [
+    {
+      "id": "baidu/qianfan-ocr-fast",
+      "provider": "baidu",
+      "expiration_date": "2026-05-28"
+    },
+    {
+      "id": "mistralai/mistral-7b-instruct-v0.1",
+      "provider": "mistralai",
+      "expiration_date": "2026-05-30"
+    },
+    {
+      "id": "google/gemini-2.0-flash-001",
+      "provider": "google",
+      "expiration_date": "2026-06-01"
+    },
+    {
+      "id": "google/gemini-2.0-flash-lite-001",
+      "provider": "google",
+      "expiration_date": "2026-06-01"
+    },
+    {
+      "id": "nousresearch/hermes-2-pro-llama-3-8b",
+      "provider": "nousresearch",
+      "expiration_date": "2026-06-05"
+    },
+    {
+      "id": "qwen/qwen3-30b-a3b",
+      "provider": "qwen",
+      "expiration_date": "2026-06-05"
+    },
+    {
+      "id": "sao10k/l3-euryale-70b",
+      "provider": "sao10k",
+      "expiration_date": "2026-06-05"
+    },
+    {
+      "id": "openai/gpt-5.2-chat",
+      "provider": "openai",
+      "expiration_date": "2026-08-10"
+    }
+  ]
+}

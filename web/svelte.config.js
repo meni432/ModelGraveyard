@@ -1,0 +1,29 @@
+import adapter from "@sveltejs/adapter-static";
+import { vitePreprocess } from "@sveltejs/vite-plugin-svelte";
+
+const dev = process.env.NODE_ENV !== "production";
+
+/** @type {import('@sveltejs/kit').Config} */
+const config = {
+  preprocess: vitePreprocess(),
+  kit: {
+    adapter: adapter({
+      pages: "../docs",
+      assets: "../docs",
+      fallback: "404.html",
+      precompress: false,
+      strict: false,
+    }),
+    paths: {
+      base: dev ? "" : "/ModelGraveyard",
+    },
+    prerender: {
+      handleHttpError: ({ path, message }) => {
+        if (path.startsWith("/model/")) return;
+        throw new Error(message);
+      },
+    },
+  },
+};
+
+export default config;
