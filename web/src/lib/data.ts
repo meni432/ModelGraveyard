@@ -4,6 +4,7 @@ import type {
   GraveyardFile,
   ModelsCurrentFile,
   SummaryFile,
+  CrossReferenceFile,
 } from "./types.ts";
 
 async function load<T>(fetchFn: typeof fetch, path: string): Promise<T> {
@@ -23,3 +24,6 @@ export const loadEvents = (f: typeof fetch) =>
 
 export const loadModels = (f: typeof fetch) =>
   load<ModelsCurrentFile>(f, "derived/models-current.json");
+
+export const loadCrossReference = (f: typeof fetch) =>
+  load<CrossReferenceFile>(f, "derived/cross-reference.json");

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>ModelGraveyard — microsoft</title>
-  <id>https://meni432.github.io/ModelGraveyard/feeds/by-provider/microsoft.xml</id>
-  <link rel="self" href="https://meni432.github.io/ModelGraveyard/feeds/by-provider/microsoft.xml"/>
-  <link rel="alternate" href="https://meni432.github.io/ModelGraveyard"/>
+  <id>https://modelgraveyard.com/feeds/by-provider/microsoft.xml</id>
+  <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/microsoft.xml"/>
+  <link rel="alternate" href="https://modelgraveyard.com"/>
   <updated>2026-05-27T00:00:00Z</updated>
   <entry>
     <id>tag:modelgraveyard,2026-05-27:model_added:microsoft%2Fphi-4-mini-instruct</id>
     <title>Added: microsoft/phi-4-mini-instruct</title>
     <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://meni432.github.io/ModelGraveyard/model/microsoft%2Fphi-4-mini-instruct"/>
+    <link rel="alternate" href="https://modelgraveyard.com/model/microsoft%2Fphi-4-mini-instruct"/>
     <category term="model_added"/>
     <category term="provider:microsoft"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.0800/Mtok, context: 131072.</summary>
@@ -18,7 +18,7 @@
     <id>tag:modelgraveyard,2026-05-27:model_added:microsoft%2Fphi-4</id>
     <title>Added: microsoft/phi-4</title>
     <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://meni432.github.io/ModelGraveyard/model/microsoft%2Fphi-4"/>
+    <link rel="alternate" href="https://modelgraveyard.com/model/microsoft%2Fphi-4"/>
     <category term="model_added"/>
     <category term="provider:microsoft"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.0650/Mtok, context: 16384.</summary>
@@ -27,7 +27,7 @@
     <id>tag:modelgraveyard,2026-05-27:model_added:microsoft%2Fwizardlm-2-8x22b</id>
     <title>Added: microsoft/wizardlm-2-8x22b</title>
     <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://meni432.github.io/ModelGraveyard/model/microsoft%2Fwizardlm-2-8x22b"/>
+    <link rel="alternate" href="https://modelgraveyard.com/model/microsoft%2Fwizardlm-2-8x22b"/>
     <category term="model_added"/>
     <category term="provider:microsoft"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.6200/Mtok, context: 65536.</summary>

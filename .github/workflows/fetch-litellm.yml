@@ -1,0 +1,30 @@
+name: fetch-litellm
+
+# LiteLLM's catalog moves more slowly than OpenRouter's, but the cross-
+# reference signal (model gone from OR while still in LiteLLM) is the
+# headline feature. Daily is plenty.
+
+on:
+  schedule:
+    - cron: "23 5 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Fetch LiteLLM catalog
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json
+          downloaded_filename: data/raw/litellm-prices.json
+          postprocess: postprocess/process-litellm.ts

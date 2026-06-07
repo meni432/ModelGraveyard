@@ -1,33 +1,20 @@
 import { error } from "@sveltejs/kit";
-import { loadModels, loadEvents, loadGraveyard } from "$lib/data.ts";
-import type { PageLoad, EntryGenerator } from "./$types.js";
+import {
+  loadModels,
+  loadEvents,
+  loadGraveyard,
+  loadCrossReference,
+} from "$lib/data.ts";
+import type { PageLoad } from "./$types.js";
 
 export const prerender = true;
 
-export const entries: EntryGenerator = async () => {
-  // Build from data/derived/models-current.json + graveyard.json at build time.
-  const base = process.env.NODE_ENV === "production" ? "/ModelGraveyard" : "";
-  const root = process.cwd();
-  const fs = await import("node:fs/promises");
-  const path = await import("node:path");
-
-  const [modelsText, graveyardText] = await Promise.all([
-    fs.readFile(path.join(root, "static/data/derived/models-current.json"), "utf8"),
-    fs.readFile(path.join(root, "static/data/derived/graveyard.json"), "utf8"),
-  ]);
-  const models = JSON.parse(modelsText) as { models: Array<{ id: string }> };
-  const graveyard = JSON.parse(graveyardText) as { buried: Array<{ id: string }> };
-  const all = new Set<string>();
-  for (const m of models.models) all.add(m.id);
-  for (const g of graveyard.buried) all.add(g.id);
-  return [...all].map((id) => ({ id }));
-};
-
 export const load: PageLoad = async ({ fetch, params }) => {
-  const [models, events, graveyard] = await Promise.all([
+  const [models, events, graveyard, crossRef] = await Promise.all([
     loadModels(fetch),
     loadEvents(fetch),
     loadGraveyard(fetch),
+    loadCrossReference(fetch).catch(() => null),
   ]);
   const active = models.models.find((m) => m.id === params.id);
   const buried = graveyard.buried.find((g) => g.id === params.id);
@@ -37,5 +24,13 @@ export const load: PageLoad = async ({ fetch, params }) => {
   const history = events.events
     .filter((e) => e.id === params.id)
     .sort((a, b) => a.ts.localeCompare(b.ts));
-  return { id: params.id, active, buried, history };
+
+  // Cross-source status. params.id is the OpenRouter id; look up the matching
+  // pairing or disagreement so the page can show "also in LiteLLM as X" or
+  // "DISAGREEMENT: removed from OR but still in LiteLLM."
+  const pairing = crossRef?.pairings.find((p) => p.openrouter_id === params.id) ?? null;
+  const disagreement =
+    crossRef?.disagreements.find((d) => d.openrouter_id === params.id) ?? null;
+
+  return { id: params.id, active, buried, history, pairing, disagreement };
 };

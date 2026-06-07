@@ -12,6 +12,8 @@
   const active = $derived(data.active);
   const buried = $derived(data.buried);
   const history = $derived(data.history);
+  const pairing = $derived(data.pairing);
+  const disagreement = $derived(data.disagreement);
   const isDead = $derived(!!buried && !active);
   const displayName = $derived(active?.name ?? buried?.name ?? id);
 
@@ -143,6 +145,52 @@
     </h1>
     <p class="font-mono text-tomb-500 mt-1">{id}</p>
   </header>
+
+  {#if disagreement}
+    <section
+      class="mb-6 rounded-lg border-2 border-rose-400 bg-rose-50 p-4 sm:p-5"
+      aria-label="Catalog disagreement"
+    >
+      <div class="flex items-center gap-2 mb-2">
+        <span class="pill bg-rose-600 text-rose-50">catalog disagreement</span>
+        <span class="text-xs font-mono text-rose-700">
+          first noticed {disagreement.noted_at}
+        </span>
+      </div>
+      <p class="text-sm text-rose-900 leading-relaxed">
+        OpenRouter removed this model on
+        <span class="font-mono">{disagreement.openrouter_removed_at}</span>, but
+        LiteLLM still lists it as
+        <code class="font-mono text-xs bg-rose-100 px-1.5 py-0.5 rounded"
+          >{disagreement.litellm_id}</code
+        >. This is the exact pattern that
+        <a
+          href="https://github.com/BerriAI/litellm/issues/20521"
+          target="_blank"
+          rel="noopener"
+          class="underline font-semibold">litellm #20521</a
+        > describes — a model that production apps may still try to call even
+        though the upstream gateway no longer serves it.
+      </p>
+    </section>
+  {:else if pairing}
+    <section
+      class="mb-6 rounded-md border border-tomb-200 bg-tomb-50 px-4 py-3 text-sm"
+      aria-label="Cross-source pairing"
+    >
+      <span class="font-mono text-xs text-tomb-500 mr-2">also tracked in</span>
+      <a
+        href="https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json"
+        target="_blank"
+        rel="noopener"
+        class="font-mono text-moss-600 hover:underline">LiteLLM</a
+      >
+      <span class="text-tomb-500"> as </span>
+      <code class="font-mono text-xs bg-white border border-tomb-200 px-1.5 py-0.5 rounded"
+        >{pairing.litellm_id}</code
+      >
+    </section>
+  {/if}
 
   <section class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8 text-center font-mono text-sm">
     <div class="rounded border border-tomb-200 bg-white py-3">

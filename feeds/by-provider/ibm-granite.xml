@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>ModelGraveyard — ibm-granite</title>
-  <id>https://meni432.github.io/ModelGraveyard/feeds/by-provider/ibm-granite.xml</id>
-  <link rel="self" href="https://meni432.github.io/ModelGraveyard/feeds/by-provider/ibm-granite.xml"/>
-  <link rel="alternate" href="https://meni432.github.io/ModelGraveyard"/>
+  <id>https://modelgraveyard.com/feeds/by-provider/ibm-granite.xml</id>
+  <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/ibm-granite.xml"/>
+  <link rel="alternate" href="https://modelgraveyard.com"/>
   <updated>2026-05-27T00:00:00Z</updated>
   <entry>
     <id>tag:modelgraveyard,2026-05-27:model_added:ibm-granite%2Fgranite-4.1-8b</id>
     <title>Added: ibm-granite/granite-4.1-8b</title>
     <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://meni432.github.io/ModelGraveyard/model/ibm-granite%2Fgranite-4.1-8b"/>
+    <link rel="alternate" href="https://modelgraveyard.com/model/ibm-granite%2Fgranite-4.1-8b"/>
     <category term="model_added"/>
     <category term="provider:ibm-granite"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.0500/Mtok, context: 131072.</summary>
@@ -18,7 +18,7 @@
     <id>tag:modelgraveyard,2026-05-27:model_added:ibm-granite%2Fgranite-4.0-h-micro</id>
     <title>Added: ibm-granite/granite-4.0-h-micro</title>
     <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://meni432.github.io/ModelGraveyard/model/ibm-granite%2Fgranite-4.0-h-micro"/>
+    <link rel="alternate" href="https://modelgraveyard.com/model/ibm-granite%2Fgranite-4.0-h-micro"/>
     <category term="model_added"/>
     <category term="provider:ibm-granite"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.0170/Mtok, context: 131000.</summary>

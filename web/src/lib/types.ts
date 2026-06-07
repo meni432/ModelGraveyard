@@ -25,7 +25,8 @@ export type EventType =
   | "model_removed"
   | "price_changed"
   | "context_changed"
-  | "deprecation_announced";
+  | "deprecation_announced"
+  | "disagreement_detected";
 
 export interface PriceChange {
   field: keyof Pricing;
@@ -45,6 +46,36 @@ export interface Event {
   next_context?: number | null;
   prev_expiration?: string | null;
   next_expiration?: string | null;
+  // disagreement_detected
+  disagreement?: {
+    slug: string;
+    openrouter_status: "active" | "removed" | "absent";
+    litellm_status: "active" | "absent";
+    litellm_id: string | null;
+  };
+}
+
+export interface DisagreementEntry {
+  slug: string;
+  openrouter_status: "active" | "removed" | "absent";
+  openrouter_id: string | null;
+  openrouter_removed_at: string | null;
+  litellm_status: "active" | "absent";
+  litellm_id: string | null;
+  litellm_deprecation_date: string | null;
+  severity: "high" | "medium" | "low";
+  noted_at: string;
+}
+
+export interface CrossReferenceFile {
+  generated_at: string;
+  openrouter_catalog_size: number;
+  litellm_catalog_size: number;
+  shared_count: number;
+  openrouter_only_count: number;
+  litellm_only_count: number;
+  disagreements: DisagreementEntry[];
+  pairings: Array<{ slug: string; openrouter_id: string; litellm_id: string }>;
 }
 
 export interface GraveyardEntry {

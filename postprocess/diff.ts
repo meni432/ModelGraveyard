@@ -5,7 +5,8 @@ export type EventType =
   | "model_removed"
   | "price_changed"
   | "context_changed"
-  | "deprecation_announced";
+  | "deprecation_announced"
+  | "disagreement_detected";
 
 export interface PriceChange {
   field: keyof Pricing;
@@ -29,6 +30,13 @@ export interface Event {
   // deprecation_announced
   prev_expiration?: string | null;
   next_expiration?: string | null;
+  // disagreement_detected
+  disagreement?: {
+    slug: string;
+    openrouter_status: "active" | "removed" | "absent";
+    litellm_status: "active" | "absent";
+    litellm_id: string | null;
+  };
 }
 
 export interface GraveyardEntry {

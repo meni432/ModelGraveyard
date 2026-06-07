@@ -15,6 +15,7 @@ const TYPE_LABELS: Record<string, string> = {
   price_changed: "price changes",
   context_changed: "context changes",
   deprecation_announced: "deprecations",
+  disagreement_detected: "catalog disagreements",
 };
 
 const esc = (s: string): string =>
@@ -54,6 +55,8 @@ function title(ev: Event): string {
       return `Context window changed: ${ev.id}`;
     case "deprecation_announced":
       return `Deprecation announced: ${ev.id} (sunset ${ev.next_expiration})`;
+    case "disagreement_detected":
+      return `Catalog disagreement: ${ev.id}`;
   }
 }
 
@@ -69,6 +72,8 @@ function summary(ev: Event): string {
       return `${ev.prev_context ?? "?"} → ${ev.next_context ?? "?"} tokens`;
     case "deprecation_announced":
       return `Provider announced retirement on ${ev.next_expiration}.`;
+    case "disagreement_detected":
+      return `OpenRouter says ${ev.disagreement?.openrouter_status}; LiteLLM still lists it as ${ev.disagreement?.litellm_id ?? "active"}.`;
   }
 }
 

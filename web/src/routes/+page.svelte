@@ -9,9 +9,11 @@
   let { data } = $props();
   const summary = $derived(data.summary);
   const graveyard = $derived(data.graveyard);
+  const crossRef = $derived(data.crossRef);
 
   const recentBurials = $derived(graveyard.buried.slice(0, 6));
   const upcoming = $derived(summary.scheduled_funerals.slice(0, 8));
+  const disagreements = $derived(crossRef?.disagreements ?? []);
 
   const m = meta({
     path: "/",
@@ -114,6 +116,61 @@
     <div class="text-xs text-tomb-500 mt-1">recent events</div>
   </div>
 </section>
+
+{#if crossRef}
+  <section class="mb-12">
+    <div class="flex items-baseline justify-between mb-3">
+      <h2 class="font-serif text-2xl font-bold">Catalog cross-reference</h2>
+      <a href="{base}/about" class="text-xs font-mono text-tomb-500 hover:text-tomb-900 underline"
+        >how this works</a
+      >
+    </div>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 text-center font-mono">
+      <div class="rounded-lg border border-tomb-200 bg-white py-3">
+        <div class="text-2xl font-bold">{crossRef.openrouter_catalog_size}</div>
+        <div class="text-xs text-tomb-500 mt-1">in OpenRouter</div>
+      </div>
+      <div class="rounded-lg border border-tomb-200 bg-white py-3">
+        <div class="text-2xl font-bold">{crossRef.litellm_catalog_size}</div>
+        <div class="text-xs text-tomb-500 mt-1">in LiteLLM</div>
+      </div>
+      <div class="rounded-lg border border-tomb-200 bg-white py-3">
+        <div class="text-2xl font-bold">{crossRef.shared_count}</div>
+        <div class="text-xs text-tomb-500 mt-1">cross-paired</div>
+      </div>
+      <div
+        class="rounded-lg border bg-white py-3 {disagreements.length > 0
+          ? 'border-rose-400'
+          : 'border-tomb-200'}"
+      >
+        <div
+          class="text-2xl font-bold {disagreements.length > 0 ? 'text-rose-700' : ''}"
+        >
+          {disagreements.length}
+        </div>
+        <div class="text-xs text-tomb-500 mt-1">disagreements</div>
+      </div>
+    </div>
+    {#if disagreements.length > 0}
+      <ul class="mt-4 divide-y divide-rose-200 border border-rose-300 bg-rose-50/40 rounded-lg">
+        {#each disagreements.slice(0, 5) as d}
+          <li class="px-4 py-2 flex items-center gap-3 text-sm">
+            <span class="pill bg-rose-600 text-rose-50 text-[10px] py-px">disagreement</span>
+            <a
+              href="{base}/model/{d.openrouter_id}"
+              class="font-mono hover:underline truncate flex-1"
+            >
+              {d.openrouter_id}
+            </a>
+            <span class="text-xs text-rose-700 hidden sm:inline">
+              OR removed {d.openrouter_removed_at} · still in LiteLLM
+            </span>
+          </li>
+        {/each}
+      </ul>
+    {/if}
+  </section>
+{/if}
 
 {#if recentBurials.length > 0}
   <section class="mb-12">

@@ -135,12 +135,13 @@
       <li>
         Per-event-type feeds for narrower subscriptions:
         <a class="moss" href="/feeds/by-type/model_removed.xml">removals</a>,
+        <a class="moss" href="/feeds/by-type/disagreement_detected.xml">catalog disagreements</a>,
         <a class="moss" href="/feeds/by-type/deprecation_announced.xml">deprecations</a>,
         <a class="moss" href="/feeds/by-type/price_changed.xml">price changes</a>,
         <a class="moss" href="/feeds/by-type/context_changed.xml">context changes</a>,
         <a class="moss" href="/feeds/by-type/model_added.xml">additions</a>.
-        The <em>removals</em> feed is the most-subscribed slice — it maps directly
-        to the production-app outage signal.
+        The <em>removals</em> and <em>disagreements</em> feeds are the most-subscribed
+        slices — both map directly to production-app outage signals.
       </li>
       <li>
         Per-provider feeds under
@@ -186,6 +187,42 @@
   </section>
 
   <section class="mb-10">
+    <h2 class="font-serif text-2xl font-bold mb-3">Catalog cross-reference</h2>
+    <p class="mb-3">
+      Alongside OpenRouter, a daily fetch pulls
+      <a
+        class="moss"
+        href="https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json"
+        target="_blank"
+        rel="noopener">LiteLLM's <code>model_prices_and_context_window.json</code></a
+      > — the other widely-used model registry. A canonicalization step strips
+      provider prefixes, date stamps (e.g.
+      <code class="font-mono text-xs bg-tomb-100 px-1 rounded">-20240620</code>),
+      and routing namespaces (e.g.
+      <code class="font-mono text-xs bg-tomb-100 px-1 rounded">bedrock/anthropic.</code>)
+      so the same underlying model collapses to a shared canonical slug across
+      both sources.
+    </p>
+    <p class="mb-3">
+      When a model is <strong>removed from OpenRouter but still listed by LiteLLM</strong>,
+      the system emits a high-severity <code class="font-mono text-xs bg-tomb-100 px-1 rounded">disagreement_detected</code>
+      event. That is the exact pattern issue #20521 describes — a model that
+      production apps may still try to call because their pricing JSON still
+      lists it, even though the upstream gateway no longer serves it.
+    </p>
+    <p>
+      The cross-reference snapshot is published at
+      <a
+        class="moss"
+        href="https://github.com/meni432/ModelGraveyard/blob/main/data/derived/cross-reference.json"
+        target="_blank"
+        rel="noopener"><code>data/derived/cross-reference.json</code></a
+      >, and disagreements feed into the
+      <a class="moss" href="/feeds/by-type/disagreement_detected.xml">RSS feed</a>.
+    </p>
+  </section>
+
+  <section class="mb-10">
     <h2 class="font-serif text-2xl font-bold mb-3">Methodology</h2>
     <p class="mb-3">
       A scheduled GitHub Action runs every 6 hours, fetches OpenRouter's catalog via the
@@ -199,8 +236,9 @@
       last committed state. Each typed event lands in
       <code class="font-mono text-sm bg-tomb-100 px-1 rounded">data/derived/events.json</code>;
       removed models also get a graveyard entry with a heuristic survivor suggestion
-      (closest same-provider context window). The SvelteKit site is rebuilt and
-      redeployed to GitHub Pages whenever derived data changes.
+      (closest same-provider context window). A second daily workflow does the same
+      for LiteLLM, then cross-references the two catalogs. The SvelteKit site is
+      rebuilt and redeployed to GitHub Pages whenever derived data changes.
     </p>
     <p>
       Everything is in

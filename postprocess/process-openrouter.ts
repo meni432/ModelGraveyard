@@ -9,6 +9,7 @@ import {
 } from "./normalize.ts";
 import { diffSnapshots, type Event, type GraveyardEntry } from "./diff.ts";
 import { writeFeeds } from "./build-feeds.ts";
+import { runCrossReference } from "./run-cross-reference.ts";
 
 const RAW_PATH = "data/raw/openrouter-models.json";
 const CURRENT_PATH = "data/derived/models-current.json";
@@ -142,7 +143,13 @@ export async function run(now: string = today()): Promise<void> {
     scheduled_funerals: scheduled,
   } satisfies SummaryFile);
 
-  await writeFeeds(eventsFile.events);
+  // Cross-reference against the latest LiteLLM snapshot (if any) and emit
+  // any newly-detected disagreement events. Done before writeFeeds so the
+  // new events flow into the Atom feeds on this run.
+  await runCrossReference(now);
+
+  const eventsAfter = await readJson<EventsFile>(EVENTS_PATH, { events: [] });
+  await writeFeeds(eventsAfter.events);
 
   console.log(
     `processed: +${events.filter((e) => e.type === "model_added").length} added · ` +
