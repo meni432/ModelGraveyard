@@ -290,6 +290,23 @@
       "suggested_replacement": "mistralai/ministral-3b-2512"
     },
     {
+      "id": "nex-agi/deepseek-v3.1-nex-n1",
+      "name": "Nex AGI: DeepSeek V3.1 Nex N1",
+      "provider": "nex-agi",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.000000135",
+        "completion": "0.0000005",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 131072,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-06-08",
+      "buried_at": "2026-06-08",
+      "suggested_replacement": null
+    },
+    {
       "id": "nousresearch/hermes-2-pro-llama-3-8b",
       "name": "NousResearch: Hermes 2 Pro - Llama-3 8B",
       "provider": "nousresearch",

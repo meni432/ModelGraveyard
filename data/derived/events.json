@@ -9528,6 +9528,29 @@
           "pct_change": -0.29
         }
       ]
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "model_removed",
+      "id": "nex-agi/deepseek-v3.1-nex-n1",
+      "provider": "nex-agi",
+      "snapshot": {
+        "id": "nex-agi/deepseek-v3.1-nex-n1",
+        "name": "Nex AGI: DeepSeek V3.1 Nex N1",
+        "provider": "nex-agi",
+        "pricing": {
+          "prompt": "0.000000135",
+          "completion": "0.0000005",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": 163840,
+        "expiration_date": "2026-06-08",
+        "created": 1765204393,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-08"
+      }
     }
   ]
 }

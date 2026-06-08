@@ -645,6 +645,15 @@
     <summary>prompt: $0.6840/Mtok → $0.6800/Mtok (-0.58%); completion: $3.4200/Mtok → $3.4100/Mtok (-0.29%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-06-08:model_removed:nex-agi%2Fdeepseek-v3.1-nex-n1</id>
+    <title>Removed: nex-agi/deepseek-v3.1-nex-n1</title>
+    <updated>2026-06-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nex-agi%2Fdeepseek-v3.1-nex-n1"/>
+    <category term="model_removed"/>
+    <category term="provider:nex-agi"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1350/Mtok.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-05-27:model_added:qwen%2Fqwen3.7-max</id>
     <title>Added: qwen/qwen3.7-max</title>
     <updated>2026-05-27T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="model_added"/>
     <category term="provider:openai"/>
     <summary>New model on OpenRouter. Initial prompt price: $30.0000/Mtok, context: 1050000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:openai%2Fgpt-5.5</id>
-    <title>Added: openai/gpt-5.5</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5.5"/>
-    <category term="model_added"/>
-    <category term="provider:openai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $5.0000/Mtok, context: 1050000.</summary>
   </entry>
 </feed>

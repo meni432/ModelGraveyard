@@ -1,9 +1,32 @@
 {
   "generated_at": "2026-06-08",
-  "active_count": 341,
-  "dead_count": 24,
+  "active_count": 340,
+  "dead_count": 25,
   "last_event_ts": "2026-06-08",
   "recent_events": [
+    {
+      "ts": "2026-06-08",
+      "type": "model_removed",
+      "id": "nex-agi/deepseek-v3.1-nex-n1",
+      "provider": "nex-agi",
+      "snapshot": {
+        "id": "nex-agi/deepseek-v3.1-nex-n1",
+        "name": "Nex AGI: DeepSeek V3.1 Nex N1",
+        "provider": "nex-agi",
+        "pricing": {
+          "prompt": "0.000000135",
+          "completion": "0.0000005",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": 163840,
+        "expiration_date": "2026-06-08",
+        "created": 1765204393,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-08"
+      }
+    },
     {
       "ts": "2026-06-08",
       "type": "price_changed",
@@ -379,37 +402,9 @@
         "first_seen": "2026-05-27",
         "last_seen": "2026-06-07"
       }
-    },
-    {
-      "ts": "2026-06-08",
-      "type": "model_removed",
-      "id": "minimax/minimax-m2.5:free",
-      "provider": "minimax",
-      "snapshot": {
-        "id": "minimax/minimax-m2.5:free",
-        "name": "MiniMax: MiniMax M2.5 (free)",
-        "provider": "minimax",
-        "pricing": {
-          "prompt": "0",
-          "completion": "0",
-          "image": null,
-          "request": null
-        },
-        "context_length": 204800,
-        "max_completion_tokens": 8192,
-        "expiration_date": null,
-        "created": 1770908502,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-06-07"
-      }
     }
   ],
   "scheduled_funerals": [
-    {
-      "id": "nex-agi/deepseek-v3.1-nex-n1",
-      "provider": "nex-agi",
-      "expiration_date": "2026-06-08"
-    },
     {
       "id": "deepseek/deepseek-r1-distill-llama-70b",
       "provider": "deepseek",
