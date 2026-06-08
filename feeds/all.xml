@@ -654,6 +654,15 @@
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1350/Mtok.</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-06-08:model_added:nex-agi%2Fnex-n2-pro%3Afree</id>
+    <title>Added: nex-agi/nex-n2-pro:free</title>
+    <updated>2026-06-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nex-agi%2Fnex-n2-pro%3Afree"/>
+    <category term="model_added"/>
+    <category term="provider:nex-agi"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 262144.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-05-27:model_added:qwen%2Fqwen3.7-max</id>
     <title>Added: qwen/qwen3.7-max</title>
     <updated>2026-05-27T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="model_added"/>
     <category term="provider:qwen"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.2900/Mtok, context: 262144.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:openai%2Fgpt-5.5-pro</id>
-    <title>Added: openai/gpt-5.5-pro</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5.5-pro"/>
-    <category term="model_added"/>
-    <category term="provider:openai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $30.0000/Mtok, context: 1050000.</summary>
   </entry>
 </feed>

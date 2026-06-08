@@ -1,9 +1,32 @@
 {
   "generated_at": "2026-06-08",
-  "active_count": 340,
+  "active_count": 341,
   "dead_count": 25,
   "last_event_ts": "2026-06-08",
   "recent_events": [
+    {
+      "ts": "2026-06-08",
+      "type": "model_added",
+      "id": "nex-agi/nex-n2-pro:free",
+      "provider": "nex-agi",
+      "snapshot": {
+        "id": "nex-agi/nex-n2-pro:free",
+        "name": "Nex AGI: Nex-N2-Pro (free)",
+        "provider": "nex-agi",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 262144,
+        "expiration_date": null,
+        "created": 1780937140,
+        "first_seen": "2026-06-08",
+        "last_seen": "2026-06-08"
+      }
+    },
     {
       "ts": "2026-06-08",
       "type": "model_removed",
@@ -376,29 +399,6 @@
         "max_completion_tokens": null,
         "expiration_date": null,
         "created": 1752160751,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-06-07"
-      }
-    },
-    {
-      "ts": "2026-06-08",
-      "type": "model_removed",
-      "id": "mistralai/devstral-medium",
-      "provider": "mistralai",
-      "snapshot": {
-        "id": "mistralai/devstral-medium",
-        "name": "Mistral: Devstral Medium",
-        "provider": "mistralai",
-        "pricing": {
-          "prompt": "0.0000004",
-          "completion": "0.000002",
-          "image": null,
-          "request": null
-        },
-        "context_length": 131072,
-        "max_completion_tokens": null,
-        "expiration_date": null,
-        "created": 1752161321,
         "first_seen": "2026-05-27",
         "last_seen": "2026-06-07"
       }

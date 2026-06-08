@@ -9551,6 +9551,29 @@
         "first_seen": "2026-05-27",
         "last_seen": "2026-06-08"
       }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "model_added",
+      "id": "nex-agi/nex-n2-pro:free",
+      "provider": "nex-agi",
+      "snapshot": {
+        "id": "nex-agi/nex-n2-pro:free",
+        "name": "Nex AGI: Nex-N2-Pro (free)",
+        "provider": "nex-agi",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 262144,
+        "expiration_date": null,
+        "created": 1780937140,
+        "first_seen": "2026-06-08",
+        "last_seen": "2026-06-08"
+      }
     }
   ]
 }
