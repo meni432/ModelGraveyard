@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-provider/z-ai.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/z-ai.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-05-27T00:00:00Z</updated>
+  <updated>2026-06-08T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-08:deprecation_announced:z-ai%2Fglm-4.5</id>
+    <title>Deprecation announced: z-ai/glm-4.5 (sunset 2026-06-19)</title>
+    <updated>2026-06-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-4.5"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:z-ai"/>
+    <summary>Provider announced retirement on 2026-06-19.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-08:price_changed:z-ai%2Fglm-4.5-air</id>
+    <title>Price changed: z-ai/glm-4.5-air</title>
+    <updated>2026-06-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-4.5-air"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>completion: $0.8400/Mtok → $0.8500/Mtok (+1.19%)</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-05-27:model_added:z-ai%2Fglm-5.1</id>
     <title>Added: z-ai/glm-5.1</title>

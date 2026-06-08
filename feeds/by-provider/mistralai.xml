@@ -4,7 +4,52 @@
   <id>https://modelgraveyard.com/feeds/by-provider/mistralai.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/mistralai.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-05-27T00:00:00Z</updated>
+  <updated>2026-06-08T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-08:model_removed:mistralai%2Fdevstral-medium</id>
+    <title>Removed: mistralai/devstral-medium</title>
+    <updated>2026-06-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/mistralai%2Fdevstral-medium"/>
+    <category term="model_removed"/>
+    <category term="provider:mistralai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.4000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-08:model_removed:mistralai%2Fdevstral-small</id>
+    <title>Removed: mistralai/devstral-small</title>
+    <updated>2026-06-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/mistralai%2Fdevstral-small"/>
+    <category term="model_removed"/>
+    <category term="provider:mistralai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-08:model_removed:mistralai%2Fmistral-7b-instruct-v0.1</id>
+    <title>Removed: mistralai/mistral-7b-instruct-v0.1</title>
+    <updated>2026-06-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/mistralai%2Fmistral-7b-instruct-v0.1"/>
+    <category term="model_removed"/>
+    <category term="provider:mistralai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1100/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-08:model_removed:mistralai%2Fmistral-large-2411</id>
+    <title>Removed: mistralai/mistral-large-2411</title>
+    <updated>2026-06-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/mistralai%2Fmistral-large-2411"/>
+    <category term="model_removed"/>
+    <category term="provider:mistralai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $2.0000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-08:model_removed:mistralai%2Fpixtral-large-2411</id>
+    <title>Removed: mistralai/pixtral-large-2411</title>
+    <updated>2026-06-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/mistralai%2Fpixtral-large-2411"/>
+    <category term="model_removed"/>
+    <category term="provider:mistralai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $2.0000/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-05-27:model_added:mistralai%2Fmistral-medium-3-5</id>
     <title>Added: mistralai/mistral-medium-3-5</title>

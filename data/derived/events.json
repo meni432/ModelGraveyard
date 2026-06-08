@@ -8187,6 +8187,1307 @@
         "first_seen": "2026-05-27",
         "last_seen": "2026-05-27"
       }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "model_added",
+      "id": "nvidia/nemotron-3.5-content-safety:free",
+      "provider": "nvidia",
+      "snapshot": {
+        "id": "nvidia/nemotron-3.5-content-safety:free",
+        "name": "NVIDIA: Nemotron 3.5 Content Safety (free)",
+        "provider": "nvidia",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 128000,
+        "max_completion_tokens": 8192,
+        "expiration_date": null,
+        "created": 1780581864,
+        "first_seen": "2026-06-08",
+        "last_seen": "2026-06-08"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "model_added",
+      "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "provider": "nvidia",
+      "snapshot": {
+        "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "name": "NVIDIA: Nemotron 3 Ultra (free)",
+        "provider": "nvidia",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1000000,
+        "max_completion_tokens": 65536,
+        "expiration_date": null,
+        "created": 1780551208,
+        "first_seen": "2026-06-08",
+        "last_seen": "2026-06-08"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "model_added",
+      "id": "nvidia/nemotron-3-ultra-550b-a55b",
+      "provider": "nvidia",
+      "snapshot": {
+        "id": "nvidia/nemotron-3-ultra-550b-a55b",
+        "name": "NVIDIA: Nemotron 3 Ultra",
+        "provider": "nvidia",
+        "pricing": {
+          "prompt": "0.0000005",
+          "completion": "0.0000025",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1000000,
+        "max_completion_tokens": 16384,
+        "expiration_date": null,
+        "created": 1780551208,
+        "first_seen": "2026-06-08",
+        "last_seen": "2026-06-08"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "model_added",
+      "id": "qwen/qwen3.7-plus",
+      "provider": "qwen",
+      "snapshot": {
+        "id": "qwen/qwen3.7-plus",
+        "name": "Qwen: Qwen3.7 Plus",
+        "provider": "qwen",
+        "pricing": {
+          "prompt": "0.0000004",
+          "completion": "0.0000016",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1000000,
+        "max_completion_tokens": 65536,
+        "expiration_date": null,
+        "created": 1780491783,
+        "first_seen": "2026-06-08",
+        "last_seen": "2026-06-08"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "model_added",
+      "id": "minimax/minimax-m3",
+      "provider": "minimax",
+      "snapshot": {
+        "id": "minimax/minimax-m3",
+        "name": "MiniMax: MiniMax M3",
+        "provider": "minimax",
+        "pricing": {
+          "prompt": "0.0000003",
+          "completion": "0.0000012",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": 512000,
+        "expiration_date": null,
+        "created": 1780245374,
+        "first_seen": "2026-06-08",
+        "last_seen": "2026-06-08"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "model_added",
+      "id": "stepfun/step-3.7-flash",
+      "provider": "stepfun",
+      "snapshot": {
+        "id": "stepfun/step-3.7-flash",
+        "name": "StepFun: Step 3.7 Flash",
+        "provider": "stepfun",
+        "pricing": {
+          "prompt": "0.0000002",
+          "completion": "0.00000115",
+          "image": null,
+          "request": null
+        },
+        "context_length": 256000,
+        "max_completion_tokens": 256000,
+        "expiration_date": null,
+        "created": 1779985069,
+        "first_seen": "2026-06-08",
+        "last_seen": "2026-06-08"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "model_added",
+      "id": "anthropic/claude-opus-4.8-fast",
+      "provider": "anthropic",
+      "snapshot": {
+        "id": "anthropic/claude-opus-4.8-fast",
+        "name": "Anthropic: Claude Opus 4.8 (Fast)",
+        "provider": "anthropic",
+        "pricing": {
+          "prompt": "0.00001",
+          "completion": "0.00005",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1000000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1779913703,
+        "first_seen": "2026-06-08",
+        "last_seen": "2026-06-08"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "model_added",
+      "id": "anthropic/claude-opus-4.8",
+      "provider": "anthropic",
+      "snapshot": {
+        "id": "anthropic/claude-opus-4.8",
+        "name": "Anthropic: Claude Opus 4.8",
+        "provider": "anthropic",
+        "pricing": {
+          "prompt": "0.000005",
+          "completion": "0.000025",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1000000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1779905091,
+        "first_seen": "2026-06-08",
+        "last_seen": "2026-06-08"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "model_added",
+      "id": "openrouter/fusion",
+      "provider": "openrouter",
+      "snapshot": {
+        "id": "openrouter/fusion",
+        "name": "OpenRouter: Fusion",
+        "provider": "openrouter",
+        "pricing": {
+          "prompt": "-1",
+          "completion": "-1",
+          "image": null,
+          "request": null
+        },
+        "context_length": 128000,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1778603606,
+        "first_seen": "2026-06-08",
+        "last_seen": "2026-06-08"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000073",
+          "next": "0.000000684",
+          "pct_change": -6.3
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000349",
+          "next": "0.00000342",
+          "pct_change": -2.01
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "price_changed",
+      "id": "qwen/qwen3.6-27b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000029",
+          "next": "0.000000289",
+          "pct_change": -0.34
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000032",
+          "next": "0.0000024",
+          "pct_change": -25
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000001",
+          "next": "0.0000000983",
+          "pct_change": -1.7
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000002",
+          "next": "0.0000001966",
+          "pct_change": -1.7
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "price_changed",
+      "id": "tencent/hy3-preview",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000066",
+          "next": "0.000000063",
+          "pct_change": -4.55
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000026",
+          "next": "0.00000021",
+          "pct_change": -19.23
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.6",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000073",
+          "next": "0.000000684",
+          "pct_change": -6.3
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000349",
+          "next": "0.00000342",
+          "pct_change": -2.01
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "deprecation_announced",
+      "id": "anthropic/claude-opus-4.6-fast",
+      "provider": "anthropic",
+      "prev_expiration": null,
+      "next_expiration": "2026-06-29"
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "price_changed",
+      "id": "google/gemma-4-31b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.00000037",
+          "next": "0.00000036",
+          "pct_change": -2.7
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "price_changed",
+      "id": "qwen/qwen3.5-9b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000004",
+          "next": "0.0000001",
+          "pct_change": 150
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "price_changed",
+      "id": "qwen/qwen3.5-35b-a3b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000139",
+          "next": "0.00000014",
+          "pct_change": 0.72
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "deprecation_announced",
+      "id": "nex-agi/deepseek-v3.1-nex-n1",
+      "provider": "nex-agi",
+      "prev_expiration": null,
+      "next_expiration": "2026-06-08"
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v3.2",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000252",
+          "next": "0.0000002288",
+          "pct_change": -9.21
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000378",
+          "next": "0.0000003432",
+          "pct_change": -9.21
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "price_changed",
+      "id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
+      "provider": "nvidia",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000001",
+          "next": "0.0000004",
+          "pct_change": 300
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "deprecation_announced",
+      "id": "nvidia/nemotron-nano-9b-v2",
+      "provider": "nvidia",
+      "prev_expiration": null,
+      "next_expiration": "2026-06-11"
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "price_changed",
+      "id": "openai/gpt-oss-20b",
+      "provider": "openai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000003",
+          "next": "0.000000029",
+          "pct_change": -3.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "price_changed",
+      "id": "qwen/qwen3-30b-a3b-instruct-2507",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000009",
+          "next": "0.00000004815",
+          "pct_change": -46.5
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000003",
+          "next": "0.00000019305",
+          "pct_change": -35.65
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "context_changed",
+      "id": "qwen/qwen3-30b-a3b-instruct-2507",
+      "provider": "qwen",
+      "prev_context": 262144,
+      "next_context": 131072
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "deprecation_announced",
+      "id": "z-ai/glm-4.5",
+      "provider": "z-ai",
+      "prev_expiration": null,
+      "next_expiration": "2026-06-19"
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "price_changed",
+      "id": "z-ai/glm-4.5-air",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.00000084",
+          "next": "0.00000085",
+          "pct_change": 1.19
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "price_changed",
+      "id": "qwen/qwen3-235b-a22b-thinking-2507",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000001495",
+          "next": "0.0000001",
+          "pct_change": -33.11
+        },
+        {
+          "field": "completion",
+          "prev": "0.000001495",
+          "next": "0.0000001",
+          "pct_change": -93.31
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "price_changed",
+      "id": "qwen/qwen3-235b-a22b-2507",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000071",
+          "next": "0.00000009",
+          "pct_change": 26.76
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "price_changed",
+      "id": "qwen/qwen3-30b-a3b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000009",
+          "next": "0.00000012",
+          "pct_change": 33.33
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000045",
+          "next": "0.0000005",
+          "pct_change": 11.11
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "price_changed",
+      "id": "meta-llama/llama-4-scout",
+      "provider": "meta-llama",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000008",
+          "next": "0.0000001",
+          "pct_change": 25
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "price_changed",
+      "id": "google/gemma-3-4b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000004",
+          "next": "0.00000005",
+          "pct_change": 25
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000008",
+          "next": "0.0000001",
+          "pct_change": 25
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "price_changed",
+      "id": "google/gemma-3-12b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000004",
+          "next": "0.00000005",
+          "pct_change": 25
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000013",
+          "next": "0.00000015",
+          "pct_change": 15.38
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "deprecation_announced",
+      "id": "deepseek/deepseek-r1-distill-llama-70b",
+      "provider": "deepseek",
+      "prev_expiration": null,
+      "next_expiration": "2026-06-11"
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-chat",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000002288",
+          "next": "0.0000002002",
+          "pct_change": -12.5
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000009144",
+          "next": "0.0000008001",
+          "pct_change": -12.5
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "price_changed",
+      "id": "meta-llama/llama-3.2-11b-vision-instruct",
+      "provider": "meta-llama",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000245",
+          "next": "0.000000345",
+          "pct_change": 40.82
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000245",
+          "next": "0.000000345",
+          "pct_change": 40.82
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "price_changed",
+      "id": "nousresearch/hermes-3-llama-3.1-70b",
+      "provider": "nousresearch",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000003",
+          "next": "0.0000007",
+          "pct_change": 133.33
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000003",
+          "next": "0.0000007",
+          "pct_change": 133.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "price_changed",
+      "id": "meta-llama/llama-3.1-8b-instruct",
+      "provider": "meta-llama",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.00000005",
+          "next": "0.00000003",
+          "pct_change": -40
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "price_changed",
+      "id": "meta-llama/llama-3-8b-instruct",
+      "provider": "meta-llama",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000004",
+          "next": "0.00000014",
+          "pct_change": 250
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000004",
+          "next": "0.00000014",
+          "pct_change": 250
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "deprecation_announced",
+      "id": "meta-llama/llama-3-70b-instruct",
+      "provider": "meta-llama",
+      "prev_expiration": null,
+      "next_expiration": "2026-06-19"
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "model_removed",
+      "id": "alfredpros/codellama-7b-instruct-solidity",
+      "provider": "alfredpros",
+      "snapshot": {
+        "id": "alfredpros/codellama-7b-instruct-solidity",
+        "name": "AlfredPros: CodeLLaMa 7B Instruct Solidity",
+        "provider": "alfredpros",
+        "pricing": {
+          "prompt": "0.0000008",
+          "completion": "0.0000012",
+          "image": null,
+          "request": null
+        },
+        "context_length": 4096,
+        "max_completion_tokens": 4096,
+        "expiration_date": null,
+        "created": 1744641874,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-07"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "model_removed",
+      "id": "arcee-ai/spotlight",
+      "provider": "arcee-ai",
+      "snapshot": {
+        "id": "arcee-ai/spotlight",
+        "name": "Arcee AI: Spotlight",
+        "provider": "arcee-ai",
+        "pricing": {
+          "prompt": "0.00000018",
+          "completion": "0.00000018",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": 65537,
+        "expiration_date": null,
+        "created": 1746481552,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-07"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "model_removed",
+      "id": "baidu/ernie-4.5-21b-a3b",
+      "provider": "baidu",
+      "snapshot": {
+        "id": "baidu/ernie-4.5-21b-a3b",
+        "name": "Baidu: ERNIE 4.5 21B A3B",
+        "provider": "baidu",
+        "pricing": {
+          "prompt": "0.00000007",
+          "completion": "0.00000028",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": 8000,
+        "expiration_date": null,
+        "created": 1755034167,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-07"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "model_removed",
+      "id": "baidu/ernie-4.5-21b-a3b-thinking",
+      "provider": "baidu",
+      "snapshot": {
+        "id": "baidu/ernie-4.5-21b-a3b-thinking",
+        "name": "Baidu: ERNIE 4.5 21B A3B Thinking",
+        "provider": "baidu",
+        "pricing": {
+          "prompt": "0.00000007",
+          "completion": "0.00000028",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": 65536,
+        "expiration_date": null,
+        "created": 1760048887,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-07"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "model_removed",
+      "id": "baidu/ernie-4.5-300b-a47b",
+      "provider": "baidu",
+      "snapshot": {
+        "id": "baidu/ernie-4.5-300b-a47b",
+        "name": "Baidu: ERNIE 4.5 300B A47B ",
+        "provider": "baidu",
+        "pricing": {
+          "prompt": "0.00000028",
+          "completion": "0.0000011",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": 12000,
+        "expiration_date": null,
+        "created": 1751300139,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-07"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "model_removed",
+      "id": "baidu/ernie-4.5-vl-28b-a3b",
+      "provider": "baidu",
+      "snapshot": {
+        "id": "baidu/ernie-4.5-vl-28b-a3b",
+        "name": "Baidu: ERNIE 4.5 VL 28B A3B",
+        "provider": "baidu",
+        "pricing": {
+          "prompt": "0.00000014",
+          "completion": "0.00000056",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": 8000,
+        "expiration_date": null,
+        "created": 1755032836,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-07"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "model_removed",
+      "id": "baidu/qianfan-ocr-fast",
+      "provider": "baidu",
+      "snapshot": {
+        "id": "baidu/qianfan-ocr-fast",
+        "name": "Baidu: Qianfan-OCR-Fast",
+        "provider": "baidu",
+        "pricing": {
+          "prompt": "0.00000068",
+          "completion": "0.00000281",
+          "image": null,
+          "request": null
+        },
+        "context_length": 65536,
+        "max_completion_tokens": 28672,
+        "expiration_date": "2026-05-28",
+        "created": 1776707472,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-07"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "model_removed",
+      "id": "deepseek/deepseek-v3.2-speciale",
+      "provider": "deepseek",
+      "snapshot": {
+        "id": "deepseek/deepseek-v3.2-speciale",
+        "name": "DeepSeek: DeepSeek V3.2 Speciale",
+        "provider": "deepseek",
+        "pricing": {
+          "prompt": "0.000000287",
+          "completion": "0.000000431",
+          "image": null,
+          "request": null
+        },
+        "context_length": 163840,
+        "max_completion_tokens": 163840,
+        "expiration_date": null,
+        "created": 1764594837,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-07"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "model_removed",
+      "id": "deepseek/deepseek-v4-flash:free",
+      "provider": "deepseek",
+      "snapshot": {
+        "id": "deepseek/deepseek-v4-flash:free",
+        "name": "DeepSeek: DeepSeek V4 Flash (free)",
+        "provider": "deepseek",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": 384000,
+        "expiration_date": null,
+        "created": 1777000666,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-07"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "model_removed",
+      "id": "google/gemini-2.0-flash-001",
+      "provider": "google",
+      "snapshot": {
+        "id": "google/gemini-2.0-flash-001",
+        "name": "Google: Gemini 2.0 Flash",
+        "provider": "google",
+        "pricing": {
+          "prompt": "0.0000001",
+          "completion": "0.0000004",
+          "image": "0.0000001",
+          "request": null
+        },
+        "context_length": 1000000,
+        "max_completion_tokens": 8192,
+        "expiration_date": "2026-06-01",
+        "created": 1738769413,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-07"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "model_removed",
+      "id": "google/gemini-2.0-flash-lite-001",
+      "provider": "google",
+      "snapshot": {
+        "id": "google/gemini-2.0-flash-lite-001",
+        "name": "Google: Gemini 2.0 Flash Lite",
+        "provider": "google",
+        "pricing": {
+          "prompt": "0.000000075",
+          "completion": "0.0000003",
+          "image": "0.000000075",
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": 8192,
+        "expiration_date": "2026-06-01",
+        "created": 1740506212,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-07"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "model_removed",
+      "id": "minimax/minimax-m2.5:free",
+      "provider": "minimax",
+      "snapshot": {
+        "id": "minimax/minimax-m2.5:free",
+        "name": "MiniMax: MiniMax M2.5 (free)",
+        "provider": "minimax",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 204800,
+        "max_completion_tokens": 8192,
+        "expiration_date": null,
+        "created": 1770908502,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-07"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "model_removed",
+      "id": "mistralai/devstral-medium",
+      "provider": "mistralai",
+      "snapshot": {
+        "id": "mistralai/devstral-medium",
+        "name": "Mistral: Devstral Medium",
+        "provider": "mistralai",
+        "pricing": {
+          "prompt": "0.0000004",
+          "completion": "0.000002",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1752161321,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-07"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "model_removed",
+      "id": "mistralai/devstral-small",
+      "provider": "mistralai",
+      "snapshot": {
+        "id": "mistralai/devstral-small",
+        "name": "Mistral: Devstral Small 1.1",
+        "provider": "mistralai",
+        "pricing": {
+          "prompt": "0.0000001",
+          "completion": "0.0000003",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1752160751,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-07"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "model_removed",
+      "id": "mistralai/mistral-7b-instruct-v0.1",
+      "provider": "mistralai",
+      "snapshot": {
+        "id": "mistralai/mistral-7b-instruct-v0.1",
+        "name": "Mistral: Mistral 7B Instruct v0.1",
+        "provider": "mistralai",
+        "pricing": {
+          "prompt": "0.00000011",
+          "completion": "0.00000019",
+          "image": null,
+          "request": null
+        },
+        "context_length": 4096,
+        "max_completion_tokens": 2824,
+        "expiration_date": "2026-05-30",
+        "created": 1695859200,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-07"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "model_removed",
+      "id": "mistralai/mistral-large-2411",
+      "provider": "mistralai",
+      "snapshot": {
+        "id": "mistralai/mistral-large-2411",
+        "name": "Mistral Large 2411",
+        "provider": "mistralai",
+        "pricing": {
+          "prompt": "0.000002",
+          "completion": "0.000006",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1731978685,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-07"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "model_removed",
+      "id": "mistralai/pixtral-large-2411",
+      "provider": "mistralai",
+      "snapshot": {
+        "id": "mistralai/pixtral-large-2411",
+        "name": "Mistral: Pixtral Large 2411",
+        "provider": "mistralai",
+        "pricing": {
+          "prompt": "0.000002",
+          "completion": "0.000006",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1731977388,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-07"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "model_removed",
+      "id": "nousresearch/hermes-2-pro-llama-3-8b",
+      "provider": "nousresearch",
+      "snapshot": {
+        "id": "nousresearch/hermes-2-pro-llama-3-8b",
+        "name": "NousResearch: Hermes 2 Pro - Llama-3 8B",
+        "provider": "nousresearch",
+        "pricing": {
+          "prompt": "0.00000014",
+          "completion": "0.00000014",
+          "image": null,
+          "request": null
+        },
+        "context_length": 8192,
+        "max_completion_tokens": 8192,
+        "expiration_date": "2026-06-05",
+        "created": 1716768000,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-07"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "model_removed",
+      "id": "openai/gpt-4-0314",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-4-0314",
+        "name": "OpenAI: GPT-4 (older v0314)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.00003",
+          "completion": "0.00006",
+          "image": null,
+          "request": null
+        },
+        "context_length": 8191,
+        "max_completion_tokens": 4096,
+        "expiration_date": null,
+        "created": 1685232000,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-07"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "model_removed",
+      "id": "openai/gpt-4-1106-preview",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-4-1106-preview",
+        "name": "OpenAI: GPT-4 Turbo (older v1106)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.00001",
+          "completion": "0.00003",
+          "image": null,
+          "request": null
+        },
+        "context_length": 128000,
+        "max_completion_tokens": 4096,
+        "expiration_date": null,
+        "created": 1699228800,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-07"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "model_removed",
+      "id": "openai/gpt-4o-audio-preview",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-4o-audio-preview",
+        "name": "OpenAI: GPT-4o Audio",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.0000025",
+          "completion": "0.00001",
+          "image": null,
+          "request": null
+        },
+        "context_length": 128000,
+        "max_completion_tokens": 16384,
+        "expiration_date": null,
+        "created": 1755233061,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-07"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "model_removed",
+      "id": "sao10k/l3-euryale-70b",
+      "provider": "sao10k",
+      "snapshot": {
+        "id": "sao10k/l3-euryale-70b",
+        "name": "Sao10k: Llama 3 Euryale 70B v2.1",
+        "provider": "sao10k",
+        "pricing": {
+          "prompt": "0.00000148",
+          "completion": "0.00000148",
+          "image": null,
+          "request": null
+        },
+        "context_length": 8192,
+        "max_completion_tokens": 8192,
+        "expiration_date": "2026-06-05",
+        "created": 1718668800,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-07"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "model_removed",
+      "id": "xiaomi/mimo-v2-omni",
+      "provider": "xiaomi",
+      "snapshot": {
+        "id": "xiaomi/mimo-v2-omni",
+        "name": "Xiaomi: MiMo-V2-Omni",
+        "provider": "xiaomi",
+        "pricing": {
+          "prompt": "0.0000004",
+          "completion": "0.000002",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 65536,
+        "expiration_date": null,
+        "created": 1773863703,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-07"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "model_removed",
+      "id": "xiaomi/mimo-v2-pro",
+      "provider": "xiaomi",
+      "snapshot": {
+        "id": "xiaomi/mimo-v2-pro",
+        "name": "Xiaomi: MiMo-V2-Pro",
+        "provider": "xiaomi",
+        "pricing": {
+          "prompt": "0.000001",
+          "completion": "0.000003",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": 131072,
+        "expiration_date": null,
+        "created": 1773863643,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-07"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "disagreement_detected",
+      "id": "google/gemini-2.0-flash-001",
+      "provider": "google",
+      "disagreement": {
+        "slug": "google:gemini-2-0-flash-001",
+        "openrouter_status": "removed",
+        "litellm_status": "active",
+        "litellm_id": "gemini/gemini-2.0-flash-001"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "disagreement_detected",
+      "id": "google/gemini-2.0-flash-lite-001",
+      "provider": "google",
+      "disagreement": {
+        "slug": "google:gemini-2-0-flash-lite-001",
+        "openrouter_status": "removed",
+        "litellm_status": "active",
+        "litellm_id": "gemini/gemini-2.0-flash-lite-001"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "disagreement_detected",
+      "id": "openai/gpt-4-0314",
+      "provider": "openai",
+      "disagreement": {
+        "slug": "openai:gpt-4-0314",
+        "openrouter_status": "removed",
+        "litellm_status": "active",
+        "litellm_id": "gpt-4-0314"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "disagreement_detected",
+      "id": "openai/gpt-4-1106-preview",
+      "provider": "openai",
+      "disagreement": {
+        "slug": "openai:gpt-4-1106",
+        "openrouter_status": "removed",
+        "litellm_status": "active",
+        "litellm_id": "gpt-4-1106-preview"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "disagreement_detected",
+      "id": "openai/gpt-4o-audio-preview",
+      "provider": "openai",
+      "disagreement": {
+        "slug": "openai:gpt-4o-audio",
+        "openrouter_status": "removed",
+        "litellm_status": "active",
+        "litellm_id": "gpt-4o-audio-preview"
+      }
     }
   ]
 }

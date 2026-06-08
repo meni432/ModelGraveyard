@@ -1,11 +1,67 @@
 {
-  "generated_at": "2026-06-07",
-  "openrouter_catalog_size": 347,
+  "generated_at": "2026-06-08",
+  "openrouter_catalog_size": 332,
   "litellm_catalog_size": 2006,
-  "shared_count": 86,
-  "openrouter_only_count": 261,
-  "litellm_only_count": 1920,
-  "disagreements": [],
+  "shared_count": 83,
+  "openrouter_only_count": 249,
+  "litellm_only_count": 1918,
+  "disagreements": [
+    {
+      "slug": "google:gemini-2-0-flash-001",
+      "openrouter_status": "removed",
+      "openrouter_id": "google/gemini-2.0-flash-001",
+      "openrouter_removed_at": "2026-06-08",
+      "litellm_status": "active",
+      "litellm_id": "gemini/gemini-2.0-flash-001",
+      "litellm_deprecation_date": "2026-06-01",
+      "severity": "medium",
+      "noted_at": "2026-06-08"
+    },
+    {
+      "slug": "google:gemini-2-0-flash-lite-001",
+      "openrouter_status": "removed",
+      "openrouter_id": "google/gemini-2.0-flash-lite-001",
+      "openrouter_removed_at": "2026-06-08",
+      "litellm_status": "active",
+      "litellm_id": "gemini/gemini-2.0-flash-lite-001",
+      "litellm_deprecation_date": "2026-06-01",
+      "severity": "medium",
+      "noted_at": "2026-06-08"
+    },
+    {
+      "slug": "openai:gpt-4-0314",
+      "openrouter_status": "removed",
+      "openrouter_id": "openai/gpt-4-0314",
+      "openrouter_removed_at": "2026-06-08",
+      "litellm_status": "active",
+      "litellm_id": "gpt-4-0314",
+      "litellm_deprecation_date": "2026-03-26",
+      "severity": "medium",
+      "noted_at": "2026-06-08"
+    },
+    {
+      "slug": "openai:gpt-4-1106",
+      "openrouter_status": "removed",
+      "openrouter_id": "openai/gpt-4-1106-preview",
+      "openrouter_removed_at": "2026-06-08",
+      "litellm_status": "active",
+      "litellm_id": "gpt-4-1106-preview",
+      "litellm_deprecation_date": "2026-03-26",
+      "severity": "medium",
+      "noted_at": "2026-06-08"
+    },
+    {
+      "slug": "openai:gpt-4o-audio",
+      "openrouter_status": "removed",
+      "openrouter_id": "openai/gpt-4o-audio-preview",
+      "openrouter_removed_at": "2026-06-08",
+      "litellm_status": "active",
+      "litellm_id": "gpt-4o-audio-preview",
+      "litellm_deprecation_date": null,
+      "severity": "high",
+      "noted_at": "2026-06-08"
+    }
+  ],
   "pairings": [
     {
       "slug": "ai21:jamba-large-1-7",
@@ -53,6 +109,11 @@
       "litellm_id": "claude-opus-4-7"
     },
     {
+      "slug": "anthropic:claude-opus-4-8",
+      "openrouter_id": "anthropic/claude-opus-4.8",
+      "litellm_id": "claude-opus-4-8"
+    },
+    {
       "slug": "anthropic:claude-sonnet-4",
       "openrouter_id": "anthropic/claude-sonnet-4",
       "litellm_id": "claude-sonnet-4-20250514"
@@ -81,16 +142,6 @@
       "slug": "deepseek:deepseek-v3-2",
       "openrouter_id": "deepseek/deepseek-v3.2-exp",
       "litellm_id": "deepseek/deepseek-v3.2"
-    },
-    {
-      "slug": "google:gemini-2-0-flash-001",
-      "openrouter_id": "google/gemini-2.0-flash-001",
-      "litellm_id": "gemini/gemini-2.0-flash-001"
-    },
-    {
-      "slug": "google:gemini-2-0-flash-lite-001",
-      "openrouter_id": "google/gemini-2.0-flash-lite-001",
-      "litellm_id": "gemini/gemini-2.0-flash-lite-001"
     },
     {
       "slug": "google:gemini-2-5-flash",
@@ -173,6 +224,11 @@
       "litellm_id": "minimax/MiniMax-M2.5"
     },
     {
+      "slug": "minimax:minimax-m3",
+      "openrouter_id": "minimax/minimax-m3",
+      "litellm_id": "minimax/MiniMax-M3"
+    },
+    {
       "slug": "morph:morph-v3-fast",
       "openrouter_id": "morph/morph-v3-fast",
       "litellm_id": "morph/morph-v3-fast"
@@ -198,11 +254,6 @@
       "litellm_id": "gpt-4"
     },
     {
-      "slug": "openai:gpt-4-0314",
-      "openrouter_id": "openai/gpt-4-0314",
-      "litellm_id": "gpt-4-0314"
-    },
-    {
       "slug": "openai:gpt-4-1",
       "openrouter_id": "openai/gpt-4.1",
       "litellm_id": "gpt-4.1"
@@ -218,11 +269,6 @@
       "litellm_id": "gpt-4.1-nano"
     },
     {
-      "slug": "openai:gpt-4-1106",
-      "openrouter_id": "openai/gpt-4-1106-preview",
-      "litellm_id": "gpt-4-1106-preview"
-    },
-    {
       "slug": "openai:gpt-4-turbo",
       "openrouter_id": "openai/gpt-4-turbo-preview",
       "litellm_id": "gpt-4-turbo"
@@ -231,11 +277,6 @@
       "slug": "openai:gpt-4o",
       "openrouter_id": "openai/gpt-4o-2024-11-20",
       "litellm_id": "gpt-4o"
-    },
-    {
-      "slug": "openai:gpt-4o-audio",
-      "openrouter_id": "openai/gpt-4o-audio-preview",
-      "litellm_id": "gpt-4o-audio-preview"
     },
     {
       "slug": "openai:gpt-4o-mini",

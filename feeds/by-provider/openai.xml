@@ -4,7 +4,70 @@
   <id>https://modelgraveyard.com/feeds/by-provider/openai.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/openai.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-05-27T00:00:00Z</updated>
+  <updated>2026-06-08T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-08:price_changed:openai%2Fgpt-oss-20b</id>
+    <title>Price changed: openai/gpt-oss-20b</title>
+    <updated>2026-06-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-oss-20b"/>
+    <category term="price_changed"/>
+    <category term="provider:openai"/>
+    <summary>prompt: $0.0300/Mtok → $0.0290/Mtok (-3.33%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-08:model_removed:openai%2Fgpt-4-0314</id>
+    <title>Removed: openai/gpt-4-0314</title>
+    <updated>2026-06-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-4-0314"/>
+    <category term="model_removed"/>
+    <category term="provider:openai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $30.0000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-08:model_removed:openai%2Fgpt-4-1106-preview</id>
+    <title>Removed: openai/gpt-4-1106-preview</title>
+    <updated>2026-06-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-4-1106-preview"/>
+    <category term="model_removed"/>
+    <category term="provider:openai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $10.0000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-08:model_removed:openai%2Fgpt-4o-audio-preview</id>
+    <title>Removed: openai/gpt-4o-audio-preview</title>
+    <updated>2026-06-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-4o-audio-preview"/>
+    <category term="model_removed"/>
+    <category term="provider:openai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $2.5000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-08:disagreement_detected:openai%2Fgpt-4-0314</id>
+    <title>Catalog disagreement: openai/gpt-4-0314</title>
+    <updated>2026-06-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-4-0314"/>
+    <category term="disagreement_detected"/>
+    <category term="provider:openai"/>
+    <summary>OpenRouter says removed; LiteLLM still lists it as gpt-4-0314.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-08:disagreement_detected:openai%2Fgpt-4-1106-preview</id>
+    <title>Catalog disagreement: openai/gpt-4-1106-preview</title>
+    <updated>2026-06-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-4-1106-preview"/>
+    <category term="disagreement_detected"/>
+    <category term="provider:openai"/>
+    <summary>OpenRouter says removed; LiteLLM still lists it as gpt-4-1106-preview.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-08:disagreement_detected:openai%2Fgpt-4o-audio-preview</id>
+    <title>Catalog disagreement: openai/gpt-4o-audio-preview</title>
+    <updated>2026-06-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-4o-audio-preview"/>
+    <category term="disagreement_detected"/>
+    <category term="provider:openai"/>
+    <summary>OpenRouter says removed; LiteLLM still lists it as gpt-4o-audio-preview.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-05-27:model_added:openai%2Fgpt-chat-latest</id>
     <title>Added: openai/gpt-chat-latest</title>

@@ -1,3 +1,412 @@
 {
-  "buried": []
+  "buried": [
+    {
+      "id": "alfredpros/codellama-7b-instruct-solidity",
+      "name": "AlfredPros: CodeLLaMa 7B Instruct Solidity",
+      "provider": "alfredpros",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000008",
+        "completion": "0.0000012",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 4096,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-06-07",
+      "buried_at": "2026-06-08",
+      "suggested_replacement": null
+    },
+    {
+      "id": "arcee-ai/spotlight",
+      "name": "Arcee AI: Spotlight",
+      "provider": "arcee-ai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000018",
+        "completion": "0.00000018",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 131072,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-06-07",
+      "buried_at": "2026-06-08",
+      "suggested_replacement": "arcee-ai/trinity-mini"
+    },
+    {
+      "id": "baidu/ernie-4.5-21b-a3b",
+      "name": "Baidu: ERNIE 4.5 21B A3B",
+      "provider": "baidu",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000007",
+        "completion": "0.00000028",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 131072,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-06-07",
+      "buried_at": "2026-06-08",
+      "suggested_replacement": "baidu/ernie-4.5-vl-424b-a47b"
+    },
+    {
+      "id": "baidu/ernie-4.5-21b-a3b-thinking",
+      "name": "Baidu: ERNIE 4.5 21B A3B Thinking",
+      "provider": "baidu",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000007",
+        "completion": "0.00000028",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 131072,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-06-07",
+      "buried_at": "2026-06-08",
+      "suggested_replacement": "baidu/ernie-4.5-vl-424b-a47b"
+    },
+    {
+      "id": "baidu/ernie-4.5-300b-a47b",
+      "name": "Baidu: ERNIE 4.5 300B A47B ",
+      "provider": "baidu",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000028",
+        "completion": "0.0000011",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 131072,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-06-07",
+      "buried_at": "2026-06-08",
+      "suggested_replacement": "baidu/ernie-4.5-vl-424b-a47b"
+    },
+    {
+      "id": "baidu/ernie-4.5-vl-28b-a3b",
+      "name": "Baidu: ERNIE 4.5 VL 28B A3B",
+      "provider": "baidu",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000014",
+        "completion": "0.00000056",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 131072,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-06-07",
+      "buried_at": "2026-06-08",
+      "suggested_replacement": "baidu/ernie-4.5-vl-424b-a47b"
+    },
+    {
+      "id": "baidu/qianfan-ocr-fast",
+      "name": "Baidu: Qianfan-OCR-Fast",
+      "provider": "baidu",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000068",
+        "completion": "0.00000281",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 65536,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-06-07",
+      "buried_at": "2026-06-08",
+      "suggested_replacement": "baidu/ernie-4.5-vl-424b-a47b"
+    },
+    {
+      "id": "deepseek/deepseek-v3.2-speciale",
+      "name": "DeepSeek: DeepSeek V3.2 Speciale",
+      "provider": "deepseek",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.000000287",
+        "completion": "0.000000431",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 163840,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-06-07",
+      "buried_at": "2026-06-08",
+      "suggested_replacement": "deepseek/deepseek-v3.2-exp"
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash:free",
+      "name": "DeepSeek: DeepSeek V4 Flash (free)",
+      "provider": "deepseek",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 1048576,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-06-07",
+      "buried_at": "2026-06-08",
+      "suggested_replacement": "deepseek/deepseek-v4-pro"
+    },
+    {
+      "id": "google/gemini-2.0-flash-001",
+      "name": "Google: Gemini 2.0 Flash",
+      "provider": "google",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000001",
+        "completion": "0.0000004",
+        "image": "0.0000001",
+        "request": null
+      },
+      "final_context_length": 1000000,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-06-07",
+      "buried_at": "2026-06-08",
+      "suggested_replacement": "google/gemini-3.5-flash"
+    },
+    {
+      "id": "google/gemini-2.0-flash-lite-001",
+      "name": "Google: Gemini 2.0 Flash Lite",
+      "provider": "google",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.000000075",
+        "completion": "0.0000003",
+        "image": "0.000000075",
+        "request": null
+      },
+      "final_context_length": 1048576,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-06-07",
+      "buried_at": "2026-06-08",
+      "suggested_replacement": "google/gemini-3.5-flash"
+    },
+    {
+      "id": "minimax/minimax-m2.5:free",
+      "name": "MiniMax: MiniMax M2.5 (free)",
+      "provider": "minimax",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 204800,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-06-07",
+      "buried_at": "2026-06-08",
+      "suggested_replacement": "minimax/minimax-m2.7"
+    },
+    {
+      "id": "mistralai/devstral-medium",
+      "name": "Mistral: Devstral Medium",
+      "provider": "mistralai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000004",
+        "completion": "0.000002",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 131072,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-06-07",
+      "buried_at": "2026-06-08",
+      "suggested_replacement": "mistralai/ministral-3b-2512"
+    },
+    {
+      "id": "mistralai/devstral-small",
+      "name": "Mistral: Devstral Small 1.1",
+      "provider": "mistralai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000001",
+        "completion": "0.0000003",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 131072,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-06-07",
+      "buried_at": "2026-06-08",
+      "suggested_replacement": "mistralai/ministral-3b-2512"
+    },
+    {
+      "id": "mistralai/mistral-7b-instruct-v0.1",
+      "name": "Mistral: Mistral 7B Instruct v0.1",
+      "provider": "mistralai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000011",
+        "completion": "0.00000019",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 4096,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-06-07",
+      "buried_at": "2026-06-08",
+      "suggested_replacement": "mistralai/voxtral-small-24b-2507"
+    },
+    {
+      "id": "mistralai/mistral-large-2411",
+      "name": "Mistral Large 2411",
+      "provider": "mistralai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.000002",
+        "completion": "0.000006",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 131072,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-06-07",
+      "buried_at": "2026-06-08",
+      "suggested_replacement": "mistralai/ministral-3b-2512"
+    },
+    {
+      "id": "mistralai/pixtral-large-2411",
+      "name": "Mistral: Pixtral Large 2411",
+      "provider": "mistralai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.000002",
+        "completion": "0.000006",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 131072,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-06-07",
+      "buried_at": "2026-06-08",
+      "suggested_replacement": "mistralai/ministral-3b-2512"
+    },
+    {
+      "id": "nousresearch/hermes-2-pro-llama-3-8b",
+      "name": "NousResearch: Hermes 2 Pro - Llama-3 8B",
+      "provider": "nousresearch",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000014",
+        "completion": "0.00000014",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 8192,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-06-07",
+      "buried_at": "2026-06-08",
+      "suggested_replacement": "nousresearch/hermes-4-70b"
+    },
+    {
+      "id": "openai/gpt-4-0314",
+      "name": "OpenAI: GPT-4 (older v0314)",
+      "provider": "openai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00003",
+        "completion": "0.00006",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 8191,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-06-07",
+      "buried_at": "2026-06-08",
+      "suggested_replacement": "openai/gpt-4"
+    },
+    {
+      "id": "openai/gpt-4-1106-preview",
+      "name": "OpenAI: GPT-4 Turbo (older v1106)",
+      "provider": "openai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00001",
+        "completion": "0.00003",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 128000,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-06-07",
+      "buried_at": "2026-06-08",
+      "suggested_replacement": "openai/gpt-5.3-chat"
+    },
+    {
+      "id": "openai/gpt-4o-audio-preview",
+      "name": "OpenAI: GPT-4o Audio",
+      "provider": "openai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000025",
+        "completion": "0.00001",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 128000,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-06-07",
+      "buried_at": "2026-06-08",
+      "suggested_replacement": "openai/gpt-5.3-chat"
+    },
+    {
+      "id": "sao10k/l3-euryale-70b",
+      "name": "Sao10k: Llama 3 Euryale 70B v2.1",
+      "provider": "sao10k",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000148",
+        "completion": "0.00000148",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 8192,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-06-07",
+      "buried_at": "2026-06-08",
+      "suggested_replacement": "sao10k/l3-lunaris-8b"
+    },
+    {
+      "id": "xiaomi/mimo-v2-omni",
+      "name": "Xiaomi: MiMo-V2-Omni",
+      "provider": "xiaomi",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000004",
+        "completion": "0.000002",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-06-07",
+      "buried_at": "2026-06-08",
+      "suggested_replacement": "xiaomi/mimo-v2-flash"
+    },
+    {
+      "id": "xiaomi/mimo-v2-pro",
+      "name": "Xiaomi: MiMo-V2-Pro",
+      "provider": "xiaomi",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.000001",
+        "completion": "0.000003",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 1048576,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-06-07",
+      "buried_at": "2026-06-08",
+      "suggested_replacement": "xiaomi/mimo-v2.5-pro"
+    }
+  ]
 }

@@ -4,7 +4,70 @@
   <id>https://modelgraveyard.com/feeds/by-provider/google.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/google.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-05-27T00:00:00Z</updated>
+  <updated>2026-06-08T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-08:price_changed:google%2Fgemma-4-31b-it</id>
+    <title>Price changed: google/gemma-4-31b-it</title>
+    <updated>2026-06-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemma-4-31b-it"/>
+    <category term="price_changed"/>
+    <category term="provider:google"/>
+    <summary>completion: $0.3700/Mtok → $0.3600/Mtok (-2.7%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-08:price_changed:google%2Fgemma-3-4b-it</id>
+    <title>Price changed: google/gemma-3-4b-it</title>
+    <updated>2026-06-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemma-3-4b-it"/>
+    <category term="price_changed"/>
+    <category term="provider:google"/>
+    <summary>prompt: $0.0400/Mtok → $0.0500/Mtok (+25%); completion: $0.0800/Mtok → $0.1000/Mtok (+25%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-08:price_changed:google%2Fgemma-3-12b-it</id>
+    <title>Price changed: google/gemma-3-12b-it</title>
+    <updated>2026-06-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemma-3-12b-it"/>
+    <category term="price_changed"/>
+    <category term="provider:google"/>
+    <summary>prompt: $0.0400/Mtok → $0.0500/Mtok (+25%); completion: $0.1300/Mtok → $0.1500/Mtok (+15.38%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-08:model_removed:google%2Fgemini-2.0-flash-001</id>
+    <title>Removed: google/gemini-2.0-flash-001</title>
+    <updated>2026-06-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-2.0-flash-001"/>
+    <category term="model_removed"/>
+    <category term="provider:google"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-08:model_removed:google%2Fgemini-2.0-flash-lite-001</id>
+    <title>Removed: google/gemini-2.0-flash-lite-001</title>
+    <updated>2026-06-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-2.0-flash-lite-001"/>
+    <category term="model_removed"/>
+    <category term="provider:google"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0750/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-08:disagreement_detected:google%2Fgemini-2.0-flash-001</id>
+    <title>Catalog disagreement: google/gemini-2.0-flash-001</title>
+    <updated>2026-06-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-2.0-flash-001"/>
+    <category term="disagreement_detected"/>
+    <category term="provider:google"/>
+    <summary>OpenRouter says removed; LiteLLM still lists it as gemini/gemini-2.0-flash-001.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-08:disagreement_detected:google%2Fgemini-2.0-flash-lite-001</id>
+    <title>Catalog disagreement: google/gemini-2.0-flash-lite-001</title>
+    <updated>2026-06-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-2.0-flash-lite-001"/>
+    <category term="disagreement_detected"/>
+    <category term="provider:google"/>
+    <summary>OpenRouter says removed; LiteLLM still lists it as gemini/gemini-2.0-flash-lite-001.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-05-27:model_added:google%2Fgemini-3.5-flash</id>
     <title>Added: google/gemini-3.5-flash</title>

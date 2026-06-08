@@ -4,7 +4,34 @@
   <id>https://modelgraveyard.com/feeds/by-provider/anthropic.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/anthropic.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-05-27T00:00:00Z</updated>
+  <updated>2026-06-08T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-08:model_added:anthropic%2Fclaude-opus-4.8-fast</id>
+    <title>Added: anthropic/claude-opus-4.8-fast</title>
+    <updated>2026-06-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-opus-4.8-fast"/>
+    <category term="model_added"/>
+    <category term="provider:anthropic"/>
+    <summary>New model on OpenRouter. Initial prompt price: $10.0000/Mtok, context: 1000000.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-08:model_added:anthropic%2Fclaude-opus-4.8</id>
+    <title>Added: anthropic/claude-opus-4.8</title>
+    <updated>2026-06-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-opus-4.8"/>
+    <category term="model_added"/>
+    <category term="provider:anthropic"/>
+    <summary>New model on OpenRouter. Initial prompt price: $5.0000/Mtok, context: 1000000.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-08:deprecation_announced:anthropic%2Fclaude-opus-4.6-fast</id>
+    <title>Deprecation announced: anthropic/claude-opus-4.6-fast (sunset 2026-06-29)</title>
+    <updated>2026-06-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-opus-4.6-fast"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:anthropic"/>
+    <summary>Provider announced retirement on 2026-06-29.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-05-27:model_added:anthropic%2Fclaude-opus-4.7-fast</id>
     <title>Added: anthropic/claude-opus-4.7-fast</title>

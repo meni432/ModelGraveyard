@@ -4,7 +4,52 @@
   <id>https://modelgraveyard.com/feeds/by-provider/meta-llama.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/meta-llama.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-05-27T00:00:00Z</updated>
+  <updated>2026-06-08T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-08:price_changed:meta-llama%2Fllama-4-scout</id>
+    <title>Price changed: meta-llama/llama-4-scout</title>
+    <updated>2026-06-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meta-llama%2Fllama-4-scout"/>
+    <category term="price_changed"/>
+    <category term="provider:meta-llama"/>
+    <summary>prompt: $0.0800/Mtok → $0.1000/Mtok (+25%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-08:price_changed:meta-llama%2Fllama-3.2-11b-vision-instruct</id>
+    <title>Price changed: meta-llama/llama-3.2-11b-vision-instruct</title>
+    <updated>2026-06-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meta-llama%2Fllama-3.2-11b-vision-instruct"/>
+    <category term="price_changed"/>
+    <category term="provider:meta-llama"/>
+    <summary>prompt: $0.2450/Mtok → $0.3450/Mtok (+40.82%); completion: $0.2450/Mtok → $0.3450/Mtok (+40.82%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-08:price_changed:meta-llama%2Fllama-3.1-8b-instruct</id>
+    <title>Price changed: meta-llama/llama-3.1-8b-instruct</title>
+    <updated>2026-06-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meta-llama%2Fllama-3.1-8b-instruct"/>
+    <category term="price_changed"/>
+    <category term="provider:meta-llama"/>
+    <summary>completion: $0.0500/Mtok → $0.0300/Mtok (-40%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-08:price_changed:meta-llama%2Fllama-3-8b-instruct</id>
+    <title>Price changed: meta-llama/llama-3-8b-instruct</title>
+    <updated>2026-06-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meta-llama%2Fllama-3-8b-instruct"/>
+    <category term="price_changed"/>
+    <category term="provider:meta-llama"/>
+    <summary>prompt: $0.0400/Mtok → $0.1400/Mtok (+250%); completion: $0.0400/Mtok → $0.1400/Mtok (+250%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-08:deprecation_announced:meta-llama%2Fllama-3-70b-instruct</id>
+    <title>Deprecation announced: meta-llama/llama-3-70b-instruct (sunset 2026-06-19)</title>
+    <updated>2026-06-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meta-llama%2Fllama-3-70b-instruct"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:meta-llama"/>
+    <summary>Provider announced retirement on 2026-06-19.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-05-27:model_added:meta-llama%2Fllama-guard-4-12b</id>
     <title>Added: meta-llama/llama-guard-4-12b</title>

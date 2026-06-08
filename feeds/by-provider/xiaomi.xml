@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-provider/xiaomi.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/xiaomi.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-05-27T00:00:00Z</updated>
+  <updated>2026-06-08T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-08:model_removed:xiaomi%2Fmimo-v2-omni</id>
+    <title>Removed: xiaomi/mimo-v2-omni</title>
+    <updated>2026-06-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/xiaomi%2Fmimo-v2-omni"/>
+    <category term="model_removed"/>
+    <category term="provider:xiaomi"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.4000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-08:model_removed:xiaomi%2Fmimo-v2-pro</id>
+    <title>Removed: xiaomi/mimo-v2-pro</title>
+    <updated>2026-06-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/xiaomi%2Fmimo-v2-pro"/>
+    <category term="model_removed"/>
+    <category term="provider:xiaomi"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $1.0000/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-05-27:model_added:xiaomi%2Fmimo-v2.5-pro</id>
     <title>Added: xiaomi/mimo-v2.5-pro</title>
