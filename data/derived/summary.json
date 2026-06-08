@@ -6,6 +6,106 @@
   "recent_events": [
     {
       "ts": "2026-06-08",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.6",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000684",
+          "next": "0.00000068",
+          "pct_change": -0.58
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000342",
+          "next": "0.00000341",
+          "pct_change": -0.29
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000684",
+          "next": "0.00000068",
+          "pct_change": -0.58
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000342",
+          "next": "0.00000341",
+          "pct_change": -0.29
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "disagreement_detected",
+      "id": "openai/gpt-4o-audio-preview",
+      "provider": "openai",
+      "disagreement": {
+        "slug": "openai:gpt-4o-audio",
+        "openrouter_status": "removed",
+        "litellm_status": "active",
+        "litellm_id": "gpt-4o-audio-preview"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "disagreement_detected",
+      "id": "openai/gpt-4-1106-preview",
+      "provider": "openai",
+      "disagreement": {
+        "slug": "openai:gpt-4-1106",
+        "openrouter_status": "removed",
+        "litellm_status": "active",
+        "litellm_id": "gpt-4-1106-preview"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "disagreement_detected",
+      "id": "openai/gpt-4-0314",
+      "provider": "openai",
+      "disagreement": {
+        "slug": "openai:gpt-4-0314",
+        "openrouter_status": "removed",
+        "litellm_status": "active",
+        "litellm_id": "gpt-4-0314"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "disagreement_detected",
+      "id": "google/gemini-2.0-flash-lite-001",
+      "provider": "google",
+      "disagreement": {
+        "slug": "google:gemini-2-0-flash-lite-001",
+        "openrouter_status": "removed",
+        "litellm_status": "active",
+        "litellm_id": "gemini/gemini-2.0-flash-lite-001"
+      }
+    },
+    {
+      "ts": "2026-06-08",
+      "type": "disagreement_detected",
+      "id": "google/gemini-2.0-flash-001",
+      "provider": "google",
+      "disagreement": {
+        "slug": "google:gemini-2-0-flash-001",
+        "openrouter_status": "removed",
+        "litellm_status": "active",
+        "litellm_id": "gemini/gemini-2.0-flash-001"
+      }
+    },
+    {
+      "ts": "2026-06-08",
       "type": "model_removed",
       "id": "xiaomi/mimo-v2-pro",
       "provider": "xiaomi",
@@ -299,167 +399,6 @@
         "max_completion_tokens": 8192,
         "expiration_date": null,
         "created": 1770908502,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-06-07"
-      }
-    },
-    {
-      "ts": "2026-06-08",
-      "type": "model_removed",
-      "id": "google/gemini-2.0-flash-lite-001",
-      "provider": "google",
-      "snapshot": {
-        "id": "google/gemini-2.0-flash-lite-001",
-        "name": "Google: Gemini 2.0 Flash Lite",
-        "provider": "google",
-        "pricing": {
-          "prompt": "0.000000075",
-          "completion": "0.0000003",
-          "image": "0.000000075",
-          "request": null
-        },
-        "context_length": 1048576,
-        "max_completion_tokens": 8192,
-        "expiration_date": "2026-06-01",
-        "created": 1740506212,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-06-07"
-      }
-    },
-    {
-      "ts": "2026-06-08",
-      "type": "model_removed",
-      "id": "google/gemini-2.0-flash-001",
-      "provider": "google",
-      "snapshot": {
-        "id": "google/gemini-2.0-flash-001",
-        "name": "Google: Gemini 2.0 Flash",
-        "provider": "google",
-        "pricing": {
-          "prompt": "0.0000001",
-          "completion": "0.0000004",
-          "image": "0.0000001",
-          "request": null
-        },
-        "context_length": 1000000,
-        "max_completion_tokens": 8192,
-        "expiration_date": "2026-06-01",
-        "created": 1738769413,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-06-07"
-      }
-    },
-    {
-      "ts": "2026-06-08",
-      "type": "model_removed",
-      "id": "deepseek/deepseek-v4-flash:free",
-      "provider": "deepseek",
-      "snapshot": {
-        "id": "deepseek/deepseek-v4-flash:free",
-        "name": "DeepSeek: DeepSeek V4 Flash (free)",
-        "provider": "deepseek",
-        "pricing": {
-          "prompt": "0",
-          "completion": "0",
-          "image": null,
-          "request": null
-        },
-        "context_length": 1048576,
-        "max_completion_tokens": 384000,
-        "expiration_date": null,
-        "created": 1777000666,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-06-07"
-      }
-    },
-    {
-      "ts": "2026-06-08",
-      "type": "model_removed",
-      "id": "deepseek/deepseek-v3.2-speciale",
-      "provider": "deepseek",
-      "snapshot": {
-        "id": "deepseek/deepseek-v3.2-speciale",
-        "name": "DeepSeek: DeepSeek V3.2 Speciale",
-        "provider": "deepseek",
-        "pricing": {
-          "prompt": "0.000000287",
-          "completion": "0.000000431",
-          "image": null,
-          "request": null
-        },
-        "context_length": 163840,
-        "max_completion_tokens": 163840,
-        "expiration_date": null,
-        "created": 1764594837,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-06-07"
-      }
-    },
-    {
-      "ts": "2026-06-08",
-      "type": "model_removed",
-      "id": "baidu/qianfan-ocr-fast",
-      "provider": "baidu",
-      "snapshot": {
-        "id": "baidu/qianfan-ocr-fast",
-        "name": "Baidu: Qianfan-OCR-Fast",
-        "provider": "baidu",
-        "pricing": {
-          "prompt": "0.00000068",
-          "completion": "0.00000281",
-          "image": null,
-          "request": null
-        },
-        "context_length": 65536,
-        "max_completion_tokens": 28672,
-        "expiration_date": "2026-05-28",
-        "created": 1776707472,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-06-07"
-      }
-    },
-    {
-      "ts": "2026-06-08",
-      "type": "model_removed",
-      "id": "baidu/ernie-4.5-vl-28b-a3b",
-      "provider": "baidu",
-      "snapshot": {
-        "id": "baidu/ernie-4.5-vl-28b-a3b",
-        "name": "Baidu: ERNIE 4.5 VL 28B A3B",
-        "provider": "baidu",
-        "pricing": {
-          "prompt": "0.00000014",
-          "completion": "0.00000056",
-          "image": null,
-          "request": null
-        },
-        "context_length": 131072,
-        "max_completion_tokens": 8000,
-        "expiration_date": null,
-        "created": 1755032836,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-06-07"
-      }
-    },
-    {
-      "ts": "2026-06-08",
-      "type": "model_removed",
-      "id": "baidu/ernie-4.5-300b-a47b",
-      "provider": "baidu",
-      "snapshot": {
-        "id": "baidu/ernie-4.5-300b-a47b",
-        "name": "Baidu: ERNIE 4.5 300B A47B ",
-        "provider": "baidu",
-        "pricing": {
-          "prompt": "0.00000028",
-          "completion": "0.0000011",
-          "image": null,
-          "request": null
-        },
-        "context_length": 131072,
-        "max_completion_tokens": 12000,
-        "expiration_date": null,
-        "created": 1751300139,
         "first_seen": "2026-05-27",
         "last_seen": "2026-06-07"
       }
