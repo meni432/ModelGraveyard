@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/~anthropic.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/~anthropic.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-05-27T00:00:00Z</updated>
+  <updated>2026-06-09T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-09:model_added:~anthropic%2Fclaude-fable-latest</id>
+    <title>Added: ~anthropic/claude-fable-latest</title>
+    <updated>2026-06-09T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/~anthropic%2Fclaude-fable-latest"/>
+    <category term="model_added"/>
+    <category term="provider:~anthropic"/>
+    <summary>New model on OpenRouter. Initial prompt price: $10.0000/Mtok, context: 1000000.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-05-27:model_added:~anthropic%2Fclaude-haiku-latest</id>
     <title>Added: ~anthropic/claude-haiku-latest</title>

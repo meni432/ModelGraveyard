@@ -1,9 +1,78 @@
 {
   "generated_at": "2026-06-09",
-  "active_count": 341,
-  "dead_count": 25,
+  "active_count": 342,
+  "dead_count": 26,
   "last_event_ts": "2026-06-09",
   "recent_events": [
+    {
+      "ts": "2026-06-09",
+      "type": "model_removed",
+      "id": "arcee-ai/maestro-reasoning",
+      "provider": "arcee-ai",
+      "snapshot": {
+        "id": "arcee-ai/maestro-reasoning",
+        "name": "Arcee AI: Maestro Reasoning",
+        "provider": "arcee-ai",
+        "pricing": {
+          "prompt": "0.0000009",
+          "completion": "0.0000033",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": 32000,
+        "expiration_date": null,
+        "created": 1746481269,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-09"
+      }
+    },
+    {
+      "ts": "2026-06-09",
+      "type": "model_added",
+      "id": "anthropic/claude-fable-5",
+      "provider": "anthropic",
+      "snapshot": {
+        "id": "anthropic/claude-fable-5",
+        "name": "Anthropic: Claude Fable 5",
+        "provider": "anthropic",
+        "pricing": {
+          "prompt": "0.00001",
+          "completion": "0.00005",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1000000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1781007515,
+        "first_seen": "2026-06-09",
+        "last_seen": "2026-06-09"
+      }
+    },
+    {
+      "ts": "2026-06-09",
+      "type": "model_added",
+      "id": "~anthropic/claude-fable-latest",
+      "provider": "~anthropic",
+      "snapshot": {
+        "id": "~anthropic/claude-fable-latest",
+        "name": "Anthropic: Claude Fable Latest",
+        "provider": "~anthropic",
+        "pricing": {
+          "prompt": "0.00001",
+          "completion": "0.00005",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1000000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1781029944,
+        "first_seen": "2026-06-09",
+        "last_seen": "2026-06-09"
+      }
+    },
     {
       "ts": "2026-06-09",
       "type": "price_changed",
@@ -318,75 +387,6 @@
         "max_completion_tokens": 4096,
         "expiration_date": null,
         "created": 1685232000,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-06-07"
-      }
-    },
-    {
-      "ts": "2026-06-08",
-      "type": "model_removed",
-      "id": "nousresearch/hermes-2-pro-llama-3-8b",
-      "provider": "nousresearch",
-      "snapshot": {
-        "id": "nousresearch/hermes-2-pro-llama-3-8b",
-        "name": "NousResearch: Hermes 2 Pro - Llama-3 8B",
-        "provider": "nousresearch",
-        "pricing": {
-          "prompt": "0.00000014",
-          "completion": "0.00000014",
-          "image": null,
-          "request": null
-        },
-        "context_length": 8192,
-        "max_completion_tokens": 8192,
-        "expiration_date": "2026-06-05",
-        "created": 1716768000,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-06-07"
-      }
-    },
-    {
-      "ts": "2026-06-08",
-      "type": "model_removed",
-      "id": "mistralai/pixtral-large-2411",
-      "provider": "mistralai",
-      "snapshot": {
-        "id": "mistralai/pixtral-large-2411",
-        "name": "Mistral: Pixtral Large 2411",
-        "provider": "mistralai",
-        "pricing": {
-          "prompt": "0.000002",
-          "completion": "0.000006",
-          "image": null,
-          "request": null
-        },
-        "context_length": 131072,
-        "max_completion_tokens": null,
-        "expiration_date": null,
-        "created": 1731977388,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-06-07"
-      }
-    },
-    {
-      "ts": "2026-06-08",
-      "type": "model_removed",
-      "id": "mistralai/mistral-large-2411",
-      "provider": "mistralai",
-      "snapshot": {
-        "id": "mistralai/mistral-large-2411",
-        "name": "Mistral Large 2411",
-        "provider": "mistralai",
-        "pricing": {
-          "prompt": "0.000002",
-          "completion": "0.000006",
-          "image": null,
-          "request": null
-        },
-        "context_length": 131072,
-        "max_completion_tokens": null,
-        "expiration_date": null,
-        "created": 1731978685,
         "first_seen": "2026-05-27",
         "last_seen": "2026-06-07"
       }
