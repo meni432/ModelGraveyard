@@ -2,8 +2,42 @@
   "generated_at": "2026-06-09",
   "active_count": 341,
   "dead_count": 25,
-  "last_event_ts": "2026-06-08",
+  "last_event_ts": "2026-06-09",
   "recent_events": [
+    {
+      "ts": "2026-06-09",
+      "type": "price_changed",
+      "id": "minimax/minimax-m2.5",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.00000115",
+          "next": "0.0000009",
+          "pct_change": -21.74
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-09",
+      "type": "price_changed",
+      "id": "minimax/minimax-m2.7",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000279",
+          "next": "0.00000027",
+          "pct_change": -3.23
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000012",
+          "next": "0.00000108",
+          "pct_change": -10
+        }
+      ]
+    },
     {
       "ts": "2026-06-08",
       "type": "model_added",
@@ -353,52 +387,6 @@
         "max_completion_tokens": null,
         "expiration_date": null,
         "created": 1731978685,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-06-07"
-      }
-    },
-    {
-      "ts": "2026-06-08",
-      "type": "model_removed",
-      "id": "mistralai/mistral-7b-instruct-v0.1",
-      "provider": "mistralai",
-      "snapshot": {
-        "id": "mistralai/mistral-7b-instruct-v0.1",
-        "name": "Mistral: Mistral 7B Instruct v0.1",
-        "provider": "mistralai",
-        "pricing": {
-          "prompt": "0.00000011",
-          "completion": "0.00000019",
-          "image": null,
-          "request": null
-        },
-        "context_length": 4096,
-        "max_completion_tokens": 2824,
-        "expiration_date": "2026-05-30",
-        "created": 1695859200,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-06-07"
-      }
-    },
-    {
-      "ts": "2026-06-08",
-      "type": "model_removed",
-      "id": "mistralai/devstral-small",
-      "provider": "mistralai",
-      "snapshot": {
-        "id": "mistralai/devstral-small",
-        "name": "Mistral: Devstral Small 1.1",
-        "provider": "mistralai",
-        "pricing": {
-          "prompt": "0.0000001",
-          "completion": "0.0000003",
-          "image": null,
-          "request": null
-        },
-        "context_length": 131072,
-        "max_completion_tokens": null,
-        "expiration_date": null,
-        "created": 1752160751,
         "first_seen": "2026-05-27",
         "last_seen": "2026-06-07"
       }

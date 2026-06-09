@@ -9574,6 +9574,40 @@
         "first_seen": "2026-06-08",
         "last_seen": "2026-06-08"
       }
+    },
+    {
+      "ts": "2026-06-09",
+      "type": "price_changed",
+      "id": "minimax/minimax-m2.7",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000279",
+          "next": "0.00000027",
+          "pct_change": -3.23
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000012",
+          "next": "0.00000108",
+          "pct_change": -10
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-09",
+      "type": "price_changed",
+      "id": "minimax/minimax-m2.5",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.00000115",
+          "next": "0.0000009",
+          "pct_change": -21.74
+        }
+      ]
     }
   ]
 }

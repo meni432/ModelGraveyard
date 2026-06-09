@@ -2166,7 +2166,7 @@
       "provider": "minimax",
       "pricing": {
         "prompt": "0.00000015",
-        "completion": "0.00000115",
+        "completion": "0.0000009",
         "image": null,
         "request": null
       },
@@ -2182,13 +2182,13 @@
       "name": "MiniMax: MiniMax M2.7",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0.000000279",
-        "completion": "0.0000012",
+        "prompt": "0.00000027",
+        "completion": "0.00000108",
         "image": null,
         "request": null
       },
       "context_length": 204800,
-      "max_completion_tokens": 196608,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1773836697,
       "first_seen": "2026-05-27",
