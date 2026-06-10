@@ -1,6 +1,57 @@
 {
   "buried": [
     {
+      "id": "z-ai/glm-4-32b",
+      "name": "Z.ai: GLM 4 32B ",
+      "provider": "z-ai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000001",
+        "completion": "0.0000001",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 128000,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-06-09",
+      "buried_at": "2026-06-10",
+      "suggested_replacement": "z-ai/glm-4.6v"
+    },
+    {
+      "id": "z-ai/glm-4.5-air:free",
+      "name": "Z.ai: GLM 4.5 Air (free)",
+      "provider": "z-ai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 131072,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-06-09",
+      "buried_at": "2026-06-10",
+      "suggested_replacement": "z-ai/glm-4.6v"
+    },
+    {
+      "id": "z-ai/glm-5v-turbo",
+      "name": "Z.ai: GLM 5V Turbo",
+      "provider": "z-ai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000012",
+        "completion": "0.000004",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 202752,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-06-09",
+      "buried_at": "2026-06-10",
+      "suggested_replacement": "z-ai/glm-5.1"
+    },
+    {
       "id": "arcee-ai/maestro-reasoning",
       "name": "Arcee AI: Maestro Reasoning",
       "provider": "arcee-ai",

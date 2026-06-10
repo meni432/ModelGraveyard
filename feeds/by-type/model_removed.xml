@@ -4,7 +4,34 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_removed.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_removed.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-06-09T00:00:00Z</updated>
+  <updated>2026-06-10T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-10:model_removed:z-ai%2Fglm-4-32b</id>
+    <title>Removed: z-ai/glm-4-32b</title>
+    <updated>2026-06-10T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-4-32b"/>
+    <category term="model_removed"/>
+    <category term="provider:z-ai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-10:model_removed:z-ai%2Fglm-4.5-air%3Afree</id>
+    <title>Removed: z-ai/glm-4.5-air:free</title>
+    <updated>2026-06-10T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-4.5-air%3Afree"/>
+    <category term="model_removed"/>
+    <category term="provider:z-ai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-10:model_removed:z-ai%2Fglm-5v-turbo</id>
+    <title>Removed: z-ai/glm-5v-turbo</title>
+    <updated>2026-06-10T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5v-turbo"/>
+    <category term="model_removed"/>
+    <category term="provider:z-ai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $1.2000/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-06-09:model_removed:arcee-ai%2Fmaestro-reasoning</id>
     <title>Removed: arcee-ai/maestro-reasoning</title>

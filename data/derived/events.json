@@ -9677,6 +9677,83 @@
         "first_seen": "2026-05-27",
         "last_seen": "2026-06-09"
       }
+    },
+    {
+      "ts": "2026-06-10",
+      "type": "context_changed",
+      "id": "z-ai/glm-5-turbo",
+      "provider": "z-ai",
+      "prev_context": 202752,
+      "next_context": 262144
+    },
+    {
+      "ts": "2026-06-10",
+      "type": "model_removed",
+      "id": "z-ai/glm-4-32b",
+      "provider": "z-ai",
+      "snapshot": {
+        "id": "z-ai/glm-4-32b",
+        "name": "Z.ai: GLM 4 32B ",
+        "provider": "z-ai",
+        "pricing": {
+          "prompt": "0.0000001",
+          "completion": "0.0000001",
+          "image": null,
+          "request": null
+        },
+        "context_length": 128000,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1753376617,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-09"
+      }
+    },
+    {
+      "ts": "2026-06-10",
+      "type": "model_removed",
+      "id": "z-ai/glm-4.5-air:free",
+      "provider": "z-ai",
+      "snapshot": {
+        "id": "z-ai/glm-4.5-air:free",
+        "name": "Z.ai: GLM 4.5 Air (free)",
+        "provider": "z-ai",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": 96000,
+        "expiration_date": null,
+        "created": 1753471258,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-09"
+      }
+    },
+    {
+      "ts": "2026-06-10",
+      "type": "model_removed",
+      "id": "z-ai/glm-5v-turbo",
+      "provider": "z-ai",
+      "snapshot": {
+        "id": "z-ai/glm-5v-turbo",
+        "name": "Z.ai: GLM 5V Turbo",
+        "provider": "z-ai",
+        "pricing": {
+          "prompt": "0.0000012",
+          "completion": "0.000004",
+          "image": null,
+          "request": null
+        },
+        "context_length": 202752,
+        "max_completion_tokens": 131072,
+        "expiration_date": null,
+        "created": 1775061458,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-09"
+      }
     }
   ]
 }

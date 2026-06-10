@@ -1,9 +1,86 @@
 {
-  "generated_at": "2026-06-09",
-  "active_count": 342,
-  "dead_count": 26,
-  "last_event_ts": "2026-06-09",
+  "generated_at": "2026-06-10",
+  "active_count": 339,
+  "dead_count": 29,
+  "last_event_ts": "2026-06-10",
   "recent_events": [
+    {
+      "ts": "2026-06-10",
+      "type": "model_removed",
+      "id": "z-ai/glm-5v-turbo",
+      "provider": "z-ai",
+      "snapshot": {
+        "id": "z-ai/glm-5v-turbo",
+        "name": "Z.ai: GLM 5V Turbo",
+        "provider": "z-ai",
+        "pricing": {
+          "prompt": "0.0000012",
+          "completion": "0.000004",
+          "image": null,
+          "request": null
+        },
+        "context_length": 202752,
+        "max_completion_tokens": 131072,
+        "expiration_date": null,
+        "created": 1775061458,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-09"
+      }
+    },
+    {
+      "ts": "2026-06-10",
+      "type": "model_removed",
+      "id": "z-ai/glm-4.5-air:free",
+      "provider": "z-ai",
+      "snapshot": {
+        "id": "z-ai/glm-4.5-air:free",
+        "name": "Z.ai: GLM 4.5 Air (free)",
+        "provider": "z-ai",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": 96000,
+        "expiration_date": null,
+        "created": 1753471258,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-09"
+      }
+    },
+    {
+      "ts": "2026-06-10",
+      "type": "model_removed",
+      "id": "z-ai/glm-4-32b",
+      "provider": "z-ai",
+      "snapshot": {
+        "id": "z-ai/glm-4-32b",
+        "name": "Z.ai: GLM 4 32B ",
+        "provider": "z-ai",
+        "pricing": {
+          "prompt": "0.0000001",
+          "completion": "0.0000001",
+          "image": null,
+          "request": null
+        },
+        "context_length": 128000,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1753376617,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-09"
+      }
+    },
+    {
+      "ts": "2026-06-10",
+      "type": "context_changed",
+      "id": "z-ai/glm-5-turbo",
+      "provider": "z-ai",
+      "prev_context": 202752,
+      "next_context": 262144
+    },
     {
       "ts": "2026-06-09",
       "type": "model_removed",
@@ -295,98 +372,6 @@
         "max_completion_tokens": 65536,
         "expiration_date": null,
         "created": 1773863703,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-06-07"
-      }
-    },
-    {
-      "ts": "2026-06-08",
-      "type": "model_removed",
-      "id": "sao10k/l3-euryale-70b",
-      "provider": "sao10k",
-      "snapshot": {
-        "id": "sao10k/l3-euryale-70b",
-        "name": "Sao10k: Llama 3 Euryale 70B v2.1",
-        "provider": "sao10k",
-        "pricing": {
-          "prompt": "0.00000148",
-          "completion": "0.00000148",
-          "image": null,
-          "request": null
-        },
-        "context_length": 8192,
-        "max_completion_tokens": 8192,
-        "expiration_date": "2026-06-05",
-        "created": 1718668800,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-06-07"
-      }
-    },
-    {
-      "ts": "2026-06-08",
-      "type": "model_removed",
-      "id": "openai/gpt-4o-audio-preview",
-      "provider": "openai",
-      "snapshot": {
-        "id": "openai/gpt-4o-audio-preview",
-        "name": "OpenAI: GPT-4o Audio",
-        "provider": "openai",
-        "pricing": {
-          "prompt": "0.0000025",
-          "completion": "0.00001",
-          "image": null,
-          "request": null
-        },
-        "context_length": 128000,
-        "max_completion_tokens": 16384,
-        "expiration_date": null,
-        "created": 1755233061,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-06-07"
-      }
-    },
-    {
-      "ts": "2026-06-08",
-      "type": "model_removed",
-      "id": "openai/gpt-4-1106-preview",
-      "provider": "openai",
-      "snapshot": {
-        "id": "openai/gpt-4-1106-preview",
-        "name": "OpenAI: GPT-4 Turbo (older v1106)",
-        "provider": "openai",
-        "pricing": {
-          "prompt": "0.00001",
-          "completion": "0.00003",
-          "image": null,
-          "request": null
-        },
-        "context_length": 128000,
-        "max_completion_tokens": 4096,
-        "expiration_date": null,
-        "created": 1699228800,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-06-07"
-      }
-    },
-    {
-      "ts": "2026-06-08",
-      "type": "model_removed",
-      "id": "openai/gpt-4-0314",
-      "provider": "openai",
-      "snapshot": {
-        "id": "openai/gpt-4-0314",
-        "name": "OpenAI: GPT-4 (older v0314)",
-        "provider": "openai",
-        "pricing": {
-          "prompt": "0.00003",
-          "completion": "0.00006",
-          "image": null,
-          "request": null
-        },
-        "context_length": 8191,
-        "max_completion_tokens": 4096,
-        "expiration_date": null,
-        "created": 1685232000,
         "first_seen": "2026-05-27",
         "last_seen": "2026-06-07"
       }
