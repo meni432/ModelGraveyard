@@ -2607,13 +2607,13 @@
       "name": "MoonshotAI: Kimi K2.5",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.00000035",
-        "completion": "0.00000189",
+        "prompt": "0.0000004",
+        "completion": "0.0000019",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 262144,
       "expiration_date": null,
       "created": 1769487076,
       "first_seen": "2026-05-27",

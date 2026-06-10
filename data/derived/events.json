@@ -9774,6 +9774,26 @@
           "pct_change": -0.53
         }
       ]
+    },
+    {
+      "ts": "2026-06-10",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.5",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000035",
+          "next": "0.0000004",
+          "pct_change": 14.29
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000189",
+          "next": "0.0000019",
+          "pct_change": 0.53
+        }
+      ]
     }
   ]
 }
