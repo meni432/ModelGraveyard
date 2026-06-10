@@ -60,6 +60,24 @@
     <summary>prompt: $0.3500/Mtok → $0.4000/Mtok (+14.29%); completion: $1.8900/Mtok → $1.9000/Mtok (+0.53%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-06-10:context_changed:deepseek%2Fdeepseek-chat-v3-0324</id>
+    <title>Context window changed: deepseek/deepseek-chat-v3-0324</title>
+    <updated>2026-06-10T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-chat-v3-0324"/>
+    <category term="context_changed"/>
+    <category term="provider:deepseek"/>
+    <summary>163840 → 131072 tokens</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-10:model_removed:moonshotai%2Fkimi-k2.6%3Afree</id>
+    <title>Removed: moonshotai/kimi-k2.6:free</title>
+    <updated>2026-06-10T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k2.6%3Afree"/>
+    <category term="model_removed"/>
+    <category term="provider:moonshotai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-06-09:price_changed:minimax%2Fminimax-m2.7</id>
     <title>Price changed: minimax/minimax-m2.7</title>
     <updated>2026-06-09T00:00:00Z</updated>
@@ -886,23 +904,5 @@
     <category term="model_added"/>
     <category term="provider:poolside"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 262144.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:poolside%2Flaguna-m.1%3Afree</id>
-    <title>Added: poolside/laguna-m.1:free</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/poolside%2Flaguna-m.1%3Afree"/>
-    <category term="model_added"/>
-    <category term="provider:poolside"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 262144.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:~anthropic%2Fclaude-haiku-latest</id>
-    <title>Added: ~anthropic/claude-haiku-latest</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/~anthropic%2Fclaude-haiku-latest"/>
-    <category term="model_added"/>
-    <category term="provider:~anthropic"/>
-    <summary>New model on OpenRouter. Initial prompt price: $1.0000/Mtok, context: 200000.</summary>
   </entry>
 </feed>

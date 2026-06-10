@@ -9794,6 +9794,37 @@
           "pct_change": 0.53
         }
       ]
+    },
+    {
+      "ts": "2026-06-10",
+      "type": "context_changed",
+      "id": "deepseek/deepseek-chat-v3-0324",
+      "provider": "deepseek",
+      "prev_context": 163840,
+      "next_context": 131072
+    },
+    {
+      "ts": "2026-06-10",
+      "type": "model_removed",
+      "id": "moonshotai/kimi-k2.6:free",
+      "provider": "moonshotai",
+      "snapshot": {
+        "id": "moonshotai/kimi-k2.6:free",
+        "name": "MoonshotAI: Kimi K2.6 (free)",
+        "provider": "moonshotai",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1776699402,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-10"
+      }
     }
   ]
 }

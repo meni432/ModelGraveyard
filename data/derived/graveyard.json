@@ -1,6 +1,23 @@
 {
   "buried": [
     {
+      "id": "moonshotai/kimi-k2.6:free",
+      "name": "MoonshotAI: Kimi K2.6 (free)",
+      "provider": "moonshotai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-06-10",
+      "buried_at": "2026-06-10",
+      "suggested_replacement": "moonshotai/kimi-k2.6"
+    },
+    {
       "id": "z-ai/glm-4-32b",
       "name": "Z.ai: GLM 4 32B ",
       "provider": "z-ai",

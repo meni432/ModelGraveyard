@@ -1,9 +1,40 @@
 {
   "generated_at": "2026-06-10",
-  "active_count": 339,
-  "dead_count": 29,
+  "active_count": 338,
+  "dead_count": 30,
   "last_event_ts": "2026-06-10",
   "recent_events": [
+    {
+      "ts": "2026-06-10",
+      "type": "model_removed",
+      "id": "moonshotai/kimi-k2.6:free",
+      "provider": "moonshotai",
+      "snapshot": {
+        "id": "moonshotai/kimi-k2.6:free",
+        "name": "MoonshotAI: Kimi K2.6 (free)",
+        "provider": "moonshotai",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1776699402,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-10"
+      }
+    },
+    {
+      "ts": "2026-06-10",
+      "type": "context_changed",
+      "id": "deepseek/deepseek-chat-v3-0324",
+      "provider": "deepseek",
+      "prev_context": 163840,
+      "next_context": 131072
+    },
     {
       "ts": "2026-06-10",
       "type": "price_changed",
@@ -344,30 +375,6 @@
         "openrouter_status": "removed",
         "litellm_status": "active",
         "litellm_id": "gpt-4-0314"
-      }
-    },
-    {
-      "ts": "2026-06-08",
-      "type": "disagreement_detected",
-      "id": "google/gemini-2.0-flash-lite-001",
-      "provider": "google",
-      "disagreement": {
-        "slug": "google:gemini-2-0-flash-lite-001",
-        "openrouter_status": "removed",
-        "litellm_status": "active",
-        "litellm_id": "gemini/gemini-2.0-flash-lite-001"
-      }
-    },
-    {
-      "ts": "2026-06-08",
-      "type": "disagreement_detected",
-      "id": "google/gemini-2.0-flash-001",
-      "provider": "google",
-      "disagreement": {
-        "slug": "google:gemini-2-0-flash-001",
-        "openrouter_status": "removed",
-        "litellm_status": "active",
-        "litellm_id": "gemini/gemini-2.0-flash-001"
       }
     }
   ],

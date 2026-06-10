@@ -929,7 +929,7 @@
         "image": null,
         "request": null
       },
-      "context_length": 163840,
+      "context_length": 131072,
       "max_completion_tokens": 16384,
       "expiration_date": null,
       "created": 1742824755,
@@ -2631,23 +2631,6 @@
       },
       "context_length": 262144,
       "max_completion_tokens": 262142,
-      "expiration_date": null,
-      "created": 1776699402,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-06-10"
-    },
-    {
-      "id": "moonshotai/kimi-k2.6:free",
-      "name": "MoonshotAI: Kimi K2.6 (free)",
-      "provider": "moonshotai",
-      "pricing": {
-        "prompt": "0",
-        "completion": "0",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": null,
       "expiration_date": null,
       "created": 1776699402,
       "first_seen": "2026-05-27",
