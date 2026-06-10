@@ -6,6 +6,26 @@
   "recent_events": [
     {
       "ts": "2026-06-10",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.5",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000004",
+          "next": "0.00000035",
+          "pct_change": -12.5
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000019",
+          "next": "0.00000189",
+          "pct_change": -0.53
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-10",
       "type": "model_removed",
       "id": "z-ai/glm-5v-turbo",
       "provider": "z-ai",
@@ -349,29 +369,6 @@
         "max_completion_tokens": 131072,
         "expiration_date": null,
         "created": 1773863643,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-06-07"
-      }
-    },
-    {
-      "ts": "2026-06-08",
-      "type": "model_removed",
-      "id": "xiaomi/mimo-v2-omni",
-      "provider": "xiaomi",
-      "snapshot": {
-        "id": "xiaomi/mimo-v2-omni",
-        "name": "Xiaomi: MiMo-V2-Omni",
-        "provider": "xiaomi",
-        "pricing": {
-          "prompt": "0.0000004",
-          "completion": "0.000002",
-          "image": null,
-          "request": null
-        },
-        "context_length": 262144,
-        "max_completion_tokens": 65536,
-        "expiration_date": null,
-        "created": 1773863703,
         "first_seen": "2026-05-27",
         "last_seen": "2026-06-07"
       }
