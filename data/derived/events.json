@@ -9924,6 +9924,80 @@
         "first_seen": "2026-05-27",
         "last_seen": "2026-06-11"
       }
+    },
+    {
+      "ts": "2026-06-11",
+      "type": "price_changed",
+      "id": "qwen/qwen3.7-plus",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000004",
+          "next": "0.00000032",
+          "pct_change": -20
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000016",
+          "next": "0.00000128",
+          "pct_change": -20
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-11",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000068",
+          "next": "0.00000067",
+          "pct_change": -1.47
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000341",
+          "next": "0.00000339",
+          "pct_change": -0.59
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-11",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.6",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000068",
+          "next": "0.00000067",
+          "pct_change": -1.47
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000341",
+          "next": "0.00000339",
+          "pct_change": -0.59
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-11",
+      "type": "price_changed",
+      "id": "google/gemma-4-31b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.00000036",
+          "next": "0.00000035",
+          "pct_change": -2.78
+        }
+      ]
     }
   ]
 }

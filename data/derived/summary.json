@@ -6,6 +6,80 @@
   "recent_events": [
     {
       "ts": "2026-06-11",
+      "type": "price_changed",
+      "id": "google/gemma-4-31b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.00000036",
+          "next": "0.00000035",
+          "pct_change": -2.78
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-11",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.6",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000068",
+          "next": "0.00000067",
+          "pct_change": -1.47
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000341",
+          "next": "0.00000339",
+          "pct_change": -0.59
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-11",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000068",
+          "next": "0.00000067",
+          "pct_change": -1.47
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000341",
+          "next": "0.00000339",
+          "pct_change": -0.59
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-11",
+      "type": "price_changed",
+      "id": "qwen/qwen3.7-plus",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000004",
+          "next": "0.00000032",
+          "pct_change": -20
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000016",
+          "next": "0.00000128",
+          "pct_change": -20
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-11",
       "type": "model_removed",
       "id": "nvidia/nemotron-nano-9b-v2",
       "provider": "nvidia",
@@ -295,86 +369,6 @@
         "created": 1781007515,
         "first_seen": "2026-06-09",
         "last_seen": "2026-06-09"
-      }
-    },
-    {
-      "ts": "2026-06-09",
-      "type": "model_added",
-      "id": "~anthropic/claude-fable-latest",
-      "provider": "~anthropic",
-      "snapshot": {
-        "id": "~anthropic/claude-fable-latest",
-        "name": "Anthropic: Claude Fable Latest",
-        "provider": "~anthropic",
-        "pricing": {
-          "prompt": "0.00001",
-          "completion": "0.00005",
-          "image": null,
-          "request": null
-        },
-        "context_length": 1000000,
-        "max_completion_tokens": 128000,
-        "expiration_date": null,
-        "created": 1781029944,
-        "first_seen": "2026-06-09",
-        "last_seen": "2026-06-09"
-      }
-    },
-    {
-      "ts": "2026-06-09",
-      "type": "price_changed",
-      "id": "minimax/minimax-m2.5",
-      "provider": "minimax",
-      "changes": [
-        {
-          "field": "completion",
-          "prev": "0.00000115",
-          "next": "0.0000009",
-          "pct_change": -21.74
-        }
-      ]
-    },
-    {
-      "ts": "2026-06-09",
-      "type": "price_changed",
-      "id": "minimax/minimax-m2.7",
-      "provider": "minimax",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000279",
-          "next": "0.00000027",
-          "pct_change": -3.23
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000012",
-          "next": "0.00000108",
-          "pct_change": -10
-        }
-      ]
-    },
-    {
-      "ts": "2026-06-08",
-      "type": "model_added",
-      "id": "nex-agi/nex-n2-pro:free",
-      "provider": "nex-agi",
-      "snapshot": {
-        "id": "nex-agi/nex-n2-pro:free",
-        "name": "Nex AGI: Nex-N2-Pro (free)",
-        "provider": "nex-agi",
-        "pricing": {
-          "prompt": "0",
-          "completion": "0",
-          "image": null,
-          "request": null
-        },
-        "context_length": 262144,
-        "max_completion_tokens": 262144,
-        "expiration_date": null,
-        "created": 1780937140,
-        "first_seen": "2026-06-08",
-        "last_seen": "2026-06-08"
       }
     }
   ],
