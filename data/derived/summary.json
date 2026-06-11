@@ -1,9 +1,74 @@
 {
   "generated_at": "2026-06-11",
-  "active_count": 338,
-  "dead_count": 30,
+  "active_count": 337,
+  "dead_count": 31,
   "last_event_ts": "2026-06-11",
   "recent_events": [
+    {
+      "ts": "2026-06-11",
+      "type": "model_removed",
+      "id": "nvidia/nemotron-nano-9b-v2",
+      "provider": "nvidia",
+      "snapshot": {
+        "id": "nvidia/nemotron-nano-9b-v2",
+        "name": "NVIDIA: Nemotron Nano 9B V2",
+        "provider": "nvidia",
+        "pricing": {
+          "prompt": "0.00000004",
+          "completion": "0.00000016",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": 16384,
+        "expiration_date": "2026-06-11",
+        "created": 1757106807,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-11"
+      }
+    },
+    {
+      "ts": "2026-06-11",
+      "type": "context_changed",
+      "id": "deepseek/deepseek-r1-distill-llama-70b",
+      "provider": "deepseek",
+      "prev_context": 131072,
+      "next_context": 128000
+    },
+    {
+      "ts": "2026-06-11",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-r1-distill-llama-70b",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000007",
+          "next": "0.0000008",
+          "pct_change": 14.29
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-11",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.5",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000035",
+          "next": "0.0000004",
+          "pct_change": 14.29
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000189",
+          "next": "0.0000019",
+          "pct_change": 0.53
+        }
+      ]
+    },
     {
       "ts": "2026-06-11",
       "type": "price_changed",
@@ -311,94 +376,9 @@
         "first_seen": "2026-06-08",
         "last_seen": "2026-06-08"
       }
-    },
-    {
-      "ts": "2026-06-08",
-      "type": "model_removed",
-      "id": "nex-agi/deepseek-v3.1-nex-n1",
-      "provider": "nex-agi",
-      "snapshot": {
-        "id": "nex-agi/deepseek-v3.1-nex-n1",
-        "name": "Nex AGI: DeepSeek V3.1 Nex N1",
-        "provider": "nex-agi",
-        "pricing": {
-          "prompt": "0.000000135",
-          "completion": "0.0000005",
-          "image": null,
-          "request": null
-        },
-        "context_length": 131072,
-        "max_completion_tokens": 163840,
-        "expiration_date": "2026-06-08",
-        "created": 1765204393,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-06-08"
-      }
-    },
-    {
-      "ts": "2026-06-08",
-      "type": "price_changed",
-      "id": "moonshotai/kimi-k2.6",
-      "provider": "moonshotai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000684",
-          "next": "0.00000068",
-          "pct_change": -0.58
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000342",
-          "next": "0.00000341",
-          "pct_change": -0.29
-        }
-      ]
-    },
-    {
-      "ts": "2026-06-08",
-      "type": "price_changed",
-      "id": "~moonshotai/kimi-latest",
-      "provider": "~moonshotai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000684",
-          "next": "0.00000068",
-          "pct_change": -0.58
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000342",
-          "next": "0.00000341",
-          "pct_change": -0.29
-        }
-      ]
-    },
-    {
-      "ts": "2026-06-08",
-      "type": "disagreement_detected",
-      "id": "openai/gpt-4o-audio-preview",
-      "provider": "openai",
-      "disagreement": {
-        "slug": "openai:gpt-4o-audio",
-        "openrouter_status": "removed",
-        "litellm_status": "active",
-        "litellm_id": "gpt-4o-audio-preview"
-      }
     }
   ],
   "scheduled_funerals": [
-    {
-      "id": "deepseek/deepseek-r1-distill-llama-70b",
-      "provider": "deepseek",
-      "expiration_date": "2026-06-11"
-    },
-    {
-      "id": "nvidia/nemotron-nano-9b-v2",
-      "provider": "nvidia",
-      "expiration_date": "2026-06-11"
-    },
     {
       "id": "meta-llama/llama-3-70b-instruct",
       "provider": "meta-llama",

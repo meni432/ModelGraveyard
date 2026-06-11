@@ -9859,6 +9859,71 @@
           "pct_change": -0.53
         }
       ]
+    },
+    {
+      "ts": "2026-06-11",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.5",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000035",
+          "next": "0.0000004",
+          "pct_change": 14.29
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000189",
+          "next": "0.0000019",
+          "pct_change": 0.53
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-11",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-r1-distill-llama-70b",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000007",
+          "next": "0.0000008",
+          "pct_change": 14.29
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-11",
+      "type": "context_changed",
+      "id": "deepseek/deepseek-r1-distill-llama-70b",
+      "provider": "deepseek",
+      "prev_context": 131072,
+      "next_context": 128000
+    },
+    {
+      "ts": "2026-06-11",
+      "type": "model_removed",
+      "id": "nvidia/nemotron-nano-9b-v2",
+      "provider": "nvidia",
+      "snapshot": {
+        "id": "nvidia/nemotron-nano-9b-v2",
+        "name": "NVIDIA: Nemotron Nano 9B V2",
+        "provider": "nvidia",
+        "pricing": {
+          "prompt": "0.00000004",
+          "completion": "0.00000016",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": 16384,
+        "expiration_date": "2026-06-11",
+        "created": 1757106807,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-11"
+      }
     }
   ]
 }

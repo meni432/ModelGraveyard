@@ -992,14 +992,14 @@
       "name": "DeepSeek: R1 Distill Llama 70B",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000007",
+        "prompt": "0.0000008",
         "completion": "0.0000008",
         "image": null,
         "request": null
       },
-      "context_length": 131072,
-      "max_completion_tokens": 16384,
-      "expiration_date": "2026-06-11",
+      "context_length": 128000,
+      "max_completion_tokens": 8192,
+      "expiration_date": null,
       "created": 1737663169,
       "first_seen": "2026-05-27",
       "last_seen": "2026-06-11"
@@ -2607,13 +2607,13 @@
       "name": "MoonshotAI: Kimi K2.5",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.00000035",
-        "completion": "0.00000189",
+        "prompt": "0.0000004",
+        "completion": "0.0000019",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 262144,
       "expiration_date": null,
       "created": 1769487076,
       "first_seen": "2026-05-27",
@@ -2939,23 +2939,6 @@
       "max_completion_tokens": 128000,
       "expiration_date": null,
       "created": 1761675565,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-06-11"
-    },
-    {
-      "id": "nvidia/nemotron-nano-9b-v2",
-      "name": "NVIDIA: Nemotron Nano 9B V2",
-      "provider": "nvidia",
-      "pricing": {
-        "prompt": "0.00000004",
-        "completion": "0.00000016",
-        "image": null,
-        "request": null
-      },
-      "context_length": 131072,
-      "max_completion_tokens": 16384,
-      "expiration_date": "2026-06-11",
-      "created": 1757106807,
       "first_seen": "2026-05-27",
       "last_seen": "2026-06-11"
     },

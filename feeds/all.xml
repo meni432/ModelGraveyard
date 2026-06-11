@@ -24,6 +24,42 @@
     <summary>prompt: $0.4000/Mtok → $0.3500/Mtok (-12.5%); completion: $1.9000/Mtok → $1.8900/Mtok (-0.53%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-06-11:price_changed:moonshotai%2Fkimi-k2.5</id>
+    <title>Price changed: moonshotai/kimi-k2.5</title>
+    <updated>2026-06-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k2.5"/>
+    <category term="price_changed"/>
+    <category term="provider:moonshotai"/>
+    <summary>prompt: $0.3500/Mtok → $0.4000/Mtok (+14.29%); completion: $1.8900/Mtok → $1.9000/Mtok (+0.53%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-11:price_changed:deepseek%2Fdeepseek-r1-distill-llama-70b</id>
+    <title>Price changed: deepseek/deepseek-r1-distill-llama-70b</title>
+    <updated>2026-06-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-r1-distill-llama-70b"/>
+    <category term="price_changed"/>
+    <category term="provider:deepseek"/>
+    <summary>prompt: $0.7000/Mtok → $0.8000/Mtok (+14.29%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-11:context_changed:deepseek%2Fdeepseek-r1-distill-llama-70b</id>
+    <title>Context window changed: deepseek/deepseek-r1-distill-llama-70b</title>
+    <updated>2026-06-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-r1-distill-llama-70b"/>
+    <category term="context_changed"/>
+    <category term="provider:deepseek"/>
+    <summary>131072 → 128000 tokens</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-11:model_removed:nvidia%2Fnemotron-nano-9b-v2</id>
+    <title>Removed: nvidia/nemotron-nano-9b-v2</title>
+    <updated>2026-06-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nvidia%2Fnemotron-nano-9b-v2"/>
+    <category term="model_removed"/>
+    <category term="provider:nvidia"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0400/Mtok.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-06-10:context_changed:z-ai%2Fglm-5-turbo</id>
     <title>Context window changed: z-ai/glm-5-turbo</title>
     <updated>2026-06-10T00:00:00Z</updated>
@@ -868,41 +904,5 @@
     <category term="model_added"/>
     <category term="provider:openai"/>
     <summary>New model on OpenRouter. Initial prompt price: $5.0000/Mtok, context: 400000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:x-ai%2Fgrok-4.3</id>
-    <title>Added: x-ai/grok-4.3</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/x-ai%2Fgrok-4.3"/>
-    <category term="model_added"/>
-    <category term="provider:x-ai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $1.2500/Mtok, context: 1000000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:ibm-granite%2Fgranite-4.1-8b</id>
-    <title>Added: ibm-granite/granite-4.1-8b</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/ibm-granite%2Fgranite-4.1-8b"/>
-    <category term="model_added"/>
-    <category term="provider:ibm-granite"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.0500/Mtok, context: 131072.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:mistralai%2Fmistral-medium-3-5</id>
-    <title>Added: mistralai/mistral-medium-3-5</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/mistralai%2Fmistral-medium-3-5"/>
-    <category term="model_added"/>
-    <category term="provider:mistralai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $1.5000/Mtok, context: 262144.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:openrouter%2Fowl-alpha</id>
-    <title>Added: openrouter/owl-alpha</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openrouter%2Fowl-alpha"/>
-    <category term="model_added"/>
-    <category term="provider:openrouter"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 1048756.</summary>
   </entry>
 </feed>
