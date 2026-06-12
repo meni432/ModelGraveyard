@@ -1,9 +1,57 @@
 {
-  "generated_at": "2026-06-11",
+  "generated_at": "2026-06-12",
   "active_count": 337,
   "dead_count": 31,
-  "last_event_ts": "2026-06-11",
+  "last_event_ts": "2026-06-12",
   "recent_events": [
+    {
+      "ts": "2026-06-12",
+      "type": "context_changed",
+      "id": "deepseek/deepseek-chat-v3-0324",
+      "provider": "deepseek",
+      "prev_context": 131072,
+      "next_context": 163840
+    },
+    {
+      "ts": "2026-06-12",
+      "type": "price_changed",
+      "id": "minimax/minimax-m2.7",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000027",
+          "next": "0.00000025",
+          "pct_change": -7.41
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000108",
+          "next": "0.000001",
+          "pct_change": -7.41
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-12",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000983",
+          "next": "0.000000098",
+          "pct_change": -0.31
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000001966",
+          "next": "0.000000196",
+          "pct_change": -0.31
+        }
+      ]
+    },
     {
       "ts": "2026-06-11",
       "type": "price_changed",
@@ -314,60 +362,6 @@
         "expiration_date": null,
         "created": 1753376617,
         "first_seen": "2026-05-27",
-        "last_seen": "2026-06-09"
-      }
-    },
-    {
-      "ts": "2026-06-10",
-      "type": "context_changed",
-      "id": "z-ai/glm-5-turbo",
-      "provider": "z-ai",
-      "prev_context": 202752,
-      "next_context": 262144
-    },
-    {
-      "ts": "2026-06-09",
-      "type": "model_removed",
-      "id": "arcee-ai/maestro-reasoning",
-      "provider": "arcee-ai",
-      "snapshot": {
-        "id": "arcee-ai/maestro-reasoning",
-        "name": "Arcee AI: Maestro Reasoning",
-        "provider": "arcee-ai",
-        "pricing": {
-          "prompt": "0.0000009",
-          "completion": "0.0000033",
-          "image": null,
-          "request": null
-        },
-        "context_length": 131072,
-        "max_completion_tokens": 32000,
-        "expiration_date": null,
-        "created": 1746481269,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-06-09"
-      }
-    },
-    {
-      "ts": "2026-06-09",
-      "type": "model_added",
-      "id": "anthropic/claude-fable-5",
-      "provider": "anthropic",
-      "snapshot": {
-        "id": "anthropic/claude-fable-5",
-        "name": "Anthropic: Claude Fable 5",
-        "provider": "anthropic",
-        "pricing": {
-          "prompt": "0.00001",
-          "completion": "0.00005",
-          "image": null,
-          "request": null
-        },
-        "context_length": 1000000,
-        "max_completion_tokens": 128000,
-        "expiration_date": null,
-        "created": 1781007515,
-        "first_seen": "2026-06-09",
         "last_seen": "2026-06-09"
       }
     }

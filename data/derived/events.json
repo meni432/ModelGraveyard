@@ -9998,6 +9998,54 @@
           "pct_change": -2.78
         }
       ]
+    },
+    {
+      "ts": "2026-06-12",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000983",
+          "next": "0.000000098",
+          "pct_change": -0.31
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000001966",
+          "next": "0.000000196",
+          "pct_change": -0.31
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-12",
+      "type": "price_changed",
+      "id": "minimax/minimax-m2.7",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000027",
+          "next": "0.00000025",
+          "pct_change": -7.41
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000108",
+          "next": "0.000001",
+          "pct_change": -7.41
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-12",
+      "type": "context_changed",
+      "id": "deepseek/deepseek-chat-v3-0324",
+      "provider": "deepseek",
+      "prev_context": 131072,
+      "next_context": 163840
     }
   ]
 }
