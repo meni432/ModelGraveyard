@@ -10094,6 +10094,69 @@
           "pct_change": 33.33
         }
       ]
+    },
+    {
+      "ts": "2026-06-12",
+      "type": "model_added",
+      "id": "moonshotai/kimi-k2.7-code",
+      "provider": "moonshotai",
+      "snapshot": {
+        "id": "moonshotai/kimi-k2.7-code",
+        "name": "MoonshotAI: Kimi K2.7 Code",
+        "provider": "moonshotai",
+        "pricing": {
+          "prompt": "0.00000095",
+          "completion": "0.000004",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1781266361,
+        "first_seen": "2026-06-12",
+        "last_seen": "2026-06-12"
+      }
+    },
+    {
+      "ts": "2026-06-12",
+      "type": "price_changed",
+      "id": "qwen/qwen3.6-27b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000289",
+          "next": "0.000000287",
+          "pct_change": -0.69
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000024",
+          "next": "0.0000031",
+          "pct_change": 29.17
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-12",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.5",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000035",
+          "next": "0.0000004",
+          "pct_change": 14.29
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000189",
+          "next": "0.0000019",
+          "pct_change": 0.53
+        }
+      ]
     }
   ]
 }
