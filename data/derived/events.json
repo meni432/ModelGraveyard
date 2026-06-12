@@ -10157,6 +10157,97 @@
           "pct_change": 0.53
         }
       ]
+    },
+    {
+      "ts": "2026-06-12",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000067",
+          "next": "0.00000068",
+          "pct_change": 1.49
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000339",
+          "next": "0.00000341",
+          "pct_change": 0.59
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-12",
+      "type": "price_changed",
+      "id": "qwen/qwen3.6-27b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000287",
+          "next": "0.0000002885",
+          "pct_change": 0.52
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000031",
+          "next": "0.00000317",
+          "pct_change": 2.26
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-12",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.6",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000067",
+          "next": "0.00000068",
+          "pct_change": 1.49
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000339",
+          "next": "0.00000341",
+          "pct_change": 0.59
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-12",
+      "type": "context_changed",
+      "id": "deepseek/deepseek-chat-v3-0324",
+      "provider": "deepseek",
+      "prev_context": 131072,
+      "next_context": 163840
+    },
+    {
+      "ts": "2026-06-12",
+      "type": "model_removed",
+      "id": "meta-llama/llama-guard-3-8b",
+      "provider": "meta-llama",
+      "snapshot": {
+        "id": "meta-llama/llama-guard-3-8b",
+        "name": "Llama Guard 3 8B",
+        "provider": "meta-llama",
+        "pricing": {
+          "prompt": "0.000000484",
+          "completion": "0.00000003",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": 131072,
+        "expiration_date": null,
+        "created": 1739401318,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-12"
+      }
     }
   ]
 }

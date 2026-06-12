@@ -108,13 +108,13 @@
       "name": "MoonshotAI Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.00000067",
-        "completion": "0.00000339",
+        "prompt": "0.00000068",
+        "completion": "0.00000341",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": 262142,
       "expiration_date": null,
       "created": 1777318428,
       "first_seen": "2026-05-27",
@@ -929,7 +929,7 @@
         "image": null,
         "request": null
       },
-      "context_length": 131072,
+      "context_length": 163840,
       "max_completion_tokens": 16384,
       "expiration_date": null,
       "created": 1742824755,
@@ -2008,23 +2008,6 @@
       "last_seen": "2026-06-12"
     },
     {
-      "id": "meta-llama/llama-guard-3-8b",
-      "name": "Llama Guard 3 8B",
-      "provider": "meta-llama",
-      "pricing": {
-        "prompt": "0.000000484",
-        "completion": "0.00000003",
-        "image": null,
-        "request": null
-      },
-      "context_length": 131072,
-      "max_completion_tokens": 131072,
-      "expiration_date": null,
-      "created": 1739401318,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-06-12"
-    },
-    {
       "id": "meta-llama/llama-guard-4-12b",
       "name": "Meta: Llama Guard 4 12B",
       "provider": "meta-llama",
@@ -2624,13 +2607,13 @@
       "name": "MoonshotAI: Kimi K2.6",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.00000067",
-        "completion": "0.00000339",
+        "prompt": "0.00000068",
+        "completion": "0.00000341",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": 262142,
       "expiration_date": null,
       "created": 1776699402,
       "first_seen": "2026-05-27",
@@ -5004,8 +4987,8 @@
       "name": "Qwen: Qwen3.6 27B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.000000287",
-        "completion": "0.0000031",
+        "prompt": "0.0000002885",
+        "completion": "0.00000317",
         "image": null,
         "request": null
       },

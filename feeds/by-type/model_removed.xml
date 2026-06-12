@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_removed.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_removed.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-06-11T00:00:00Z</updated>
+  <updated>2026-06-12T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-12:model_removed:meta-llama%2Fllama-guard-3-8b</id>
+    <title>Removed: meta-llama/llama-guard-3-8b</title>
+    <updated>2026-06-12T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meta-llama%2Fllama-guard-3-8b"/>
+    <category term="model_removed"/>
+    <category term="provider:meta-llama"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.4840/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-06-11:model_removed:nvidia%2Fnemotron-nano-9b-v2</id>
     <title>Removed: nvidia/nemotron-nano-9b-v2</title>
