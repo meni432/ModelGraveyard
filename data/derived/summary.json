@@ -1,9 +1,29 @@
 {
-  "generated_at": "2026-06-12",
+  "generated_at": "2026-06-13",
   "active_count": 337,
   "dead_count": 32,
-  "last_event_ts": "2026-06-12",
+  "last_event_ts": "2026-06-13",
   "recent_events": [
+    {
+      "ts": "2026-06-13",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.5",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000004",
+          "next": "0.000000375",
+          "pct_change": -6.25
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000019",
+          "next": "0.000002025",
+          "pct_change": 6.58
+        }
+      ]
+    },
     {
       "ts": "2026-06-12",
       "type": "model_removed",
@@ -350,14 +370,6 @@
         "first_seen": "2026-05-27",
         "last_seen": "2026-06-11"
       }
-    },
-    {
-      "ts": "2026-06-11",
-      "type": "context_changed",
-      "id": "deepseek/deepseek-r1-distill-llama-70b",
-      "provider": "deepseek",
-      "prev_context": 131072,
-      "next_context": 128000
     }
   ],
   "scheduled_funerals": [

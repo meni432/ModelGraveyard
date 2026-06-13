@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/all.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/all.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-06-12T00:00:00Z</updated>
+  <updated>2026-06-13T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-13:price_changed:moonshotai%2Fkimi-k2.5</id>
+    <title>Price changed: moonshotai/kimi-k2.5</title>
+    <updated>2026-06-13T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k2.5"/>
+    <category term="price_changed"/>
+    <category term="provider:moonshotai"/>
+    <summary>prompt: $0.4000/Mtok → $0.3750/Mtok (-6.25%); completion: $1.9000/Mtok → $2.0250/Mtok (+6.58%)</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-06-12:price_changed:deepseek%2Fdeepseek-v4-flash</id>
     <title>Price changed: deepseek/deepseek-v4-flash</title>
@@ -895,14 +904,5 @@
     <category term="model_removed"/>
     <category term="provider:sao10k"/>
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $1.4800/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-08:model_removed:xiaomi%2Fmimo-v2-omni</id>
-    <title>Removed: xiaomi/mimo-v2-omni</title>
-    <updated>2026-06-08T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/xiaomi%2Fmimo-v2-omni"/>
-    <category term="model_removed"/>
-    <category term="provider:xiaomi"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.4000/Mtok.</summary>
   </entry>
 </feed>
