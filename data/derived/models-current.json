@@ -2624,13 +2624,13 @@
       "name": "MoonshotAI: Kimi K2.7 Code",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.00000095",
-        "completion": "0.000004",
+        "prompt": "0.00000075",
+        "completion": "0.0000035",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 262144,
       "expiration_date": null,
       "created": 1781266361,
       "first_seen": "2026-06-12",
@@ -4077,7 +4077,7 @@
       "context_length": 128000,
       "max_completion_tokens": null,
       "expiration_date": null,
-      "created": 1778603606,
+      "created": 1781371647,
       "first_seen": "2026-06-08",
       "last_seen": "2026-06-13"
     },

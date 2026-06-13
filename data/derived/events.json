@@ -10268,6 +10268,26 @@
           "pct_change": 6.58
         }
       ]
+    },
+    {
+      "ts": "2026-06-13",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.7-code",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000095",
+          "next": "0.00000075",
+          "pct_change": -21.05
+        },
+        {
+          "field": "completion",
+          "prev": "0.000004",
+          "next": "0.0000035",
+          "pct_change": -12.5
+        }
+      ]
     }
   ]
 }
