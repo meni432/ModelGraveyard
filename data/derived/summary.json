@@ -1,9 +1,29 @@
 {
-  "generated_at": "2026-06-13",
+  "generated_at": "2026-06-14",
   "active_count": 337,
   "dead_count": 32,
-  "last_event_ts": "2026-06-13",
+  "last_event_ts": "2026-06-14",
   "recent_events": [
+    {
+      "ts": "2026-06-14",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000098",
+          "next": "0.00000009",
+          "pct_change": -8.16
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000196",
+          "next": "0.00000018",
+          "pct_change": -8.16
+        }
+      ]
+    },
     {
       "ts": "2026-06-13",
       "type": "price_changed",
@@ -345,26 +365,6 @@
           "prev": "0.00000341",
           "next": "0.00000339",
           "pct_change": -0.59
-        }
-      ]
-    },
-    {
-      "ts": "2026-06-11",
-      "type": "price_changed",
-      "id": "qwen/qwen3.7-plus",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000004",
-          "next": "0.00000032",
-          "pct_change": -20
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000016",
-          "next": "0.00000128",
-          "pct_change": -20
         }
       ]
     }
