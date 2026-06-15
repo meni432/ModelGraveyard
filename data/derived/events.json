@@ -10316,6 +10316,34 @@
       "provider": "xiaomi",
       "prev_expiration": null,
       "next_expiration": "2026-06-17"
+    },
+    {
+      "ts": "2026-06-15",
+      "type": "context_changed",
+      "id": "openrouter/fusion",
+      "provider": "openrouter",
+      "prev_context": 128000,
+      "next_context": 1000000
+    },
+    {
+      "ts": "2026-06-15",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000009",
+          "next": "0.000000098",
+          "pct_change": 8.89
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000018",
+          "next": "0.000000196",
+          "pct_change": 8.89
+        }
+      ]
     }
   ]
 }

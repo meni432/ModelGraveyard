@@ -6,6 +6,34 @@
   "recent_events": [
     {
       "ts": "2026-06-15",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000009",
+          "next": "0.000000098",
+          "pct_change": 8.89
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000018",
+          "next": "0.000000196",
+          "pct_change": 8.89
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-15",
+      "type": "context_changed",
+      "id": "openrouter/fusion",
+      "provider": "openrouter",
+      "prev_context": 128000,
+      "next_context": 1000000
+    },
+    {
+      "ts": "2026-06-15",
       "type": "deprecation_announced",
       "id": "xiaomi/mimo-v2-flash",
       "provider": "xiaomi",
@@ -319,40 +347,6 @@
           "prev": "0.0000001966",
           "next": "0.000000196",
           "pct_change": -0.31
-        }
-      ]
-    },
-    {
-      "ts": "2026-06-11",
-      "type": "price_changed",
-      "id": "google/gemma-4-31b-it",
-      "provider": "google",
-      "changes": [
-        {
-          "field": "completion",
-          "prev": "0.00000036",
-          "next": "0.00000035",
-          "pct_change": -2.78
-        }
-      ]
-    },
-    {
-      "ts": "2026-06-11",
-      "type": "price_changed",
-      "id": "moonshotai/kimi-k2.6",
-      "provider": "moonshotai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000068",
-          "next": "0.00000067",
-          "pct_change": -1.47
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000341",
-          "next": "0.00000339",
-          "pct_change": -0.59
         }
       ]
     }

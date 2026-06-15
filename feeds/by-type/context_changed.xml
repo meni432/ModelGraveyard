@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/context_changed.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/context_changed.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-06-12T00:00:00Z</updated>
+  <updated>2026-06-15T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-15:context_changed:openrouter%2Ffusion</id>
+    <title>Context window changed: openrouter/fusion</title>
+    <updated>2026-06-15T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openrouter%2Ffusion"/>
+    <category term="context_changed"/>
+    <category term="provider:openrouter"/>
+    <summary>128000 → 1000000 tokens</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-06-12:context_changed:deepseek%2Fdeepseek-chat-v3-0324</id>
     <title>Context window changed: deepseek/deepseek-chat-v3-0324</title>

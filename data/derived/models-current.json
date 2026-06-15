@@ -1077,13 +1077,13 @@
       "name": "DeepSeek: DeepSeek V4 Flash",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000009",
-        "completion": "0.00000018",
+        "prompt": "0.000000098",
+        "completion": "0.000000196",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 65536,
+      "max_completion_tokens": null,
       "expiration_date": null,
       "created": 1777000666,
       "first_seen": "2026-05-27",
@@ -4074,7 +4074,7 @@
         "image": null,
         "request": null
       },
-      "context_length": 128000,
+      "context_length": 1000000,
       "max_completion_tokens": null,
       "expiration_date": null,
       "created": 1781371647,
@@ -4891,7 +4891,7 @@
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": 81920,
       "expiration_date": null,
       "created": 1772053822,
       "first_seen": "2026-05-27",
