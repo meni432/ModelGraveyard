@@ -2,8 +2,16 @@
   "generated_at": "2026-06-15",
   "active_count": 337,
   "dead_count": 32,
-  "last_event_ts": "2026-06-14",
+  "last_event_ts": "2026-06-15",
   "recent_events": [
+    {
+      "ts": "2026-06-15",
+      "type": "deprecation_announced",
+      "id": "xiaomi/mimo-v2-flash",
+      "provider": "xiaomi",
+      "prev_expiration": null,
+      "next_expiration": "2026-06-17"
+    },
     {
       "ts": "2026-06-14",
       "type": "price_changed",
@@ -347,29 +355,14 @@
           "pct_change": -0.59
         }
       ]
-    },
-    {
-      "ts": "2026-06-11",
-      "type": "price_changed",
-      "id": "~moonshotai/kimi-latest",
-      "provider": "~moonshotai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000068",
-          "next": "0.00000067",
-          "pct_change": -1.47
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000341",
-          "next": "0.00000339",
-          "pct_change": -0.59
-        }
-      ]
     }
   ],
   "scheduled_funerals": [
+    {
+      "id": "xiaomi/mimo-v2-flash",
+      "provider": "xiaomi",
+      "expiration_date": "2026-06-17"
+    },
     {
       "id": "meta-llama/llama-3-70b-instruct",
       "provider": "meta-llama",
