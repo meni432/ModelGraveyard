@@ -1,9 +1,57 @@
 {
-  "generated_at": "2026-06-15",
+  "generated_at": "2026-06-16",
   "active_count": 337,
   "dead_count": 32,
-  "last_event_ts": "2026-06-15",
+  "last_event_ts": "2026-06-16",
   "recent_events": [
+    {
+      "ts": "2026-06-16",
+      "type": "context_changed",
+      "id": "qwen/qwen3.5-397b-a17b",
+      "provider": "qwen",
+      "prev_context": 262144,
+      "next_context": 256000
+    },
+    {
+      "ts": "2026-06-16",
+      "type": "price_changed",
+      "id": "qwen/qwen3.5-397b-a17b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000039",
+          "next": "0.000000385",
+          "pct_change": -1.28
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000234",
+          "next": "0.00000245",
+          "pct_change": 4.7
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-16",
+      "type": "price_changed",
+      "id": "x-ai/grok-4.20-multi-agent",
+      "provider": "x-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000002",
+          "next": "0.00000125",
+          "pct_change": -37.5
+        },
+        {
+          "field": "completion",
+          "prev": "0.000006",
+          "next": "0.0000025",
+          "pct_change": -58.33
+        }
+      ]
+    },
     {
       "ts": "2026-06-15",
       "type": "price_changed",
@@ -299,54 +347,6 @@
           "prev": "0.0000019",
           "next": "0.00000189",
           "pct_change": -0.53
-        }
-      ]
-    },
-    {
-      "ts": "2026-06-12",
-      "type": "context_changed",
-      "id": "deepseek/deepseek-chat-v3-0324",
-      "provider": "deepseek",
-      "prev_context": 131072,
-      "next_context": 163840
-    },
-    {
-      "ts": "2026-06-12",
-      "type": "price_changed",
-      "id": "minimax/minimax-m2.7",
-      "provider": "minimax",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000027",
-          "next": "0.00000025",
-          "pct_change": -7.41
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000108",
-          "next": "0.000001",
-          "pct_change": -7.41
-        }
-      ]
-    },
-    {
-      "ts": "2026-06-12",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-flash",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000000983",
-          "next": "0.000000098",
-          "pct_change": -0.31
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000001966",
-          "next": "0.000000196",
-          "pct_change": -0.31
         }
       ]
     }

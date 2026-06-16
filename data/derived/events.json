@@ -10344,6 +10344,54 @@
           "pct_change": 8.89
         }
       ]
+    },
+    {
+      "ts": "2026-06-16",
+      "type": "price_changed",
+      "id": "x-ai/grok-4.20-multi-agent",
+      "provider": "x-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000002",
+          "next": "0.00000125",
+          "pct_change": -37.5
+        },
+        {
+          "field": "completion",
+          "prev": "0.000006",
+          "next": "0.0000025",
+          "pct_change": -58.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-16",
+      "type": "price_changed",
+      "id": "qwen/qwen3.5-397b-a17b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000039",
+          "next": "0.000000385",
+          "pct_change": -1.28
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000234",
+          "next": "0.00000245",
+          "pct_change": 4.7
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-16",
+      "type": "context_changed",
+      "id": "qwen/qwen3.5-397b-a17b",
+      "provider": "qwen",
+      "prev_context": 262144,
+      "next_context": 256000
     }
   ]
 }
