@@ -60,6 +60,24 @@
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.2900/Mtok.</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-06-16:model_added:z-ai%2Fglm-5.2</id>
+    <title>Added: z-ai/glm-5.2</title>
+    <updated>2026-06-16T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
+    <category term="model_added"/>
+    <category term="provider:z-ai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $1.4000/Mtok, context: 1048576.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-16:price_changed:moonshotai%2Fkimi-k2.7-code</id>
+    <title>Price changed: moonshotai/kimi-k2.7-code</title>
+    <updated>2026-06-16T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k2.7-code"/>
+    <category term="price_changed"/>
+    <category term="provider:moonshotai"/>
+    <summary>prompt: $0.7500/Mtok → $0.7400/Mtok (-1.33%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-06-15:deprecation_announced:xiaomi%2Fmimo-v2-flash</id>
     <title>Deprecation announced: xiaomi/mimo-v2-flash (sunset 2026-06-17)</title>
     <updated>2026-06-15T00:00:00Z</updated>
@@ -886,23 +904,5 @@
     <category term="model_removed"/>
     <category term="provider:deepseek"/>
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-08:model_removed:google%2Fgemini-2.0-flash-001</id>
-    <title>Removed: google/gemini-2.0-flash-001</title>
-    <updated>2026-06-08T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-2.0-flash-001"/>
-    <category term="model_removed"/>
-    <category term="provider:google"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-08:model_removed:google%2Fgemini-2.0-flash-lite-001</id>
-    <title>Removed: google/gemini-2.0-flash-lite-001</title>
-    <updated>2026-06-08T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-2.0-flash-lite-001"/>
-    <category term="model_removed"/>
-    <category term="provider:google"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0750/Mtok.</summary>
   </entry>
 </feed>

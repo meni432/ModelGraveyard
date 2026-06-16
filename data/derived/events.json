@@ -10449,6 +10449,43 @@
         "first_seen": "2026-05-27",
         "last_seen": "2026-06-16"
       }
+    },
+    {
+      "ts": "2026-06-16",
+      "type": "model_added",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "snapshot": {
+        "id": "z-ai/glm-5.2",
+        "name": "Z.ai: GLM 5.2",
+        "provider": "z-ai",
+        "pricing": {
+          "prompt": "0.0000014",
+          "completion": "0.0000044",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": 131072,
+        "expiration_date": "2098-12-31",
+        "created": 1781631930,
+        "first_seen": "2026-06-16",
+        "last_seen": "2026-06-16"
+      }
+    },
+    {
+      "ts": "2026-06-16",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.7-code",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000075",
+          "next": "0.00000074",
+          "pct_change": -1.33
+        }
+      ]
     }
   ]
 }
