@@ -1,6 +1,23 @@
 {
   "buried": [
     {
+      "id": "deepseek/deepseek-r1-distill-qwen-32b",
+      "name": "DeepSeek: R1 Distill Qwen 32B",
+      "provider": "deepseek",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000029",
+        "completion": "0.00000029",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 128000,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-06-16",
+      "buried_at": "2026-06-16",
+      "suggested_replacement": "deepseek/deepseek-r1-distill-llama-70b"
+    },
+    {
       "id": "meta-llama/llama-guard-3-8b",
       "name": "Llama Guard 3 8B",
       "provider": "meta-llama",

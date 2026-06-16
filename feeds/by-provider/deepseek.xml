@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/deepseek.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/deepseek.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-06-15T00:00:00Z</updated>
+  <updated>2026-06-16T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-16:model_removed:deepseek%2Fdeepseek-r1-distill-qwen-32b</id>
+    <title>Removed: deepseek/deepseek-r1-distill-qwen-32b</title>
+    <updated>2026-06-16T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-r1-distill-qwen-32b"/>
+    <category term="model_removed"/>
+    <category term="provider:deepseek"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.2900/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-06-15:price_changed:deepseek%2Fdeepseek-v4-flash</id>
     <title>Price changed: deepseek/deepseek-v4-flash</title>

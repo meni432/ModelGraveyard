@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/z-ai.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/z-ai.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-06-10T00:00:00Z</updated>
+  <updated>2026-06-16T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-16:price_changed:z-ai%2Fglm-4.5-air</id>
+    <title>Price changed: z-ai/glm-4.5-air</title>
+    <updated>2026-06-16T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-4.5-air"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>prompt: $0.1250/Mtok → $0.1300/Mtok (+4%)</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-06-10:context_changed:z-ai%2Fglm-5-turbo</id>
     <title>Context window changed: z-ai/glm-5-turbo</title>

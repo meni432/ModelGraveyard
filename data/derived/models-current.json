@@ -1005,23 +1005,6 @@
       "last_seen": "2026-06-16"
     },
     {
-      "id": "deepseek/deepseek-r1-distill-qwen-32b",
-      "name": "DeepSeek: R1 Distill Qwen 32B",
-      "provider": "deepseek",
-      "pricing": {
-        "prompt": "0.00000029",
-        "completion": "0.00000029",
-        "image": null,
-        "request": null
-      },
-      "context_length": 128000,
-      "max_completion_tokens": 32768,
-      "expiration_date": null,
-      "created": 1738194830,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-06-16"
-    },
-    {
       "id": "deepseek/deepseek-v3.1-terminus",
       "name": "DeepSeek: DeepSeek V3.1 Terminus",
       "provider": "deepseek",
@@ -5582,13 +5565,13 @@
       "name": "Z.ai: GLM 4.5 Air",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.000000125",
+        "prompt": "0.00000013",
         "completion": "0.00000085",
         "image": null,
         "request": null
       },
       "context_length": 131072,
-      "max_completion_tokens": 131070,
+      "max_completion_tokens": 98304,
       "expiration_date": null,
       "created": 1753471258,
       "first_seen": "2026-05-27",

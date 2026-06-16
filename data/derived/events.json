@@ -10412,6 +10412,43 @@
           "pct_change": 23.81
         }
       ]
+    },
+    {
+      "ts": "2026-06-16",
+      "type": "price_changed",
+      "id": "z-ai/glm-4.5-air",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000125",
+          "next": "0.00000013",
+          "pct_change": 4
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-16",
+      "type": "model_removed",
+      "id": "deepseek/deepseek-r1-distill-qwen-32b",
+      "provider": "deepseek",
+      "snapshot": {
+        "id": "deepseek/deepseek-r1-distill-qwen-32b",
+        "name": "DeepSeek: R1 Distill Qwen 32B",
+        "provider": "deepseek",
+        "pricing": {
+          "prompt": "0.00000029",
+          "completion": "0.00000029",
+          "image": null,
+          "request": null
+        },
+        "context_length": 128000,
+        "max_completion_tokens": 32768,
+        "expiration_date": null,
+        "created": 1738194830,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-16"
+      }
     }
   ]
 }
