@@ -33,6 +33,15 @@
     <summary>262144 → 256000 tokens</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-06-16:price_changed:tencent%2Fhy3-preview</id>
+    <title>Price changed: tencent/hy3-preview</title>
+    <updated>2026-06-16T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/tencent%2Fhy3-preview"/>
+    <category term="price_changed"/>
+    <category term="provider:tencent"/>
+    <summary>prompt: $0.0630/Mtok → $0.0660/Mtok (+4.76%); completion: $0.2100/Mtok → $0.2600/Mtok (+23.81%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-06-15:deprecation_announced:xiaomi%2Fmimo-v2-flash</id>
     <title>Deprecation announced: xiaomi/mimo-v2-flash (sunset 2026-06-17)</title>
     <updated>2026-06-15T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="model_removed"/>
     <category term="provider:mistralai"/>
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.4000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-08:model_removed:mistralai%2Fdevstral-small</id>
-    <title>Removed: mistralai/devstral-small</title>
-    <updated>2026-06-08T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/mistralai%2Fdevstral-small"/>
-    <category term="model_removed"/>
-    <category term="provider:mistralai"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1000/Mtok.</summary>
   </entry>
 </feed>

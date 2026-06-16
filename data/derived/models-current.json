@@ -5310,13 +5310,13 @@
       "name": "Tencent: Hy3 preview",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000063",
-        "completion": "0.00000021",
+        "prompt": "0.000000066",
+        "completion": "0.00000026",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 262144,
       "expiration_date": null,
       "created": 1776878150,
       "first_seen": "2026-05-27",

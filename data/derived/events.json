@@ -10392,6 +10392,26 @@
       "provider": "qwen",
       "prev_context": 262144,
       "next_context": 256000
+    },
+    {
+      "ts": "2026-06-16",
+      "type": "price_changed",
+      "id": "tencent/hy3-preview",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000063",
+          "next": "0.000000066",
+          "pct_change": 4.76
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000021",
+          "next": "0.00000026",
+          "pct_change": 23.81
+        }
+      ]
     }
   ]
 }

@@ -6,6 +6,26 @@
   "recent_events": [
     {
       "ts": "2026-06-16",
+      "type": "price_changed",
+      "id": "tencent/hy3-preview",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000063",
+          "next": "0.000000066",
+          "pct_change": 4.76
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000021",
+          "next": "0.00000026",
+          "pct_change": 23.81
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-16",
       "type": "context_changed",
       "id": "qwen/qwen3.5-397b-a17b",
       "provider": "qwen",
@@ -329,26 +349,6 @@
       "provider": "deepseek",
       "prev_context": 163840,
       "next_context": 131072
-    },
-    {
-      "ts": "2026-06-12",
-      "type": "price_changed",
-      "id": "moonshotai/kimi-k2.5",
-      "provider": "moonshotai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000004",
-          "next": "0.00000035",
-          "pct_change": -12.5
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000019",
-          "next": "0.00000189",
-          "pct_change": -0.53
-        }
-      ]
     }
   ],
   "scheduled_funerals": [
