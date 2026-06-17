@@ -24,6 +24,15 @@
     <summary>prompt: $0.0980/Mtok → $0.0900/Mtok (-8.16%); completion: $0.1960/Mtok → $0.1800/Mtok (-8.16%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-06-17:model_removed:xiaomi%2Fmimo-v2-flash</id>
+    <title>Removed: xiaomi/mimo-v2-flash</title>
+    <updated>2026-06-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/xiaomi%2Fmimo-v2-flash"/>
+    <category term="model_removed"/>
+    <category term="provider:xiaomi"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1000/Mtok.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-06-16:price_changed:x-ai%2Fgrok-4.20-multi-agent</id>
     <title>Price changed: x-ai/grok-4.20-multi-agent</title>
     <updated>2026-06-16T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="model_removed"/>
     <category term="provider:baidu"/>
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1400/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-08:model_removed:baidu%2Fqianfan-ocr-fast</id>
-    <title>Removed: baidu/qianfan-ocr-fast</title>
-    <updated>2026-06-08T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/baidu%2Fqianfan-ocr-fast"/>
-    <category term="model_removed"/>
-    <category term="provider:baidu"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.6800/Mtok.</summary>
   </entry>
 </feed>

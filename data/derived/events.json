@@ -10520,6 +10520,29 @@
           "pct_change": -8.16
         }
       ]
+    },
+    {
+      "ts": "2026-06-17",
+      "type": "model_removed",
+      "id": "xiaomi/mimo-v2-flash",
+      "provider": "xiaomi",
+      "snapshot": {
+        "id": "xiaomi/mimo-v2-flash",
+        "name": "Xiaomi: MiMo-V2-Flash",
+        "provider": "xiaomi",
+        "pricing": {
+          "prompt": "0.0000001",
+          "completion": "0.0000003",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 65536,
+        "expiration_date": "2026-06-17",
+        "created": 1765731308,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-17"
+      }
     }
   ]
 }

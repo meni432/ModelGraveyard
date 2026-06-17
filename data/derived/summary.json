@@ -1,9 +1,32 @@
 {
   "generated_at": "2026-06-17",
-  "active_count": 337,
-  "dead_count": 33,
+  "active_count": 336,
+  "dead_count": 34,
   "last_event_ts": "2026-06-17",
   "recent_events": [
+    {
+      "ts": "2026-06-17",
+      "type": "model_removed",
+      "id": "xiaomi/mimo-v2-flash",
+      "provider": "xiaomi",
+      "snapshot": {
+        "id": "xiaomi/mimo-v2-flash",
+        "name": "Xiaomi: MiMo-V2-Flash",
+        "provider": "xiaomi",
+        "pricing": {
+          "prompt": "0.0000001",
+          "completion": "0.0000003",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 65536,
+        "expiration_date": "2026-06-17",
+        "created": 1765731308,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-17"
+      }
+    },
     {
       "ts": "2026-06-17",
       "type": "price_changed",
@@ -326,34 +349,9 @@
           "pct_change": 0.59
         }
       ]
-    },
-    {
-      "ts": "2026-06-12",
-      "type": "price_changed",
-      "id": "qwen/qwen3.6-27b",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000287",
-          "next": "0.0000002885",
-          "pct_change": 0.52
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000031",
-          "next": "0.00000317",
-          "pct_change": 2.26
-        }
-      ]
     }
   ],
   "scheduled_funerals": [
-    {
-      "id": "xiaomi/mimo-v2-flash",
-      "provider": "xiaomi",
-      "expiration_date": "2026-06-17"
-    },
     {
       "id": "meta-llama/llama-3-70b-instruct",
       "provider": "meta-llama",
