@@ -10486,6 +10486,40 @@
           "pct_change": -1.33
         }
       ]
+    },
+    {
+      "ts": "2026-06-17",
+      "type": "price_changed",
+      "id": "nvidia/nemotron-3-ultra-550b-a55b",
+      "provider": "nvidia",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.0000025",
+          "next": "0.0000022",
+          "pct_change": -12
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-17",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000098",
+          "next": "0.00000009",
+          "pct_change": -8.16
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000196",
+          "next": "0.00000018",
+          "pct_change": -8.16
+        }
+      ]
     }
   ]
 }
