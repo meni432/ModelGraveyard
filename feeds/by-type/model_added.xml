@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_added.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_added.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-06-16T00:00:00Z</updated>
+  <updated>2026-06-18T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-18:model_added:cohere%2Fnorth-mini-code%3Afree</id>
+    <title>Added: cohere/north-mini-code:free</title>
+    <updated>2026-06-18T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/cohere%2Fnorth-mini-code%3Afree"/>
+    <category term="model_added"/>
+    <category term="provider:cohere"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 256000.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-06-16:model_added:z-ai%2Fglm-5.2</id>
     <title>Added: z-ai/glm-5.2</title>
@@ -895,14 +904,5 @@
     <category term="model_added"/>
     <category term="provider:aion-labs"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.8000/Mtok, context: 131072.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:google%2Fgemini-3.1-pro-preview</id>
-    <title>Added: google/gemini-3.1-pro-preview</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-3.1-pro-preview"/>
-    <category term="model_added"/>
-    <category term="provider:google"/>
-    <summary>New model on OpenRouter. Initial prompt price: $2.0000/Mtok, context: 1048576.</summary>
   </entry>
 </feed>

@@ -1,9 +1,32 @@
 {
-  "generated_at": "2026-06-17",
-  "active_count": 336,
+  "generated_at": "2026-06-18",
+  "active_count": 337,
   "dead_count": 34,
-  "last_event_ts": "2026-06-17",
+  "last_event_ts": "2026-06-18",
   "recent_events": [
+    {
+      "ts": "2026-06-18",
+      "type": "model_added",
+      "id": "cohere/north-mini-code:free",
+      "provider": "cohere",
+      "snapshot": {
+        "id": "cohere/north-mini-code:free",
+        "name": "Cohere: North Mini Code (free)",
+        "provider": "cohere",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 256000,
+        "max_completion_tokens": 64000,
+        "expiration_date": null,
+        "created": 1781723748,
+        "first_seen": "2026-06-18",
+        "last_seen": "2026-06-18"
+      }
+    },
     {
       "ts": "2026-06-17",
       "type": "model_removed",
@@ -329,26 +352,6 @@
       "provider": "deepseek",
       "prev_context": 131072,
       "next_context": 163840
-    },
-    {
-      "ts": "2026-06-12",
-      "type": "price_changed",
-      "id": "moonshotai/kimi-k2.6",
-      "provider": "moonshotai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000067",
-          "next": "0.00000068",
-          "pct_change": 1.49
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000339",
-          "next": "0.00000341",
-          "pct_change": 0.59
-        }
-      ]
     }
   ],
   "scheduled_funerals": [

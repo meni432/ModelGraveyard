@@ -10543,6 +10543,29 @@
         "first_seen": "2026-05-27",
         "last_seen": "2026-06-17"
       }
+    },
+    {
+      "ts": "2026-06-18",
+      "type": "model_added",
+      "id": "cohere/north-mini-code:free",
+      "provider": "cohere",
+      "snapshot": {
+        "id": "cohere/north-mini-code:free",
+        "name": "Cohere: North Mini Code (free)",
+        "provider": "cohere",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 256000,
+        "max_completion_tokens": 64000,
+        "expiration_date": null,
+        "created": 1781723748,
+        "first_seen": "2026-06-18",
+        "last_seen": "2026-06-18"
+      }
     }
   ]
 }
