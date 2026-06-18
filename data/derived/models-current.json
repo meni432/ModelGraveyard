@@ -2716,7 +2716,7 @@
       },
       "context_length": 262144,
       "max_completion_tokens": 262144,
-      "expiration_date": null,
+      "expiration_date": "2026-06-22",
       "created": 1780937140,
       "first_seen": "2026-06-08",
       "last_seen": "2026-06-18"
@@ -4252,6 +4252,23 @@
       "last_seen": "2026-06-18"
     },
     {
+      "id": "poolside/laguna-m.1",
+      "name": "Poolside: Laguna M.1",
+      "provider": "poolside",
+      "pricing": {
+        "prompt": "0.0000002",
+        "completion": "0.0000004",
+        "image": null,
+        "request": null
+      },
+      "context_length": 262144,
+      "max_completion_tokens": 32768,
+      "expiration_date": null,
+      "created": 1777388504,
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    {
       "id": "poolside/laguna-m.1:free",
       "name": "Poolside: Laguna M.1 (free)",
       "provider": "poolside",
@@ -4266,6 +4283,23 @@
       "expiration_date": null,
       "created": 1777388504,
       "first_seen": "2026-05-27",
+      "last_seen": "2026-06-18"
+    },
+    {
+      "id": "poolside/laguna-xs.2",
+      "name": "Poolside: Laguna XS.2",
+      "provider": "poolside",
+      "pricing": {
+        "prompt": "0.0000001",
+        "completion": "0.0000002",
+        "image": null,
+        "request": null
+      },
+      "context_length": 262144,
+      "max_completion_tokens": 32768,
+      "expiration_date": null,
+      "created": 1777389604,
+      "first_seen": "2026-06-18",
       "last_seen": "2026-06-18"
     },
     {
@@ -4925,7 +4959,7 @@
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 81920,
+      "max_completion_tokens": 262144,
       "expiration_date": null,
       "created": 1772053822,
       "first_seen": "2026-05-27",
@@ -5038,7 +5072,7 @@
       "name": "Qwen: Qwen3.6 35B A3B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000015",
+        "prompt": "0.00000014",
         "completion": "0.000001",
         "image": null,
         "request": null
@@ -5758,7 +5792,7 @@
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": 524288,
       "expiration_date": null,
       "created": 1781631930,
       "first_seen": "2026-06-16",

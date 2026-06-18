@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/qwen.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/qwen.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-06-16T00:00:00Z</updated>
+  <updated>2026-06-18T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-18:price_changed:qwen%2Fqwen3.6-35b-a3b</id>
+    <title>Price changed: qwen/qwen3.6-35b-a3b</title>
+    <updated>2026-06-18T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3.6-35b-a3b"/>
+    <category term="price_changed"/>
+    <category term="provider:qwen"/>
+    <summary>prompt: $0.1500/Mtok → $0.1400/Mtok (-6.67%)</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-06-16:price_changed:qwen%2Fqwen3.5-397b-a17b</id>
     <title>Price changed: qwen/qwen3.5-397b-a17b</title>

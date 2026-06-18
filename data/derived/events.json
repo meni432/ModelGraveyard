@@ -10612,6 +10612,74 @@
         "first_seen": "2026-06-18",
         "last_seen": "2026-06-18"
       }
+    },
+    {
+      "ts": "2026-06-18",
+      "type": "deprecation_announced",
+      "id": "nex-agi/nex-n2-pro:free",
+      "provider": "nex-agi",
+      "prev_expiration": null,
+      "next_expiration": "2026-06-22"
+    },
+    {
+      "ts": "2026-06-18",
+      "type": "model_added",
+      "id": "poolside/laguna-xs.2",
+      "provider": "poolside",
+      "snapshot": {
+        "id": "poolside/laguna-xs.2",
+        "name": "Poolside: Laguna XS.2",
+        "provider": "poolside",
+        "pricing": {
+          "prompt": "0.0000001",
+          "completion": "0.0000002",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 32768,
+        "expiration_date": null,
+        "created": 1777389604,
+        "first_seen": "2026-06-18",
+        "last_seen": "2026-06-18"
+      }
+    },
+    {
+      "ts": "2026-06-18",
+      "type": "model_added",
+      "id": "poolside/laguna-m.1",
+      "provider": "poolside",
+      "snapshot": {
+        "id": "poolside/laguna-m.1",
+        "name": "Poolside: Laguna M.1",
+        "provider": "poolside",
+        "pricing": {
+          "prompt": "0.0000002",
+          "completion": "0.0000004",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 32768,
+        "expiration_date": null,
+        "created": 1777388504,
+        "first_seen": "2026-06-18",
+        "last_seen": "2026-06-18"
+      }
+    },
+    {
+      "ts": "2026-06-18",
+      "type": "price_changed",
+      "id": "qwen/qwen3.6-35b-a3b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000015",
+          "next": "0.00000014",
+          "pct_change": -6.67
+        }
+      ]
     }
   ]
 }

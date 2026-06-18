@@ -1,9 +1,77 @@
 {
   "generated_at": "2026-06-18",
-  "active_count": 339,
+  "active_count": 341,
   "dead_count": 34,
   "last_event_ts": "2026-06-18",
   "recent_events": [
+    {
+      "ts": "2026-06-18",
+      "type": "price_changed",
+      "id": "qwen/qwen3.6-35b-a3b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000015",
+          "next": "0.00000014",
+          "pct_change": -6.67
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-18",
+      "type": "model_added",
+      "id": "poolside/laguna-m.1",
+      "provider": "poolside",
+      "snapshot": {
+        "id": "poolside/laguna-m.1",
+        "name": "Poolside: Laguna M.1",
+        "provider": "poolside",
+        "pricing": {
+          "prompt": "0.0000002",
+          "completion": "0.0000004",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 32768,
+        "expiration_date": null,
+        "created": 1777388504,
+        "first_seen": "2026-06-18",
+        "last_seen": "2026-06-18"
+      }
+    },
+    {
+      "ts": "2026-06-18",
+      "type": "model_added",
+      "id": "poolside/laguna-xs.2",
+      "provider": "poolside",
+      "snapshot": {
+        "id": "poolside/laguna-xs.2",
+        "name": "Poolside: Laguna XS.2",
+        "provider": "poolside",
+        "pricing": {
+          "prompt": "0.0000001",
+          "completion": "0.0000002",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 32768,
+        "expiration_date": null,
+        "created": 1777389604,
+        "first_seen": "2026-06-18",
+        "last_seen": "2026-06-18"
+      }
+    },
+    {
+      "ts": "2026-06-18",
+      "type": "deprecation_announced",
+      "id": "nex-agi/nex-n2-pro:free",
+      "provider": "nex-agi",
+      "prev_expiration": null,
+      "next_expiration": "2026-06-22"
+    },
     {
       "ts": "2026-06-18",
       "type": "model_added",
@@ -299,74 +367,6 @@
       "provider": "openrouter",
       "prev_context": 128000,
       "next_context": 1000000
-    },
-    {
-      "ts": "2026-06-15",
-      "type": "deprecation_announced",
-      "id": "xiaomi/mimo-v2-flash",
-      "provider": "xiaomi",
-      "prev_expiration": null,
-      "next_expiration": "2026-06-17"
-    },
-    {
-      "ts": "2026-06-14",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-flash",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000098",
-          "next": "0.00000009",
-          "pct_change": -8.16
-        },
-        {
-          "field": "completion",
-          "prev": "0.000000196",
-          "next": "0.00000018",
-          "pct_change": -8.16
-        }
-      ]
-    },
-    {
-      "ts": "2026-06-13",
-      "type": "price_changed",
-      "id": "moonshotai/kimi-k2.7-code",
-      "provider": "moonshotai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000095",
-          "next": "0.00000075",
-          "pct_change": -21.05
-        },
-        {
-          "field": "completion",
-          "prev": "0.000004",
-          "next": "0.0000035",
-          "pct_change": -12.5
-        }
-      ]
-    },
-    {
-      "ts": "2026-06-13",
-      "type": "price_changed",
-      "id": "moonshotai/kimi-k2.5",
-      "provider": "moonshotai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000004",
-          "next": "0.000000375",
-          "pct_change": -6.25
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000019",
-          "next": "0.000002025",
-          "pct_change": 6.58
-        }
-      ]
     }
   ],
   "scheduled_funerals": [
@@ -379,6 +379,11 @@
       "id": "z-ai/glm-4.5",
       "provider": "z-ai",
       "expiration_date": "2026-06-19"
+    },
+    {
+      "id": "nex-agi/nex-n2-pro:free",
+      "provider": "nex-agi",
+      "expiration_date": "2026-06-22"
     },
     {
       "id": "anthropic/claude-opus-4.6-fast",

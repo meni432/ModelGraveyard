@@ -33,6 +33,24 @@
     <summary>New model on OpenRouter. Initial prompt price: $2.0000/Mtok, context: 65536.</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-06-18:model_added:poolside%2Flaguna-xs.2</id>
+    <title>Added: poolside/laguna-xs.2</title>
+    <updated>2026-06-18T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/poolside%2Flaguna-xs.2"/>
+    <category term="model_added"/>
+    <category term="provider:poolside"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.1000/Mtok, context: 262144.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-18:model_added:poolside%2Flaguna-m.1</id>
+    <title>Added: poolside/laguna-m.1</title>
+    <updated>2026-06-18T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/poolside%2Flaguna-m.1"/>
+    <category term="model_added"/>
+    <category term="provider:poolside"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.2000/Mtok, context: 262144.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-06-16:model_added:z-ai%2Fglm-5.2</id>
     <title>Added: z-ai/glm-5.2</title>
     <updated>2026-06-16T00:00:00Z</updated>
@@ -886,23 +904,5 @@
     <category term="model_added"/>
     <category term="provider:qwen"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.0650/Mtok, context: 1000000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:liquid%2Flfm-2-24b-a2b</id>
-    <title>Added: liquid/lfm-2-24b-a2b</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/liquid%2Flfm-2-24b-a2b"/>
-    <category term="model_added"/>
-    <category term="provider:liquid"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.0300/Mtok, context: 128000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:google%2Fgemini-3.1-pro-preview-customtools</id>
-    <title>Added: google/gemini-3.1-pro-preview-customtools</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-3.1-pro-preview-customtools"/>
-    <category term="model_added"/>
-    <category term="provider:google"/>
-    <summary>New model on OpenRouter. Initial prompt price: $2.0000/Mtok, context: 1048756.</summary>
   </entry>
 </feed>
