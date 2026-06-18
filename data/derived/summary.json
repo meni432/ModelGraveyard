@@ -1,9 +1,55 @@
 {
   "generated_at": "2026-06-18",
-  "active_count": 337,
+  "active_count": 339,
   "dead_count": 34,
   "last_event_ts": "2026-06-18",
   "recent_events": [
+    {
+      "ts": "2026-06-18",
+      "type": "model_added",
+      "id": "google/gemini-3-pro-image",
+      "provider": "google",
+      "snapshot": {
+        "id": "google/gemini-3-pro-image",
+        "name": "Google: Nano Banana Pro (Gemini 3 Pro Image)",
+        "provider": "google",
+        "pricing": {
+          "prompt": "0.000002",
+          "completion": "0.000012",
+          "image": "0.000002",
+          "request": null
+        },
+        "context_length": 65536,
+        "max_completion_tokens": 32768,
+        "expiration_date": null,
+        "created": 1781754054,
+        "first_seen": "2026-06-18",
+        "last_seen": "2026-06-18"
+      }
+    },
+    {
+      "ts": "2026-06-18",
+      "type": "model_added",
+      "id": "google/gemini-3.1-flash-image",
+      "provider": "google",
+      "snapshot": {
+        "id": "google/gemini-3.1-flash-image",
+        "name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image)",
+        "provider": "google",
+        "pricing": {
+          "prompt": "0.0000005",
+          "completion": "0.000003",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": 65536,
+        "expiration_date": null,
+        "created": 1781754065,
+        "first_seen": "2026-06-18",
+        "last_seen": "2026-06-18"
+      }
+    },
     {
       "ts": "2026-06-18",
       "type": "model_added",
@@ -321,37 +367,6 @@
           "pct_change": 6.58
         }
       ]
-    },
-    {
-      "ts": "2026-06-12",
-      "type": "model_removed",
-      "id": "meta-llama/llama-guard-3-8b",
-      "provider": "meta-llama",
-      "snapshot": {
-        "id": "meta-llama/llama-guard-3-8b",
-        "name": "Llama Guard 3 8B",
-        "provider": "meta-llama",
-        "pricing": {
-          "prompt": "0.000000484",
-          "completion": "0.00000003",
-          "image": null,
-          "request": null
-        },
-        "context_length": 131072,
-        "max_completion_tokens": 131072,
-        "expiration_date": null,
-        "created": 1739401318,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-06-12"
-      }
-    },
-    {
-      "ts": "2026-06-12",
-      "type": "context_changed",
-      "id": "deepseek/deepseek-chat-v3-0324",
-      "provider": "deepseek",
-      "prev_context": 131072,
-      "next_context": 163840
     }
   ],
   "scheduled_funerals": [

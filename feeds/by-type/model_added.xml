@@ -15,6 +15,24 @@
     <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 256000.</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-06-18:model_added:google%2Fgemini-3.1-flash-image</id>
+    <title>Added: google/gemini-3.1-flash-image</title>
+    <updated>2026-06-18T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-3.1-flash-image"/>
+    <category term="model_added"/>
+    <category term="provider:google"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.5000/Mtok, context: 131072.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-18:model_added:google%2Fgemini-3-pro-image</id>
+    <title>Added: google/gemini-3-pro-image</title>
+    <updated>2026-06-18T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-3-pro-image"/>
+    <category term="model_added"/>
+    <category term="provider:google"/>
+    <summary>New model on OpenRouter. Initial prompt price: $2.0000/Mtok, context: 65536.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-06-16:model_added:z-ai%2Fglm-5.2</id>
     <title>Added: z-ai/glm-5.2</title>
     <updated>2026-06-16T00:00:00Z</updated>
@@ -886,23 +904,5 @@
     <category term="model_added"/>
     <category term="provider:google"/>
     <summary>New model on OpenRouter. Initial prompt price: $2.0000/Mtok, context: 1048756.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:openai%2Fgpt-5.3-codex</id>
-    <title>Added: openai/gpt-5.3-codex</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5.3-codex"/>
-    <category term="model_added"/>
-    <category term="provider:openai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $1.7500/Mtok, context: 400000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:aion-labs%2Faion-2.0</id>
-    <title>Added: aion-labs/aion-2.0</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/aion-labs%2Faion-2.0"/>
-    <category term="model_added"/>
-    <category term="provider:aion-labs"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.8000/Mtok, context: 131072.</summary>
   </entry>
 </feed>
