@@ -1304,7 +1304,7 @@
         "request": null
       },
       "context_length": 131072,
-      "max_completion_tokens": 32768,
+      "max_completion_tokens": 65536,
       "expiration_date": null,
       "created": 1781754065,
       "first_seen": "2026-06-18",
@@ -1321,7 +1321,7 @@
         "request": null
       },
       "context_length": 131072,
-      "max_completion_tokens": 32768,
+      "max_completion_tokens": 65536,
       "expiration_date": null,
       "created": 1772119558,
       "first_seen": "2026-05-27",
@@ -1559,7 +1559,7 @@
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 32768,
+      "max_completion_tokens": 8192,
       "expiration_date": null,
       "created": 1775148486,
       "first_seen": "2026-05-27",
@@ -1762,8 +1762,8 @@
         "image": null,
         "request": null
       },
-      "context_length": 262144,
-      "max_completion_tokens": 144000,
+      "context_length": 256000,
+      "max_completion_tokens": 80000,
       "expiration_date": null,
       "created": 1774649310,
       "first_seen": "2026-05-27",
@@ -2239,7 +2239,7 @@
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 512000,
       "expiration_date": null,
       "created": 1780245374,
       "first_seen": "2026-06-08",
@@ -3140,7 +3140,7 @@
         "request": null
       },
       "context_length": 1047576,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 32768,
       "expiration_date": null,
       "created": 1744651381,
       "first_seen": "2026-05-27",
@@ -3395,7 +3395,7 @@
         "request": null
       },
       "context_length": 400000,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 128000,
       "expiration_date": null,
       "created": 1754587407,
       "first_seen": "2026-05-27",
@@ -3463,7 +3463,7 @@
         "request": null
       },
       "context_length": 128000,
-      "max_completion_tokens": 16384,
+      "max_completion_tokens": 32000,
       "expiration_date": null,
       "created": 1763060302,
       "first_seen": "2026-05-27",
@@ -3548,8 +3548,8 @@
         "request": null
       },
       "context_length": 128000,
-      "max_completion_tokens": 32000,
-      "expiration_date": null,
+      "max_completion_tokens": 16384,
+      "expiration_date": "2026-08-10",
       "created": 1765389783,
       "first_seen": "2026-05-27",
       "last_seen": "2026-06-19"
@@ -3600,7 +3600,7 @@
       },
       "context_length": 128000,
       "max_completion_tokens": 16384,
-      "expiration_date": "2026-08-10",
+      "expiration_date": null,
       "created": 1772564061,
       "first_seen": "2026-05-27",
       "last_seen": "2026-06-19"
@@ -4959,7 +4959,7 @@
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 81920,
+      "max_completion_tokens": 262144,
       "expiration_date": null,
       "created": 1772053822,
       "first_seen": "2026-05-27",
@@ -4992,8 +4992,8 @@
         "image": null,
         "request": null
       },
-      "context_length": 256000,
-      "max_completion_tokens": 32768,
+      "context_length": 262144,
+      "max_completion_tokens": 262144,
       "expiration_date": null,
       "created": 1773152396,
       "first_seen": "2026-05-27",
