@@ -6,6 +6,26 @@
   "recent_events": [
     {
       "ts": "2026-06-19",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.7-code",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000074",
+          "next": "0.00000068",
+          "pct_change": -8.11
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000035",
+          "next": "0.00000341",
+          "pct_change": -2.57
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-19",
       "type": "model_removed",
       "id": "meta-llama/llama-3-70b-instruct",
       "provider": "meta-llama",
@@ -254,29 +274,6 @@
         "max_completion_tokens": 32768,
         "expiration_date": null,
         "created": 1781754054,
-        "first_seen": "2026-06-18",
-        "last_seen": "2026-06-18"
-      }
-    },
-    {
-      "ts": "2026-06-18",
-      "type": "model_added",
-      "id": "google/gemini-3.1-flash-image",
-      "provider": "google",
-      "snapshot": {
-        "id": "google/gemini-3.1-flash-image",
-        "name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image)",
-        "provider": "google",
-        "pricing": {
-          "prompt": "0.0000005",
-          "completion": "0.000003",
-          "image": null,
-          "request": null
-        },
-        "context_length": 131072,
-        "max_completion_tokens": 65536,
-        "expiration_date": null,
-        "created": 1781754065,
         "first_seen": "2026-06-18",
         "last_seen": "2026-06-18"
       }
