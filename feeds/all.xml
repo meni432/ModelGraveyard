@@ -87,6 +87,51 @@
     <summary>Provider announced retirement on 2026-08-10.</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-06-19:context_changed:kwaipilot%2Fkat-coder-pro-v2</id>
+    <title>Context window changed: kwaipilot/kat-coder-pro-v2</title>
+    <updated>2026-06-19T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/kwaipilot%2Fkat-coder-pro-v2"/>
+    <category term="context_changed"/>
+    <category term="provider:kwaipilot"/>
+    <summary>256000 → 262144 tokens</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-19:context_changed:qwen%2Fqwen3.5-9b</id>
+    <title>Context window changed: qwen/qwen3.5-9b</title>
+    <updated>2026-06-19T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3.5-9b"/>
+    <category term="context_changed"/>
+    <category term="provider:qwen"/>
+    <summary>262144 → 256000 tokens</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-19:deprecation_announced:openai%2Fgpt-5.3-chat</id>
+    <title>Deprecation announced: openai/gpt-5.3-chat (sunset 2026-08-10)</title>
+    <updated>2026-06-19T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5.3-chat"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:openai"/>
+    <summary>Provider announced retirement on 2026-08-10.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-19:deprecation_announced:z-ai%2Fglm-4.5</id>
+    <title>Deprecation announced: z-ai/glm-4.5 (sunset 2026-12-31)</title>
+    <updated>2026-06-19T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-4.5"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:z-ai"/>
+    <summary>Provider announced retirement on 2026-12-31.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-19:model_removed:meta-llama%2Fllama-3-70b-instruct</id>
+    <title>Removed: meta-llama/llama-3-70b-instruct</title>
+    <updated>2026-06-19T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meta-llama%2Fllama-3-70b-instruct"/>
+    <category term="model_removed"/>
+    <category term="provider:meta-llama"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.5100/Mtok.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-06-18:model_added:cohere%2Fnorth-mini-code%3Afree</id>
     <title>Added: cohere/north-mini-code:free</title>
     <updated>2026-06-18T00:00:00Z</updated>
@@ -859,50 +904,5 @@
     <category term="context_changed"/>
     <category term="provider:qwen"/>
     <summary>262144 → 131072 tokens</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-08:deprecation_announced:z-ai%2Fglm-4.5</id>
-    <title>Deprecation announced: z-ai/glm-4.5 (sunset 2026-06-19)</title>
-    <updated>2026-06-08T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-4.5"/>
-    <category term="deprecation_announced"/>
-    <category term="provider:z-ai"/>
-    <summary>Provider announced retirement on 2026-06-19.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-08:price_changed:z-ai%2Fglm-4.5-air</id>
-    <title>Price changed: z-ai/glm-4.5-air</title>
-    <updated>2026-06-08T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-4.5-air"/>
-    <category term="price_changed"/>
-    <category term="provider:z-ai"/>
-    <summary>completion: $0.8400/Mtok → $0.8500/Mtok (+1.19%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-08:price_changed:qwen%2Fqwen3-235b-a22b-thinking-2507</id>
-    <title>Price changed: qwen/qwen3-235b-a22b-thinking-2507</title>
-    <updated>2026-06-08T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3-235b-a22b-thinking-2507"/>
-    <category term="price_changed"/>
-    <category term="provider:qwen"/>
-    <summary>prompt: $0.1495/Mtok → $0.1000/Mtok (-33.11%); completion: $1.4950/Mtok → $0.1000/Mtok (-93.31%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-08:price_changed:qwen%2Fqwen3-235b-a22b-2507</id>
-    <title>Price changed: qwen/qwen3-235b-a22b-2507</title>
-    <updated>2026-06-08T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3-235b-a22b-2507"/>
-    <category term="price_changed"/>
-    <category term="provider:qwen"/>
-    <summary>prompt: $0.0710/Mtok → $0.0900/Mtok (+26.76%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-08:price_changed:qwen%2Fqwen3-30b-a3b</id>
-    <title>Price changed: qwen/qwen3-30b-a3b</title>
-    <updated>2026-06-08T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3-30b-a3b"/>
-    <category term="price_changed"/>
-    <category term="provider:qwen"/>
-    <summary>prompt: $0.0900/Mtok → $0.1200/Mtok (+33.33%); completion: $0.4500/Mtok → $0.5000/Mtok (+11.11%)</summary>
   </entry>
 </feed>

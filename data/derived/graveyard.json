@@ -1,6 +1,23 @@
 {
   "buried": [
     {
+      "id": "meta-llama/llama-3-70b-instruct",
+      "name": "Meta: Llama 3 70B Instruct",
+      "provider": "meta-llama",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000051",
+        "completion": "0.00000074",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 8192,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-06-19",
+      "buried_at": "2026-06-19",
+      "suggested_replacement": "meta-llama/llama-3-8b-instruct"
+    },
+    {
       "id": "xiaomi/mimo-v2-flash",
       "name": "Xiaomi: MiMo-V2-Flash",
       "provider": "xiaomi",

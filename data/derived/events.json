@@ -10788,6 +10788,61 @@
       "provider": "openai",
       "prev_expiration": null,
       "next_expiration": "2026-08-10"
+    },
+    {
+      "ts": "2026-06-19",
+      "type": "context_changed",
+      "id": "kwaipilot/kat-coder-pro-v2",
+      "provider": "kwaipilot",
+      "prev_context": 256000,
+      "next_context": 262144
+    },
+    {
+      "ts": "2026-06-19",
+      "type": "context_changed",
+      "id": "qwen/qwen3.5-9b",
+      "provider": "qwen",
+      "prev_context": 262144,
+      "next_context": 256000
+    },
+    {
+      "ts": "2026-06-19",
+      "type": "deprecation_announced",
+      "id": "openai/gpt-5.3-chat",
+      "provider": "openai",
+      "prev_expiration": null,
+      "next_expiration": "2026-08-10"
+    },
+    {
+      "ts": "2026-06-19",
+      "type": "deprecation_announced",
+      "id": "z-ai/glm-4.5",
+      "provider": "z-ai",
+      "prev_expiration": "2026-06-19",
+      "next_expiration": "2026-12-31"
+    },
+    {
+      "ts": "2026-06-19",
+      "type": "model_removed",
+      "id": "meta-llama/llama-3-70b-instruct",
+      "provider": "meta-llama",
+      "snapshot": {
+        "id": "meta-llama/llama-3-70b-instruct",
+        "name": "Meta: Llama 3 70B Instruct",
+        "provider": "meta-llama",
+        "pricing": {
+          "prompt": "0.00000051",
+          "completion": "0.00000074",
+          "image": null,
+          "request": null
+        },
+        "context_length": 8192,
+        "max_completion_tokens": 8000,
+        "expiration_date": "2026-06-19",
+        "created": 1713398400,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-19"
+      }
     }
   ]
 }

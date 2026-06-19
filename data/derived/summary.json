@@ -1,9 +1,64 @@
 {
   "generated_at": "2026-06-19",
-  "active_count": 341,
-  "dead_count": 34,
+  "active_count": 340,
+  "dead_count": 35,
   "last_event_ts": "2026-06-19",
   "recent_events": [
+    {
+      "ts": "2026-06-19",
+      "type": "model_removed",
+      "id": "meta-llama/llama-3-70b-instruct",
+      "provider": "meta-llama",
+      "snapshot": {
+        "id": "meta-llama/llama-3-70b-instruct",
+        "name": "Meta: Llama 3 70B Instruct",
+        "provider": "meta-llama",
+        "pricing": {
+          "prompt": "0.00000051",
+          "completion": "0.00000074",
+          "image": null,
+          "request": null
+        },
+        "context_length": 8192,
+        "max_completion_tokens": 8000,
+        "expiration_date": "2026-06-19",
+        "created": 1713398400,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-19"
+      }
+    },
+    {
+      "ts": "2026-06-19",
+      "type": "deprecation_announced",
+      "id": "z-ai/glm-4.5",
+      "provider": "z-ai",
+      "prev_expiration": "2026-06-19",
+      "next_expiration": "2026-12-31"
+    },
+    {
+      "ts": "2026-06-19",
+      "type": "deprecation_announced",
+      "id": "openai/gpt-5.3-chat",
+      "provider": "openai",
+      "prev_expiration": null,
+      "next_expiration": "2026-08-10"
+    },
+    {
+      "ts": "2026-06-19",
+      "type": "context_changed",
+      "id": "qwen/qwen3.5-9b",
+      "provider": "qwen",
+      "prev_context": 262144,
+      "next_context": 256000
+    },
+    {
+      "ts": "2026-06-19",
+      "type": "context_changed",
+      "id": "kwaipilot/kat-coder-pro-v2",
+      "provider": "kwaipilot",
+      "prev_context": 256000,
+      "next_context": 262144
+    },
     {
       "ts": "2026-06-19",
       "type": "deprecation_announced",
@@ -225,113 +280,9 @@
         "first_seen": "2026-06-18",
         "last_seen": "2026-06-18"
       }
-    },
-    {
-      "ts": "2026-06-18",
-      "type": "model_added",
-      "id": "cohere/north-mini-code:free",
-      "provider": "cohere",
-      "snapshot": {
-        "id": "cohere/north-mini-code:free",
-        "name": "Cohere: North Mini Code (free)",
-        "provider": "cohere",
-        "pricing": {
-          "prompt": "0",
-          "completion": "0",
-          "image": null,
-          "request": null
-        },
-        "context_length": 256000,
-        "max_completion_tokens": 64000,
-        "expiration_date": null,
-        "created": 1781723748,
-        "first_seen": "2026-06-18",
-        "last_seen": "2026-06-18"
-      }
-    },
-    {
-      "ts": "2026-06-17",
-      "type": "model_removed",
-      "id": "xiaomi/mimo-v2-flash",
-      "provider": "xiaomi",
-      "snapshot": {
-        "id": "xiaomi/mimo-v2-flash",
-        "name": "Xiaomi: MiMo-V2-Flash",
-        "provider": "xiaomi",
-        "pricing": {
-          "prompt": "0.0000001",
-          "completion": "0.0000003",
-          "image": null,
-          "request": null
-        },
-        "context_length": 262144,
-        "max_completion_tokens": 65536,
-        "expiration_date": "2026-06-17",
-        "created": 1765731308,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-06-17"
-      }
-    },
-    {
-      "ts": "2026-06-17",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-flash",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000098",
-          "next": "0.00000009",
-          "pct_change": -8.16
-        },
-        {
-          "field": "completion",
-          "prev": "0.000000196",
-          "next": "0.00000018",
-          "pct_change": -8.16
-        }
-      ]
-    },
-    {
-      "ts": "2026-06-17",
-      "type": "price_changed",
-      "id": "nvidia/nemotron-3-ultra-550b-a55b",
-      "provider": "nvidia",
-      "changes": [
-        {
-          "field": "completion",
-          "prev": "0.0000025",
-          "next": "0.0000022",
-          "pct_change": -12
-        }
-      ]
-    },
-    {
-      "ts": "2026-06-16",
-      "type": "price_changed",
-      "id": "moonshotai/kimi-k2.7-code",
-      "provider": "moonshotai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000075",
-          "next": "0.00000074",
-          "pct_change": -1.33
-        }
-      ]
     }
   ],
   "scheduled_funerals": [
-    {
-      "id": "meta-llama/llama-3-70b-instruct",
-      "provider": "meta-llama",
-      "expiration_date": "2026-06-19"
-    },
-    {
-      "id": "z-ai/glm-4.5",
-      "provider": "z-ai",
-      "expiration_date": "2026-06-19"
-    },
     {
       "id": "nex-agi/nex-n2-pro:free",
       "provider": "nex-agi",
@@ -343,9 +294,14 @@
       "expiration_date": "2026-06-29"
     },
     {
-      "id": "openai/gpt-5.2-chat",
+      "id": "openai/gpt-5.3-chat",
       "provider": "openai",
       "expiration_date": "2026-08-10"
+    },
+    {
+      "id": "z-ai/glm-4.5",
+      "provider": "z-ai",
+      "expiration_date": "2026-12-31"
     }
   ]
 }
