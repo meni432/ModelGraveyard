@@ -10680,6 +10680,90 @@
           "pct_change": -6.67
         }
       ]
+    },
+    {
+      "ts": "2026-06-19",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000014",
+          "next": "0.0000012",
+          "pct_change": -14.29
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000044",
+          "next": "0.0000041",
+          "pct_change": -6.82
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-19",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000068",
+          "next": "0.00000067",
+          "pct_change": -1.47
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000341",
+          "next": "0.0000035",
+          "pct_change": 2.64
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-19",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.6",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000068",
+          "next": "0.00000067",
+          "pct_change": -1.47
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000341",
+          "next": "0.0000035",
+          "pct_change": 2.64
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-19",
+      "type": "context_changed",
+      "id": "kwaipilot/kat-coder-pro-v2",
+      "provider": "kwaipilot",
+      "prev_context": 256000,
+      "next_context": 262144
+    },
+    {
+      "ts": "2026-06-19",
+      "type": "context_changed",
+      "id": "qwen/qwen3.5-9b",
+      "provider": "qwen",
+      "prev_context": 262144,
+      "next_context": 256000
+    },
+    {
+      "ts": "2026-06-19",
+      "type": "deprecation_announced",
+      "id": "openai/gpt-5.3-chat",
+      "provider": "openai",
+      "prev_expiration": null,
+      "next_expiration": "2026-08-10"
     }
   ]
 }
