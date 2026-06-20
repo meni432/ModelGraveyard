@@ -10887,6 +10887,46 @@
       "provider": "openai",
       "prev_expiration": null,
       "next_expiration": "2026-08-10"
+    },
+    {
+      "ts": "2026-06-20",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.7-code",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000068",
+          "next": "0.000000612",
+          "pct_change": -10
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000341",
+          "next": "0.000003069",
+          "pct_change": -10
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-20",
+      "type": "price_changed",
+      "id": "tencent/hy3-preview",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000066",
+          "next": "0.000000063",
+          "pct_change": -4.55
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000026",
+          "next": "0.00000021",
+          "pct_change": -19.23
+        }
+      ]
     }
   ]
 }

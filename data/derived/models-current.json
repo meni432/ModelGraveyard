@@ -2641,8 +2641,8 @@
       "name": "MoonshotAI: Kimi K2.7 Code",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.00000068",
-        "completion": "0.00000341",
+        "prompt": "0.000000612",
+        "completion": "0.000003069",
         "image": null,
         "request": null
       },
@@ -5361,13 +5361,13 @@
       "name": "Tencent: Hy3 preview",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000066",
-        "completion": "0.00000026",
+        "prompt": "0.000000063",
+        "completion": "0.00000021",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": null,
       "expiration_date": null,
       "created": 1776878150,
       "first_seen": "2026-05-27",

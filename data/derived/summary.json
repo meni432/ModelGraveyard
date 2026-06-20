@@ -6,6 +6,46 @@
   "recent_events": [
     {
       "ts": "2026-06-20",
+      "type": "price_changed",
+      "id": "tencent/hy3-preview",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000066",
+          "next": "0.000000063",
+          "pct_change": -4.55
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000026",
+          "next": "0.00000021",
+          "pct_change": -19.23
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-20",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.7-code",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000068",
+          "next": "0.000000612",
+          "pct_change": -10
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000341",
+          "next": "0.000003069",
+          "pct_change": -10
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-20",
       "type": "deprecation_announced",
       "id": "openai/gpt-5.2-chat",
       "provider": "openai",
@@ -210,43 +250,6 @@
           "pct_change": -6.82
         }
       ]
-    },
-    {
-      "ts": "2026-06-18",
-      "type": "price_changed",
-      "id": "qwen/qwen3.6-35b-a3b",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000015",
-          "next": "0.00000014",
-          "pct_change": -6.67
-        }
-      ]
-    },
-    {
-      "ts": "2026-06-18",
-      "type": "model_added",
-      "id": "poolside/laguna-m.1",
-      "provider": "poolside",
-      "snapshot": {
-        "id": "poolside/laguna-m.1",
-        "name": "Poolside: Laguna M.1",
-        "provider": "poolside",
-        "pricing": {
-          "prompt": "0.0000002",
-          "completion": "0.0000004",
-          "image": null,
-          "request": null
-        },
-        "context_length": 262144,
-        "max_completion_tokens": 32768,
-        "expiration_date": null,
-        "created": 1777388504,
-        "first_seen": "2026-06-18",
-        "last_seen": "2026-06-18"
-      }
     }
   ],
   "scheduled_funerals": [
