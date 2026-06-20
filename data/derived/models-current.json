@@ -108,13 +108,13 @@
       "name": "MoonshotAI Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.00000067",
+        "prompt": "0.00000066",
         "completion": "0.0000035",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": 262142,
       "expiration_date": null,
       "created": 1777318428,
       "first_seen": "2026-05-27",
@@ -652,13 +652,13 @@
       "name": "Arcee AI: Trinity Large Thinking",
       "provider": "arcee-ai",
       "pricing": {
-        "prompt": "0.00000022",
-        "completion": "0.00000085",
+        "prompt": "0.00000025",
+        "completion": "0.0000008",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": 80000,
       "expiration_date": null,
       "created": 1775058318,
       "first_seen": "2026-05-27",
@@ -2624,13 +2624,13 @@
       "name": "MoonshotAI: Kimi K2.6",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.00000067",
+        "prompt": "0.00000066",
         "completion": "0.0000035",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": 262142,
       "expiration_date": null,
       "created": 1776699402,
       "first_seen": "2026-05-27",
@@ -5758,7 +5758,7 @@
         "request": null
       },
       "context_length": 202752,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 65535,
       "expiration_date": null,
       "created": 1775578025,
       "first_seen": "2026-05-27",

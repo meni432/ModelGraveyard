@@ -10927,6 +10927,54 @@
           "pct_change": -19.23
         }
       ]
+    },
+    {
+      "ts": "2026-06-20",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000067",
+          "next": "0.00000066",
+          "pct_change": -1.49
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-20",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.6",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000067",
+          "next": "0.00000066",
+          "pct_change": -1.49
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-20",
+      "type": "price_changed",
+      "id": "arcee-ai/trinity-large-thinking",
+      "provider": "arcee-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000022",
+          "next": "0.00000025",
+          "pct_change": 13.64
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000085",
+          "next": "0.0000008",
+          "pct_change": -5.88
+        }
+      ]
     }
   ]
 }

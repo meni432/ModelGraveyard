@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/arcee-ai.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/arcee-ai.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-06-09T00:00:00Z</updated>
+  <updated>2026-06-20T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-20:price_changed:arcee-ai%2Ftrinity-large-thinking</id>
+    <title>Price changed: arcee-ai/trinity-large-thinking</title>
+    <updated>2026-06-20T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/arcee-ai%2Ftrinity-large-thinking"/>
+    <category term="price_changed"/>
+    <category term="provider:arcee-ai"/>
+    <summary>prompt: $0.2200/Mtok → $0.2500/Mtok (+13.64%); completion: $0.8500/Mtok → $0.8000/Mtok (-5.88%)</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-06-09:model_removed:arcee-ai%2Fmaestro-reasoning</id>
     <title>Removed: arcee-ai/maestro-reasoning</title>
