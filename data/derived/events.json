@@ -10863,6 +10863,30 @@
           "pct_change": -2.57
         }
       ]
+    },
+    {
+      "ts": "2026-06-20",
+      "type": "context_changed",
+      "id": "kwaipilot/kat-coder-pro-v2",
+      "provider": "kwaipilot",
+      "prev_context": 262144,
+      "next_context": 256000
+    },
+    {
+      "ts": "2026-06-20",
+      "type": "context_changed",
+      "id": "qwen/qwen3.5-9b",
+      "provider": "qwen",
+      "prev_context": 256000,
+      "next_context": 262144
+    },
+    {
+      "ts": "2026-06-20",
+      "type": "deprecation_announced",
+      "id": "openai/gpt-5.2-chat",
+      "provider": "openai",
+      "prev_expiration": null,
+      "next_expiration": "2026-08-10"
     }
   ]
 }
