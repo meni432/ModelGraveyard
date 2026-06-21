@@ -1,10 +1,10 @@
 {
   "generated_at": "2026-06-21",
   "openrouter_catalog_size": 329,
-  "litellm_catalog_size": 2014,
-  "shared_count": 84,
-  "openrouter_only_count": 245,
-  "litellm_only_count": 1925,
+  "litellm_catalog_size": 2091,
+  "shared_count": 86,
+  "openrouter_only_count": 243,
+  "litellm_only_count": 2000,
   "disagreements": [
     {
       "slug": "google:gemini-2-0-flash-001",
@@ -147,6 +147,16 @@
       "slug": "deepseek:deepseek-v3-2",
       "openrouter_id": "deepseek/deepseek-v3.2-exp",
       "litellm_id": "deepseek/deepseek-v3.2"
+    },
+    {
+      "slug": "deepseek:deepseek-v4-flash",
+      "openrouter_id": "deepseek/deepseek-v4-flash",
+      "litellm_id": "deepseek-v4-flash"
+    },
+    {
+      "slug": "deepseek:deepseek-v4-pro",
+      "openrouter_id": "deepseek/deepseek-v4-pro",
+      "litellm_id": "deepseek-v4-pro"
     },
     {
       "slug": "google:gemini-2-5-flash",
