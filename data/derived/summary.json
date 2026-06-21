@@ -2,8 +2,28 @@
   "generated_at": "2026-06-21",
   "active_count": 340,
   "dead_count": 35,
-  "last_event_ts": "2026-06-20",
+  "last_event_ts": "2026-06-21",
   "recent_events": [
+    {
+      "ts": "2026-06-21",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000012",
+          "next": "0.000001",
+          "pct_change": -16.67
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000041",
+          "next": "0.000004",
+          "pct_change": -2.44
+        }
+      ]
+    },
     {
       "ts": "2026-06-20",
       "type": "price_changed",
@@ -230,14 +250,6 @@
       "provider": "qwen",
       "prev_context": 262144,
       "next_context": 256000
-    },
-    {
-      "ts": "2026-06-19",
-      "type": "context_changed",
-      "id": "kwaipilot/kat-coder-pro-v2",
-      "provider": "kwaipilot",
-      "prev_context": 256000,
-      "next_context": 262144
     }
   ],
   "scheduled_funerals": [
