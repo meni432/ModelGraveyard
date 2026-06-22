@@ -15,6 +15,15 @@
     <summary>New model on OpenRouter. Initial prompt price: $0.5000/Mtok, context: 262144.</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-06-22:model_added:z-ai%2Fglm-5v-turbo</id>
+    <title>Added: z-ai/glm-5v-turbo</title>
+    <updated>2026-06-22T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5v-turbo"/>
+    <category term="model_added"/>
+    <category term="provider:z-ai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $1.2000/Mtok, context: 202752.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-06-18:model_added:cohere%2Fnorth-mini-code%3Afree</id>
     <title>Added: cohere/north-mini-code:free</title>
     <updated>2026-06-18T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="model_added"/>
     <category term="provider:qwen"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.1950/Mtok, context: 262144.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:qwen%2Fqwen3.5-122b-a10b</id>
-    <title>Added: qwen/qwen3.5-122b-a10b</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3.5-122b-a10b"/>
-    <category term="model_added"/>
-    <category term="provider:qwen"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.2600/Mtok, context: 262144.</summary>
   </entry>
 </feed>

@@ -18,6 +18,23 @@
       "suggested_replacement": "anthropic/claude-opus-4.5"
     },
     {
+      "id": "nex-agi/nex-n2-pro:free",
+      "name": "Nex AGI: Nex-N2-Pro (free)",
+      "provider": "nex-agi",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-22",
+      "buried_at": "2026-06-22",
+      "suggested_replacement": "nex-agi/nex-n2-pro"
+    },
+    {
       "id": "meta-llama/llama-3-70b-instruct",
       "name": "Meta: Llama 3 70B Instruct",
       "provider": "meta-llama",

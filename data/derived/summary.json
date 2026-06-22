@@ -1,9 +1,83 @@
 {
   "generated_at": "2026-06-22",
   "active_count": 340,
-  "dead_count": 36,
+  "dead_count": 37,
   "last_event_ts": "2026-06-22",
   "recent_events": [
+    {
+      "ts": "2026-06-22",
+      "type": "model_removed",
+      "id": "nex-agi/nex-n2-pro:free",
+      "provider": "nex-agi",
+      "snapshot": {
+        "id": "nex-agi/nex-n2-pro:free",
+        "name": "Nex AGI: Nex-N2-Pro (free)",
+        "provider": "nex-agi",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 256000,
+        "expiration_date": null,
+        "created": 1780937140,
+        "first_seen": "2026-06-08",
+        "last_seen": "2026-06-22"
+      }
+    },
+    {
+      "ts": "2026-06-22",
+      "type": "deprecation_announced",
+      "id": "stepfun/step-3.5-flash",
+      "provider": "stepfun",
+      "prev_expiration": null,
+      "next_expiration": "2026-06-29"
+    },
+    {
+      "ts": "2026-06-22",
+      "type": "model_added",
+      "id": "z-ai/glm-5v-turbo",
+      "provider": "z-ai",
+      "snapshot": {
+        "id": "z-ai/glm-5v-turbo",
+        "name": "Z.ai: GLM 5V Turbo",
+        "provider": "z-ai",
+        "pricing": {
+          "prompt": "0.0000012",
+          "completion": "0.000004",
+          "image": null,
+          "request": null
+        },
+        "context_length": 202752,
+        "max_completion_tokens": 131072,
+        "expiration_date": "2098-12-31",
+        "created": 1775061458,
+        "first_seen": "2026-06-22",
+        "last_seen": "2026-06-22"
+      }
+    },
+    {
+      "ts": "2026-06-22",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000001",
+          "next": "0.00000098",
+          "pct_change": -2
+        },
+        {
+          "field": "completion",
+          "prev": "0.000004",
+          "next": "0.00000308",
+          "pct_change": -23
+        }
+      ]
+    },
     {
       "ts": "2026-06-22",
       "type": "price_changed",
@@ -264,44 +338,17 @@
         "first_seen": "2026-05-27",
         "last_seen": "2026-06-19"
       }
-    },
-    {
-      "ts": "2026-06-19",
-      "type": "deprecation_announced",
-      "id": "z-ai/glm-4.5",
-      "provider": "z-ai",
-      "prev_expiration": "2026-06-19",
-      "next_expiration": "2026-12-31"
-    },
-    {
-      "ts": "2026-06-19",
-      "type": "deprecation_announced",
-      "id": "openai/gpt-5.3-chat",
-      "provider": "openai",
-      "prev_expiration": null,
-      "next_expiration": "2026-08-10"
-    },
-    {
-      "ts": "2026-06-19",
-      "type": "context_changed",
-      "id": "qwen/qwen3.5-9b",
-      "provider": "qwen",
-      "prev_context": 262144,
-      "next_context": 256000
-    },
-    {
-      "ts": "2026-06-19",
-      "type": "context_changed",
-      "id": "kwaipilot/kat-coder-pro-v2",
-      "provider": "kwaipilot",
-      "prev_context": 256000,
-      "next_context": 262144
     }
   ],
   "scheduled_funerals": [
     {
       "id": "anthropic/claude-opus-4.6-fast",
       "provider": "anthropic",
+      "expiration_date": "2026-06-29"
+    },
+    {
+      "id": "stepfun/step-3.5-flash",
+      "provider": "stepfun",
       "expiration_date": "2026-06-29"
     },
     {
@@ -313,6 +360,11 @@
       "id": "z-ai/glm-4.5",
       "provider": "z-ai",
       "expiration_date": "2026-12-31"
+    },
+    {
+      "id": "z-ai/glm-5v-turbo",
+      "provider": "z-ai",
+      "expiration_date": "2098-12-31"
     }
   ]
 }

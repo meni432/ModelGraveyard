@@ -11081,6 +11081,80 @@
           "pct_change": -2.57
         }
       ]
+    },
+    {
+      "ts": "2026-06-22",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000001",
+          "next": "0.00000098",
+          "pct_change": -2
+        },
+        {
+          "field": "completion",
+          "prev": "0.000004",
+          "next": "0.00000308",
+          "pct_change": -23
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-22",
+      "type": "model_added",
+      "id": "z-ai/glm-5v-turbo",
+      "provider": "z-ai",
+      "snapshot": {
+        "id": "z-ai/glm-5v-turbo",
+        "name": "Z.ai: GLM 5V Turbo",
+        "provider": "z-ai",
+        "pricing": {
+          "prompt": "0.0000012",
+          "completion": "0.000004",
+          "image": null,
+          "request": null
+        },
+        "context_length": 202752,
+        "max_completion_tokens": 131072,
+        "expiration_date": "2098-12-31",
+        "created": 1775061458,
+        "first_seen": "2026-06-22",
+        "last_seen": "2026-06-22"
+      }
+    },
+    {
+      "ts": "2026-06-22",
+      "type": "deprecation_announced",
+      "id": "stepfun/step-3.5-flash",
+      "provider": "stepfun",
+      "prev_expiration": null,
+      "next_expiration": "2026-06-29"
+    },
+    {
+      "ts": "2026-06-22",
+      "type": "model_removed",
+      "id": "nex-agi/nex-n2-pro:free",
+      "provider": "nex-agi",
+      "snapshot": {
+        "id": "nex-agi/nex-n2-pro:free",
+        "name": "Nex AGI: Nex-N2-Pro (free)",
+        "provider": "nex-agi",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 256000,
+        "expiration_date": null,
+        "created": 1780937140,
+        "first_seen": "2026-06-08",
+        "last_seen": "2026-06-22"
+      }
     }
   ]
 }
