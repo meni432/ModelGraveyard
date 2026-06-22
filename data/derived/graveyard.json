@@ -1,6 +1,23 @@
 {
   "buried": [
     {
+      "id": "anthropic/claude-3.5-haiku",
+      "name": "Anthropic: Claude 3.5 Haiku",
+      "provider": "anthropic",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000008",
+        "completion": "0.000004",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 200000,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-06-21",
+      "buried_at": "2026-06-22",
+      "suggested_replacement": "anthropic/claude-opus-4.5"
+    },
+    {
       "id": "meta-llama/llama-3-70b-instruct",
       "name": "Meta: Llama 3 70B Instruct",
       "provider": "meta-llama",

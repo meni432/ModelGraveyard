@@ -1,9 +1,55 @@
 {
-  "generated_at": "2026-06-21",
+  "generated_at": "2026-06-22",
   "active_count": 340,
-  "dead_count": 35,
-  "last_event_ts": "2026-06-21",
+  "dead_count": 36,
+  "last_event_ts": "2026-06-22",
   "recent_events": [
+    {
+      "ts": "2026-06-22",
+      "type": "model_removed",
+      "id": "anthropic/claude-3.5-haiku",
+      "provider": "anthropic",
+      "snapshot": {
+        "id": "anthropic/claude-3.5-haiku",
+        "name": "Anthropic: Claude 3.5 Haiku",
+        "provider": "anthropic",
+        "pricing": {
+          "prompt": "0.0000008",
+          "completion": "0.000004",
+          "image": null,
+          "request": null
+        },
+        "context_length": 200000,
+        "max_completion_tokens": 8192,
+        "expiration_date": null,
+        "created": 1730678400,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-21"
+      }
+    },
+    {
+      "ts": "2026-06-22",
+      "type": "model_added",
+      "id": "nex-agi/nex-n2-pro",
+      "provider": "nex-agi",
+      "snapshot": {
+        "id": "nex-agi/nex-n2-pro",
+        "name": "Nex AGI: Nex-N2-Pro",
+        "provider": "nex-agi",
+        "pricing": {
+          "prompt": "0.0000005",
+          "completion": "0.0000025",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 262144,
+        "expiration_date": null,
+        "created": 1780937140,
+        "first_seen": "2026-06-22",
+        "last_seen": "2026-06-22"
+      }
+    },
     {
       "ts": "2026-06-21",
       "type": "price_changed",
@@ -234,30 +280,9 @@
       "provider": "kwaipilot",
       "prev_context": 262144,
       "next_context": 256000
-    },
-    {
-      "ts": "2026-06-19",
-      "type": "deprecation_announced",
-      "id": "openai/gpt-5.3-chat",
-      "provider": "openai",
-      "prev_expiration": null,
-      "next_expiration": "2026-08-10"
-    },
-    {
-      "ts": "2026-06-19",
-      "type": "context_changed",
-      "id": "qwen/qwen3.5-9b",
-      "provider": "qwen",
-      "prev_context": 262144,
-      "next_context": 256000
     }
   ],
   "scheduled_funerals": [
-    {
-      "id": "nex-agi/nex-n2-pro:free",
-      "provider": "nex-agi",
-      "expiration_date": "2026-06-22"
-    },
     {
       "id": "anthropic/claude-opus-4.6-fast",
       "provider": "anthropic",

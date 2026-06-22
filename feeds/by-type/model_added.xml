@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_added.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_added.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-06-18T00:00:00Z</updated>
+  <updated>2026-06-22T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-22:model_added:nex-agi%2Fnex-n2-pro</id>
+    <title>Added: nex-agi/nex-n2-pro</title>
+    <updated>2026-06-22T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nex-agi%2Fnex-n2-pro"/>
+    <category term="model_added"/>
+    <category term="provider:nex-agi"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.5000/Mtok, context: 262144.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-06-18:model_added:cohere%2Fnorth-mini-code%3Afree</id>
     <title>Added: cohere/north-mini-code:free</title>
@@ -895,14 +904,5 @@
     <category term="model_added"/>
     <category term="provider:qwen"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.2600/Mtok, context: 262144.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:qwen%2Fqwen3.5-flash-02-23</id>
-    <title>Added: qwen/qwen3.5-flash-02-23</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3.5-flash-02-23"/>
-    <category term="model_added"/>
-    <category term="provider:qwen"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.0650/Mtok, context: 1000000.</summary>
   </entry>
 </feed>
