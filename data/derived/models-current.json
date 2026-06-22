@@ -109,12 +109,12 @@
       "provider": "~moonshotai",
       "pricing": {
         "prompt": "0.00000066",
-        "completion": "0.0000035",
+        "completion": "0.00000341",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 65535,
+      "max_completion_tokens": 262144,
       "expiration_date": null,
       "created": 1777318428,
       "first_seen": "2026-05-27",
@@ -2608,12 +2608,12 @@
       "provider": "moonshotai",
       "pricing": {
         "prompt": "0.00000066",
-        "completion": "0.0000035",
+        "completion": "0.00000341",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 65535,
+      "max_completion_tokens": 262144,
       "expiration_date": null,
       "created": 1776699402,
       "first_seen": "2026-05-27",
