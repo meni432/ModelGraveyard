@@ -2,8 +2,28 @@
   "generated_at": "2026-06-23",
   "active_count": 340,
   "dead_count": 37,
-  "last_event_ts": "2026-06-22",
+  "last_event_ts": "2026-06-23",
   "recent_events": [
+    {
+      "ts": "2026-06-23",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.7-code",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000612",
+          "next": "0.00000068",
+          "pct_change": 11.11
+        },
+        {
+          "field": "completion",
+          "prev": "0.000003069",
+          "next": "0.00000341",
+          "pct_change": 11.11
+        }
+      ]
+    },
     {
       "ts": "2026-06-22",
       "type": "model_removed",
@@ -315,29 +335,6 @@
           "pct_change": -2.57
         }
       ]
-    },
-    {
-      "ts": "2026-06-19",
-      "type": "model_removed",
-      "id": "meta-llama/llama-3-70b-instruct",
-      "provider": "meta-llama",
-      "snapshot": {
-        "id": "meta-llama/llama-3-70b-instruct",
-        "name": "Meta: Llama 3 70B Instruct",
-        "provider": "meta-llama",
-        "pricing": {
-          "prompt": "0.00000051",
-          "completion": "0.00000074",
-          "image": null,
-          "request": null
-        },
-        "context_length": 8192,
-        "max_completion_tokens": 8000,
-        "expiration_date": "2026-06-19",
-        "created": 1713398400,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-06-19"
-      }
     }
   ],
   "scheduled_funerals": [

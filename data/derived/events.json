@@ -11155,6 +11155,26 @@
         "first_seen": "2026-06-08",
         "last_seen": "2026-06-22"
       }
+    },
+    {
+      "ts": "2026-06-23",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.7-code",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000612",
+          "next": "0.00000068",
+          "pct_change": 11.11
+        },
+        {
+          "field": "completion",
+          "prev": "0.000003069",
+          "next": "0.00000341",
+          "pct_change": 11.11
+        }
+      ]
     }
   ]
 }
