@@ -11175,6 +11175,26 @@
           "pct_change": 11.11
         }
       ]
+    },
+    {
+      "ts": "2026-06-23",
+      "type": "price_changed",
+      "id": "nex-agi/nex-n2-pro",
+      "provider": "nex-agi",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000005",
+          "next": "0.00000025",
+          "pct_change": -50
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000025",
+          "next": "0.000001",
+          "pct_change": -60
+        }
+      ]
     }
   ]
 }

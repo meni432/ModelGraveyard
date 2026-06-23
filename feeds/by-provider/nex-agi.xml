@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/nex-agi.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/nex-agi.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-06-22T00:00:00Z</updated>
+  <updated>2026-06-23T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-23:price_changed:nex-agi%2Fnex-n2-pro</id>
+    <title>Price changed: nex-agi/nex-n2-pro</title>
+    <updated>2026-06-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nex-agi%2Fnex-n2-pro"/>
+    <category term="price_changed"/>
+    <category term="provider:nex-agi"/>
+    <summary>prompt: $0.5000/Mtok → $0.2500/Mtok (-50%); completion: $2.5000/Mtok → $1.0000/Mtok (-60%)</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-06-22:model_added:nex-agi%2Fnex-n2-pro</id>
     <title>Added: nex-agi/nex-n2-pro</title>

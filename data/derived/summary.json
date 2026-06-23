@@ -7,6 +7,26 @@
     {
       "ts": "2026-06-23",
       "type": "price_changed",
+      "id": "nex-agi/nex-n2-pro",
+      "provider": "nex-agi",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000005",
+          "next": "0.00000025",
+          "pct_change": -50
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000025",
+          "next": "0.000001",
+          "pct_change": -60
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-23",
+      "type": "price_changed",
       "id": "moonshotai/kimi-k2.7-code",
       "provider": "moonshotai",
       "changes": [
@@ -315,26 +335,6 @@
       "provider": "kwaipilot",
       "prev_context": 262144,
       "next_context": 256000
-    },
-    {
-      "ts": "2026-06-19",
-      "type": "price_changed",
-      "id": "moonshotai/kimi-k2.7-code",
-      "provider": "moonshotai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000074",
-          "next": "0.00000068",
-          "pct_change": -8.11
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000035",
-          "next": "0.00000341",
-          "pct_change": -2.57
-        }
-      ]
     }
   ],
   "scheduled_funerals": [
