@@ -1,9 +1,109 @@
 {
   "generated_at": "2026-06-23",
-  "active_count": 340,
-  "dead_count": 37,
+  "active_count": 338,
+  "dead_count": 39,
   "last_event_ts": "2026-06-23",
   "recent_events": [
+    {
+      "ts": "2026-06-23",
+      "type": "model_removed",
+      "id": "prime-intellect/intellect-3",
+      "provider": "prime-intellect",
+      "snapshot": {
+        "id": "prime-intellect/intellect-3",
+        "name": "Prime Intellect: INTELLECT-3",
+        "provider": "prime-intellect",
+        "pricing": {
+          "prompt": "0.0000002",
+          "completion": "0.0000011",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": 131072,
+        "expiration_date": null,
+        "created": 1764212534,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-23"
+      }
+    },
+    {
+      "ts": "2026-06-23",
+      "type": "model_removed",
+      "id": "essentialai/rnj-1-instruct",
+      "provider": "essentialai",
+      "snapshot": {
+        "id": "essentialai/rnj-1-instruct",
+        "name": "EssentialAI: Rnj 1 Instruct",
+        "provider": "essentialai",
+        "pricing": {
+          "prompt": "0.00000015",
+          "completion": "0.00000015",
+          "image": null,
+          "request": null
+        },
+        "context_length": 32768,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1765094847,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-23"
+      }
+    },
+    {
+      "ts": "2026-06-23",
+      "type": "price_changed",
+      "id": "thedrummer/rocinante-12b",
+      "provider": "thedrummer",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000017",
+          "next": "0.00000025",
+          "pct_change": 47.06
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000043",
+          "next": "0.0000005",
+          "pct_change": 16.28
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-23",
+      "type": "price_changed",
+      "id": "microsoft/phi-4",
+      "provider": "microsoft",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000065",
+          "next": "0.00000007",
+          "pct_change": 7.69
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-23",
+      "type": "price_changed",
+      "id": "minimax/minimax-m2.7",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000025",
+          "next": "0.00000024",
+          "pct_change": -4
+        },
+        {
+          "field": "completion",
+          "prev": "0.000001",
+          "next": "0.00000096",
+          "pct_change": -4
+        }
+      ]
+    },
     {
       "ts": "2026-06-23",
       "type": "price_changed",
@@ -271,70 +371,6 @@
           "pct_change": -1.49
         }
       ]
-    },
-    {
-      "ts": "2026-06-20",
-      "type": "price_changed",
-      "id": "tencent/hy3-preview",
-      "provider": "tencent",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000066",
-          "next": "0.000000063",
-          "pct_change": -4.55
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000026",
-          "next": "0.00000021",
-          "pct_change": -19.23
-        }
-      ]
-    },
-    {
-      "ts": "2026-06-20",
-      "type": "price_changed",
-      "id": "moonshotai/kimi-k2.7-code",
-      "provider": "moonshotai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000068",
-          "next": "0.000000612",
-          "pct_change": -10
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000341",
-          "next": "0.000003069",
-          "pct_change": -10
-        }
-      ]
-    },
-    {
-      "ts": "2026-06-20",
-      "type": "deprecation_announced",
-      "id": "openai/gpt-5.2-chat",
-      "provider": "openai",
-      "prev_expiration": null,
-      "next_expiration": "2026-08-10"
-    },
-    {
-      "ts": "2026-06-20",
-      "type": "context_changed",
-      "id": "qwen/qwen3.5-9b",
-      "provider": "qwen",
-      "prev_context": 256000,
-      "next_context": 262144
-    },
-    {
-      "ts": "2026-06-20",
-      "type": "context_changed",
-      "id": "kwaipilot/kat-coder-pro-v2",
-      "provider": "kwaipilot",
-      "prev_context": 262144,
-      "next_context": 256000
     }
   ],
   "scheduled_funerals": [

@@ -1090,23 +1090,6 @@
       "last_seen": "2026-06-23"
     },
     {
-      "id": "essentialai/rnj-1-instruct",
-      "name": "EssentialAI: Rnj 1 Instruct",
-      "provider": "essentialai",
-      "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.00000015",
-        "image": null,
-        "request": null
-      },
-      "context_length": 32768,
-      "max_completion_tokens": null,
-      "expiration_date": null,
-      "created": 1765094847,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-06-23"
-    },
-    {
       "id": "google/gemini-2.5-flash",
       "name": "Google: Gemini 2.5 Flash",
       "provider": "google",
@@ -2029,7 +2012,7 @@
       "name": "Microsoft: Phi 4",
       "provider": "microsoft",
       "pricing": {
-        "prompt": "0.000000065",
+        "prompt": "0.00000007",
         "completion": "0.00000014",
         "image": null,
         "request": null
@@ -2182,13 +2165,13 @@
       "name": "MiniMax: MiniMax M2.7",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0.00000025",
-        "completion": "0.000001",
+        "prompt": "0.00000024",
+        "completion": "0.00000096",
         "image": null,
         "request": null
       },
       "context_length": 204800,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 196608,
       "expiration_date": null,
       "created": 1773836697,
       "first_seen": "2026-05-27",
@@ -4286,23 +4269,6 @@
       "last_seen": "2026-06-23"
     },
     {
-      "id": "prime-intellect/intellect-3",
-      "name": "Prime Intellect: INTELLECT-3",
-      "provider": "prime-intellect",
-      "pricing": {
-        "prompt": "0.0000002",
-        "completion": "0.0000011",
-        "image": null,
-        "request": null
-      },
-      "context_length": 131072,
-      "max_completion_tokens": 131072,
-      "expiration_date": null,
-      "created": 1764212534,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-06-23"
-    },
-    {
       "id": "qwen/qwen-2.5-72b-instruct",
       "name": "Qwen2.5 72B Instruct",
       "provider": "qwen",
@@ -5378,13 +5344,13 @@
       "name": "TheDrummer: Rocinante 12B",
       "provider": "thedrummer",
       "pricing": {
-        "prompt": "0.00000017",
-        "completion": "0.00000043",
+        "prompt": "0.00000025",
+        "completion": "0.0000005",
         "image": null,
         "request": null
       },
       "context_length": 32768,
-      "max_completion_tokens": 32768,
+      "max_completion_tokens": null,
       "expiration_date": null,
       "created": 1727654400,
       "first_seen": "2026-05-27",

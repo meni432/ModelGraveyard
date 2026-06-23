@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/microsoft.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/microsoft.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-05-27T00:00:00Z</updated>
+  <updated>2026-06-23T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-23:price_changed:microsoft%2Fphi-4</id>
+    <title>Price changed: microsoft/phi-4</title>
+    <updated>2026-06-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/microsoft%2Fphi-4"/>
+    <category term="price_changed"/>
+    <category term="provider:microsoft"/>
+    <summary>prompt: $0.0650/Mtok → $0.0700/Mtok (+7.69%)</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-05-27:model_added:microsoft%2Fphi-4-mini-instruct</id>
     <title>Added: microsoft/phi-4-mini-instruct</title>
