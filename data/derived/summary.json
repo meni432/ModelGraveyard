@@ -1,9 +1,32 @@
 {
   "generated_at": "2026-06-24",
-  "active_count": 338,
+  "active_count": 339,
   "dead_count": 39,
   "last_event_ts": "2026-06-24",
   "recent_events": [
+    {
+      "ts": "2026-06-24",
+      "type": "model_added",
+      "id": "sakana/fugu-ultra",
+      "provider": "sakana",
+      "snapshot": {
+        "id": "sakana/fugu-ultra",
+        "name": "Sakana: Fugu Ultra",
+        "provider": "sakana",
+        "pricing": {
+          "prompt": "0.000005",
+          "completion": "0.00003",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1000000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1782276303,
+        "first_seen": "2026-06-24",
+        "last_seen": "2026-06-24"
+      }
+    },
     {
       "ts": "2026-06-24",
       "type": "price_changed",
@@ -357,26 +380,6 @@
         "first_seen": "2026-06-22",
         "last_seen": "2026-06-22"
       }
-    },
-    {
-      "ts": "2026-06-21",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.2",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000012",
-          "next": "0.000001",
-          "pct_change": -16.67
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000041",
-          "next": "0.000004",
-          "pct_change": -2.44
-        }
-      ]
     }
   ],
   "scheduled_funerals": [

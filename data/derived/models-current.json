@@ -1117,7 +1117,7 @@
         "request": null
       },
       "context_length": 32768,
-      "max_completion_tokens": 8192,
+      "max_completion_tokens": 32768,
       "expiration_date": null,
       "created": 1759870431,
       "first_seen": "2026-05-27",
@@ -1270,7 +1270,7 @@
         "request": null
       },
       "context_length": 131072,
-      "max_completion_tokens": 65536,
+      "max_completion_tokens": 32768,
       "expiration_date": null,
       "created": 1781754065,
       "first_seen": "2026-06-18",
@@ -4891,7 +4891,7 @@
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": 81920,
       "expiration_date": null,
       "created": 1772053822,
       "first_seen": "2026-05-27",
@@ -5167,6 +5167,23 @@
       "expiration_date": null,
       "created": 1765213560,
       "first_seen": "2026-05-27",
+      "last_seen": "2026-06-24"
+    },
+    {
+      "id": "sakana/fugu-ultra",
+      "name": "Sakana: Fugu Ultra",
+      "provider": "sakana",
+      "pricing": {
+        "prompt": "0.000005",
+        "completion": "0.00003",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1000000,
+      "max_completion_tokens": 128000,
+      "expiration_date": null,
+      "created": 1782276303,
+      "first_seen": "2026-06-24",
       "last_seen": "2026-06-24"
     },
     {
@@ -5707,7 +5724,7 @@
         "request": null
       },
       "context_length": 202752,
-      "max_completion_tokens": 65535,
+      "max_completion_tokens": null,
       "expiration_date": null,
       "created": 1775578025,
       "first_seen": "2026-05-27",

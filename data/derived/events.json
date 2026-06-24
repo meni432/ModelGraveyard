@@ -11349,6 +11349,29 @@
           "pct_change": -25
         }
       ]
+    },
+    {
+      "ts": "2026-06-24",
+      "type": "model_added",
+      "id": "sakana/fugu-ultra",
+      "provider": "sakana",
+      "snapshot": {
+        "id": "sakana/fugu-ultra",
+        "name": "Sakana: Fugu Ultra",
+        "provider": "sakana",
+        "pricing": {
+          "prompt": "0.000005",
+          "completion": "0.00003",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1000000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1782276303,
+        "first_seen": "2026-06-24",
+        "last_seen": "2026-06-24"
+      }
     }
   ]
 }
