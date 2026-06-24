@@ -1,9 +1,63 @@
 {
-  "generated_at": "2026-06-23",
+  "generated_at": "2026-06-24",
   "active_count": 338,
   "dead_count": 39,
-  "last_event_ts": "2026-06-23",
+  "last_event_ts": "2026-06-24",
   "recent_events": [
+    {
+      "ts": "2026-06-24",
+      "type": "price_changed",
+      "id": "xiaomi/mimo-v2.5",
+      "provider": "xiaomi",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000014",
+          "next": "0.000000105",
+          "pct_change": -25
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-24",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.7-code",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000068",
+          "next": "0.00000074",
+          "pct_change": 8.82
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000341",
+          "next": "0.0000035",
+          "pct_change": 2.64
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-24",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000098",
+          "next": "0.00000095",
+          "pct_change": -3.06
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000308",
+          "next": "0.000003",
+          "pct_change": -2.6
+        }
+      ]
+    },
     {
       "ts": "2026-06-23",
       "type": "model_removed",
@@ -321,54 +375,6 @@
           "prev": "0.0000041",
           "next": "0.000004",
           "pct_change": -2.44
-        }
-      ]
-    },
-    {
-      "ts": "2026-06-20",
-      "type": "price_changed",
-      "id": "arcee-ai/trinity-large-thinking",
-      "provider": "arcee-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000022",
-          "next": "0.00000025",
-          "pct_change": 13.64
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000085",
-          "next": "0.0000008",
-          "pct_change": -5.88
-        }
-      ]
-    },
-    {
-      "ts": "2026-06-20",
-      "type": "price_changed",
-      "id": "moonshotai/kimi-k2.6",
-      "provider": "moonshotai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000067",
-          "next": "0.00000066",
-          "pct_change": -1.49
-        }
-      ]
-    },
-    {
-      "ts": "2026-06-20",
-      "type": "price_changed",
-      "id": "~moonshotai/kimi-latest",
-      "provider": "~moonshotai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000067",
-          "next": "0.00000066",
-          "pct_change": -1.49
         }
       ]
     }
