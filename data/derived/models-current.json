@@ -2148,8 +2148,8 @@
       "name": "MiniMax: MiniMax M2.5",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000009",
+        "prompt": "0.00000012",
+        "completion": "0.00000048",
         "image": null,
         "request": null
       },
@@ -2165,8 +2165,8 @@
       "name": "MiniMax: MiniMax M2.7",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0.00000024",
-        "completion": "0.00000096",
+        "prompt": "0.00000018",
+        "completion": "0.00000072",
         "image": null,
         "request": null
       },
@@ -3746,13 +3746,13 @@
       "name": "OpenAI: gpt-oss-120b",
       "provider": "openai",
       "pricing": {
-        "prompt": "0.000000039",
-        "completion": "0.00000018",
+        "prompt": "0.00000003",
+        "completion": "0.00000015",
         "image": null,
         "request": null
       },
       "context_length": 131072,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1754414231,
       "first_seen": "2026-05-27",

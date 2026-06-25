@@ -11412,6 +11412,66 @@
           "pct_change": -19.64
         }
       ]
+    },
+    {
+      "ts": "2026-06-25",
+      "type": "price_changed",
+      "id": "minimax/minimax-m2.7",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000024",
+          "next": "0.00000018",
+          "pct_change": -25
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000096",
+          "next": "0.00000072",
+          "pct_change": -25
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-25",
+      "type": "price_changed",
+      "id": "minimax/minimax-m2.5",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000015",
+          "next": "0.00000012",
+          "pct_change": -20
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000009",
+          "next": "0.00000048",
+          "pct_change": -46.67
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-25",
+      "type": "price_changed",
+      "id": "openai/gpt-oss-120b",
+      "provider": "openai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000039",
+          "next": "0.00000003",
+          "pct_change": -23.08
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000018",
+          "next": "0.00000015",
+          "pct_change": -16.67
+        }
+      ]
     }
   ]
 }
