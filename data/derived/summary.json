@@ -12,6 +12,26 @@
       "changes": [
         {
           "field": "prompt",
+          "prev": "0.000000089",
+          "next": "0.00000009",
+          "pct_change": 1.12
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000224",
+          "next": "0.00000018",
+          "pct_change": -19.64
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-25",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
           "prev": "0.00000009",
           "next": "0.000000089",
           "pct_change": -1.11
@@ -353,29 +373,6 @@
         "openrouter_status": "removed",
         "litellm_status": "active",
         "litellm_id": "anthropic.claude-3-5-haiku-20241022-v1:0"
-      }
-    },
-    {
-      "ts": "2026-06-22",
-      "type": "model_removed",
-      "id": "anthropic/claude-3.5-haiku",
-      "provider": "anthropic",
-      "snapshot": {
-        "id": "anthropic/claude-3.5-haiku",
-        "name": "Anthropic: Claude 3.5 Haiku",
-        "provider": "anthropic",
-        "pricing": {
-          "prompt": "0.0000008",
-          "completion": "0.000004",
-          "image": null,
-          "request": null
-        },
-        "context_length": 200000,
-        "max_completion_tokens": 8192,
-        "expiration_date": null,
-        "created": 1730678400,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-06-21"
       }
     }
   ],

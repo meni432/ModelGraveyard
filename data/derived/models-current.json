@@ -1060,13 +1060,13 @@
       "name": "DeepSeek: DeepSeek V4 Flash",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000089",
-        "completion": "0.000000224",
+        "prompt": "0.00000009",
+        "completion": "0.00000018",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 65536,
       "expiration_date": null,
       "created": 1777000666,
       "first_seen": "2026-05-27",

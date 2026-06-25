@@ -15,6 +15,15 @@
     <summary>prompt: $0.0900/Mtok → $0.0890/Mtok (-1.11%); completion: $0.1800/Mtok → $0.2240/Mtok (+24.44%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-06-25:price_changed:deepseek%2Fdeepseek-v4-flash</id>
+    <title>Price changed: deepseek/deepseek-v4-flash</title>
+    <updated>2026-06-25T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-flash"/>
+    <category term="price_changed"/>
+    <category term="provider:deepseek"/>
+    <summary>prompt: $0.0890/Mtok → $0.0900/Mtok (+1.12%); completion: $0.2240/Mtok → $0.1800/Mtok (-19.64%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-06-24:price_changed:z-ai%2Fglm-5.2</id>
     <title>Price changed: z-ai/glm-5.2</title>
     <updated>2026-06-24T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:moonshotai"/>
     <summary>prompt: $0.3500/Mtok → $0.4000/Mtok (+14.29%); completion: $1.8900/Mtok → $1.9000/Mtok (+0.53%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-10:context_changed:deepseek%2Fdeepseek-chat-v3-0324</id>
-    <title>Context window changed: deepseek/deepseek-chat-v3-0324</title>
-    <updated>2026-06-10T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-chat-v3-0324"/>
-    <category term="context_changed"/>
-    <category term="provider:deepseek"/>
-    <summary>163840 → 131072 tokens</summary>
   </entry>
 </feed>
