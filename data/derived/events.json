@@ -11372,6 +11372,26 @@
         "first_seen": "2026-06-24",
         "last_seen": "2026-06-24"
       }
+    },
+    {
+      "ts": "2026-06-25",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000009",
+          "next": "0.000000089",
+          "pct_change": -1.11
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000018",
+          "next": "0.000000224",
+          "pct_change": 24.44
+        }
+      ]
     }
   ]
 }

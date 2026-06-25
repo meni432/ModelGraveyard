@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/all.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/all.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-06-24T00:00:00Z</updated>
+  <updated>2026-06-25T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-25:price_changed:deepseek%2Fdeepseek-v4-flash</id>
+    <title>Price changed: deepseek/deepseek-v4-flash</title>
+    <updated>2026-06-25T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-flash"/>
+    <category term="price_changed"/>
+    <category term="provider:deepseek"/>
+    <summary>prompt: $0.0900/Mtok → $0.0890/Mtok (-1.11%); completion: $0.1800/Mtok → $0.2240/Mtok (+24.44%)</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-06-24:price_changed:z-ai%2Fglm-5.2</id>
     <title>Price changed: z-ai/glm-5.2</title>
@@ -895,14 +904,5 @@
     <category term="context_changed"/>
     <category term="provider:deepseek"/>
     <summary>163840 → 131072 tokens</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-10:model_removed:moonshotai%2Fkimi-k2.6%3Afree</id>
-    <title>Removed: moonshotai/kimi-k2.6:free</title>
-    <updated>2026-06-10T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k2.6%3Afree"/>
-    <category term="model_removed"/>
-    <category term="provider:moonshotai"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
   </entry>
 </feed>

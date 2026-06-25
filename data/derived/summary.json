@@ -2,8 +2,28 @@
   "generated_at": "2026-06-25",
   "active_count": 339,
   "dead_count": 39,
-  "last_event_ts": "2026-06-24",
+  "last_event_ts": "2026-06-25",
   "recent_events": [
+    {
+      "ts": "2026-06-25",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000009",
+          "next": "0.000000089",
+          "pct_change": -1.11
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000018",
+          "next": "0.000000224",
+          "pct_change": 24.44
+        }
+      ]
+    },
     {
       "ts": "2026-06-24",
       "type": "model_added",
@@ -356,29 +376,6 @@
         "created": 1730678400,
         "first_seen": "2026-05-27",
         "last_seen": "2026-06-21"
-      }
-    },
-    {
-      "ts": "2026-06-22",
-      "type": "model_added",
-      "id": "nex-agi/nex-n2-pro",
-      "provider": "nex-agi",
-      "snapshot": {
-        "id": "nex-agi/nex-n2-pro",
-        "name": "Nex AGI: Nex-N2-Pro",
-        "provider": "nex-agi",
-        "pricing": {
-          "prompt": "0.0000005",
-          "completion": "0.0000025",
-          "image": null,
-          "request": null
-        },
-        "context_length": 262144,
-        "max_completion_tokens": 262144,
-        "expiration_date": null,
-        "created": 1780937140,
-        "first_seen": "2026-06-22",
-        "last_seen": "2026-06-22"
       }
     }
   ],
