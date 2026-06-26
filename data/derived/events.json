@@ -11492,6 +11492,40 @@
           "pct_change": -11.11
         }
       ]
+    },
+    {
+      "ts": "2026-06-26",
+      "type": "price_changed",
+      "id": "qwen/qwen3.6-27b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.00000317",
+          "next": "0.00000265",
+          "pct_change": -16.4
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-26",
+      "type": "price_changed",
+      "id": "minimax/minimax-m2.7",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000018",
+          "next": "0",
+          "pct_change": -100
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000072",
+          "next": "0",
+          "pct_change": -100
+        }
+      ]
     }
   ]
 }

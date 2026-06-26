@@ -7,6 +7,40 @@
     {
       "ts": "2026-06-26",
       "type": "price_changed",
+      "id": "minimax/minimax-m2.7",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000018",
+          "next": "0",
+          "pct_change": -100
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000072",
+          "next": "0",
+          "pct_change": -100
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-26",
+      "type": "price_changed",
+      "id": "qwen/qwen3.6-27b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.00000317",
+          "next": "0.00000265",
+          "pct_change": -16.4
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-26",
+      "type": "price_changed",
       "id": "nvidia/nemotron-3-super-120b-a12b",
       "provider": "nvidia",
       "changes": [
@@ -361,37 +395,6 @@
         "expiration_date": null,
         "created": 1780937140,
         "first_seen": "2026-06-08",
-        "last_seen": "2026-06-22"
-      }
-    },
-    {
-      "ts": "2026-06-22",
-      "type": "deprecation_announced",
-      "id": "stepfun/step-3.5-flash",
-      "provider": "stepfun",
-      "prev_expiration": null,
-      "next_expiration": "2026-06-29"
-    },
-    {
-      "ts": "2026-06-22",
-      "type": "model_added",
-      "id": "z-ai/glm-5v-turbo",
-      "provider": "z-ai",
-      "snapshot": {
-        "id": "z-ai/glm-5v-turbo",
-        "name": "Z.ai: GLM 5V Turbo",
-        "provider": "z-ai",
-        "pricing": {
-          "prompt": "0.0000012",
-          "completion": "0.000004",
-          "image": null,
-          "request": null
-        },
-        "context_length": 202752,
-        "max_completion_tokens": 131072,
-        "expiration_date": "2098-12-31",
-        "created": 1775061458,
-        "first_seen": "2026-06-22",
         "last_seen": "2026-06-22"
       }
     }
