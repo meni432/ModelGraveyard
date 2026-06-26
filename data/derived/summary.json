@@ -1,9 +1,29 @@
 {
-  "generated_at": "2026-06-25",
+  "generated_at": "2026-06-26",
   "active_count": 339,
   "dead_count": 39,
-  "last_event_ts": "2026-06-25",
+  "last_event_ts": "2026-06-26",
   "recent_events": [
+    {
+      "ts": "2026-06-26",
+      "type": "price_changed",
+      "id": "nvidia/nemotron-3-super-120b-a12b",
+      "provider": "nvidia",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000009",
+          "next": "0.000000085",
+          "pct_change": -5.56
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000045",
+          "next": "0.0000004",
+          "pct_change": -11.11
+        }
+      ]
+    },
     {
       "ts": "2026-06-25",
       "type": "price_changed",
@@ -374,26 +394,6 @@
         "first_seen": "2026-06-22",
         "last_seen": "2026-06-22"
       }
-    },
-    {
-      "ts": "2026-06-22",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.2",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000001",
-          "next": "0.00000098",
-          "pct_change": -2
-        },
-        {
-          "field": "completion",
-          "prev": "0.000004",
-          "next": "0.00000308",
-          "pct_change": -23
-        }
-      ]
     }
   ],
   "scheduled_funerals": [

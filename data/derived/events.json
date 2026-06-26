@@ -11472,6 +11472,26 @@
           "pct_change": -16.67
         }
       ]
+    },
+    {
+      "ts": "2026-06-26",
+      "type": "price_changed",
+      "id": "nvidia/nemotron-3-super-120b-a12b",
+      "provider": "nvidia",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000009",
+          "next": "0.000000085",
+          "pct_change": -5.56
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000045",
+          "next": "0.0000004",
+          "pct_change": -11.11
+        }
+      ]
     }
   ]
 }
