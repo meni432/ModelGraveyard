@@ -11526,6 +11526,26 @@
           "pct_change": -100
         }
       ]
+    },
+    {
+      "ts": "2026-06-27",
+      "type": "price_changed",
+      "id": "minimax/minimax-m2.7",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0",
+          "next": "0.00000018",
+          "pct_change": null
+        },
+        {
+          "field": "completion",
+          "prev": "0",
+          "next": "0.00000072",
+          "pct_change": null
+        }
+      ]
     }
   ]
 }

@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/price_changed.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/price_changed.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-06-26T00:00:00Z</updated>
+  <updated>2026-06-27T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-27:price_changed:minimax%2Fminimax-m2.7</id>
+    <title>Price changed: minimax/minimax-m2.7</title>
+    <updated>2026-06-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/minimax%2Fminimax-m2.7"/>
+    <category term="price_changed"/>
+    <category term="provider:minimax"/>
+    <summary>prompt: $0.0000/Mtok → $0.1800/Mtok; completion: $0.0000/Mtok → $0.7200/Mtok</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-06-26:price_changed:nvidia%2Fnemotron-3-super-120b-a12b</id>
     <title>Price changed: nvidia/nemotron-3-super-120b-a12b</title>

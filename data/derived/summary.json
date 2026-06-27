@@ -1,9 +1,29 @@
 {
-  "generated_at": "2026-06-26",
+  "generated_at": "2026-06-27",
   "active_count": 339,
   "dead_count": 39,
-  "last_event_ts": "2026-06-26",
+  "last_event_ts": "2026-06-27",
   "recent_events": [
+    {
+      "ts": "2026-06-27",
+      "type": "price_changed",
+      "id": "minimax/minimax-m2.7",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0",
+          "next": "0.00000018",
+          "pct_change": null
+        },
+        {
+          "field": "completion",
+          "prev": "0",
+          "next": "0.00000072",
+          "pct_change": null
+        }
+      ]
+    },
     {
       "ts": "2026-06-26",
       "type": "price_changed",
@@ -374,29 +394,6 @@
           "pct_change": 11.11
         }
       ]
-    },
-    {
-      "ts": "2026-06-22",
-      "type": "model_removed",
-      "id": "nex-agi/nex-n2-pro:free",
-      "provider": "nex-agi",
-      "snapshot": {
-        "id": "nex-agi/nex-n2-pro:free",
-        "name": "Nex AGI: Nex-N2-Pro (free)",
-        "provider": "nex-agi",
-        "pricing": {
-          "prompt": "0",
-          "completion": "0",
-          "image": null,
-          "request": null
-        },
-        "context_length": 262144,
-        "max_completion_tokens": 256000,
-        "expiration_date": null,
-        "created": 1780937140,
-        "first_seen": "2026-06-08",
-        "last_seen": "2026-06-22"
-      }
     }
   ],
   "scheduled_funerals": [

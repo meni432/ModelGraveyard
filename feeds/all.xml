@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/all.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/all.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-06-26T00:00:00Z</updated>
+  <updated>2026-06-27T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-27:price_changed:minimax%2Fminimax-m2.7</id>
+    <title>Price changed: minimax/minimax-m2.7</title>
+    <updated>2026-06-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/minimax%2Fminimax-m2.7"/>
+    <category term="price_changed"/>
+    <category term="provider:minimax"/>
+    <summary>prompt: $0.0000/Mtok → $0.1800/Mtok; completion: $0.0000/Mtok → $0.7200/Mtok</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-06-26:price_changed:nvidia%2Fnemotron-3-super-120b-a12b</id>
     <title>Price changed: nvidia/nemotron-3-super-120b-a12b</title>
@@ -895,14 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:moonshotai"/>
     <summary>prompt: $0.6800/Mtok → $0.6700/Mtok (-1.47%); completion: $3.4100/Mtok → $3.3900/Mtok (-0.59%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-11:price_changed:google%2Fgemma-4-31b-it</id>
-    <title>Price changed: google/gemma-4-31b-it</title>
-    <updated>2026-06-11T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemma-4-31b-it"/>
-    <category term="price_changed"/>
-    <category term="provider:google"/>
-    <summary>completion: $0.3600/Mtok → $0.3500/Mtok (-2.78%)</summary>
   </entry>
 </feed>
