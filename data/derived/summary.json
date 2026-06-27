@@ -7,6 +7,26 @@
     {
       "ts": "2026-06-27",
       "type": "price_changed",
+      "id": "qwen/qwen3.6-27b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000002885",
+          "next": "0.0000002596",
+          "pct_change": -10.02
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000265",
+          "next": "0.000002385",
+          "pct_change": -10
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-27",
+      "type": "price_changed",
       "id": "minimax/minimax-m2.7",
       "provider": "minimax",
       "changes": [
@@ -372,26 +392,6 @@
           "prev": "0.0000025",
           "next": "0.000001",
           "pct_change": -60
-        }
-      ]
-    },
-    {
-      "ts": "2026-06-23",
-      "type": "price_changed",
-      "id": "moonshotai/kimi-k2.7-code",
-      "provider": "moonshotai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000612",
-          "next": "0.00000068",
-          "pct_change": 11.11
-        },
-        {
-          "field": "completion",
-          "prev": "0.000003069",
-          "next": "0.00000341",
-          "pct_change": 11.11
         }
       ]
     }

@@ -15,6 +15,15 @@
     <summary>prompt: $0.0000/Mtok → $0.1800/Mtok; completion: $0.0000/Mtok → $0.7200/Mtok</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-06-27:price_changed:qwen%2Fqwen3.6-27b</id>
+    <title>Price changed: qwen/qwen3.6-27b</title>
+    <updated>2026-06-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3.6-27b"/>
+    <category term="price_changed"/>
+    <category term="provider:qwen"/>
+    <summary>prompt: $0.2885/Mtok → $0.2596/Mtok (-10.02%); completion: $2.6500/Mtok → $2.3850/Mtok (-10%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-06-26:price_changed:nvidia%2Fnemotron-3-super-120b-a12b</id>
     <title>Price changed: nvidia/nemotron-3-super-120b-a12b</title>
     <updated>2026-06-26T00:00:00Z</updated>
@@ -894,15 +903,6 @@
     <link rel="alternate" href="https://modelgraveyard.com/model/~moonshotai%2Fkimi-latest"/>
     <category term="price_changed"/>
     <category term="provider:~moonshotai"/>
-    <summary>prompt: $0.6800/Mtok → $0.6700/Mtok (-1.47%); completion: $3.4100/Mtok → $3.3900/Mtok (-0.59%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-11:price_changed:moonshotai%2Fkimi-k2.6</id>
-    <title>Price changed: moonshotai/kimi-k2.6</title>
-    <updated>2026-06-11T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k2.6"/>
-    <category term="price_changed"/>
-    <category term="provider:moonshotai"/>
     <summary>prompt: $0.6800/Mtok → $0.6700/Mtok (-1.47%); completion: $3.4100/Mtok → $3.3900/Mtok (-0.59%)</summary>
   </entry>
 </feed>
