@@ -6,6 +6,28 @@
   "recent_events": [
     {
       "ts": "2026-06-29",
+      "type": "deprecation_announced",
+      "id": "poolside/laguna-xs.2:free",
+      "provider": "poolside",
+      "prev_expiration": null,
+      "next_expiration": "9999-01-01"
+    },
+    {
+      "ts": "2026-06-29",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000095",
+          "next": "0.00000094",
+          "pct_change": -1.05
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-29",
       "type": "model_removed",
       "id": "anthropic/claude-opus-4.6-fast",
       "provider": "anthropic",
@@ -351,52 +373,6 @@
           "pct_change": -2.6
         }
       ]
-    },
-    {
-      "ts": "2026-06-23",
-      "type": "model_removed",
-      "id": "prime-intellect/intellect-3",
-      "provider": "prime-intellect",
-      "snapshot": {
-        "id": "prime-intellect/intellect-3",
-        "name": "Prime Intellect: INTELLECT-3",
-        "provider": "prime-intellect",
-        "pricing": {
-          "prompt": "0.0000002",
-          "completion": "0.0000011",
-          "image": null,
-          "request": null
-        },
-        "context_length": 131072,
-        "max_completion_tokens": 131072,
-        "expiration_date": null,
-        "created": 1764212534,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-06-23"
-      }
-    },
-    {
-      "ts": "2026-06-23",
-      "type": "model_removed",
-      "id": "essentialai/rnj-1-instruct",
-      "provider": "essentialai",
-      "snapshot": {
-        "id": "essentialai/rnj-1-instruct",
-        "name": "EssentialAI: Rnj 1 Instruct",
-        "provider": "essentialai",
-        "pricing": {
-          "prompt": "0.00000015",
-          "completion": "0.00000015",
-          "image": null,
-          "request": null
-        },
-        "context_length": 32768,
-        "max_completion_tokens": null,
-        "expiration_date": null,
-        "created": 1765094847,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-06-23"
-      }
     }
   ],
   "scheduled_funerals": [
@@ -414,6 +390,11 @@
       "id": "z-ai/glm-5v-turbo",
       "provider": "z-ai",
       "expiration_date": "2098-12-31"
+    },
+    {
+      "id": "poolside/laguna-xs.2:free",
+      "provider": "poolside",
+      "expiration_date": "9999-01-01"
     }
   ]
 }

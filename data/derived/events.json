@@ -11643,6 +11643,28 @@
         "first_seen": "2026-05-27",
         "last_seen": "2026-06-29"
       }
+    },
+    {
+      "ts": "2026-06-29",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000095",
+          "next": "0.00000094",
+          "pct_change": -1.05
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-29",
+      "type": "deprecation_announced",
+      "id": "poolside/laguna-xs.2:free",
+      "provider": "poolside",
+      "prev_expiration": null,
+      "next_expiration": "9999-01-01"
     }
   ]
 }

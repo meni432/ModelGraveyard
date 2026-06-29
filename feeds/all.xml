@@ -42,6 +42,24 @@
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $30.0000/Mtok.</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-06-29:price_changed:z-ai%2Fglm-5.2</id>
+    <title>Price changed: z-ai/glm-5.2</title>
+    <updated>2026-06-29T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>prompt: $0.9500/Mtok → $0.9400/Mtok (-1.05%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-29:deprecation_announced:poolside%2Flaguna-xs.2%3Afree</id>
+    <title>Deprecation announced: poolside/laguna-xs.2:free (sunset 9999-01-01)</title>
+    <updated>2026-06-29T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/poolside%2Flaguna-xs.2%3Afree"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:poolside"/>
+    <summary>Provider announced retirement on 9999-01-01.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-06-27:price_changed:minimax%2Fminimax-m2.7</id>
     <title>Price changed: minimax/minimax-m2.7</title>
     <updated>2026-06-27T00:00:00Z</updated>
@@ -886,23 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:moonshotai"/>
     <summary>prompt: $0.4000/Mtok → $0.3500/Mtok (-12.5%); completion: $1.9000/Mtok → $1.8900/Mtok (-0.53%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-11:price_changed:moonshotai%2Fkimi-k2.5</id>
-    <title>Price changed: moonshotai/kimi-k2.5</title>
-    <updated>2026-06-11T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k2.5"/>
-    <category term="price_changed"/>
-    <category term="provider:moonshotai"/>
-    <summary>prompt: $0.3500/Mtok → $0.4000/Mtok (+14.29%); completion: $1.8900/Mtok → $1.9000/Mtok (+0.53%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-11:price_changed:deepseek%2Fdeepseek-r1-distill-llama-70b</id>
-    <title>Price changed: deepseek/deepseek-r1-distill-llama-70b</title>
-    <updated>2026-06-11T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-r1-distill-llama-70b"/>
-    <category term="price_changed"/>
-    <category term="provider:deepseek"/>
-    <summary>prompt: $0.7000/Mtok → $0.8000/Mtok (+14.29%)</summary>
   </entry>
 </feed>

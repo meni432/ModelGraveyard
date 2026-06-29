@@ -4246,7 +4246,7 @@
       },
       "context_length": 262144,
       "max_completion_tokens": 32768,
-      "expiration_date": null,
+      "expiration_date": "9999-01-01",
       "created": 1777389604,
       "first_seen": "2026-05-27",
       "last_seen": "2026-06-29"
@@ -5718,13 +5718,13 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.00000095",
+        "prompt": "0.00000094",
         "completion": "0.000003",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 32768,
+      "max_completion_tokens": null,
       "expiration_date": null,
       "created": 1781631930,
       "first_seen": "2026-06-16",
