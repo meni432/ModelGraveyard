@@ -24,6 +24,24 @@
     <summary>prompt: $0.6600/Mtok → $0.5500/Mtok (-16.67%); completion: $3.4100/Mtok → $3.2000/Mtok (-6.16%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-06-29:price_changed:stepfun%2Fstep-3.5-flash</id>
+    <title>Price changed: stepfun/step-3.5-flash</title>
+    <updated>2026-06-29T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/stepfun%2Fstep-3.5-flash"/>
+    <category term="price_changed"/>
+    <category term="provider:stepfun"/>
+    <summary>prompt: $0.0900/Mtok → $0.1000/Mtok (+11.11%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-29:model_removed:anthropic%2Fclaude-opus-4.6-fast</id>
+    <title>Removed: anthropic/claude-opus-4.6-fast</title>
+    <updated>2026-06-29T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-opus-4.6-fast"/>
+    <category term="model_removed"/>
+    <category term="provider:anthropic"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $30.0000/Mtok.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-06-27:price_changed:minimax%2Fminimax-m2.7</id>
     <title>Price changed: minimax/minimax-m2.7</title>
     <updated>2026-06-27T00:00:00Z</updated>
@@ -886,23 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:deepseek"/>
     <summary>prompt: $0.7000/Mtok → $0.8000/Mtok (+14.29%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-11:context_changed:deepseek%2Fdeepseek-r1-distill-llama-70b</id>
-    <title>Context window changed: deepseek/deepseek-r1-distill-llama-70b</title>
-    <updated>2026-06-11T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-r1-distill-llama-70b"/>
-    <category term="context_changed"/>
-    <category term="provider:deepseek"/>
-    <summary>131072 → 128000 tokens</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-11:model_removed:nvidia%2Fnemotron-nano-9b-v2</id>
-    <title>Removed: nvidia/nemotron-nano-9b-v2</title>
-    <updated>2026-06-11T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/nvidia%2Fnemotron-nano-9b-v2"/>
-    <category term="model_removed"/>
-    <category term="provider:nvidia"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0400/Mtok.</summary>
   </entry>
 </feed>

@@ -11606,6 +11606,43 @@
           "pct_change": -6.16
         }
       ]
+    },
+    {
+      "ts": "2026-06-29",
+      "type": "price_changed",
+      "id": "stepfun/step-3.5-flash",
+      "provider": "stepfun",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000009",
+          "next": "0.0000001",
+          "pct_change": 11.11
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-29",
+      "type": "model_removed",
+      "id": "anthropic/claude-opus-4.6-fast",
+      "provider": "anthropic",
+      "snapshot": {
+        "id": "anthropic/claude-opus-4.6-fast",
+        "name": "Anthropic: Claude Opus 4.6 (Fast)",
+        "provider": "anthropic",
+        "pricing": {
+          "prompt": "0.00003",
+          "completion": "0.00015",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1000000,
+        "max_completion_tokens": 128000,
+        "expiration_date": "2026-06-29",
+        "created": 1775592472,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-29"
+      }
     }
   ]
 }

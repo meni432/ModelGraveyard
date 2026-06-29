@@ -478,23 +478,6 @@
       "last_seen": "2026-06-29"
     },
     {
-      "id": "anthropic/claude-opus-4.6-fast",
-      "name": "Anthropic: Claude Opus 4.6 (Fast)",
-      "provider": "anthropic",
-      "pricing": {
-        "prompt": "0.00003",
-        "completion": "0.00015",
-        "image": null,
-        "request": null
-      },
-      "context_length": 1000000,
-      "max_completion_tokens": 128000,
-      "expiration_date": "2026-06-29",
-      "created": 1775592472,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-06-29"
-    },
-    {
       "id": "anthropic/claude-opus-4.7",
       "name": "Anthropic: Claude Opus 4.7",
       "provider": "anthropic",
@@ -5259,14 +5242,14 @@
       "name": "StepFun: Step 3.5 Flash",
       "provider": "stepfun",
       "pricing": {
-        "prompt": "0.00000009",
+        "prompt": "0.0000001",
         "completion": "0.0000003",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 16384,
-      "expiration_date": "2026-06-29",
+      "max_completion_tokens": 65536,
+      "expiration_date": null,
       "created": 1769728337,
       "first_seen": "2026-05-27",
       "last_seen": "2026-06-29"

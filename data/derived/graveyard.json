@@ -1,6 +1,23 @@
 {
   "buried": [
     {
+      "id": "anthropic/claude-opus-4.6-fast",
+      "name": "Anthropic: Claude Opus 4.6 (Fast)",
+      "provider": "anthropic",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00003",
+        "completion": "0.00015",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 1000000,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-06-29",
+      "buried_at": "2026-06-29",
+      "suggested_replacement": "anthropic/claude-fable-5"
+    },
+    {
       "id": "essentialai/rnj-1-instruct",
       "name": "EssentialAI: Rnj 1 Instruct",
       "provider": "essentialai",
