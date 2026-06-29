@@ -108,8 +108,8 @@
       "name": "MoonshotAI Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.00000066",
-        "completion": "0.00000341",
+        "prompt": "0.00000055",
+        "completion": "0.0000032",
         "image": null,
         "request": null
       },
@@ -2528,7 +2528,7 @@
         "request": null
       },
       "context_length": 131072,
-      "max_completion_tokens": 32768,
+      "max_completion_tokens": 100352,
       "expiration_date": null,
       "created": 1752263252,
       "first_seen": "2026-05-27",
@@ -2545,7 +2545,7 @@
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": 100352,
       "expiration_date": null,
       "created": 1757021147,
       "first_seen": "2026-05-27",
@@ -2590,8 +2590,8 @@
       "name": "MoonshotAI: Kimi K2.6",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.00000066",
-        "completion": "0.00000341",
+        "prompt": "0.00000055",
+        "completion": "0.0000032",
         "image": null,
         "request": null
       },

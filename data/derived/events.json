@@ -11566,6 +11566,46 @@
           "pct_change": -10
         }
       ]
+    },
+    {
+      "ts": "2026-06-29",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000066",
+          "next": "0.00000055",
+          "pct_change": -16.67
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000341",
+          "next": "0.0000032",
+          "pct_change": -6.16
+        }
+      ]
+    },
+    {
+      "ts": "2026-06-29",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.6",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000066",
+          "next": "0.00000055",
+          "pct_change": -16.67
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000341",
+          "next": "0.0000032",
+          "pct_change": -6.16
+        }
+      ]
     }
   ]
 }
