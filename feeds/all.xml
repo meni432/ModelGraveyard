@@ -24,6 +24,51 @@
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-06-30:model_added:anthropic%2Fclaude-sonnet-5</id>
+    <title>Added: anthropic/claude-sonnet-5</title>
+    <updated>2026-06-30T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-sonnet-5"/>
+    <category term="model_added"/>
+    <category term="provider:anthropic"/>
+    <summary>New model on OpenRouter. Initial prompt price: $2.0000/Mtok, context: 1000000.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-30:model_added:google%2Fgemini-3.1-flash-lite-image</id>
+    <title>Added: google/gemini-3.1-flash-lite-image</title>
+    <updated>2026-06-30T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-3.1-flash-lite-image"/>
+    <category term="model_added"/>
+    <category term="provider:google"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.2500/Mtok, context: 65536.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-30:price_changed:~anthropic%2Fclaude-sonnet-latest</id>
+    <title>Price changed: ~anthropic/claude-sonnet-latest</title>
+    <updated>2026-06-30T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/~anthropic%2Fclaude-sonnet-latest"/>
+    <category term="price_changed"/>
+    <category term="provider:~anthropic"/>
+    <summary>prompt: $3.0000/Mtok → $2.0000/Mtok (-33.33%); completion: $15.0000/Mtok → $10.0000/Mtok (-33.33%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-30:price_changed:qwen%2Fqwen3.6-27b</id>
+    <title>Price changed: qwen/qwen3.6-27b</title>
+    <updated>2026-06-30T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3.6-27b"/>
+    <category term="price_changed"/>
+    <category term="provider:qwen"/>
+    <summary>prompt: $0.2596/Mtok → $0.2850/Mtok (+9.78%); completion: $2.3850/Mtok → $2.4000/Mtok (+0.63%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-30:price_changed:deepseek%2Fdeepseek-v4-flash</id>
+    <title>Price changed: deepseek/deepseek-v4-flash</title>
+    <updated>2026-06-30T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-flash"/>
+    <category term="price_changed"/>
+    <category term="provider:deepseek"/>
+    <summary>prompt: $0.0900/Mtok → $0.0980/Mtok (+8.89%); completion: $0.1800/Mtok → $0.1960/Mtok (+8.89%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-06-29:price_changed:~moonshotai%2Fkimi-latest</id>
     <title>Price changed: ~moonshotai/kimi-latest</title>
     <updated>2026-06-29T00:00:00Z</updated>
@@ -859,50 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:moonshotai"/>
     <summary>prompt: $0.3500/Mtok → $0.4000/Mtok (+14.29%); completion: $1.8900/Mtok → $1.9000/Mtok (+0.53%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-12:price_changed:~moonshotai%2Fkimi-latest</id>
-    <title>Price changed: ~moonshotai/kimi-latest</title>
-    <updated>2026-06-12T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/~moonshotai%2Fkimi-latest"/>
-    <category term="price_changed"/>
-    <category term="provider:~moonshotai"/>
-    <summary>prompt: $0.6700/Mtok → $0.6800/Mtok (+1.49%); completion: $3.3900/Mtok → $3.4100/Mtok (+0.59%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-12:price_changed:qwen%2Fqwen3.6-27b</id>
-    <title>Price changed: qwen/qwen3.6-27b</title>
-    <updated>2026-06-12T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3.6-27b"/>
-    <category term="price_changed"/>
-    <category term="provider:qwen"/>
-    <summary>prompt: $0.2870/Mtok → $0.2885/Mtok (+0.52%); completion: $3.1000/Mtok → $3.1700/Mtok (+2.26%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-12:price_changed:moonshotai%2Fkimi-k2.6</id>
-    <title>Price changed: moonshotai/kimi-k2.6</title>
-    <updated>2026-06-12T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k2.6"/>
-    <category term="price_changed"/>
-    <category term="provider:moonshotai"/>
-    <summary>prompt: $0.6700/Mtok → $0.6800/Mtok (+1.49%); completion: $3.3900/Mtok → $3.4100/Mtok (+0.59%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-12:context_changed:deepseek%2Fdeepseek-chat-v3-0324</id>
-    <title>Context window changed: deepseek/deepseek-chat-v3-0324</title>
-    <updated>2026-06-12T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-chat-v3-0324"/>
-    <category term="context_changed"/>
-    <category term="provider:deepseek"/>
-    <summary>131072 → 163840 tokens</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-12:model_removed:meta-llama%2Fllama-guard-3-8b</id>
-    <title>Removed: meta-llama/llama-guard-3-8b</title>
-    <updated>2026-06-12T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/meta-llama%2Fllama-guard-3-8b"/>
-    <category term="model_removed"/>
-    <category term="provider:meta-llama"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.4840/Mtok.</summary>
   </entry>
 </feed>

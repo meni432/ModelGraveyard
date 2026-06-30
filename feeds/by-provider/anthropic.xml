@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/anthropic.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/anthropic.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-06-29T00:00:00Z</updated>
+  <updated>2026-06-30T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-30:model_added:anthropic%2Fclaude-sonnet-5</id>
+    <title>Added: anthropic/claude-sonnet-5</title>
+    <updated>2026-06-30T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-sonnet-5"/>
+    <category term="model_added"/>
+    <category term="provider:anthropic"/>
+    <summary>New model on OpenRouter. Initial prompt price: $2.0000/Mtok, context: 1000000.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-06-29:model_removed:anthropic%2Fclaude-opus-4.6-fast</id>
     <title>Removed: anthropic/claude-opus-4.6-fast</title>

@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/google.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/google.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-06-18T00:00:00Z</updated>
+  <updated>2026-06-30T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-06-30:model_added:google%2Fgemini-3.1-flash-lite-image</id>
+    <title>Added: google/gemini-3.1-flash-lite-image</title>
+    <updated>2026-06-30T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-3.1-flash-lite-image"/>
+    <category term="model_added"/>
+    <category term="provider:google"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.2500/Mtok, context: 65536.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-06-18:model_added:google%2Fgemini-3.1-flash-image</id>
     <title>Added: google/gemini-3.1-flash-image</title>
