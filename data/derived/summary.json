@@ -1,9 +1,32 @@
 {
   "generated_at": "2026-06-30",
-  "active_count": 338,
-  "dead_count": 40,
+  "active_count": 337,
+  "dead_count": 41,
   "last_event_ts": "2026-06-30",
   "recent_events": [
+    {
+      "ts": "2026-06-30",
+      "type": "model_removed",
+      "id": "openrouter/owl-alpha",
+      "provider": "openrouter",
+      "snapshot": {
+        "id": "openrouter/owl-alpha",
+        "name": "Owl Alpha",
+        "provider": "openrouter",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048756,
+        "max_completion_tokens": 262144,
+        "expiration_date": null,
+        "created": 1777398589,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-30"
+      }
+    },
     {
       "ts": "2026-06-30",
       "type": "price_changed",
@@ -351,26 +374,6 @@
           "prev": "0.00000014",
           "next": "0.000000105",
           "pct_change": -25
-        }
-      ]
-    },
-    {
-      "ts": "2026-06-24",
-      "type": "price_changed",
-      "id": "moonshotai/kimi-k2.7-code",
-      "provider": "moonshotai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000068",
-          "next": "0.00000074",
-          "pct_change": 8.82
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000341",
-          "next": "0.0000035",
-          "pct_change": 2.64
         }
       ]
     }

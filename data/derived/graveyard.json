@@ -1,6 +1,23 @@
 {
   "buried": [
     {
+      "id": "openrouter/owl-alpha",
+      "name": "Owl Alpha",
+      "provider": "openrouter",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 1048756,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-06-30",
+      "buried_at": "2026-06-30",
+      "suggested_replacement": "openrouter/fusion"
+    },
+    {
       "id": "anthropic/claude-opus-4.6-fast",
       "name": "Anthropic: Claude Opus 4.6 (Fast)",
       "provider": "anthropic",

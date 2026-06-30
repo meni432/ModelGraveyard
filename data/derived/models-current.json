@@ -4048,23 +4048,6 @@
       "last_seen": "2026-06-30"
     },
     {
-      "id": "openrouter/owl-alpha",
-      "name": "Owl Alpha",
-      "provider": "openrouter",
-      "pricing": {
-        "prompt": "0",
-        "completion": "0",
-        "image": null,
-        "request": null
-      },
-      "context_length": 1048756,
-      "max_completion_tokens": 262144,
-      "expiration_date": null,
-      "created": 1777398589,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-06-30"
-    },
-    {
       "id": "openrouter/pareto-code",
       "name": "Pareto Code Router",
       "provider": "openrouter",
