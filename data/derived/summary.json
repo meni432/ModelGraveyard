@@ -1,9 +1,29 @@
 {
-  "generated_at": "2026-06-29",
+  "generated_at": "2026-06-30",
   "active_count": 338,
   "dead_count": 40,
-  "last_event_ts": "2026-06-29",
+  "last_event_ts": "2026-06-30",
   "recent_events": [
+    {
+      "ts": "2026-06-30",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.1",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000098",
+          "next": "0.000000975",
+          "pct_change": -0.51
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000308",
+          "next": "0.0000043",
+          "pct_change": 39.61
+        }
+      ]
+    },
     {
       "ts": "2026-06-29",
       "type": "deprecation_announced",
@@ -351,26 +371,6 @@
           "prev": "0.00000341",
           "next": "0.0000035",
           "pct_change": 2.64
-        }
-      ]
-    },
-    {
-      "ts": "2026-06-24",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.2",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000098",
-          "next": "0.00000095",
-          "pct_change": -3.06
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000308",
-          "next": "0.000003",
-          "pct_change": -2.6
         }
       ]
     }

@@ -11665,6 +11665,26 @@
       "provider": "poolside",
       "prev_expiration": null,
       "next_expiration": "9999-01-01"
+    },
+    {
+      "ts": "2026-06-30",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.1",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000098",
+          "next": "0.000000975",
+          "pct_change": -0.51
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000308",
+          "next": "0.0000043",
+          "pct_change": 39.61
+        }
+      ]
     }
   ]
 }
