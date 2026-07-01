@@ -11945,6 +11945,101 @@
           "pct_change": 13.75
         }
       ]
+    },
+    {
+      "ts": "2026-07-01",
+      "type": "price_changed",
+      "id": "~anthropic/claude-fable-latest",
+      "provider": "~anthropic",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00001",
+          "next": "-1",
+          "pct_change": -10000100
+        },
+        {
+          "field": "completion",
+          "prev": "0.00005",
+          "next": "-1",
+          "pct_change": -2000100
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-01",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000098",
+          "next": "0.00000009",
+          "pct_change": -8.16
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000196",
+          "next": "0.00000018",
+          "pct_change": -8.16
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-01",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-chat-v3-0324",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000002",
+          "next": "0.00000024",
+          "pct_change": 20
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000077",
+          "next": "0.0000009",
+          "pct_change": 16.88
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-01",
+      "type": "model_removed",
+      "id": "anthropic/claude-fable-5",
+      "provider": "anthropic",
+      "snapshot": {
+        "id": "anthropic/claude-fable-5",
+        "name": "Anthropic: Claude Fable 5",
+        "provider": "anthropic",
+        "pricing": {
+          "prompt": "0.00001",
+          "completion": "0.00005",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1000000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1781007515,
+        "first_seen": "2026-06-09",
+        "last_seen": "2026-07-01"
+      }
+    },
+    {
+      "ts": "2026-07-01",
+      "type": "disagreement_detected",
+      "id": "anthropic/claude-fable-5",
+      "provider": "anthropic",
+      "disagreement": {
+        "slug": "anthropic:claude-fable-5",
+        "openrouter_status": "removed",
+        "litellm_status": "active",
+        "litellm_id": "claude-fable-5"
+      }
     }
   ]
 }

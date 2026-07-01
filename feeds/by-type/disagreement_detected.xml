@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/disagreement_detected.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/disagreement_detected.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-06-22T00:00:00Z</updated>
+  <updated>2026-07-01T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-01:disagreement_detected:anthropic%2Fclaude-fable-5</id>
+    <title>Catalog disagreement: anthropic/claude-fable-5</title>
+    <updated>2026-07-01T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-fable-5"/>
+    <category term="disagreement_detected"/>
+    <category term="provider:anthropic"/>
+    <summary>OpenRouter says removed; LiteLLM still lists it as claude-fable-5.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-06-22:disagreement_detected:anthropic%2Fclaude-3.5-haiku</id>
     <title>Catalog disagreement: anthropic/claude-3.5-haiku</title>

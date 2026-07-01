@@ -1,6 +1,23 @@
 {
   "buried": [
     {
+      "id": "anthropic/claude-fable-5",
+      "name": "Anthropic: Claude Fable 5",
+      "provider": "anthropic",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00001",
+        "completion": "0.00005",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 1000000,
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-07-01",
+      "buried_at": "2026-07-01",
+      "suggested_replacement": "anthropic/claude-sonnet-5"
+    },
+    {
       "id": "microsoft/phi-4-mini-instruct",
       "name": "Microsoft: Phi 4 Mini Instruct",
       "provider": "microsoft",

@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-provider/anthropic.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/anthropic.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-06-30T00:00:00Z</updated>
+  <updated>2026-07-01T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-01:model_removed:anthropic%2Fclaude-fable-5</id>
+    <title>Removed: anthropic/claude-fable-5</title>
+    <updated>2026-07-01T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-fable-5"/>
+    <category term="model_removed"/>
+    <category term="provider:anthropic"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $10.0000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-01:disagreement_detected:anthropic%2Fclaude-fable-5</id>
+    <title>Catalog disagreement: anthropic/claude-fable-5</title>
+    <updated>2026-07-01T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-fable-5"/>
+    <category term="disagreement_detected"/>
+    <category term="provider:anthropic"/>
+    <summary>OpenRouter says removed; LiteLLM still lists it as claude-fable-5.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-06-30:model_added:anthropic%2Fclaude-sonnet-5</id>
     <title>Added: anthropic/claude-sonnet-5</title>

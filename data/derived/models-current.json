@@ -6,13 +6,13 @@
       "name": "Anthropic: Claude Fable Latest",
       "provider": "~anthropic",
       "pricing": {
-        "prompt": "0.00001",
-        "completion": "0.00005",
+        "prompt": "-1",
+        "completion": "-1",
         "image": null,
         "request": null
       },
       "context_length": 1000000,
-      "max_completion_tokens": 128000,
+      "max_completion_tokens": null,
       "expiration_date": null,
       "created": 1781029944,
       "first_seen": "2026-06-09",
@@ -373,23 +373,6 @@
       "expiration_date": null,
       "created": 1710288000,
       "first_seen": "2026-05-27",
-      "last_seen": "2026-07-01"
-    },
-    {
-      "id": "anthropic/claude-fable-5",
-      "name": "Anthropic: Claude Fable 5",
-      "provider": "anthropic",
-      "pricing": {
-        "prompt": "0.00001",
-        "completion": "0.00005",
-        "image": null,
-        "request": null
-      },
-      "context_length": 1000000,
-      "max_completion_tokens": 128000,
-      "expiration_date": null,
-      "created": 1781007515,
-      "first_seen": "2026-06-09",
       "last_seen": "2026-07-01"
     },
     {
@@ -924,8 +907,8 @@
       "name": "DeepSeek: DeepSeek V3 0324",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000002",
-        "completion": "0.00000077",
+        "prompt": "0.00000024",
+        "completion": "0.0000009",
         "image": null,
         "request": null
       },
@@ -1060,13 +1043,13 @@
       "name": "DeepSeek: DeepSeek V4 Flash",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000098",
-        "completion": "0.000000196",
+        "prompt": "0.00000009",
+        "completion": "0.00000018",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 16384,
       "expiration_date": null,
       "created": 1777000666,
       "first_seen": "2026-05-27",
