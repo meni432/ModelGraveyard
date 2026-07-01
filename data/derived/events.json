@@ -11814,6 +11814,63 @@
           "pct_change": 8.89
         }
       ]
+    },
+    {
+      "ts": "2026-07-01",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000094",
+          "next": "0.00000093",
+          "pct_change": -1.06
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-01",
+      "type": "price_changed",
+      "id": "qwen/qwen3-235b-a22b-thinking-2507",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000001",
+          "next": "0.0000001495",
+          "pct_change": 49.5
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000001",
+          "next": "0.000001495",
+          "pct_change": 1395
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-01",
+      "type": "model_removed",
+      "id": "microsoft/phi-4-mini-instruct",
+      "provider": "microsoft",
+      "snapshot": {
+        "id": "microsoft/phi-4-mini-instruct",
+        "name": "Microsoft: Phi 4 Mini Instruct",
+        "provider": "microsoft",
+        "pricing": {
+          "prompt": "0.00000008",
+          "completion": "0.00000035",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1760726049,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-06-30"
+      }
     }
   ]
 }

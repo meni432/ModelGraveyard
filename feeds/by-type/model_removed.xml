@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_removed.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_removed.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-06-30T00:00:00Z</updated>
+  <updated>2026-07-01T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-01:model_removed:microsoft%2Fphi-4-mini-instruct</id>
+    <title>Removed: microsoft/phi-4-mini-instruct</title>
+    <updated>2026-07-01T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/microsoft%2Fphi-4-mini-instruct"/>
+    <category term="model_removed"/>
+    <category term="provider:microsoft"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0800/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-06-30:model_removed:openrouter%2Fowl-alpha</id>
     <title>Removed: openrouter/owl-alpha</title>
