@@ -2098,12 +2098,12 @@
       "provider": "minimax",
       "pricing": {
         "prompt": "0.000000255",
-        "completion": "0.000001",
+        "completion": "0.00000102",
         "image": null,
         "request": null
       },
       "context_length": 204800,
-      "max_completion_tokens": 196608,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1761252093,
       "first_seen": "2026-05-27",
@@ -2131,13 +2131,13 @@
       "name": "MiniMax: MiniMax M2.1",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0.00000029",
-        "completion": "0.00000095",
+        "prompt": "0.0000003",
+        "completion": "0.0000012",
         "image": null,
         "request": null
       },
       "context_length": 204800,
-      "max_completion_tokens": 196608,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1766454997,
       "first_seen": "2026-05-27",
@@ -2562,7 +2562,7 @@
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": 100352,
       "expiration_date": null,
       "created": 1762440622,
       "first_seen": "2026-05-27",
@@ -4477,13 +4477,13 @@
       "name": "Qwen: Qwen3 30B A3B Thinking 2507",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000008",
-        "completion": "0.0000004",
+        "prompt": "0.00000013",
+        "completion": "0.00000156",
         "image": null,
         "request": null
       },
       "context_length": 131072,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 32768,
       "expiration_date": null,
       "created": 1756399192,
       "first_seen": "2026-05-27",
@@ -4511,8 +4511,8 @@
       "name": "Qwen: Qwen3 8B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000005",
-        "completion": "0.0000004",
+        "prompt": "0.000000117",
+        "completion": "0.000000455",
         "image": null,
         "request": null
       },

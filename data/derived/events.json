@@ -11871,6 +11871,80 @@
         "first_seen": "2026-05-27",
         "last_seen": "2026-06-30"
       }
+    },
+    {
+      "ts": "2026-07-01",
+      "type": "price_changed",
+      "id": "minimax/minimax-m2.1",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000029",
+          "next": "0.0000003",
+          "pct_change": 3.45
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000095",
+          "next": "0.0000012",
+          "pct_change": 26.32
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-01",
+      "type": "price_changed",
+      "id": "minimax/minimax-m2",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.000001",
+          "next": "0.00000102",
+          "pct_change": 2
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-01",
+      "type": "price_changed",
+      "id": "qwen/qwen3-30b-a3b-thinking-2507",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000008",
+          "next": "0.00000013",
+          "pct_change": 62.5
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000004",
+          "next": "0.00000156",
+          "pct_change": 290
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-01",
+      "type": "price_changed",
+      "id": "qwen/qwen3-8b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000005",
+          "next": "0.000000117",
+          "pct_change": 134
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000004",
+          "next": "0.000000455",
+          "pct_change": 13.75
+        }
+      ]
     }
   ]
 }
