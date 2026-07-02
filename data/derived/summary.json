@@ -1,9 +1,55 @@
 {
   "generated_at": "2026-07-02",
-  "active_count": 338,
+  "active_count": 340,
   "dead_count": 43,
   "last_event_ts": "2026-07-02",
   "recent_events": [
+    {
+      "ts": "2026-07-02",
+      "type": "model_added",
+      "id": "poolside/laguna-xs-2.1",
+      "provider": "poolside",
+      "snapshot": {
+        "id": "poolside/laguna-xs-2.1",
+        "name": "Poolside: Laguna XS 2.1",
+        "provider": "poolside",
+        "pricing": {
+          "prompt": "0.00000006",
+          "completion": "0.00000012",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 32768,
+        "expiration_date": null,
+        "created": 1783002429,
+        "first_seen": "2026-07-02",
+        "last_seen": "2026-07-02"
+      }
+    },
+    {
+      "ts": "2026-07-02",
+      "type": "model_added",
+      "id": "poolside/laguna-xs-2.1:free",
+      "provider": "poolside",
+      "snapshot": {
+        "id": "poolside/laguna-xs-2.1:free",
+        "name": "Poolside: Laguna XS 2.1 (free)",
+        "provider": "poolside",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 32768,
+        "expiration_date": null,
+        "created": 1783002429,
+        "first_seen": "2026-07-02",
+        "last_seen": "2026-07-02"
+      }
+    },
     {
       "ts": "2026-07-02",
       "type": "price_changed",
@@ -328,40 +374,6 @@
         "first_seen": "2026-05-27",
         "last_seen": "2026-06-30"
       }
-    },
-    {
-      "ts": "2026-07-01",
-      "type": "price_changed",
-      "id": "qwen/qwen3-235b-a22b-thinking-2507",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000001",
-          "next": "0.0000001495",
-          "pct_change": 49.5
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000001",
-          "next": "0.000001495",
-          "pct_change": 1395
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-01",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.2",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000094",
-          "next": "0.00000093",
-          "pct_change": -1.06
-        }
-      ]
     }
   ],
   "scheduled_funerals": [

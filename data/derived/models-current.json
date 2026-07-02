@@ -4218,6 +4218,40 @@
       "last_seen": "2026-07-02"
     },
     {
+      "id": "poolside/laguna-xs-2.1",
+      "name": "Poolside: Laguna XS 2.1",
+      "provider": "poolside",
+      "pricing": {
+        "prompt": "0.00000006",
+        "completion": "0.00000012",
+        "image": null,
+        "request": null
+      },
+      "context_length": 262144,
+      "max_completion_tokens": 32768,
+      "expiration_date": null,
+      "created": 1783002429,
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02"
+    },
+    {
+      "id": "poolside/laguna-xs-2.1:free",
+      "name": "Poolside: Laguna XS 2.1 (free)",
+      "provider": "poolside",
+      "pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "context_length": 262144,
+      "max_completion_tokens": 32768,
+      "expiration_date": null,
+      "created": 1783002429,
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02"
+    },
+    {
       "id": "poolside/laguna-xs.2",
       "name": "Poolside: Laguna XS.2",
       "provider": "poolside",
