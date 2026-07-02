@@ -12040,6 +12040,65 @@
         "litellm_status": "active",
         "litellm_id": "claude-fable-5"
       }
+    },
+    {
+      "ts": "2026-07-02",
+      "type": "price_changed",
+      "id": "~anthropic/claude-fable-latest",
+      "provider": "~anthropic",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "-1",
+          "next": "0.00001",
+          "pct_change": -100
+        },
+        {
+          "field": "completion",
+          "prev": "-1",
+          "next": "0.00005",
+          "pct_change": -100.01
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-02",
+      "type": "model_added",
+      "id": "anthropic/claude-fable-5",
+      "provider": "anthropic",
+      "snapshot": {
+        "id": "anthropic/claude-fable-5",
+        "name": "Anthropic: Claude Fable 5",
+        "provider": "anthropic",
+        "pricing": {
+          "prompt": "0.00001",
+          "completion": "0.00005",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1000000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1781007515,
+        "first_seen": "2026-07-02",
+        "last_seen": "2026-07-02"
+      }
+    },
+    {
+      "ts": "2026-07-02",
+      "type": "deprecation_announced",
+      "id": "poolside/laguna-xs.2:free",
+      "provider": "poolside",
+      "prev_expiration": "9999-01-01",
+      "next_expiration": "2026-07-09"
+    },
+    {
+      "ts": "2026-07-02",
+      "type": "deprecation_announced",
+      "id": "poolside/laguna-xs.2",
+      "provider": "poolside",
+      "prev_expiration": null,
+      "next_expiration": "2026-07-09"
     }
   ]
 }

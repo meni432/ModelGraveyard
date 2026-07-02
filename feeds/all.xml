@@ -4,7 +4,43 @@
   <id>https://modelgraveyard.com/feeds/all.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/all.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-07-01T00:00:00Z</updated>
+  <updated>2026-07-02T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-02:price_changed:~anthropic%2Fclaude-fable-latest</id>
+    <title>Price changed: ~anthropic/claude-fable-latest</title>
+    <updated>2026-07-02T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/~anthropic%2Fclaude-fable-latest"/>
+    <category term="price_changed"/>
+    <category term="provider:~anthropic"/>
+    <summary>prompt: $-1000000.0000/Mtok → $10.0000/Mtok (-100%); completion: $-1000000.0000/Mtok → $50.0000/Mtok (-100.01%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-02:model_added:anthropic%2Fclaude-fable-5</id>
+    <title>Added: anthropic/claude-fable-5</title>
+    <updated>2026-07-02T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-fable-5"/>
+    <category term="model_added"/>
+    <category term="provider:anthropic"/>
+    <summary>New model on OpenRouter. Initial prompt price: $10.0000/Mtok, context: 1000000.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-02:deprecation_announced:poolside%2Flaguna-xs.2%3Afree</id>
+    <title>Deprecation announced: poolside/laguna-xs.2:free (sunset 2026-07-09)</title>
+    <updated>2026-07-02T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/poolside%2Flaguna-xs.2%3Afree"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:poolside"/>
+    <summary>Provider announced retirement on 2026-07-09.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-02:deprecation_announced:poolside%2Flaguna-xs.2</id>
+    <title>Deprecation announced: poolside/laguna-xs.2 (sunset 2026-07-09)</title>
+    <updated>2026-07-02T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/poolside%2Flaguna-xs.2"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:poolside"/>
+    <summary>Provider announced retirement on 2026-07-09.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-07-01:price_changed:z-ai%2Fglm-5.2</id>
     <title>Price changed: z-ai/glm-5.2</title>
@@ -868,41 +904,5 @@
     <category term="model_added"/>
     <category term="provider:z-ai"/>
     <summary>New model on OpenRouter. Initial prompt price: $1.4000/Mtok, context: 1048576.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-16:price_changed:moonshotai%2Fkimi-k2.7-code</id>
-    <title>Price changed: moonshotai/kimi-k2.7-code</title>
-    <updated>2026-06-16T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k2.7-code"/>
-    <category term="price_changed"/>
-    <category term="provider:moonshotai"/>
-    <summary>prompt: $0.7500/Mtok → $0.7400/Mtok (-1.33%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-15:deprecation_announced:xiaomi%2Fmimo-v2-flash</id>
-    <title>Deprecation announced: xiaomi/mimo-v2-flash (sunset 2026-06-17)</title>
-    <updated>2026-06-15T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/xiaomi%2Fmimo-v2-flash"/>
-    <category term="deprecation_announced"/>
-    <category term="provider:xiaomi"/>
-    <summary>Provider announced retirement on 2026-06-17.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-15:context_changed:openrouter%2Ffusion</id>
-    <title>Context window changed: openrouter/fusion</title>
-    <updated>2026-06-15T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openrouter%2Ffusion"/>
-    <category term="context_changed"/>
-    <category term="provider:openrouter"/>
-    <summary>128000 → 1000000 tokens</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-15:price_changed:deepseek%2Fdeepseek-v4-flash</id>
-    <title>Price changed: deepseek/deepseek-v4-flash</title>
-    <updated>2026-06-15T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-flash"/>
-    <category term="price_changed"/>
-    <category term="provider:deepseek"/>
-    <summary>prompt: $0.0900/Mtok → $0.0980/Mtok (+8.89%); completion: $0.1800/Mtok → $0.1960/Mtok (+8.89%)</summary>
   </entry>
 </feed>

@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_added.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_added.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-06-30T00:00:00Z</updated>
+  <updated>2026-07-02T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-02:model_added:anthropic%2Fclaude-fable-5</id>
+    <title>Added: anthropic/claude-fable-5</title>
+    <updated>2026-07-02T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-fable-5"/>
+    <category term="model_added"/>
+    <category term="provider:anthropic"/>
+    <summary>New model on OpenRouter. Initial prompt price: $10.0000/Mtok, context: 1000000.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-06-30:model_added:anthropic%2Fclaude-sonnet-5</id>
     <title>Added: anthropic/claude-sonnet-5</title>
@@ -895,14 +904,5 @@
     <category term="model_added"/>
     <category term="provider:google"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.2500/Mtok, context: 1048576.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:bytedance-seed%2Fseed-2.0-mini</id>
-    <title>Added: bytedance-seed/seed-2.0-mini</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/bytedance-seed%2Fseed-2.0-mini"/>
-    <category term="model_added"/>
-    <category term="provider:bytedance-seed"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.1000/Mtok, context: 262144.</summary>
   </entry>
 </feed>

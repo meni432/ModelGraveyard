@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-01",
-  "openrouter_catalog_size": 326,
+  "generated_at": "2026-07-02",
+  "openrouter_catalog_size": 327,
   "litellm_catalog_size": 2137,
-  "shared_count": 85,
+  "shared_count": 86,
   "openrouter_only_count": 241,
   "litellm_only_count": 2045,
   "disagreements": [
@@ -16,17 +16,6 @@
       "litellm_deprecation_date": null,
       "severity": "high",
       "noted_at": "2026-06-22"
-    },
-    {
-      "slug": "anthropic:claude-fable-5",
-      "openrouter_status": "removed",
-      "openrouter_id": "anthropic/claude-fable-5",
-      "openrouter_removed_at": "2026-07-01",
-      "litellm_status": "active",
-      "litellm_id": "claude-fable-5",
-      "litellm_deprecation_date": null,
-      "severity": "high",
-      "noted_at": "2026-07-01"
     },
     {
       "slug": "google:gemini-2-0-flash-001",
@@ -94,6 +83,11 @@
       "slug": "anthropic:claude-3-haiku",
       "openrouter_id": "anthropic/claude-3-haiku",
       "litellm_id": "claude-3-haiku-20240307"
+    },
+    {
+      "slug": "anthropic:claude-fable-5",
+      "openrouter_id": "anthropic/claude-fable-5",
+      "litellm_id": "claude-fable-5"
     },
     {
       "slug": "anthropic:claude-haiku-4-5",

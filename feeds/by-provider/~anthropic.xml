@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/~anthropic.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/~anthropic.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-07-01T00:00:00Z</updated>
+  <updated>2026-07-02T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-02:price_changed:~anthropic%2Fclaude-fable-latest</id>
+    <title>Price changed: ~anthropic/claude-fable-latest</title>
+    <updated>2026-07-02T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/~anthropic%2Fclaude-fable-latest"/>
+    <category term="price_changed"/>
+    <category term="provider:~anthropic"/>
+    <summary>prompt: $-1000000.0000/Mtok → $10.0000/Mtok (-100%); completion: $-1000000.0000/Mtok → $50.0000/Mtok (-100.01%)</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-07-01:price_changed:~anthropic%2Fclaude-fable-latest</id>
     <title>Price changed: ~anthropic/claude-fable-latest</title>
