@@ -12113,6 +12113,66 @@
           "pct_change": -1.11
         }
       ]
+    },
+    {
+      "ts": "2026-07-02",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000055",
+          "next": "0.00000066",
+          "pct_change": 20
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000032",
+          "next": "0.00000341",
+          "pct_change": 6.56
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-02",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.6",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000055",
+          "next": "0.00000066",
+          "pct_change": 20
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000032",
+          "next": "0.00000341",
+          "pct_change": 6.56
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-02",
+      "type": "price_changed",
+      "id": "qwen/qwen3-vl-8b-instruct",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000008",
+          "next": "0.000000117",
+          "pct_change": 46.25
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000005",
+          "next": "0.000000455",
+          "pct_change": -9
+        }
+      ]
     }
   ]
 }

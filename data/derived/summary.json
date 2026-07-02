@@ -7,6 +7,66 @@
     {
       "ts": "2026-07-02",
       "type": "price_changed",
+      "id": "qwen/qwen3-vl-8b-instruct",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000008",
+          "next": "0.000000117",
+          "pct_change": 46.25
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000005",
+          "next": "0.000000455",
+          "pct_change": -9
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-02",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.6",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000055",
+          "next": "0.00000066",
+          "pct_change": 20
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000032",
+          "next": "0.00000341",
+          "pct_change": 6.56
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-02",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000055",
+          "next": "0.00000066",
+          "pct_change": 20
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000032",
+          "next": "0.00000341",
+          "pct_change": 6.56
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-02",
+      "type": "price_changed",
       "id": "deepseek/deepseek-v4-flash",
       "provider": "deepseek",
       "changes": [
@@ -300,66 +360,6 @@
           "prev": "0.00000094",
           "next": "0.00000093",
           "pct_change": -1.06
-        }
-      ]
-    },
-    {
-      "ts": "2026-06-30",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-flash",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000009",
-          "next": "0.000000098",
-          "pct_change": 8.89
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000018",
-          "next": "0.000000196",
-          "pct_change": 8.89
-        }
-      ]
-    },
-    {
-      "ts": "2026-06-30",
-      "type": "price_changed",
-      "id": "qwen/qwen3.6-27b",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000002596",
-          "next": "0.000000285",
-          "pct_change": 9.78
-        },
-        {
-          "field": "completion",
-          "prev": "0.000002385",
-          "next": "0.0000024",
-          "pct_change": 0.63
-        }
-      ]
-    },
-    {
-      "ts": "2026-06-30",
-      "type": "price_changed",
-      "id": "~anthropic/claude-sonnet-latest",
-      "provider": "~anthropic",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000003",
-          "next": "0.000002",
-          "pct_change": -33.33
-        },
-        {
-          "field": "completion",
-          "prev": "0.000015",
-          "next": "0.00001",
-          "pct_change": -33.33
         }
       ]
     }
