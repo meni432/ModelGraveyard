@@ -12099,6 +12099,20 @@
       "provider": "poolside",
       "prev_expiration": null,
       "next_expiration": "2026-07-09"
+    },
+    {
+      "ts": "2026-07-02",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000009",
+          "next": "0.000000089",
+          "pct_change": -1.11
+        }
+      ]
     }
   ]
 }

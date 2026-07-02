@@ -6,6 +6,20 @@
   "recent_events": [
     {
       "ts": "2026-07-02",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000009",
+          "next": "0.000000089",
+          "pct_change": -1.11
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-02",
       "type": "deprecation_announced",
       "id": "poolside/laguna-xs.2",
       "provider": "poolside",
@@ -348,29 +362,6 @@
           "pct_change": -33.33
         }
       ]
-    },
-    {
-      "ts": "2026-06-30",
-      "type": "model_added",
-      "id": "google/gemini-3.1-flash-lite-image",
-      "provider": "google",
-      "snapshot": {
-        "id": "google/gemini-3.1-flash-lite-image",
-        "name": "Google: Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)",
-        "provider": "google",
-        "pricing": {
-          "prompt": "0.00000025",
-          "completion": "0.0000015",
-          "image": null,
-          "request": null
-        },
-        "context_length": 65536,
-        "max_completion_tokens": 66000,
-        "expiration_date": null,
-        "created": 1782837225,
-        "first_seen": "2026-06-30",
-        "last_seen": "2026-06-30"
-      }
     }
   ],
   "scheduled_funerals": [
