@@ -7,6 +7,20 @@
     {
       "ts": "2026-07-03",
       "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000089",
+          "next": "0.00000009",
+          "pct_change": 1.12
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-03",
+      "type": "price_changed",
       "id": "z-ai/glm-5.1",
       "provider": "z-ai",
       "changes": [
@@ -349,26 +363,6 @@
           "prev": "0.000001",
           "next": "0.00000102",
           "pct_change": 2
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-01",
-      "type": "price_changed",
-      "id": "minimax/minimax-m2.1",
-      "provider": "minimax",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000029",
-          "next": "0.0000003",
-          "pct_change": 3.45
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000095",
-          "next": "0.0000012",
-          "pct_change": 26.32
         }
       ]
     }
