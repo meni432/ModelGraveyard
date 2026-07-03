@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/price_changed.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/price_changed.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-07-02T00:00:00Z</updated>
+  <updated>2026-07-03T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-03:price_changed:z-ai%2Fglm-5.1</id>
+    <title>Price changed: z-ai/glm-5.1</title>
+    <updated>2026-07-03T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.1"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>prompt: $0.9750/Mtok → $0.9660/Mtok (-0.92%); completion: $4.3000/Mtok → $3.0360/Mtok (-29.4%)</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-07-02:price_changed:~anthropic%2Fclaude-fable-latest</id>
     <title>Price changed: ~anthropic/claude-fable-latest</title>
@@ -895,14 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:z-ai"/>
     <summary>completion: $0.8400/Mtok → $0.8500/Mtok (+1.19%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-08:price_changed:qwen%2Fqwen3-235b-a22b-thinking-2507</id>
-    <title>Price changed: qwen/qwen3-235b-a22b-thinking-2507</title>
-    <updated>2026-06-08T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3-235b-a22b-thinking-2507"/>
-    <category term="price_changed"/>
-    <category term="provider:qwen"/>
-    <summary>prompt: $0.1495/Mtok → $0.1000/Mtok (-33.11%); completion: $1.4950/Mtok → $0.1000/Mtok (-93.31%)</summary>
   </entry>
 </feed>

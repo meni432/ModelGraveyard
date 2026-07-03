@@ -12219,6 +12219,26 @@
         "first_seen": "2026-07-02",
         "last_seen": "2026-07-02"
       }
+    },
+    {
+      "ts": "2026-07-03",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.1",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000975",
+          "next": "0.000000966",
+          "pct_change": -0.92
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000043",
+          "next": "0.000003036",
+          "pct_change": -29.4
+        }
+      ]
     }
   ]
 }

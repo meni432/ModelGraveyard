@@ -1,9 +1,29 @@
 {
-  "generated_at": "2026-07-02",
+  "generated_at": "2026-07-03",
   "active_count": 340,
   "dead_count": 43,
-  "last_event_ts": "2026-07-02",
+  "last_event_ts": "2026-07-03",
   "recent_events": [
+    {
+      "ts": "2026-07-03",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.1",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000975",
+          "next": "0.000000966",
+          "pct_change": -0.92
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000043",
+          "next": "0.000003036",
+          "pct_change": -29.4
+        }
+      ]
+    },
     {
       "ts": "2026-07-02",
       "type": "model_added",
@@ -351,29 +371,6 @@
           "pct_change": 26.32
         }
       ]
-    },
-    {
-      "ts": "2026-07-01",
-      "type": "model_removed",
-      "id": "microsoft/phi-4-mini-instruct",
-      "provider": "microsoft",
-      "snapshot": {
-        "id": "microsoft/phi-4-mini-instruct",
-        "name": "Microsoft: Phi 4 Mini Instruct",
-        "provider": "microsoft",
-        "pricing": {
-          "prompt": "0.00000008",
-          "completion": "0.00000035",
-          "image": null,
-          "request": null
-        },
-        "context_length": 131072,
-        "max_completion_tokens": 128000,
-        "expiration_date": null,
-        "created": 1760726049,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-06-30"
-      }
     }
   ],
   "scheduled_funerals": [
