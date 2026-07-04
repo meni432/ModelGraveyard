@@ -12,6 +12,26 @@
       "changes": [
         {
           "field": "prompt",
+          "prev": "0.0000009086",
+          "next": "0.00000091",
+          "pct_change": 0.15
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000028556",
+          "next": "0.00000286",
+          "pct_change": 0.15
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-04",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
           "prev": "0.00000091",
           "next": "0.0000009086",
           "pct_change": -0.15
@@ -349,26 +369,6 @@
           "prev": "0.000000196",
           "next": "0.00000018",
           "pct_change": -8.16
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-01",
-      "type": "price_changed",
-      "id": "~anthropic/claude-fable-latest",
-      "provider": "~anthropic",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00001",
-          "next": "-1",
-          "pct_change": -10000100
-        },
-        {
-          "field": "completion",
-          "prev": "0.00005",
-          "next": "-1",
-          "pct_change": -2000100
         }
       ]
     }
