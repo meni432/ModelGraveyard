@@ -1,9 +1,49 @@
 {
-  "generated_at": "2026-07-03",
+  "generated_at": "2026-07-04",
   "active_count": 340,
   "dead_count": 43,
-  "last_event_ts": "2026-07-03",
+  "last_event_ts": "2026-07-04",
   "recent_events": [
+    {
+      "ts": "2026-07-04",
+      "type": "price_changed",
+      "id": "nvidia/nemotron-3-super-120b-a12b",
+      "provider": "nvidia",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000085",
+          "next": "0.00000008",
+          "pct_change": -5.88
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000004",
+          "next": "0.00000045",
+          "pct_change": 12.5
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-04",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000093",
+          "next": "0.00000091",
+          "pct_change": -2.15
+        },
+        {
+          "field": "completion",
+          "prev": "0.000003",
+          "next": "0.00000286",
+          "pct_change": -4.67
+        }
+      ]
+    },
     {
       "ts": "2026-07-03",
       "type": "price_changed",
@@ -329,40 +369,6 @@
           "prev": "0.0000004",
           "next": "0.000000455",
           "pct_change": 13.75
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-01",
-      "type": "price_changed",
-      "id": "qwen/qwen3-30b-a3b-thinking-2507",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000008",
-          "next": "0.00000013",
-          "pct_change": 62.5
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000004",
-          "next": "0.00000156",
-          "pct_change": 290
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-01",
-      "type": "price_changed",
-      "id": "minimax/minimax-m2",
-      "provider": "minimax",
-      "changes": [
-        {
-          "field": "completion",
-          "prev": "0.000001",
-          "next": "0.00000102",
-          "pct_change": 2
         }
       ]
     }

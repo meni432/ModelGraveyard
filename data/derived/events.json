@@ -12253,6 +12253,46 @@
           "pct_change": 1.12
         }
       ]
+    },
+    {
+      "ts": "2026-07-04",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000093",
+          "next": "0.00000091",
+          "pct_change": -2.15
+        },
+        {
+          "field": "completion",
+          "prev": "0.000003",
+          "next": "0.00000286",
+          "pct_change": -4.67
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-04",
+      "type": "price_changed",
+      "id": "nvidia/nemotron-3-super-120b-a12b",
+      "provider": "nvidia",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000085",
+          "next": "0.00000008",
+          "pct_change": -5.88
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000004",
+          "next": "0.00000045",
+          "pct_change": 12.5
+        }
+      ]
     }
   ]
 }
