@@ -1,9 +1,29 @@
 {
-  "generated_at": "2026-07-04",
+  "generated_at": "2026-07-05",
   "active_count": 340,
   "dead_count": 43,
-  "last_event_ts": "2026-07-04",
+  "last_event_ts": "2026-07-05",
   "recent_events": [
+    {
+      "ts": "2026-07-05",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000077",
+          "next": "0.000000728",
+          "pct_change": -5.45
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000242",
+          "next": "0.000002288",
+          "pct_change": -5.45
+        }
+      ]
+    },
     {
       "ts": "2026-07-04",
       "type": "price_changed",
@@ -351,26 +371,6 @@
         "first_seen": "2026-06-09",
         "last_seen": "2026-07-01"
       }
-    },
-    {
-      "ts": "2026-07-01",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-chat-v3-0324",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000002",
-          "next": "0.00000024",
-          "pct_change": 20
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000077",
-          "next": "0.0000009",
-          "pct_change": 16.88
-        }
-      ]
     }
   ],
   "scheduled_funerals": [
