@@ -15,6 +15,15 @@
     <summary>prompt: $0.7700/Mtok → $0.7280/Mtok (-5.45%); completion: $2.4200/Mtok → $2.2880/Mtok (-5.45%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-07-05:price_changed:z-ai%2Fglm-5.2</id>
+    <title>Price changed: z-ai/glm-5.2</title>
+    <updated>2026-07-05T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>prompt: $0.7280/Mtok → $0.5740/Mtok (-21.15%); completion: $2.2880/Mtok → $1.8040/Mtok (-21.15%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-07-04:price_changed:z-ai%2Fglm-5.2</id>
     <title>Price changed: z-ai/glm-5.2</title>
     <updated>2026-07-04T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="model_added"/>
     <category term="provider:google"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.5000/Mtok, context: 131072.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-18:model_added:google%2Fgemini-3-pro-image</id>
-    <title>Added: google/gemini-3-pro-image</title>
-    <updated>2026-06-18T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-3-pro-image"/>
-    <category term="model_added"/>
-    <category term="provider:google"/>
-    <summary>New model on OpenRouter. Initial prompt price: $2.0000/Mtok, context: 65536.</summary>
   </entry>
 </feed>
