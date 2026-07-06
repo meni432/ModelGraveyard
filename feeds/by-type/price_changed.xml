@@ -15,6 +15,15 @@
     <summary>prompt: $0.5740/Mtok → $0.6860/Mtok (+19.51%); completion: $1.8040/Mtok → $2.1560/Mtok (+19.51%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-07-06:price_changed:z-ai%2Fglm-5.2</id>
+    <title>Price changed: z-ai/glm-5.2</title>
+    <updated>2026-07-06T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>prompt: $0.6860/Mtok → $0.9086/Mtok (+32.45%); completion: $2.1560/Mtok → $2.8556/Mtok (+32.45%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-07-05:price_changed:z-ai%2Fglm-5.2</id>
     <title>Price changed: z-ai/glm-5.2</title>
     <updated>2026-07-05T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:deepseek"/>
     <summary>prompt: $0.1000/Mtok → $0.0983/Mtok (-1.7%); completion: $0.2000/Mtok → $0.1966/Mtok (-1.7%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-08:price_changed:tencent%2Fhy3-preview</id>
-    <title>Price changed: tencent/hy3-preview</title>
-    <updated>2026-06-08T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/tencent%2Fhy3-preview"/>
-    <category term="price_changed"/>
-    <category term="provider:tencent"/>
-    <summary>prompt: $0.0660/Mtok → $0.0630/Mtok (-4.55%); completion: $0.2600/Mtok → $0.2100/Mtok (-19.23%)</summary>
   </entry>
 </feed>
