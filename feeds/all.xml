@@ -42,6 +42,51 @@
     <summary>New model on OpenRouter. Initial prompt price: $0.1400/Mtok, context: 262144.</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-07-06:model_added:nex-agi%2Fnex-n2-mini</id>
+    <title>Added: nex-agi/nex-n2-mini</title>
+    <updated>2026-07-06T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nex-agi%2Fnex-n2-mini"/>
+    <category term="model_added"/>
+    <category term="provider:nex-agi"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0250/Mtok, context: 262144.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-06:deprecation_announced:arcee-ai%2Ftrinity-mini</id>
+    <title>Deprecation announced: arcee-ai/trinity-mini (sunset 2026-07-10)</title>
+    <updated>2026-07-06T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/arcee-ai%2Ftrinity-mini"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:arcee-ai"/>
+    <summary>Provider announced retirement on 2026-07-10.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-06:price_changed:qwen%2Fqwen3-30b-a3b-instruct-2507</id>
+    <title>Price changed: qwen/qwen3-30b-a3b-instruct-2507</title>
+    <updated>2026-07-06T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3-30b-a3b-instruct-2507"/>
+    <category term="price_changed"/>
+    <category term="provider:qwen"/>
+    <summary>prompt: $0.0481/Mtok → $0.0000/Mtok (-100%); completion: $0.1930/Mtok → $0.0000/Mtok (-100%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-06:context_changed:qwen%2Fqwen3-30b-a3b-instruct-2507</id>
+    <title>Context window changed: qwen/qwen3-30b-a3b-instruct-2507</title>
+    <updated>2026-07-06T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3-30b-a3b-instruct-2507"/>
+    <category term="context_changed"/>
+    <category term="provider:qwen"/>
+    <summary>131072 → 262144 tokens</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-06:price_changed:meta-llama%2Fllama-3.2-3b-instruct</id>
+    <title>Price changed: meta-llama/llama-3.2-3b-instruct</title>
+    <updated>2026-07-06T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meta-llama%2Fllama-3.2-3b-instruct"/>
+    <category term="price_changed"/>
+    <category term="provider:meta-llama"/>
+    <summary>prompt: $0.0509/Mtok → $0.0500/Mtok (-1.77%); completion: $0.3350/Mtok → $0.3300/Mtok (-1.49%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-07-05:price_changed:z-ai%2Fglm-5.2</id>
     <title>Price changed: z-ai/glm-5.2</title>
     <updated>2026-07-05T00:00:00Z</updated>
@@ -859,50 +904,5 @@
     <category term="context_changed"/>
     <category term="provider:qwen"/>
     <summary>256000 → 262144 tokens</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-19:deprecation_announced:openai%2Fgpt-5.2-chat</id>
-    <title>Deprecation announced: openai/gpt-5.2-chat (sunset 2026-08-10)</title>
-    <updated>2026-06-19T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5.2-chat"/>
-    <category term="deprecation_announced"/>
-    <category term="provider:openai"/>
-    <summary>Provider announced retirement on 2026-08-10.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-19:context_changed:kwaipilot%2Fkat-coder-pro-v2</id>
-    <title>Context window changed: kwaipilot/kat-coder-pro-v2</title>
-    <updated>2026-06-19T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/kwaipilot%2Fkat-coder-pro-v2"/>
-    <category term="context_changed"/>
-    <category term="provider:kwaipilot"/>
-    <summary>256000 → 262144 tokens</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-19:context_changed:qwen%2Fqwen3.5-9b</id>
-    <title>Context window changed: qwen/qwen3.5-9b</title>
-    <updated>2026-06-19T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3.5-9b"/>
-    <category term="context_changed"/>
-    <category term="provider:qwen"/>
-    <summary>262144 → 256000 tokens</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-19:deprecation_announced:openai%2Fgpt-5.3-chat</id>
-    <title>Deprecation announced: openai/gpt-5.3-chat (sunset 2026-08-10)</title>
-    <updated>2026-06-19T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5.3-chat"/>
-    <category term="deprecation_announced"/>
-    <category term="provider:openai"/>
-    <summary>Provider announced retirement on 2026-08-10.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-19:deprecation_announced:z-ai%2Fglm-4.5</id>
-    <title>Deprecation announced: z-ai/glm-4.5 (sunset 2026-12-31)</title>
-    <updated>2026-06-19T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-4.5"/>
-    <category term="deprecation_announced"/>
-    <category term="provider:z-ai"/>
-    <summary>Provider announced retirement on 2026-12-31.</summary>
   </entry>
 </feed>

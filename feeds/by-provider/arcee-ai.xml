@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/arcee-ai.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/arcee-ai.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-06-20T00:00:00Z</updated>
+  <updated>2026-07-06T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-06:deprecation_announced:arcee-ai%2Ftrinity-mini</id>
+    <title>Deprecation announced: arcee-ai/trinity-mini (sunset 2026-07-10)</title>
+    <updated>2026-07-06T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/arcee-ai%2Ftrinity-mini"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:arcee-ai"/>
+    <summary>Provider announced retirement on 2026-07-10.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-06-20:price_changed:arcee-ai%2Ftrinity-large-thinking</id>
     <title>Price changed: arcee-ai/trinity-large-thinking</title>

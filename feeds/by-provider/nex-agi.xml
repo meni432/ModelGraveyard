@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/nex-agi.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/nex-agi.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-06-23T00:00:00Z</updated>
+  <updated>2026-07-06T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-06:model_added:nex-agi%2Fnex-n2-mini</id>
+    <title>Added: nex-agi/nex-n2-mini</title>
+    <updated>2026-07-06T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nex-agi%2Fnex-n2-mini"/>
+    <category term="model_added"/>
+    <category term="provider:nex-agi"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0250/Mtok, context: 262144.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-06-23:price_changed:nex-agi%2Fnex-n2-pro</id>
     <title>Price changed: nex-agi/nex-n2-pro</title>

@@ -1,9 +1,88 @@
 {
   "generated_at": "2026-07-06",
-  "active_count": 342,
+  "active_count": 343,
   "dead_count": 43,
   "last_event_ts": "2026-07-06",
   "recent_events": [
+    {
+      "ts": "2026-07-06",
+      "type": "price_changed",
+      "id": "meta-llama/llama-3.2-3b-instruct",
+      "provider": "meta-llama",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000509",
+          "next": "0.00000005",
+          "pct_change": -1.77
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000335",
+          "next": "0.00000033",
+          "pct_change": -1.49
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-06",
+      "type": "context_changed",
+      "id": "qwen/qwen3-30b-a3b-instruct-2507",
+      "provider": "qwen",
+      "prev_context": 131072,
+      "next_context": 262144
+    },
+    {
+      "ts": "2026-07-06",
+      "type": "price_changed",
+      "id": "qwen/qwen3-30b-a3b-instruct-2507",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000004815",
+          "next": "0",
+          "pct_change": -100
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000019305",
+          "next": "0",
+          "pct_change": -100
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-06",
+      "type": "deprecation_announced",
+      "id": "arcee-ai/trinity-mini",
+      "provider": "arcee-ai",
+      "prev_expiration": null,
+      "next_expiration": "2026-07-10"
+    },
+    {
+      "ts": "2026-07-06",
+      "type": "model_added",
+      "id": "nex-agi/nex-n2-mini",
+      "provider": "nex-agi",
+      "snapshot": {
+        "id": "nex-agi/nex-n2-mini",
+        "name": "Nex AGI: Nex-N2-Mini",
+        "provider": "nex-agi",
+        "pricing": {
+          "prompt": "0.000000025",
+          "completion": "0.0000001",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 262144,
+        "expiration_date": null,
+        "created": 1782312964,
+        "first_seen": "2026-07-06",
+        "last_seen": "2026-07-06"
+      }
+    },
     {
       "ts": "2026-07-06",
       "type": "model_added",
@@ -309,88 +388,6 @@
         "first_seen": "2026-07-02",
         "last_seen": "2026-07-02"
       }
-    },
-    {
-      "ts": "2026-07-02",
-      "type": "price_changed",
-      "id": "qwen/qwen3-vl-8b-instruct",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000008",
-          "next": "0.000000117",
-          "pct_change": 46.25
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000005",
-          "next": "0.000000455",
-          "pct_change": -9
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-02",
-      "type": "price_changed",
-      "id": "moonshotai/kimi-k2.6",
-      "provider": "moonshotai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000055",
-          "next": "0.00000066",
-          "pct_change": 20
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000032",
-          "next": "0.00000341",
-          "pct_change": 6.56
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-02",
-      "type": "price_changed",
-      "id": "~moonshotai/kimi-latest",
-      "provider": "~moonshotai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000055",
-          "next": "0.00000066",
-          "pct_change": 20
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000032",
-          "next": "0.00000341",
-          "pct_change": 6.56
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-02",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-flash",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000009",
-          "next": "0.000000089",
-          "pct_change": -1.11
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-02",
-      "type": "deprecation_announced",
-      "id": "poolside/laguna-xs.2",
-      "provider": "poolside",
-      "prev_expiration": null,
-      "next_expiration": "2026-07-09"
     }
   ],
   "scheduled_funerals": [
@@ -403,6 +400,11 @@
       "id": "poolside/laguna-xs.2:free",
       "provider": "poolside",
       "expiration_date": "2026-07-09"
+    },
+    {
+      "id": "arcee-ai/trinity-mini",
+      "provider": "arcee-ai",
+      "expiration_date": "2026-07-10"
     },
     {
       "id": "tencent/hy3:free",

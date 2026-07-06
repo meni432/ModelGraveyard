@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-provider/qwen.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/qwen.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-07-02T00:00:00Z</updated>
+  <updated>2026-07-06T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-06:price_changed:qwen%2Fqwen3-30b-a3b-instruct-2507</id>
+    <title>Price changed: qwen/qwen3-30b-a3b-instruct-2507</title>
+    <updated>2026-07-06T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3-30b-a3b-instruct-2507"/>
+    <category term="price_changed"/>
+    <category term="provider:qwen"/>
+    <summary>prompt: $0.0481/Mtok → $0.0000/Mtok (-100%); completion: $0.1930/Mtok → $0.0000/Mtok (-100%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-06:context_changed:qwen%2Fqwen3-30b-a3b-instruct-2507</id>
+    <title>Context window changed: qwen/qwen3-30b-a3b-instruct-2507</title>
+    <updated>2026-07-06T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3-30b-a3b-instruct-2507"/>
+    <category term="context_changed"/>
+    <category term="provider:qwen"/>
+    <summary>131072 → 262144 tokens</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-07-02:price_changed:qwen%2Fqwen3-vl-8b-instruct</id>
     <title>Price changed: qwen/qwen3-vl-8b-instruct</title>

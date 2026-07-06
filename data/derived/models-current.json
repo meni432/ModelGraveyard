@@ -659,7 +659,7 @@
       },
       "context_length": 131072,
       "max_completion_tokens": 131072,
-      "expiration_date": null,
+      "expiration_date": "2026-07-10",
       "created": 1764601720,
       "first_seen": "2026-05-27",
       "last_seen": "2026-07-06"
@@ -1910,13 +1910,13 @@
       "name": "Meta: Llama 3.2 3B Instruct",
       "provider": "meta-llama",
       "pricing": {
-        "prompt": "0.0000000509",
-        "completion": "0.000000335",
+        "prompt": "0.00000005",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },
       "context_length": 131072,
-      "max_completion_tokens": 80000,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1727222400,
       "first_seen": "2026-05-27",
@@ -2651,6 +2651,23 @@
       "expiration_date": null,
       "created": 1751910858,
       "first_seen": "2026-05-27",
+      "last_seen": "2026-07-06"
+    },
+    {
+      "id": "nex-agi/nex-n2-mini",
+      "name": "Nex AGI: Nex-N2-Mini",
+      "provider": "nex-agi",
+      "pricing": {
+        "prompt": "0.000000025",
+        "completion": "0.0000001",
+        "image": null,
+        "request": null
+      },
+      "context_length": 262144,
+      "max_completion_tokens": 262144,
+      "expiration_date": null,
+      "created": 1782312964,
+      "first_seen": "2026-07-06",
       "last_seen": "2026-07-06"
     },
     {
@@ -4494,13 +4511,13 @@
       "name": "Qwen: Qwen3 30B A3B Instruct 2507",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000004815",
-        "completion": "0.00000019305",
+        "prompt": "0",
+        "completion": "0",
         "image": null,
         "request": null
       },
-      "context_length": 131072,
-      "max_completion_tokens": 32000,
+      "context_length": 262144,
+      "max_completion_tokens": 262144,
       "expiration_date": null,
       "created": 1753806965,
       "first_seen": "2026-05-27",
