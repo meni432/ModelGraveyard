@@ -1,9 +1,29 @@
 {
-  "generated_at": "2026-07-05",
+  "generated_at": "2026-07-06",
   "active_count": 340,
   "dead_count": 43,
-  "last_event_ts": "2026-07-05",
+  "last_event_ts": "2026-07-06",
   "recent_events": [
+    {
+      "ts": "2026-07-06",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000574",
+          "next": "0.000000686",
+          "pct_change": 19.51
+        },
+        {
+          "field": "completion",
+          "prev": "0.000001804",
+          "next": "0.000002156",
+          "pct_change": 19.51
+        }
+      ]
+    },
     {
       "ts": "2026-07-05",
       "type": "price_changed",
@@ -356,18 +376,6 @@
           "pct_change": -100.01
         }
       ]
-    },
-    {
-      "ts": "2026-07-01",
-      "type": "disagreement_detected",
-      "id": "anthropic/claude-fable-5",
-      "provider": "anthropic",
-      "disagreement": {
-        "slug": "anthropic:claude-fable-5",
-        "openrouter_status": "removed",
-        "litellm_status": "active",
-        "litellm_id": "claude-fable-5"
-      }
     }
   ],
   "scheduled_funerals": [
