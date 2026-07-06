@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-provider/tencent.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/tencent.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-06-20T00:00:00Z</updated>
+  <updated>2026-07-06T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-06:model_added:tencent%2Fhy3%3Afree</id>
+    <title>Added: tencent/hy3:free</title>
+    <updated>2026-07-06T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/tencent%2Fhy3%3Afree"/>
+    <category term="model_added"/>
+    <category term="provider:tencent"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 262144.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-06:model_added:tencent%2Fhy3</id>
+    <title>Added: tencent/hy3</title>
+    <updated>2026-07-06T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/tencent%2Fhy3"/>
+    <category term="model_added"/>
+    <category term="provider:tencent"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.1400/Mtok, context: 262144.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-06-20:price_changed:tencent%2Fhy3-preview</id>
     <title>Price changed: tencent/hy3-preview</title>

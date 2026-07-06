@@ -5340,6 +5340,23 @@
       "last_seen": "2026-07-06"
     },
     {
+      "id": "tencent/hy3",
+      "name": "Tencent: Hy3",
+      "provider": "tencent",
+      "pricing": {
+        "prompt": "0.00000014",
+        "completion": "0.00000058",
+        "image": null,
+        "request": null
+      },
+      "context_length": 262144,
+      "max_completion_tokens": 131072,
+      "expiration_date": null,
+      "created": 1783344048,
+      "first_seen": "2026-07-06",
+      "last_seen": "2026-07-06"
+    },
+    {
       "id": "tencent/hy3-preview",
       "name": "Tencent: Hy3 preview",
       "provider": "tencent",
@@ -5354,6 +5371,23 @@
       "expiration_date": null,
       "created": 1776878150,
       "first_seen": "2026-05-27",
+      "last_seen": "2026-07-06"
+    },
+    {
+      "id": "tencent/hy3:free",
+      "name": "Tencent: Hy3 (free)",
+      "provider": "tencent",
+      "pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "context_length": 262144,
+      "max_completion_tokens": 262144,
+      "expiration_date": "2026-07-21",
+      "created": 1783344048,
+      "first_seen": "2026-07-06",
       "last_seen": "2026-07-06"
     },
     {
