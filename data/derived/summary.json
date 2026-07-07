@@ -1,9 +1,55 @@
 {
   "generated_at": "2026-07-07",
-  "active_count": 343,
-  "dead_count": 43,
+  "active_count": 341,
+  "dead_count": 45,
   "last_event_ts": "2026-07-07",
   "recent_events": [
+    {
+      "ts": "2026-07-07",
+      "type": "model_removed",
+      "id": "aion-labs/aion-1.0-mini",
+      "provider": "aion-labs",
+      "snapshot": {
+        "id": "aion-labs/aion-1.0-mini",
+        "name": "AionLabs: Aion-1.0-Mini",
+        "provider": "aion-labs",
+        "pricing": {
+          "prompt": "0.0000007",
+          "completion": "0.0000014",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": 32768,
+        "expiration_date": null,
+        "created": 1738697107,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-07-07"
+      }
+    },
+    {
+      "ts": "2026-07-07",
+      "type": "model_removed",
+      "id": "aion-labs/aion-1.0",
+      "provider": "aion-labs",
+      "snapshot": {
+        "id": "aion-labs/aion-1.0",
+        "name": "AionLabs: Aion-1.0",
+        "provider": "aion-labs",
+        "pricing": {
+          "prompt": "0.000004",
+          "completion": "0.000008",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": 32768,
+        "expiration_date": null,
+        "created": 1738697557,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-07-07"
+      }
+    },
     {
       "ts": "2026-07-07",
       "type": "price_changed",
@@ -322,46 +368,6 @@
           "prev": "0.0000028556",
           "next": "0.00000286",
           "pct_change": 0.15
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-04",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.2",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000091",
-          "next": "0.0000009086",
-          "pct_change": -0.15
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000286",
-          "next": "0.0000028556",
-          "pct_change": -0.15
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-04",
-      "type": "price_changed",
-      "id": "nvidia/nemotron-3-super-120b-a12b",
-      "provider": "nvidia",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000085",
-          "next": "0.00000008",
-          "pct_change": -5.88
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000004",
-          "next": "0.00000045",
-          "pct_change": 12.5
         }
       ]
     }

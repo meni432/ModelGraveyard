@@ -1,6 +1,40 @@
 {
   "buried": [
     {
+      "id": "aion-labs/aion-1.0",
+      "name": "AionLabs: Aion-1.0",
+      "provider": "aion-labs",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.000004",
+        "completion": "0.000008",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 131072,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-07-07",
+      "buried_at": "2026-07-07",
+      "suggested_replacement": "aion-labs/aion-2.0"
+    },
+    {
+      "id": "aion-labs/aion-1.0-mini",
+      "name": "AionLabs: Aion-1.0-Mini",
+      "provider": "aion-labs",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000007",
+        "completion": "0.0000014",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 131072,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-07-07",
+      "buried_at": "2026-07-07",
+      "suggested_replacement": "aion-labs/aion-2.0"
+    },
+    {
       "id": "anthropic/claude-fable-5",
       "name": "Anthropic: Claude Fable 5",
       "provider": "anthropic",
