@@ -1,9 +1,65 @@
 {
-  "generated_at": "2026-07-06",
+  "generated_at": "2026-07-07",
   "active_count": 343,
   "dead_count": 43,
-  "last_event_ts": "2026-07-06",
+  "last_event_ts": "2026-07-07",
   "recent_events": [
+    {
+      "ts": "2026-07-07",
+      "type": "context_changed",
+      "id": "qwen/qwen3-30b-a3b-instruct-2507",
+      "provider": "qwen",
+      "prev_context": 262144,
+      "next_context": 131072
+    },
+    {
+      "ts": "2026-07-07",
+      "type": "price_changed",
+      "id": "qwen/qwen3-30b-a3b-instruct-2507",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0",
+          "next": "0.00000004815",
+          "pct_change": null
+        },
+        {
+          "field": "completion",
+          "prev": "0",
+          "next": "0.00000019305",
+          "pct_change": null
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-07",
+      "type": "deprecation_announced",
+      "id": "google/gemini-2.5-flash-lite-preview-09-2025",
+      "provider": "google",
+      "prev_expiration": null,
+      "next_expiration": "2026-07-09"
+    },
+    {
+      "ts": "2026-07-07",
+      "type": "price_changed",
+      "id": "tencent/hy3",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000014",
+          "next": "0.0000002",
+          "pct_change": 42.86
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000058",
+          "next": "0.0000008",
+          "pct_change": 37.93
+        }
+      ]
+    },
     {
       "ts": "2026-07-06",
       "type": "price_changed",
@@ -308,89 +364,14 @@
           "pct_change": -4.67
         }
       ]
-    },
-    {
-      "ts": "2026-07-03",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-flash",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000089",
-          "next": "0.00000009",
-          "pct_change": 1.12
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-03",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.1",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000975",
-          "next": "0.000000966",
-          "pct_change": -0.92
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000043",
-          "next": "0.000003036",
-          "pct_change": -29.4
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-02",
-      "type": "model_added",
-      "id": "poolside/laguna-xs-2.1",
-      "provider": "poolside",
-      "snapshot": {
-        "id": "poolside/laguna-xs-2.1",
-        "name": "Poolside: Laguna XS 2.1",
-        "provider": "poolside",
-        "pricing": {
-          "prompt": "0.00000006",
-          "completion": "0.00000012",
-          "image": null,
-          "request": null
-        },
-        "context_length": 262144,
-        "max_completion_tokens": 32768,
-        "expiration_date": null,
-        "created": 1783002429,
-        "first_seen": "2026-07-02",
-        "last_seen": "2026-07-02"
-      }
-    },
-    {
-      "ts": "2026-07-02",
-      "type": "model_added",
-      "id": "poolside/laguna-xs-2.1:free",
-      "provider": "poolside",
-      "snapshot": {
-        "id": "poolside/laguna-xs-2.1:free",
-        "name": "Poolside: Laguna XS 2.1 (free)",
-        "provider": "poolside",
-        "pricing": {
-          "prompt": "0",
-          "completion": "0",
-          "image": null,
-          "request": null
-        },
-        "context_length": 262144,
-        "max_completion_tokens": 32768,
-        "expiration_date": null,
-        "created": 1783002429,
-        "first_seen": "2026-07-02",
-        "last_seen": "2026-07-02"
-      }
     }
   ],
   "scheduled_funerals": [
+    {
+      "id": "google/gemini-2.5-flash-lite-preview-09-2025",
+      "provider": "google",
+      "expiration_date": "2026-07-09"
+    },
     {
       "id": "poolside/laguna-xs.2",
       "provider": "poolside",

@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/google.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/google.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-06-30T00:00:00Z</updated>
+  <updated>2026-07-07T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-07:deprecation_announced:google%2Fgemini-2.5-flash-lite-preview-09-2025</id>
+    <title>Deprecation announced: google/gemini-2.5-flash-lite-preview-09-2025 (sunset 2026-07-09)</title>
+    <updated>2026-07-07T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-2.5-flash-lite-preview-09-2025"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:google"/>
+    <summary>Provider announced retirement on 2026-07-09.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-06-30:model_added:google%2Fgemini-3.1-flash-lite-image</id>
     <title>Added: google/gemini-3.1-flash-lite-image</title>
