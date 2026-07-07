@@ -42,6 +42,15 @@
     <summary>262144 → 131072 tokens</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-07-07:price_changed:z-ai%2Fglm-5.2</id>
+    <title>Price changed: z-ai/glm-5.2</title>
+    <updated>2026-07-07T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>prompt: $0.9086/Mtok → $0.9000/Mtok (-0.95%); completion: $2.8556/Mtok → $2.8600/Mtok (+0.15%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-07-06:price_changed:z-ai%2Fglm-5.2</id>
     <title>Price changed: z-ai/glm-5.2</title>
     <updated>2026-07-06T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:moonshotai"/>
     <summary>prompt: $0.6800/Mtok → $0.6700/Mtok (-1.47%); completion: $3.4100/Mtok → $3.5000/Mtok (+2.64%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-19:context_changed:kwaipilot%2Fkat-coder-pro-v2</id>
-    <title>Context window changed: kwaipilot/kat-coder-pro-v2</title>
-    <updated>2026-06-19T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/kwaipilot%2Fkat-coder-pro-v2"/>
-    <category term="context_changed"/>
-    <category term="provider:kwaipilot"/>
-    <summary>256000 → 262144 tokens</summary>
   </entry>
 </feed>

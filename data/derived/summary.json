@@ -6,6 +6,26 @@
   "recent_events": [
     {
       "ts": "2026-07-07",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000009086",
+          "next": "0.0000009",
+          "pct_change": -0.95
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000028556",
+          "next": "0.00000286",
+          "pct_change": 0.15
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-07",
       "type": "context_changed",
       "id": "qwen/qwen3-30b-a3b-instruct-2507",
       "provider": "qwen",
@@ -344,26 +364,6 @@
           "pct_change": 12.5
         }
       ]
-    },
-    {
-      "ts": "2026-07-04",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.2",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000093",
-          "next": "0.00000091",
-          "pct_change": -2.15
-        },
-        {
-          "field": "completion",
-          "prev": "0.000003",
-          "next": "0.00000286",
-          "pct_change": -4.67
-        }
-      ]
     }
   ],
   "scheduled_funerals": [
@@ -386,11 +386,6 @@
       "id": "arcee-ai/trinity-mini",
       "provider": "arcee-ai",
       "expiration_date": "2026-07-10"
-    },
-    {
-      "id": "tencent/hy3:free",
-      "provider": "tencent",
-      "expiration_date": "2026-07-21"
     },
     {
       "id": "openai/gpt-5.2-chat",

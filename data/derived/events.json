@@ -12614,6 +12614,26 @@
       "provider": "qwen",
       "prev_context": 262144,
       "next_context": 131072
+    },
+    {
+      "ts": "2026-07-07",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000009086",
+          "next": "0.0000009",
+          "pct_change": -0.95
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000028556",
+          "next": "0.00000286",
+          "pct_change": 0.15
+        }
+      ]
     }
   ]
 }
