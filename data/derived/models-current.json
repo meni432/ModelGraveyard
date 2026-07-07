@@ -189,6 +189,40 @@
       "last_seen": "2026-07-07"
     },
     {
+      "id": "aion-labs/aion-3.0",
+      "name": "AionLabs: Aion-3.0",
+      "provider": "aion-labs",
+      "pricing": {
+        "prompt": "0.000003",
+        "completion": "0.000006",
+        "image": null,
+        "request": null
+      },
+      "context_length": 131072,
+      "max_completion_tokens": 32768,
+      "expiration_date": null,
+      "created": 1783443095,
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-07-07"
+    },
+    {
+      "id": "aion-labs/aion-3.0-mini",
+      "name": "AionLabs: Aion-3.0-Mini",
+      "provider": "aion-labs",
+      "pricing": {
+        "prompt": "0.0000007",
+        "completion": "0.0000014",
+        "image": null,
+        "request": null
+      },
+      "context_length": 131072,
+      "max_completion_tokens": 32768,
+      "expiration_date": null,
+      "created": 1783443096,
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-07-07"
+    },
+    {
       "id": "aion-labs/aion-rp-llama-3.1-8b",
       "name": "AionLabs: Aion-RP 1.0 (8B)",
       "provider": "aion-labs",
@@ -5368,7 +5402,7 @@
       },
       "context_length": 262144,
       "max_completion_tokens": 262144,
-      "expiration_date": null,
+      "expiration_date": "2026-07-21",
       "created": 1783344048,
       "first_seen": "2026-07-06",
       "last_seen": "2026-07-07"
@@ -5769,13 +5803,13 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.0000009",
-        "completion": "0.00000286",
+        "prompt": "0.00000093",
+        "completion": "0.000003",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 1048576,
+      "max_completion_tokens": 32768,
       "expiration_date": null,
       "created": 1781631930,
       "first_seen": "2026-06-16",

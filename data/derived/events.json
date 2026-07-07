@@ -12680,6 +12680,80 @@
         "first_seen": "2026-05-27",
         "last_seen": "2026-07-07"
       }
+    },
+    {
+      "ts": "2026-07-07",
+      "type": "model_added",
+      "id": "aion-labs/aion-3.0-mini",
+      "provider": "aion-labs",
+      "snapshot": {
+        "id": "aion-labs/aion-3.0-mini",
+        "name": "AionLabs: Aion-3.0-Mini",
+        "provider": "aion-labs",
+        "pricing": {
+          "prompt": "0.0000007",
+          "completion": "0.0000014",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": 32768,
+        "expiration_date": null,
+        "created": 1783443096,
+        "first_seen": "2026-07-07",
+        "last_seen": "2026-07-07"
+      }
+    },
+    {
+      "ts": "2026-07-07",
+      "type": "model_added",
+      "id": "aion-labs/aion-3.0",
+      "provider": "aion-labs",
+      "snapshot": {
+        "id": "aion-labs/aion-3.0",
+        "name": "AionLabs: Aion-3.0",
+        "provider": "aion-labs",
+        "pricing": {
+          "prompt": "0.000003",
+          "completion": "0.000006",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": 32768,
+        "expiration_date": null,
+        "created": 1783443095,
+        "first_seen": "2026-07-07",
+        "last_seen": "2026-07-07"
+      }
+    },
+    {
+      "ts": "2026-07-07",
+      "type": "deprecation_announced",
+      "id": "tencent/hy3:free",
+      "provider": "tencent",
+      "prev_expiration": null,
+      "next_expiration": "2026-07-21"
+    },
+    {
+      "ts": "2026-07-07",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000009",
+          "next": "0.00000093",
+          "pct_change": 3.33
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000286",
+          "next": "0.000003",
+          "pct_change": 4.9
+        }
+      ]
     }
   ]
 }
