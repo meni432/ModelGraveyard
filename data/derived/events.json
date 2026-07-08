@@ -12754,6 +12754,14 @@
           "pct_change": 4.9
         }
       ]
+    },
+    {
+      "ts": "2026-07-08",
+      "type": "context_changed",
+      "id": "thedrummer/rocinante-12b",
+      "provider": "thedrummer",
+      "prev_context": 32768,
+      "next_context": 65536
     }
   ]
 }
