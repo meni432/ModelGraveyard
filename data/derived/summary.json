@@ -1,9 +1,95 @@
 {
   "generated_at": "2026-07-08",
-  "active_count": 343,
+  "active_count": 345,
   "dead_count": 45,
   "last_event_ts": "2026-07-08",
   "recent_events": [
+    {
+      "ts": "2026-07-08",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000093",
+          "next": "0.00000042",
+          "pct_change": -54.84
+        },
+        {
+          "field": "completion",
+          "prev": "0.000003",
+          "next": "0.00000132",
+          "pct_change": -56
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-08",
+      "type": "price_changed",
+      "id": "tencent/hy3",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000002",
+          "next": "0.00000014",
+          "pct_change": -30
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000008",
+          "next": "0.00000058",
+          "pct_change": -27.5
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-08",
+      "type": "model_added",
+      "id": "~x-ai/grok-latest",
+      "provider": "~x-ai",
+      "snapshot": {
+        "id": "~x-ai/grok-latest",
+        "name": "xAI: Grok Latest",
+        "provider": "~x-ai",
+        "pricing": {
+          "prompt": "0.000002",
+          "completion": "0.000006",
+          "image": null,
+          "request": null
+        },
+        "context_length": 500000,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1783519360,
+        "first_seen": "2026-07-08",
+        "last_seen": "2026-07-08"
+      }
+    },
+    {
+      "ts": "2026-07-08",
+      "type": "model_added",
+      "id": "x-ai/grok-4.5",
+      "provider": "x-ai",
+      "snapshot": {
+        "id": "x-ai/grok-4.5",
+        "name": "xAI: Grok 4.5",
+        "provider": "x-ai",
+        "pricing": {
+          "prompt": "0.000002",
+          "completion": "0.000006",
+          "image": null,
+          "request": null
+        },
+        "context_length": 500000,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1783523154,
+        "first_seen": "2026-07-08",
+        "last_seen": "2026-07-08"
+      }
+    },
     {
       "ts": "2026-07-08",
       "type": "price_changed",
@@ -263,80 +349,6 @@
       "provider": "qwen",
       "prev_context": 131072,
       "next_context": 262144
-    },
-    {
-      "ts": "2026-07-06",
-      "type": "price_changed",
-      "id": "qwen/qwen3-30b-a3b-instruct-2507",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000004815",
-          "next": "0",
-          "pct_change": -100
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000019305",
-          "next": "0",
-          "pct_change": -100
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-06",
-      "type": "deprecation_announced",
-      "id": "arcee-ai/trinity-mini",
-      "provider": "arcee-ai",
-      "prev_expiration": null,
-      "next_expiration": "2026-07-10"
-    },
-    {
-      "ts": "2026-07-06",
-      "type": "model_added",
-      "id": "nex-agi/nex-n2-mini",
-      "provider": "nex-agi",
-      "snapshot": {
-        "id": "nex-agi/nex-n2-mini",
-        "name": "Nex AGI: Nex-N2-Mini",
-        "provider": "nex-agi",
-        "pricing": {
-          "prompt": "0.000000025",
-          "completion": "0.0000001",
-          "image": null,
-          "request": null
-        },
-        "context_length": 262144,
-        "max_completion_tokens": 262144,
-        "expiration_date": null,
-        "created": 1782312964,
-        "first_seen": "2026-07-06",
-        "last_seen": "2026-07-06"
-      }
-    },
-    {
-      "ts": "2026-07-06",
-      "type": "model_added",
-      "id": "tencent/hy3",
-      "provider": "tencent",
-      "snapshot": {
-        "id": "tencent/hy3",
-        "name": "Tencent: Hy3",
-        "provider": "tencent",
-        "pricing": {
-          "prompt": "0.00000014",
-          "completion": "0.00000058",
-          "image": null,
-          "request": null
-        },
-        "context_length": 262144,
-        "max_completion_tokens": 131072,
-        "expiration_date": null,
-        "created": 1783344048,
-        "first_seen": "2026-07-06",
-        "last_seen": "2026-07-06"
-      }
     }
   ],
   "scheduled_funerals": [

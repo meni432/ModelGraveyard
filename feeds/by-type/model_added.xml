@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_added.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_added.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-07-07T00:00:00Z</updated>
+  <updated>2026-07-08T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-08:model_added:x-ai%2Fgrok-4.5</id>
+    <title>Added: x-ai/grok-4.5</title>
+    <updated>2026-07-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/x-ai%2Fgrok-4.5"/>
+    <category term="model_added"/>
+    <category term="provider:x-ai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $2.0000/Mtok, context: 500000.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-08:model_added:~x-ai%2Fgrok-latest</id>
+    <title>Added: ~x-ai/grok-latest</title>
+    <updated>2026-07-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/~x-ai%2Fgrok-latest"/>
+    <category term="model_added"/>
+    <category term="provider:~x-ai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $2.0000/Mtok, context: 500000.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-07-07:model_added:aion-labs%2Faion-3.0-mini</id>
     <title>Added: aion-labs/aion-3.0-mini</title>
@@ -886,23 +904,5 @@
     <category term="model_added"/>
     <category term="provider:z-ai"/>
     <summary>New model on OpenRouter. Initial prompt price: $1.2000/Mtok, context: 202752.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:nvidia%2Fnemotron-3-super-120b-a12b%3Afree</id>
-    <title>Added: nvidia/nemotron-3-super-120b-a12b:free</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/nvidia%2Fnemotron-3-super-120b-a12b%3Afree"/>
-    <category term="model_added"/>
-    <category term="provider:nvidia"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 1000000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:nvidia%2Fnemotron-3-super-120b-a12b</id>
-    <title>Added: nvidia/nemotron-3-super-120b-a12b</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/nvidia%2Fnemotron-3-super-120b-a12b"/>
-    <category term="model_added"/>
-    <category term="provider:nvidia"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.0900/Mtok, context: 1000000.</summary>
   </entry>
 </feed>

@@ -12790,6 +12790,92 @@
           "pct_change": -1.52
         }
       ]
+    },
+    {
+      "ts": "2026-07-08",
+      "type": "model_added",
+      "id": "x-ai/grok-4.5",
+      "provider": "x-ai",
+      "snapshot": {
+        "id": "x-ai/grok-4.5",
+        "name": "xAI: Grok 4.5",
+        "provider": "x-ai",
+        "pricing": {
+          "prompt": "0.000002",
+          "completion": "0.000006",
+          "image": null,
+          "request": null
+        },
+        "context_length": 500000,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1783523154,
+        "first_seen": "2026-07-08",
+        "last_seen": "2026-07-08"
+      }
+    },
+    {
+      "ts": "2026-07-08",
+      "type": "model_added",
+      "id": "~x-ai/grok-latest",
+      "provider": "~x-ai",
+      "snapshot": {
+        "id": "~x-ai/grok-latest",
+        "name": "xAI: Grok Latest",
+        "provider": "~x-ai",
+        "pricing": {
+          "prompt": "0.000002",
+          "completion": "0.000006",
+          "image": null,
+          "request": null
+        },
+        "context_length": 500000,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1783519360,
+        "first_seen": "2026-07-08",
+        "last_seen": "2026-07-08"
+      }
+    },
+    {
+      "ts": "2026-07-08",
+      "type": "price_changed",
+      "id": "tencent/hy3",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000002",
+          "next": "0.00000014",
+          "pct_change": -30
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000008",
+          "next": "0.00000058",
+          "pct_change": -27.5
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-08",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000093",
+          "next": "0.00000042",
+          "pct_change": -54.84
+        },
+        {
+          "field": "completion",
+          "prev": "0.000003",
+          "next": "0.00000132",
+          "pct_change": -56
+        }
+      ]
     }
   ]
 }

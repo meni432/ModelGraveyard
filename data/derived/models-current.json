@@ -155,6 +155,23 @@
       "last_seen": "2026-07-08"
     },
     {
+      "id": "~x-ai/grok-latest",
+      "name": "xAI: Grok Latest",
+      "provider": "~x-ai",
+      "pricing": {
+        "prompt": "0.000002",
+        "completion": "0.000006",
+        "image": null,
+        "request": null
+      },
+      "context_length": 500000,
+      "max_completion_tokens": null,
+      "expiration_date": null,
+      "created": 1783519360,
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08"
+    },
+    {
       "id": "ai21/jamba-large-1.7",
       "name": "AI21: Jamba Large 1.7",
       "provider": "ai21",
@@ -5361,13 +5378,13 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.0000002",
-        "completion": "0.0000008",
+        "prompt": "0.00000014",
+        "completion": "0.00000058",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": null,
       "expiration_date": null,
       "created": 1783344048,
       "first_seen": "2026-07-06",
@@ -5575,6 +5592,23 @@
       "expiration_date": null,
       "created": 1777591821,
       "first_seen": "2026-05-27",
+      "last_seen": "2026-07-08"
+    },
+    {
+      "id": "x-ai/grok-4.5",
+      "name": "xAI: Grok 4.5",
+      "provider": "x-ai",
+      "pricing": {
+        "prompt": "0.000002",
+        "completion": "0.000006",
+        "image": null,
+        "request": null
+      },
+      "context_length": 500000,
+      "max_completion_tokens": null,
+      "expiration_date": null,
+      "created": 1783523154,
+      "first_seen": "2026-07-08",
       "last_seen": "2026-07-08"
     },
     {
@@ -5803,13 +5837,13 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.00000093",
-        "completion": "0.000003",
+        "prompt": "0.00000042",
+        "completion": "0.00000132",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 32768,
+      "max_completion_tokens": 128000,
       "expiration_date": null,
       "created": 1781631930,
       "first_seen": "2026-06-16",

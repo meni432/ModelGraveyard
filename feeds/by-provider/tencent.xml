@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/tencent.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/tencent.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-07-07T00:00:00Z</updated>
+  <updated>2026-07-08T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-08:price_changed:tencent%2Fhy3</id>
+    <title>Price changed: tencent/hy3</title>
+    <updated>2026-07-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/tencent%2Fhy3"/>
+    <category term="price_changed"/>
+    <category term="provider:tencent"/>
+    <summary>prompt: $0.2000/Mtok → $0.1400/Mtok (-30%); completion: $0.8000/Mtok → $0.5800/Mtok (-27.5%)</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-07-07:price_changed:tencent%2Fhy3</id>
     <title>Price changed: tencent/hy3</title>
