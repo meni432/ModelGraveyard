@@ -12962,6 +12962,107 @@
         "first_seen": "2026-05-27",
         "last_seen": "2026-07-09"
       }
+    },
+    {
+      "ts": "2026-07-09",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000093",
+          "next": "0.00000063",
+          "pct_change": -32.26
+        },
+        {
+          "field": "completion",
+          "prev": "0.000003",
+          "next": "0.00000198",
+          "pct_change": -34
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-09",
+      "type": "model_removed",
+      "id": "google/gemini-2.5-flash-lite-preview-09-2025",
+      "provider": "google",
+      "snapshot": {
+        "id": "google/gemini-2.5-flash-lite-preview-09-2025",
+        "name": "Google: Gemini 2.5 Flash Lite Preview 09-2025",
+        "provider": "google",
+        "pricing": {
+          "prompt": "0.0000001",
+          "completion": "0.0000004",
+          "image": "0.0000001",
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": 65535,
+        "expiration_date": "2026-07-09",
+        "created": 1758819686,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-07-09"
+      }
+    },
+    {
+      "ts": "2026-07-09",
+      "type": "model_removed",
+      "id": "poolside/laguna-xs.2",
+      "provider": "poolside",
+      "snapshot": {
+        "id": "poolside/laguna-xs.2",
+        "name": "Poolside: Laguna XS.2",
+        "provider": "poolside",
+        "pricing": {
+          "prompt": "0.0000001",
+          "completion": "0.0000002",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 32768,
+        "expiration_date": "2026-07-09",
+        "created": 1777389604,
+        "first_seen": "2026-06-18",
+        "last_seen": "2026-07-09"
+      }
+    },
+    {
+      "ts": "2026-07-09",
+      "type": "model_removed",
+      "id": "poolside/laguna-xs.2:free",
+      "provider": "poolside",
+      "snapshot": {
+        "id": "poolside/laguna-xs.2:free",
+        "name": "Poolside: Laguna XS.2 (free)",
+        "provider": "poolside",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 32768,
+        "expiration_date": "2026-07-09",
+        "created": 1777389604,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-07-09"
+      }
+    },
+    {
+      "ts": "2026-07-09",
+      "type": "disagreement_detected",
+      "id": "google/gemini-2.5-flash-lite-preview-09-2025",
+      "provider": "google",
+      "disagreement": {
+        "slug": "google:gemini-2-5-flash-lite-preview-09-2025",
+        "openrouter_status": "removed",
+        "litellm_status": "active",
+        "litellm_id": "gemini/gemini-2.5-flash-lite-preview-09-2025"
+      }
     }
   ]
 }

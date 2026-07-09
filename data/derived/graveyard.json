@@ -1,6 +1,23 @@
 {
   "buried": [
     {
+      "id": "google/gemini-2.5-flash-lite-preview-09-2025",
+      "name": "Google: Gemini 2.5 Flash Lite Preview 09-2025",
+      "provider": "google",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000001",
+        "completion": "0.0000004",
+        "image": "0.0000001",
+        "request": null
+      },
+      "final_context_length": 1048576,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-07-09",
+      "buried_at": "2026-07-09",
+      "suggested_replacement": "google/gemini-3.5-flash"
+    },
+    {
       "id": "liquid/lfm-2-24b-a2b",
       "name": "LiquidAI: LFM2-24B-A2B",
       "provider": "liquid",
@@ -16,6 +33,40 @@
       "last_seen": "2026-07-09",
       "buried_at": "2026-07-09",
       "suggested_replacement": "liquid/lfm-2.5-1.2b-thinking:free"
+    },
+    {
+      "id": "poolside/laguna-xs.2",
+      "name": "Poolside: Laguna XS.2",
+      "provider": "poolside",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000001",
+        "completion": "0.0000002",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-07-09",
+      "buried_at": "2026-07-09",
+      "suggested_replacement": "poolside/laguna-xs-2.1:free"
+    },
+    {
+      "id": "poolside/laguna-xs.2:free",
+      "name": "Poolside: Laguna XS.2 (free)",
+      "provider": "poolside",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-07-09",
+      "buried_at": "2026-07-09",
+      "suggested_replacement": "poolside/laguna-xs-2.1:free"
     },
     {
       "id": "switchpoint/router",

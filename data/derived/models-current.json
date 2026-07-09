@@ -1158,23 +1158,6 @@
       "last_seen": "2026-07-09"
     },
     {
-      "id": "google/gemini-2.5-flash-lite-preview-09-2025",
-      "name": "Google: Gemini 2.5 Flash Lite Preview 09-2025",
-      "provider": "google",
-      "pricing": {
-        "prompt": "0.0000001",
-        "completion": "0.0000004",
-        "image": "0.0000001",
-        "request": null
-      },
-      "context_length": 1048576,
-      "max_completion_tokens": 65535,
-      "expiration_date": "2026-07-09",
-      "created": 1758819686,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-07-09"
-    },
-    {
       "id": "google/gemini-2.5-pro",
       "name": "Google: Gemini 2.5 Pro",
       "provider": "google",
@@ -4269,40 +4252,6 @@
       "last_seen": "2026-07-09"
     },
     {
-      "id": "poolside/laguna-xs.2",
-      "name": "Poolside: Laguna XS.2",
-      "provider": "poolside",
-      "pricing": {
-        "prompt": "0.0000001",
-        "completion": "0.0000002",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 32768,
-      "expiration_date": "2026-07-09",
-      "created": 1777389604,
-      "first_seen": "2026-06-18",
-      "last_seen": "2026-07-09"
-    },
-    {
-      "id": "poolside/laguna-xs.2:free",
-      "name": "Poolside: Laguna XS.2 (free)",
-      "provider": "poolside",
-      "pricing": {
-        "prompt": "0",
-        "completion": "0",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 32768,
-      "expiration_date": "2026-07-09",
-      "created": 1777389604,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-07-09"
-    },
-    {
       "id": "qwen/qwen-2.5-72b-instruct",
       "name": "Qwen2.5 72B Instruct",
       "provider": "qwen",
@@ -5803,13 +5752,13 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.00000093",
-        "completion": "0.000003",
+        "prompt": "0.00000063",
+        "completion": "0.00000198",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 32768,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1781631930,
       "first_seen": "2026-06-16",

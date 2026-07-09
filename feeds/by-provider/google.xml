@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-provider/google.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/google.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-07-07T00:00:00Z</updated>
+  <updated>2026-07-09T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-09:model_removed:google%2Fgemini-2.5-flash-lite-preview-09-2025</id>
+    <title>Removed: google/gemini-2.5-flash-lite-preview-09-2025</title>
+    <updated>2026-07-09T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-2.5-flash-lite-preview-09-2025"/>
+    <category term="model_removed"/>
+    <category term="provider:google"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-09:disagreement_detected:google%2Fgemini-2.5-flash-lite-preview-09-2025</id>
+    <title>Catalog disagreement: google/gemini-2.5-flash-lite-preview-09-2025</title>
+    <updated>2026-07-09T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-2.5-flash-lite-preview-09-2025"/>
+    <category term="disagreement_detected"/>
+    <category term="provider:google"/>
+    <summary>OpenRouter says removed; LiteLLM still lists it as gemini/gemini-2.5-flash-lite-preview-09-2025.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-07-07:deprecation_announced:google%2Fgemini-2.5-flash-lite-preview-09-2025</id>
     <title>Deprecation announced: google/gemini-2.5-flash-lite-preview-09-2025 (sunset 2026-07-09)</title>
