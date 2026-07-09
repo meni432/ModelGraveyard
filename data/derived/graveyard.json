@@ -1,6 +1,23 @@
 {
   "buried": [
     {
+      "id": "switchpoint/router",
+      "name": "Switchpoint Router",
+      "provider": "switchpoint",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000085",
+        "completion": "0.0000034",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 131072,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-07-08",
+      "buried_at": "2026-07-09",
+      "suggested_replacement": null
+    },
+    {
       "id": "aion-labs/aion-1.0",
       "name": "AionLabs: Aion-1.0",
       "provider": "aion-labs",

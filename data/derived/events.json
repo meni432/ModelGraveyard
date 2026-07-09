@@ -12876,6 +12876,49 @@
           "pct_change": -56
         }
       ]
+    },
+    {
+      "ts": "2026-07-09",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000042",
+          "next": "0.0000009",
+          "pct_change": 114.29
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000132",
+          "next": "0.00000308",
+          "pct_change": 133.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-09",
+      "type": "model_removed",
+      "id": "switchpoint/router",
+      "provider": "switchpoint",
+      "snapshot": {
+        "id": "switchpoint/router",
+        "name": "Switchpoint Router",
+        "provider": "switchpoint",
+        "pricing": {
+          "prompt": "0.00000085",
+          "completion": "0.0000034",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1752272899,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-07-08"
+      }
     }
   ]
 }
