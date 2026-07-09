@@ -1,9 +1,259 @@
 {
   "generated_at": "2026-07-09",
-  "active_count": 340,
+  "active_count": 346,
   "dead_count": 50,
   "last_event_ts": "2026-07-09",
   "recent_events": [
+    {
+      "ts": "2026-07-09",
+      "type": "price_changed",
+      "id": "openai/gpt-oss-120b",
+      "provider": "openai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000003",
+          "next": "0.000000036",
+          "pct_change": 20
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000015",
+          "next": "0.00000018",
+          "pct_change": 20
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-09",
+      "type": "price_changed",
+      "id": "minimax/minimax-m2.5",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000012",
+          "next": "0.00000015",
+          "pct_change": 25
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000048",
+          "next": "0.0000009",
+          "pct_change": 87.5
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-09",
+      "type": "price_changed",
+      "id": "minimax/minimax-m2.7",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000018",
+          "next": "0.00000024",
+          "pct_change": 33.33
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000072",
+          "next": "0.00000096",
+          "pct_change": 33.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-09",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.7-code",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000074",
+          "next": "0.00000072",
+          "pct_change": -2.7
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000035",
+          "next": "0.00000349",
+          "pct_change": -0.29
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-09",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000063",
+          "next": "0.00000054",
+          "pct_change": -14.29
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000198",
+          "next": "0.00000176",
+          "pct_change": -11.11
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-09",
+      "type": "model_added",
+      "id": "openai/gpt-5.6-sol",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-5.6-sol",
+        "name": "OpenAI: GPT-5.6 Sol",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.000005",
+          "completion": "0.00003",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1783590850,
+        "first_seen": "2026-07-09",
+        "last_seen": "2026-07-09"
+      }
+    },
+    {
+      "ts": "2026-07-09",
+      "type": "model_added",
+      "id": "openai/gpt-5.6-sol-pro",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-5.6-sol-pro",
+        "name": "OpenAI: GPT-5.6 Sol Pro",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.000005",
+          "completion": "0.00003",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1783590854,
+        "first_seen": "2026-07-09",
+        "last_seen": "2026-07-09"
+      }
+    },
+    {
+      "ts": "2026-07-09",
+      "type": "model_added",
+      "id": "openai/gpt-5.6-terra",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-5.6-terra",
+        "name": "OpenAI: GPT-5.6 Terra",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.0000025",
+          "completion": "0.000015",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1783590857,
+        "first_seen": "2026-07-09",
+        "last_seen": "2026-07-09"
+      }
+    },
+    {
+      "ts": "2026-07-09",
+      "type": "model_added",
+      "id": "openai/gpt-5.6-terra-pro",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-5.6-terra-pro",
+        "name": "OpenAI: GPT-5.6 Terra Pro",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.0000025",
+          "completion": "0.000015",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1783590861,
+        "first_seen": "2026-07-09",
+        "last_seen": "2026-07-09"
+      }
+    },
+    {
+      "ts": "2026-07-09",
+      "type": "model_added",
+      "id": "openai/gpt-5.6-luna",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-5.6-luna",
+        "name": "OpenAI: GPT-5.6 Luna",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.000001",
+          "completion": "0.000006",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1783590864,
+        "first_seen": "2026-07-09",
+        "last_seen": "2026-07-09"
+      }
+    },
+    {
+      "ts": "2026-07-09",
+      "type": "model_added",
+      "id": "openai/gpt-5.6-luna-pro",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-5.6-luna-pro",
+        "name": "OpenAI: GPT-5.6 Luna Pro",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.000001",
+          "completion": "0.000006",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1783590867,
+        "first_seen": "2026-07-09",
+        "last_seen": "2026-07-09"
+      }
+    },
+    {
+      "ts": "2026-07-09",
+      "type": "disagreement_detected",
+      "id": "google/gemini-2.5-flash-lite-preview-09-2025",
+      "provider": "google",
+      "disagreement": {
+        "slug": "google:gemini-2-5-flash-lite-preview-09-2025",
+        "openrouter_status": "removed",
+        "litellm_status": "active",
+        "litellm_id": "gemini/gemini-2.5-flash-lite-preview-09-2025"
+      }
+    },
     {
       "ts": "2026-07-09",
       "type": "model_removed",
@@ -178,225 +428,6 @@
           "pct_change": 133.33
         }
       ]
-    },
-    {
-      "ts": "2026-07-08",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.2",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000093",
-          "next": "0.00000042",
-          "pct_change": -54.84
-        },
-        {
-          "field": "completion",
-          "prev": "0.000003",
-          "next": "0.00000132",
-          "pct_change": -56
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-08",
-      "type": "price_changed",
-      "id": "tencent/hy3",
-      "provider": "tencent",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000002",
-          "next": "0.00000014",
-          "pct_change": -30
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000008",
-          "next": "0.00000058",
-          "pct_change": -27.5
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-08",
-      "type": "model_added",
-      "id": "~x-ai/grok-latest",
-      "provider": "~x-ai",
-      "snapshot": {
-        "id": "~x-ai/grok-latest",
-        "name": "xAI: Grok Latest",
-        "provider": "~x-ai",
-        "pricing": {
-          "prompt": "0.000002",
-          "completion": "0.000006",
-          "image": null,
-          "request": null
-        },
-        "context_length": 500000,
-        "max_completion_tokens": null,
-        "expiration_date": null,
-        "created": 1783519360,
-        "first_seen": "2026-07-08",
-        "last_seen": "2026-07-08"
-      }
-    },
-    {
-      "ts": "2026-07-08",
-      "type": "model_added",
-      "id": "x-ai/grok-4.5",
-      "provider": "x-ai",
-      "snapshot": {
-        "id": "x-ai/grok-4.5",
-        "name": "xAI: Grok 4.5",
-        "provider": "x-ai",
-        "pricing": {
-          "prompt": "0.000002",
-          "completion": "0.000006",
-          "image": null,
-          "request": null
-        },
-        "context_length": 500000,
-        "max_completion_tokens": null,
-        "expiration_date": null,
-        "created": 1783523154,
-        "first_seen": "2026-07-08",
-        "last_seen": "2026-07-08"
-      }
-    },
-    {
-      "ts": "2026-07-08",
-      "type": "price_changed",
-      "id": "moonshotai/kimi-k2.6",
-      "provider": "moonshotai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000066",
-          "next": "0.00000065",
-          "pct_change": -1.52
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-08",
-      "type": "price_changed",
-      "id": "~moonshotai/kimi-latest",
-      "provider": "~moonshotai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000066",
-          "next": "0.00000065",
-          "pct_change": -1.52
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-08",
-      "type": "context_changed",
-      "id": "thedrummer/rocinante-12b",
-      "provider": "thedrummer",
-      "prev_context": 32768,
-      "next_context": 65536
-    },
-    {
-      "ts": "2026-07-07",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.2",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000009",
-          "next": "0.00000093",
-          "pct_change": 3.33
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000286",
-          "next": "0.000003",
-          "pct_change": 4.9
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-07",
-      "type": "deprecation_announced",
-      "id": "tencent/hy3:free",
-      "provider": "tencent",
-      "prev_expiration": null,
-      "next_expiration": "2026-07-21"
-    },
-    {
-      "ts": "2026-07-07",
-      "type": "model_added",
-      "id": "aion-labs/aion-3.0",
-      "provider": "aion-labs",
-      "snapshot": {
-        "id": "aion-labs/aion-3.0",
-        "name": "AionLabs: Aion-3.0",
-        "provider": "aion-labs",
-        "pricing": {
-          "prompt": "0.000003",
-          "completion": "0.000006",
-          "image": null,
-          "request": null
-        },
-        "context_length": 131072,
-        "max_completion_tokens": 32768,
-        "expiration_date": null,
-        "created": 1783443095,
-        "first_seen": "2026-07-07",
-        "last_seen": "2026-07-07"
-      }
-    },
-    {
-      "ts": "2026-07-07",
-      "type": "model_added",
-      "id": "aion-labs/aion-3.0-mini",
-      "provider": "aion-labs",
-      "snapshot": {
-        "id": "aion-labs/aion-3.0-mini",
-        "name": "AionLabs: Aion-3.0-Mini",
-        "provider": "aion-labs",
-        "pricing": {
-          "prompt": "0.0000007",
-          "completion": "0.0000014",
-          "image": null,
-          "request": null
-        },
-        "context_length": 131072,
-        "max_completion_tokens": 32768,
-        "expiration_date": null,
-        "created": 1783443096,
-        "first_seen": "2026-07-07",
-        "last_seen": "2026-07-07"
-      }
-    },
-    {
-      "ts": "2026-07-07",
-      "type": "model_removed",
-      "id": "aion-labs/aion-1.0-mini",
-      "provider": "aion-labs",
-      "snapshot": {
-        "id": "aion-labs/aion-1.0-mini",
-        "name": "AionLabs: Aion-1.0-Mini",
-        "provider": "aion-labs",
-        "pricing": {
-          "prompt": "0.0000007",
-          "completion": "0.0000014",
-          "image": null,
-          "request": null
-        },
-        "context_length": 131072,
-        "max_completion_tokens": 32768,
-        "expiration_date": null,
-        "created": 1738697107,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-07-07"
-      }
     }
   ],
   "scheduled_funerals": [

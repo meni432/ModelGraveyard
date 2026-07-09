@@ -2131,8 +2131,8 @@
       "name": "MiniMax: MiniMax M2.5",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0.00000012",
-        "completion": "0.00000048",
+        "prompt": "0.00000015",
+        "completion": "0.0000009",
         "image": null,
         "request": null
       },
@@ -2148,8 +2148,8 @@
       "name": "MiniMax: MiniMax M2.7",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0.00000018",
-        "completion": "0.00000072",
+        "prompt": "0.00000024",
+        "completion": "0.00000096",
         "image": null,
         "request": null
       },
@@ -2590,13 +2590,13 @@
       "name": "MoonshotAI: Kimi K2.7 Code",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.00000074",
-        "completion": "0.0000035",
+        "prompt": "0.00000072",
+        "completion": "0.00000349",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 16384,
+      "max_completion_tokens": 262144,
       "expiration_date": null,
       "created": 1781266361,
       "first_seen": "2026-06-12",
@@ -3691,6 +3691,108 @@
       "last_seen": "2026-07-09"
     },
     {
+      "id": "openai/gpt-5.6-luna",
+      "name": "OpenAI: GPT-5.6 Luna",
+      "provider": "openai",
+      "pricing": {
+        "prompt": "0.000001",
+        "completion": "0.000006",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1050000,
+      "max_completion_tokens": 128000,
+      "expiration_date": null,
+      "created": 1783590864,
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09"
+    },
+    {
+      "id": "openai/gpt-5.6-luna-pro",
+      "name": "OpenAI: GPT-5.6 Luna Pro",
+      "provider": "openai",
+      "pricing": {
+        "prompt": "0.000001",
+        "completion": "0.000006",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1050000,
+      "max_completion_tokens": 128000,
+      "expiration_date": null,
+      "created": 1783590867,
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09"
+    },
+    {
+      "id": "openai/gpt-5.6-sol",
+      "name": "OpenAI: GPT-5.6 Sol",
+      "provider": "openai",
+      "pricing": {
+        "prompt": "0.000005",
+        "completion": "0.00003",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1050000,
+      "max_completion_tokens": 128000,
+      "expiration_date": null,
+      "created": 1783590850,
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09"
+    },
+    {
+      "id": "openai/gpt-5.6-sol-pro",
+      "name": "OpenAI: GPT-5.6 Sol Pro",
+      "provider": "openai",
+      "pricing": {
+        "prompt": "0.000005",
+        "completion": "0.00003",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1050000,
+      "max_completion_tokens": 128000,
+      "expiration_date": null,
+      "created": 1783590854,
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09"
+    },
+    {
+      "id": "openai/gpt-5.6-terra",
+      "name": "OpenAI: GPT-5.6 Terra",
+      "provider": "openai",
+      "pricing": {
+        "prompt": "0.0000025",
+        "completion": "0.000015",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1050000,
+      "max_completion_tokens": 128000,
+      "expiration_date": null,
+      "created": 1783590857,
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09"
+    },
+    {
+      "id": "openai/gpt-5.6-terra-pro",
+      "name": "OpenAI: GPT-5.6 Terra Pro",
+      "provider": "openai",
+      "pricing": {
+        "prompt": "0.0000025",
+        "completion": "0.000015",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1050000,
+      "max_completion_tokens": 128000,
+      "expiration_date": null,
+      "created": 1783590861,
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09"
+    },
+    {
       "id": "openai/gpt-audio",
       "name": "OpenAI: GPT Audio",
       "provider": "openai",
@@ -3746,13 +3848,13 @@
       "name": "OpenAI: gpt-oss-120b",
       "provider": "openai",
       "pricing": {
-        "prompt": "0.00000003",
-        "completion": "0.00000015",
+        "prompt": "0.000000036",
+        "completion": "0.00000018",
         "image": null,
         "request": null
       },
       "context_length": 131072,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": null,
       "expiration_date": null,
       "created": 1754414231,
       "first_seen": "2026-05-27",
@@ -5752,13 +5854,13 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.00000063",
-        "completion": "0.00000198",
+        "prompt": "0.00000054",
+        "completion": "0.00000176",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 101376,
       "expiration_date": null,
       "created": 1781631930,
       "first_seen": "2026-06-16",
