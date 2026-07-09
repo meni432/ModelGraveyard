@@ -1,9 +1,52 @@
 {
   "generated_at": "2026-07-09",
-  "active_count": 344,
-  "dead_count": 46,
+  "active_count": 343,
+  "dead_count": 47,
   "last_event_ts": "2026-07-09",
   "recent_events": [
+    {
+      "ts": "2026-07-09",
+      "type": "model_removed",
+      "id": "liquid/lfm-2-24b-a2b",
+      "provider": "liquid",
+      "snapshot": {
+        "id": "liquid/lfm-2-24b-a2b",
+        "name": "LiquidAI: LFM2-24B-A2B",
+        "provider": "liquid",
+        "pricing": {
+          "prompt": "0.00000003",
+          "completion": "0.00000012",
+          "image": null,
+          "request": null
+        },
+        "context_length": 128000,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1772048711,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-07-09"
+      }
+    },
+    {
+      "ts": "2026-07-09",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000009",
+          "next": "0.00000093",
+          "pct_change": 3.33
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000308",
+          "next": "0.000003",
+          "pct_change": -2.6
+        }
+      ]
+    },
     {
       "ts": "2026-07-09",
       "type": "model_removed",
@@ -334,34 +377,6 @@
           "prev": "0",
           "next": "0.00000019305",
           "pct_change": null
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-07",
-      "type": "deprecation_announced",
-      "id": "google/gemini-2.5-flash-lite-preview-09-2025",
-      "provider": "google",
-      "prev_expiration": null,
-      "next_expiration": "2026-07-09"
-    },
-    {
-      "ts": "2026-07-07",
-      "type": "price_changed",
-      "id": "tencent/hy3",
-      "provider": "tencent",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000014",
-          "next": "0.0000002",
-          "pct_change": 42.86
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000058",
-          "next": "0.0000008",
-          "pct_change": 37.93
         }
       ]
     }

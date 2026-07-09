@@ -24,6 +24,24 @@
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.8500/Mtok.</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-07-09:price_changed:z-ai%2Fglm-5.2</id>
+    <title>Price changed: z-ai/glm-5.2</title>
+    <updated>2026-07-09T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>prompt: $0.9000/Mtok → $0.9300/Mtok (+3.33%); completion: $3.0800/Mtok → $3.0000/Mtok (-2.6%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-09:model_removed:liquid%2Flfm-2-24b-a2b</id>
+    <title>Removed: liquid/lfm-2-24b-a2b</title>
+    <updated>2026-07-09T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/liquid%2Flfm-2-24b-a2b"/>
+    <category term="model_removed"/>
+    <category term="provider:liquid"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0300/Mtok.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-07-08:context_changed:thedrummer%2Frocinante-12b</id>
     <title>Context window changed: thedrummer/rocinante-12b</title>
     <updated>2026-07-08T00:00:00Z</updated>
@@ -886,23 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:~moonshotai"/>
     <summary>completion: $3.5000/Mtok → $3.4100/Mtok (-2.57%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-22:price_changed:moonshotai%2Fkimi-k2.6</id>
-    <title>Price changed: moonshotai/kimi-k2.6</title>
-    <updated>2026-06-22T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k2.6"/>
-    <category term="price_changed"/>
-    <category term="provider:moonshotai"/>
-    <summary>completion: $3.5000/Mtok → $3.4100/Mtok (-2.57%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-22:price_changed:z-ai%2Fglm-5.2</id>
-    <title>Price changed: z-ai/glm-5.2</title>
-    <updated>2026-06-22T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
-    <category term="price_changed"/>
-    <category term="provider:z-ai"/>
-    <summary>prompt: $1.0000/Mtok → $0.9800/Mtok (-2%); completion: $4.0000/Mtok → $3.0800/Mtok (-23%)</summary>
   </entry>
 </feed>

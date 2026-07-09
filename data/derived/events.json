@@ -12919,6 +12919,49 @@
         "first_seen": "2026-05-27",
         "last_seen": "2026-07-08"
       }
+    },
+    {
+      "ts": "2026-07-09",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000009",
+          "next": "0.00000093",
+          "pct_change": 3.33
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000308",
+          "next": "0.000003",
+          "pct_change": -2.6
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-09",
+      "type": "model_removed",
+      "id": "liquid/lfm-2-24b-a2b",
+      "provider": "liquid",
+      "snapshot": {
+        "id": "liquid/lfm-2-24b-a2b",
+        "name": "LiquidAI: LFM2-24B-A2B",
+        "provider": "liquid",
+        "pricing": {
+          "prompt": "0.00000003",
+          "completion": "0.00000012",
+          "image": null,
+          "request": null
+        },
+        "context_length": 128000,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1772048711,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-07-09"
+      }
     }
   ]
 }

@@ -1,6 +1,23 @@
 {
   "buried": [
     {
+      "id": "liquid/lfm-2-24b-a2b",
+      "name": "LiquidAI: LFM2-24B-A2B",
+      "provider": "liquid",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000003",
+        "completion": "0.00000012",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 128000,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-07-09",
+      "buried_at": "2026-07-09",
+      "suggested_replacement": "liquid/lfm-2.5-1.2b-thinking:free"
+    },
+    {
       "id": "switchpoint/router",
       "name": "Switchpoint Router",
       "provider": "switchpoint",
