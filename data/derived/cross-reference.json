@@ -1,10 +1,10 @@
 {
   "generated_at": "2026-07-10",
   "openrouter_catalog_size": 335,
-  "litellm_catalog_size": 2144,
-  "shared_count": 85,
-  "openrouter_only_count": 250,
-  "litellm_only_count": 2052,
+  "litellm_catalog_size": 2151,
+  "shared_count": 88,
+  "openrouter_only_count": 247,
+  "litellm_only_count": 2056,
   "disagreements": [
     {
       "slug": "anthropic:claude-3-5-haiku",
@@ -414,6 +414,21 @@
       "slug": "openai:gpt-5-5-pro",
       "openrouter_id": "openai/gpt-5.5-pro",
       "litellm_id": "gpt-5.5-pro"
+    },
+    {
+      "slug": "openai:gpt-5-6-luna",
+      "openrouter_id": "openai/gpt-5.6-luna",
+      "litellm_id": "gpt-5.6-luna"
+    },
+    {
+      "slug": "openai:gpt-5-6-sol",
+      "openrouter_id": "openai/gpt-5.6-sol",
+      "litellm_id": "gpt-5.6-sol"
+    },
+    {
+      "slug": "openai:gpt-5-6-terra",
+      "openrouter_id": "openai/gpt-5.6-terra",
+      "litellm_id": "gpt-5.6-terra"
     },
     {
       "slug": "openai:gpt-5-chat",
