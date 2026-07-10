@@ -665,23 +665,6 @@
       "last_seen": "2026-07-10"
     },
     {
-      "id": "arcee-ai/trinity-mini",
-      "name": "Arcee AI: Trinity Mini",
-      "provider": "arcee-ai",
-      "pricing": {
-        "prompt": "0.000000045",
-        "completion": "0.00000015",
-        "image": null,
-        "request": null
-      },
-      "context_length": 131072,
-      "max_completion_tokens": 131072,
-      "expiration_date": "2026-07-10",
-      "created": 1764601720,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-07-10"
-    },
-    {
       "id": "arcee-ai/virtuoso-large",
       "name": "Arcee AI: Virtuoso Large",
       "provider": "arcee-ai",
@@ -5871,8 +5854,8 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.00000056",
-        "completion": "0.00000176",
+        "prompt": "0.00000042",
+        "completion": "0.00000132",
         "image": null,
         "request": null
       },

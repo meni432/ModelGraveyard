@@ -13432,6 +13432,49 @@
           "pct_change": -6.67
         }
       ]
+    },
+    {
+      "ts": "2026-07-10",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000056",
+          "next": "0.00000042",
+          "pct_change": -25
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000176",
+          "next": "0.00000132",
+          "pct_change": -25
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-10",
+      "type": "model_removed",
+      "id": "arcee-ai/trinity-mini",
+      "provider": "arcee-ai",
+      "snapshot": {
+        "id": "arcee-ai/trinity-mini",
+        "name": "Arcee AI: Trinity Mini",
+        "provider": "arcee-ai",
+        "pricing": {
+          "prompt": "0.000000045",
+          "completion": "0.00000015",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": 131072,
+        "expiration_date": "2026-07-10",
+        "created": 1764601720,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-07-10"
+      }
     }
   ]
 }

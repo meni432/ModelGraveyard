@@ -1,6 +1,23 @@
 {
   "buried": [
     {
+      "id": "arcee-ai/trinity-mini",
+      "name": "Arcee AI: Trinity Mini",
+      "provider": "arcee-ai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.000000045",
+        "completion": "0.00000015",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 131072,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-07-10",
+      "buried_at": "2026-07-10",
+      "suggested_replacement": "arcee-ai/virtuoso-large"
+    },
+    {
       "id": "google/gemini-2.5-flash-lite-preview-09-2025",
       "name": "Google: Gemini 2.5 Flash Lite Preview 09-2025",
       "provider": "google",
