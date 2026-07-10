@@ -7,6 +7,46 @@
     {
       "ts": "2026-07-10",
       "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000009",
+          "next": "0.000000084",
+          "pct_change": -6.67
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000018",
+          "next": "0.000000168",
+          "pct_change": -6.67
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-10",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000084",
+          "next": "0.00000056",
+          "pct_change": -33.33
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000264",
+          "next": "0.00000176",
+          "pct_change": -33.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-10",
+      "type": "price_changed",
       "id": "deepseek/deepseek-v3.2",
       "provider": "deepseek",
       "changes": [
@@ -364,52 +404,6 @@
         "max_completion_tokens": 32768,
         "expiration_date": "2026-07-09",
         "created": 1777389604,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-07-09"
-      }
-    },
-    {
-      "ts": "2026-07-09",
-      "type": "model_removed",
-      "id": "poolside/laguna-xs.2",
-      "provider": "poolside",
-      "snapshot": {
-        "id": "poolside/laguna-xs.2",
-        "name": "Poolside: Laguna XS.2",
-        "provider": "poolside",
-        "pricing": {
-          "prompt": "0.0000001",
-          "completion": "0.0000002",
-          "image": null,
-          "request": null
-        },
-        "context_length": 262144,
-        "max_completion_tokens": 32768,
-        "expiration_date": "2026-07-09",
-        "created": 1777389604,
-        "first_seen": "2026-06-18",
-        "last_seen": "2026-07-09"
-      }
-    },
-    {
-      "ts": "2026-07-09",
-      "type": "model_removed",
-      "id": "google/gemini-2.5-flash-lite-preview-09-2025",
-      "provider": "google",
-      "snapshot": {
-        "id": "google/gemini-2.5-flash-lite-preview-09-2025",
-        "name": "Google: Gemini 2.5 Flash Lite Preview 09-2025",
-        "provider": "google",
-        "pricing": {
-          "prompt": "0.0000001",
-          "completion": "0.0000004",
-          "image": "0.0000001",
-          "request": null
-        },
-        "context_length": 1048576,
-        "max_completion_tokens": 65535,
-        "expiration_date": "2026-07-09",
-        "created": 1758819686,
         "first_seen": "2026-05-27",
         "last_seen": "2026-07-09"
       }
