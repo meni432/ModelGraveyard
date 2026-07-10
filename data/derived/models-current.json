@@ -1060,8 +1060,8 @@
       "name": "DeepSeek: DeepSeek V3.2",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000002288",
-        "completion": "0.0000003432",
+        "prompt": "0.0000002145",
+        "completion": "0.00000032175",
         "image": null,
         "request": null
       },
@@ -5871,13 +5871,13 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.00000054",
-        "completion": "0.00000176",
+        "prompt": "0.00000084",
+        "completion": "0.00000264",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 101376,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1781631930,
       "first_seen": "2026-06-16",
