@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/cognitivecomputations.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/cognitivecomputations.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-05-27T00:00:00Z</updated>
+  <updated>2026-07-10T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-10:model_added:cognitivecomputations%2Fdolphin-mistral-24b-venice-edition</id>
+    <title>Added: cognitivecomputations/dolphin-mistral-24b-venice-edition</title>
+    <updated>2026-07-10T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/cognitivecomputations%2Fdolphin-mistral-24b-venice-edition"/>
+    <category term="model_added"/>
+    <category term="provider:cognitivecomputations"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.2000/Mtok, context: 128000.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-05-27:model_added:cognitivecomputations%2Fdolphin-mistral-24b-venice-edition%3Afree</id>
     <title>Added: cognitivecomputations/dolphin-mistral-24b-venice-edition:free</title>

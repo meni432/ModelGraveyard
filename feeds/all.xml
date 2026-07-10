@@ -4,7 +4,34 @@
   <id>https://modelgraveyard.com/feeds/all.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/all.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-07-09T00:00:00Z</updated>
+  <updated>2026-07-10T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-10:price_changed:~moonshotai%2Fkimi-latest</id>
+    <title>Price changed: ~moonshotai/kimi-latest</title>
+    <updated>2026-07-10T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/~moonshotai%2Fkimi-latest"/>
+    <category term="price_changed"/>
+    <category term="provider:~moonshotai"/>
+    <summary>prompt: $0.6500/Mtok → $0.6600/Mtok (+1.54%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-10:price_changed:moonshotai%2Fkimi-k2.6</id>
+    <title>Price changed: moonshotai/kimi-k2.6</title>
+    <updated>2026-07-10T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k2.6"/>
+    <category term="price_changed"/>
+    <category term="provider:moonshotai"/>
+    <summary>prompt: $0.6500/Mtok → $0.6600/Mtok (+1.54%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-10:model_added:cognitivecomputations%2Fdolphin-mistral-24b-venice-edition</id>
+    <title>Added: cognitivecomputations/dolphin-mistral-24b-venice-edition</title>
+    <updated>2026-07-10T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/cognitivecomputations%2Fdolphin-mistral-24b-venice-edition"/>
+    <category term="model_added"/>
+    <category term="provider:cognitivecomputations"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.2000/Mtok, context: 128000.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-07-09:price_changed:z-ai%2Fglm-5.2</id>
     <title>Price changed: z-ai/glm-5.2</title>
@@ -877,32 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:deepseek"/>
     <summary>prompt: $0.0900/Mtok → $0.0890/Mtok (-1.11%); completion: $0.1800/Mtok → $0.2240/Mtok (+24.44%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-25:price_changed:deepseek%2Fdeepseek-v4-flash</id>
-    <title>Price changed: deepseek/deepseek-v4-flash</title>
-    <updated>2026-06-25T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-flash"/>
-    <category term="price_changed"/>
-    <category term="provider:deepseek"/>
-    <summary>prompt: $0.0890/Mtok → $0.0900/Mtok (+1.12%); completion: $0.2240/Mtok → $0.1800/Mtok (-19.64%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-25:price_changed:minimax%2Fminimax-m2.7</id>
-    <title>Price changed: minimax/minimax-m2.7</title>
-    <updated>2026-06-25T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/minimax%2Fminimax-m2.7"/>
-    <category term="price_changed"/>
-    <category term="provider:minimax"/>
-    <summary>prompt: $0.2400/Mtok → $0.1800/Mtok (-25%); completion: $0.9600/Mtok → $0.7200/Mtok (-25%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-25:price_changed:minimax%2Fminimax-m2.5</id>
-    <title>Price changed: minimax/minimax-m2.5</title>
-    <updated>2026-06-25T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/minimax%2Fminimax-m2.5"/>
-    <category term="price_changed"/>
-    <category term="provider:minimax"/>
-    <summary>prompt: $0.1500/Mtok → $0.1200/Mtok (-20%); completion: $0.9000/Mtok → $0.4800/Mtok (-46.67%)</summary>
   </entry>
 </feed>

@@ -13301,6 +13301,57 @@
           "pct_change": 20
         }
       ]
+    },
+    {
+      "ts": "2026-07-10",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000065",
+          "next": "0.00000066",
+          "pct_change": 1.54
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-10",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.6",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000065",
+          "next": "0.00000066",
+          "pct_change": 1.54
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-10",
+      "type": "model_added",
+      "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition",
+      "provider": "cognitivecomputations",
+      "snapshot": {
+        "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition",
+        "name": "Venice: Uncensored",
+        "provider": "cognitivecomputations",
+        "pricing": {
+          "prompt": "0.0000002",
+          "completion": "0.0000009",
+          "image": null,
+          "request": null
+        },
+        "context_length": 128000,
+        "max_completion_tokens": 8192,
+        "expiration_date": null,
+        "created": 1752094966,
+        "first_seen": "2026-07-10",
+        "last_seen": "2026-07-10"
+      }
     }
   ]
 }
