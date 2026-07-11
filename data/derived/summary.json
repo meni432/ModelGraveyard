@@ -7,6 +7,40 @@
     {
       "ts": "2026-07-11",
       "type": "price_changed",
+      "id": "moonshotai/kimi-k2.7-code",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.0000035",
+          "next": "0.00000349",
+          "pct_change": -0.29
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-11",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000406",
+          "next": "0.00000035",
+          "pct_change": -13.79
+        },
+        {
+          "field": "completion",
+          "prev": "0.000001276",
+          "next": "0.0000011",
+          "pct_change": -13.79
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-11",
+      "type": "price_changed",
       "id": "deepseek/deepseek-v4-flash",
       "provider": "deepseek",
       "changes": [
@@ -265,43 +299,6 @@
           "prev": "0.00000176",
           "next": "0.00000264",
           "pct_change": 50
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-10",
-      "type": "model_added",
-      "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition",
-      "provider": "cognitivecomputations",
-      "snapshot": {
-        "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition",
-        "name": "Venice: Uncensored",
-        "provider": "cognitivecomputations",
-        "pricing": {
-          "prompt": "0.0000002",
-          "completion": "0.0000009",
-          "image": null,
-          "request": null
-        },
-        "context_length": 128000,
-        "max_completion_tokens": 8192,
-        "expiration_date": null,
-        "created": 1752094966,
-        "first_seen": "2026-07-10",
-        "last_seen": "2026-07-10"
-      }
-    },
-    {
-      "ts": "2026-07-10",
-      "type": "price_changed",
-      "id": "moonshotai/kimi-k2.6",
-      "provider": "moonshotai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000065",
-          "next": "0.00000066",
-          "pct_change": 1.54
         }
       ]
     }

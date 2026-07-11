@@ -2574,7 +2574,7 @@
       "provider": "moonshotai",
       "pricing": {
         "prompt": "0.00000072",
-        "completion": "0.0000035",
+        "completion": "0.00000349",
         "image": null,
         "request": null
       },
@@ -5837,13 +5837,13 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.000000406",
-        "completion": "0.000001276",
+        "prompt": "0.00000035",
+        "completion": "0.0000011",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 128000,
       "expiration_date": null,
       "created": 1781631930,
       "first_seen": "2026-06-16",
