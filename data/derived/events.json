@@ -13562,6 +13562,60 @@
         "first_seen": "2026-05-27",
         "last_seen": "2026-07-10"
       }
+    },
+    {
+      "ts": "2026-07-11",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000042",
+          "next": "0.000000406",
+          "pct_change": -3.33
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000132",
+          "next": "0.000001276",
+          "pct_change": -3.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-11",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.7-code",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.00000349",
+          "next": "0.0000035",
+          "pct_change": 0.29
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-11",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000084",
+          "next": "0.000000077",
+          "pct_change": -8.33
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000168",
+          "next": "0.000000154",
+          "pct_change": -8.33
+        }
+      ]
     }
   ]
 }

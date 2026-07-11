@@ -6,6 +6,60 @@
   "recent_events": [
     {
       "ts": "2026-07-11",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000084",
+          "next": "0.000000077",
+          "pct_change": -8.33
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000168",
+          "next": "0.000000154",
+          "pct_change": -8.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-11",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.7-code",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.00000349",
+          "next": "0.0000035",
+          "pct_change": 0.29
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-11",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000042",
+          "next": "0.000000406",
+          "pct_change": -3.33
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000132",
+          "next": "0.000001276",
+          "pct_change": -3.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-11",
       "type": "model_removed",
       "id": "meta-llama/llama-3-8b-instruct",
       "provider": "meta-llama",
@@ -248,60 +302,6 @@
           "prev": "0.00000065",
           "next": "0.00000066",
           "pct_change": 1.54
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-10",
-      "type": "price_changed",
-      "id": "~moonshotai/kimi-latest",
-      "provider": "~moonshotai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000065",
-          "next": "0.00000066",
-          "pct_change": 1.54
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-09",
-      "type": "price_changed",
-      "id": "openai/gpt-oss-120b",
-      "provider": "openai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000003",
-          "next": "0.000000036",
-          "pct_change": 20
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000015",
-          "next": "0.00000018",
-          "pct_change": 20
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-09",
-      "type": "price_changed",
-      "id": "minimax/minimax-m2.5",
-      "provider": "minimax",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000012",
-          "next": "0.00000015",
-          "pct_change": 25
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000048",
-          "next": "0.0000009",
-          "pct_change": 87.5
         }
       ]
     }

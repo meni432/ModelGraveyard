@@ -1077,8 +1077,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000084",
-        "completion": "0.000000168",
+        "prompt": "0.000000077",
+        "completion": "0.000000154",
         "image": null,
         "request": null
       },
@@ -2574,7 +2574,7 @@
       "provider": "moonshotai",
       "pricing": {
         "prompt": "0.00000072",
-        "completion": "0.00000349",
+        "completion": "0.0000035",
         "image": null,
         "request": null
       },
@@ -5837,8 +5837,8 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.00000042",
-        "completion": "0.00000132",
+        "prompt": "0.000000406",
+        "completion": "0.000001276",
         "image": null,
         "request": null
       },
