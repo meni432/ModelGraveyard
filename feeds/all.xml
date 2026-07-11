@@ -132,6 +132,15 @@
     <summary>completion: $3.5000/Mtok → $3.4900/Mtok (-0.29%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-07-11:price_changed:moonshotai%2Fkimi-k2.7-code</id>
+    <title>Price changed: moonshotai/kimi-k2.7-code</title>
+    <updated>2026-07-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k2.7-code"/>
+    <category term="price_changed"/>
+    <category term="provider:moonshotai"/>
+    <summary>completion: $3.4900/Mtok → $3.5000/Mtok (+0.29%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-07-10:price_changed:~moonshotai%2Fkimi-latest</id>
     <title>Price changed: ~moonshotai/kimi-latest</title>
     <updated>2026-07-10T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:deepseek"/>
     <summary>prompt: $0.2000/Mtok → $0.2400/Mtok (+20%); completion: $0.7700/Mtok → $0.9000/Mtok (+16.88%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-01:model_removed:anthropic%2Fclaude-fable-5</id>
-    <title>Removed: anthropic/claude-fable-5</title>
-    <updated>2026-07-01T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-fable-5"/>
-    <category term="model_removed"/>
-    <category term="provider:anthropic"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $10.0000/Mtok.</summary>
   </entry>
 </feed>
