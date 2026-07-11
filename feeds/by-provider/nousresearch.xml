@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/nousresearch.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/nousresearch.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-06-08T00:00:00Z</updated>
+  <updated>2026-07-11T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-11:deprecation_announced:nousresearch%2Fhermes-3-llama-3.1-405b%3Afree</id>
+    <title>Deprecation announced: nousresearch/hermes-3-llama-3.1-405b:free (sunset 2026-07-19)</title>
+    <updated>2026-07-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nousresearch%2Fhermes-3-llama-3.1-405b%3Afree"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:nousresearch"/>
+    <summary>Provider announced retirement on 2026-07-19.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-06-08:price_changed:nousresearch%2Fhermes-3-llama-3.1-70b</id>
     <title>Price changed: nousresearch/hermes-3-llama-3.1-70b</title>

@@ -4,7 +4,88 @@
   <id>https://modelgraveyard.com/feeds/all.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/all.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-07-10T00:00:00Z</updated>
+  <updated>2026-07-11T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-11:deprecation_announced:nvidia%2Fllama-3.3-nemotron-super-49b-v1.5</id>
+    <title>Deprecation announced: nvidia/llama-3.3-nemotron-super-49b-v1.5 (sunset 2026-07-17)</title>
+    <updated>2026-07-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nvidia%2Fllama-3.3-nemotron-super-49b-v1.5"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:nvidia"/>
+    <summary>Provider announced retirement on 2026-07-17.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-11:deprecation_announced:qwen%2Fqwen3-next-80b-a3b-instruct%3Afree</id>
+    <title>Deprecation announced: qwen/qwen3-next-80b-a3b-instruct:free (sunset 2026-07-19)</title>
+    <updated>2026-07-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3-next-80b-a3b-instruct%3Afree"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:qwen"/>
+    <summary>Provider announced retirement on 2026-07-19.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-11:deprecation_announced:qwen%2Fqwen3-coder%3Afree</id>
+    <title>Deprecation announced: qwen/qwen3-coder:free (sunset 2026-07-19)</title>
+    <updated>2026-07-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3-coder%3Afree"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:qwen"/>
+    <summary>Provider announced retirement on 2026-07-19.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-11:deprecation_announced:cognitivecomputations%2Fdolphin-mistral-24b-venice-edition%3Afree</id>
+    <title>Deprecation announced: cognitivecomputations/dolphin-mistral-24b-venice-edition:free (sunset 2026-07-19)</title>
+    <updated>2026-07-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/cognitivecomputations%2Fdolphin-mistral-24b-venice-edition%3Afree"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:cognitivecomputations"/>
+    <summary>Provider announced retirement on 2026-07-19.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-11:deprecation_announced:meta-llama%2Fllama-3.3-70b-instruct%3Afree</id>
+    <title>Deprecation announced: meta-llama/llama-3.3-70b-instruct:free (sunset 2026-07-19)</title>
+    <updated>2026-07-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meta-llama%2Fllama-3.3-70b-instruct%3Afree"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:meta-llama"/>
+    <summary>Provider announced retirement on 2026-07-19.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-11:deprecation_announced:meta-llama%2Fllama-3.2-11b-vision-instruct</id>
+    <title>Deprecation announced: meta-llama/llama-3.2-11b-vision-instruct (sunset 2026-07-17)</title>
+    <updated>2026-07-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meta-llama%2Fllama-3.2-11b-vision-instruct"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:meta-llama"/>
+    <summary>Provider announced retirement on 2026-07-17.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-11:deprecation_announced:meta-llama%2Fllama-3.2-3b-instruct%3Afree</id>
+    <title>Deprecation announced: meta-llama/llama-3.2-3b-instruct:free (sunset 2026-07-19)</title>
+    <updated>2026-07-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meta-llama%2Fllama-3.2-3b-instruct%3Afree"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:meta-llama"/>
+    <summary>Provider announced retirement on 2026-07-19.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-11:deprecation_announced:nousresearch%2Fhermes-3-llama-3.1-405b%3Afree</id>
+    <title>Deprecation announced: nousresearch/hermes-3-llama-3.1-405b:free (sunset 2026-07-19)</title>
+    <updated>2026-07-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nousresearch%2Fhermes-3-llama-3.1-405b%3Afree"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:nousresearch"/>
+    <summary>Provider announced retirement on 2026-07-19.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-11:model_removed:meta-llama%2Fllama-3-8b-instruct</id>
+    <title>Removed: meta-llama/llama-3-8b-instruct</title>
+    <updated>2026-07-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meta-llama%2Fllama-3-8b-instruct"/>
+    <category term="model_removed"/>
+    <category term="provider:meta-llama"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1400/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-07-10:price_changed:~moonshotai%2Fkimi-latest</id>
     <title>Price changed: ~moonshotai/kimi-latest</title>
@@ -823,86 +904,5 @@
     <category term="model_added"/>
     <category term="provider:google"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.2500/Mtok, context: 65536.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-30:price_changed:~anthropic%2Fclaude-sonnet-latest</id>
-    <title>Price changed: ~anthropic/claude-sonnet-latest</title>
-    <updated>2026-06-30T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/~anthropic%2Fclaude-sonnet-latest"/>
-    <category term="price_changed"/>
-    <category term="provider:~anthropic"/>
-    <summary>prompt: $3.0000/Mtok → $2.0000/Mtok (-33.33%); completion: $15.0000/Mtok → $10.0000/Mtok (-33.33%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-30:price_changed:qwen%2Fqwen3.6-27b</id>
-    <title>Price changed: qwen/qwen3.6-27b</title>
-    <updated>2026-06-30T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3.6-27b"/>
-    <category term="price_changed"/>
-    <category term="provider:qwen"/>
-    <summary>prompt: $0.2596/Mtok → $0.2850/Mtok (+9.78%); completion: $2.3850/Mtok → $2.4000/Mtok (+0.63%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-30:price_changed:deepseek%2Fdeepseek-v4-flash</id>
-    <title>Price changed: deepseek/deepseek-v4-flash</title>
-    <updated>2026-06-30T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-flash"/>
-    <category term="price_changed"/>
-    <category term="provider:deepseek"/>
-    <summary>prompt: $0.0900/Mtok → $0.0980/Mtok (+8.89%); completion: $0.1800/Mtok → $0.1960/Mtok (+8.89%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-29:price_changed:~moonshotai%2Fkimi-latest</id>
-    <title>Price changed: ~moonshotai/kimi-latest</title>
-    <updated>2026-06-29T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/~moonshotai%2Fkimi-latest"/>
-    <category term="price_changed"/>
-    <category term="provider:~moonshotai"/>
-    <summary>prompt: $0.6600/Mtok → $0.5500/Mtok (-16.67%); completion: $3.4100/Mtok → $3.2000/Mtok (-6.16%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-29:price_changed:moonshotai%2Fkimi-k2.6</id>
-    <title>Price changed: moonshotai/kimi-k2.6</title>
-    <updated>2026-06-29T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k2.6"/>
-    <category term="price_changed"/>
-    <category term="provider:moonshotai"/>
-    <summary>prompt: $0.6600/Mtok → $0.5500/Mtok (-16.67%); completion: $3.4100/Mtok → $3.2000/Mtok (-6.16%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-29:price_changed:stepfun%2Fstep-3.5-flash</id>
-    <title>Price changed: stepfun/step-3.5-flash</title>
-    <updated>2026-06-29T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/stepfun%2Fstep-3.5-flash"/>
-    <category term="price_changed"/>
-    <category term="provider:stepfun"/>
-    <summary>prompt: $0.0900/Mtok → $0.1000/Mtok (+11.11%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-29:model_removed:anthropic%2Fclaude-opus-4.6-fast</id>
-    <title>Removed: anthropic/claude-opus-4.6-fast</title>
-    <updated>2026-06-29T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-opus-4.6-fast"/>
-    <category term="model_removed"/>
-    <category term="provider:anthropic"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $30.0000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-29:price_changed:z-ai%2Fglm-5.2</id>
-    <title>Price changed: z-ai/glm-5.2</title>
-    <updated>2026-06-29T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
-    <category term="price_changed"/>
-    <category term="provider:z-ai"/>
-    <summary>prompt: $0.9500/Mtok → $0.9400/Mtok (-1.05%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-29:deprecation_announced:poolside%2Flaguna-xs.2%3Afree</id>
-    <title>Deprecation announced: poolside/laguna-xs.2:free (sunset 9999-01-01)</title>
-    <updated>2026-06-29T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/poolside%2Flaguna-xs.2%3Afree"/>
-    <category term="deprecation_announced"/>
-    <category term="provider:poolside"/>
-    <summary>Provider announced retirement on 9999-01-01.</summary>
   </entry>
 </feed>

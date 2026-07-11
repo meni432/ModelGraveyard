@@ -4,7 +4,43 @@
   <id>https://modelgraveyard.com/feeds/by-provider/meta-llama.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/meta-llama.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-07-06T00:00:00Z</updated>
+  <updated>2026-07-11T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-11:deprecation_announced:meta-llama%2Fllama-3.3-70b-instruct%3Afree</id>
+    <title>Deprecation announced: meta-llama/llama-3.3-70b-instruct:free (sunset 2026-07-19)</title>
+    <updated>2026-07-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meta-llama%2Fllama-3.3-70b-instruct%3Afree"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:meta-llama"/>
+    <summary>Provider announced retirement on 2026-07-19.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-11:deprecation_announced:meta-llama%2Fllama-3.2-11b-vision-instruct</id>
+    <title>Deprecation announced: meta-llama/llama-3.2-11b-vision-instruct (sunset 2026-07-17)</title>
+    <updated>2026-07-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meta-llama%2Fllama-3.2-11b-vision-instruct"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:meta-llama"/>
+    <summary>Provider announced retirement on 2026-07-17.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-11:deprecation_announced:meta-llama%2Fllama-3.2-3b-instruct%3Afree</id>
+    <title>Deprecation announced: meta-llama/llama-3.2-3b-instruct:free (sunset 2026-07-19)</title>
+    <updated>2026-07-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meta-llama%2Fllama-3.2-3b-instruct%3Afree"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:meta-llama"/>
+    <summary>Provider announced retirement on 2026-07-19.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-11:model_removed:meta-llama%2Fllama-3-8b-instruct</id>
+    <title>Removed: meta-llama/llama-3-8b-instruct</title>
+    <updated>2026-07-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meta-llama%2Fllama-3-8b-instruct"/>
+    <category term="model_removed"/>
+    <category term="provider:meta-llama"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1400/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-07-06:price_changed:meta-llama%2Fllama-3.2-3b-instruct</id>
     <title>Price changed: meta-llama/llama-3.2-3b-instruct</title>

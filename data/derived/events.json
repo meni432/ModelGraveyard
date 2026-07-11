@@ -13475,6 +13475,93 @@
         "first_seen": "2026-05-27",
         "last_seen": "2026-07-10"
       }
+    },
+    {
+      "ts": "2026-07-11",
+      "type": "deprecation_announced",
+      "id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
+      "provider": "nvidia",
+      "prev_expiration": null,
+      "next_expiration": "2026-07-17"
+    },
+    {
+      "ts": "2026-07-11",
+      "type": "deprecation_announced",
+      "id": "qwen/qwen3-next-80b-a3b-instruct:free",
+      "provider": "qwen",
+      "prev_expiration": null,
+      "next_expiration": "2026-07-19"
+    },
+    {
+      "ts": "2026-07-11",
+      "type": "deprecation_announced",
+      "id": "qwen/qwen3-coder:free",
+      "provider": "qwen",
+      "prev_expiration": null,
+      "next_expiration": "2026-07-19"
+    },
+    {
+      "ts": "2026-07-11",
+      "type": "deprecation_announced",
+      "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
+      "provider": "cognitivecomputations",
+      "prev_expiration": null,
+      "next_expiration": "2026-07-19"
+    },
+    {
+      "ts": "2026-07-11",
+      "type": "deprecation_announced",
+      "id": "meta-llama/llama-3.3-70b-instruct:free",
+      "provider": "meta-llama",
+      "prev_expiration": null,
+      "next_expiration": "2026-07-19"
+    },
+    {
+      "ts": "2026-07-11",
+      "type": "deprecation_announced",
+      "id": "meta-llama/llama-3.2-11b-vision-instruct",
+      "provider": "meta-llama",
+      "prev_expiration": null,
+      "next_expiration": "2026-07-17"
+    },
+    {
+      "ts": "2026-07-11",
+      "type": "deprecation_announced",
+      "id": "meta-llama/llama-3.2-3b-instruct:free",
+      "provider": "meta-llama",
+      "prev_expiration": null,
+      "next_expiration": "2026-07-19"
+    },
+    {
+      "ts": "2026-07-11",
+      "type": "deprecation_announced",
+      "id": "nousresearch/hermes-3-llama-3.1-405b:free",
+      "provider": "nousresearch",
+      "prev_expiration": null,
+      "next_expiration": "2026-07-19"
+    },
+    {
+      "ts": "2026-07-11",
+      "type": "model_removed",
+      "id": "meta-llama/llama-3-8b-instruct",
+      "provider": "meta-llama",
+      "snapshot": {
+        "id": "meta-llama/llama-3-8b-instruct",
+        "name": "Meta: Llama 3 8B Instruct",
+        "provider": "meta-llama",
+        "pricing": {
+          "prompt": "0.00000014",
+          "completion": "0.00000014",
+          "image": null,
+          "request": null
+        },
+        "context_length": 8192,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1713398400,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-07-10"
+      }
     }
   ]
 }

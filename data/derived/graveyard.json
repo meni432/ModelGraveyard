@@ -1,6 +1,23 @@
 {
   "buried": [
     {
+      "id": "meta-llama/llama-3-8b-instruct",
+      "name": "Meta: Llama 3 8B Instruct",
+      "provider": "meta-llama",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000014",
+        "completion": "0.00000014",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 8192,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-07-10",
+      "buried_at": "2026-07-11",
+      "suggested_replacement": "meta-llama/llama-3.3-70b-instruct:free"
+    },
+    {
       "id": "arcee-ai/trinity-mini",
       "name": "Arcee AI: Trinity Mini",
       "provider": "arcee-ai",

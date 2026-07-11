@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/nvidia.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/nvidia.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-07-04T00:00:00Z</updated>
+  <updated>2026-07-11T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-11:deprecation_announced:nvidia%2Fllama-3.3-nemotron-super-49b-v1.5</id>
+    <title>Deprecation announced: nvidia/llama-3.3-nemotron-super-49b-v1.5 (sunset 2026-07-17)</title>
+    <updated>2026-07-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nvidia%2Fllama-3.3-nemotron-super-49b-v1.5"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:nvidia"/>
+    <summary>Provider announced retirement on 2026-07-17.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-07-04:price_changed:nvidia%2Fnemotron-3-super-120b-a12b</id>
     <title>Price changed: nvidia/nemotron-3-super-120b-a12b</title>
