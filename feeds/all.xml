@@ -24,6 +24,15 @@
     <summary>prompt: $0.8000/Mtok → $0.2500/Mtok (-68.75%); completion: $1.0000/Mtok → $0.7500/Mtok (-25%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-07-12:price_changed:z-ai%2Fglm-5.2</id>
+    <title>Price changed: z-ai/glm-5.2</title>
+    <updated>2026-07-12T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>prompt: $0.5600/Mtok → $0.4200/Mtok (-25%); completion: $1.7600/Mtok → $1.3200/Mtok (-25%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-07-11:deprecation_announced:nvidia%2Fllama-3.3-nemotron-super-49b-v1.5</id>
     <title>Deprecation announced: nvidia/llama-3.3-nemotron-super-49b-v1.5 (sunset 2026-07-17)</title>
     <updated>2026-07-11T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:qwen"/>
     <summary>prompt: $0.0500/Mtok → $0.1170/Mtok (+134%); completion: $0.4000/Mtok → $0.4550/Mtok (+13.75%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-01:price_changed:~anthropic%2Fclaude-fable-latest</id>
-    <title>Price changed: ~anthropic/claude-fable-latest</title>
-    <updated>2026-07-01T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/~anthropic%2Fclaude-fable-latest"/>
-    <category term="price_changed"/>
-    <category term="provider:~anthropic"/>
-    <summary>prompt: $10.0000/Mtok → $-1000000.0000/Mtok (-10000100%); completion: $50.0000/Mtok → $-1000000.0000/Mtok (-2000100%)</summary>
   </entry>
 </feed>
