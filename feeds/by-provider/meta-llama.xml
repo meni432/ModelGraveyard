@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/meta-llama.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/meta-llama.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-07-11T00:00:00Z</updated>
+  <updated>2026-07-12T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-12:price_changed:meta-llama%2Fllama-4-maverick</id>
+    <title>Price changed: meta-llama/llama-4-maverick</title>
+    <updated>2026-07-12T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meta-llama%2Fllama-4-maverick"/>
+    <category term="price_changed"/>
+    <category term="provider:meta-llama"/>
+    <summary>prompt: $0.1500/Mtok → $0.2000/Mtok (+33.33%); completion: $0.6000/Mtok → $0.8000/Mtok (+33.33%)</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-07-11:deprecation_announced:meta-llama%2Fllama-3.3-70b-instruct%3Afree</id>
     <title>Deprecation announced: meta-llama/llama-3.3-70b-instruct:free (sunset 2026-07-19)</title>

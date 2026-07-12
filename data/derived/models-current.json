@@ -1944,8 +1944,8 @@
       "name": "Meta: Llama 4 Maverick",
       "provider": "meta-llama",
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
+        "prompt": "0.0000002",
+        "completion": "0.0000008",
         "image": null,
         "request": null
       },
@@ -4495,7 +4495,7 @@
       "provider": "qwen",
       "pricing": {
         "prompt": "0.00000009",
-        "completion": "0.0000001",
+        "completion": "0.00000055",
         "image": null,
         "request": null
       },
@@ -5719,12 +5719,12 @@
       "provider": "z-ai",
       "pricing": {
         "prompt": "0.00000043",
-        "completion": "0.00000174",
+        "completion": "0.00000175",
         "image": null,
         "request": null
       },
-      "context_length": 202752,
-      "max_completion_tokens": 131072,
+      "context_length": 200000,
+      "max_completion_tokens": 16384,
       "expiration_date": null,
       "created": 1759235576,
       "first_seen": "2026-05-27",
