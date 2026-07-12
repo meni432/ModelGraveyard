@@ -13664,6 +13664,46 @@
           "pct_change": 0.29
         }
       ]
+    },
+    {
+      "ts": "2026-07-12",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000035",
+          "next": "0.00000056",
+          "pct_change": 60
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000011",
+          "next": "0.00000176",
+          "pct_change": 60
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-12",
+      "type": "price_changed",
+      "id": "qwen/qwen2.5-vl-72b-instruct",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000008",
+          "next": "0.00000025",
+          "pct_change": -68.75
+        },
+        {
+          "field": "completion",
+          "prev": "0.000001",
+          "next": "0.00000075",
+          "pct_change": -25
+        }
+      ]
     }
   ]
 }
