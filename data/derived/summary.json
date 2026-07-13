@@ -2,8 +2,48 @@
   "generated_at": "2026-07-13",
   "active_count": 345,
   "dead_count": 52,
-  "last_event_ts": "2026-07-12",
+  "last_event_ts": "2026-07-13",
   "recent_events": [
+    {
+      "ts": "2026-07-13",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.7-code",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000072",
+          "next": "0.000000719",
+          "pct_change": -0.14
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000035",
+          "next": "0.00000349",
+          "pct_change": -0.29
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-13",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000042",
+          "next": "0.00000093",
+          "pct_change": 121.43
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000132",
+          "next": "0.000003",
+          "pct_change": 127.27
+        }
+      ]
+    },
     {
       "ts": "2026-07-12",
       "type": "price_changed",
@@ -274,22 +314,6 @@
       "type": "deprecation_announced",
       "id": "meta-llama/llama-3.3-70b-instruct:free",
       "provider": "meta-llama",
-      "prev_expiration": null,
-      "next_expiration": "2026-07-19"
-    },
-    {
-      "ts": "2026-07-11",
-      "type": "deprecation_announced",
-      "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
-      "provider": "cognitivecomputations",
-      "prev_expiration": null,
-      "next_expiration": "2026-07-19"
-    },
-    {
-      "ts": "2026-07-11",
-      "type": "deprecation_announced",
-      "id": "qwen/qwen3-coder:free",
-      "provider": "qwen",
       "prev_expiration": null,
       "next_expiration": "2026-07-19"
     }
