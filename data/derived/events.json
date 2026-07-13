@@ -13820,6 +13820,92 @@
           "pct_change": -0.29
         }
       ]
+    },
+    {
+      "ts": "2026-07-13",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000077",
+          "next": "0.00000009",
+          "pct_change": 16.88
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000154",
+          "next": "0.00000018",
+          "pct_change": 16.88
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-13",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-chat-v3.1",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000021",
+          "next": "0.00000025",
+          "pct_change": 19.05
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000079",
+          "next": "0.00000095",
+          "pct_change": 20.25
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-13",
+      "type": "model_removed",
+      "id": "liquid/lfm-2.5-1.2b-instruct:free",
+      "provider": "liquid",
+      "snapshot": {
+        "id": "liquid/lfm-2.5-1.2b-instruct:free",
+        "name": "LiquidAI: LFM2.5-1.2B-Instruct (free)",
+        "provider": "liquid",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 32768,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1768927521,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-07-13"
+      }
+    },
+    {
+      "ts": "2026-07-13",
+      "type": "model_removed",
+      "id": "liquid/lfm-2.5-1.2b-thinking:free",
+      "provider": "liquid",
+      "snapshot": {
+        "id": "liquid/lfm-2.5-1.2b-thinking:free",
+        "name": "LiquidAI: LFM2.5-1.2B-Thinking (free)",
+        "provider": "liquid",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 32768,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1768927527,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-07-13"
+      }
     }
   ]
 }

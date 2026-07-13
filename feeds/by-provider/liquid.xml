@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-provider/liquid.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/liquid.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-07-09T00:00:00Z</updated>
+  <updated>2026-07-13T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-13:model_removed:liquid%2Flfm-2.5-1.2b-instruct%3Afree</id>
+    <title>Removed: liquid/lfm-2.5-1.2b-instruct:free</title>
+    <updated>2026-07-13T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/liquid%2Flfm-2.5-1.2b-instruct%3Afree"/>
+    <category term="model_removed"/>
+    <category term="provider:liquid"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-13:model_removed:liquid%2Flfm-2.5-1.2b-thinking%3Afree</id>
+    <title>Removed: liquid/lfm-2.5-1.2b-thinking:free</title>
+    <updated>2026-07-13T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/liquid%2Flfm-2.5-1.2b-thinking%3Afree"/>
+    <category term="model_removed"/>
+    <category term="provider:liquid"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-07-09:model_removed:liquid%2Flfm-2-24b-a2b</id>
     <title>Removed: liquid/lfm-2-24b-a2b</title>

@@ -1,6 +1,40 @@
 {
   "buried": [
     {
+      "id": "liquid/lfm-2.5-1.2b-instruct:free",
+      "name": "LiquidAI: LFM2.5-1.2B-Instruct (free)",
+      "provider": "liquid",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 32768,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-07-13",
+      "buried_at": "2026-07-13",
+      "suggested_replacement": null
+    },
+    {
+      "id": "liquid/lfm-2.5-1.2b-thinking:free",
+      "name": "LiquidAI: LFM2.5-1.2B-Thinking (free)",
+      "provider": "liquid",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 32768,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-07-13",
+      "buried_at": "2026-07-13",
+      "suggested_replacement": null
+    },
+    {
       "id": "meta-llama/llama-3-8b-instruct",
       "name": "Meta: Llama 3 8B Instruct",
       "provider": "meta-llama",
