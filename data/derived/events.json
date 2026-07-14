@@ -13963,6 +13963,86 @@
         "first_seen": "2026-05-27",
         "last_seen": "2026-07-13"
       }
+    },
+    {
+      "ts": "2026-07-14",
+      "type": "model_added",
+      "id": "kwaipilot/kat-coder-air-v2.5",
+      "provider": "kwaipilot",
+      "snapshot": {
+        "id": "kwaipilot/kat-coder-air-v2.5",
+        "name": "Kwaipilot: KAT-Coder-Air V2.5",
+        "provider": "kwaipilot",
+        "pricing": {
+          "prompt": "0.00000015",
+          "completion": "0.0000006",
+          "image": null,
+          "request": null
+        },
+        "context_length": 256000,
+        "max_completion_tokens": 80000,
+        "expiration_date": null,
+        "created": 1783714590,
+        "first_seen": "2026-07-14",
+        "last_seen": "2026-07-14"
+      }
+    },
+    {
+      "ts": "2026-07-14",
+      "type": "model_added",
+      "id": "kwaipilot/kat-coder-pro-v2.5",
+      "provider": "kwaipilot",
+      "snapshot": {
+        "id": "kwaipilot/kat-coder-pro-v2.5",
+        "name": "Kwaipilot: KAT-Coder-Pro V2.5",
+        "provider": "kwaipilot",
+        "pricing": {
+          "prompt": "0.00000074",
+          "completion": "0.00000296",
+          "image": null,
+          "request": null
+        },
+        "context_length": 256000,
+        "max_completion_tokens": 80000,
+        "expiration_date": null,
+        "created": 1783714589,
+        "first_seen": "2026-07-14",
+        "last_seen": "2026-07-14"
+      }
+    },
+    {
+      "ts": "2026-07-14",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000093",
+          "next": "0.0000009282",
+          "pct_change": -0.19
+        },
+        {
+          "field": "completion",
+          "prev": "0.000003",
+          "next": "0.0000029172",
+          "pct_change": -2.76
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-14",
+      "type": "price_changed",
+      "id": "google/gemma-4-31b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000012",
+          "next": "0.00000006",
+          "pct_change": -50
+        }
+      ]
     }
   ]
 }

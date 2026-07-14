@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_added.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_added.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-07-10T00:00:00Z</updated>
+  <updated>2026-07-14T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-14:model_added:kwaipilot%2Fkat-coder-air-v2.5</id>
+    <title>Added: kwaipilot/kat-coder-air-v2.5</title>
+    <updated>2026-07-14T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/kwaipilot%2Fkat-coder-air-v2.5"/>
+    <category term="model_added"/>
+    <category term="provider:kwaipilot"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.1500/Mtok, context: 256000.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-14:model_added:kwaipilot%2Fkat-coder-pro-v2.5</id>
+    <title>Added: kwaipilot/kat-coder-pro-v2.5</title>
+    <updated>2026-07-14T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/kwaipilot%2Fkat-coder-pro-v2.5"/>
+    <category term="model_added"/>
+    <category term="provider:kwaipilot"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.7400/Mtok, context: 256000.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-07-10:model_added:cognitivecomputations%2Fdolphin-mistral-24b-venice-edition</id>
     <title>Added: cognitivecomputations/dolphin-mistral-24b-venice-edition</title>
@@ -886,23 +904,5 @@
     <category term="model_added"/>
     <category term="provider:google"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 1048576.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:kwaipilot%2Fkat-coder-pro-v2</id>
-    <title>Added: kwaipilot/kat-coder-pro-v2</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/kwaipilot%2Fkat-coder-pro-v2"/>
-    <category term="model_added"/>
-    <category term="provider:kwaipilot"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.3000/Mtok, context: 256000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:rekaai%2Freka-edge</id>
-    <title>Added: rekaai/reka-edge</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/rekaai%2Freka-edge"/>
-    <category term="model_added"/>
-    <category term="provider:rekaai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.1000/Mtok, context: 16384.</summary>
   </entry>
 </feed>

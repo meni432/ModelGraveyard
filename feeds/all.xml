@@ -33,6 +33,42 @@
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-07-14:model_added:kwaipilot%2Fkat-coder-air-v2.5</id>
+    <title>Added: kwaipilot/kat-coder-air-v2.5</title>
+    <updated>2026-07-14T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/kwaipilot%2Fkat-coder-air-v2.5"/>
+    <category term="model_added"/>
+    <category term="provider:kwaipilot"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.1500/Mtok, context: 256000.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-14:model_added:kwaipilot%2Fkat-coder-pro-v2.5</id>
+    <title>Added: kwaipilot/kat-coder-pro-v2.5</title>
+    <updated>2026-07-14T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/kwaipilot%2Fkat-coder-pro-v2.5"/>
+    <category term="model_added"/>
+    <category term="provider:kwaipilot"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.7400/Mtok, context: 256000.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-14:price_changed:z-ai%2Fglm-5.2</id>
+    <title>Price changed: z-ai/glm-5.2</title>
+    <updated>2026-07-14T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>prompt: $0.9300/Mtok → $0.9282/Mtok (-0.19%); completion: $3.0000/Mtok → $2.9172/Mtok (-2.76%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-14:price_changed:google%2Fgemma-4-31b-it</id>
+    <title>Price changed: google/gemma-4-31b-it</title>
+    <updated>2026-07-14T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemma-4-31b-it"/>
+    <category term="price_changed"/>
+    <category term="provider:google"/>
+    <summary>prompt: $0.1200/Mtok → $0.0600/Mtok (-50%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-07-13:price_changed:z-ai%2Fglm-5.2</id>
     <title>Price changed: z-ai/glm-5.2</title>
     <updated>2026-07-13T00:00:00Z</updated>
@@ -868,41 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:deepseek"/>
     <summary>prompt: $0.0890/Mtok → $0.0900/Mtok (+1.12%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-02:price_changed:~anthropic%2Fclaude-fable-latest</id>
-    <title>Price changed: ~anthropic/claude-fable-latest</title>
-    <updated>2026-07-02T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/~anthropic%2Fclaude-fable-latest"/>
-    <category term="price_changed"/>
-    <category term="provider:~anthropic"/>
-    <summary>prompt: $-1000000.0000/Mtok → $10.0000/Mtok (-100%); completion: $-1000000.0000/Mtok → $50.0000/Mtok (-100.01%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-02:model_added:anthropic%2Fclaude-fable-5</id>
-    <title>Added: anthropic/claude-fable-5</title>
-    <updated>2026-07-02T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-fable-5"/>
-    <category term="model_added"/>
-    <category term="provider:anthropic"/>
-    <summary>New model on OpenRouter. Initial prompt price: $10.0000/Mtok, context: 1000000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-02:deprecation_announced:poolside%2Flaguna-xs.2%3Afree</id>
-    <title>Deprecation announced: poolside/laguna-xs.2:free (sunset 2026-07-09)</title>
-    <updated>2026-07-02T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/poolside%2Flaguna-xs.2%3Afree"/>
-    <category term="deprecation_announced"/>
-    <category term="provider:poolside"/>
-    <summary>Provider announced retirement on 2026-07-09.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-02:deprecation_announced:poolside%2Flaguna-xs.2</id>
-    <title>Deprecation announced: poolside/laguna-xs.2 (sunset 2026-07-09)</title>
-    <updated>2026-07-02T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/poolside%2Flaguna-xs.2"/>
-    <category term="deprecation_announced"/>
-    <category term="provider:poolside"/>
-    <summary>Provider announced retirement on 2026-07-09.</summary>
   </entry>
 </feed>

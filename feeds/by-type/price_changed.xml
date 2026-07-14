@@ -24,6 +24,24 @@
     <summary>prompt: $0.0360/Mtok → $0.0300/Mtok (-16.67%); completion: $0.1800/Mtok → $0.1500/Mtok (-16.67%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-07-14:price_changed:z-ai%2Fglm-5.2</id>
+    <title>Price changed: z-ai/glm-5.2</title>
+    <updated>2026-07-14T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>prompt: $0.9300/Mtok → $0.9282/Mtok (-0.19%); completion: $3.0000/Mtok → $2.9172/Mtok (-2.76%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-14:price_changed:google%2Fgemma-4-31b-it</id>
+    <title>Price changed: google/gemma-4-31b-it</title>
+    <updated>2026-07-14T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemma-4-31b-it"/>
+    <category term="price_changed"/>
+    <category term="provider:google"/>
+    <summary>prompt: $0.1200/Mtok → $0.0600/Mtok (-50%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-07-13:price_changed:z-ai%2Fglm-5.2</id>
     <title>Price changed: z-ai/glm-5.2</title>
     <updated>2026-07-13T00:00:00Z</updated>
@@ -886,23 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:z-ai"/>
     <summary>prompt: $1.2000/Mtok → $1.0000/Mtok (-16.67%); completion: $4.1000/Mtok → $4.0000/Mtok (-2.44%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-20:price_changed:moonshotai%2Fkimi-k2.7-code</id>
-    <title>Price changed: moonshotai/kimi-k2.7-code</title>
-    <updated>2026-06-20T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k2.7-code"/>
-    <category term="price_changed"/>
-    <category term="provider:moonshotai"/>
-    <summary>prompt: $0.6800/Mtok → $0.6120/Mtok (-10%); completion: $3.4100/Mtok → $3.0690/Mtok (-10%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-20:price_changed:tencent%2Fhy3-preview</id>
-    <title>Price changed: tencent/hy3-preview</title>
-    <updated>2026-06-20T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/tencent%2Fhy3-preview"/>
-    <category term="price_changed"/>
-    <category term="provider:tencent"/>
-    <summary>prompt: $0.0660/Mtok → $0.0630/Mtok (-4.55%); completion: $0.2600/Mtok → $0.2100/Mtok (-19.23%)</summary>
   </entry>
 </feed>

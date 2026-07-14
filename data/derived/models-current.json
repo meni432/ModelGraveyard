@@ -1519,13 +1519,13 @@
       "name": "Google: Gemma 4 31B",
       "provider": "google",
       "pricing": {
-        "prompt": "0.00000012",
+        "prompt": "0.00000006",
         "completion": "0.00000035",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": 8192,
       "expiration_date": null,
       "created": 1775148486,
       "first_seen": "2026-05-27",
@@ -1736,6 +1736,23 @@
       "last_seen": "2026-07-14"
     },
     {
+      "id": "kwaipilot/kat-coder-air-v2.5",
+      "name": "Kwaipilot: KAT-Coder-Air V2.5",
+      "provider": "kwaipilot",
+      "pricing": {
+        "prompt": "0.00000015",
+        "completion": "0.0000006",
+        "image": null,
+        "request": null
+      },
+      "context_length": 256000,
+      "max_completion_tokens": 80000,
+      "expiration_date": null,
+      "created": 1783714590,
+      "first_seen": "2026-07-14",
+      "last_seen": "2026-07-14"
+    },
+    {
       "id": "kwaipilot/kat-coder-pro-v2",
       "name": "Kwaipilot: KAT-Coder-Pro V2",
       "provider": "kwaipilot",
@@ -1750,6 +1767,23 @@
       "expiration_date": null,
       "created": 1774649310,
       "first_seen": "2026-05-27",
+      "last_seen": "2026-07-14"
+    },
+    {
+      "id": "kwaipilot/kat-coder-pro-v2.5",
+      "name": "Kwaipilot: KAT-Coder-Pro V2.5",
+      "provider": "kwaipilot",
+      "pricing": {
+        "prompt": "0.00000074",
+        "completion": "0.00000296",
+        "image": null,
+        "request": null
+      },
+      "context_length": 256000,
+      "max_completion_tokens": 80000,
+      "expiration_date": null,
+      "created": 1783714589,
+      "first_seen": "2026-07-14",
       "last_seen": "2026-07-14"
     },
     {
@@ -5741,7 +5775,7 @@
         "request": null
       },
       "context_length": 202752,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 128000,
       "expiration_date": null,
       "created": 1770829182,
       "first_seen": "2026-05-27",
@@ -5786,13 +5820,13 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.00000093",
-        "completion": "0.000003",
+        "prompt": "0.0000009282",
+        "completion": "0.0000029172",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 32768,
+      "max_completion_tokens": 128000,
       "expiration_date": null,
       "created": 1781631930,
       "first_seen": "2026-06-16",

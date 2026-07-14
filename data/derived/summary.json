@@ -1,9 +1,89 @@
 {
   "generated_at": "2026-07-14",
-  "active_count": 342,
+  "active_count": 344,
   "dead_count": 55,
   "last_event_ts": "2026-07-14",
   "recent_events": [
+    {
+      "ts": "2026-07-14",
+      "type": "price_changed",
+      "id": "google/gemma-4-31b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000012",
+          "next": "0.00000006",
+          "pct_change": -50
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-14",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000093",
+          "next": "0.0000009282",
+          "pct_change": -0.19
+        },
+        {
+          "field": "completion",
+          "prev": "0.000003",
+          "next": "0.0000029172",
+          "pct_change": -2.76
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-14",
+      "type": "model_added",
+      "id": "kwaipilot/kat-coder-pro-v2.5",
+      "provider": "kwaipilot",
+      "snapshot": {
+        "id": "kwaipilot/kat-coder-pro-v2.5",
+        "name": "Kwaipilot: KAT-Coder-Pro V2.5",
+        "provider": "kwaipilot",
+        "pricing": {
+          "prompt": "0.00000074",
+          "completion": "0.00000296",
+          "image": null,
+          "request": null
+        },
+        "context_length": 256000,
+        "max_completion_tokens": 80000,
+        "expiration_date": null,
+        "created": 1783714589,
+        "first_seen": "2026-07-14",
+        "last_seen": "2026-07-14"
+      }
+    },
+    {
+      "ts": "2026-07-14",
+      "type": "model_added",
+      "id": "kwaipilot/kat-coder-air-v2.5",
+      "provider": "kwaipilot",
+      "snapshot": {
+        "id": "kwaipilot/kat-coder-air-v2.5",
+        "name": "Kwaipilot: KAT-Coder-Air V2.5",
+        "provider": "kwaipilot",
+        "pricing": {
+          "prompt": "0.00000015",
+          "completion": "0.0000006",
+          "image": null,
+          "request": null
+        },
+        "context_length": 256000,
+        "max_completion_tokens": 80000,
+        "expiration_date": null,
+        "created": 1783714590,
+        "first_seen": "2026-07-14",
+        "last_seen": "2026-07-14"
+      }
+    },
     {
       "ts": "2026-07-14",
       "type": "model_removed",
@@ -300,74 +380,6 @@
           "prev": "0.0000011",
           "next": "0.00000176",
           "pct_change": 60
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-11",
-      "type": "price_changed",
-      "id": "moonshotai/kimi-k2.7-code",
-      "provider": "moonshotai",
-      "changes": [
-        {
-          "field": "completion",
-          "prev": "0.00000349",
-          "next": "0.0000035",
-          "pct_change": 0.29
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-11",
-      "type": "price_changed",
-      "id": "moonshotai/kimi-k2.7-code",
-      "provider": "moonshotai",
-      "changes": [
-        {
-          "field": "completion",
-          "prev": "0.0000035",
-          "next": "0.00000349",
-          "pct_change": -0.29
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-11",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.2",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000406",
-          "next": "0.00000035",
-          "pct_change": -13.79
-        },
-        {
-          "field": "completion",
-          "prev": "0.000001276",
-          "next": "0.0000011",
-          "pct_change": -13.79
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-11",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-flash",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000084",
-          "next": "0.000000077",
-          "pct_change": -8.33
-        },
-        {
-          "field": "completion",
-          "prev": "0.000000168",
-          "next": "0.000000154",
-          "pct_change": -8.33
         }
       ]
     }
