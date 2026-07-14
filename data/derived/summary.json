@@ -6,6 +6,26 @@
   "recent_events": [
     {
       "ts": "2026-07-14",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000924",
+          "next": "0.00000091",
+          "pct_change": -1.52
+        },
+        {
+          "field": "completion",
+          "prev": "0.000002904",
+          "next": "0.00000286",
+          "pct_change": -1.52
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-14",
       "type": "model_removed",
       "id": "sao10k/l3.1-70b-hanami-x1",
       "provider": "sao10k",
@@ -363,26 +383,6 @@
           "prev": "0.00000174",
           "next": "0.00000175",
           "pct_change": 0.57
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-12",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.2",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000056",
-          "next": "0.00000042",
-          "pct_change": -25
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000176",
-          "next": "0.00000132",
-          "pct_change": -25
         }
       ]
     }
