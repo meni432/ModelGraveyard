@@ -1,9 +1,52 @@
 {
   "generated_at": "2026-07-14",
-  "active_count": 344,
-  "dead_count": 55,
+  "active_count": 343,
+  "dead_count": 56,
   "last_event_ts": "2026-07-14",
   "recent_events": [
+    {
+      "ts": "2026-07-14",
+      "type": "model_removed",
+      "id": "sao10k/l3.1-70b-hanami-x1",
+      "provider": "sao10k",
+      "snapshot": {
+        "id": "sao10k/l3.1-70b-hanami-x1",
+        "name": "Sao10K: Llama 3.1 70B Hanami x1",
+        "provider": "sao10k",
+        "pricing": {
+          "prompt": "0.000003",
+          "completion": "0.000003",
+          "image": null,
+          "request": null
+        },
+        "context_length": 16000,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1736302854,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-07-14"
+      }
+    },
+    {
+      "ts": "2026-07-14",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000009282",
+          "next": "0.000000924",
+          "pct_change": -0.45
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000029172",
+          "next": "0.000002904",
+          "pct_change": -0.45
+        }
+      ]
+    },
     {
       "ts": "2026-07-14",
       "type": "price_changed",
@@ -340,46 +383,6 @@
           "prev": "0.00000176",
           "next": "0.00000132",
           "pct_change": -25
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-12",
-      "type": "price_changed",
-      "id": "qwen/qwen2.5-vl-72b-instruct",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000008",
-          "next": "0.00000025",
-          "pct_change": -68.75
-        },
-        {
-          "field": "completion",
-          "prev": "0.000001",
-          "next": "0.00000075",
-          "pct_change": -25
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-12",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.2",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000035",
-          "next": "0.00000056",
-          "pct_change": 60
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000011",
-          "next": "0.00000176",
-          "pct_change": 60
         }
       ]
     }

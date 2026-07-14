@@ -5255,23 +5255,6 @@
       "last_seen": "2026-07-14"
     },
     {
-      "id": "sao10k/l3.1-70b-hanami-x1",
-      "name": "Sao10K: Llama 3.1 70B Hanami x1",
-      "provider": "sao10k",
-      "pricing": {
-        "prompt": "0.000003",
-        "completion": "0.000003",
-        "image": null,
-        "request": null
-      },
-      "context_length": 16000,
-      "max_completion_tokens": null,
-      "expiration_date": null,
-      "created": 1736302854,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-07-14"
-    },
-    {
       "id": "sao10k/l3.1-euryale-70b",
       "name": "Sao10K: Llama 3.1 Euryale 70B v2.2",
       "provider": "sao10k",
@@ -5820,8 +5803,8 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.0000009282",
-        "completion": "0.0000029172",
+        "prompt": "0.000000924",
+        "completion": "0.000002904",
         "image": null,
         "request": null
       },

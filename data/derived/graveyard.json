@@ -18,6 +18,23 @@
       "suggested_replacement": "openai/gpt-oss-safeguard-20b"
     },
     {
+      "id": "sao10k/l3.1-70b-hanami-x1",
+      "name": "Sao10K: Llama 3.1 70B Hanami x1",
+      "provider": "sao10k",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.000003",
+        "completion": "0.000003",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 16000,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-07-14",
+      "buried_at": "2026-07-14",
+      "suggested_replacement": "sao10k/l3-lunaris-8b"
+    },
+    {
       "id": "liquid/lfm-2.5-1.2b-instruct:free",
       "name": "LiquidAI: LFM2.5-1.2B-Instruct (free)",
       "provider": "liquid",
