@@ -13906,6 +13906,63 @@
         "first_seen": "2026-05-27",
         "last_seen": "2026-07-13"
       }
+    },
+    {
+      "ts": "2026-07-14",
+      "type": "price_changed",
+      "id": "qwen/qwen3.6-27b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000285",
+          "next": "0.000000289",
+          "pct_change": 1.4
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-14",
+      "type": "price_changed",
+      "id": "openai/gpt-oss-120b",
+      "provider": "openai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000036",
+          "next": "0.00000003",
+          "pct_change": -16.67
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000018",
+          "next": "0.00000015",
+          "pct_change": -16.67
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-14",
+      "type": "model_removed",
+      "id": "openai/gpt-oss-120b:free",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-oss-120b:free",
+        "name": "OpenAI: gpt-oss-120b (free)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": 131072,
+        "expiration_date": null,
+        "created": 1754414231,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-07-13"
+      }
     }
   ]
 }

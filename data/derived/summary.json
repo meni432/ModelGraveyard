@@ -1,9 +1,66 @@
 {
-  "generated_at": "2026-07-13",
-  "active_count": 343,
-  "dead_count": 54,
-  "last_event_ts": "2026-07-13",
+  "generated_at": "2026-07-14",
+  "active_count": 342,
+  "dead_count": 55,
+  "last_event_ts": "2026-07-14",
   "recent_events": [
+    {
+      "ts": "2026-07-14",
+      "type": "model_removed",
+      "id": "openai/gpt-oss-120b:free",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-oss-120b:free",
+        "name": "OpenAI: gpt-oss-120b (free)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": 131072,
+        "expiration_date": null,
+        "created": 1754414231,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-07-13"
+      }
+    },
+    {
+      "ts": "2026-07-14",
+      "type": "price_changed",
+      "id": "openai/gpt-oss-120b",
+      "provider": "openai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000036",
+          "next": "0.00000003",
+          "pct_change": -16.67
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000018",
+          "next": "0.00000015",
+          "pct_change": -16.67
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-14",
+      "type": "price_changed",
+      "id": "qwen/qwen3.6-27b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000285",
+          "next": "0.000000289",
+          "pct_change": 1.4
+        }
+      ]
+    },
     {
       "ts": "2026-07-13",
       "type": "model_removed",
@@ -313,63 +370,6 @@
           "pct_change": -8.33
         }
       ]
-    },
-    {
-      "ts": "2026-07-11",
-      "type": "price_changed",
-      "id": "moonshotai/kimi-k2.7-code",
-      "provider": "moonshotai",
-      "changes": [
-        {
-          "field": "completion",
-          "prev": "0.00000349",
-          "next": "0.0000035",
-          "pct_change": 0.29
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-11",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.2",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000042",
-          "next": "0.000000406",
-          "pct_change": -3.33
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000132",
-          "next": "0.000001276",
-          "pct_change": -3.33
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-11",
-      "type": "model_removed",
-      "id": "meta-llama/llama-3-8b-instruct",
-      "provider": "meta-llama",
-      "snapshot": {
-        "id": "meta-llama/llama-3-8b-instruct",
-        "name": "Meta: Llama 3 8B Instruct",
-        "provider": "meta-llama",
-        "pricing": {
-          "prompt": "0.00000014",
-          "completion": "0.00000014",
-          "image": null,
-          "request": null
-        },
-        "context_length": 8192,
-        "max_completion_tokens": null,
-        "expiration_date": null,
-        "created": 1713398400,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-07-10"
-      }
     }
   ],
   "scheduled_funerals": [

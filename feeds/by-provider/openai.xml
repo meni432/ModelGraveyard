@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-provider/openai.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/openai.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-07-09T00:00:00Z</updated>
+  <updated>2026-07-14T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-14:price_changed:openai%2Fgpt-oss-120b</id>
+    <title>Price changed: openai/gpt-oss-120b</title>
+    <updated>2026-07-14T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-oss-120b"/>
+    <category term="price_changed"/>
+    <category term="provider:openai"/>
+    <summary>prompt: $0.0360/Mtok → $0.0300/Mtok (-16.67%); completion: $0.1800/Mtok → $0.1500/Mtok (-16.67%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-14:model_removed:openai%2Fgpt-oss-120b%3Afree</id>
+    <title>Removed: openai/gpt-oss-120b:free</title>
+    <updated>2026-07-14T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-oss-120b%3Afree"/>
+    <category term="model_removed"/>
+    <category term="provider:openai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-07-09:model_added:openai%2Fgpt-5.6-luna-pro</id>
     <title>Added: openai/gpt-5.6-luna-pro</title>
