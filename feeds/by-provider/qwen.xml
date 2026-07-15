@@ -4,7 +4,106 @@
   <id>https://modelgraveyard.com/feeds/by-provider/qwen.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/qwen.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-07-14T00:00:00Z</updated>
+  <updated>2026-07-15T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-15:price_changed:qwen%2Fqwen3.6-27b</id>
+    <title>Price changed: qwen/qwen3.6-27b</title>
+    <updated>2026-07-15T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3.6-27b"/>
+    <category term="price_changed"/>
+    <category term="provider:qwen"/>
+    <summary>prompt: $0.2890/Mtok → $0.4500/Mtok (+55.71%); completion: $2.4000/Mtok → $2.7000/Mtok (+12.5%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-15:price_changed:qwen%2Fqwen3.5-397b-a17b</id>
+    <title>Price changed: qwen/qwen3.5-397b-a17b</title>
+    <updated>2026-07-15T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3.5-397b-a17b"/>
+    <category term="price_changed"/>
+    <category term="provider:qwen"/>
+    <summary>prompt: $0.3850/Mtok → $0.4500/Mtok (+16.88%); completion: $2.4500/Mtok → $3.0000/Mtok (+22.45%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-15:context_changed:qwen%2Fqwen3.5-397b-a17b</id>
+    <title>Context window changed: qwen/qwen3.5-397b-a17b</title>
+    <updated>2026-07-15T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3.5-397b-a17b"/>
+    <category term="context_changed"/>
+    <category term="provider:qwen"/>
+    <summary>256000 → 262144 tokens</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-15:price_changed:qwen%2Fqwen3-coder-next</id>
+    <title>Price changed: qwen/qwen3-coder-next</title>
+    <updated>2026-07-15T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3-coder-next"/>
+    <category term="price_changed"/>
+    <category term="provider:qwen"/>
+    <summary>prompt: $0.1100/Mtok → $0.1200/Mtok (+9.09%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-15:price_changed:qwen%2Fqwen3-vl-235b-a22b-instruct</id>
+    <title>Price changed: qwen/qwen3-vl-235b-a22b-instruct</title>
+    <updated>2026-07-15T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3-vl-235b-a22b-instruct"/>
+    <category term="price_changed"/>
+    <category term="provider:qwen"/>
+    <summary>prompt: $0.2000/Mtok → $0.2100/Mtok (+5%); completion: $0.8800/Mtok → $1.9000/Mtok (+115.91%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-15:context_changed:qwen%2Fqwen3-vl-235b-a22b-instruct</id>
+    <title>Context window changed: qwen/qwen3-vl-235b-a22b-instruct</title>
+    <updated>2026-07-15T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3-vl-235b-a22b-instruct"/>
+    <category term="context_changed"/>
+    <category term="provider:qwen"/>
+    <summary>262144 → 131072 tokens</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-15:price_changed:qwen%2Fqwen3-next-80b-a3b-instruct</id>
+    <title>Price changed: qwen/qwen3-next-80b-a3b-instruct</title>
+    <updated>2026-07-15T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3-next-80b-a3b-instruct"/>
+    <category term="price_changed"/>
+    <category term="provider:qwen"/>
+    <summary>prompt: $0.0900/Mtok → $0.1000/Mtok (+11.11%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-15:price_changed:qwen%2Fqwen3-30b-a3b-instruct-2507</id>
+    <title>Price changed: qwen/qwen3-30b-a3b-instruct-2507</title>
+    <updated>2026-07-15T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3-30b-a3b-instruct-2507"/>
+    <category term="price_changed"/>
+    <category term="provider:qwen"/>
+    <summary>prompt: $0.0481/Mtok → $0.1000/Mtok (+107.68%); completion: $0.1930/Mtok → $0.3000/Mtok (+55.4%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-15:context_changed:qwen%2Fqwen3-30b-a3b-instruct-2507</id>
+    <title>Context window changed: qwen/qwen3-30b-a3b-instruct-2507</title>
+    <updated>2026-07-15T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3-30b-a3b-instruct-2507"/>
+    <category term="context_changed"/>
+    <category term="provider:qwen"/>
+    <summary>131072 → 262144 tokens</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-15:price_changed:qwen%2Fqwen3-coder</id>
+    <title>Price changed: qwen/qwen3-coder</title>
+    <updated>2026-07-15T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3-coder"/>
+    <category term="price_changed"/>
+    <category term="provider:qwen"/>
+    <summary>prompt: $0.2200/Mtok → $0.3000/Mtok (+36.36%); completion: $1.8000/Mtok → $1.0000/Mtok (-44.44%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-15:price_changed:qwen%2Fqwen2.5-vl-72b-instruct</id>
+    <title>Price changed: qwen/qwen2.5-vl-72b-instruct</title>
+    <updated>2026-07-15T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen2.5-vl-72b-instruct"/>
+    <category term="price_changed"/>
+    <category term="provider:qwen"/>
+    <summary>prompt: $0.2500/Mtok → $0.8000/Mtok (+220%); completion: $0.7500/Mtok → $1.0000/Mtok (+33.33%)</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-07-14:price_changed:qwen%2Fqwen3.6-27b</id>
     <title>Price changed: qwen/qwen3.6-27b</title>
