@@ -420,6 +420,33 @@
     <summary>completion: $0.0300/Mtok → $0.0400/Mtok (+33.33%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-07-15:price_changed:z-ai%2Fglm-5.2</id>
+    <title>Price changed: z-ai/glm-5.2</title>
+    <updated>2026-07-15T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>prompt: $0.8918/Mtok → $0.8680/Mtok (-2.67%); completion: $2.8028/Mtok → $2.7280/Mtok (-2.67%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-15:price_changed:google%2Fgemma-4-31b-it</id>
+    <title>Price changed: google/gemma-4-31b-it</title>
+    <updated>2026-07-15T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemma-4-31b-it"/>
+    <category term="price_changed"/>
+    <category term="provider:google"/>
+    <summary>prompt: $0.1200/Mtok → $0.2200/Mtok (+83.33%); completion: $0.3700/Mtok → $0.5500/Mtok (+48.65%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-15:price_changed:meta-llama%2Fllama-3.2-3b-instruct</id>
+    <title>Price changed: meta-llama/llama-3.2-3b-instruct</title>
+    <updated>2026-07-15T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meta-llama%2Fllama-3.2-3b-instruct"/>
+    <category term="price_changed"/>
+    <category term="provider:meta-llama"/>
+    <summary>prompt: $0.0509/Mtok → $0.0500/Mtok (-1.77%); completion: $0.3350/Mtok → $0.3300/Mtok (-1.49%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-07-14:price_changed:qwen%2Fqwen3.6-27b</id>
     <title>Price changed: qwen/qwen3.6-27b</title>
     <updated>2026-07-14T00:00:00Z</updated>
@@ -877,32 +904,5 @@
     <category term="model_removed"/>
     <category term="provider:liquid"/>
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0300/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-09:price_changed:z-ai%2Fglm-5.2</id>
-    <title>Price changed: z-ai/glm-5.2</title>
-    <updated>2026-07-09T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
-    <category term="price_changed"/>
-    <category term="provider:z-ai"/>
-    <summary>prompt: $0.9300/Mtok → $0.6300/Mtok (-32.26%); completion: $3.0000/Mtok → $1.9800/Mtok (-34%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-09:model_removed:google%2Fgemini-2.5-flash-lite-preview-09-2025</id>
-    <title>Removed: google/gemini-2.5-flash-lite-preview-09-2025</title>
-    <updated>2026-07-09T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-2.5-flash-lite-preview-09-2025"/>
-    <category term="model_removed"/>
-    <category term="provider:google"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-09:model_removed:poolside%2Flaguna-xs.2</id>
-    <title>Removed: poolside/laguna-xs.2</title>
-    <updated>2026-07-09T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/poolside%2Flaguna-xs.2"/>
-    <category term="model_removed"/>
-    <category term="provider:poolside"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1000/Mtok.</summary>
   </entry>
 </feed>

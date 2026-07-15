@@ -14834,6 +14834,66 @@
           "pct_change": 33.33
         }
       ]
+    },
+    {
+      "ts": "2026-07-15",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000008918",
+          "next": "0.000000868",
+          "pct_change": -2.67
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000028028",
+          "next": "0.000002728",
+          "pct_change": -2.67
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-15",
+      "type": "price_changed",
+      "id": "google/gemma-4-31b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000012",
+          "next": "0.00000022",
+          "pct_change": 83.33
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000037",
+          "next": "0.00000055",
+          "pct_change": 48.65
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-15",
+      "type": "price_changed",
+      "id": "meta-llama/llama-3.2-3b-instruct",
+      "provider": "meta-llama",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000509",
+          "next": "0.00000005",
+          "pct_change": -1.77
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000335",
+          "next": "0.00000033",
+          "pct_change": -1.49
+        }
+      ]
     }
   ]
 }
