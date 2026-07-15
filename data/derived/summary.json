@@ -1,9 +1,43 @@
 {
-  "generated_at": "2026-07-14",
+  "generated_at": "2026-07-15",
   "active_count": 343,
   "dead_count": 56,
-  "last_event_ts": "2026-07-14",
+  "last_event_ts": "2026-07-15",
   "recent_events": [
+    {
+      "ts": "2026-07-15",
+      "type": "price_changed",
+      "id": "google/gemma-4-31b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000006",
+          "next": "0.00000012",
+          "pct_change": 100
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-15",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000091",
+          "next": "0.0000009058",
+          "pct_change": -0.46
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000286",
+          "next": "0.0000028468",
+          "pct_change": -0.46
+        }
+      ]
+    },
     {
       "ts": "2026-07-14",
       "type": "price_changed",
@@ -361,28 +395,6 @@
           "prev": "0.0000001",
           "next": "0.00000055",
           "pct_change": 450
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-12",
-      "type": "context_changed",
-      "id": "z-ai/glm-4.6",
-      "provider": "z-ai",
-      "prev_context": 202752,
-      "next_context": 200000
-    },
-    {
-      "ts": "2026-07-12",
-      "type": "price_changed",
-      "id": "z-ai/glm-4.6",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "completion",
-          "prev": "0.00000174",
-          "next": "0.00000175",
-          "pct_change": 0.57
         }
       ]
     }
