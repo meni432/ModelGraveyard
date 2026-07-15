@@ -631,23 +631,6 @@
       "last_seen": "2026-07-15"
     },
     {
-      "id": "arcee-ai/coder-large",
-      "name": "Arcee AI: Coder Large",
-      "provider": "arcee-ai",
-      "pricing": {
-        "prompt": "0.0000005",
-        "completion": "0.0000008",
-        "image": null,
-        "request": null
-      },
-      "context_length": 32768,
-      "max_completion_tokens": null,
-      "expiration_date": null,
-      "created": 1746478663,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-07-15"
-    },
-    {
       "id": "arcee-ai/trinity-large-thinking",
       "name": "Arcee AI: Trinity Large Thinking",
       "provider": "arcee-ai",
@@ -5123,8 +5106,8 @@
       "name": "Qwen: Qwen3.7 Max",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000125",
-        "completion": "0.00000375",
+        "prompt": "0.000001475",
+        "completion": "0.000004425",
         "image": null,
         "request": null
       },
@@ -5803,8 +5786,8 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.000000868",
-        "completion": "0.000002728",
+        "prompt": "0.0000008498",
+        "completion": "0.0000026708",
         "image": null,
         "request": null
       },

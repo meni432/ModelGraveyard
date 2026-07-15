@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_removed.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_removed.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-07-14T00:00:00Z</updated>
+  <updated>2026-07-15T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-15:model_removed:arcee-ai%2Fcoder-large</id>
+    <title>Removed: arcee-ai/coder-large</title>
+    <updated>2026-07-15T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/arcee-ai%2Fcoder-large"/>
+    <category term="model_removed"/>
+    <category term="provider:arcee-ai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.5000/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-07-14:model_removed:openai%2Fgpt-oss-120b%3Afree</id>
     <title>Removed: openai/gpt-oss-120b:free</title>

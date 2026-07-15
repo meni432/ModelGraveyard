@@ -1,6 +1,23 @@
 {
   "buried": [
     {
+      "id": "arcee-ai/coder-large",
+      "name": "Arcee AI: Coder Large",
+      "provider": "arcee-ai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000005",
+        "completion": "0.0000008",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 32768,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-07-15",
+      "buried_at": "2026-07-15",
+      "suggested_replacement": "arcee-ai/virtuoso-large"
+    },
+    {
       "id": "openai/gpt-oss-120b:free",
       "name": "OpenAI: gpt-oss-120b (free)",
       "provider": "openai",

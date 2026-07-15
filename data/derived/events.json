@@ -14894,6 +14894,69 @@
           "pct_change": -1.49
         }
       ]
+    },
+    {
+      "ts": "2026-07-15",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000868",
+          "next": "0.0000008498",
+          "pct_change": -2.1
+        },
+        {
+          "field": "completion",
+          "prev": "0.000002728",
+          "next": "0.0000026708",
+          "pct_change": -2.1
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-15",
+      "type": "price_changed",
+      "id": "qwen/qwen3.7-max",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000125",
+          "next": "0.000001475",
+          "pct_change": 18
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000375",
+          "next": "0.000004425",
+          "pct_change": 18
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-15",
+      "type": "model_removed",
+      "id": "arcee-ai/coder-large",
+      "provider": "arcee-ai",
+      "snapshot": {
+        "id": "arcee-ai/coder-large",
+        "name": "Arcee AI: Coder Large",
+        "provider": "arcee-ai",
+        "pricing": {
+          "prompt": "0.0000005",
+          "completion": "0.0000008",
+          "image": null,
+          "request": null
+        },
+        "context_length": 32768,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1746478663,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-07-15"
+      }
     }
   ]
 }
