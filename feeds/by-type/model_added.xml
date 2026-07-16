@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_added.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_added.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-07-14T00:00:00Z</updated>
+  <updated>2026-07-16T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-16:model_added:moonshotai%2Fkimi-k3</id>
+    <title>Added: moonshotai/kimi-k3</title>
+    <updated>2026-07-16T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k3"/>
+    <category term="model_added"/>
+    <category term="provider:moonshotai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $3.0000/Mtok, context: 1048576.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-16:model_added:meta%2Fmuse-spark-1.1</id>
+    <title>Added: meta/muse-spark-1.1</title>
+    <updated>2026-07-16T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meta%2Fmuse-spark-1.1"/>
+    <category term="model_added"/>
+    <category term="provider:meta"/>
+    <summary>New model on OpenRouter. Initial prompt price: $1.2500/Mtok, context: 1048576.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-07-14:model_added:kwaipilot%2Fkat-coder-air-v2.5</id>
     <title>Added: kwaipilot/kat-coder-air-v2.5</title>
@@ -886,23 +904,5 @@
     <category term="model_added"/>
     <category term="provider:x-ai"/>
     <summary>New model on OpenRouter. Initial prompt price: $1.2500/Mtok, context: 2000000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:google%2Flyria-3-pro-preview</id>
-    <title>Added: google/lyria-3-pro-preview</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Flyria-3-pro-preview"/>
-    <category term="model_added"/>
-    <category term="provider:google"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 1048576.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:google%2Flyria-3-clip-preview</id>
-    <title>Added: google/lyria-3-clip-preview</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Flyria-3-clip-preview"/>
-    <category term="model_added"/>
-    <category term="provider:google"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 1048576.</summary>
   </entry>
 </feed>

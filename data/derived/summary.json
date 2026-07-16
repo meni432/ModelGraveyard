@@ -1,9 +1,215 @@
 {
   "generated_at": "2026-07-16",
-  "active_count": 342,
+  "active_count": 344,
   "dead_count": 57,
   "last_event_ts": "2026-07-16",
   "recent_events": [
+    {
+      "ts": "2026-07-16",
+      "type": "price_changed",
+      "id": "mistralai/mistral-nemo",
+      "provider": "mistralai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000002",
+          "next": "0.000000019",
+          "pct_change": -5
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000004",
+          "next": "0.00000003",
+          "pct_change": -25
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-16",
+      "type": "price_changed",
+      "id": "meta-llama/llama-3.2-3b-instruct",
+      "provider": "meta-llama",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000005",
+          "next": "0.0000000509",
+          "pct_change": 1.8
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000033",
+          "next": "0.000000335",
+          "pct_change": 1.52
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-16",
+      "type": "price_changed",
+      "id": "qwen/qwen3-14b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000001",
+          "next": "0.00000012",
+          "pct_change": 20
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-16",
+      "type": "context_changed",
+      "id": "z-ai/glm-4.7-flash",
+      "provider": "z-ai",
+      "prev_context": 202752,
+      "next_context": 200000
+    },
+    {
+      "ts": "2026-07-16",
+      "type": "price_changed",
+      "id": "z-ai/glm-4.7-flash",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000006",
+          "next": "0.0000000605",
+          "pct_change": 0.83
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-16",
+      "type": "context_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "prev_context": 262144,
+      "next_context": 1048576
+    },
+    {
+      "ts": "2026-07-16",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000066",
+          "next": "0.000003",
+          "pct_change": 354.55
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000341",
+          "next": "0.000015",
+          "pct_change": 339.88
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-16",
+      "type": "deprecation_announced",
+      "id": "poolside/laguna-m.1:free",
+      "provider": "poolside",
+      "prev_expiration": null,
+      "next_expiration": "2026-07-28"
+    },
+    {
+      "ts": "2026-07-16",
+      "type": "deprecation_announced",
+      "id": "poolside/laguna-m.1",
+      "provider": "poolside",
+      "prev_expiration": null,
+      "next_expiration": "2026-07-28"
+    },
+    {
+      "ts": "2026-07-16",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.7-code",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000719",
+          "next": "0.00000075",
+          "pct_change": 4.31
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000349",
+          "next": "0.0000035",
+          "pct_change": 0.29
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-16",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000009436",
+          "next": "0.0000009156",
+          "pct_change": -2.97
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000029656",
+          "next": "0.0000028776",
+          "pct_change": -2.97
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-16",
+      "type": "model_added",
+      "id": "meta/muse-spark-1.1",
+      "provider": "meta",
+      "snapshot": {
+        "id": "meta/muse-spark-1.1",
+        "name": "Meta: Muse Spark 1.1",
+        "provider": "meta",
+        "pricing": {
+          "prompt": "0.00000125",
+          "completion": "0.00000425",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1784215741,
+        "first_seen": "2026-07-16",
+        "last_seen": "2026-07-16"
+      }
+    },
+    {
+      "ts": "2026-07-16",
+      "type": "model_added",
+      "id": "moonshotai/kimi-k3",
+      "provider": "moonshotai",
+      "snapshot": {
+        "id": "moonshotai/kimi-k3",
+        "name": "MoonshotAI: Kimi K3",
+        "provider": "moonshotai",
+        "pricing": {
+          "prompt": "0.000003",
+          "completion": "0.000015",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1784215858,
+        "first_seen": "2026-07-16",
+        "last_seen": "2026-07-16"
+      }
+    },
     {
       "ts": "2026-07-16",
       "type": "price_changed",
@@ -113,257 +319,6 @@
           "pct_change": -0.83
         }
       ]
-    },
-    {
-      "ts": "2026-07-16",
-      "type": "price_changed",
-      "id": "qwen/qwen3-coder-next",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000012",
-          "next": "0.00000011",
-          "pct_change": -8.33
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-16",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.2",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000008498",
-          "next": "0.0000009618",
-          "pct_change": 13.18
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000026708",
-          "next": "0.0000030228",
-          "pct_change": 13.18
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-15",
-      "type": "model_removed",
-      "id": "arcee-ai/coder-large",
-      "provider": "arcee-ai",
-      "snapshot": {
-        "id": "arcee-ai/coder-large",
-        "name": "Arcee AI: Coder Large",
-        "provider": "arcee-ai",
-        "pricing": {
-          "prompt": "0.0000005",
-          "completion": "0.0000008",
-          "image": null,
-          "request": null
-        },
-        "context_length": 32768,
-        "max_completion_tokens": null,
-        "expiration_date": null,
-        "created": 1746478663,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-07-15"
-      }
-    },
-    {
-      "ts": "2026-07-15",
-      "type": "price_changed",
-      "id": "qwen/qwen3.7-max",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000125",
-          "next": "0.000001475",
-          "pct_change": 18
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000375",
-          "next": "0.000004425",
-          "pct_change": 18
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-15",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.2",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000868",
-          "next": "0.0000008498",
-          "pct_change": -2.1
-        },
-        {
-          "field": "completion",
-          "prev": "0.000002728",
-          "next": "0.0000026708",
-          "pct_change": -2.1
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-15",
-      "type": "price_changed",
-      "id": "meta-llama/llama-3.2-3b-instruct",
-      "provider": "meta-llama",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000000509",
-          "next": "0.00000005",
-          "pct_change": -1.77
-        },
-        {
-          "field": "completion",
-          "prev": "0.000000335",
-          "next": "0.00000033",
-          "pct_change": -1.49
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-15",
-      "type": "price_changed",
-      "id": "google/gemma-4-31b-it",
-      "provider": "google",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000012",
-          "next": "0.00000022",
-          "pct_change": 83.33
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000037",
-          "next": "0.00000055",
-          "pct_change": 48.65
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-15",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.2",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000008918",
-          "next": "0.000000868",
-          "pct_change": -2.67
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000028028",
-          "next": "0.000002728",
-          "pct_change": -2.67
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-15",
-      "type": "price_changed",
-      "id": "mistralai/mistral-nemo",
-      "provider": "mistralai",
-      "changes": [
-        {
-          "field": "completion",
-          "prev": "0.00000003",
-          "next": "0.00000004",
-          "pct_change": 33.33
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-15",
-      "type": "price_changed",
-      "id": "meta-llama/llama-3.1-8b-instruct",
-      "provider": "meta-llama",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000002",
-          "next": "0.00000005",
-          "pct_change": 150
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000003",
-          "next": "0.00000008",
-          "pct_change": 166.67
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-15",
-      "type": "price_changed",
-      "id": "meta-llama/llama-3.2-3b-instruct",
-      "provider": "meta-llama",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000005",
-          "next": "0.0000000509",
-          "pct_change": 1.8
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000033",
-          "next": "0.000000335",
-          "pct_change": 1.52
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-15",
-      "type": "price_changed",
-      "id": "meta-llama/llama-3.3-70b-instruct",
-      "provider": "meta-llama",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000001",
-          "next": "0.00000013",
-          "pct_change": 30
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000032",
-          "next": "0.0000004",
-          "pct_change": 25
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-15",
-      "type": "price_changed",
-      "id": "qwen/qwen2.5-vl-72b-instruct",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000025",
-          "next": "0.0000008",
-          "pct_change": 220
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000075",
-          "next": "0.000001",
-          "pct_change": 33.33
-        }
-      ]
     }
   ],
   "scheduled_funerals": [
@@ -411,6 +366,16 @@
       "id": "tencent/hy3:free",
       "provider": "tencent",
       "expiration_date": "2026-07-21"
+    },
+    {
+      "id": "poolside/laguna-m.1",
+      "provider": "poolside",
+      "expiration_date": "2026-07-28"
+    },
+    {
+      "id": "poolside/laguna-m.1:free",
+      "provider": "poolside",
+      "expiration_date": "2026-07-28"
     },
     {
       "id": "openai/gpt-5.2-chat",

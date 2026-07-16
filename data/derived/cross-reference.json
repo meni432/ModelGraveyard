@@ -1,10 +1,10 @@
 {
   "generated_at": "2026-07-16",
-  "openrouter_catalog_size": 330,
+  "openrouter_catalog_size": 332,
   "litellm_catalog_size": 2166,
-  "shared_count": 88,
-  "openrouter_only_count": 242,
-  "litellm_only_count": 2071,
+  "shared_count": 89,
+  "openrouter_only_count": 243,
+  "litellm_only_count": 2070,
   "disagreements": [
     {
       "slug": "anthropic:claude-3-5-haiku",
@@ -239,6 +239,11 @@
       "slug": "inception:mercury-2",
       "openrouter_id": "inception/mercury-2",
       "litellm_id": "inception/mercury-2"
+    },
+    {
+      "slug": "meta:muse-spark-1-1",
+      "openrouter_id": "meta/muse-spark-1.1",
+      "litellm_id": "meta/muse-spark-1.1"
     },
     {
       "slug": "minimax:minimax-m2",

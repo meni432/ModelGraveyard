@@ -15101,6 +15101,212 @@
           "pct_change": -2.18
         }
       ]
+    },
+    {
+      "ts": "2026-07-16",
+      "type": "model_added",
+      "id": "moonshotai/kimi-k3",
+      "provider": "moonshotai",
+      "snapshot": {
+        "id": "moonshotai/kimi-k3",
+        "name": "MoonshotAI: Kimi K3",
+        "provider": "moonshotai",
+        "pricing": {
+          "prompt": "0.000003",
+          "completion": "0.000015",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1784215858,
+        "first_seen": "2026-07-16",
+        "last_seen": "2026-07-16"
+      }
+    },
+    {
+      "ts": "2026-07-16",
+      "type": "model_added",
+      "id": "meta/muse-spark-1.1",
+      "provider": "meta",
+      "snapshot": {
+        "id": "meta/muse-spark-1.1",
+        "name": "Meta: Muse Spark 1.1",
+        "provider": "meta",
+        "pricing": {
+          "prompt": "0.00000125",
+          "completion": "0.00000425",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1784215741,
+        "first_seen": "2026-07-16",
+        "last_seen": "2026-07-16"
+      }
+    },
+    {
+      "ts": "2026-07-16",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000009436",
+          "next": "0.0000009156",
+          "pct_change": -2.97
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000029656",
+          "next": "0.0000028776",
+          "pct_change": -2.97
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-16",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.7-code",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000719",
+          "next": "0.00000075",
+          "pct_change": 4.31
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000349",
+          "next": "0.0000035",
+          "pct_change": 0.29
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-16",
+      "type": "deprecation_announced",
+      "id": "poolside/laguna-m.1",
+      "provider": "poolside",
+      "prev_expiration": null,
+      "next_expiration": "2026-07-28"
+    },
+    {
+      "ts": "2026-07-16",
+      "type": "deprecation_announced",
+      "id": "poolside/laguna-m.1:free",
+      "provider": "poolside",
+      "prev_expiration": null,
+      "next_expiration": "2026-07-28"
+    },
+    {
+      "ts": "2026-07-16",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000066",
+          "next": "0.000003",
+          "pct_change": 354.55
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000341",
+          "next": "0.000015",
+          "pct_change": 339.88
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-16",
+      "type": "context_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "prev_context": 262144,
+      "next_context": 1048576
+    },
+    {
+      "ts": "2026-07-16",
+      "type": "price_changed",
+      "id": "z-ai/glm-4.7-flash",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000006",
+          "next": "0.0000000605",
+          "pct_change": 0.83
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-16",
+      "type": "context_changed",
+      "id": "z-ai/glm-4.7-flash",
+      "provider": "z-ai",
+      "prev_context": 202752,
+      "next_context": 200000
+    },
+    {
+      "ts": "2026-07-16",
+      "type": "price_changed",
+      "id": "qwen/qwen3-14b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000001",
+          "next": "0.00000012",
+          "pct_change": 20
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-16",
+      "type": "price_changed",
+      "id": "meta-llama/llama-3.2-3b-instruct",
+      "provider": "meta-llama",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000005",
+          "next": "0.0000000509",
+          "pct_change": 1.8
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000033",
+          "next": "0.000000335",
+          "pct_change": 1.52
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-16",
+      "type": "price_changed",
+      "id": "mistralai/mistral-nemo",
+      "provider": "mistralai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000002",
+          "next": "0.000000019",
+          "pct_change": -5
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000004",
+          "next": "0.00000003",
+          "pct_change": -25
+        }
+      ]
     }
   ]
 }
