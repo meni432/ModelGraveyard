@@ -2539,13 +2539,13 @@
       "name": "MoonshotAI: Kimi K2.6",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.00000066",
-        "completion": "0.00000341",
+        "prompt": "0.00000095",
+        "completion": "0.000004",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": null,
       "expiration_date": null,
       "created": 1776699402,
       "first_seen": "2026-05-27",
@@ -4426,13 +4426,13 @@
       "name": "Qwen: Qwen3 14B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000012",
+        "prompt": "0.0000001",
         "completion": "0.00000024",
         "image": null,
         "request": null
       },
       "context_length": 131702,
-      "max_completion_tokens": 16384,
+      "max_completion_tokens": 40960,
       "expiration_date": null,
       "created": 1745876478,
       "first_seen": "2026-05-27",
@@ -5786,8 +5786,8 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.0000009618",
-        "completion": "0.0000030228",
+        "prompt": "0.0000009646",
+        "completion": "0.0000030316",
         "image": null,
         "request": null
       },

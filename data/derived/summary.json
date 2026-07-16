@@ -12,6 +12,60 @@
       "changes": [
         {
           "field": "prompt",
+          "prev": "0.00000012",
+          "next": "0.0000001",
+          "pct_change": -16.67
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-16",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.6",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000066",
+          "next": "0.00000095",
+          "pct_change": 43.94
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000341",
+          "next": "0.000004",
+          "pct_change": 17.3
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-16",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000009618",
+          "next": "0.0000009646",
+          "pct_change": 0.29
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000030228",
+          "next": "0.0000030316",
+          "pct_change": 0.29
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-16",
+      "type": "price_changed",
+      "id": "qwen/qwen3-14b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
           "prev": "0.0000001",
           "next": "0.00000012",
           "pct_change": 20
@@ -304,48 +358,6 @@
           "pct_change": 181.25
         }
       ]
-    },
-    {
-      "ts": "2026-07-15",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-chat-v3-0324",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000024",
-          "next": "0.00000027",
-          "pct_change": 12.5
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000009",
-          "next": "0.00000112",
-          "pct_change": 24.44
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-15",
-      "type": "price_changed",
-      "id": "minimax/minimax-m1",
-      "provider": "minimax",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000004",
-          "next": "0.00000055",
-          "pct_change": 37.5
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-15",
-      "type": "context_changed",
-      "id": "mistralai/mistral-small-3.2-24b-instruct",
-      "provider": "mistralai",
-      "prev_context": 128000,
-      "next_context": 131072
     }
   ],
   "scheduled_funerals": [
