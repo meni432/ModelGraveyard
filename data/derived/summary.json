@@ -1,9 +1,79 @@
 {
-  "generated_at": "2026-07-15",
+  "generated_at": "2026-07-16",
   "active_count": 342,
   "dead_count": 57,
-  "last_event_ts": "2026-07-15",
+  "last_event_ts": "2026-07-16",
   "recent_events": [
+    {
+      "ts": "2026-07-16",
+      "type": "price_changed",
+      "id": "qwen/qwen3-14b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000001",
+          "next": "0.00000012",
+          "pct_change": 20
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-16",
+      "type": "context_changed",
+      "id": "z-ai/glm-4.7-flash",
+      "provider": "z-ai",
+      "prev_context": 200000,
+      "next_context": 202752
+    },
+    {
+      "ts": "2026-07-16",
+      "type": "price_changed",
+      "id": "z-ai/glm-4.7-flash",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000605",
+          "next": "0.00000006",
+          "pct_change": -0.83
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-16",
+      "type": "price_changed",
+      "id": "qwen/qwen3-coder-next",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000012",
+          "next": "0.00000011",
+          "pct_change": -8.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-16",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000008498",
+          "next": "0.0000009618",
+          "pct_change": 13.18
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000026708",
+          "next": "0.0000030228",
+          "pct_change": 13.18
+        }
+      ]
+    },
     {
       "ts": "2026-07-15",
       "type": "model_removed",
@@ -276,94 +346,6 @@
       "provider": "mistralai",
       "prev_context": 128000,
       "next_context": 131072
-    },
-    {
-      "ts": "2026-07-15",
-      "type": "price_changed",
-      "id": "mistralai/mistral-small-3.2-24b-instruct",
-      "provider": "mistralai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000075",
-          "next": "0.0000001",
-          "pct_change": 33.33
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000002",
-          "next": "0.0000003",
-          "pct_change": 50
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-15",
-      "type": "price_changed",
-      "id": "qwen/qwen3-coder",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000022",
-          "next": "0.0000003",
-          "pct_change": 36.36
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000018",
-          "next": "0.000001",
-          "pct_change": -44.44
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-15",
-      "type": "context_changed",
-      "id": "qwen/qwen3-30b-a3b-instruct-2507",
-      "provider": "qwen",
-      "prev_context": 131072,
-      "next_context": 262144
-    },
-    {
-      "ts": "2026-07-15",
-      "type": "price_changed",
-      "id": "qwen/qwen3-30b-a3b-instruct-2507",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000004815",
-          "next": "0.0000001",
-          "pct_change": 107.68
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000019305",
-          "next": "0.0000003",
-          "pct_change": 55.4
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-15",
-      "type": "price_changed",
-      "id": "openai/gpt-oss-20b",
-      "provider": "openai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000029",
-          "next": "0.00000003",
-          "pct_change": 3.45
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000014",
-          "next": "0.00000013",
-          "pct_change": -7.14
-        }
-      ]
     }
   ],
   "scheduled_funerals": [
