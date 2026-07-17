@@ -96,6 +96,60 @@
     <summary>prompt: $0.0190/Mtok → $0.0200/Mtok (+5.26%); completion: $0.0300/Mtok → $0.0400/Mtok (+33.33%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-07-17:price_changed:z-ai%2Fglm-5.2</id>
+    <title>Price changed: z-ai/glm-5.2</title>
+    <updated>2026-07-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>prompt: $0.9324/Mtok → $0.9436/Mtok (+1.2%); completion: $2.9304/Mtok → $2.9656/Mtok (+1.2%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-17:price_changed:z-ai%2Fglm-4.7-flash</id>
+    <title>Price changed: z-ai/glm-4.7-flash</title>
+    <updated>2026-07-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-4.7-flash"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>prompt: $0.0600/Mtok → $0.0605/Mtok (+0.83%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-17:context_changed:z-ai%2Fglm-4.7-flash</id>
+    <title>Context window changed: z-ai/glm-4.7-flash</title>
+    <updated>2026-07-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-4.7-flash"/>
+    <category term="context_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>202752 → 200000 tokens</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-17:price_changed:mistralai%2Fmistral-nemo</id>
+    <title>Price changed: mistralai/mistral-nemo</title>
+    <updated>2026-07-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/mistralai%2Fmistral-nemo"/>
+    <category term="price_changed"/>
+    <category term="provider:mistralai"/>
+    <summary>prompt: $0.0200/Mtok → $0.0190/Mtok (-5%); completion: $0.0400/Mtok → $0.0300/Mtok (-25%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-17:model_removed:meta-llama%2Fllama-3.2-11b-vision-instruct</id>
+    <title>Removed: meta-llama/llama-3.2-11b-vision-instruct</title>
+    <updated>2026-07-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meta-llama%2Fllama-3.2-11b-vision-instruct"/>
+    <category term="model_removed"/>
+    <category term="provider:meta-llama"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.3450/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-17:model_removed:nvidia%2Fllama-3.3-nemotron-super-49b-v1.5</id>
+    <title>Removed: nvidia/llama-3.3-nemotron-super-49b-v1.5</title>
+    <updated>2026-07-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nvidia%2Fllama-3.3-nemotron-super-49b-v1.5"/>
+    <category term="model_removed"/>
+    <category term="provider:nvidia"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.4000/Mtok.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-07-16:price_changed:z-ai%2Fglm-5.2</id>
     <title>Price changed: z-ai/glm-5.2</title>
     <updated>2026-07-16T00:00:00Z</updated>
@@ -850,59 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:z-ai"/>
     <summary>prompt: $0.9240/Mtok → $0.9100/Mtok (-1.52%); completion: $2.9040/Mtok → $2.8600/Mtok (-1.52%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-13:price_changed:z-ai%2Fglm-5.2</id>
-    <title>Price changed: z-ai/glm-5.2</title>
-    <updated>2026-07-13T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
-    <category term="price_changed"/>
-    <category term="provider:z-ai"/>
-    <summary>prompt: $0.4200/Mtok → $0.9300/Mtok (+121.43%); completion: $1.3200/Mtok → $3.0000/Mtok (+127.27%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-13:price_changed:moonshotai%2Fkimi-k2.7-code</id>
-    <title>Price changed: moonshotai/kimi-k2.7-code</title>
-    <updated>2026-07-13T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k2.7-code"/>
-    <category term="price_changed"/>
-    <category term="provider:moonshotai"/>
-    <summary>prompt: $0.7200/Mtok → $0.7190/Mtok (-0.14%); completion: $3.5000/Mtok → $3.4900/Mtok (-0.29%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-13:price_changed:deepseek%2Fdeepseek-v4-flash</id>
-    <title>Price changed: deepseek/deepseek-v4-flash</title>
-    <updated>2026-07-13T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-flash"/>
-    <category term="price_changed"/>
-    <category term="provider:deepseek"/>
-    <summary>prompt: $0.0770/Mtok → $0.0900/Mtok (+16.88%); completion: $0.1540/Mtok → $0.1800/Mtok (+16.88%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-13:price_changed:deepseek%2Fdeepseek-chat-v3.1</id>
-    <title>Price changed: deepseek/deepseek-chat-v3.1</title>
-    <updated>2026-07-13T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-chat-v3.1"/>
-    <category term="price_changed"/>
-    <category term="provider:deepseek"/>
-    <summary>prompt: $0.2100/Mtok → $0.2500/Mtok (+19.05%); completion: $0.7900/Mtok → $0.9500/Mtok (+20.25%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-13:model_removed:liquid%2Flfm-2.5-1.2b-instruct%3Afree</id>
-    <title>Removed: liquid/lfm-2.5-1.2b-instruct:free</title>
-    <updated>2026-07-13T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/liquid%2Flfm-2.5-1.2b-instruct%3Afree"/>
-    <category term="model_removed"/>
-    <category term="provider:liquid"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-13:model_removed:liquid%2Flfm-2.5-1.2b-thinking%3Afree</id>
-    <title>Removed: liquid/lfm-2.5-1.2b-thinking:free</title>
-    <updated>2026-07-13T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/liquid%2Flfm-2.5-1.2b-thinking%3Afree"/>
-    <category term="model_removed"/>
-    <category term="provider:liquid"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
   </entry>
 </feed>

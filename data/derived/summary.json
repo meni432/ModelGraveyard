@@ -1,9 +1,117 @@
 {
   "generated_at": "2026-07-17",
-  "active_count": 344,
-  "dead_count": 57,
+  "active_count": 342,
+  "dead_count": 59,
   "last_event_ts": "2026-07-17",
   "recent_events": [
+    {
+      "ts": "2026-07-17",
+      "type": "model_removed",
+      "id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
+      "provider": "nvidia",
+      "snapshot": {
+        "id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
+        "name": "NVIDIA: Llama 3.3 Nemotron Super 49B V1.5",
+        "provider": "nvidia",
+        "pricing": {
+          "prompt": "0.0000004",
+          "completion": "0.0000004",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": 16384,
+        "expiration_date": "2026-07-17",
+        "created": 1760101395,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-07-17"
+      }
+    },
+    {
+      "ts": "2026-07-17",
+      "type": "model_removed",
+      "id": "meta-llama/llama-3.2-11b-vision-instruct",
+      "provider": "meta-llama",
+      "snapshot": {
+        "id": "meta-llama/llama-3.2-11b-vision-instruct",
+        "name": "Meta: Llama 3.2 11B Vision Instruct",
+        "provider": "meta-llama",
+        "pricing": {
+          "prompt": "0.000000345",
+          "completion": "0.000000345",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": 16384,
+        "expiration_date": "2026-07-17",
+        "created": 1727222400,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-07-17"
+      }
+    },
+    {
+      "ts": "2026-07-17",
+      "type": "price_changed",
+      "id": "mistralai/mistral-nemo",
+      "provider": "mistralai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000002",
+          "next": "0.000000019",
+          "pct_change": -5
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000004",
+          "next": "0.00000003",
+          "pct_change": -25
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-17",
+      "type": "context_changed",
+      "id": "z-ai/glm-4.7-flash",
+      "provider": "z-ai",
+      "prev_context": 202752,
+      "next_context": 200000
+    },
+    {
+      "ts": "2026-07-17",
+      "type": "price_changed",
+      "id": "z-ai/glm-4.7-flash",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000006",
+          "next": "0.0000000605",
+          "pct_change": 0.83
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-17",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000009324",
+          "next": "0.0000009436",
+          "pct_change": 1.2
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000029304",
+          "next": "0.0000029656",
+          "pct_change": 1.2
+        }
+      ]
+    },
     {
       "ts": "2026-07-17",
       "type": "price_changed",
@@ -229,97 +337,9 @@
       "provider": "z-ai",
       "prev_context": 202752,
       "next_context": 200000
-    },
-    {
-      "ts": "2026-07-16",
-      "type": "price_changed",
-      "id": "z-ai/glm-4.7-flash",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000006",
-          "next": "0.0000000605",
-          "pct_change": 0.83
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-16",
-      "type": "context_changed",
-      "id": "~moonshotai/kimi-latest",
-      "provider": "~moonshotai",
-      "prev_context": 262144,
-      "next_context": 1048576
-    },
-    {
-      "ts": "2026-07-16",
-      "type": "price_changed",
-      "id": "~moonshotai/kimi-latest",
-      "provider": "~moonshotai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000066",
-          "next": "0.000003",
-          "pct_change": 354.55
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000341",
-          "next": "0.000015",
-          "pct_change": 339.88
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-16",
-      "type": "deprecation_announced",
-      "id": "poolside/laguna-m.1:free",
-      "provider": "poolside",
-      "prev_expiration": null,
-      "next_expiration": "2026-07-28"
-    },
-    {
-      "ts": "2026-07-16",
-      "type": "deprecation_announced",
-      "id": "poolside/laguna-m.1",
-      "provider": "poolside",
-      "prev_expiration": null,
-      "next_expiration": "2026-07-28"
-    },
-    {
-      "ts": "2026-07-16",
-      "type": "price_changed",
-      "id": "moonshotai/kimi-k2.7-code",
-      "provider": "moonshotai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000719",
-          "next": "0.00000075",
-          "pct_change": 4.31
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000349",
-          "next": "0.0000035",
-          "pct_change": 0.29
-        }
-      ]
     }
   ],
   "scheduled_funerals": [
-    {
-      "id": "meta-llama/llama-3.2-11b-vision-instruct",
-      "provider": "meta-llama",
-      "expiration_date": "2026-07-17"
-    },
-    {
-      "id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
-      "provider": "nvidia",
-      "expiration_date": "2026-07-17"
-    },
     {
       "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
       "provider": "cognitivecomputations",

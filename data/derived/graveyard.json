@@ -1,6 +1,40 @@
 {
   "buried": [
     {
+      "id": "meta-llama/llama-3.2-11b-vision-instruct",
+      "name": "Meta: Llama 3.2 11B Vision Instruct",
+      "provider": "meta-llama",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.000000345",
+        "completion": "0.000000345",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 131072,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-07-17",
+      "buried_at": "2026-07-17",
+      "suggested_replacement": "meta-llama/llama-3.3-70b-instruct"
+    },
+    {
+      "id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
+      "name": "NVIDIA: Llama 3.3 Nemotron Super 49B V1.5",
+      "provider": "nvidia",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000004",
+        "completion": "0.0000004",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 131072,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-07-17",
+      "buried_at": "2026-07-17",
+      "suggested_replacement": "nvidia/nemotron-3.5-content-safety:free"
+    },
+    {
       "id": "arcee-ai/coder-large",
       "name": "Arcee AI: Coder Large",
       "provider": "arcee-ai",

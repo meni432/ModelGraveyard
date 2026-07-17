@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_removed.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_removed.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-07-15T00:00:00Z</updated>
+  <updated>2026-07-17T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-17:model_removed:meta-llama%2Fllama-3.2-11b-vision-instruct</id>
+    <title>Removed: meta-llama/llama-3.2-11b-vision-instruct</title>
+    <updated>2026-07-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meta-llama%2Fllama-3.2-11b-vision-instruct"/>
+    <category term="model_removed"/>
+    <category term="provider:meta-llama"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.3450/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-17:model_removed:nvidia%2Fllama-3.3-nemotron-super-49b-v1.5</id>
+    <title>Removed: nvidia/llama-3.3-nemotron-super-49b-v1.5</title>
+    <updated>2026-07-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nvidia%2Fllama-3.3-nemotron-super-49b-v1.5"/>
+    <category term="model_removed"/>
+    <category term="provider:nvidia"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.4000/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-07-15:model_removed:arcee-ai%2Fcoder-large</id>
     <title>Removed: arcee-ai/coder-large</title>
