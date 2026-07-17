@@ -15423,6 +15423,54 @@
           "pct_change": -33.33
         }
       ]
+    },
+    {
+      "ts": "2026-07-17",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000001218",
+          "next": "0.0000009324",
+          "pct_change": -23.45
+        },
+        {
+          "field": "completion",
+          "prev": "0.000003828",
+          "next": "0.0000029304",
+          "pct_change": -23.45
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-17",
+      "type": "deprecation_announced",
+      "id": "z-ai/glm-4.5v",
+      "provider": "z-ai",
+      "prev_expiration": null,
+      "next_expiration": "2026-12-31"
+    },
+    {
+      "ts": "2026-07-17",
+      "type": "price_changed",
+      "id": "mistralai/mistral-nemo",
+      "provider": "mistralai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000019",
+          "next": "0.00000002",
+          "pct_change": 5.26
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000003",
+          "next": "0.00000004",
+          "pct_change": 33.33
+        }
+      ]
     }
   ]
 }

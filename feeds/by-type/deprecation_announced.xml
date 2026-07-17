@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/deprecation_announced.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/deprecation_announced.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-07-16T00:00:00Z</updated>
+  <updated>2026-07-17T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-17:deprecation_announced:z-ai%2Fglm-4.5v</id>
+    <title>Deprecation announced: z-ai/glm-4.5v (sunset 2026-12-31)</title>
+    <updated>2026-07-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-4.5v"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:z-ai"/>
+    <summary>Provider announced retirement on 2026-12-31.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-07-16:deprecation_announced:poolside%2Flaguna-m.1</id>
     <title>Deprecation announced: poolside/laguna-m.1 (sunset 2026-07-28)</title>

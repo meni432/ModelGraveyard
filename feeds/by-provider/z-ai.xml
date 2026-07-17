@@ -33,6 +33,24 @@
     <summary>200000 → 202752 tokens</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-07-17:price_changed:z-ai%2Fglm-5.2</id>
+    <title>Price changed: z-ai/glm-5.2</title>
+    <updated>2026-07-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>prompt: $1.2180/Mtok → $0.9324/Mtok (-23.45%); completion: $3.8280/Mtok → $2.9304/Mtok (-23.45%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-17:deprecation_announced:z-ai%2Fglm-4.5v</id>
+    <title>Deprecation announced: z-ai/glm-4.5v (sunset 2026-12-31)</title>
+    <updated>2026-07-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-4.5v"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:z-ai"/>
+    <summary>Provider announced retirement on 2026-12-31.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-07-16:price_changed:z-ai%2Fglm-5.2</id>
     <title>Price changed: z-ai/glm-5.2</title>
     <updated>2026-07-16T00:00:00Z</updated>

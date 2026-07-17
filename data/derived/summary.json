@@ -7,6 +7,54 @@
     {
       "ts": "2026-07-17",
       "type": "price_changed",
+      "id": "mistralai/mistral-nemo",
+      "provider": "mistralai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000019",
+          "next": "0.00000002",
+          "pct_change": 5.26
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000003",
+          "next": "0.00000004",
+          "pct_change": 33.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-17",
+      "type": "deprecation_announced",
+      "id": "z-ai/glm-4.5v",
+      "provider": "z-ai",
+      "prev_expiration": null,
+      "next_expiration": "2026-12-31"
+    },
+    {
+      "ts": "2026-07-17",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000001218",
+          "next": "0.0000009324",
+          "pct_change": -23.45
+        },
+        {
+          "field": "completion",
+          "prev": "0.000003828",
+          "next": "0.0000029304",
+          "pct_change": -23.45
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-17",
+      "type": "price_changed",
       "id": "google/gemma-3-27b-it",
       "provider": "google",
       "changes": [
@@ -259,72 +307,6 @@
           "pct_change": 0.29
         }
       ]
-    },
-    {
-      "ts": "2026-07-16",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.2",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000009436",
-          "next": "0.0000009156",
-          "pct_change": -2.97
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000029656",
-          "next": "0.0000028776",
-          "pct_change": -2.97
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-16",
-      "type": "model_added",
-      "id": "meta/muse-spark-1.1",
-      "provider": "meta",
-      "snapshot": {
-        "id": "meta/muse-spark-1.1",
-        "name": "Meta: Muse Spark 1.1",
-        "provider": "meta",
-        "pricing": {
-          "prompt": "0.00000125",
-          "completion": "0.00000425",
-          "image": null,
-          "request": null
-        },
-        "context_length": 1048576,
-        "max_completion_tokens": null,
-        "expiration_date": null,
-        "created": 1784215741,
-        "first_seen": "2026-07-16",
-        "last_seen": "2026-07-16"
-      }
-    },
-    {
-      "ts": "2026-07-16",
-      "type": "model_added",
-      "id": "moonshotai/kimi-k3",
-      "provider": "moonshotai",
-      "snapshot": {
-        "id": "moonshotai/kimi-k3",
-        "name": "MoonshotAI: Kimi K3",
-        "provider": "moonshotai",
-        "pricing": {
-          "prompt": "0.000003",
-          "completion": "0.000015",
-          "image": null,
-          "request": null
-        },
-        "context_length": 1048576,
-        "max_completion_tokens": null,
-        "expiration_date": null,
-        "created": 1784215858,
-        "first_seen": "2026-07-16",
-        "last_seen": "2026-07-16"
-      }
     }
   ],
   "scheduled_funerals": [
@@ -395,6 +377,11 @@
     },
     {
       "id": "z-ai/glm-4.5",
+      "provider": "z-ai",
+      "expiration_date": "2026-12-31"
+    },
+    {
+      "id": "z-ai/glm-4.5v",
       "provider": "z-ai",
       "expiration_date": "2026-12-31"
     },

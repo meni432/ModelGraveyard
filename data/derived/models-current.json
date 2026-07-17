@@ -2352,8 +2352,8 @@
       "name": "Mistral: Mistral Nemo",
       "provider": "mistralai",
       "pricing": {
-        "prompt": "0.000000019",
-        "completion": "0.00000003",
+        "prompt": "0.00000002",
+        "completion": "0.00000004",
         "image": null,
         "request": null
       },
@@ -5691,7 +5691,7 @@
       },
       "context_length": 65536,
       "max_completion_tokens": 16384,
-      "expiration_date": null,
+      "expiration_date": "2026-12-31",
       "created": 1754922288,
       "first_seen": "2026-05-27",
       "last_seen": "2026-07-17"
@@ -5820,8 +5820,8 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.000001218",
-        "completion": "0.000003828",
+        "prompt": "0.0000009324",
+        "completion": "0.0000029304",
         "image": null,
         "request": null
       },
