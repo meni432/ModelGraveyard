@@ -1,9 +1,86 @@
 {
   "generated_at": "2026-07-17",
-  "active_count": 342,
+  "active_count": 343,
   "dead_count": 59,
   "last_event_ts": "2026-07-17",
   "recent_events": [
+    {
+      "ts": "2026-07-17",
+      "type": "price_changed",
+      "id": "qwen/qwen3-14b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000001",
+          "next": "0.00000012",
+          "pct_change": 20
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-17",
+      "type": "price_changed",
+      "id": "google/gemma-4-31b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000022",
+          "next": "0.00000012",
+          "pct_change": -45.45
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000055",
+          "next": "0.00000037",
+          "pct_change": -32.73
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-17",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000009436",
+          "next": "0.0000009212",
+          "pct_change": -2.37
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000029656",
+          "next": "0.0000028952",
+          "pct_change": -2.37
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-17",
+      "type": "model_added",
+      "id": "openrouter/auto-beta",
+      "provider": "openrouter",
+      "snapshot": {
+        "id": "openrouter/auto-beta",
+        "name": "Auto Router (Beta)",
+        "provider": "openrouter",
+        "pricing": {
+          "prompt": "-1",
+          "completion": "-1",
+          "image": null,
+          "request": null
+        },
+        "context_length": 2000000,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1784311165,
+        "first_seen": "2026-07-17",
+        "last_seen": "2026-07-17"
+      }
+    },
     {
       "ts": "2026-07-17",
       "type": "model_removed",
@@ -275,68 +352,6 @@
           "pct_change": 33.03
         }
       ]
-    },
-    {
-      "ts": "2026-07-16",
-      "type": "price_changed",
-      "id": "mistralai/mistral-nemo",
-      "provider": "mistralai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000002",
-          "next": "0.000000019",
-          "pct_change": -5
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000004",
-          "next": "0.00000003",
-          "pct_change": -25
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-16",
-      "type": "price_changed",
-      "id": "meta-llama/llama-3.2-3b-instruct",
-      "provider": "meta-llama",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000005",
-          "next": "0.0000000509",
-          "pct_change": 1.8
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000033",
-          "next": "0.000000335",
-          "pct_change": 1.52
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-16",
-      "type": "price_changed",
-      "id": "qwen/qwen3-14b",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000001",
-          "next": "0.00000012",
-          "pct_change": 20
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-16",
-      "type": "context_changed",
-      "id": "z-ai/glm-4.7-flash",
-      "provider": "z-ai",
-      "prev_context": 202752,
-      "next_context": 200000
     }
   ],
   "scheduled_funerals": [

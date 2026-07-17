@@ -15579,6 +15579,83 @@
         "first_seen": "2026-05-27",
         "last_seen": "2026-07-17"
       }
+    },
+    {
+      "ts": "2026-07-17",
+      "type": "model_added",
+      "id": "openrouter/auto-beta",
+      "provider": "openrouter",
+      "snapshot": {
+        "id": "openrouter/auto-beta",
+        "name": "Auto Router (Beta)",
+        "provider": "openrouter",
+        "pricing": {
+          "prompt": "-1",
+          "completion": "-1",
+          "image": null,
+          "request": null
+        },
+        "context_length": 2000000,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1784311165,
+        "first_seen": "2026-07-17",
+        "last_seen": "2026-07-17"
+      }
+    },
+    {
+      "ts": "2026-07-17",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000009436",
+          "next": "0.0000009212",
+          "pct_change": -2.37
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000029656",
+          "next": "0.0000028952",
+          "pct_change": -2.37
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-17",
+      "type": "price_changed",
+      "id": "google/gemma-4-31b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000022",
+          "next": "0.00000012",
+          "pct_change": -45.45
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000055",
+          "next": "0.00000037",
+          "pct_change": -32.73
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-17",
+      "type": "price_changed",
+      "id": "qwen/qwen3-14b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000001",
+          "next": "0.00000012",
+          "pct_change": 20
+        }
+      ]
     }
   ]
 }

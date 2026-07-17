@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/openrouter.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/openrouter.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-06-30T00:00:00Z</updated>
+  <updated>2026-07-17T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-17:model_added:openrouter%2Fauto-beta</id>
+    <title>Added: openrouter/auto-beta</title>
+    <updated>2026-07-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openrouter%2Fauto-beta"/>
+    <category term="model_added"/>
+    <category term="provider:openrouter"/>
+    <summary>New model on OpenRouter. Initial prompt price: $-1000000.0000/Mtok, context: 2000000.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-06-30:model_removed:openrouter%2Fowl-alpha</id>
     <title>Removed: openrouter/owl-alpha</title>
