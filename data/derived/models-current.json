@@ -1502,13 +1502,13 @@
       "name": "Google: Gemma 4 31B",
       "provider": "google",
       "pricing": {
-        "prompt": "0.00000022",
-        "completion": "0.00000055",
+        "prompt": "0.00000012",
+        "completion": "0.00000037",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": 16384,
       "expiration_date": null,
       "created": 1775148486,
       "first_seen": "2026-05-27",
@@ -4443,13 +4443,13 @@
       "name": "Qwen: Qwen3 14B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000012",
-        "completion": "0.00000024",
+        "prompt": "0.0000002275",
+        "completion": "0.00000091",
         "image": null,
         "request": null
       },
       "context_length": 131702,
-      "max_completion_tokens": 16384,
+      "max_completion_tokens": 8192,
       "expiration_date": null,
       "created": 1745876478,
       "first_seen": "2026-05-27",
@@ -5820,8 +5820,8 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.0000003402",
-        "completion": "0.0000010692",
+        "prompt": "0.0000002968",
+        "completion": "0.0000009328",
         "image": null,
         "request": null
       },
