@@ -69,6 +69,15 @@
     <summary>prompt: $0.7500/Mtok → $0.5000/Mtok (-33.33%); completion: $1.0000/Mtok → $0.7500/Mtok (-25%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-07-18:price_changed:z-ai%2Fglm-5.2</id>
+    <title>Price changed: z-ai/glm-5.2</title>
+    <updated>2026-07-18T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>prompt: $0.4158/Mtok → $0.3402/Mtok (-18.18%); completion: $1.3068/Mtok → $1.0692/Mtok (-18.18%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-07-17:price_changed:z-ai%2Fglm-5.2</id>
     <title>Price changed: z-ai/glm-5.2</title>
     <updated>2026-07-17T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:z-ai"/>
     <summary>prompt: $0.8680/Mtok → $0.8498/Mtok (-2.1%); completion: $2.7280/Mtok → $2.6708/Mtok (-2.1%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-15:price_changed:qwen%2Fqwen3.7-max</id>
-    <title>Price changed: qwen/qwen3.7-max</title>
-    <updated>2026-07-15T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3.7-max"/>
-    <category term="price_changed"/>
-    <category term="provider:qwen"/>
-    <summary>prompt: $1.2500/Mtok → $1.4750/Mtok (+18%); completion: $3.7500/Mtok → $4.4250/Mtok (+18%)</summary>
   </entry>
 </feed>
