@@ -7,6 +7,26 @@
     {
       "ts": "2026-07-18",
       "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000002968",
+          "next": "0.0000002786",
+          "pct_change": -6.13
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000009328",
+          "next": "0.0000008756",
+          "pct_change": -6.13
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-18",
+      "type": "price_changed",
       "id": "qwen/qwen3-14b",
       "provider": "qwen",
       "changes": [
@@ -377,20 +397,6 @@
       "provider": "z-ai",
       "prev_context": 202752,
       "next_context": 200000
-    },
-    {
-      "ts": "2026-07-17",
-      "type": "price_changed",
-      "id": "z-ai/glm-4.7-flash",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000006",
-          "next": "0.0000000605",
-          "pct_change": 0.83
-        }
-      ]
     }
   ],
   "scheduled_funerals": [
