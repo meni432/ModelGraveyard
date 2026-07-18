@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/google.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/google.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-07-17T00:00:00Z</updated>
+  <updated>2026-07-18T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-18:price_changed:google%2Fgemma-4-31b-it</id>
+    <title>Price changed: google/gemma-4-31b-it</title>
+    <updated>2026-07-18T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemma-4-31b-it"/>
+    <category term="price_changed"/>
+    <category term="provider:google"/>
+    <summary>prompt: $0.1200/Mtok → $0.2200/Mtok (+83.33%); completion: $0.3700/Mtok → $0.5500/Mtok (+48.65%)</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-07-17:price_changed:google%2Fgemma-3-27b-it</id>
     <title>Price changed: google/gemma-3-27b-it</title>

@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/mancer.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/mancer.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-05-27T00:00:00Z</updated>
+  <updated>2026-07-18T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-18:price_changed:mancer%2Fweaver</id>
+    <title>Price changed: mancer/weaver</title>
+    <updated>2026-07-18T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/mancer%2Fweaver"/>
+    <category term="price_changed"/>
+    <category term="provider:mancer"/>
+    <summary>prompt: $0.7500/Mtok → $0.5000/Mtok (-33.33%); completion: $1.0000/Mtok → $0.7500/Mtok (-25%)</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-05-27:model_added:mancer%2Fweaver</id>
     <title>Added: mancer/weaver</title>

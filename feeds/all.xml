@@ -4,7 +4,70 @@
   <id>https://modelgraveyard.com/feeds/all.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/all.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-07-17T00:00:00Z</updated>
+  <updated>2026-07-18T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-18:model_added:thinkingmachines%2Finkling</id>
+    <title>Added: thinkingmachines/inkling</title>
+    <updated>2026-07-18T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/thinkingmachines%2Finkling"/>
+    <category term="model_added"/>
+    <category term="provider:thinkingmachines"/>
+    <summary>New model on OpenRouter. Initial prompt price: $1.0000/Mtok, context: 1048576.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-18:price_changed:z-ai%2Fglm-5.2</id>
+    <title>Price changed: z-ai/glm-5.2</title>
+    <updated>2026-07-18T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>prompt: $0.9212/Mtok → $0.4158/Mtok (-54.86%); completion: $2.8952/Mtok → $1.3068/Mtok (-54.86%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-18:price_changed:moonshotai%2Fkimi-k2.7-code</id>
+    <title>Price changed: moonshotai/kimi-k2.7-code</title>
+    <updated>2026-07-18T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k2.7-code"/>
+    <category term="price_changed"/>
+    <category term="provider:moonshotai"/>
+    <summary>prompt: $0.7500/Mtok → $1.0000/Mtok (+33.33%); completion: $3.5000/Mtok → $4.4000/Mtok (+25.71%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-18:price_changed:google%2Fgemma-4-31b-it</id>
+    <title>Price changed: google/gemma-4-31b-it</title>
+    <updated>2026-07-18T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemma-4-31b-it"/>
+    <category term="price_changed"/>
+    <category term="provider:google"/>
+    <summary>prompt: $0.1200/Mtok → $0.2200/Mtok (+83.33%); completion: $0.3700/Mtok → $0.5500/Mtok (+48.65%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-18:price_changed:qwen%2Fqwen3.5-27b</id>
+    <title>Price changed: qwen/qwen3.5-27b</title>
+    <updated>2026-07-18T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3.5-27b"/>
+    <category term="price_changed"/>
+    <category term="provider:qwen"/>
+    <summary>prompt: $0.1950/Mtok → $0.2600/Mtok (+33.33%); completion: $1.5600/Mtok → $2.6000/Mtok (+66.67%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-18:price_changed:qwen%2Fqwen3-30b-a3b</id>
+    <title>Price changed: qwen/qwen3-30b-a3b</title>
+    <updated>2026-07-18T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3-30b-a3b"/>
+    <category term="price_changed"/>
+    <category term="provider:qwen"/>
+    <summary>prompt: $0.1200/Mtok → $0.1300/Mtok (+8.33%); completion: $0.5000/Mtok → $0.5200/Mtok (+4%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-18:price_changed:mancer%2Fweaver</id>
+    <title>Price changed: mancer/weaver</title>
+    <updated>2026-07-18T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/mancer%2Fweaver"/>
+    <category term="price_changed"/>
+    <category term="provider:mancer"/>
+    <summary>prompt: $0.7500/Mtok → $0.5000/Mtok (-33.33%); completion: $1.0000/Mtok → $0.7500/Mtok (-25%)</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-07-17:price_changed:z-ai%2Fglm-5.2</id>
     <title>Price changed: z-ai/glm-5.2</title>
@@ -841,68 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:qwen"/>
     <summary>prompt: $1.2500/Mtok → $1.4750/Mtok (+18%); completion: $3.7500/Mtok → $4.4250/Mtok (+18%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-15:model_removed:arcee-ai%2Fcoder-large</id>
-    <title>Removed: arcee-ai/coder-large</title>
-    <updated>2026-07-15T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/arcee-ai%2Fcoder-large"/>
-    <category term="model_removed"/>
-    <category term="provider:arcee-ai"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.5000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-14:price_changed:qwen%2Fqwen3.6-27b</id>
-    <title>Price changed: qwen/qwen3.6-27b</title>
-    <updated>2026-07-14T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3.6-27b"/>
-    <category term="price_changed"/>
-    <category term="provider:qwen"/>
-    <summary>prompt: $0.2850/Mtok → $0.2890/Mtok (+1.4%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-14:price_changed:openai%2Fgpt-oss-120b</id>
-    <title>Price changed: openai/gpt-oss-120b</title>
-    <updated>2026-07-14T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-oss-120b"/>
-    <category term="price_changed"/>
-    <category term="provider:openai"/>
-    <summary>prompt: $0.0360/Mtok → $0.0300/Mtok (-16.67%); completion: $0.1800/Mtok → $0.1500/Mtok (-16.67%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-14:model_removed:openai%2Fgpt-oss-120b%3Afree</id>
-    <title>Removed: openai/gpt-oss-120b:free</title>
-    <updated>2026-07-14T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-oss-120b%3Afree"/>
-    <category term="model_removed"/>
-    <category term="provider:openai"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-14:model_added:kwaipilot%2Fkat-coder-air-v2.5</id>
-    <title>Added: kwaipilot/kat-coder-air-v2.5</title>
-    <updated>2026-07-14T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/kwaipilot%2Fkat-coder-air-v2.5"/>
-    <category term="model_added"/>
-    <category term="provider:kwaipilot"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.1500/Mtok, context: 256000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-14:model_added:kwaipilot%2Fkat-coder-pro-v2.5</id>
-    <title>Added: kwaipilot/kat-coder-pro-v2.5</title>
-    <updated>2026-07-14T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/kwaipilot%2Fkat-coder-pro-v2.5"/>
-    <category term="model_added"/>
-    <category term="provider:kwaipilot"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.7400/Mtok, context: 256000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-14:price_changed:z-ai%2Fglm-5.2</id>
-    <title>Price changed: z-ai/glm-5.2</title>
-    <updated>2026-07-14T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
-    <category term="price_changed"/>
-    <category term="provider:z-ai"/>
-    <summary>prompt: $0.9300/Mtok → $0.9282/Mtok (-0.19%); completion: $3.0000/Mtok → $2.9172/Mtok (-2.76%)</summary>
   </entry>
 </feed>
