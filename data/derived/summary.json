@@ -6,6 +6,66 @@
   "recent_events": [
     {
       "ts": "2026-07-19",
+      "type": "price_changed",
+      "id": "qwen/qwen3-14b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000002275",
+          "next": "0.00000012",
+          "pct_change": -47.25
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000091",
+          "next": "0.00000024",
+          "pct_change": -73.63
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-19",
+      "type": "price_changed",
+      "id": "google/gemma-4-31b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000022",
+          "next": "0.00000012",
+          "pct_change": -45.45
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000055",
+          "next": "0.00000037",
+          "pct_change": -32.73
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-19",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000002548",
+          "next": "0.0000002366",
+          "pct_change": -7.14
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000008008",
+          "next": "0.0000007436",
+          "pct_change": -7.14
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-19",
       "type": "model_removed",
       "id": "qwen/qwen3-next-80b-a3b-instruct:free",
       "provider": "qwen",
@@ -359,66 +419,6 @@
           "prev": "0.00000024",
           "next": "0.00000091",
           "pct_change": 279.17
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-18",
-      "type": "price_changed",
-      "id": "google/gemma-4-31b-it",
-      "provider": "google",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000022",
-          "next": "0.00000012",
-          "pct_change": -45.45
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000055",
-          "next": "0.00000037",
-          "pct_change": -32.73
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-18",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.2",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000003402",
-          "next": "0.0000002968",
-          "pct_change": -12.76
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000010692",
-          "next": "0.0000009328",
-          "pct_change": -12.76
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-18",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.2",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000004158",
-          "next": "0.0000003402",
-          "pct_change": -18.18
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000013068",
-          "next": "0.0000010692",
-          "pct_change": -18.18
         }
       ]
     }
