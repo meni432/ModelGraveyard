@@ -60,6 +60,15 @@
     <summary>prompt: $0.2550/Mtok → $0.3000/Mtok (+17.65%); completion: $1.0200/Mtok → $1.2000/Mtok (+17.65%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-07-19:price_changed:z-ai%2Fglm-5.2</id>
+    <title>Price changed: z-ai/glm-5.2</title>
+    <updated>2026-07-19T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>prompt: $0.2576/Mtok → $0.2744/Mtok (+6.52%); completion: $0.8096/Mtok → $0.8624/Mtok (+6.52%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-07-18:price_changed:z-ai%2Fglm-5.2</id>
     <title>Price changed: z-ai/glm-5.2</title>
     <updated>2026-07-18T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:z-ai"/>
     <summary>prompt: $0.5600/Mtok → $0.4200/Mtok (-25%); completion: $1.7600/Mtok → $1.3200/Mtok (-25%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-12:price_changed:z-ai%2Fglm-4.6</id>
-    <title>Price changed: z-ai/glm-4.6</title>
-    <updated>2026-07-12T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-4.6"/>
-    <category term="price_changed"/>
-    <category term="provider:z-ai"/>
-    <summary>completion: $1.7400/Mtok → $1.7500/Mtok (+0.57%)</summary>
   </entry>
 </feed>
