@@ -1,9 +1,187 @@
 {
   "generated_at": "2026-07-19",
-  "active_count": 344,
-  "dead_count": 59,
+  "active_count": 338,
+  "dead_count": 65,
   "last_event_ts": "2026-07-19",
   "recent_events": [
+    {
+      "ts": "2026-07-19",
+      "type": "model_removed",
+      "id": "qwen/qwen3-next-80b-a3b-instruct:free",
+      "provider": "qwen",
+      "snapshot": {
+        "id": "qwen/qwen3-next-80b-a3b-instruct:free",
+        "name": "Qwen: Qwen3 Next 80B A3B Instruct (free)",
+        "provider": "qwen",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": null,
+        "expiration_date": "2026-07-19",
+        "created": 1757612213,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-07-19"
+      }
+    },
+    {
+      "ts": "2026-07-19",
+      "type": "model_removed",
+      "id": "qwen/qwen3-coder:free",
+      "provider": "qwen",
+      "snapshot": {
+        "id": "qwen/qwen3-coder:free",
+        "name": "Qwen: Qwen3 Coder 480B A35B (free)",
+        "provider": "qwen",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": 262000,
+        "expiration_date": "2026-07-19",
+        "created": 1753230546,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-07-19"
+      }
+    },
+    {
+      "ts": "2026-07-19",
+      "type": "model_removed",
+      "id": "nousresearch/hermes-3-llama-3.1-405b:free",
+      "provider": "nousresearch",
+      "snapshot": {
+        "id": "nousresearch/hermes-3-llama-3.1-405b:free",
+        "name": "Nous: Hermes 3 405B Instruct (free)",
+        "provider": "nousresearch",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": null,
+        "expiration_date": "2026-07-19",
+        "created": 1723766400,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-07-19"
+      }
+    },
+    {
+      "ts": "2026-07-19",
+      "type": "model_removed",
+      "id": "meta-llama/llama-3.3-70b-instruct:free",
+      "provider": "meta-llama",
+      "snapshot": {
+        "id": "meta-llama/llama-3.3-70b-instruct:free",
+        "name": "Meta: Llama 3.3 70B Instruct (free)",
+        "provider": "meta-llama",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": null,
+        "expiration_date": "2026-07-19",
+        "created": 1733506137,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-07-19"
+      }
+    },
+    {
+      "ts": "2026-07-19",
+      "type": "model_removed",
+      "id": "meta-llama/llama-3.2-3b-instruct:free",
+      "provider": "meta-llama",
+      "snapshot": {
+        "id": "meta-llama/llama-3.2-3b-instruct:free",
+        "name": "Meta: Llama 3.2 3B Instruct (free)",
+        "provider": "meta-llama",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": null,
+        "expiration_date": "2026-07-19",
+        "created": 1727222400,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-07-19"
+      }
+    },
+    {
+      "ts": "2026-07-19",
+      "type": "model_removed",
+      "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
+      "provider": "cognitivecomputations",
+      "snapshot": {
+        "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
+        "name": "Venice: Uncensored (free)",
+        "provider": "cognitivecomputations",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 32768,
+        "max_completion_tokens": null,
+        "expiration_date": "2026-07-19",
+        "created": 1752094966,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-07-19"
+      }
+    },
+    {
+      "ts": "2026-07-19",
+      "type": "price_changed",
+      "id": "nvidia/nemotron-3-super-120b-a12b",
+      "provider": "nvidia",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000021",
+          "next": "0.000000085",
+          "pct_change": -59.52
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000455",
+          "next": "0.0000004",
+          "pct_change": -12.09
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-19",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000002744",
+          "next": "0.0000002548",
+          "pct_change": -7.14
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000008624",
+          "next": "0.0000008008",
+          "pct_change": -7.14
+        }
+      ]
+    },
     {
       "ts": "2026-07-19",
       "type": "price_changed",
@@ -243,196 +421,9 @@
           "pct_change": -18.18
         }
       ]
-    },
-    {
-      "ts": "2026-07-18",
-      "type": "price_changed",
-      "id": "mancer/weaver",
-      "provider": "mancer",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000075",
-          "next": "0.0000005",
-          "pct_change": -33.33
-        },
-        {
-          "field": "completion",
-          "prev": "0.000001",
-          "next": "0.00000075",
-          "pct_change": -25
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-18",
-      "type": "price_changed",
-      "id": "qwen/qwen3-30b-a3b",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000012",
-          "next": "0.00000013",
-          "pct_change": 8.33
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000005",
-          "next": "0.00000052",
-          "pct_change": 4
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-18",
-      "type": "price_changed",
-      "id": "qwen/qwen3.5-27b",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000195",
-          "next": "0.00000026",
-          "pct_change": 33.33
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000156",
-          "next": "0.0000026",
-          "pct_change": 66.67
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-18",
-      "type": "price_changed",
-      "id": "google/gemma-4-31b-it",
-      "provider": "google",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000012",
-          "next": "0.00000022",
-          "pct_change": 83.33
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000037",
-          "next": "0.00000055",
-          "pct_change": 48.65
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-18",
-      "type": "price_changed",
-      "id": "moonshotai/kimi-k2.7-code",
-      "provider": "moonshotai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000075",
-          "next": "0.000001",
-          "pct_change": 33.33
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000035",
-          "next": "0.0000044",
-          "pct_change": 25.71
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-18",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.2",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000009212",
-          "next": "0.0000004158",
-          "pct_change": -54.86
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000028952",
-          "next": "0.0000013068",
-          "pct_change": -54.86
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-18",
-      "type": "model_added",
-      "id": "thinkingmachines/inkling",
-      "provider": "thinkingmachines",
-      "snapshot": {
-        "id": "thinkingmachines/inkling",
-        "name": "Thinking Machines: Inkling",
-        "provider": "thinkingmachines",
-        "pricing": {
-          "prompt": "0.000001",
-          "completion": "0.00000405",
-          "image": null,
-          "request": null
-        },
-        "context_length": 1048576,
-        "max_completion_tokens": null,
-        "expiration_date": null,
-        "created": 1784325956,
-        "first_seen": "2026-07-18",
-        "last_seen": "2026-07-18"
-      }
-    },
-    {
-      "ts": "2026-07-17",
-      "type": "price_changed",
-      "id": "qwen/qwen3-14b",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000001",
-          "next": "0.00000012",
-          "pct_change": 20
-        }
-      ]
     }
   ],
   "scheduled_funerals": [
-    {
-      "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
-      "provider": "cognitivecomputations",
-      "expiration_date": "2026-07-19"
-    },
-    {
-      "id": "meta-llama/llama-3.2-3b-instruct:free",
-      "provider": "meta-llama",
-      "expiration_date": "2026-07-19"
-    },
-    {
-      "id": "meta-llama/llama-3.3-70b-instruct:free",
-      "provider": "meta-llama",
-      "expiration_date": "2026-07-19"
-    },
-    {
-      "id": "nousresearch/hermes-3-llama-3.1-405b:free",
-      "provider": "nousresearch",
-      "expiration_date": "2026-07-19"
-    },
-    {
-      "id": "qwen/qwen3-coder:free",
-      "provider": "qwen",
-      "expiration_date": "2026-07-19"
-    },
-    {
-      "id": "qwen/qwen3-next-80b-a3b-instruct:free",
-      "provider": "qwen",
-      "expiration_date": "2026-07-19"
-    },
     {
       "id": "tencent/hy3:free",
       "provider": "tencent",

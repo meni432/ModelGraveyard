@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/nousresearch.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/nousresearch.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-07-11T00:00:00Z</updated>
+  <updated>2026-07-19T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-19:model_removed:nousresearch%2Fhermes-3-llama-3.1-405b%3Afree</id>
+    <title>Removed: nousresearch/hermes-3-llama-3.1-405b:free</title>
+    <updated>2026-07-19T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nousresearch%2Fhermes-3-llama-3.1-405b%3Afree"/>
+    <category term="model_removed"/>
+    <category term="provider:nousresearch"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-07-11:deprecation_announced:nousresearch%2Fhermes-3-llama-3.1-405b%3Afree</id>
     <title>Deprecation announced: nousresearch/hermes-3-llama-3.1-405b:free (sunset 2026-07-19)</title>

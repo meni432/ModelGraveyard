@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/nvidia.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/nvidia.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-07-17T00:00:00Z</updated>
+  <updated>2026-07-19T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-19:price_changed:nvidia%2Fnemotron-3-super-120b-a12b</id>
+    <title>Price changed: nvidia/nemotron-3-super-120b-a12b</title>
+    <updated>2026-07-19T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nvidia%2Fnemotron-3-super-120b-a12b"/>
+    <category term="price_changed"/>
+    <category term="provider:nvidia"/>
+    <summary>prompt: $0.2100/Mtok → $0.0850/Mtok (-59.52%); completion: $0.4550/Mtok → $0.4000/Mtok (-12.09%)</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-07-17:model_removed:nvidia%2Fllama-3.3-nemotron-super-49b-v1.5</id>
     <title>Removed: nvidia/llama-3.3-nemotron-super-49b-v1.5</title>
