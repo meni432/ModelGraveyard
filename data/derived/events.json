@@ -16422,6 +16422,46 @@
           "pct_change": 1.17
         }
       ]
+    },
+    {
+      "ts": "2026-07-20",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000009674",
+          "next": "0.0000009436",
+          "pct_change": -2.46
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000030404",
+          "next": "0.0000029656",
+          "pct_change": -2.46
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-20",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.7-code",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000085",
+          "next": "0.00000082",
+          "pct_change": -3.53
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000038",
+          "next": "0.00000375",
+          "pct_change": -1.32
+        }
+      ]
     }
   ]
 }
