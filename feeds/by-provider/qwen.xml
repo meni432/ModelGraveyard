@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/qwen.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/qwen.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-07-19T00:00:00Z</updated>
+  <updated>2026-07-20T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-20:price_changed:qwen%2Fqwen3-235b-a22b-thinking-2507</id>
+    <title>Price changed: qwen/qwen3-235b-a22b-thinking-2507</title>
+    <updated>2026-07-20T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3-235b-a22b-thinking-2507"/>
+    <category term="price_changed"/>
+    <category term="provider:qwen"/>
+    <summary>prompt: $0.1495/Mtok → $0.3000/Mtok (+100.67%); completion: $1.4950/Mtok → $3.0000/Mtok (+100.67%)</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-07-19:model_removed:qwen%2Fqwen3-coder%3Afree</id>
     <title>Removed: qwen/qwen3-coder:free</title>
@@ -895,14 +904,5 @@
     <category term="model_added"/>
     <category term="provider:qwen"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.2200/Mtok, context: 1048576.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:qwen%2Fqwen3-235b-a22b-2507</id>
-    <title>Added: qwen/qwen3-235b-a22b-2507</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3-235b-a22b-2507"/>
-    <category term="model_added"/>
-    <category term="provider:qwen"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.0710/Mtok, context: 262144.</summary>
   </entry>
 </feed>

@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/context_changed.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/context_changed.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-07-17T00:00:00Z</updated>
+  <updated>2026-07-20T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-20:context_changed:z-ai%2Fglm-5</id>
+    <title>Context window changed: z-ai/glm-5</title>
+    <updated>2026-07-20T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5"/>
+    <category term="context_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>202752 → 204800 tokens</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-07-17:context_changed:z-ai%2Fglm-4.7-flash</id>
     <title>Context window changed: z-ai/glm-4.7-flash</title>
