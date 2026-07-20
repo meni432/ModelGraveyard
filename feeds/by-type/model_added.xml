@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_added.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_added.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-07-18T00:00:00Z</updated>
+  <updated>2026-07-20T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-20:model_added:meituan%2Flongcat-2.0</id>
+    <title>Added: meituan/longcat-2.0</title>
+    <updated>2026-07-20T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meituan%2Flongcat-2.0"/>
+    <category term="model_added"/>
+    <category term="provider:meituan"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.3000/Mtok, context: 1048756.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-07-18:model_added:thinkingmachines%2Finkling</id>
     <title>Added: thinkingmachines/inkling</title>
@@ -895,14 +904,5 @@
     <category term="model_added"/>
     <category term="provider:z-ai"/>
     <summary>New model on OpenRouter. Initial prompt price: $1.2000/Mtok, context: 202752.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:arcee-ai%2Ftrinity-large-thinking</id>
-    <title>Added: arcee-ai/trinity-large-thinking</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/arcee-ai%2Ftrinity-large-thinking"/>
-    <category term="model_added"/>
-    <category term="provider:arcee-ai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.2200/Mtok, context: 262144.</summary>
   </entry>
 </feed>

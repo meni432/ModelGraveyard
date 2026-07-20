@@ -1,9 +1,52 @@
 {
   "generated_at": "2026-07-20",
-  "active_count": 338,
+  "active_count": 339,
   "dead_count": 65,
   "last_event_ts": "2026-07-20",
   "recent_events": [
+    {
+      "ts": "2026-07-20",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000009562",
+          "next": "0.0000009674",
+          "pct_change": 1.17
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000030052",
+          "next": "0.0000030404",
+          "pct_change": 1.17
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-20",
+      "type": "model_added",
+      "id": "meituan/longcat-2.0",
+      "provider": "meituan",
+      "snapshot": {
+        "id": "meituan/longcat-2.0",
+        "name": "Meituan: LongCat 2.0",
+        "provider": "meituan",
+        "pricing": {
+          "prompt": "0.0000003",
+          "completion": "0.0000012",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048756,
+        "max_completion_tokens": 262144,
+        "expiration_date": null,
+        "created": 1784554658,
+        "first_seen": "2026-07-20",
+        "last_seen": "2026-07-20"
+      }
+    },
     {
       "ts": "2026-07-20",
       "type": "price_changed",
@@ -361,46 +404,6 @@
           "prev": "0.0000008096",
           "next": "0.0000008624",
           "pct_change": 6.52
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-19",
-      "type": "price_changed",
-      "id": "minimax/minimax-m2",
-      "provider": "minimax",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000255",
-          "next": "0.0000003",
-          "pct_change": 17.65
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000102",
-          "next": "0.0000012",
-          "pct_change": 17.65
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-19",
-      "type": "price_changed",
-      "id": "google/gemma-4-31b-it",
-      "provider": "google",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000012",
-          "next": "0.00000022",
-          "pct_change": 83.33
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000037",
-          "next": "0.00000055",
-          "pct_change": 48.65
         }
       ]
     }

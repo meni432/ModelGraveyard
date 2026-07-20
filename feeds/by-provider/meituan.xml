@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ModelGraveyard — meituan</title>
+  <id>https://modelgraveyard.com/feeds/by-provider/meituan.xml</id>
+  <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/meituan.xml"/>
+  <link rel="alternate" href="https://modelgraveyard.com"/>
+  <updated>2026-07-20T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-20:model_added:meituan%2Flongcat-2.0</id>
+    <title>Added: meituan/longcat-2.0</title>
+    <updated>2026-07-20T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meituan%2Flongcat-2.0"/>
+    <category term="model_added"/>
+    <category term="provider:meituan"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.3000/Mtok, context: 1048756.</summary>
+  </entry>
+</feed>

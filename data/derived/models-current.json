@@ -1770,6 +1770,23 @@
       "last_seen": "2026-07-20"
     },
     {
+      "id": "meituan/longcat-2.0",
+      "name": "Meituan: LongCat 2.0",
+      "provider": "meituan",
+      "pricing": {
+        "prompt": "0.0000003",
+        "completion": "0.0000012",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1048756,
+      "max_completion_tokens": 262144,
+      "expiration_date": null,
+      "created": 1784554658,
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-07-20"
+    },
+    {
       "id": "meta-llama/llama-3.1-70b-instruct",
       "name": "Meta: Llama 3.1 70B Instruct",
       "provider": "meta-llama",
@@ -5718,8 +5735,8 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.0000009562",
-        "completion": "0.0000030052",
+        "prompt": "0.0000009674",
+        "completion": "0.0000030404",
         "image": null,
         "request": null
       },
