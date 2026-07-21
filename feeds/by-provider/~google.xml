@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/~google.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/~google.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-05-27T00:00:00Z</updated>
+  <updated>2026-07-21T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-21:price_changed:~google%2Fgemini-flash-latest</id>
+    <title>Price changed: ~google/gemini-flash-latest</title>
+    <updated>2026-07-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/~google%2Fgemini-flash-latest"/>
+    <category term="price_changed"/>
+    <category term="provider:~google"/>
+    <summary>completion: $9.0000/Mtok → $7.5000/Mtok (-16.67%)</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-05-27:model_added:~google%2Fgemini-pro-latest</id>
     <title>Added: ~google/gemini-pro-latest</title>

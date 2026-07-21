@@ -15,6 +15,51 @@
     <summary>prompt: $0.2200/Mtok → $0.1200/Mtok (-45.45%); completion: $0.5500/Mtok → $0.3700/Mtok (-32.73%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-07-21:model_added:google%2Fgemini-3.6-flash</id>
+    <title>Added: google/gemini-3.6-flash</title>
+    <updated>2026-07-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-3.6-flash"/>
+    <category term="model_added"/>
+    <category term="provider:google"/>
+    <summary>New model on OpenRouter. Initial prompt price: $1.5000/Mtok, context: 1048576.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-21:model_added:google%2Fgemini-3.5-flash-lite</id>
+    <title>Added: google/gemini-3.5-flash-lite</title>
+    <updated>2026-07-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-3.5-flash-lite"/>
+    <category term="model_added"/>
+    <category term="provider:google"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.3000/Mtok, context: 1048576.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-21:context_changed:google%2Fgemini-3-pro-image</id>
+    <title>Context window changed: google/gemini-3-pro-image</title>
+    <updated>2026-07-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-3-pro-image"/>
+    <category term="context_changed"/>
+    <category term="provider:google"/>
+    <summary>65536 → 131072 tokens</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-21:context_changed:google%2Fgemini-3.1-pro-preview-customtools</id>
+    <title>Context window changed: google/gemini-3.1-pro-preview-customtools</title>
+    <updated>2026-07-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-3.1-pro-preview-customtools"/>
+    <category term="context_changed"/>
+    <category term="provider:google"/>
+    <summary>1048756 → 1048576 tokens</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-21:context_changed:google%2Fgemma-3-27b-it</id>
+    <title>Context window changed: google/gemma-3-27b-it</title>
+    <updated>2026-07-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemma-3-27b-it"/>
+    <category term="context_changed"/>
+    <category term="provider:google"/>
+    <summary>131072 → 262144 tokens</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-07-20:price_changed:google%2Fgemma-4-31b-it</id>
     <title>Price changed: google/gemma-4-31b-it</title>
     <updated>2026-07-20T00:00:00Z</updated>

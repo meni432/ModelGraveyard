@@ -4,7 +4,43 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_added.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_added.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-07-20T00:00:00Z</updated>
+  <updated>2026-07-21T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-21:model_added:poolside%2Flaguna-s-2.1</id>
+    <title>Added: poolside/laguna-s-2.1</title>
+    <updated>2026-07-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/poolside%2Flaguna-s-2.1"/>
+    <category term="model_added"/>
+    <category term="provider:poolside"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.1000/Mtok, context: 1048576.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-21:model_added:poolside%2Flaguna-s-2.1%3Afree</id>
+    <title>Added: poolside/laguna-s-2.1:free</title>
+    <updated>2026-07-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/poolside%2Flaguna-s-2.1%3Afree"/>
+    <category term="model_added"/>
+    <category term="provider:poolside"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 262144.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-21:model_added:google%2Fgemini-3.6-flash</id>
+    <title>Added: google/gemini-3.6-flash</title>
+    <updated>2026-07-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-3.6-flash"/>
+    <category term="model_added"/>
+    <category term="provider:google"/>
+    <summary>New model on OpenRouter. Initial prompt price: $1.5000/Mtok, context: 1048576.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-21:model_added:google%2Fgemini-3.5-flash-lite</id>
+    <title>Added: google/gemini-3.5-flash-lite</title>
+    <updated>2026-07-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-3.5-flash-lite"/>
+    <category term="model_added"/>
+    <category term="provider:google"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.3000/Mtok, context: 1048576.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-07-20:model_added:meituan%2Flongcat-2.0</id>
     <title>Added: meituan/longcat-2.0</title>
@@ -868,41 +904,5 @@
     <category term="model_added"/>
     <category term="provider:google"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.0600/Mtok, context: 262144.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:google%2Fgemma-4-31b-it%3Afree</id>
-    <title>Added: google/gemma-4-31b-it:free</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemma-4-31b-it%3Afree"/>
-    <category term="model_added"/>
-    <category term="provider:google"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 262144.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:google%2Fgemma-4-31b-it</id>
-    <title>Added: google/gemma-4-31b-it</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemma-4-31b-it"/>
-    <category term="model_added"/>
-    <category term="provider:google"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.1200/Mtok, context: 262144.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:qwen%2Fqwen3.6-plus</id>
-    <title>Added: qwen/qwen3.6-plus</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3.6-plus"/>
-    <category term="model_added"/>
-    <category term="provider:qwen"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.3250/Mtok, context: 1000000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:z-ai%2Fglm-5v-turbo</id>
-    <title>Added: z-ai/glm-5v-turbo</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5v-turbo"/>
-    <category term="model_added"/>
-    <category term="provider:z-ai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $1.2000/Mtok, context: 202752.</summary>
   </entry>
 </feed>

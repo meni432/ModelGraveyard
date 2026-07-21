@@ -15,6 +15,24 @@
     <summary>prompt: $0.0850/Mtok → $0.0800/Mtok (-5.88%); completion: $0.4000/Mtok → $0.4500/Mtok (+12.5%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-07-21:context_changed:nvidia%2Fnemotron-3-ultra-550b-a55b</id>
+    <title>Context window changed: nvidia/nemotron-3-ultra-550b-a55b</title>
+    <updated>2026-07-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nvidia%2Fnemotron-3-ultra-550b-a55b"/>
+    <category term="context_changed"/>
+    <category term="provider:nvidia"/>
+    <summary>1000000 → 512288 tokens</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-21:context_changed:nvidia%2Fnemotron-3-super-120b-a12b%3Afree</id>
+    <title>Context window changed: nvidia/nemotron-3-super-120b-a12b:free</title>
+    <updated>2026-07-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nvidia%2Fnemotron-3-super-120b-a12b%3Afree"/>
+    <category term="context_changed"/>
+    <category term="provider:nvidia"/>
+    <summary>1000000 → 262144 tokens</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-07-19:price_changed:nvidia%2Fnemotron-3-super-120b-a12b</id>
     <title>Price changed: nvidia/nemotron-3-super-120b-a12b</title>
     <updated>2026-07-19T00:00:00Z</updated>

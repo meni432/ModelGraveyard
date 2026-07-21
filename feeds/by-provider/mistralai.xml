@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/mistralai.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/mistralai.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-07-17T00:00:00Z</updated>
+  <updated>2026-07-21T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-21:context_changed:mistralai%2Fmistral-small-3.2-24b-instruct</id>
+    <title>Context window changed: mistralai/mistral-small-3.2-24b-instruct</title>
+    <updated>2026-07-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/mistralai%2Fmistral-small-3.2-24b-instruct"/>
+    <category term="context_changed"/>
+    <category term="provider:mistralai"/>
+    <summary>131072 → 256000 tokens</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-07-17:price_changed:mistralai%2Fmistral-nemo</id>
     <title>Price changed: mistralai/mistral-nemo</title>

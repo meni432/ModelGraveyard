@@ -4,7 +4,34 @@
   <id>https://modelgraveyard.com/feeds/by-provider/meta-llama.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/meta-llama.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-07-19T00:00:00Z</updated>
+  <updated>2026-07-21T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-21:context_changed:meta-llama%2Fllama-guard-4-12b</id>
+    <title>Context window changed: meta-llama/llama-guard-4-12b</title>
+    <updated>2026-07-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meta-llama%2Fllama-guard-4-12b"/>
+    <category term="context_changed"/>
+    <category term="provider:meta-llama"/>
+    <summary>163840 → 1048576 tokens</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-21:context_changed:meta-llama%2Fllama-4-scout</id>
+    <title>Context window changed: meta-llama/llama-4-scout</title>
+    <updated>2026-07-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meta-llama%2Fllama-4-scout"/>
+    <category term="context_changed"/>
+    <category term="provider:meta-llama"/>
+    <summary>10000000 → 1310720 tokens</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-21:context_changed:meta-llama%2Fllama-3.2-1b-instruct</id>
+    <title>Context window changed: meta-llama/llama-3.2-1b-instruct</title>
+    <updated>2026-07-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meta-llama%2Fllama-3.2-1b-instruct"/>
+    <category term="context_changed"/>
+    <category term="provider:meta-llama"/>
+    <summary>131072 → 60000 tokens</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-07-19:model_removed:meta-llama%2Fllama-3.2-3b-instruct%3Afree</id>
     <title>Removed: meta-llama/llama-3.2-3b-instruct:free</title>

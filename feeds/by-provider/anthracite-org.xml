@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/anthracite-org.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/anthracite-org.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-05-27T00:00:00Z</updated>
+  <updated>2026-07-21T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-21:context_changed:anthracite-org%2Fmagnum-v4-72b</id>
+    <title>Context window changed: anthracite-org/magnum-v4-72b</title>
+    <updated>2026-07-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/anthracite-org%2Fmagnum-v4-72b"/>
+    <category term="context_changed"/>
+    <category term="provider:anthracite-org"/>
+    <summary>32768 → 16384 tokens</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-05-27:model_added:anthracite-org%2Fmagnum-v4-72b</id>
     <title>Added: anthracite-org/magnum-v4-72b</title>

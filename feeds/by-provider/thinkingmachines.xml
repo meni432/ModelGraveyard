@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/thinkingmachines.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/thinkingmachines.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-07-18T00:00:00Z</updated>
+  <updated>2026-07-21T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-21:context_changed:thinkingmachines%2Finkling</id>
+    <title>Context window changed: thinkingmachines/inkling</title>
+    <updated>2026-07-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/thinkingmachines%2Finkling"/>
+    <category term="context_changed"/>
+    <category term="provider:thinkingmachines"/>
+    <summary>1048576 → 524288 tokens</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-07-18:model_added:thinkingmachines%2Finkling</id>
     <title>Added: thinkingmachines/inkling</title>

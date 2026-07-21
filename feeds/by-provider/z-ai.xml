@@ -33,6 +33,51 @@
     <summary>prompt: $0.9408/Mtok → $0.8176/Mtok (-13.1%); completion: $2.9568/Mtok → $2.5696/Mtok (-13.1%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-07-21:price_changed:z-ai%2Fglm-5.2</id>
+    <title>Price changed: z-ai/glm-5.2</title>
+    <updated>2026-07-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>prompt: $0.8176/Mtok → $0.7896/Mtok (-3.42%); completion: $2.5696/Mtok → $2.4816/Mtok (-3.42%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-21:context_changed:z-ai%2Fglm-5.1</id>
+    <title>Context window changed: z-ai/glm-5.1</title>
+    <updated>2026-07-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.1"/>
+    <category term="context_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>202752 → 204800 tokens</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-21:context_changed:z-ai%2Fglm-4.7-flash</id>
+    <title>Context window changed: z-ai/glm-4.7-flash</title>
+    <updated>2026-07-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-4.7-flash"/>
+    <category term="context_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>200000 → 202752 tokens</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-21:context_changed:z-ai%2Fglm-4.7</id>
+    <title>Context window changed: z-ai/glm-4.7</title>
+    <updated>2026-07-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-4.7"/>
+    <category term="context_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>202752 → 204800 tokens</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-21:context_changed:z-ai%2Fglm-4.6</id>
+    <title>Context window changed: z-ai/glm-4.6</title>
+    <updated>2026-07-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-4.6"/>
+    <category term="context_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>202752 → 204800 tokens</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-07-20:price_changed:z-ai%2Fglm-5.2</id>
     <title>Price changed: z-ai/glm-5.2</title>
     <updated>2026-07-20T00:00:00Z</updated>
@@ -859,50 +904,5 @@
     <category term="model_added"/>
     <category term="provider:z-ai"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.6000/Mtok, context: 202752.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:z-ai%2Fglm-4.7-flash</id>
-    <title>Added: z-ai/glm-4.7-flash</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-4.7-flash"/>
-    <category term="model_added"/>
-    <category term="provider:z-ai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.0600/Mtok, context: 202752.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:z-ai%2Fglm-4.7</id>
-    <title>Added: z-ai/glm-4.7</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-4.7"/>
-    <category term="model_added"/>
-    <category term="provider:z-ai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.4000/Mtok, context: 202752.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:z-ai%2Fglm-4.6v</id>
-    <title>Added: z-ai/glm-4.6v</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-4.6v"/>
-    <category term="model_added"/>
-    <category term="provider:z-ai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.3000/Mtok, context: 131072.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:z-ai%2Fglm-4.6</id>
-    <title>Added: z-ai/glm-4.6</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-4.6"/>
-    <category term="model_added"/>
-    <category term="provider:z-ai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.4300/Mtok, context: 202752.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:z-ai%2Fglm-4.5v</id>
-    <title>Added: z-ai/glm-4.5v</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-4.5v"/>
-    <category term="model_added"/>
-    <category term="provider:z-ai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.6000/Mtok, context: 65536.</summary>
   </entry>
 </feed>

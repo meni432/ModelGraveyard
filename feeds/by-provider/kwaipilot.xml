@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/kwaipilot.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/kwaipilot.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-07-14T00:00:00Z</updated>
+  <updated>2026-07-21T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-21:context_changed:kwaipilot%2Fkat-coder-pro-v2</id>
+    <title>Context window changed: kwaipilot/kat-coder-pro-v2</title>
+    <updated>2026-07-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/kwaipilot%2Fkat-coder-pro-v2"/>
+    <category term="context_changed"/>
+    <category term="provider:kwaipilot"/>
+    <summary>256000 → 262144 tokens</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-07-14:model_added:kwaipilot%2Fkat-coder-air-v2.5</id>
     <title>Added: kwaipilot/kat-coder-air-v2.5</title>
