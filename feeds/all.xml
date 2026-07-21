@@ -78,6 +78,15 @@
     <summary>prompt: $0.9730/Mtok → $0.9408/Mtok (-3.31%); completion: $3.0580/Mtok → $2.9568/Mtok (-3.31%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-07-21:price_changed:z-ai%2Fglm-5.2</id>
+    <title>Price changed: z-ai/glm-5.2</title>
+    <updated>2026-07-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>prompt: $0.9408/Mtok → $0.8176/Mtok (-13.1%); completion: $2.9568/Mtok → $2.5696/Mtok (-13.1%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-07-20:price_changed:z-ai%2Fglm-5.2</id>
     <title>Price changed: z-ai/glm-5.2</title>
     <updated>2026-07-20T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:google"/>
     <summary>prompt: $0.0600/Mtok → $0.1000/Mtok (+66.67%); completion: $0.3300/Mtok → $0.3000/Mtok (-9.09%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-15:price_changed:google%2Fgemma-4-31b-it</id>
-    <title>Price changed: google/gemma-4-31b-it</title>
-    <updated>2026-07-15T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemma-4-31b-it"/>
-    <category term="price_changed"/>
-    <category term="provider:google"/>
-    <summary>completion: $0.3500/Mtok → $0.3700/Mtok (+5.71%)</summary>
   </entry>
 </feed>
