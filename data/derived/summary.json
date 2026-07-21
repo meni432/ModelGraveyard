@@ -1,9 +1,152 @@
 {
-  "generated_at": "2026-07-20",
-  "active_count": 339,
-  "dead_count": 65,
-  "last_event_ts": "2026-07-20",
+  "generated_at": "2026-07-21",
+  "active_count": 338,
+  "dead_count": 66,
+  "last_event_ts": "2026-07-21",
   "recent_events": [
+    {
+      "ts": "2026-07-21",
+      "type": "model_removed",
+      "id": "tencent/hy3:free",
+      "provider": "tencent",
+      "snapshot": {
+        "id": "tencent/hy3:free",
+        "name": "Tencent: Hy3 (free)",
+        "provider": "tencent",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 262144,
+        "expiration_date": "2026-07-21",
+        "created": 1783344048,
+        "first_seen": "2026-07-06",
+        "last_seen": "2026-07-20"
+      }
+    },
+    {
+      "ts": "2026-07-21",
+      "type": "price_changed",
+      "id": "qwen/qwen3-next-80b-a3b-instruct",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000001",
+          "next": "0.0000000975",
+          "pct_change": -2.5
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000011",
+          "next": "0.00000078",
+          "pct_change": -29.09
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-21",
+      "type": "price_changed",
+      "id": "nvidia/nemotron-3-super-120b-a12b",
+      "provider": "nvidia",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000085",
+          "next": "0.00000008",
+          "pct_change": -5.88
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000004",
+          "next": "0.00000045",
+          "pct_change": 12.5
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-21",
+      "type": "price_changed",
+      "id": "google/gemma-4-31b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000022",
+          "next": "0.00000012",
+          "pct_change": -45.45
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000055",
+          "next": "0.00000037",
+          "pct_change": -32.73
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-21",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000098",
+          "next": "0.0000000938",
+          "pct_change": -4.29
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000196",
+          "next": "0.0000001876",
+          "pct_change": -4.29
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-21",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000009436",
+          "next": "0.000000973",
+          "pct_change": 3.12
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000029656",
+          "next": "0.000003058",
+          "pct_change": 3.12
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-21",
+      "type": "price_changed",
+      "id": "tencent/hy3",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000002",
+          "next": "0.00000014",
+          "pct_change": -30
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000008",
+          "next": "0.00000058",
+          "pct_change": -27.5
+        }
+      ]
+    },
     {
       "ts": "2026-07-20",
       "type": "price_changed",
@@ -248,172 +391,9 @@
           "pct_change": -7.14
         }
       ]
-    },
-    {
-      "ts": "2026-07-19",
-      "type": "model_removed",
-      "id": "qwen/qwen3-next-80b-a3b-instruct:free",
-      "provider": "qwen",
-      "snapshot": {
-        "id": "qwen/qwen3-next-80b-a3b-instruct:free",
-        "name": "Qwen: Qwen3 Next 80B A3B Instruct (free)",
-        "provider": "qwen",
-        "pricing": {
-          "prompt": "0",
-          "completion": "0",
-          "image": null,
-          "request": null
-        },
-        "context_length": 262144,
-        "max_completion_tokens": null,
-        "expiration_date": "2026-07-19",
-        "created": 1757612213,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-07-19"
-      }
-    },
-    {
-      "ts": "2026-07-19",
-      "type": "model_removed",
-      "id": "qwen/qwen3-coder:free",
-      "provider": "qwen",
-      "snapshot": {
-        "id": "qwen/qwen3-coder:free",
-        "name": "Qwen: Qwen3 Coder 480B A35B (free)",
-        "provider": "qwen",
-        "pricing": {
-          "prompt": "0",
-          "completion": "0",
-          "image": null,
-          "request": null
-        },
-        "context_length": 1048576,
-        "max_completion_tokens": 262000,
-        "expiration_date": "2026-07-19",
-        "created": 1753230546,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-07-19"
-      }
-    },
-    {
-      "ts": "2026-07-19",
-      "type": "model_removed",
-      "id": "nousresearch/hermes-3-llama-3.1-405b:free",
-      "provider": "nousresearch",
-      "snapshot": {
-        "id": "nousresearch/hermes-3-llama-3.1-405b:free",
-        "name": "Nous: Hermes 3 405B Instruct (free)",
-        "provider": "nousresearch",
-        "pricing": {
-          "prompt": "0",
-          "completion": "0",
-          "image": null,
-          "request": null
-        },
-        "context_length": 131072,
-        "max_completion_tokens": null,
-        "expiration_date": "2026-07-19",
-        "created": 1723766400,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-07-19"
-      }
-    },
-    {
-      "ts": "2026-07-19",
-      "type": "model_removed",
-      "id": "meta-llama/llama-3.3-70b-instruct:free",
-      "provider": "meta-llama",
-      "snapshot": {
-        "id": "meta-llama/llama-3.3-70b-instruct:free",
-        "name": "Meta: Llama 3.3 70B Instruct (free)",
-        "provider": "meta-llama",
-        "pricing": {
-          "prompt": "0",
-          "completion": "0",
-          "image": null,
-          "request": null
-        },
-        "context_length": 131072,
-        "max_completion_tokens": null,
-        "expiration_date": "2026-07-19",
-        "created": 1733506137,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-07-19"
-      }
-    },
-    {
-      "ts": "2026-07-19",
-      "type": "model_removed",
-      "id": "meta-llama/llama-3.2-3b-instruct:free",
-      "provider": "meta-llama",
-      "snapshot": {
-        "id": "meta-llama/llama-3.2-3b-instruct:free",
-        "name": "Meta: Llama 3.2 3B Instruct (free)",
-        "provider": "meta-llama",
-        "pricing": {
-          "prompt": "0",
-          "completion": "0",
-          "image": null,
-          "request": null
-        },
-        "context_length": 131072,
-        "max_completion_tokens": null,
-        "expiration_date": "2026-07-19",
-        "created": 1727222400,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-07-19"
-      }
-    },
-    {
-      "ts": "2026-07-19",
-      "type": "model_removed",
-      "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
-      "provider": "cognitivecomputations",
-      "snapshot": {
-        "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
-        "name": "Venice: Uncensored (free)",
-        "provider": "cognitivecomputations",
-        "pricing": {
-          "prompt": "0",
-          "completion": "0",
-          "image": null,
-          "request": null
-        },
-        "context_length": 32768,
-        "max_completion_tokens": null,
-        "expiration_date": "2026-07-19",
-        "created": 1752094966,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-07-19"
-      }
-    },
-    {
-      "ts": "2026-07-19",
-      "type": "price_changed",
-      "id": "nvidia/nemotron-3-super-120b-a12b",
-      "provider": "nvidia",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000021",
-          "next": "0.000000085",
-          "pct_change": -59.52
-        },
-        {
-          "field": "completion",
-          "prev": "0.000000455",
-          "next": "0.0000004",
-          "pct_change": -12.09
-        }
-      ]
     }
   ],
   "scheduled_funerals": [
-    {
-      "id": "tencent/hy3:free",
-      "provider": "tencent",
-      "expiration_date": "2026-07-21"
-    },
     {
       "id": "poolside/laguna-m.1",
       "provider": "poolside",

@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-provider/tencent.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/tencent.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-07-15T00:00:00Z</updated>
+  <updated>2026-07-21T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-21:price_changed:tencent%2Fhy3</id>
+    <title>Price changed: tencent/hy3</title>
+    <updated>2026-07-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/tencent%2Fhy3"/>
+    <category term="price_changed"/>
+    <category term="provider:tencent"/>
+    <summary>prompt: $0.2000/Mtok → $0.1400/Mtok (-30%); completion: $0.8000/Mtok → $0.5800/Mtok (-27.5%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-21:model_removed:tencent%2Fhy3%3Afree</id>
+    <title>Removed: tencent/hy3:free</title>
+    <updated>2026-07-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/tencent%2Fhy3%3Afree"/>
+    <category term="model_removed"/>
+    <category term="provider:tencent"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-07-15:price_changed:tencent%2Fhy3</id>
     <title>Price changed: tencent/hy3</title>

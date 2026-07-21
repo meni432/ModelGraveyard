@@ -1,6 +1,23 @@
 {
   "buried": [
     {
+      "id": "tencent/hy3:free",
+      "name": "Tencent: Hy3 (free)",
+      "provider": "tencent",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-07-06",
+      "last_seen": "2026-07-20",
+      "buried_at": "2026-07-21",
+      "suggested_replacement": "tencent/hy3"
+    },
+    {
       "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
       "name": "Venice: Uncensored (free)",
       "provider": "cognitivecomputations",
