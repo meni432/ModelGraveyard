@@ -6,6 +6,26 @@
   "recent_events": [
     {
       "ts": "2026-07-21",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000973",
+          "next": "0.0000009408",
+          "pct_change": -3.31
+        },
+        {
+          "field": "completion",
+          "prev": "0.000003058",
+          "next": "0.0000029568",
+          "pct_change": -3.31
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-21",
       "type": "model_removed",
       "id": "tencent/hy3:free",
       "provider": "tencent",
@@ -369,26 +389,6 @@
           "prev": "0.00000055",
           "next": "0.00000037",
           "pct_change": -32.73
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-19",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.2",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000002548",
-          "next": "0.0000002366",
-          "pct_change": -7.14
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000008008",
-          "next": "0.0000007436",
-          "pct_change": -7.14
         }
       ]
     }

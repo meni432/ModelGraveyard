@@ -60,6 +60,15 @@
     <summary>prompt: $0.1000/Mtok → $0.0975/Mtok (-2.5%); completion: $1.1000/Mtok → $0.7800/Mtok (-29.09%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-07-21:price_changed:z-ai%2Fglm-5.2</id>
+    <title>Price changed: z-ai/glm-5.2</title>
+    <updated>2026-07-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>prompt: $0.9730/Mtok → $0.9408/Mtok (-3.31%); completion: $3.0580/Mtok → $2.9568/Mtok (-3.31%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-07-20:price_changed:z-ai%2Fglm-5.2</id>
     <title>Price changed: z-ai/glm-5.2</title>
     <updated>2026-07-20T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:meta-llama"/>
     <summary>prompt: $0.0500/Mtok → $0.0509/Mtok (+1.8%); completion: $0.3300/Mtok → $0.3350/Mtok (+1.52%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-15:price_changed:meta-llama%2Fllama-3.1-8b-instruct</id>
-    <title>Price changed: meta-llama/llama-3.1-8b-instruct</title>
-    <updated>2026-07-15T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/meta-llama%2Fllama-3.1-8b-instruct"/>
-    <category term="price_changed"/>
-    <category term="provider:meta-llama"/>
-    <summary>prompt: $0.0200/Mtok → $0.0500/Mtok (+150%); completion: $0.0300/Mtok → $0.0800/Mtok (+166.67%)</summary>
   </entry>
 </feed>
