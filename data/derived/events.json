@@ -17075,6 +17075,46 @@
       "provider": "gryphe",
       "prev_context": 4096,
       "next_context": 8192
+    },
+    {
+      "ts": "2026-07-22",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000007896",
+          "next": "0.0000008218",
+          "pct_change": 4.08
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000024816",
+          "next": "0.0000025828",
+          "pct_change": 4.08
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-22",
+      "type": "price_changed",
+      "id": "qwen/qwen3-next-80b-a3b-instruct",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000975",
+          "next": "0.0000001",
+          "pct_change": 2.56
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000078",
+          "next": "0.0000011",
+          "pct_change": 41.03
+        }
+      ]
     }
   ]
 }
