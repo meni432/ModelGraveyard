@@ -17175,6 +17175,40 @@
           "pct_change": 2.27
         }
       ]
+    },
+    {
+      "ts": "2026-07-22",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000819",
+          "next": "0.0000007938",
+          "pct_change": -3.08
+        },
+        {
+          "field": "completion",
+          "prev": "0.000002574",
+          "next": "0.0000024948",
+          "pct_change": -3.08
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-22",
+      "type": "price_changed",
+      "id": "google/gemma-4-31b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.00000037",
+          "next": "0.00000035",
+          "pct_change": -5.41
+        }
+      ]
     }
   ]
 }

@@ -1520,12 +1520,12 @@
       "provider": "google",
       "pricing": {
         "prompt": "0.00000012",
-        "completion": "0.00000037",
+        "completion": "0.00000035",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 16384,
+      "max_completion_tokens": 262144,
       "expiration_date": null,
       "created": 1775148486,
       "first_seen": "2026-05-27",
@@ -5657,7 +5657,7 @@
       },
       "context_length": 65536,
       "max_completion_tokens": 16384,
-      "expiration_date": "2026-12-31",
+      "expiration_date": null,
       "created": 1754922288,
       "first_seen": "2026-05-27",
       "last_seen": "2026-07-22"
@@ -5786,8 +5786,8 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.000000819",
-        "completion": "0.000002574",
+        "prompt": "0.0000007938",
+        "completion": "0.0000024948",
         "image": null,
         "request": null
       },
