@@ -24,6 +24,15 @@
     <summary>prompt: $0.8218/Mtok → $0.8008/Mtok (-2.56%); completion: $2.5828/Mtok → $2.5168/Mtok (-2.56%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-07-22:price_changed:z-ai%2Fglm-5.2</id>
+    <title>Price changed: z-ai/glm-5.2</title>
+    <updated>2026-07-22T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>prompt: $0.8008/Mtok → $0.8190/Mtok (+2.27%); completion: $2.5168/Mtok → $2.5740/Mtok (+2.27%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-07-21:price_changed:z-ai%2Fglm-5.2</id>
     <title>Price changed: z-ai/glm-5.2</title>
     <updated>2026-07-21T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="model_added"/>
     <category term="provider:z-ai"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.9800/Mtok, context: 202752.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:z-ai%2Fglm-5v-turbo</id>
-    <title>Added: z-ai/glm-5v-turbo</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5v-turbo"/>
-    <category term="model_added"/>
-    <category term="provider:z-ai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $1.2000/Mtok, context: 202752.</summary>
   </entry>
 </feed>

@@ -7,6 +7,26 @@
     {
       "ts": "2026-07-22",
       "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000008008",
+          "next": "0.000000819",
+          "pct_change": 2.27
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000025168",
+          "next": "0.000002574",
+          "pct_change": 2.27
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-22",
+      "type": "price_changed",
       "id": "deepseek/deepseek-v4-flash",
       "provider": "deepseek",
       "changes": [
@@ -203,14 +223,6 @@
       "provider": "mistralai",
       "prev_context": 131072,
       "next_context": 256000
-    },
-    {
-      "ts": "2026-07-21",
-      "type": "context_changed",
-      "id": "baidu/ernie-4.5-vl-424b-a47b",
-      "provider": "baidu",
-      "prev_context": 131072,
-      "next_context": 123000
     }
   ],
   "scheduled_funerals": [
