@@ -17115,6 +17115,46 @@
           "pct_change": 41.03
         }
       ]
+    },
+    {
+      "ts": "2026-07-22",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000008218",
+          "next": "0.0000008008",
+          "pct_change": -2.56
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000025828",
+          "next": "0.0000025168",
+          "pct_change": -2.56
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-22",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000938",
+          "next": "0.000000098",
+          "pct_change": 4.48
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000001876",
+          "next": "0.000000196",
+          "pct_change": 4.48
+        }
+      ]
     }
   ]
 }

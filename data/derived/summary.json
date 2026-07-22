@@ -7,6 +7,46 @@
     {
       "ts": "2026-07-22",
       "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000938",
+          "next": "0.000000098",
+          "pct_change": 4.48
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000001876",
+          "next": "0.000000196",
+          "pct_change": 4.48
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-22",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000008218",
+          "next": "0.0000008008",
+          "pct_change": -2.56
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000025828",
+          "next": "0.0000025168",
+          "pct_change": -2.56
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-22",
+      "type": "price_changed",
       "id": "qwen/qwen3-next-80b-a3b-instruct",
       "provider": "qwen",
       "changes": [
@@ -171,22 +211,6 @@
       "provider": "baidu",
       "prev_context": 131072,
       "next_context": 123000
-    },
-    {
-      "ts": "2026-07-21",
-      "type": "context_changed",
-      "id": "qwen/qwen3-coder",
-      "provider": "qwen",
-      "prev_context": 1048576,
-      "next_context": 262144
-    },
-    {
-      "ts": "2026-07-21",
-      "type": "context_changed",
-      "id": "qwen/qwen3-coder-30b-a3b-instruct",
-      "provider": "qwen",
-      "prev_context": 160000,
-      "next_context": 262144
     }
   ],
   "scheduled_funerals": [
