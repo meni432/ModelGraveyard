@@ -5736,12 +5736,12 @@
       "provider": "z-ai",
       "pricing": {
         "prompt": "0.00000095",
-        "completion": "0.00000255",
+        "completion": "0.00000315",
         "image": null,
         "request": null
       },
       "context_length": 204800,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 202752,
       "expiration_date": null,
       "created": 1770829182,
       "first_seen": "2026-05-27",
@@ -5786,8 +5786,8 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.000000826",
-        "completion": "0.000002596",
+        "prompt": "0.0000008078",
+        "completion": "0.0000025388",
         "image": null,
         "request": null
       },

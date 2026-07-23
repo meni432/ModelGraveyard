@@ -87,6 +87,24 @@
     <summary>prompt: $0.0509/Mtok → $0.0500/Mtok (-1.77%); completion: $0.3350/Mtok → $0.3300/Mtok (-1.49%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-07-23:price_changed:z-ai%2Fglm-5.2</id>
+    <title>Price changed: z-ai/glm-5.2</title>
+    <updated>2026-07-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>prompt: $0.8260/Mtok → $0.8078/Mtok (-2.2%); completion: $2.5960/Mtok → $2.5388/Mtok (-2.2%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-23:price_changed:z-ai%2Fglm-5</id>
+    <title>Price changed: z-ai/glm-5</title>
+    <updated>2026-07-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>completion: $2.5500/Mtok → $3.1500/Mtok (+23.53%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-07-22:price_changed:z-ai%2Fglm-5.2</id>
     <title>Price changed: z-ai/glm-5.2</title>
     <updated>2026-07-22T00:00:00Z</updated>
@@ -886,23 +904,5 @@
     <category term="model_added"/>
     <category term="provider:thinkingmachines"/>
     <summary>New model on OpenRouter. Initial prompt price: $1.0000/Mtok, context: 1048576.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-18:price_changed:z-ai%2Fglm-5.2</id>
-    <title>Price changed: z-ai/glm-5.2</title>
-    <updated>2026-07-18T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
-    <category term="price_changed"/>
-    <category term="provider:z-ai"/>
-    <summary>prompt: $0.9212/Mtok → $0.4158/Mtok (-54.86%); completion: $2.8952/Mtok → $1.3068/Mtok (-54.86%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-18:price_changed:moonshotai%2Fkimi-k2.7-code</id>
-    <title>Price changed: moonshotai/kimi-k2.7-code</title>
-    <updated>2026-07-18T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k2.7-code"/>
-    <category term="price_changed"/>
-    <category term="provider:moonshotai"/>
-    <summary>prompt: $0.7500/Mtok → $1.0000/Mtok (+33.33%); completion: $3.5000/Mtok → $4.4000/Mtok (+25.71%)</summary>
   </entry>
 </feed>

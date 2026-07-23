@@ -7,6 +7,40 @@
     {
       "ts": "2026-07-23",
       "type": "price_changed",
+      "id": "z-ai/glm-5",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.00000255",
+          "next": "0.00000315",
+          "pct_change": 23.53
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-23",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000826",
+          "next": "0.0000008078",
+          "pct_change": -2.2
+        },
+        {
+          "field": "completion",
+          "prev": "0.000002596",
+          "next": "0.0000025388",
+          "pct_change": -2.2
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-23",
+      "type": "price_changed",
       "id": "meta-llama/llama-3.2-3b-instruct",
       "provider": "meta-llama",
       "changes": [
@@ -327,22 +361,6 @@
       "provider": "microsoft",
       "prev_context": 65536,
       "next_context": 65535
-    },
-    {
-      "ts": "2026-07-21",
-      "type": "context_changed",
-      "id": "qwen/qwen-2.5-72b-instruct",
-      "provider": "qwen",
-      "prev_context": 131072,
-      "next_context": 32768
-    },
-    {
-      "ts": "2026-07-21",
-      "type": "context_changed",
-      "id": "meta-llama/llama-3.2-1b-instruct",
-      "provider": "meta-llama",
-      "prev_context": 131072,
-      "next_context": 60000
     }
   ],
   "scheduled_funerals": [
