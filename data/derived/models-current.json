@@ -1434,13 +1434,13 @@
       "name": "Google: Gemma 3 27B",
       "provider": "google",
       "pricing": {
-        "prompt": "0.0000001",
-        "completion": "0.0000003",
+        "prompt": "0.00000008",
+        "completion": "0.00000045",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1741756359,
       "first_seen": "2026-05-27",
@@ -1682,6 +1682,23 @@
       "expiration_date": null,
       "created": 1776795886,
       "first_seen": "2026-05-27",
+      "last_seen": "2026-07-23"
+    },
+    {
+      "id": "inclusionai/ling-3.0-flash:free",
+      "name": "Ling-3.0-flash (free)",
+      "provider": "inclusionai",
+      "pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "context_length": 262144,
+      "max_completion_tokens": 32768,
+      "expiration_date": null,
+      "created": 1784818580,
+      "first_seen": "2026-07-23",
       "last_seen": "2026-07-23"
     },
     {
@@ -2046,8 +2063,8 @@
       "name": "MiniMax: MiniMax M2",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0.0000003",
-        "completion": "0.0000012",
+        "prompt": "0.000000255",
+        "completion": "0.00000102",
         "image": null,
         "request": null
       },
@@ -4902,13 +4919,13 @@
       "name": "Qwen: Qwen3.5-27B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000026",
-        "completion": "0.0000026",
+        "prompt": "0.000000195",
+        "completion": "0.00000156",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 81920,
+      "max_completion_tokens": 65536,
       "expiration_date": null,
       "created": 1772053810,
       "first_seen": "2026-05-27",
@@ -5434,7 +5451,7 @@
         "image": null,
         "request": null
       },
-      "context_length": 524288,
+      "context_length": 1048576,
       "max_completion_tokens": null,
       "expiration_date": null,
       "created": 1784325956,
@@ -5786,8 +5803,8 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.0000007826",
-        "completion": "0.0000024596",
+        "prompt": "0.0000008148",
+        "completion": "0.0000025608",
         "image": null,
         "request": null
       },

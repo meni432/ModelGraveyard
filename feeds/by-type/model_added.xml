@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_added.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_added.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-07-21T00:00:00Z</updated>
+  <updated>2026-07-23T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-23:model_added:inclusionai%2Fling-3.0-flash%3Afree</id>
+    <title>Added: inclusionai/ling-3.0-flash:free</title>
+    <updated>2026-07-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/inclusionai%2Fling-3.0-flash%3Afree"/>
+    <category term="model_added"/>
+    <category term="provider:inclusionai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 262144.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-07-21:model_added:poolside%2Flaguna-s-2.1</id>
     <title>Added: poolside/laguna-s-2.1</title>
@@ -895,14 +904,5 @@
     <category term="model_added"/>
     <category term="provider:google"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 262144.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:google%2Fgemma-4-26b-a4b-it</id>
-    <title>Added: google/gemma-4-26b-a4b-it</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemma-4-26b-a4b-it"/>
-    <category term="model_added"/>
-    <category term="provider:google"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.0600/Mtok, context: 262144.</summary>
   </entry>
 </feed>
