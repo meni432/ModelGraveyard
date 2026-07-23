@@ -42,6 +42,24 @@
     <summary>completion: $2.5500/Mtok → $3.1500/Mtok (+23.53%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-07-23:price_changed:z-ai%2Fglm-5.2</id>
+    <title>Price changed: z-ai/glm-5.2</title>
+    <updated>2026-07-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>prompt: $0.8078/Mtok → $0.7826/Mtok (-3.12%); completion: $2.5388/Mtok → $2.4596/Mtok (-3.12%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-23:price_changed:z-ai%2Fglm-5</id>
+    <title>Price changed: z-ai/glm-5</title>
+    <updated>2026-07-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>completion: $3.1500/Mtok → $2.5500/Mtok (-19.05%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-07-22:price_changed:z-ai%2Fglm-5.2</id>
     <title>Price changed: z-ai/glm-5.2</title>
     <updated>2026-07-22T00:00:00Z</updated>
@@ -886,23 +904,5 @@
     <category term="model_added"/>
     <category term="provider:z-ai"/>
     <summary>New model on OpenRouter. Initial prompt price: $1.4000/Mtok, context: 1048576.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-10:context_changed:z-ai%2Fglm-5-turbo</id>
-    <title>Context window changed: z-ai/glm-5-turbo</title>
-    <updated>2026-06-10T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5-turbo"/>
-    <category term="context_changed"/>
-    <category term="provider:z-ai"/>
-    <summary>202752 → 262144 tokens</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-10:model_removed:z-ai%2Fglm-4-32b</id>
-    <title>Removed: z-ai/glm-4-32b</title>
-    <updated>2026-06-10T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-4-32b"/>
-    <category term="model_removed"/>
-    <category term="provider:z-ai"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1000/Mtok.</summary>
   </entry>
 </feed>

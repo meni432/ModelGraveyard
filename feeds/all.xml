@@ -105,6 +105,24 @@
     <summary>completion: $2.5500/Mtok → $3.1500/Mtok (+23.53%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-07-23:price_changed:z-ai%2Fglm-5.2</id>
+    <title>Price changed: z-ai/glm-5.2</title>
+    <updated>2026-07-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>prompt: $0.8078/Mtok → $0.7826/Mtok (-3.12%); completion: $2.5388/Mtok → $2.4596/Mtok (-3.12%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-23:price_changed:z-ai%2Fglm-5</id>
+    <title>Price changed: z-ai/glm-5</title>
+    <updated>2026-07-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>completion: $3.1500/Mtok → $2.5500/Mtok (-19.05%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-07-22:price_changed:z-ai%2Fglm-5.2</id>
     <title>Price changed: z-ai/glm-5.2</title>
     <updated>2026-07-22T00:00:00Z</updated>
@@ -886,23 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:google"/>
     <summary>prompt: $0.2200/Mtok → $0.1200/Mtok (-45.45%); completion: $0.5500/Mtok → $0.3700/Mtok (-32.73%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-19:price_changed:qwen%2Fqwen3-14b</id>
-    <title>Price changed: qwen/qwen3-14b</title>
-    <updated>2026-07-19T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3-14b"/>
-    <category term="price_changed"/>
-    <category term="provider:qwen"/>
-    <summary>prompt: $0.2275/Mtok → $0.1200/Mtok (-47.25%); completion: $0.9100/Mtok → $0.2400/Mtok (-73.63%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-18:model_added:thinkingmachines%2Finkling</id>
-    <title>Added: thinkingmachines/inkling</title>
-    <updated>2026-07-18T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/thinkingmachines%2Finkling"/>
-    <category term="model_added"/>
-    <category term="provider:thinkingmachines"/>
-    <summary>New model on OpenRouter. Initial prompt price: $1.0000/Mtok, context: 1048576.</summary>
   </entry>
 </feed>
