@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/nvidia.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/nvidia.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-07-21T00:00:00Z</updated>
+  <updated>2026-07-23T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-23:price_changed:nvidia%2Fnemotron-3-ultra-550b-a55b</id>
+    <title>Price changed: nvidia/nemotron-3-ultra-550b-a55b</title>
+    <updated>2026-07-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nvidia%2Fnemotron-3-ultra-550b-a55b"/>
+    <category term="price_changed"/>
+    <category term="provider:nvidia"/>
+    <summary>prompt: $0.6000/Mtok → $0.5000/Mtok (-16.67%); completion: $3.6000/Mtok → $2.2000/Mtok (-38.89%)</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-07-21:price_changed:nvidia%2Fnemotron-3-super-120b-a12b</id>
     <title>Price changed: nvidia/nemotron-3-super-120b-a12b</title>

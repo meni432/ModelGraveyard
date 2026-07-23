@@ -17209,6 +17209,180 @@
           "pct_change": -5.41
         }
       ]
+    },
+    {
+      "ts": "2026-07-23",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000007938",
+          "next": "0.000000826",
+          "pct_change": 4.06
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000024948",
+          "next": "0.000002596",
+          "pct_change": 4.06
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-23",
+      "type": "price_changed",
+      "id": "nvidia/nemotron-3-ultra-550b-a55b",
+      "provider": "nvidia",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000006",
+          "next": "0.0000005",
+          "pct_change": -16.67
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000036",
+          "next": "0.0000022",
+          "pct_change": -38.89
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-23",
+      "type": "price_changed",
+      "id": "qwen/qwen3.6-27b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000045",
+          "next": "0.0000006",
+          "pct_change": 33.33
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000027",
+          "next": "0.0000036",
+          "pct_change": 33.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-23",
+      "type": "price_changed",
+      "id": "google/gemma-4-26b-a4b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000007",
+          "next": "0.00000012",
+          "pct_change": 71.43
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000034",
+          "next": "0.00000035",
+          "pct_change": 2.94
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-23",
+      "type": "price_changed",
+      "id": "z-ai/glm-4.7-flash",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000605",
+          "next": "0.00000006",
+          "pct_change": -0.83
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-23",
+      "type": "price_changed",
+      "id": "qwen/qwen3-vl-30b-a3b-instruct",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000013",
+          "next": "0.00000015",
+          "pct_change": 15.38
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000052",
+          "next": "0.0000006",
+          "pct_change": 15.38
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-23",
+      "type": "price_changed",
+      "id": "qwen/qwen3-next-80b-a3b-instruct",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000001",
+          "next": "0.00000015",
+          "pct_change": 50
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000011",
+          "next": "0.0000012",
+          "pct_change": 9.09
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-23",
+      "type": "price_changed",
+      "id": "qwen/qwen3-14b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000012",
+          "next": "0.0000002275",
+          "pct_change": 89.58
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000024",
+          "next": "0.00000091",
+          "pct_change": 279.17
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-23",
+      "type": "price_changed",
+      "id": "meta-llama/llama-3.2-3b-instruct",
+      "provider": "meta-llama",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000509",
+          "next": "0.00000005",
+          "pct_change": -1.77
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000335",
+          "next": "0.00000033",
+          "pct_change": -1.49
+        }
+      ]
     }
   ]
 }
