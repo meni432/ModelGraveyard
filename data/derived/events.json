@@ -17716,6 +17716,100 @@
           "pct_change": 55
         }
       ]
+    },
+    {
+      "ts": "2026-07-24",
+      "type": "price_changed",
+      "id": "tencent/hy3",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000014",
+          "next": "0.000000132",
+          "pct_change": -5.71
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000058",
+          "next": "0.000000528",
+          "pct_change": -8.97
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-24",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000007798",
+          "next": "0.0000007574",
+          "pct_change": -2.87
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000024508",
+          "next": "0.0000023804",
+          "pct_change": -2.87
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-24",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.7-code",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.0000035",
+          "next": "0.00000349",
+          "pct_change": -0.29
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-24",
+      "type": "price_changed",
+      "id": "minimax/minimax-m2.7",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000003",
+          "next": "0.00000025",
+          "pct_change": -16.67
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000012",
+          "next": "0.000001",
+          "pct_change": -16.67
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-24",
+      "type": "price_changed",
+      "id": "minimax/minimax-m2",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000003",
+          "next": "0.000000255",
+          "pct_change": -15
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000012",
+          "next": "0.00000102",
+          "pct_change": -15
+        }
+      ]
     }
   ]
 }

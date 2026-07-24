@@ -2063,8 +2063,8 @@
       "name": "MiniMax: MiniMax M2",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0.0000003",
-        "completion": "0.0000012",
+        "prompt": "0.000000255",
+        "completion": "0.00000102",
         "image": null,
         "request": null
       },
@@ -2131,8 +2131,8 @@
       "name": "MiniMax: MiniMax M2.7",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0.0000003",
-        "completion": "0.0000012",
+        "prompt": "0.00000025",
+        "completion": "0.000001",
         "image": null,
         "request": null
       },
@@ -2574,7 +2574,7 @@
       "provider": "moonshotai",
       "pricing": {
         "prompt": "0.00000071",
-        "completion": "0.0000035",
+        "completion": "0.00000349",
         "image": null,
         "request": null
       },
@@ -5344,13 +5344,13 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.00000014",
-        "completion": "0.00000058",
+        "prompt": "0.000000132",
+        "completion": "0.000000528",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": 128000,
       "expiration_date": null,
       "created": 1783344048,
       "first_seen": "2026-07-06",
@@ -5803,8 +5803,8 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.0000007798",
-        "completion": "0.0000024508",
+        "prompt": "0.0000007574",
+        "completion": "0.0000023804",
         "image": null,
         "request": null
       },
