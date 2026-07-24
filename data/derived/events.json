@@ -17562,6 +17562,160 @@
           "pct_change": 50
         }
       ]
+    },
+    {
+      "ts": "2026-07-24",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000008148",
+          "next": "0.0000007798",
+          "pct_change": -4.3
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000025608",
+          "next": "0.0000024508",
+          "pct_change": -4.3
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-24",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.7-code",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000082",
+          "next": "0.00000071",
+          "pct_change": -13.41
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000375",
+          "next": "0.0000035",
+          "pct_change": -6.67
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-24",
+      "type": "price_changed",
+      "id": "qwen/qwen3.6-27b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000006",
+          "next": "0.000000288",
+          "pct_change": -52
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000036",
+          "next": "0.0000024",
+          "pct_change": -33.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-24",
+      "type": "price_changed",
+      "id": "google/gemma-4-31b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000012",
+          "next": "0.0000001",
+          "pct_change": -16.67
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-24",
+      "type": "price_changed",
+      "id": "minimax/minimax-m2.7",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000025",
+          "next": "0.0000003",
+          "pct_change": 20
+        },
+        {
+          "field": "completion",
+          "prev": "0.000001",
+          "next": "0.0000012",
+          "pct_change": 20
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-24",
+      "type": "price_changed",
+      "id": "minimax/minimax-m2",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000255",
+          "next": "0.0000003",
+          "pct_change": 17.65
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000102",
+          "next": "0.0000012",
+          "pct_change": 17.65
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-24",
+      "type": "price_changed",
+      "id": "openai/gpt-oss-20b",
+      "provider": "openai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000003",
+          "next": "0.000000029",
+          "pct_change": -3.33
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000013",
+          "next": "0.00000014",
+          "pct_change": 7.69
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-24",
+      "type": "price_changed",
+      "id": "qwen/qwen3-coder",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000003",
+          "next": "0.00000038",
+          "pct_change": 26.67
+        },
+        {
+          "field": "completion",
+          "prev": "0.000001",
+          "next": "0.00000155",
+          "pct_change": 55
+        }
+      ]
     }
   ]
 }
