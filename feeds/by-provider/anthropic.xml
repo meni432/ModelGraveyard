@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-provider/anthropic.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/anthropic.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-07-02T00:00:00Z</updated>
+  <updated>2026-07-24T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-24:model_added:anthropic%2Fclaude-opus-5-fast</id>
+    <title>Added: anthropic/claude-opus-5-fast</title>
+    <updated>2026-07-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-opus-5-fast"/>
+    <category term="model_added"/>
+    <category term="provider:anthropic"/>
+    <summary>New model on OpenRouter. Initial prompt price: $10.0000/Mtok, context: 1000000.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-24:model_added:anthropic%2Fclaude-opus-5</id>
+    <title>Added: anthropic/claude-opus-5</title>
+    <updated>2026-07-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-opus-5"/>
+    <category term="model_added"/>
+    <category term="provider:anthropic"/>
+    <summary>New model on OpenRouter. Initial prompt price: $5.0000/Mtok, context: 1000000.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-07-02:model_added:anthropic%2Fclaude-fable-5</id>
     <title>Added: anthropic/claude-fable-5</title>

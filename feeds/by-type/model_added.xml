@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_added.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_added.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-07-23T00:00:00Z</updated>
+  <updated>2026-07-24T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-24:model_added:anthropic%2Fclaude-opus-5-fast</id>
+    <title>Added: anthropic/claude-opus-5-fast</title>
+    <updated>2026-07-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-opus-5-fast"/>
+    <category term="model_added"/>
+    <category term="provider:anthropic"/>
+    <summary>New model on OpenRouter. Initial prompt price: $10.0000/Mtok, context: 1000000.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-24:model_added:anthropic%2Fclaude-opus-5</id>
+    <title>Added: anthropic/claude-opus-5</title>
+    <updated>2026-07-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-opus-5"/>
+    <category term="model_added"/>
+    <category term="provider:anthropic"/>
+    <summary>New model on OpenRouter. Initial prompt price: $5.0000/Mtok, context: 1000000.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-07-23:model_added:inclusionai%2Fling-3.0-flash%3Afree</id>
     <title>Added: inclusionai/ling-3.0-flash:free</title>
@@ -886,23 +904,5 @@
     <category term="model_added"/>
     <category term="provider:anthropic"/>
     <summary>New model on OpenRouter. Initial prompt price: $30.0000/Mtok, context: 1000000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:z-ai%2Fglm-5.1</id>
-    <title>Added: z-ai/glm-5.1</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.1"/>
-    <category term="model_added"/>
-    <category term="provider:z-ai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.9800/Mtok, context: 202752.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:google%2Fgemma-4-26b-a4b-it%3Afree</id>
-    <title>Added: google/gemma-4-26b-a4b-it:free</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemma-4-26b-a4b-it%3Afree"/>
-    <category term="model_added"/>
-    <category term="provider:google"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 262144.</summary>
   </entry>
 </feed>

@@ -1,9 +1,115 @@
 {
   "generated_at": "2026-07-24",
-  "active_count": 343,
+  "active_count": 345,
   "dead_count": 66,
   "last_event_ts": "2026-07-24",
   "recent_events": [
+    {
+      "ts": "2026-07-24",
+      "type": "price_changed",
+      "id": "qwen/qwen3-next-80b-a3b-instruct",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000015",
+          "next": "0.0000001",
+          "pct_change": -33.33
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000012",
+          "next": "0.0000011",
+          "pct_change": -8.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-24",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.7-code",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000071",
+          "next": "0.00000082",
+          "pct_change": 15.49
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000349",
+          "next": "0.00000375",
+          "pct_change": 7.45
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-24",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000008106",
+          "next": "0.0000007798",
+          "pct_change": -3.8
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000025476",
+          "next": "0.0000024508",
+          "pct_change": -3.8
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-24",
+      "type": "model_added",
+      "id": "anthropic/claude-opus-5",
+      "provider": "anthropic",
+      "snapshot": {
+        "id": "anthropic/claude-opus-5",
+        "name": "Claude Opus 5",
+        "provider": "anthropic",
+        "pricing": {
+          "prompt": "0.000005",
+          "completion": "0.000025",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1000000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1784912544,
+        "first_seen": "2026-07-24",
+        "last_seen": "2026-07-24"
+      }
+    },
+    {
+      "ts": "2026-07-24",
+      "type": "model_added",
+      "id": "anthropic/claude-opus-5-fast",
+      "provider": "anthropic",
+      "snapshot": {
+        "id": "anthropic/claude-opus-5-fast",
+        "name": "Claude Opus 5 (Fast)",
+        "provider": "anthropic",
+        "pricing": {
+          "prompt": "0.00001",
+          "completion": "0.00005",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1000000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1784912546,
+        "first_seen": "2026-07-24",
+        "last_seen": "2026-07-24"
+      }
+    },
     {
       "ts": "2026-07-24",
       "type": "price_changed",
@@ -289,106 +395,6 @@
           "prev": "0.00000375",
           "next": "0.0000035",
           "pct_change": -6.67
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-24",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.2",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000008148",
-          "next": "0.0000007798",
-          "pct_change": -4.3
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000025608",
-          "next": "0.0000024508",
-          "pct_change": -4.3
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-23",
-      "type": "price_changed",
-      "id": "google/gemma-3-27b-it",
-      "provider": "google",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000001",
-          "next": "0.00000008",
-          "pct_change": -20
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000003",
-          "next": "0.00000045",
-          "pct_change": 50
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-23",
-      "type": "price_changed",
-      "id": "minimax/minimax-m2",
-      "provider": "minimax",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000003",
-          "next": "0.000000255",
-          "pct_change": -15
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000012",
-          "next": "0.00000102",
-          "pct_change": -15
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-23",
-      "type": "price_changed",
-      "id": "qwen/qwen3.5-27b",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000026",
-          "next": "0.000000195",
-          "pct_change": -25
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000026",
-          "next": "0.00000156",
-          "pct_change": -40
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-23",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.2",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000007826",
-          "next": "0.0000008148",
-          "pct_change": 4.11
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000024596",
-          "next": "0.0000025608",
-          "pct_change": 4.11
         }
       ]
     }

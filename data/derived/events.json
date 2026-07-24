@@ -17870,6 +17870,112 @@
           "pct_change": -35.48
         }
       ]
+    },
+    {
+      "ts": "2026-07-24",
+      "type": "model_added",
+      "id": "anthropic/claude-opus-5-fast",
+      "provider": "anthropic",
+      "snapshot": {
+        "id": "anthropic/claude-opus-5-fast",
+        "name": "Claude Opus 5 (Fast)",
+        "provider": "anthropic",
+        "pricing": {
+          "prompt": "0.00001",
+          "completion": "0.00005",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1000000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1784912546,
+        "first_seen": "2026-07-24",
+        "last_seen": "2026-07-24"
+      }
+    },
+    {
+      "ts": "2026-07-24",
+      "type": "model_added",
+      "id": "anthropic/claude-opus-5",
+      "provider": "anthropic",
+      "snapshot": {
+        "id": "anthropic/claude-opus-5",
+        "name": "Claude Opus 5",
+        "provider": "anthropic",
+        "pricing": {
+          "prompt": "0.000005",
+          "completion": "0.000025",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1000000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1784912544,
+        "first_seen": "2026-07-24",
+        "last_seen": "2026-07-24"
+      }
+    },
+    {
+      "ts": "2026-07-24",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000008106",
+          "next": "0.0000007798",
+          "pct_change": -3.8
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000025476",
+          "next": "0.0000024508",
+          "pct_change": -3.8
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-24",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.7-code",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000071",
+          "next": "0.00000082",
+          "pct_change": 15.49
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000349",
+          "next": "0.00000375",
+          "pct_change": 7.45
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-24",
+      "type": "price_changed",
+      "id": "qwen/qwen3-next-80b-a3b-instruct",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000015",
+          "next": "0.0000001",
+          "pct_change": -33.33
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000012",
+          "next": "0.0000011",
+          "pct_change": -8.33
+        }
+      ]
     }
   ]
 }

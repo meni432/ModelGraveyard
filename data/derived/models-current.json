@@ -563,6 +563,40 @@
       "last_seen": "2026-07-24"
     },
     {
+      "id": "anthropic/claude-opus-5",
+      "name": "Claude Opus 5",
+      "provider": "anthropic",
+      "pricing": {
+        "prompt": "0.000005",
+        "completion": "0.000025",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1000000,
+      "max_completion_tokens": 128000,
+      "expiration_date": null,
+      "created": 1784912544,
+      "first_seen": "2026-07-24",
+      "last_seen": "2026-07-24"
+    },
+    {
+      "id": "anthropic/claude-opus-5-fast",
+      "name": "Claude Opus 5 (Fast)",
+      "provider": "anthropic",
+      "pricing": {
+        "prompt": "0.00001",
+        "completion": "0.00005",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1000000,
+      "max_completion_tokens": 128000,
+      "expiration_date": null,
+      "created": 1784912546,
+      "first_seen": "2026-07-24",
+      "last_seen": "2026-07-24"
+    },
+    {
       "id": "anthropic/claude-sonnet-4",
       "name": "Anthropic: Claude Sonnet 4",
       "provider": "anthropic",
@@ -2573,8 +2607,8 @@
       "name": "MoonshotAI: Kimi K2.7 Code",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.00000071",
-        "completion": "0.00000349",
+        "prompt": "0.00000082",
+        "completion": "0.00000375",
         "image": null,
         "request": null
       },
@@ -4749,8 +4783,8 @@
       "name": "Qwen: Qwen3 Next 80B A3B Instruct",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000012",
+        "prompt": "0.0000001",
+        "completion": "0.0000011",
         "image": null,
         "request": null
       },
@@ -5803,8 +5837,8 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.0000008106",
-        "completion": "0.0000025476",
+        "prompt": "0.0000007798",
+        "completion": "0.0000024508",
         "image": null,
         "request": null
       },
