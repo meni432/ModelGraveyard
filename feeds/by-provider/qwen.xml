@@ -24,6 +24,15 @@
     <summary>prompt: $0.3000/Mtok → $0.3800/Mtok (+26.67%); completion: $1.0000/Mtok → $1.5500/Mtok (+55%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-07-24:price_changed:qwen%2Fqwen3-coder</id>
+    <title>Price changed: qwen/qwen3-coder</title>
+    <updated>2026-07-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3-coder"/>
+    <category term="price_changed"/>
+    <category term="provider:qwen"/>
+    <summary>prompt: $0.3800/Mtok → $0.3000/Mtok (-21.05%); completion: $1.5500/Mtok → $1.0000/Mtok (-35.48%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-07-23:price_changed:qwen%2Fqwen3.6-27b</id>
     <title>Price changed: qwen/qwen3.6-27b</title>
     <updated>2026-07-23T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="model_added"/>
     <category term="provider:qwen"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.3900/Mtok, context: 262144.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:qwen%2Fqwen3-max-thinking</id>
-    <title>Added: qwen/qwen3-max-thinking</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3-max-thinking"/>
-    <category term="model_added"/>
-    <category term="provider:qwen"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.7800/Mtok, context: 262144.</summary>
   </entry>
 </feed>

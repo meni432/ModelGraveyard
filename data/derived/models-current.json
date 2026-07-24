@@ -1519,13 +1519,13 @@
       "name": "Google: Gemma 4 31B",
       "provider": "google",
       "pricing": {
-        "prompt": "0.0000001",
-        "completion": "0.00000035",
+        "prompt": "0.00000014",
+        "completion": "0.0000004",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 8192,
+      "max_completion_tokens": 262144,
       "expiration_date": null,
       "created": 1775148486,
       "first_seen": "2026-05-27",
@@ -4630,8 +4630,8 @@
       "name": "Qwen: Qwen3 Coder 480B A35B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000038",
-        "completion": "0.00000155",
+        "prompt": "0.0000003",
+        "completion": "0.000001",
         "image": null,
         "request": null
       },
@@ -5803,8 +5803,8 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.0000007574",
-        "completion": "0.0000023804",
+        "prompt": "0.0000008106",
+        "completion": "0.0000025476",
         "image": null,
         "request": null
       },
