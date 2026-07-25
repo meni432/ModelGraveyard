@@ -96,6 +96,24 @@
     <summary>prompt: $0.7924/Mtok → $0.7504/Mtok (-5.3%); completion: $2.4904/Mtok → $2.3584/Mtok (-5.3%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-07-25:price_changed:z-ai%2Fglm-5.2</id>
+    <title>Price changed: z-ai/glm-5.2</title>
+    <updated>2026-07-25T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>prompt: $0.7504/Mtok → $0.7168/Mtok (-4.48%); completion: $2.3584/Mtok → $2.2528/Mtok (-4.48%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-25:price_changed:arcee-ai%2Ftrinity-large-thinking</id>
+    <title>Price changed: arcee-ai/trinity-large-thinking</title>
+    <updated>2026-07-25T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/arcee-ai%2Ftrinity-large-thinking"/>
+    <category term="price_changed"/>
+    <category term="provider:arcee-ai"/>
+    <summary>prompt: $0.2500/Mtok → $0.2200/Mtok (-12%); completion: $0.8000/Mtok → $0.8500/Mtok (+6.25%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-07-24:price_changed:z-ai%2Fglm-5.2</id>
     <title>Price changed: z-ai/glm-5.2</title>
     <updated>2026-07-24T00:00:00Z</updated>
@@ -886,23 +904,5 @@
     <category term="context_changed"/>
     <category term="provider:qwen"/>
     <summary>131702 → 131072 tokens</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-21:context_changed:meta-llama%2Fllama-4-scout</id>
-    <title>Context window changed: meta-llama/llama-4-scout</title>
-    <updated>2026-07-21T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/meta-llama%2Fllama-4-scout"/>
-    <category term="context_changed"/>
-    <category term="provider:meta-llama"/>
-    <summary>10000000 → 1310720 tokens</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-21:context_changed:google%2Fgemma-3-27b-it</id>
-    <title>Context window changed: google/gemma-3-27b-it</title>
-    <updated>2026-07-21T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemma-3-27b-it"/>
-    <category term="context_changed"/>
-    <category term="provider:google"/>
-    <summary>131072 → 262144 tokens</summary>
   </entry>
 </feed>

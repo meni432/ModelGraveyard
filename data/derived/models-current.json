@@ -669,13 +669,13 @@
       "name": "Arcee AI: Trinity Large Thinking",
       "provider": "arcee-ai",
       "pricing": {
-        "prompt": "0.00000025",
-        "completion": "0.0000008",
+        "prompt": "0.00000022",
+        "completion": "0.00000085",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 80000,
+      "max_completion_tokens": 262144,
       "expiration_date": null,
       "created": 1775058318,
       "first_seen": "2026-05-27",
@@ -5837,8 +5837,8 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.0000007504",
-        "completion": "0.0000023584",
+        "prompt": "0.0000007168",
+        "completion": "0.0000022528",
         "image": null,
         "request": null
       },

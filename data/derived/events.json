@@ -18158,6 +18158,46 @@
           "pct_change": -5.3
         }
       ]
+    },
+    {
+      "ts": "2026-07-25",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000007504",
+          "next": "0.0000007168",
+          "pct_change": -4.48
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000023584",
+          "next": "0.0000022528",
+          "pct_change": -4.48
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-25",
+      "type": "price_changed",
+      "id": "arcee-ai/trinity-large-thinking",
+      "provider": "arcee-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000025",
+          "next": "0.00000022",
+          "pct_change": -12
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000008",
+          "next": "0.00000085",
+          "pct_change": 6.25
+        }
+      ]
     }
   ]
 }
