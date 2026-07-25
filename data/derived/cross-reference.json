@@ -1,10 +1,10 @@
 {
   "generated_at": "2026-07-25",
   "openrouter_catalog_size": 333,
-  "litellm_catalog_size": 2158,
-  "shared_count": 91,
-  "openrouter_only_count": 242,
-  "litellm_only_count": 2060,
+  "litellm_catalog_size": 2168,
+  "shared_count": 92,
+  "openrouter_only_count": 241,
+  "litellm_only_count": 2069,
   "disagreements": [
     {
       "slug": "anthropic:claude-3-5-haiku",
@@ -134,6 +134,11 @@
       "slug": "anthropic:claude-opus-4-8",
       "openrouter_id": "anthropic/claude-opus-4.8",
       "litellm_id": "claude-opus-4-8"
+    },
+    {
+      "slug": "anthropic:claude-opus-5",
+      "openrouter_id": "anthropic/claude-opus-5",
+      "litellm_id": "claude-opus-5"
     },
     {
       "slug": "anthropic:claude-sonnet-4",
