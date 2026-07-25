@@ -15,6 +15,15 @@
     <summary>prompt: $0.2880/Mtok → $0.2890/Mtok (+0.35%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-07-25:price_changed:qwen%2Fqwen3-30b-a3b-instruct-2507</id>
+    <title>Price changed: qwen/qwen3-30b-a3b-instruct-2507</title>
+    <updated>2026-07-25T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3-30b-a3b-instruct-2507"/>
+    <category term="price_changed"/>
+    <category term="provider:qwen"/>
+    <summary>prompt: $0.1000/Mtok → $0.0481/Mtok (-51.85%); completion: $0.3000/Mtok → $0.1930/Mtok (-35.65%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-07-24:price_changed:qwen%2Fqwen3.6-27b</id>
     <title>Price changed: qwen/qwen3.6-27b</title>
     <updated>2026-07-24T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="model_added"/>
     <category term="provider:qwen"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.2600/Mtok, context: 262144.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:qwen%2Fqwen3.5-flash-02-23</id>
-    <title>Added: qwen/qwen3.5-flash-02-23</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3.5-flash-02-23"/>
-    <category term="model_added"/>
-    <category term="provider:qwen"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.0650/Mtok, context: 1000000.</summary>
   </entry>
 </feed>
