@@ -7,6 +7,26 @@
     {
       "ts": "2026-07-25",
       "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000007924",
+          "next": "0.0000007504",
+          "pct_change": -5.3
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000024904",
+          "next": "0.0000023584",
+          "pct_change": -5.3
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-25",
+      "type": "price_changed",
       "id": "openai/gpt-oss-20b",
       "provider": "openai",
       "changes": [
@@ -369,20 +389,6 @@
           "prev": "0.0000012",
           "next": "0.000001",
           "pct_change": -16.67
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-24",
-      "type": "price_changed",
-      "id": "moonshotai/kimi-k2.7-code",
-      "provider": "moonshotai",
-      "changes": [
-        {
-          "field": "completion",
-          "prev": "0.0000035",
-          "next": "0.00000349",
-          "pct_change": -0.29
         }
       ]
     }

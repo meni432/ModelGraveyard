@@ -18138,6 +18138,26 @@
           "pct_change": -7.14
         }
       ]
+    },
+    {
+      "ts": "2026-07-25",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000007924",
+          "next": "0.0000007504",
+          "pct_change": -5.3
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000024904",
+          "next": "0.0000023584",
+          "pct_change": -5.3
+        }
+      ]
     }
   ]
 }
