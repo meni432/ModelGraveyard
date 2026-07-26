@@ -18312,6 +18312,60 @@
           "pct_change": 7.69
         }
       ]
+    },
+    {
+      "ts": "2026-07-26",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000007182",
+          "next": "0.0000007042",
+          "pct_change": -1.95
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000022572",
+          "next": "0.0000022132",
+          "pct_change": -1.95
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-26",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.7-code",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000078",
+          "next": "0.00000075",
+          "pct_change": -3.85
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-26",
+      "type": "price_changed",
+      "id": "qwen/qwen3-30b-a3b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000013",
+          "next": "0.00000012",
+          "pct_change": -7.69
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000052",
+          "next": "0.0000005",
+          "pct_change": -3.85
+        }
+      ]
     }
   ]
 }

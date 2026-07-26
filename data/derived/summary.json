@@ -7,6 +7,60 @@
     {
       "ts": "2026-07-26",
       "type": "price_changed",
+      "id": "qwen/qwen3-30b-a3b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000013",
+          "next": "0.00000012",
+          "pct_change": -7.69
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000052",
+          "next": "0.0000005",
+          "pct_change": -3.85
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-26",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.7-code",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000078",
+          "next": "0.00000075",
+          "pct_change": -3.85
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-26",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000007182",
+          "next": "0.0000007042",
+          "pct_change": -1.95
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000022572",
+          "next": "0.0000022132",
+          "pct_change": -1.95
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-26",
+      "type": "price_changed",
       "id": "openai/gpt-oss-20b",
       "provider": "openai",
       "changes": [
@@ -317,66 +371,6 @@
           "prev": "0.00000375",
           "next": "0.0000035",
           "pct_change": -6.67
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-25",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.2",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000007798",
-          "next": "0.0000007924",
-          "pct_change": 1.62
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000024508",
-          "next": "0.0000024904",
-          "pct_change": 1.62
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-24",
-      "type": "price_changed",
-      "id": "qwen/qwen3-next-80b-a3b-instruct",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000015",
-          "next": "0.0000001",
-          "pct_change": -33.33
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000012",
-          "next": "0.0000011",
-          "pct_change": -8.33
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-24",
-      "type": "price_changed",
-      "id": "moonshotai/kimi-k2.7-code",
-      "provider": "moonshotai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000071",
-          "next": "0.00000082",
-          "pct_change": 15.49
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000349",
-          "next": "0.00000375",
-          "pct_change": 7.45
         }
       ]
     }

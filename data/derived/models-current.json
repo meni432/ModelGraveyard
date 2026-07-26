@@ -2607,7 +2607,7 @@
       "name": "MoonshotAI: Kimi K2.7 Code",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.00000078",
+        "prompt": "0.00000075",
         "completion": "0.0000035",
         "image": null,
         "request": null
@@ -4579,13 +4579,13 @@
       "name": "Qwen: Qwen3 30B A3B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000013",
-        "completion": "0.00000052",
+        "prompt": "0.00000012",
+        "completion": "0.0000005",
         "image": null,
         "request": null
       },
       "context_length": 131072,
-      "max_completion_tokens": 8192,
+      "max_completion_tokens": 16384,
       "expiration_date": null,
       "created": 1745878604,
       "first_seen": "2026-05-27",
@@ -5837,8 +5837,8 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.0000007182",
-        "completion": "0.0000022572",
+        "prompt": "0.0000007042",
+        "completion": "0.0000022132",
         "image": null,
         "request": null
       },
