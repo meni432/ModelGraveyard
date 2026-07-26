@@ -18386,6 +18386,86 @@
           "pct_change": -4.57
         }
       ]
+    },
+    {
+      "ts": "2026-07-26",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000672",
+          "next": "0.0000006692",
+          "pct_change": -0.42
+        },
+        {
+          "field": "completion",
+          "prev": "0.000002112",
+          "next": "0.0000021032",
+          "pct_change": -0.42
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-26",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.7-code",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000075",
+          "next": "0.00000073",
+          "pct_change": -2.67
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-26",
+      "type": "model_removed",
+      "id": "inflection/inflection-3-pi",
+      "provider": "inflection",
+      "snapshot": {
+        "id": "inflection/inflection-3-pi",
+        "name": "Inflection: Inflection 3 Pi",
+        "provider": "inflection",
+        "pricing": {
+          "prompt": "0.0000025",
+          "completion": "0.00001",
+          "image": null,
+          "request": null
+        },
+        "context_length": 8000,
+        "max_completion_tokens": 1024,
+        "expiration_date": null,
+        "created": 1728604800,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-07-26"
+      }
+    },
+    {
+      "ts": "2026-07-26",
+      "type": "model_removed",
+      "id": "inflection/inflection-3-productivity",
+      "provider": "inflection",
+      "snapshot": {
+        "id": "inflection/inflection-3-productivity",
+        "name": "Inflection: Inflection 3 Productivity",
+        "provider": "inflection",
+        "pricing": {
+          "prompt": "0.0000025",
+          "completion": "0.00001",
+          "image": null,
+          "request": null
+        },
+        "context_length": 8000,
+        "max_completion_tokens": 1024,
+        "expiration_date": null,
+        "created": 1728604800,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-07-26"
+      }
     }
   ]
 }

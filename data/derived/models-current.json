@@ -1753,40 +1753,6 @@
       "last_seen": "2026-07-26"
     },
     {
-      "id": "inflection/inflection-3-pi",
-      "name": "Inflection: Inflection 3 Pi",
-      "provider": "inflection",
-      "pricing": {
-        "prompt": "0.0000025",
-        "completion": "0.00001",
-        "image": null,
-        "request": null
-      },
-      "context_length": 8000,
-      "max_completion_tokens": 1024,
-      "expiration_date": null,
-      "created": 1728604800,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-07-26"
-    },
-    {
-      "id": "inflection/inflection-3-productivity",
-      "name": "Inflection: Inflection 3 Productivity",
-      "provider": "inflection",
-      "pricing": {
-        "prompt": "0.0000025",
-        "completion": "0.00001",
-        "image": null,
-        "request": null
-      },
-      "context_length": 8000,
-      "max_completion_tokens": 1024,
-      "expiration_date": null,
-      "created": 1728604800,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-07-26"
-    },
-    {
       "id": "kwaipilot/kat-coder-air-v2.5",
       "name": "Kwaipilot: KAT-Coder-Air V2.5",
       "provider": "kwaipilot",
@@ -2607,7 +2573,7 @@
       "name": "MoonshotAI: Kimi K2.7 Code",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.00000075",
+        "prompt": "0.00000073",
         "completion": "0.0000035",
         "image": null,
         "request": null
@@ -5837,8 +5803,8 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.000000672",
-        "completion": "0.000002112",
+        "prompt": "0.0000006692",
+        "completion": "0.0000021032",
         "image": null,
         "request": null
       },

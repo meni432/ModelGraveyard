@@ -1,6 +1,40 @@
 {
   "buried": [
     {
+      "id": "inflection/inflection-3-pi",
+      "name": "Inflection: Inflection 3 Pi",
+      "provider": "inflection",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000025",
+        "completion": "0.00001",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 8000,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-07-26",
+      "buried_at": "2026-07-26",
+      "suggested_replacement": null
+    },
+    {
+      "id": "inflection/inflection-3-productivity",
+      "name": "Inflection: Inflection 3 Productivity",
+      "provider": "inflection",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000025",
+        "completion": "0.00001",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 8000,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-07-26",
+      "buried_at": "2026-07-26",
+      "suggested_replacement": null
+    },
+    {
       "id": "tencent/hy3:free",
       "name": "Tencent: Hy3 (free)",
       "provider": "tencent",

@@ -78,6 +78,24 @@
     <summary>prompt: $0.7042/Mtok → $0.6720/Mtok (-4.57%); completion: $2.2132/Mtok → $2.1120/Mtok (-4.57%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-07-26:price_changed:z-ai%2Fglm-5.2</id>
+    <title>Price changed: z-ai/glm-5.2</title>
+    <updated>2026-07-26T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>prompt: $0.6720/Mtok → $0.6692/Mtok (-0.42%); completion: $2.1120/Mtok → $2.1032/Mtok (-0.42%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-26:price_changed:moonshotai%2Fkimi-k2.7-code</id>
+    <title>Price changed: moonshotai/kimi-k2.7-code</title>
+    <updated>2026-07-26T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k2.7-code"/>
+    <category term="price_changed"/>
+    <category term="provider:moonshotai"/>
+    <summary>prompt: $0.7500/Mtok → $0.7300/Mtok (-2.67%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-07-25:price_changed:z-ai%2Fglm-5.2</id>
     <title>Price changed: z-ai/glm-5.2</title>
     <updated>2026-07-25T00:00:00Z</updated>
@@ -886,23 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:qwen"/>
     <summary>prompt: $0.1950/Mtok → $0.2600/Mtok (+33.33%); completion: $1.5600/Mtok → $2.6000/Mtok (+66.67%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-18:price_changed:qwen%2Fqwen3-30b-a3b</id>
-    <title>Price changed: qwen/qwen3-30b-a3b</title>
-    <updated>2026-07-18T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3-30b-a3b"/>
-    <category term="price_changed"/>
-    <category term="provider:qwen"/>
-    <summary>prompt: $0.1200/Mtok → $0.1300/Mtok (+8.33%); completion: $0.5000/Mtok → $0.5200/Mtok (+4%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-18:price_changed:mancer%2Fweaver</id>
-    <title>Price changed: mancer/weaver</title>
-    <updated>2026-07-18T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/mancer%2Fweaver"/>
-    <category term="price_changed"/>
-    <category term="provider:mancer"/>
-    <summary>prompt: $0.7500/Mtok → $0.5000/Mtok (-33.33%); completion: $1.0000/Mtok → $0.7500/Mtok (-25%)</summary>
   </entry>
 </feed>
