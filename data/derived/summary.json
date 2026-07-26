@@ -1,9 +1,83 @@
 {
-  "generated_at": "2026-07-25",
+  "generated_at": "2026-07-26",
   "active_count": 345,
   "dead_count": 66,
-  "last_event_ts": "2026-07-25",
+  "last_event_ts": "2026-07-26",
   "recent_events": [
+    {
+      "ts": "2026-07-26",
+      "type": "price_changed",
+      "id": "openai/gpt-oss-20b",
+      "provider": "openai",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.00000013",
+          "next": "0.00000014",
+          "pct_change": 7.69
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-26",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000938",
+          "next": "0.00000014",
+          "pct_change": 49.25
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000001876",
+          "next": "0.00000028",
+          "pct_change": 49.25
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-26",
+      "type": "price_changed",
+      "id": "qwen/qwen3.6-27b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000289",
+          "next": "0.0000003",
+          "pct_change": 3.81
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000024",
+          "next": "0.000002",
+          "pct_change": -16.67
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-26",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000007616",
+          "next": "0.0000007182",
+          "pct_change": -5.7
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000023936",
+          "next": "0.0000022572",
+          "pct_change": -5.7
+        }
+      ]
+    },
     {
       "ts": "2026-07-25",
       "type": "price_changed",
@@ -305,92 +379,6 @@
           "pct_change": 7.45
         }
       ]
-    },
-    {
-      "ts": "2026-07-24",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.2",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000008106",
-          "next": "0.0000007798",
-          "pct_change": -3.8
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000025476",
-          "next": "0.0000024508",
-          "pct_change": -3.8
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-24",
-      "type": "model_added",
-      "id": "anthropic/claude-opus-5",
-      "provider": "anthropic",
-      "snapshot": {
-        "id": "anthropic/claude-opus-5",
-        "name": "Claude Opus 5",
-        "provider": "anthropic",
-        "pricing": {
-          "prompt": "0.000005",
-          "completion": "0.000025",
-          "image": null,
-          "request": null
-        },
-        "context_length": 1000000,
-        "max_completion_tokens": 128000,
-        "expiration_date": null,
-        "created": 1784912544,
-        "first_seen": "2026-07-24",
-        "last_seen": "2026-07-24"
-      }
-    },
-    {
-      "ts": "2026-07-24",
-      "type": "model_added",
-      "id": "anthropic/claude-opus-5-fast",
-      "provider": "anthropic",
-      "snapshot": {
-        "id": "anthropic/claude-opus-5-fast",
-        "name": "Claude Opus 5 (Fast)",
-        "provider": "anthropic",
-        "pricing": {
-          "prompt": "0.00001",
-          "completion": "0.00005",
-          "image": null,
-          "request": null
-        },
-        "context_length": 1000000,
-        "max_completion_tokens": 128000,
-        "expiration_date": null,
-        "created": 1784912546,
-        "first_seen": "2026-07-24",
-        "last_seen": "2026-07-24"
-      }
-    },
-    {
-      "ts": "2026-07-24",
-      "type": "price_changed",
-      "id": "qwen/qwen3-coder",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000038",
-          "next": "0.0000003",
-          "pct_change": -21.05
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000155",
-          "next": "0.000001",
-          "pct_change": -35.48
-        }
-      ]
     }
   ],
   "scheduled_funerals": [
@@ -416,11 +404,6 @@
     },
     {
       "id": "z-ai/glm-4.5",
-      "provider": "z-ai",
-      "expiration_date": "2026-12-31"
-    },
-    {
-      "id": "z-ai/glm-4.5v",
       "provider": "z-ai",
       "expiration_date": "2026-12-31"
     },
