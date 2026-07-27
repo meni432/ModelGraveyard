@@ -1519,8 +1519,8 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.00000012",
-        "completion": "0.00000035",
+        "prompt": "0.00000013",
+        "completion": "0.0000004",
         "image": null,
         "request": null
       },
@@ -4919,7 +4919,7 @@
       "name": "Qwen: Qwen3.5-35B-A3B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000015",
+        "prompt": "0.00000014",
         "completion": "0.000001",
         "image": null,
         "request": null
@@ -5786,8 +5786,8 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.000000805",
-        "completion": "0.00000253",
+        "prompt": "0.000000784",
+        "completion": "0.000002464",
         "image": null,
         "request": null
       },
