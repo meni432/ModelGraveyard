@@ -24,6 +24,60 @@
     <summary>OpenRouter says removed; LiteLLM still lists it as gpt-4o-mini-search-preview.</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-07-27:price_changed:openai%2Fgpt-5.6-luna-pro</id>
+    <title>Price changed: openai/gpt-5.6-luna-pro</title>
+    <updated>2026-07-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5.6-luna-pro"/>
+    <category term="price_changed"/>
+    <category term="provider:openai"/>
+    <summary>prompt: $1.0000/Mtok → $0.5000/Mtok (-50%); completion: $6.0000/Mtok → $3.0000/Mtok (-50%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-27:price_changed:openai%2Fgpt-5.6-luna</id>
+    <title>Price changed: openai/gpt-5.6-luna</title>
+    <updated>2026-07-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5.6-luna"/>
+    <category term="price_changed"/>
+    <category term="provider:openai"/>
+    <summary>prompt: $1.0000/Mtok → $0.5000/Mtok (-50%); completion: $6.0000/Mtok → $3.0000/Mtok (-50%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-27:price_changed:openai%2Fgpt-5.6-terra-pro</id>
+    <title>Price changed: openai/gpt-5.6-terra-pro</title>
+    <updated>2026-07-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5.6-terra-pro"/>
+    <category term="price_changed"/>
+    <category term="provider:openai"/>
+    <summary>prompt: $2.5000/Mtok → $1.2500/Mtok (-50%); completion: $15.0000/Mtok → $7.5000/Mtok (-50%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-27:price_changed:openai%2Fgpt-5.6-terra</id>
+    <title>Price changed: openai/gpt-5.6-terra</title>
+    <updated>2026-07-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5.6-terra"/>
+    <category term="price_changed"/>
+    <category term="provider:openai"/>
+    <summary>prompt: $2.5000/Mtok → $1.2500/Mtok (-50%); completion: $15.0000/Mtok → $7.5000/Mtok (-50%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-27:model_removed:openai%2Fgpt-4o-search-preview</id>
+    <title>Removed: openai/gpt-4o-search-preview</title>
+    <updated>2026-07-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-4o-search-preview"/>
+    <category term="model_removed"/>
+    <category term="provider:openai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $2.5000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-27:disagreement_detected:openai%2Fgpt-4o-search-preview</id>
+    <title>Catalog disagreement: openai/gpt-4o-search-preview</title>
+    <updated>2026-07-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-4o-search-preview"/>
+    <category term="disagreement_detected"/>
+    <category term="provider:openai"/>
+    <summary>OpenRouter says removed; LiteLLM still lists it as gpt-4o-search-preview.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-07-26:price_changed:openai%2Fgpt-oss-20b</id>
     <title>Price changed: openai/gpt-oss-20b</title>
     <updated>2026-07-26T00:00:00Z</updated>

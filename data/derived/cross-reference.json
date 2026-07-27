@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-07-27",
-  "openrouter_catalog_size": 330,
+  "openrouter_catalog_size": 329,
   "litellm_catalog_size": 2168,
-  "shared_count": 91,
+  "shared_count": 90,
   "openrouter_only_count": 239,
   "litellm_only_count": 2069,
   "disagreements": [
@@ -90,6 +90,17 @@
       "openrouter_removed_at": "2026-07-27",
       "litellm_status": "active",
       "litellm_id": "gpt-4o-mini-search-preview",
+      "litellm_deprecation_date": null,
+      "severity": "high",
+      "noted_at": "2026-07-27"
+    },
+    {
+      "slug": "openai:gpt-4o-search",
+      "openrouter_status": "removed",
+      "openrouter_id": "openai/gpt-4o-search-preview",
+      "openrouter_removed_at": "2026-07-27",
+      "litellm_status": "active",
+      "litellm_id": "gpt-4o-search-preview",
       "litellm_deprecation_date": null,
       "severity": "high",
       "noted_at": "2026-07-27"
@@ -345,11 +356,6 @@
       "slug": "openai:gpt-4o-mini",
       "openrouter_id": "openai/gpt-4o-mini-2024-07-18",
       "litellm_id": "gpt-4o-mini"
-    },
-    {
-      "slug": "openai:gpt-4o-search",
-      "openrouter_id": "openai/gpt-4o-search-preview",
-      "litellm_id": "gpt-4o-search-preview"
     },
     {
       "slug": "openai:gpt-5",

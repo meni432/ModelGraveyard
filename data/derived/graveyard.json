@@ -18,6 +18,23 @@
       "suggested_replacement": "openai/gpt-5.3-chat"
     },
     {
+      "id": "openai/gpt-4o-search-preview",
+      "name": "OpenAI: GPT-4o Search Preview",
+      "provider": "openai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000025",
+        "completion": "0.00001",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 128000,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-07-27",
+      "buried_at": "2026-07-27",
+      "suggested_replacement": "openai/gpt-5.3-chat"
+    },
+    {
       "id": "inflection/inflection-3-pi",
       "name": "Inflection: Inflection 3 Pi",
       "provider": "inflection",
