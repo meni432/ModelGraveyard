@@ -1286,7 +1286,7 @@
         "image": null,
         "request": null
       },
-      "context_length": 131072,
+      "context_length": 65536,
       "max_completion_tokens": 65536,
       "expiration_date": null,
       "created": 1772119558,
@@ -2828,13 +2828,13 @@
       "name": "NVIDIA: Nemotron 3 Ultra",
       "provider": "nvidia",
       "pricing": {
-        "prompt": "0.0000006",
-        "completion": "0.0000036",
+        "prompt": "0.0000005",
+        "completion": "0.0000022",
         "image": null,
         "request": null
       },
       "context_length": 512288,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 16384,
       "expiration_date": null,
       "created": 1780551208,
       "first_seen": "2026-06-08",
@@ -4919,7 +4919,7 @@
       "name": "Qwen: Qwen3.5-35B-A3B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000014",
+        "prompt": "0.00000015",
         "completion": "0.000001",
         "image": null,
         "request": null
@@ -5786,8 +5786,8 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.0000006692",
-        "completion": "0.0000021032",
+        "prompt": "0.000000805",
+        "completion": "0.00000253",
         "image": null,
         "request": null
       },
