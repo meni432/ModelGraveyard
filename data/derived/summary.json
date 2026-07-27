@@ -1,9 +1,32 @@
 {
-  "generated_at": "2026-07-26",
-  "active_count": 343,
-  "dead_count": 68,
-  "last_event_ts": "2026-07-26",
+  "generated_at": "2026-07-27",
+  "active_count": 342,
+  "dead_count": 69,
+  "last_event_ts": "2026-07-27",
   "recent_events": [
+    {
+      "ts": "2026-07-27",
+      "type": "model_removed",
+      "id": "openai/gpt-4o-mini-search-preview",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-4o-mini-search-preview",
+        "name": "OpenAI: GPT-4o-mini Search Preview",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.00000015",
+          "completion": "0.0000006",
+          "image": null,
+          "request": null
+        },
+        "context_length": 128000,
+        "max_completion_tokens": 16384,
+        "expiration_date": null,
+        "created": 1741818122,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-07-26"
+      }
+    },
     {
       "ts": "2026-07-26",
       "type": "model_removed",
@@ -359,26 +382,6 @@
       "provider": "z-ai",
       "prev_expiration": null,
       "next_expiration": "2026-12-31"
-    },
-    {
-      "ts": "2026-07-25",
-      "type": "price_changed",
-      "id": "nvidia/nemotron-3-super-120b-a12b",
-      "provider": "nvidia",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000008",
-          "next": "0.000000085",
-          "pct_change": 6.25
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000045",
-          "next": "0.0000004",
-          "pct_change": -11.11
-        }
-      ]
     }
   ],
   "scheduled_funerals": [
