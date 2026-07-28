@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/minimax.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/minimax.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-07-24T00:00:00Z</updated>
+  <updated>2026-07-28T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-28:model_added:minimax%2Fminimax-m3%3Abatch</id>
+    <title>Added: minimax/minimax-m3:batch</title>
+    <updated>2026-07-28T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/minimax%2Fminimax-m3%3Abatch"/>
+    <category term="model_added"/>
+    <category term="provider:minimax"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.1500/Mtok, context: 524288.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-07-24:price_changed:minimax%2Fminimax-m2.7</id>
     <title>Price changed: minimax/minimax-m2.7</title>
