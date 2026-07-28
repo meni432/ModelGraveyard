@@ -6,6 +6,38 @@
   "recent_events": [
     {
       "ts": "2026-07-28",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000007308",
+          "next": "0.0000007686",
+          "pct_change": 5.17
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000022968",
+          "next": "0.0000024156",
+          "pct_change": 5.17
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-28",
+      "type": "disagreement_detected",
+      "id": "openai/gpt-5-chat",
+      "provider": "openai",
+      "disagreement": {
+        "slug": "openai:gpt-5-chat",
+        "openrouter_status": "removed",
+        "litellm_status": "active",
+        "litellm_id": "gpt-5-chat"
+      }
+    },
+    {
+      "ts": "2026-07-28",
       "type": "model_removed",
       "id": "openai/gpt-5-chat",
       "provider": "openai",
@@ -340,38 +372,6 @@
           "pct_change": -38.89
         }
       ]
-    },
-    {
-      "ts": "2026-07-27",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.2",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000006692",
-          "next": "0.000000805",
-          "pct_change": 20.29
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000021032",
-          "next": "0.00000253",
-          "pct_change": 20.29
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-27",
-      "type": "disagreement_detected",
-      "id": "openai/gpt-4o-mini-search-preview",
-      "provider": "openai",
-      "disagreement": {
-        "slug": "openai:gpt-4o-mini-search",
-        "openrouter_status": "removed",
-        "litellm_status": "active",
-        "litellm_id": "gpt-4o-mini-search-preview"
-      }
     }
   ],
   "scheduled_funerals": [

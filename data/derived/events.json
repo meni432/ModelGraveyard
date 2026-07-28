@@ -18870,6 +18870,26 @@
         "litellm_status": "active",
         "litellm_id": "gpt-5-chat"
       }
+    },
+    {
+      "ts": "2026-07-28",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000007308",
+          "next": "0.0000007686",
+          "pct_change": 5.17
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000022968",
+          "next": "0.0000024156",
+          "pct_change": 5.17
+        }
+      ]
     }
   ]
 }
