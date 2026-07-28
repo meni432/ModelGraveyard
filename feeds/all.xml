@@ -60,6 +60,51 @@
     <summary>prompt: $0.7308/Mtok → $0.7686/Mtok (+5.17%); completion: $2.2968/Mtok → $2.4156/Mtok (+5.17%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-07-28:price_changed:nvidia%2Fnemotron-3-ultra-550b-a55b</id>
+    <title>Price changed: nvidia/nemotron-3-ultra-550b-a55b</title>
+    <updated>2026-07-28T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nvidia%2Fnemotron-3-ultra-550b-a55b"/>
+    <category term="price_changed"/>
+    <category term="provider:nvidia"/>
+    <summary>prompt: $0.6000/Mtok → $0.5000/Mtok (-16.67%); completion: $3.6000/Mtok → $2.2000/Mtok (-38.89%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-28:price_changed:google%2Fgemma-4-26b-a4b-it</id>
+    <title>Price changed: google/gemma-4-26b-a4b-it</title>
+    <updated>2026-07-28T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemma-4-26b-a4b-it"/>
+    <category term="price_changed"/>
+    <category term="provider:google"/>
+    <summary>prompt: $0.1400/Mtok → $0.1500/Mtok (+7.14%); completion: $0.4200/Mtok → $0.4500/Mtok (+7.14%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-28:price_changed:qwen%2Fqwen3-coder-next</id>
+    <title>Price changed: qwen/qwen3-coder-next</title>
+    <updated>2026-07-28T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3-coder-next"/>
+    <category term="price_changed"/>
+    <category term="provider:qwen"/>
+    <summary>prompt: $0.1100/Mtok → $0.1800/Mtok (+63.64%); completion: $0.8000/Mtok → $0.9000/Mtok (+12.5%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-28:model_removed:poolside%2Flaguna-m.1</id>
+    <title>Removed: poolside/laguna-m.1</title>
+    <updated>2026-07-28T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/poolside%2Flaguna-m.1"/>
+    <category term="model_removed"/>
+    <category term="provider:poolside"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.2000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-28:model_removed:poolside%2Flaguna-m.1%3Afree</id>
+    <title>Removed: poolside/laguna-m.1:free</title>
+    <updated>2026-07-28T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/poolside%2Flaguna-m.1%3Afree"/>
+    <category term="model_removed"/>
+    <category term="provider:poolside"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-07-27:model_removed:openai%2Fgpt-4o-mini-search-preview</id>
     <title>Removed: openai/gpt-4o-mini-search-preview</title>
     <updated>2026-07-27T00:00:00Z</updated>
@@ -859,50 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:z-ai"/>
     <summary>prompt: $0.8190/Mtok → $0.7938/Mtok (-3.08%); completion: $2.5740/Mtok → $2.4948/Mtok (-3.08%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-22:price_changed:google%2Fgemma-4-31b-it</id>
-    <title>Price changed: google/gemma-4-31b-it</title>
-    <updated>2026-07-22T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemma-4-31b-it"/>
-    <category term="price_changed"/>
-    <category term="provider:google"/>
-    <summary>completion: $0.3700/Mtok → $0.3500/Mtok (-5.41%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-21:price_changed:tencent%2Fhy3</id>
-    <title>Price changed: tencent/hy3</title>
-    <updated>2026-07-21T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/tencent%2Fhy3"/>
-    <category term="price_changed"/>
-    <category term="provider:tencent"/>
-    <summary>prompt: $0.2000/Mtok → $0.1400/Mtok (-30%); completion: $0.8000/Mtok → $0.5800/Mtok (-27.5%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-21:price_changed:z-ai%2Fglm-5.2</id>
-    <title>Price changed: z-ai/glm-5.2</title>
-    <updated>2026-07-21T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
-    <category term="price_changed"/>
-    <category term="provider:z-ai"/>
-    <summary>prompt: $0.9436/Mtok → $0.9730/Mtok (+3.12%); completion: $2.9656/Mtok → $3.0580/Mtok (+3.12%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-21:price_changed:deepseek%2Fdeepseek-v4-flash</id>
-    <title>Price changed: deepseek/deepseek-v4-flash</title>
-    <updated>2026-07-21T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-flash"/>
-    <category term="price_changed"/>
-    <category term="provider:deepseek"/>
-    <summary>prompt: $0.0980/Mtok → $0.0938/Mtok (-4.29%); completion: $0.1960/Mtok → $0.1876/Mtok (-4.29%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-21:price_changed:google%2Fgemma-4-31b-it</id>
-    <title>Price changed: google/gemma-4-31b-it</title>
-    <updated>2026-07-21T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemma-4-31b-it"/>
-    <category term="price_changed"/>
-    <category term="provider:google"/>
-    <summary>prompt: $0.2200/Mtok → $0.1200/Mtok (-45.45%); completion: $0.5500/Mtok → $0.3700/Mtok (-32.73%)</summary>
   </entry>
 </feed>

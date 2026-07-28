@@ -18,6 +18,40 @@
       "suggested_replacement": "openai/gpt-5.3-chat"
     },
     {
+      "id": "poolside/laguna-m.1",
+      "name": "Poolside: Laguna M.1",
+      "provider": "poolside",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000002",
+        "completion": "0.0000004",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-07-28",
+      "buried_at": "2026-07-28",
+      "suggested_replacement": "poolside/laguna-s-2.1:free"
+    },
+    {
+      "id": "poolside/laguna-m.1:free",
+      "name": "Poolside: Laguna M.1 (free)",
+      "provider": "poolside",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-07-28",
+      "buried_at": "2026-07-28",
+      "suggested_replacement": "poolside/laguna-s-2.1:free"
+    },
+    {
       "id": "openai/gpt-4o-mini-search-preview",
       "name": "OpenAI: GPT-4o-mini Search Preview",
       "provider": "openai",

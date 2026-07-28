@@ -18890,6 +18890,112 @@
           "pct_change": 5.17
         }
       ]
+    },
+    {
+      "ts": "2026-07-28",
+      "type": "price_changed",
+      "id": "nvidia/nemotron-3-ultra-550b-a55b",
+      "provider": "nvidia",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000006",
+          "next": "0.0000005",
+          "pct_change": -16.67
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000036",
+          "next": "0.0000022",
+          "pct_change": -38.89
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-28",
+      "type": "price_changed",
+      "id": "google/gemma-4-26b-a4b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000014",
+          "next": "0.00000015",
+          "pct_change": 7.14
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000042",
+          "next": "0.00000045",
+          "pct_change": 7.14
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-28",
+      "type": "price_changed",
+      "id": "qwen/qwen3-coder-next",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000011",
+          "next": "0.00000018",
+          "pct_change": 63.64
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000008",
+          "next": "0.0000009",
+          "pct_change": 12.5
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-28",
+      "type": "model_removed",
+      "id": "poolside/laguna-m.1",
+      "provider": "poolside",
+      "snapshot": {
+        "id": "poolside/laguna-m.1",
+        "name": "Poolside: Laguna M.1",
+        "provider": "poolside",
+        "pricing": {
+          "prompt": "0.0000002",
+          "completion": "0.0000004",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 32768,
+        "expiration_date": "2026-07-28",
+        "created": 1777388504,
+        "first_seen": "2026-06-18",
+        "last_seen": "2026-07-28"
+      }
+    },
+    {
+      "ts": "2026-07-28",
+      "type": "model_removed",
+      "id": "poolside/laguna-m.1:free",
+      "provider": "poolside",
+      "snapshot": {
+        "id": "poolside/laguna-m.1:free",
+        "name": "Poolside: Laguna M.1 (free)",
+        "provider": "poolside",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 32768,
+        "expiration_date": "2026-07-28",
+        "created": 1777388504,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-07-28"
+      }
     }
   ]
 }

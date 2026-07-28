@@ -1519,8 +1519,8 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.00000014",
-        "completion": "0.00000042",
+        "prompt": "0.00000015",
+        "completion": "0.00000045",
         "image": null,
         "request": null
       },
@@ -2828,13 +2828,13 @@
       "name": "NVIDIA: Nemotron 3 Ultra",
       "provider": "nvidia",
       "pricing": {
-        "prompt": "0.0000006",
-        "completion": "0.0000036",
+        "prompt": "0.0000005",
+        "completion": "0.0000022",
         "image": null,
         "request": null
       },
       "context_length": 512288,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 16384,
       "expiration_date": null,
       "created": 1780551208,
       "first_seen": "2026-06-08",
@@ -4201,40 +4201,6 @@
       "last_seen": "2026-07-28"
     },
     {
-      "id": "poolside/laguna-m.1",
-      "name": "Poolside: Laguna M.1",
-      "provider": "poolside",
-      "pricing": {
-        "prompt": "0.0000002",
-        "completion": "0.0000004",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 32768,
-      "expiration_date": "2026-07-28",
-      "created": 1777388504,
-      "first_seen": "2026-06-18",
-      "last_seen": "2026-07-28"
-    },
-    {
-      "id": "poolside/laguna-m.1:free",
-      "name": "Poolside: Laguna M.1 (free)",
-      "provider": "poolside",
-      "pricing": {
-        "prompt": "0",
-        "completion": "0",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 32768,
-      "expiration_date": "2026-07-28",
-      "created": 1777388504,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-07-28"
-    },
-    {
       "id": "poolside/laguna-s-2.1",
       "name": "Poolside: Laguna S 2.1",
       "provider": "poolside",
@@ -4630,13 +4596,13 @@
       "name": "Qwen: Qwen3 Coder Next",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000011",
-        "completion": "0.0000008",
+        "prompt": "0.00000018",
+        "completion": "0.0000009",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": 64000,
       "expiration_date": null,
       "created": 1770164101,
       "first_seen": "2026-05-27",
