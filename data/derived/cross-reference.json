@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-27",
+  "generated_at": "2026-07-28",
   "openrouter_catalog_size": 329,
   "litellm_catalog_size": 2168,
-  "shared_count": 90,
-  "openrouter_only_count": 239,
+  "shared_count": 89,
+  "openrouter_only_count": 240,
   "litellm_only_count": 2069,
   "disagreements": [
     {
@@ -104,6 +104,17 @@
       "litellm_deprecation_date": null,
       "severity": "high",
       "noted_at": "2026-07-27"
+    },
+    {
+      "slug": "openai:gpt-5-chat",
+      "openrouter_status": "removed",
+      "openrouter_id": "openai/gpt-5-chat",
+      "openrouter_removed_at": "2026-07-28",
+      "litellm_status": "active",
+      "litellm_id": "gpt-5-chat",
+      "litellm_deprecation_date": null,
+      "severity": "high",
+      "noted_at": "2026-07-28"
     }
   ],
   "pairings": [
@@ -461,11 +472,6 @@
       "slug": "openai:gpt-5-6-terra",
       "openrouter_id": "openai/gpt-5.6-terra",
       "litellm_id": "gpt-5.6-terra"
-    },
-    {
-      "slug": "openai:gpt-5-chat",
-      "openrouter_id": "openai/gpt-5-chat",
-      "litellm_id": "gpt-5-chat"
     },
     {
       "slug": "openai:gpt-5-codex",
