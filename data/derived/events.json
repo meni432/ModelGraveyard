@@ -19916,6 +19916,140 @@
         "first_seen": "2026-07-28",
         "last_seen": "2026-07-28"
       }
+    },
+    {
+      "ts": "2026-07-29",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000007602",
+          "next": "0.000000749",
+          "pct_change": -1.47
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000023892",
+          "next": "0.000002354",
+          "pct_change": -1.47
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-29",
+      "type": "price_changed",
+      "id": "qwen/qwen3.7-max",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000125",
+          "next": "0.000001475",
+          "pct_change": 18
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000375",
+          "next": "0.000004425",
+          "pct_change": 18
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-29",
+      "type": "price_changed",
+      "id": "qwen/qwen3.6-max-preview",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000104",
+          "next": "0.000001027",
+          "pct_change": -1.25
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000624",
+          "next": "0.000006162",
+          "pct_change": -1.25
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-29",
+      "type": "price_changed",
+      "id": "google/gemma-4-26b-a4b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000015",
+          "next": "0.00000007",
+          "pct_change": -53.33
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000006",
+          "next": "0.00000034",
+          "pct_change": -43.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-29",
+      "type": "price_changed",
+      "id": "google/gemma-4-31b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000001",
+          "next": "0.00000014",
+          "pct_change": 40
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000034",
+          "next": "0.0000004",
+          "pct_change": 17.65
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-29",
+      "type": "price_changed",
+      "id": "qwen/qwen3.5-35b-a3b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000015",
+          "next": "0.00000014",
+          "pct_change": -6.67
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-29",
+      "type": "price_changed",
+      "id": "qwen/qwen3-vl-30b-a3b-instruct",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000015",
+          "next": "0.00000013",
+          "pct_change": -13.33
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000006",
+          "next": "0.00000052",
+          "pct_change": -13.33
+        }
+      ]
     }
   ]
 }

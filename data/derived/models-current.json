@@ -1825,13 +1825,13 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
+        "prompt": "0.00000007",
+        "completion": "0.00000034",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": 16384,
       "expiration_date": null,
       "created": 1775227989,
       "first_seen": "2026-05-27",
@@ -1859,8 +1859,8 @@
       "name": "Google: Gemma 4 31B",
       "provider": "google",
       "pricing": {
-        "prompt": "0.0000001",
-        "completion": "0.00000034",
+        "prompt": "0.00000014",
+        "completion": "0.0000004",
         "image": null,
         "request": null
       },
@@ -5208,13 +5208,13 @@
       "name": "Qwen: Qwen3 VL 30B A3B Instruct",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
+        "prompt": "0.00000013",
+        "completion": "0.00000052",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 16384,
+      "max_completion_tokens": 32768,
       "expiration_date": null,
       "created": 1759794476,
       "first_seen": "2026-05-27",
@@ -5327,7 +5327,7 @@
       "name": "Qwen: Qwen3.5-35B-A3B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000015",
+        "prompt": "0.00000014",
         "completion": "0.000001",
         "image": null,
         "request": null
@@ -5480,8 +5480,8 @@
       "name": "Qwen: Qwen3.6 Max Preview",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000104",
-        "completion": "0.00000624",
+        "prompt": "0.000001027",
+        "completion": "0.000006162",
         "image": null,
         "request": null
       },
@@ -5531,8 +5531,8 @@
       "name": "Qwen: Qwen3.7 Max",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000125",
-        "completion": "0.00000375",
+        "prompt": "0.000001475",
+        "completion": "0.000004425",
         "image": null,
         "request": null
       },
@@ -6082,7 +6082,7 @@
       },
       "context_length": 65536,
       "max_completion_tokens": 16384,
-      "expiration_date": "2026-12-31",
+      "expiration_date": null,
       "created": 1754922288,
       "first_seen": "2026-05-27",
       "last_seen": "2026-07-29"
@@ -6211,8 +6211,8 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.0000007602",
-        "completion": "0.0000023892",
+        "prompt": "0.000000749",
+        "completion": "0.000002354",
         "image": null,
         "request": null
       },
