@@ -1,6 +1,23 @@
 {
   "buried": [
     {
+      "id": "anthropic/claude-opus-5:batch",
+      "name": "Claude Opus 5 (batch)",
+      "provider": "anthropic",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000025",
+        "completion": "0.0000125",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 1000000,
+      "first_seen": "2026-07-28",
+      "last_seen": "2026-07-28",
+      "buried_at": "2026-07-29",
+      "suggested_replacement": "anthropic/claude-opus-5-fast"
+    },
+    {
       "id": "openai/gpt-5-chat",
       "name": "OpenAI: GPT-5 Chat",
       "provider": "openai",
