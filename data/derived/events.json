@@ -20050,6 +20050,74 @@
           "pct_change": -13.33
         }
       ]
+    },
+    {
+      "ts": "2026-07-29",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000749",
+          "next": "0.0000007252",
+          "pct_change": -3.18
+        },
+        {
+          "field": "completion",
+          "prev": "0.000002354",
+          "next": "0.0000022792",
+          "pct_change": -3.18
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-29",
+      "type": "price_changed",
+      "id": "qwen/qwen3-coder-next",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000018",
+          "next": "0.00000012",
+          "pct_change": -33.33
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000009",
+          "next": "0.0000008",
+          "pct_change": -11.11
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-29",
+      "type": "price_changed",
+      "id": "qwen/qwen3-vl-30b-a3b-instruct",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000013",
+          "next": "0.00000015",
+          "pct_change": 15.38
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000052",
+          "next": "0.0000006",
+          "pct_change": 15.38
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-29",
+      "type": "deprecation_announced",
+      "id": "z-ai/glm-4.5v",
+      "provider": "z-ai",
+      "prev_expiration": null,
+      "next_expiration": "2026-12-31"
     }
   ]
 }

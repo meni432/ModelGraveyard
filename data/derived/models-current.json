@@ -5072,13 +5072,13 @@
       "name": "Qwen: Qwen3 Coder Next",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000018",
-        "completion": "0.0000009",
+        "prompt": "0.00000012",
+        "completion": "0.0000008",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 64000,
+      "max_completion_tokens": 262144,
       "expiration_date": null,
       "created": 1770164101,
       "first_seen": "2026-05-27",
@@ -5208,13 +5208,13 @@
       "name": "Qwen: Qwen3 VL 30B A3B Instruct",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000013",
-        "completion": "0.00000052",
+        "prompt": "0.00000015",
+        "completion": "0.0000006",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 32768,
+      "max_completion_tokens": 16384,
       "expiration_date": null,
       "created": 1759794476,
       "first_seen": "2026-05-27",
@@ -6082,7 +6082,7 @@
       },
       "context_length": 65536,
       "max_completion_tokens": 16384,
-      "expiration_date": null,
+      "expiration_date": "2026-12-31",
       "created": 1754922288,
       "first_seen": "2026-05-27",
       "last_seen": "2026-07-29"
@@ -6211,8 +6211,8 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.000000749",
-        "completion": "0.000002354",
+        "prompt": "0.0000007252",
+        "completion": "0.0000022792",
         "image": null,
         "request": null
       },
