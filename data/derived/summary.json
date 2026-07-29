@@ -6,6 +6,46 @@
   "recent_events": [
     {
       "ts": "2026-07-29",
+      "type": "price_changed",
+      "id": "qwen/qwen3-vl-30b-a3b-instruct",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000015",
+          "next": "0.00000013",
+          "pct_change": -13.33
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000006",
+          "next": "0.00000052",
+          "pct_change": -13.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-29",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000007252",
+          "next": "0.000000693",
+          "pct_change": -4.44
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000022792",
+          "next": "0.000002178",
+          "pct_change": -4.44
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-29",
       "type": "deprecation_announced",
       "id": "z-ai/glm-4.5v",
       "provider": "z-ai",
@@ -327,46 +367,6 @@
           "field": "completion",
           "prev": "0.0000026",
           "next": "0.000004",
-          "pct_change": 53.85
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-29",
-      "type": "price_changed",
-      "id": "qwen/qwen3-vl-30b-a3b-thinking",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000013",
-          "next": "0.0000002",
-          "pct_change": 53.85
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000156",
-          "next": "0.0000024",
-          "pct_change": 53.85
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-29",
-      "type": "price_changed",
-      "id": "qwen/qwen3-vl-8b-thinking",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000117",
-          "next": "0.00000018",
-          "pct_change": 53.85
-        },
-        {
-          "field": "completion",
-          "prev": "0.000001365",
-          "next": "0.0000021",
           "pct_change": 53.85
         }
       ]

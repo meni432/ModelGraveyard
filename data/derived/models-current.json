@@ -5208,13 +5208,13 @@
       "name": "Qwen: Qwen3 VL 30B A3B Instruct",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
+        "prompt": "0.00000013",
+        "completion": "0.00000052",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 16384,
+      "max_completion_tokens": 32768,
       "expiration_date": null,
       "created": 1759794476,
       "first_seen": "2026-05-27",
@@ -6211,8 +6211,8 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.0000007252",
-        "completion": "0.0000022792",
+        "prompt": "0.000000693",
+        "completion": "0.000002178",
         "image": null,
         "request": null
       },
