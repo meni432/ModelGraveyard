@@ -42,6 +42,33 @@
     <summary>prompt: $0.0400/Mtok → $0.1000/Mtok (+150%); completion: $0.1000/Mtok → $0.2000/Mtok (+100%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-07-30:price_changed:z-ai%2Fglm-5.2</id>
+    <title>Price changed: z-ai/glm-5.2</title>
+    <updated>2026-07-30T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>prompt: $0.6769/Mtok → $0.6993/Mtok (+3.31%); completion: $2.1274/Mtok → $2.1978/Mtok (+3.31%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-30:price_changed:~moonshotai%2Fkimi-latest</id>
+    <title>Price changed: ~moonshotai/kimi-latest</title>
+    <updated>2026-07-30T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/~moonshotai%2Fkimi-latest"/>
+    <category term="price_changed"/>
+    <category term="provider:~moonshotai"/>
+    <summary>prompt: $3.0000/Mtok → $2.9000/Mtok (-3.33%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-30:price_changed:deepseek%2Fdeepseek-chat</id>
+    <title>Price changed: deepseek/deepseek-chat</title>
+    <updated>2026-07-30T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-chat"/>
+    <category term="price_changed"/>
+    <category term="provider:deepseek"/>
+    <summary>prompt: $0.2002/Mtok → $0.2574/Mtok (+28.57%); completion: $0.8001/Mtok → $1.0287/Mtok (+28.57%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-07-29:price_changed:z-ai%2Fglm-5.2</id>
     <title>Price changed: z-ai/glm-5.2</title>
     <updated>2026-07-29T00:00:00Z</updated>
@@ -877,32 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:z-ai"/>
     <summary>prompt: $0.6720/Mtok → $0.6692/Mtok (-0.42%); completion: $2.1120/Mtok → $2.1032/Mtok (-0.42%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-26:price_changed:moonshotai%2Fkimi-k2.7-code</id>
-    <title>Price changed: moonshotai/kimi-k2.7-code</title>
-    <updated>2026-07-26T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k2.7-code"/>
-    <category term="price_changed"/>
-    <category term="provider:moonshotai"/>
-    <summary>prompt: $0.7500/Mtok → $0.7300/Mtok (-2.67%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-26:model_removed:inflection%2Finflection-3-pi</id>
-    <title>Removed: inflection/inflection-3-pi</title>
-    <updated>2026-07-26T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/inflection%2Finflection-3-pi"/>
-    <category term="model_removed"/>
-    <category term="provider:inflection"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $2.5000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-26:model_removed:inflection%2Finflection-3-productivity</id>
-    <title>Removed: inflection/inflection-3-productivity</title>
-    <updated>2026-07-26T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/inflection%2Finflection-3-productivity"/>
-    <category term="model_removed"/>
-    <category term="provider:inflection"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $2.5000/Mtok.</summary>
   </entry>
 </feed>

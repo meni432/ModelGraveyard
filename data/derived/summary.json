@@ -7,6 +7,60 @@
     {
       "ts": "2026-07-30",
       "type": "price_changed",
+      "id": "deepseek/deepseek-chat",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000002002",
+          "next": "0.0000002574",
+          "pct_change": 28.57
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000008001",
+          "next": "0.0000010287",
+          "pct_change": 28.57
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-30",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000003",
+          "next": "0.0000029",
+          "pct_change": -3.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-30",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000006769",
+          "next": "0.0000006993",
+          "pct_change": 3.31
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000021274",
+          "next": "0.0000021978",
+          "pct_change": 3.31
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-30",
+      "type": "price_changed",
       "id": "qwen/qwen-2.5-7b-instruct",
       "provider": "qwen",
       "changes": [
@@ -325,51 +379,6 @@
           "pct_change": -1.47
         }
       ]
-    },
-    {
-      "ts": "2026-07-29",
-      "type": "model_removed",
-      "id": "anthropic/claude-opus-5:batch",
-      "provider": "anthropic",
-      "snapshot": {
-        "id": "anthropic/claude-opus-5:batch",
-        "name": "Claude Opus 5 (batch)",
-        "provider": "anthropic",
-        "pricing": {
-          "prompt": "0.0000025",
-          "completion": "0.0000125",
-          "image": null,
-          "request": null
-        },
-        "context_length": 1000000,
-        "max_completion_tokens": 128000,
-        "expiration_date": null,
-        "created": 1784912544,
-        "first_seen": "2026-07-28",
-        "last_seen": "2026-07-28"
-      }
-    },
-    {
-      "ts": "2026-07-29",
-      "type": "price_changed",
-      "id": "openai/gpt-oss-20b",
-      "provider": "openai",
-      "changes": [
-        {
-          "field": "completion",
-          "prev": "0.00000014",
-          "next": "0.00000013",
-          "pct_change": -7.14
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-29",
-      "type": "deprecation_announced",
-      "id": "z-ai/glm-4.5v",
-      "provider": "z-ai",
-      "prev_expiration": null,
-      "next_expiration": "2026-12-31"
     }
   ],
   "scheduled_funerals": [
