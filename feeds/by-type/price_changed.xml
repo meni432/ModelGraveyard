@@ -87,6 +87,69 @@
     <summary>prompt: $0.5000/Mtok → $0.6000/Mtok (+20%); completion: $2.2000/Mtok → $3.6000/Mtok (+63.64%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-07-30:price_changed:openai%2Fgpt-5.6-luna-pro</id>
+    <title>Price changed: openai/gpt-5.6-luna-pro</title>
+    <updated>2026-07-30T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5.6-luna-pro"/>
+    <category term="price_changed"/>
+    <category term="provider:openai"/>
+    <summary>prompt: $0.5000/Mtok → $0.1000/Mtok (-80%); completion: $3.0000/Mtok → $0.6000/Mtok (-80%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-30:price_changed:openai%2Fgpt-5.6-luna</id>
+    <title>Price changed: openai/gpt-5.6-luna</title>
+    <updated>2026-07-30T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5.6-luna"/>
+    <category term="price_changed"/>
+    <category term="provider:openai"/>
+    <summary>prompt: $0.5000/Mtok → $0.1000/Mtok (-80%); completion: $3.0000/Mtok → $0.6000/Mtok (-80%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-30:price_changed:openai%2Fgpt-5.6-terra-pro</id>
+    <title>Price changed: openai/gpt-5.6-terra-pro</title>
+    <updated>2026-07-30T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5.6-terra-pro"/>
+    <category term="price_changed"/>
+    <category term="provider:openai"/>
+    <summary>prompt: $1.2500/Mtok → $1.0000/Mtok (-20%); completion: $7.5000/Mtok → $6.0000/Mtok (-20%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-30:price_changed:openai%2Fgpt-5.6-terra</id>
+    <title>Price changed: openai/gpt-5.6-terra</title>
+    <updated>2026-07-30T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5.6-terra"/>
+    <category term="price_changed"/>
+    <category term="provider:openai"/>
+    <summary>prompt: $1.2500/Mtok → $1.0000/Mtok (-20%); completion: $7.5000/Mtok → $6.0000/Mtok (-20%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-30:price_changed:z-ai%2Fglm-5.2</id>
+    <title>Price changed: z-ai/glm-5.2</title>
+    <updated>2026-07-30T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>prompt: $0.6125/Mtok → $0.9660/Mtok (+57.71%); completion: $1.9250/Mtok → $3.0360/Mtok (+57.71%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-30:price_changed:~moonshotai%2Fkimi-latest</id>
+    <title>Price changed: ~moonshotai/kimi-latest</title>
+    <updated>2026-07-30T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/~moonshotai%2Fkimi-latest"/>
+    <category term="price_changed"/>
+    <category term="provider:~moonshotai"/>
+    <summary>completion: $15.0000/Mtok → $14.0000/Mtok (-6.67%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-30:price_changed:moonshotai%2Fkimi-k2.6</id>
+    <title>Price changed: moonshotai/kimi-k2.6</title>
+    <updated>2026-07-30T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k2.6"/>
+    <category term="price_changed"/>
+    <category term="provider:moonshotai"/>
+    <summary>prompt: $0.6460/Mtok → $0.9500/Mtok (+47.06%); completion: $2.7200/Mtok → $4.0000/Mtok (+47.06%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-07-29:price_changed:z-ai%2Fglm-5.2</id>
     <title>Price changed: z-ai/glm-5.2</title>
     <updated>2026-07-29T00:00:00Z</updated>
@@ -841,68 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:qwen"/>
     <summary>prompt: $0.1500/Mtok → $0.1000/Mtok (-33.33%); completion: $1.2000/Mtok → $1.1000/Mtok (-8.33%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-23:price_changed:z-ai%2Fglm-5.2</id>
-    <title>Price changed: z-ai/glm-5.2</title>
-    <updated>2026-07-23T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
-    <category term="price_changed"/>
-    <category term="provider:z-ai"/>
-    <summary>prompt: $0.7938/Mtok → $0.8260/Mtok (+4.06%); completion: $2.4948/Mtok → $2.5960/Mtok (+4.06%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-23:price_changed:nvidia%2Fnemotron-3-ultra-550b-a55b</id>
-    <title>Price changed: nvidia/nemotron-3-ultra-550b-a55b</title>
-    <updated>2026-07-23T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/nvidia%2Fnemotron-3-ultra-550b-a55b"/>
-    <category term="price_changed"/>
-    <category term="provider:nvidia"/>
-    <summary>prompt: $0.6000/Mtok → $0.5000/Mtok (-16.67%); completion: $3.6000/Mtok → $2.2000/Mtok (-38.89%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-23:price_changed:qwen%2Fqwen3.6-27b</id>
-    <title>Price changed: qwen/qwen3.6-27b</title>
-    <updated>2026-07-23T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3.6-27b"/>
-    <category term="price_changed"/>
-    <category term="provider:qwen"/>
-    <summary>prompt: $0.4500/Mtok → $0.6000/Mtok (+33.33%); completion: $2.7000/Mtok → $3.6000/Mtok (+33.33%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-23:price_changed:google%2Fgemma-4-26b-a4b-it</id>
-    <title>Price changed: google/gemma-4-26b-a4b-it</title>
-    <updated>2026-07-23T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemma-4-26b-a4b-it"/>
-    <category term="price_changed"/>
-    <category term="provider:google"/>
-    <summary>prompt: $0.0700/Mtok → $0.1200/Mtok (+71.43%); completion: $0.3400/Mtok → $0.3500/Mtok (+2.94%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-23:price_changed:z-ai%2Fglm-4.7-flash</id>
-    <title>Price changed: z-ai/glm-4.7-flash</title>
-    <updated>2026-07-23T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-4.7-flash"/>
-    <category term="price_changed"/>
-    <category term="provider:z-ai"/>
-    <summary>prompt: $0.0605/Mtok → $0.0600/Mtok (-0.83%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-23:price_changed:qwen%2Fqwen3-vl-30b-a3b-instruct</id>
-    <title>Price changed: qwen/qwen3-vl-30b-a3b-instruct</title>
-    <updated>2026-07-23T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3-vl-30b-a3b-instruct"/>
-    <category term="price_changed"/>
-    <category term="provider:qwen"/>
-    <summary>prompt: $0.1300/Mtok → $0.1500/Mtok (+15.38%); completion: $0.5200/Mtok → $0.6000/Mtok (+15.38%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-23:price_changed:qwen%2Fqwen3-next-80b-a3b-instruct</id>
-    <title>Price changed: qwen/qwen3-next-80b-a3b-instruct</title>
-    <updated>2026-07-23T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3-next-80b-a3b-instruct"/>
-    <category term="price_changed"/>
-    <category term="provider:qwen"/>
-    <summary>prompt: $0.1000/Mtok → $0.1500/Mtok (+50%); completion: $1.1000/Mtok → $1.2000/Mtok (+9.09%)</summary>
   </entry>
 </feed>
