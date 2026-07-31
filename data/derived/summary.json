@@ -1,9 +1,93 @@
 {
-  "generated_at": "2026-07-30",
+  "generated_at": "2026-07-31",
   "active_count": 364,
   "dead_count": 77,
-  "last_event_ts": "2026-07-30",
+  "last_event_ts": "2026-07-31",
   "recent_events": [
+    {
+      "ts": "2026-07-31",
+      "type": "context_changed",
+      "id": "thedrummer/unslopnemo-12b",
+      "provider": "thedrummer",
+      "prev_context": 32768,
+      "next_context": 1024000
+    },
+    {
+      "ts": "2026-07-31",
+      "type": "price_changed",
+      "id": "qwen/qwen3-235b-a22b-thinking-2507",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000003",
+          "next": "0.00000023",
+          "pct_change": -23.33
+        },
+        {
+          "field": "completion",
+          "prev": "0.000003",
+          "next": "0.0000023",
+          "pct_change": -23.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-31",
+      "type": "price_changed",
+      "id": "poolside/laguna-s-2.1",
+      "provider": "poolside",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000001",
+          "next": "0.00000009",
+          "pct_change": -10
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000002",
+          "next": "0.00000018",
+          "pct_change": -10
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-30",
+      "type": "disagreement_detected",
+      "id": "openai/o4-mini-deep-research",
+      "provider": "openai",
+      "disagreement": {
+        "slug": "openai:o4-mini-deep-research",
+        "openrouter_status": "removed",
+        "litellm_status": "active",
+        "litellm_id": "o4-mini-deep-research"
+      }
+    },
+    {
+      "ts": "2026-07-30",
+      "type": "disagreement_detected",
+      "id": "openai/o3-deep-research",
+      "provider": "openai",
+      "disagreement": {
+        "slug": "openai:o3-deep-research",
+        "openrouter_status": "removed",
+        "litellm_status": "active",
+        "litellm_id": "o3-deep-research"
+      }
+    },
+    {
+      "ts": "2026-07-30",
+      "type": "disagreement_detected",
+      "id": "openai/gpt-5-codex",
+      "provider": "openai",
+      "disagreement": {
+        "slug": "openai:gpt-5-codex",
+        "openrouter_status": "removed",
+        "litellm_status": "active",
+        "litellm_id": "gpt-5-codex"
+      }
+    },
     {
       "ts": "2026-07-30",
       "type": "model_removed",
@@ -280,126 +364,6 @@
           "pct_change": -3.33
         }
       ]
-    },
-    {
-      "ts": "2026-07-30",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.2",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000006769",
-          "next": "0.0000006993",
-          "pct_change": 3.31
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000021274",
-          "next": "0.0000021978",
-          "pct_change": 3.31
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-30",
-      "type": "price_changed",
-      "id": "qwen/qwen-2.5-7b-instruct",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000004",
-          "next": "0.0000001",
-          "pct_change": 150
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000001",
-          "next": "0.0000002",
-          "pct_change": 100
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-30",
-      "type": "price_changed",
-      "id": "qwen/qwen3-vl-30b-a3b-instruct",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000013",
-          "next": "0.00000015",
-          "pct_change": 15.38
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000052",
-          "next": "0.0000006",
-          "pct_change": 15.38
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-30",
-      "type": "price_changed",
-      "id": "google/gemma-4-31b-it",
-      "provider": "google",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000014",
-          "next": "0.0000001",
-          "pct_change": -28.57
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000004",
-          "next": "0.00000034",
-          "pct_change": -15
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-30",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.2",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000693",
-          "next": "0.0000006769",
-          "pct_change": -2.32
-        },
-        {
-          "field": "completion",
-          "prev": "0.000002178",
-          "next": "0.0000021274",
-          "pct_change": -2.32
-        }
-      ]
-    },
-    {
-      "ts": "2026-07-29",
-      "type": "price_changed",
-      "id": "qwen/qwen3-vl-30b-a3b-instruct",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000015",
-          "next": "0.00000013",
-          "pct_change": -13.33
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000006",
-          "next": "0.00000052",
-          "pct_change": -13.33
-        }
-      ]
     }
   ],
   "scheduled_funerals": [
@@ -415,11 +379,6 @@
     },
     {
       "id": "z-ai/glm-4.5",
-      "provider": "z-ai",
-      "expiration_date": "2026-12-31"
-    },
-    {
-      "id": "z-ai/glm-4.5v",
       "provider": "z-ai",
       "expiration_date": "2026-12-31"
     },

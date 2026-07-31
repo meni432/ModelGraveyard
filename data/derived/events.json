@@ -20571,6 +20571,54 @@
         "litellm_status": "active",
         "litellm_id": "o4-mini-deep-research"
       }
+    },
+    {
+      "ts": "2026-07-31",
+      "type": "price_changed",
+      "id": "poolside/laguna-s-2.1",
+      "provider": "poolside",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000001",
+          "next": "0.00000009",
+          "pct_change": -10
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000002",
+          "next": "0.00000018",
+          "pct_change": -10
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-31",
+      "type": "price_changed",
+      "id": "qwen/qwen3-235b-a22b-thinking-2507",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000003",
+          "next": "0.00000023",
+          "pct_change": -23.33
+        },
+        {
+          "field": "completion",
+          "prev": "0.000003",
+          "next": "0.0000023",
+          "pct_change": -23.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-31",
+      "type": "context_changed",
+      "id": "thedrummer/unslopnemo-12b",
+      "provider": "thedrummer",
+      "prev_context": 32768,
+      "next_context": 1024000
     }
   ]
 }
