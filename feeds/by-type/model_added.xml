@@ -15,6 +15,15 @@
     <summary>New model on OpenRouter. Initial prompt price: $0.1400/Mtok, context: 1048576.</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-07-31:model_added:thinkingmachines%2Finkling-small</id>
+    <title>Added: thinkingmachines/inkling-small</title>
+    <updated>2026-07-31T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/thinkingmachines%2Finkling-small"/>
+    <category term="model_added"/>
+    <category term="provider:thinkingmachines"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.5800/Mtok, context: 524288.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-07-28:model_added:qwen%2Fqwen3.7-flash</id>
     <title>Added: qwen/qwen3.7-flash</title>
     <updated>2026-07-28T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="model_added"/>
     <category term="provider:nvidia"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 256000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:poolside%2Flaguna-xs.2%3Afree</id>
-    <title>Added: poolside/laguna-xs.2:free</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/poolside%2Flaguna-xs.2%3Afree"/>
-    <category term="model_added"/>
-    <category term="provider:poolside"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 262144.</summary>
   </entry>
 </feed>
