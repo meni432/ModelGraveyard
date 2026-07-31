@@ -2518,23 +2518,6 @@
       "last_seen": "2026-07-31"
     },
     {
-      "id": "mistralai/devstral-2512",
-      "name": "Mistral: Devstral 2 2512",
-      "provider": "mistralai",
-      "pricing": {
-        "prompt": "0.0000004",
-        "completion": "0.000002",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": null,
-      "expiration_date": null,
-      "created": 1765285419,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-07-31"
-    },
-    {
       "id": "mistralai/ministral-14b-2512",
       "name": "Mistral: Ministral 3 14B 2512",
       "provider": "mistralai",
@@ -2777,13 +2760,13 @@
       "name": "Mistral: Mistral Small 3.2 24B",
       "provider": "mistralai",
       "pricing": {
-        "prompt": "0.0000001",
-        "completion": "0.0000003",
+        "prompt": "0.000000075",
+        "completion": "0.0000002",
         "image": null,
         "request": null
       },
       "context_length": 256000,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 16384,
       "expiration_date": null,
       "created": 1750443016,
       "first_seen": "2026-05-27",
@@ -4257,7 +4240,7 @@
       "provider": "openai",
       "pricing": {
         "prompt": "0.00000003",
-        "completion": "0.00000013",
+        "completion": "0.00000014",
         "image": null,
         "request": null
       },
@@ -5174,13 +5157,13 @@
       "name": "Qwen: Qwen3 VL 30B A3B Instruct",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
+        "prompt": "0.00000013",
+        "completion": "0.00000052",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 16384,
+      "max_completion_tokens": 32768,
       "expiration_date": null,
       "created": 1759794476,
       "first_seen": "2026-05-27",
@@ -6177,8 +6160,8 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.000001232",
-        "completion": "0.000003872",
+        "prompt": "0.00000112",
+        "completion": "0.00000352",
         "image": null,
         "request": null
       },

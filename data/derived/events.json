@@ -20662,6 +20662,103 @@
           "pct_change": 27.54
         }
       ]
+    },
+    {
+      "ts": "2026-07-31",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000001232",
+          "next": "0.00000112",
+          "pct_change": -9.09
+        },
+        {
+          "field": "completion",
+          "prev": "0.000003872",
+          "next": "0.00000352",
+          "pct_change": -9.09
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-31",
+      "type": "price_changed",
+      "id": "qwen/qwen3-vl-30b-a3b-instruct",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000015",
+          "next": "0.00000013",
+          "pct_change": -13.33
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000006",
+          "next": "0.00000052",
+          "pct_change": -13.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-31",
+      "type": "price_changed",
+      "id": "openai/gpt-oss-20b",
+      "provider": "openai",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.00000013",
+          "next": "0.00000014",
+          "pct_change": 7.69
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-31",
+      "type": "price_changed",
+      "id": "mistralai/mistral-small-3.2-24b-instruct",
+      "provider": "mistralai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000001",
+          "next": "0.000000075",
+          "pct_change": -25
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000003",
+          "next": "0.0000002",
+          "pct_change": -33.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-07-31",
+      "type": "model_removed",
+      "id": "mistralai/devstral-2512",
+      "provider": "mistralai",
+      "snapshot": {
+        "id": "mistralai/devstral-2512",
+        "name": "Mistral: Devstral 2 2512",
+        "provider": "mistralai",
+        "pricing": {
+          "prompt": "0.0000004",
+          "completion": "0.000002",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1765285419,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-07-31"
+      }
     }
   ]
 }
