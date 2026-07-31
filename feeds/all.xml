@@ -33,6 +33,24 @@
     <summary>32768 → 1024000 tokens</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-07-31:model_added:deepseek%2Fdeepseek-v4-flash-0731</id>
+    <title>Added: deepseek/deepseek-v4-flash-0731</title>
+    <updated>2026-07-31T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-flash-0731"/>
+    <category term="model_added"/>
+    <category term="provider:deepseek"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.1400/Mtok, context: 1048576.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-07-31:price_changed:z-ai%2Fglm-5.2</id>
+    <title>Price changed: z-ai/glm-5.2</title>
+    <updated>2026-07-31T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>prompt: $0.9660/Mtok → $1.2320/Mtok (+27.54%); completion: $3.0360/Mtok → $3.8720/Mtok (+27.54%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-07-30:price_changed:z-ai%2Fglm-5.2</id>
     <title>Price changed: z-ai/glm-5.2</title>
     <updated>2026-07-30T00:00:00Z</updated>
@@ -886,23 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:qwen"/>
     <summary>prompt: $0.1400/Mtok → $0.1500/Mtok (+7.14%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-27:price_changed:z-ai%2Fglm-5.2</id>
-    <title>Price changed: z-ai/glm-5.2</title>
-    <updated>2026-07-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
-    <category term="price_changed"/>
-    <category term="provider:z-ai"/>
-    <summary>prompt: $0.8050/Mtok → $0.7840/Mtok (-2.61%); completion: $2.5300/Mtok → $2.4640/Mtok (-2.61%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-27:price_changed:google%2Fgemma-4-26b-a4b-it</id>
-    <title>Price changed: google/gemma-4-26b-a4b-it</title>
-    <updated>2026-07-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemma-4-26b-a4b-it"/>
-    <category term="price_changed"/>
-    <category term="provider:google"/>
-    <summary>prompt: $0.1200/Mtok → $0.1300/Mtok (+8.33%); completion: $0.3500/Mtok → $0.4000/Mtok (+14.29%)</summary>
   </entry>
 </feed>

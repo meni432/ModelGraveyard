@@ -20619,6 +20619,49 @@
       "provider": "thedrummer",
       "prev_context": 32768,
       "next_context": 1024000
+    },
+    {
+      "ts": "2026-07-31",
+      "type": "model_added",
+      "id": "deepseek/deepseek-v4-flash-0731",
+      "provider": "deepseek",
+      "snapshot": {
+        "id": "deepseek/deepseek-v4-flash-0731",
+        "name": "DeepSeek: DeepSeek V4 Flash 0731",
+        "provider": "deepseek",
+        "pricing": {
+          "prompt": "0.00000014",
+          "completion": "0.00000028",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": 384000,
+        "expiration_date": null,
+        "created": 1785478908,
+        "first_seen": "2026-07-31",
+        "last_seen": "2026-07-31"
+      }
+    },
+    {
+      "ts": "2026-07-31",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000966",
+          "next": "0.000001232",
+          "pct_change": 27.54
+        },
+        {
+          "field": "completion",
+          "prev": "0.000003036",
+          "next": "0.000003872",
+          "pct_change": 27.54
+        }
+      ]
     }
   ]
 }
