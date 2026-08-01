@@ -7,6 +7,60 @@
     {
       "ts": "2026-08-01",
       "type": "price_changed",
+      "id": "openai/gpt-oss-20b",
+      "provider": "openai",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.00000014",
+          "next": "0.00000013",
+          "pct_change": -7.14
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-01",
+      "type": "price_changed",
+      "id": "nvidia/nemotron-3-ultra-550b-a55b",
+      "provider": "nvidia",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000006",
+          "next": "0.0000005",
+          "pct_change": -16.67
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000036",
+          "next": "0.0000022",
+          "pct_change": -38.89
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-01",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000006993",
+          "next": "0.00000076006",
+          "pct_change": 8.69
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000021978",
+          "next": "0.00000238876",
+          "pct_change": 8.69
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-01",
+      "type": "price_changed",
       "id": "qwen/qwen3-coder-30b-a3b-instruct",
       "provider": "qwen",
       "changes": [
@@ -362,75 +416,6 @@
         "max_completion_tokens": 65536,
         "expiration_date": null,
         "created": 1784646733,
-        "first_seen": "2026-07-28",
-        "last_seen": "2026-07-31"
-      }
-    },
-    {
-      "ts": "2026-07-31",
-      "type": "model_removed",
-      "id": "google/gemini-3.5-flash:batch",
-      "provider": "google",
-      "snapshot": {
-        "id": "google/gemini-3.5-flash:batch",
-        "name": "Google: Gemini 3.5 Flash (batch)",
-        "provider": "google",
-        "pricing": {
-          "prompt": "0.00000075",
-          "completion": "0.0000045",
-          "image": "0.00000075",
-          "request": null
-        },
-        "context_length": 1048576,
-        "max_completion_tokens": 65536,
-        "expiration_date": null,
-        "created": 1779193800,
-        "first_seen": "2026-07-28",
-        "last_seen": "2026-07-31"
-      }
-    },
-    {
-      "ts": "2026-07-31",
-      "type": "model_removed",
-      "id": "google/gemini-3.5-flash-lite:batch",
-      "provider": "google",
-      "snapshot": {
-        "id": "google/gemini-3.5-flash-lite:batch",
-        "name": "Google: Gemini 3.5 Flash Lite (batch)",
-        "provider": "google",
-        "pricing": {
-          "prompt": "0.00000015",
-          "completion": "0.00000125",
-          "image": "0.00000015",
-          "request": null
-        },
-        "context_length": 1048576,
-        "max_completion_tokens": 65536,
-        "expiration_date": null,
-        "created": 1784646726,
-        "first_seen": "2026-07-28",
-        "last_seen": "2026-07-31"
-      }
-    },
-    {
-      "ts": "2026-07-31",
-      "type": "model_removed",
-      "id": "google/gemini-3.1-pro-preview:batch",
-      "provider": "google",
-      "snapshot": {
-        "id": "google/gemini-3.1-pro-preview:batch",
-        "name": "Google: Gemini 3.1 Pro Preview (batch)",
-        "provider": "google",
-        "pricing": {
-          "prompt": "0.000001",
-          "completion": "0.000006",
-          "image": "0.000001",
-          "request": null
-        },
-        "context_length": 1048576,
-        "max_completion_tokens": 65536,
-        "expiration_date": null,
-        "created": 1771509627,
         "first_seen": "2026-07-28",
         "last_seen": "2026-07-31"
       }

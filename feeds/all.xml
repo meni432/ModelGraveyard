@@ -42,6 +42,33 @@
     <summary>completion: $0.2700/Mtok → $0.2800/Mtok (+3.7%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-08-01:price_changed:z-ai%2Fglm-5.2</id>
+    <title>Price changed: z-ai/glm-5.2</title>
+    <updated>2026-08-01T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>prompt: $0.6993/Mtok → $0.7601/Mtok (+8.69%); completion: $2.1978/Mtok → $2.3888/Mtok (+8.69%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-01:price_changed:nvidia%2Fnemotron-3-ultra-550b-a55b</id>
+    <title>Price changed: nvidia/nemotron-3-ultra-550b-a55b</title>
+    <updated>2026-08-01T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nvidia%2Fnemotron-3-ultra-550b-a55b"/>
+    <category term="price_changed"/>
+    <category term="provider:nvidia"/>
+    <summary>prompt: $0.6000/Mtok → $0.5000/Mtok (-16.67%); completion: $3.6000/Mtok → $2.2000/Mtok (-38.89%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-01:price_changed:openai%2Fgpt-oss-20b</id>
+    <title>Price changed: openai/gpt-oss-20b</title>
+    <updated>2026-08-01T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-oss-20b"/>
+    <category term="price_changed"/>
+    <category term="provider:openai"/>
+    <summary>completion: $0.1400/Mtok → $0.1300/Mtok (-7.14%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-07-31:price_changed:poolside%2Flaguna-s-2.1</id>
     <title>Price changed: poolside/laguna-s-2.1</title>
     <updated>2026-07-31T00:00:00Z</updated>
@@ -877,32 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:z-ai"/>
     <summary>prompt: $0.7644/Mtok → $0.7308/Mtok (-4.4%); completion: $2.4024/Mtok → $2.2968/Mtok (-4.4%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-28:price_changed:nvidia%2Fnemotron-3-ultra-550b-a55b</id>
-    <title>Price changed: nvidia/nemotron-3-ultra-550b-a55b</title>
-    <updated>2026-07-28T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/nvidia%2Fnemotron-3-ultra-550b-a55b"/>
-    <category term="price_changed"/>
-    <category term="provider:nvidia"/>
-    <summary>prompt: $0.5000/Mtok → $0.6000/Mtok (+20%); completion: $2.2000/Mtok → $3.6000/Mtok (+63.64%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-28:model_removed:openai%2Fgpt-5-chat</id>
-    <title>Removed: openai/gpt-5-chat</title>
-    <updated>2026-07-28T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5-chat"/>
-    <category term="model_removed"/>
-    <category term="provider:openai"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $1.2500/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-28:disagreement_detected:openai%2Fgpt-5-chat</id>
-    <title>Catalog disagreement: openai/gpt-5-chat</title>
-    <updated>2026-07-28T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5-chat"/>
-    <category term="disagreement_detected"/>
-    <category term="provider:openai"/>
-    <summary>OpenRouter says removed; LiteLLM still lists it as gpt-5-chat.</summary>
   </entry>
 </feed>

@@ -21555,6 +21555,60 @@
           "pct_change": 3.7
         }
       ]
+    },
+    {
+      "ts": "2026-08-01",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000006993",
+          "next": "0.00000076006",
+          "pct_change": 8.69
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000021978",
+          "next": "0.00000238876",
+          "pct_change": 8.69
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-01",
+      "type": "price_changed",
+      "id": "nvidia/nemotron-3-ultra-550b-a55b",
+      "provider": "nvidia",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000006",
+          "next": "0.0000005",
+          "pct_change": -16.67
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000036",
+          "next": "0.0000022",
+          "pct_change": -38.89
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-01",
+      "type": "price_changed",
+      "id": "openai/gpt-oss-20b",
+      "provider": "openai",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.00000014",
+          "next": "0.00000013",
+          "pct_change": -7.14
+        }
+      ]
     }
   ]
 }

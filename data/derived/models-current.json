@@ -2828,13 +2828,13 @@
       "name": "NVIDIA: Nemotron 3 Ultra",
       "provider": "nvidia",
       "pricing": {
-        "prompt": "0.0000006",
-        "completion": "0.0000036",
+        "prompt": "0.0000005",
+        "completion": "0.0000022",
         "image": null,
         "request": null
       },
       "context_length": 512288,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 16384,
       "expiration_date": null,
       "created": 1780551208,
       "first_seen": "2026-06-08",
@@ -3747,7 +3747,7 @@
       "provider": "openai",
       "pricing": {
         "prompt": "0.00000003",
-        "completion": "0.00000014",
+        "completion": "0.00000013",
         "image": null,
         "request": null
       },
@@ -5684,8 +5684,8 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.0000006993",
-        "completion": "0.0000021978",
+        "prompt": "0.00000076006",
+        "completion": "0.00000238876",
         "image": null,
         "request": null
       },
