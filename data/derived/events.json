@@ -21609,6 +21609,89 @@
           "pct_change": -7.14
         }
       ]
+    },
+    {
+      "ts": "2026-08-01",
+      "type": "model_added",
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "provider": "~deepseek",
+      "snapshot": {
+        "id": "~deepseek/deepseek-v4-flash-latest",
+        "name": "DeepSeek V4 Flash Latest",
+        "provider": "~deepseek",
+        "pricing": {
+          "prompt": "0.00000009",
+          "completion": "0.00000018",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": 65536,
+        "expiration_date": null,
+        "created": 1785606009,
+        "first_seen": "2026-08-01",
+        "last_seen": "2026-08-01"
+      }
+    },
+    {
+      "ts": "2026-08-01",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash-0731",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000014",
+          "next": "0.00000009",
+          "pct_change": -35.71
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000028",
+          "next": "0.00000018",
+          "pct_change": -35.71
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-01",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000076006",
+          "next": "0.00000042",
+          "pct_change": -44.74
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000238876",
+          "next": "0.00000132",
+          "pct_change": -44.74
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-01",
+      "type": "price_changed",
+      "id": "nvidia/nemotron-3-ultra-550b-a55b",
+      "provider": "nvidia",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000005",
+          "next": "0.0000006",
+          "pct_change": 20
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000022",
+          "next": "0.0000036",
+          "pct_change": 63.64
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ModelGraveyard — ~deepseek</title>
+  <id>https://modelgraveyard.com/feeds/by-provider/~deepseek.xml</id>
+  <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/~deepseek.xml"/>
+  <link rel="alternate" href="https://modelgraveyard.com"/>
+  <updated>2026-08-01T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-01:model_added:~deepseek%2Fdeepseek-v4-flash-latest</id>
+    <title>Added: ~deepseek/deepseek-v4-flash-latest</title>
+    <updated>2026-08-01T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/~deepseek%2Fdeepseek-v4-flash-latest"/>
+    <category term="model_added"/>
+    <category term="provider:~deepseek"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0900/Mtok, context: 1048576.</summary>
+  </entry>
+</feed>

@@ -70,6 +70,23 @@
       "last_seen": "2026-08-01"
     },
     {
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "name": "DeepSeek V4 Flash Latest",
+      "provider": "~deepseek",
+      "pricing": {
+        "prompt": "0.00000009",
+        "completion": "0.00000018",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1048576,
+      "max_completion_tokens": 65536,
+      "expiration_date": null,
+      "created": 1785606009,
+      "first_seen": "2026-08-01",
+      "last_seen": "2026-08-01"
+    },
+    {
       "id": "~google/gemini-flash-latest",
       "name": "Google Gemini Flash Latest",
       "provider": "~google",
@@ -1094,13 +1111,13 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000014",
-        "completion": "0.00000028",
+        "prompt": "0.00000009",
+        "completion": "0.00000018",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 384000,
+      "max_completion_tokens": 65536,
       "expiration_date": null,
       "created": 1785478908,
       "first_seen": "2026-07-31",
@@ -2828,13 +2845,13 @@
       "name": "NVIDIA: Nemotron 3 Ultra",
       "provider": "nvidia",
       "pricing": {
-        "prompt": "0.0000005",
-        "completion": "0.0000022",
+        "prompt": "0.0000006",
+        "completion": "0.0000036",
         "image": null,
         "request": null
       },
       "context_length": 512288,
-      "max_completion_tokens": 16384,
+      "max_completion_tokens": null,
       "expiration_date": null,
       "created": 1780551208,
       "first_seen": "2026-06-08",
@@ -5684,8 +5701,8 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.00000076006",
-        "completion": "0.00000238876",
+        "prompt": "0.00000042",
+        "completion": "0.00000132",
         "image": null,
         "request": null
       },
