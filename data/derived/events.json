@@ -21481,6 +21481,80 @@
         "litellm_status": "active",
         "litellm_id": "gpt-5.1-chat-latest"
       }
+    },
+    {
+      "ts": "2026-08-01",
+      "type": "price_changed",
+      "id": "thinkingmachines/inkling-small",
+      "provider": "thinkingmachines",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000058",
+          "next": "0.0000005",
+          "pct_change": -13.79
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000144",
+          "next": "0.0000012",
+          "pct_change": -16.67
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-01",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000112",
+          "next": "0.0000006993",
+          "pct_change": -37.56
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000352",
+          "next": "0.0000021978",
+          "pct_change": -37.56
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-01",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.6",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000589",
+          "next": "0.0000006",
+          "pct_change": 1.87
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000248",
+          "next": "0.00000341",
+          "pct_change": 37.5
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-01",
+      "type": "price_changed",
+      "id": "qwen/qwen3-coder-30b-a3b-instruct",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.00000027",
+          "next": "0.00000028",
+          "pct_change": 3.7
+        }
+      ]
     }
   ]
 }
