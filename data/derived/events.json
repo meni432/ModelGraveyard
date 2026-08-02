@@ -21752,6 +21752,20 @@
           "pct_change": -8.97
         }
       ]
+    },
+    {
+      "ts": "2026-08-02",
+      "type": "price_changed",
+      "id": "openai/gpt-5.6-luna",
+      "provider": "openai",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.0000006000000000000001",
+          "next": "0.0000006",
+          "pct_change": 0
+        }
+      ]
     }
   ]
 }
