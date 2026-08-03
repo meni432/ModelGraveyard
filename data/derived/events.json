@@ -21928,6 +21928,63 @@
           "pct_change": 20
         }
       ]
+    },
+    {
+      "ts": "2026-08-03",
+      "type": "model_added",
+      "id": "qwen/qwen3.8-max",
+      "provider": "qwen",
+      "snapshot": {
+        "id": "qwen/qwen3.8-max",
+        "name": "Qwen: Qwen3.8 Max",
+        "provider": "qwen",
+        "pricing": {
+          "prompt": "0.000002",
+          "completion": "0.000006",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1000000,
+        "max_completion_tokens": 131072,
+        "expiration_date": null,
+        "created": 1785731612,
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-08-03"
+      }
+    },
+    {
+      "ts": "2026-08-03",
+      "type": "price_changed",
+      "id": "qwen/qwen3.5-122b-a10b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000004",
+          "next": "0.00000026",
+          "pct_change": -35
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000032",
+          "next": "0.00000208",
+          "pct_change": -35
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-03",
+      "type": "price_changed",
+      "id": "qwen/qwen3-coder-30b-a3b-instruct",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.00000028",
+          "next": "0.00000027",
+          "pct_change": -3.57
+        }
+      ]
     }
   ]
 }

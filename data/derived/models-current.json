@@ -4512,12 +4512,12 @@
       "provider": "qwen",
       "pricing": {
         "prompt": "0.00000007",
-        "completion": "0.00000028",
+        "completion": "0.00000027",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": 32768,
       "expiration_date": null,
       "created": 1753972379,
       "first_seen": "2026-05-27",
@@ -4766,8 +4766,8 @@
       "name": "Qwen: Qwen3.5-122B-A10B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.0000004",
-        "completion": "0.0000032",
+        "prompt": "0.00000026",
+        "completion": "0.00000208",
         "image": null,
         "request": null
       },
@@ -5031,6 +5031,23 @@
       "expiration_date": null,
       "created": 1780491783,
       "first_seen": "2026-06-08",
+      "last_seen": "2026-08-03"
+    },
+    {
+      "id": "qwen/qwen3.8-max",
+      "name": "Qwen: Qwen3.8 Max",
+      "provider": "qwen",
+      "pricing": {
+        "prompt": "0.000002",
+        "completion": "0.000006",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1000000,
+      "max_completion_tokens": 131072,
+      "expiration_date": null,
+      "created": 1785731612,
+      "first_seen": "2026-08-03",
       "last_seen": "2026-08-03"
     },
     {
