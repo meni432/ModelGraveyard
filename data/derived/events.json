@@ -22099,6 +22099,26 @@
           "pct_change": 83.33
         }
       ]
+    },
+    {
+      "ts": "2026-08-04",
+      "type": "price_changed",
+      "id": "qwen/qwen2.5-vl-72b-instruct",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000008",
+          "next": "0.00000025",
+          "pct_change": -68.75
+        },
+        {
+          "field": "completion",
+          "prev": "0.000001",
+          "next": "0.00000075",
+          "pct_change": -25
+        }
+      ]
     }
   ]
 }
