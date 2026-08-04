@@ -21985,6 +21985,120 @@
           "pct_change": -3.57
         }
       ]
+    },
+    {
+      "ts": "2026-08-04",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000006286",
+          "next": "0.00000076",
+          "pct_change": 20.9
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000019756",
+          "next": "0.00000242",
+          "pct_change": 22.49
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-04",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.6",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000006",
+          "next": "0.000000589",
+          "pct_change": -1.83
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000341",
+          "next": "0.00000248",
+          "pct_change": -27.27
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-04",
+      "type": "price_changed",
+      "id": "qwen/qwen3-vl-30b-a3b-instruct",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000013",
+          "next": "0.00000015",
+          "pct_change": 15.38
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000052",
+          "next": "0.0000006",
+          "pct_change": 15.38
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-04",
+      "type": "price_changed",
+      "id": "qwen/qwen3-next-80b-a3b-instruct",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000001",
+          "next": "0.00000009",
+          "pct_change": -10
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-04",
+      "type": "price_changed",
+      "id": "meta-llama/llama-3.3-70b-instruct",
+      "provider": "meta-llama",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000013",
+          "next": "0.0000001",
+          "pct_change": -23.08
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000004",
+          "next": "0.00000032",
+          "pct_change": -20
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-04",
+      "type": "price_changed",
+      "id": "gryphe/mythomax-l2-13b",
+      "provider": "gryphe",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000006",
+          "next": "0.00000008",
+          "pct_change": 33.33
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000006",
+          "next": "0.00000011",
+          "pct_change": 83.33
+        }
+      ]
     }
   ]
 }

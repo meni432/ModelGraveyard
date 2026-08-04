@@ -1,9 +1,123 @@
 {
-  "generated_at": "2026-08-03",
+  "generated_at": "2026-08-04",
   "active_count": 338,
   "dead_count": 107,
-  "last_event_ts": "2026-08-03",
+  "last_event_ts": "2026-08-04",
   "recent_events": [
+    {
+      "ts": "2026-08-04",
+      "type": "price_changed",
+      "id": "gryphe/mythomax-l2-13b",
+      "provider": "gryphe",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000006",
+          "next": "0.00000008",
+          "pct_change": 33.33
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000006",
+          "next": "0.00000011",
+          "pct_change": 83.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-04",
+      "type": "price_changed",
+      "id": "meta-llama/llama-3.3-70b-instruct",
+      "provider": "meta-llama",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000013",
+          "next": "0.0000001",
+          "pct_change": -23.08
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000004",
+          "next": "0.00000032",
+          "pct_change": -20
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-04",
+      "type": "price_changed",
+      "id": "qwen/qwen3-next-80b-a3b-instruct",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000001",
+          "next": "0.00000009",
+          "pct_change": -10
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-04",
+      "type": "price_changed",
+      "id": "qwen/qwen3-vl-30b-a3b-instruct",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000013",
+          "next": "0.00000015",
+          "pct_change": 15.38
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000052",
+          "next": "0.0000006",
+          "pct_change": 15.38
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-04",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.6",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000006",
+          "next": "0.000000589",
+          "pct_change": -1.83
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000341",
+          "next": "0.00000248",
+          "pct_change": -27.27
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-04",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000006286",
+          "next": "0.00000076",
+          "pct_change": 20.9
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000019756",
+          "next": "0.00000242",
+          "pct_change": 22.49
+        }
+      ]
+    },
     {
       "ts": "2026-08-03",
       "type": "price_changed",
@@ -256,129 +370,6 @@
           "pct_change": -8.97
         }
       ]
-    },
-    {
-      "ts": "2026-08-02",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.2",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000004018",
-          "next": "0.0000003122",
-          "pct_change": -22.3
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000012628",
-          "next": "0.0000009812",
-          "pct_change": -22.3
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-02",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.2",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000042",
-          "next": "0.0000004018",
-          "pct_change": -4.33
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000132",
-          "next": "0.0000012628",
-          "pct_change": -4.33
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-01",
-      "type": "price_changed",
-      "id": "nvidia/nemotron-3-ultra-550b-a55b",
-      "provider": "nvidia",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000005",
-          "next": "0.0000006",
-          "pct_change": 20
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000022",
-          "next": "0.0000036",
-          "pct_change": 63.64
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-01",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.2",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000076006",
-          "next": "0.00000042",
-          "pct_change": -44.74
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000238876",
-          "next": "0.00000132",
-          "pct_change": -44.74
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-01",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-flash-0731",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000014",
-          "next": "0.00000009",
-          "pct_change": -35.71
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000028",
-          "next": "0.00000018",
-          "pct_change": -35.71
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-01",
-      "type": "model_added",
-      "id": "~deepseek/deepseek-v4-flash-latest",
-      "provider": "~deepseek",
-      "snapshot": {
-        "id": "~deepseek/deepseek-v4-flash-latest",
-        "name": "DeepSeek V4 Flash Latest",
-        "provider": "~deepseek",
-        "pricing": {
-          "prompt": "0.00000009",
-          "completion": "0.00000018",
-          "image": null,
-          "request": null
-        },
-        "context_length": 1048576,
-        "max_completion_tokens": 65536,
-        "expiration_date": null,
-        "created": 1785606009,
-        "first_seen": "2026-08-01",
-        "last_seen": "2026-08-01"
-      }
     }
   ],
   "scheduled_funerals": [
