@@ -22119,6 +22119,46 @@
           "pct_change": -25
         }
       ]
+    },
+    {
+      "ts": "2026-08-04",
+      "type": "price_changed",
+      "id": "minimax/minimax-m2.7",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000025",
+          "next": "0.00000027",
+          "pct_change": 8
+        },
+        {
+          "field": "completion",
+          "prev": "0.000001",
+          "next": "0.00000108",
+          "pct_change": 8
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-04",
+      "type": "price_changed",
+      "id": "mistralai/mistral-small-3.2-24b-instruct",
+      "provider": "mistralai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000075",
+          "next": "0.00000009375",
+          "pct_change": 25
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000002",
+          "next": "0.00000025",
+          "pct_change": 25
+        }
+      ]
     }
   ]
 }
