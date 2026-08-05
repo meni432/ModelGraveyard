@@ -22159,6 +22159,26 @@
           "pct_change": 25
         }
       ]
+    },
+    {
+      "ts": "2026-08-05",
+      "type": "price_changed",
+      "id": "qwen/qwen3-vl-235b-a22b-thinking",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000098",
+          "next": "0.0000004",
+          "pct_change": -59.18
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000395",
+          "next": "0.000004",
+          "pct_change": 1.27
+        }
+      ]
     }
   ]
 }

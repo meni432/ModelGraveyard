@@ -2,8 +2,28 @@
   "generated_at": "2026-08-05",
   "active_count": 338,
   "dead_count": 107,
-  "last_event_ts": "2026-08-04",
+  "last_event_ts": "2026-08-05",
   "recent_events": [
+    {
+      "ts": "2026-08-05",
+      "type": "price_changed",
+      "id": "qwen/qwen3-vl-235b-a22b-thinking",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000098",
+          "next": "0.0000004",
+          "pct_change": -59.18
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000395",
+          "next": "0.000004",
+          "pct_change": 1.27
+        }
+      ]
+    },
     {
       "ts": "2026-08-04",
       "type": "price_changed",
@@ -359,20 +379,6 @@
       "ts": "2026-08-03",
       "type": "price_changed",
       "id": "openai/gpt-5.6-terra",
-      "provider": "openai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000100000000000000015",
-          "next": "0.000001",
-          "pct_change": 0
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-03",
-      "type": "price_changed",
-      "id": "openai/gpt-5.6-terra-pro",
       "provider": "openai",
       "changes": [
         {
