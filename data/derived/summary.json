@@ -7,6 +7,82 @@
     {
       "ts": "2026-08-05",
       "type": "price_changed",
+      "id": "qwen/qwen3-235b-a22b-2507",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000001495",
+          "next": "0.00000009",
+          "pct_change": -39.8
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000598",
+          "next": "0.00000055",
+          "pct_change": -8.03
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-05",
+      "type": "context_changed",
+      "id": "upstage/solar-pro-3",
+      "provider": "upstage",
+      "prev_context": 128000,
+      "next_context": 131072
+    },
+    {
+      "ts": "2026-08-05",
+      "type": "price_changed",
+      "id": "minimax/minimax-m2.5",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000015",
+          "next": "0.00000022",
+          "pct_change": 46.67
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-05",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.1",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000966",
+          "next": "0.000000952",
+          "pct_change": -1.45
+        },
+        {
+          "field": "completion",
+          "prev": "0.000003036",
+          "next": "0.000002992",
+          "pct_change": -1.45
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-05",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.7-code",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000073",
+          "next": "0.0000007",
+          "pct_change": -4.11
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-05",
+      "type": "price_changed",
       "id": "qwen/qwen3-vl-235b-a22b-thinking",
       "provider": "qwen",
       "changes": [
@@ -292,100 +368,6 @@
           "prev": "0.00000374",
           "next": "0.0000019756",
           "pct_change": -47.18
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-03",
-      "type": "price_changed",
-      "id": "qwen/qwen3-235b-a22b-2507",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000009",
-          "next": "0.0000001495",
-          "pct_change": 66.11
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000055",
-          "next": "0.000000598",
-          "pct_change": 8.73
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-03",
-      "type": "price_changed",
-      "id": "qwen/qwen3-vl-235b-a22b-thinking",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000004",
-          "next": "0.00000098",
-          "pct_change": 145
-        },
-        {
-          "field": "completion",
-          "prev": "0.000004",
-          "next": "0.00000395",
-          "pct_change": -1.25
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-03",
-      "type": "price_changed",
-      "id": "qwen/qwen3.5-122b-a10b",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000026",
-          "next": "0.0000004",
-          "pct_change": 53.85
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000208",
-          "next": "0.0000032",
-          "pct_change": 53.85
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-03",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.2",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000002842",
-          "next": "0.00000119",
-          "pct_change": 318.72
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000008932",
-          "next": "0.00000374",
-          "pct_change": 318.72
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-03",
-      "type": "price_changed",
-      "id": "openai/gpt-5.6-terra",
-      "provider": "openai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000100000000000000015",
-          "next": "0.000001",
-          "pct_change": 0
         }
       ]
     }

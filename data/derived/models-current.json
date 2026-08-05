@@ -2148,7 +2148,7 @@
       "name": "MiniMax: MiniMax M2.5",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0.00000015",
+        "prompt": "0.00000022",
         "completion": "0.0000009",
         "image": null,
         "request": null
@@ -2590,7 +2590,7 @@
       "name": "MoonshotAI: Kimi K2.7 Code",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.00000073",
+        "prompt": "0.0000007",
         "completion": "0.0000035",
         "image": null,
         "request": null
@@ -4375,13 +4375,13 @@
       "name": "Qwen: Qwen3 235B A22B Instruct 2507",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.0000001495",
-        "completion": "0.000000598",
+        "prompt": "0.00000009",
+        "completion": "0.00000055",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 32768,
+      "max_completion_tokens": 16384,
       "expiration_date": null,
       "created": 1753119555,
       "first_seen": "2026-05-27",
@@ -5400,8 +5400,8 @@
         "image": null,
         "request": null
       },
-      "context_length": 128000,
-      "max_completion_tokens": null,
+      "context_length": 131072,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1769481200,
       "first_seen": "2026-05-27",
@@ -5701,13 +5701,13 @@
       "name": "Z.ai: GLM 5.1",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.000000966",
-        "completion": "0.000003036",
+        "prompt": "0.000000952",
+        "completion": "0.000002992",
         "image": null,
         "request": null
       },
       "context_length": 204800,
-      "max_completion_tokens": 128000,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1775578025,
       "first_seen": "2026-05-27",
