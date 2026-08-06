@@ -24,6 +24,15 @@
     <summary>prompt: $0.4000/Mtok → $0.9800/Mtok (+145%); completion: $4.0000/Mtok → $3.9500/Mtok (-1.25%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-08-06:price_changed:qwen%2Fqwen3.6-27b</id>
+    <title>Price changed: qwen/qwen3.6-27b</title>
+    <updated>2026-08-06T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3.6-27b"/>
+    <category term="price_changed"/>
+    <category term="provider:qwen"/>
+    <summary>prompt: $0.2890/Mtok → $0.6000/Mtok (+107.61%); completion: $2.4000/Mtok → $3.6000/Mtok (+50%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-08-05:price_changed:qwen%2Fqwen3-vl-235b-a22b-thinking</id>
     <title>Price changed: qwen/qwen3-vl-235b-a22b-thinking</title>
     <updated>2026-08-05T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:z-ai"/>
     <summary>prompt: $0.8050/Mtok → $0.7840/Mtok (-2.61%); completion: $2.5300/Mtok → $2.4640/Mtok (-2.61%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-27:price_changed:google%2Fgemma-4-26b-a4b-it</id>
-    <title>Price changed: google/gemma-4-26b-a4b-it</title>
-    <updated>2026-07-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemma-4-26b-a4b-it"/>
-    <category term="price_changed"/>
-    <category term="provider:google"/>
-    <summary>prompt: $0.1200/Mtok → $0.1300/Mtok (+8.33%); completion: $0.3500/Mtok → $0.4000/Mtok (+14.29%)</summary>
   </entry>
 </feed>

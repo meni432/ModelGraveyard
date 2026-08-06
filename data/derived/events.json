@@ -22341,6 +22341,26 @@
           "pct_change": -1.25
         }
       ]
+    },
+    {
+      "ts": "2026-08-06",
+      "type": "price_changed",
+      "id": "qwen/qwen3.6-27b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000289",
+          "next": "0.0000006",
+          "pct_change": 107.61
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000024",
+          "next": "0.0000036",
+          "pct_change": 50
+        }
+      ]
     }
   ]
 }

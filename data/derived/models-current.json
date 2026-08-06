@@ -4936,13 +4936,13 @@
       "name": "Qwen: Qwen3.6 27B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.000000289",
-        "completion": "0.0000024",
+        "prompt": "0.0000006",
+        "completion": "0.0000036",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 262144,
       "expiration_date": null,
       "created": 1777255064,
       "first_seen": "2026-05-27",

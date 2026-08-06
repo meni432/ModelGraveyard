@@ -7,6 +7,26 @@
     {
       "ts": "2026-08-06",
       "type": "price_changed",
+      "id": "qwen/qwen3.6-27b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000289",
+          "next": "0.0000006",
+          "pct_change": 107.61
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000024",
+          "next": "0.0000036",
+          "pct_change": 50
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-06",
+      "type": "price_changed",
       "id": "qwen/qwen3-vl-235b-a22b-thinking",
       "provider": "qwen",
       "changes": [
@@ -357,20 +377,6 @@
           "prev": "0.0000019756",
           "next": "0.00000242",
           "pct_change": 22.49
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-03",
-      "type": "price_changed",
-      "id": "qwen/qwen3-coder-30b-a3b-instruct",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "completion",
-          "prev": "0.00000028",
-          "next": "0.00000027",
-          "pct_change": -3.57
         }
       ]
     }
