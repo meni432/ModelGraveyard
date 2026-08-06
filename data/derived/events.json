@@ -22255,6 +22255,92 @@
           "pct_change": -8.03
         }
       ]
+    },
+    {
+      "ts": "2026-08-06",
+      "type": "model_added",
+      "id": "meta/muse-spark-1.2",
+      "provider": "meta",
+      "snapshot": {
+        "id": "meta/muse-spark-1.2",
+        "name": "Meta: Muse Spark 1.2",
+        "provider": "meta",
+        "pricing": {
+          "prompt": "0.00000125",
+          "completion": "0.00000425",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1785959287,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-06"
+      }
+    },
+    {
+      "ts": "2026-08-06",
+      "type": "model_added",
+      "id": "inclusionai/ling-3.0-flash",
+      "provider": "inclusionai",
+      "snapshot": {
+        "id": "inclusionai/ling-3.0-flash",
+        "name": "Ling-3.0-flash",
+        "provider": "inclusionai",
+        "pricing": {
+          "prompt": "0.000000075",
+          "completion": "0.00000022",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": 16384,
+        "expiration_date": null,
+        "created": 1784818580,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-06"
+      }
+    },
+    {
+      "ts": "2026-08-06",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000014",
+          "next": "0.0000000882",
+          "pct_change": -37
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000028",
+          "next": "0.0000001764",
+          "pct_change": -37
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-06",
+      "type": "price_changed",
+      "id": "qwen/qwen3-vl-235b-a22b-thinking",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000004",
+          "next": "0.00000098",
+          "pct_change": 145
+        },
+        {
+          "field": "completion",
+          "prev": "0.000004",
+          "next": "0.00000395",
+          "pct_change": -1.25
+        }
+      ]
     }
   ]
 }

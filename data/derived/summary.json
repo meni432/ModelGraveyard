@@ -1,9 +1,95 @@
 {
-  "generated_at": "2026-08-05",
-  "active_count": 338,
+  "generated_at": "2026-08-06",
+  "active_count": 340,
   "dead_count": 107,
-  "last_event_ts": "2026-08-05",
+  "last_event_ts": "2026-08-06",
   "recent_events": [
+    {
+      "ts": "2026-08-06",
+      "type": "price_changed",
+      "id": "qwen/qwen3-vl-235b-a22b-thinking",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000004",
+          "next": "0.00000098",
+          "pct_change": 145
+        },
+        {
+          "field": "completion",
+          "prev": "0.000004",
+          "next": "0.00000395",
+          "pct_change": -1.25
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-06",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000014",
+          "next": "0.0000000882",
+          "pct_change": -37
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000028",
+          "next": "0.0000001764",
+          "pct_change": -37
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-06",
+      "type": "model_added",
+      "id": "inclusionai/ling-3.0-flash",
+      "provider": "inclusionai",
+      "snapshot": {
+        "id": "inclusionai/ling-3.0-flash",
+        "name": "Ling-3.0-flash",
+        "provider": "inclusionai",
+        "pricing": {
+          "prompt": "0.000000075",
+          "completion": "0.00000022",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": 16384,
+        "expiration_date": null,
+        "created": 1784818580,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-06"
+      }
+    },
+    {
+      "ts": "2026-08-06",
+      "type": "model_added",
+      "id": "meta/muse-spark-1.2",
+      "provider": "meta",
+      "snapshot": {
+        "id": "meta/muse-spark-1.2",
+        "name": "Meta: Muse Spark 1.2",
+        "provider": "meta",
+        "pricing": {
+          "prompt": "0.00000125",
+          "completion": "0.00000425",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1785959287,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-06"
+      }
+    },
     {
       "ts": "2026-08-05",
       "type": "price_changed",
@@ -285,89 +371,6 @@
           "prev": "0.00000028",
           "next": "0.00000027",
           "pct_change": -3.57
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-03",
-      "type": "price_changed",
-      "id": "qwen/qwen3.5-122b-a10b",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000004",
-          "next": "0.00000026",
-          "pct_change": -35
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000032",
-          "next": "0.00000208",
-          "pct_change": -35
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-03",
-      "type": "model_added",
-      "id": "qwen/qwen3.8-max",
-      "provider": "qwen",
-      "snapshot": {
-        "id": "qwen/qwen3.8-max",
-        "name": "Qwen: Qwen3.8 Max",
-        "provider": "qwen",
-        "pricing": {
-          "prompt": "0.000002",
-          "completion": "0.000006",
-          "image": null,
-          "request": null
-        },
-        "context_length": 1000000,
-        "max_completion_tokens": 131072,
-        "expiration_date": null,
-        "created": 1785731612,
-        "first_seen": "2026-08-03",
-        "last_seen": "2026-08-03"
-      }
-    },
-    {
-      "ts": "2026-08-03",
-      "type": "price_changed",
-      "id": "qwen/qwen3.6-27b",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000003",
-          "next": "0.000000289",
-          "pct_change": -3.67
-        },
-        {
-          "field": "completion",
-          "prev": "0.000002",
-          "next": "0.0000024",
-          "pct_change": 20
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-03",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.2",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000119",
-          "next": "0.0000006286",
-          "pct_change": -47.18
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000374",
-          "next": "0.0000019756",
-          "pct_change": -47.18
         }
       ]
     }
