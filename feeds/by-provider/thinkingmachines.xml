@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/thinkingmachines.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/thinkingmachines.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-08-01T00:00:00Z</updated>
+  <updated>2026-08-06T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-06:model_added:thinkingmachines%2Finkling%3Abatch</id>
+    <title>Added: thinkingmachines/inkling:batch</title>
+    <updated>2026-08-06T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/thinkingmachines%2Finkling%3Abatch"/>
+    <category term="model_added"/>
+    <category term="provider:thinkingmachines"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.5000/Mtok, context: 524288.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-08-01:price_changed:thinkingmachines%2Finkling-small</id>
     <title>Price changed: thinkingmachines/inkling-small</title>
