@@ -1,6 +1,23 @@
 {
   "buried": [
     {
+      "id": "inclusionai/ling-3.0-flash:free",
+      "name": "Ling-3.0-flash (free)",
+      "provider": "inclusionai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-08-06",
+      "buried_at": "2026-08-07",
+      "suggested_replacement": "inclusionai/ling-3.0-tiny:free"
+    },
+    {
       "id": "anthropic/claude-fable-5:batch",
       "name": "Anthropic: Claude Fable 5 (batch)",
       "provider": "anthropic",

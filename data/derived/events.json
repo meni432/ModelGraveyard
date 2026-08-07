@@ -23781,6 +23781,100 @@
         "first_seen": "2026-08-06",
         "last_seen": "2026-08-06"
       }
+    },
+    {
+      "ts": "2026-08-07",
+      "type": "model_added",
+      "id": "inclusionai/ling-3.0-tiny:free",
+      "provider": "inclusionai",
+      "snapshot": {
+        "id": "inclusionai/ling-3.0-tiny:free",
+        "name": "inclusionAI: Ling 3.0 Tiny (free)",
+        "provider": "inclusionai",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 32768,
+        "expiration_date": null,
+        "created": 1786034890,
+        "first_seen": "2026-08-07",
+        "last_seen": "2026-08-07"
+      }
+    },
+    {
+      "ts": "2026-08-07",
+      "type": "price_changed",
+      "id": "inclusionai/ling-3.0-flash",
+      "provider": "inclusionai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000075",
+          "next": "0.000000021",
+          "pct_change": -72
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000022",
+          "next": "0.000000063",
+          "pct_change": -71.36
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-07",
+      "type": "context_changed",
+      "id": "inclusionai/ling-3.0-flash",
+      "provider": "inclusionai",
+      "prev_context": 131072,
+      "next_context": 262144
+    },
+    {
+      "ts": "2026-08-07",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000056",
+          "next": "0.000000546",
+          "pct_change": -2.5
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000176",
+          "next": "0.000001716",
+          "pct_change": -2.5
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-07",
+      "type": "model_removed",
+      "id": "inclusionai/ling-3.0-flash:free",
+      "provider": "inclusionai",
+      "snapshot": {
+        "id": "inclusionai/ling-3.0-flash:free",
+        "name": "Ling-3.0-flash (free)",
+        "provider": "inclusionai",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 32768,
+        "expiration_date": null,
+        "created": 1784818580,
+        "first_seen": "2026-07-23",
+        "last_seen": "2026-08-06"
+      }
     }
   ]
 }
