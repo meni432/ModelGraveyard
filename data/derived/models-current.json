@@ -1281,13 +1281,13 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000000882",
-        "completion": "0.0000001764",
+        "prompt": "0.00000014",
+        "completion": "0.00000028",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 393216,
       "expiration_date": null,
       "created": 1777000666,
       "first_seen": "2026-05-27",
@@ -2205,7 +2205,7 @@
         "request": null
       },
       "context_length": 8000,
-      "max_completion_tokens": 2000,
+      "max_completion_tokens": 6000,
       "expiration_date": null,
       "created": 1690934400,
       "first_seen": "2026-05-27",
@@ -2964,8 +2964,8 @@
       "name": "MoonshotAI: Kimi K2.6",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.000000589",
-        "completion": "0.00000248",
+        "prompt": "0.0000005795",
+        "completion": "0.00000244",
         "image": null,
         "request": null
       },
@@ -3219,13 +3219,13 @@
       "name": "NVIDIA: Nemotron 3 Super",
       "provider": "nvidia",
       "pricing": {
-        "prompt": "0.0000003",
-        "completion": "0.0000009",
+        "prompt": "0.000000085",
+        "completion": "0.0000004",
         "image": null,
         "request": null
       },
       "context_length": 1000000,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 16384,
       "expiration_date": null,
       "created": 1773245239,
       "first_seen": "2026-05-27",
@@ -5656,7 +5656,7 @@
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 262144,
       "expiration_date": null,
       "created": 1757612284,
       "first_seen": "2026-05-27",
@@ -6421,7 +6421,7 @@
         "request": null
       },
       "context_length": 6144,
-      "max_completion_tokens": 2048,
+      "max_completion_tokens": 6144,
       "expiration_date": null,
       "created": 1689984000,
       "first_seen": "2026-05-27",
@@ -6755,13 +6755,13 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.00000076",
-        "completion": "0.00000242",
+        "prompt": "0.000000518",
+        "completion": "0.000001628",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1781631930,
       "first_seen": "2026-06-16",

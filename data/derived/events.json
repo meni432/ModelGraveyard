@@ -24023,6 +24023,86 @@
           "pct_change": 12.7
         }
       ]
+    },
+    {
+      "ts": "2026-08-07",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000076",
+          "next": "0.000000518",
+          "pct_change": -31.84
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000242",
+          "next": "0.000001628",
+          "pct_change": -32.73
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-07",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000882",
+          "next": "0.00000014",
+          "pct_change": 58.73
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000001764",
+          "next": "0.00000028",
+          "pct_change": 58.73
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-07",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.6",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000589",
+          "next": "0.0000005795",
+          "pct_change": -1.61
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000248",
+          "next": "0.00000244",
+          "pct_change": -1.61
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-07",
+      "type": "price_changed",
+      "id": "nvidia/nemotron-3-super-120b-a12b",
+      "provider": "nvidia",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000003",
+          "next": "0.000000085",
+          "pct_change": -71.67
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000009",
+          "next": "0.0000004",
+          "pct_change": -55.56
+        }
+      ]
     }
   ]
 }
