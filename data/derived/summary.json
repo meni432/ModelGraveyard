@@ -7,6 +7,26 @@
     {
       "ts": "2026-08-07",
       "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000006832",
+          "next": "0.00000076",
+          "pct_change": 11.24
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000021472",
+          "next": "0.00000242",
+          "pct_change": 12.7
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-07",
+      "type": "price_changed",
       "id": "qwen/qwen3-vl-235b-a22b-thinking",
       "provider": "qwen",
       "changes": [
@@ -383,29 +403,6 @@
         "max_completion_tokens": 100000,
         "expiration_date": null,
         "created": 1739372611,
-        "first_seen": "2026-08-06",
-        "last_seen": "2026-08-06"
-      }
-    },
-    {
-      "ts": "2026-08-06",
-      "type": "model_added",
-      "id": "openai/o1-pro:batch",
-      "provider": "openai",
-      "snapshot": {
-        "id": "openai/o1-pro:batch",
-        "name": "OpenAI: o1-pro (batch)",
-        "provider": "openai",
-        "pricing": {
-          "prompt": "0.000075",
-          "completion": "0.0003",
-          "image": null,
-          "request": null
-        },
-        "context_length": 200000,
-        "max_completion_tokens": 100000,
-        "expiration_date": null,
-        "created": 1742423211,
         "first_seen": "2026-08-06",
         "last_seen": "2026-08-06"
       }

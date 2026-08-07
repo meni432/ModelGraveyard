@@ -6755,13 +6755,13 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.0000006832",
-        "completion": "0.0000021472",
+        "prompt": "0.00000076",
+        "completion": "0.00000242",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 128000,
+      "max_completion_tokens": 262144,
       "expiration_date": null,
       "created": 1781631930,
       "first_seen": "2026-06-16",
