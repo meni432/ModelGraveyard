@@ -125,7 +125,7 @@
       "name": "MoonshotAI Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.0000029",
+        "prompt": "0.0000025",
         "completion": "0.000014",
         "image": null,
         "request": null
@@ -2964,8 +2964,8 @@
       "name": "MoonshotAI: Kimi K2.6",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.00000057",
-        "completion": "0.0000024",
+        "prompt": "0.000000589",
+        "completion": "0.00000248",
         "image": null,
         "request": null
       },
@@ -3219,13 +3219,13 @@
       "name": "NVIDIA: Nemotron 3 Super",
       "provider": "nvidia",
       "pricing": {
-        "prompt": "0.000000085",
-        "completion": "0.0000004",
+        "prompt": "0.0000003",
+        "completion": "0.0000009",
         "image": null,
         "request": null
       },
       "context_length": 1000000,
-      "max_completion_tokens": 16384,
+      "max_completion_tokens": null,
       "expiration_date": null,
       "created": 1773245239,
       "first_seen": "2026-05-27",
@@ -5684,8 +5684,8 @@
       "name": "Qwen: Qwen3 VL 235B A22B Thinking",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000098",
-        "completion": "0.00000395",
+        "prompt": "0.0000004",
+        "completion": "0.000004",
         "image": null,
         "request": null
       },
@@ -5786,13 +5786,13 @@
       "name": "Qwen: Qwen3.5-122B-A10B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000026",
-        "completion": "0.00000208",
+        "prompt": "0.00000029",
+        "completion": "0.0000024",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 65536,
+      "max_completion_tokens": 81920,
       "expiration_date": null,
       "created": 1772053789,
       "first_seen": "2026-05-27",
@@ -6381,13 +6381,13 @@
       "name": "Thinking Machines: Inkling Small",
       "provider": "thinkingmachines",
       "pricing": {
-        "prompt": "0.0000005",
+        "prompt": "0.00000045",
         "completion": "0.0000012",
         "image": null,
         "request": null
       },
       "context_length": 524288,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 262144,
       "expiration_date": null,
       "created": 1785443117,
       "first_seen": "2026-07-31",
@@ -6755,13 +6755,13 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.000000546",
-        "completion": "0.000001716",
+        "prompt": "0.0000006832",
+        "completion": "0.0000021472",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 128000,
       "expiration_date": null,
       "created": 1781631930,
       "first_seen": "2026-06-16",

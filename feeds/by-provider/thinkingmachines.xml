@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/thinkingmachines.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/thinkingmachines.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-08-06T00:00:00Z</updated>
+  <updated>2026-08-07T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-07:price_changed:thinkingmachines%2Finkling-small</id>
+    <title>Price changed: thinkingmachines/inkling-small</title>
+    <updated>2026-08-07T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/thinkingmachines%2Finkling-small"/>
+    <category term="price_changed"/>
+    <category term="provider:thinkingmachines"/>
+    <summary>prompt: $0.5000/Mtok → $0.4500/Mtok (-10%)</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-08-06:model_added:thinkingmachines%2Finkling%3Abatch</id>
     <title>Added: thinkingmachines/inkling:batch</title>

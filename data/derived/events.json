@@ -23875,6 +23875,134 @@
         "first_seen": "2026-07-23",
         "last_seen": "2026-08-06"
       }
+    },
+    {
+      "ts": "2026-08-07",
+      "type": "price_changed",
+      "id": "thinkingmachines/inkling-small",
+      "provider": "thinkingmachines",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000005",
+          "next": "0.00000045",
+          "pct_change": -10
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-07",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000546",
+          "next": "0.0000006832",
+          "pct_change": 25.13
+        },
+        {
+          "field": "completion",
+          "prev": "0.000001716",
+          "next": "0.0000021472",
+          "pct_change": 25.13
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-07",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000029",
+          "next": "0.0000025",
+          "pct_change": -13.79
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-07",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.6",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000057",
+          "next": "0.000000589",
+          "pct_change": 3.33
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000024",
+          "next": "0.00000248",
+          "pct_change": 3.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-07",
+      "type": "price_changed",
+      "id": "nvidia/nemotron-3-super-120b-a12b",
+      "provider": "nvidia",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000085",
+          "next": "0.0000003",
+          "pct_change": 252.94
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000004",
+          "next": "0.0000009",
+          "pct_change": 125
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-07",
+      "type": "price_changed",
+      "id": "qwen/qwen3.5-122b-a10b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000026",
+          "next": "0.00000029",
+          "pct_change": 11.54
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000208",
+          "next": "0.0000024",
+          "pct_change": 15.38
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-07",
+      "type": "price_changed",
+      "id": "qwen/qwen3-vl-235b-a22b-thinking",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000098",
+          "next": "0.0000004",
+          "pct_change": -59.18
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000395",
+          "next": "0.000004",
+          "pct_change": 1.27
+        }
+      ]
     }
   ]
 }
