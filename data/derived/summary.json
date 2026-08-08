@@ -1,9 +1,63 @@
 {
-  "generated_at": "2026-08-07",
+  "generated_at": "2026-08-08",
   "active_count": 400,
   "dead_count": 108,
-  "last_event_ts": "2026-08-07",
+  "last_event_ts": "2026-08-08",
   "recent_events": [
+    {
+      "ts": "2026-08-08",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v3.2",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000269",
+          "next": "0.00000026",
+          "pct_change": -3.35
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000004",
+          "next": "0.00000038",
+          "pct_change": -5
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-08",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000518",
+          "next": "0.00000042",
+          "pct_change": -18.92
+        },
+        {
+          "field": "completion",
+          "prev": "0.000001628",
+          "next": "0.00000132",
+          "pct_change": -18.92
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-08",
+      "type": "price_changed",
+      "id": "thinkingmachines/inkling",
+      "provider": "thinkingmachines",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000001",
+          "next": "0.00000095",
+          "pct_change": -5
+        }
+      ]
+    },
     {
       "ts": "2026-08-07",
       "type": "price_changed",
@@ -324,75 +378,6 @@
         "created": 1786034890,
         "first_seen": "2026-08-07",
         "last_seen": "2026-08-07"
-      }
-    },
-    {
-      "ts": "2026-08-06",
-      "type": "model_added",
-      "id": "openai/gpt-3.5-turbo:batch",
-      "provider": "openai",
-      "snapshot": {
-        "id": "openai/gpt-3.5-turbo:batch",
-        "name": "OpenAI: GPT-3.5 Turbo (batch)",
-        "provider": "openai",
-        "pricing": {
-          "prompt": "0.00000025",
-          "completion": "0.00000075",
-          "image": null,
-          "request": null
-        },
-        "context_length": 16385,
-        "max_completion_tokens": 4096,
-        "expiration_date": null,
-        "created": 1685232000,
-        "first_seen": "2026-08-06",
-        "last_seen": "2026-08-06"
-      }
-    },
-    {
-      "ts": "2026-08-06",
-      "type": "model_added",
-      "id": "openai/gpt-4-turbo:batch",
-      "provider": "openai",
-      "snapshot": {
-        "id": "openai/gpt-4-turbo:batch",
-        "name": "OpenAI: GPT-4 Turbo (batch)",
-        "provider": "openai",
-        "pricing": {
-          "prompt": "0.000005",
-          "completion": "0.000015",
-          "image": null,
-          "request": null
-        },
-        "context_length": 128000,
-        "max_completion_tokens": 4096,
-        "expiration_date": null,
-        "created": 1712620800,
-        "first_seen": "2026-08-06",
-        "last_seen": "2026-08-06"
-      }
-    },
-    {
-      "ts": "2026-08-06",
-      "type": "model_added",
-      "id": "openai/gpt-4o:batch",
-      "provider": "openai",
-      "snapshot": {
-        "id": "openai/gpt-4o:batch",
-        "name": "OpenAI: GPT-4o (batch)",
-        "provider": "openai",
-        "pricing": {
-          "prompt": "0.00000125",
-          "completion": "0.000005",
-          "image": null,
-          "request": null
-        },
-        "context_length": 128000,
-        "max_completion_tokens": 16384,
-        "expiration_date": null,
-        "created": 1715558400,
-        "first_seen": "2026-08-06",
-        "last_seen": "2026-08-06"
       }
     }
   ],
