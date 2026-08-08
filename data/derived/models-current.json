@@ -74,13 +74,13 @@
       "name": "DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.00000009",
-        "completion": "0.00000018",
+        "prompt": "0.0000000896",
+        "completion": "0.0000001792",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 384000,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1785606009,
       "first_seen": "2026-08-01",
@@ -125,7 +125,7 @@
       "name": "MoonshotAI Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.0000025",
+        "prompt": "0.0000028",
         "completion": "0.000014",
         "image": null,
         "request": null
@@ -1247,13 +1247,13 @@
       "name": "DeepSeek: DeepSeek V3.2",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000026",
-        "completion": "0.00000038",
+        "prompt": "0.000000269",
+        "completion": "0.0000004",
         "image": null,
         "request": null
       },
       "context_length": 163840,
-      "max_completion_tokens": 163840,
+      "max_completion_tokens": 65536,
       "expiration_date": null,
       "created": 1764594642,
       "first_seen": "2026-05-27",
@@ -2539,8 +2539,8 @@
       "name": "MiniMax: MiniMax M2.7",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0.00000027",
-        "completion": "0.00000108",
+        "prompt": "0.0000003",
+        "completion": "0.0000012",
         "image": null,
         "request": null
       },
@@ -5939,7 +5939,7 @@
       "name": "Qwen: Qwen3.6 35B A3B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000014",
+        "prompt": "0.00000015",
         "completion": "0.000001",
         "image": null,
         "request": null
@@ -6755,8 +6755,8 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.000000252",
-        "completion": "0.000000792",
+        "prompt": "0.000000182",
+        "completion": "0.000000572",
         "image": null,
         "request": null
       },

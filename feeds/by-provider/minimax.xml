@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/minimax.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/minimax.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-08-06T00:00:00Z</updated>
+  <updated>2026-08-08T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-08:price_changed:minimax%2Fminimax-m2.7</id>
+    <title>Price changed: minimax/minimax-m2.7</title>
+    <updated>2026-08-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/minimax%2Fminimax-m2.7"/>
+    <category term="price_changed"/>
+    <category term="provider:minimax"/>
+    <summary>prompt: $0.2700/Mtok → $0.3000/Mtok (+11.11%); completion: $1.0800/Mtok → $1.2000/Mtok (+11.11%)</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-08-06:model_added:minimax%2Fminimax-m3%3Abatch</id>
     <title>Added: minimax/minimax-m3:batch</title>
