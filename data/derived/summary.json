@@ -7,6 +7,26 @@
     {
       "ts": "2026-08-08",
       "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000042",
+          "next": "0.00000028",
+          "pct_change": -33.33
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000132",
+          "next": "0.00000088",
+          "pct_change": -33.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-08",
+      "type": "price_changed",
       "id": "deepseek/deepseek-v3.2",
       "provider": "deepseek",
       "changes": [
@@ -356,29 +376,6 @@
           "pct_change": -71.36
         }
       ]
-    },
-    {
-      "ts": "2026-08-07",
-      "type": "model_added",
-      "id": "inclusionai/ling-3.0-tiny:free",
-      "provider": "inclusionai",
-      "snapshot": {
-        "id": "inclusionai/ling-3.0-tiny:free",
-        "name": "inclusionAI: Ling 3.0 Tiny (free)",
-        "provider": "inclusionai",
-        "pricing": {
-          "prompt": "0",
-          "completion": "0",
-          "image": null,
-          "request": null
-        },
-        "context_length": 262144,
-        "max_completion_tokens": 32768,
-        "expiration_date": null,
-        "created": 1786034890,
-        "first_seen": "2026-08-07",
-        "last_seen": "2026-08-07"
-      }
     }
   ],
   "scheduled_funerals": [
