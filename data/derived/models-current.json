@@ -1995,8 +1995,8 @@
       "name": "MythoMax 13B",
       "provider": "gryphe",
       "pricing": {
-        "prompt": "0.00000008",
-        "completion": "0.00000011",
+        "prompt": "0.00000006",
+        "completion": "0.00000006",
         "image": null,
         "request": null
       },
@@ -5837,13 +5837,13 @@
       "name": "Qwen: Qwen3.5 397B A17B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000039",
-        "completion": "0.00000234",
+        "prompt": "0.0000005",
+        "completion": "0.0000036",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 65536,
+      "max_completion_tokens": 262144,
       "expiration_date": null,
       "created": 1771223018,
       "first_seen": "2026-05-27",

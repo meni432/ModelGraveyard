@@ -24485,6 +24485,46 @@
           "pct_change": -27.54
         }
       ]
+    },
+    {
+      "ts": "2026-08-09",
+      "type": "price_changed",
+      "id": "qwen/qwen3.5-397b-a17b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000039",
+          "next": "0.0000005",
+          "pct_change": 28.21
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000234",
+          "next": "0.0000036",
+          "pct_change": 53.85
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-09",
+      "type": "price_changed",
+      "id": "gryphe/mythomax-l2-13b",
+      "provider": "gryphe",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000008",
+          "next": "0.00000006",
+          "pct_change": -25
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000011",
+          "next": "0.00000006",
+          "pct_change": -45.45
+        }
+      ]
     }
   ]
 }
