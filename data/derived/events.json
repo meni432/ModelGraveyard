@@ -24405,6 +24405,66 @@
           "pct_change": -5
         }
       ]
+    },
+    {
+      "ts": "2026-08-09",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000098",
+          "next": "0.0000000966",
+          "pct_change": -1.43
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000308",
+          "next": "0.0000003036",
+          "pct_change": -1.43
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-09",
+      "type": "price_changed",
+      "id": "qwen/qwen3.5-397b-a17b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000005",
+          "next": "0.00000039",
+          "pct_change": -22
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000036",
+          "next": "0.00000234",
+          "pct_change": -35
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-09",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v3.2",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000026",
+          "next": "0.000000269",
+          "pct_change": 3.46
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000038",
+          "next": "0.0000004",
+          "pct_change": 5.26
+        }
+      ]
     }
   ]
 }
