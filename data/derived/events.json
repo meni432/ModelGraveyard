@@ -24305,6 +24305,106 @@
           "pct_change": 5.26
         }
       ]
+    },
+    {
+      "ts": "2026-08-09",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000896",
+          "next": "0.000000079996",
+          "pct_change": -10.72
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000001792",
+          "next": "0.000000252",
+          "pct_change": 40.62
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-09",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000182",
+          "next": "0.000000098",
+          "pct_change": -46.15
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000572",
+          "next": "0.000000308",
+          "pct_change": -46.15
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-09",
+      "type": "price_changed",
+      "id": "nvidia/nemotron-3-super-120b-a12b",
+      "provider": "nvidia",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000085",
+          "next": "0.0000003",
+          "pct_change": 252.94
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000004",
+          "next": "0.0000009",
+          "pct_change": 125
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-09",
+      "type": "price_changed",
+      "id": "qwen/qwen3.5-397b-a17b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000039",
+          "next": "0.0000005",
+          "pct_change": 28.21
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000234",
+          "next": "0.0000036",
+          "pct_change": 53.85
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-09",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v3.2",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000269",
+          "next": "0.00000026",
+          "pct_change": -3.35
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000004",
+          "next": "0.00000038",
+          "pct_change": -5
+        }
+      ]
     }
   ]
 }
