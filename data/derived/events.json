@@ -24525,6 +24525,100 @@
           "pct_change": -45.45
         }
       ]
+    },
+    {
+      "ts": "2026-08-10",
+      "type": "price_changed",
+      "id": "google/gemma-4-26b-a4b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000007",
+          "next": "0.00000012",
+          "pct_change": 71.43
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000034",
+          "next": "0.0000004",
+          "pct_change": 17.65
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-10",
+      "type": "price_changed",
+      "id": "nvidia/nemotron-3-super-120b-a12b",
+      "provider": "nvidia",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000003",
+          "next": "0.000000085",
+          "pct_change": -71.67
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000009",
+          "next": "0.0000004",
+          "pct_change": -55.56
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-10",
+      "type": "price_changed",
+      "id": "qwen/qwen3.5-397b-a17b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000005",
+          "next": "0.00000039",
+          "pct_change": -22
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000036",
+          "next": "0.00000234",
+          "pct_change": -35
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-10",
+      "type": "price_changed",
+      "id": "qwen/qwen3-14b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000002275",
+          "next": "0.00000012",
+          "pct_change": -47.25
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000091",
+          "next": "0.00000024",
+          "pct_change": -73.63
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-10",
+      "type": "price_changed",
+      "id": "meta-llama/llama-4-maverick",
+      "provider": "meta-llama",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.0000008",
+          "next": "0.000000696",
+          "pct_change": -13
+        }
+      ]
     }
   ]
 }
