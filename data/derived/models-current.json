@@ -1298,7 +1298,7 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000009",
+        "prompt": "0.00000008",
         "completion": "0.00000018",
         "image": null,
         "request": null
@@ -2964,8 +2964,8 @@
       "name": "MoonshotAI: Kimi K2.6",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.0000005795",
-        "completion": "0.00000244",
+        "prompt": "0.00000095",
+        "completion": "0.000004",
         "image": null,
         "request": null
       },
@@ -6738,8 +6738,8 @@
       "name": "Z.ai: GLM 5.1",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.000000952",
-        "completion": "0.000002992",
+        "prompt": "0.0000014",
+        "completion": "0.0000044",
         "image": null,
         "request": null
       },
@@ -6755,13 +6755,13 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.00000007",
-        "completion": "0.00000022",
+        "prompt": "0.00000076",
+        "completion": "0.00000242",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 128000,
+      "max_completion_tokens": 262144,
       "expiration_date": null,
       "created": 1781631930,
       "first_seen": "2026-06-16",
