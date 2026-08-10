@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-provider/openai.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/openai.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-08-06T00:00:00Z</updated>
+  <updated>2026-08-10T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-10:model_removed:openai%2Fgpt-5.3-chat</id>
+    <title>Removed: openai/gpt-5.3-chat</title>
+    <updated>2026-08-10T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5.3-chat"/>
+    <category term="model_removed"/>
+    <category term="provider:openai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $1.7500/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-10:disagreement_detected:openai%2Fgpt-5.3-chat</id>
+    <title>Catalog disagreement: openai/gpt-5.3-chat</title>
+    <updated>2026-08-10T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5.3-chat"/>
+    <category term="disagreement_detected"/>
+    <category term="provider:openai"/>
+    <summary>OpenRouter says removed; LiteLLM still lists it as gpt-5.3-chat-latest.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-08-06:model_added:openai%2Fgpt-5.6-luna-pro%3Abatch</id>
     <title>Added: openai/gpt-5.6-luna-pro:batch</title>
@@ -886,23 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:openai"/>
     <summary>prompt: $0.0390/Mtok → $0.0300/Mtok (-23.08%); completion: $0.1800/Mtok → $0.1500/Mtok (-16.67%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-20:deprecation_announced:openai%2Fgpt-5.2-chat</id>
-    <title>Deprecation announced: openai/gpt-5.2-chat (sunset 2026-08-10)</title>
-    <updated>2026-06-20T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5.2-chat"/>
-    <category term="deprecation_announced"/>
-    <category term="provider:openai"/>
-    <summary>Provider announced retirement on 2026-08-10.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-19:deprecation_announced:openai%2Fgpt-5.3-chat</id>
-    <title>Deprecation announced: openai/gpt-5.3-chat (sunset 2026-08-10)</title>
-    <updated>2026-06-19T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5.3-chat"/>
-    <category term="deprecation_announced"/>
-    <category term="provider:openai"/>
-    <summary>Provider announced retirement on 2026-08-10.</summary>
   </entry>
 </feed>

@@ -87,6 +87,24 @@
     <summary>prompt: $0.9520/Mtok → $1.4000/Mtok (+47.06%); completion: $2.9920/Mtok → $4.4000/Mtok (+47.06%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-08-10:model_removed:openai%2Fgpt-5.3-chat</id>
+    <title>Removed: openai/gpt-5.3-chat</title>
+    <updated>2026-08-10T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5.3-chat"/>
+    <category term="model_removed"/>
+    <category term="provider:openai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $1.7500/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-10:disagreement_detected:openai%2Fgpt-5.3-chat</id>
+    <title>Catalog disagreement: openai/gpt-5.3-chat</title>
+    <updated>2026-08-10T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5.3-chat"/>
+    <category term="disagreement_detected"/>
+    <category term="provider:openai"/>
+    <summary>OpenRouter says removed; LiteLLM still lists it as gpt-5.3-chat-latest.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-08-09:price_changed:~deepseek%2Fdeepseek-v4-flash-latest</id>
     <title>Price changed: ~deepseek/deepseek-v4-flash-latest</title>
     <updated>2026-08-09T00:00:00Z</updated>
@@ -886,23 +904,5 @@
     <category term="model_added"/>
     <category term="provider:google"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.0500/Mtok, context: 1048576.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-06:model_added:google%2Fgemini-2.5-flash%3Abatch</id>
-    <title>Added: google/gemini-2.5-flash:batch</title>
-    <updated>2026-08-06T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-2.5-flash%3Abatch"/>
-    <category term="model_added"/>
-    <category term="provider:google"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.1500/Mtok, context: 1048576.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-06:model_added:google%2Fgemini-2.5-pro%3Abatch</id>
-    <title>Added: google/gemini-2.5-pro:batch</title>
-    <updated>2026-08-06T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-2.5-pro%3Abatch"/>
-    <category term="model_added"/>
-    <category term="provider:google"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.6250/Mtok, context: 1048576.</summary>
   </entry>
 </feed>

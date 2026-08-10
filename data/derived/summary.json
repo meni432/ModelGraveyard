@@ -1,9 +1,32 @@
 {
   "generated_at": "2026-08-10",
-  "active_count": 400,
-  "dead_count": 108,
+  "active_count": 399,
+  "dead_count": 109,
   "last_event_ts": "2026-08-10",
   "recent_events": [
+    {
+      "ts": "2026-08-10",
+      "type": "model_removed",
+      "id": "openai/gpt-5.3-chat",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-5.3-chat",
+        "name": "OpenAI: GPT-5.3 Chat",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.00000175",
+          "completion": "0.000014",
+          "image": null,
+          "request": null
+        },
+        "context_length": 128000,
+        "max_completion_tokens": 16384,
+        "expiration_date": "2026-08-10",
+        "created": 1772564061,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-08-10"
+      }
+    },
     {
       "ts": "2026-08-10",
       "type": "price_changed",
@@ -371,39 +394,9 @@
           "pct_change": -46.15
         }
       ]
-    },
-    {
-      "ts": "2026-08-09",
-      "type": "price_changed",
-      "id": "~deepseek/deepseek-v4-flash-latest",
-      "provider": "~deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000000896",
-          "next": "0.000000079996",
-          "pct_change": -10.72
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000001792",
-          "next": "0.000000252",
-          "pct_change": 40.62
-        }
-      ]
     }
   ],
   "scheduled_funerals": [
-    {
-      "id": "openai/gpt-5.2-chat",
-      "provider": "openai",
-      "expiration_date": "2026-08-10"
-    },
-    {
-      "id": "openai/gpt-5.3-chat",
-      "provider": "openai",
-      "expiration_date": "2026-08-10"
-    },
     {
       "id": "z-ai/glm-4.5",
       "provider": "z-ai",

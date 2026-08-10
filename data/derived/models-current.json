@@ -4041,8 +4041,8 @@
         "request": null
       },
       "context_length": 128000,
-      "max_completion_tokens": 16384,
-      "expiration_date": "2026-08-10",
+      "max_completion_tokens": 32000,
+      "expiration_date": null,
       "created": 1765389783,
       "first_seen": "2026-05-27",
       "last_seen": "2026-08-10"
@@ -4113,23 +4113,6 @@
       "expiration_date": null,
       "created": 1765389775,
       "first_seen": "2026-08-06",
-      "last_seen": "2026-08-10"
-    },
-    {
-      "id": "openai/gpt-5.3-chat",
-      "name": "OpenAI: GPT-5.3 Chat",
-      "provider": "openai",
-      "pricing": {
-        "prompt": "0.00000175",
-        "completion": "0.000014",
-        "image": null,
-        "request": null
-      },
-      "context_length": 128000,
-      "max_completion_tokens": 16384,
-      "expiration_date": "2026-08-10",
-      "created": 1772564061,
-      "first_seen": "2026-05-27",
       "last_seen": "2026-08-10"
     },
     {
