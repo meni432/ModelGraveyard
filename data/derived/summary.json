@@ -1,9 +1,52 @@
 {
   "generated_at": "2026-08-11",
-  "active_count": 402,
+  "active_count": 403,
   "dead_count": 109,
   "last_event_ts": "2026-08-11",
   "recent_events": [
+    {
+      "ts": "2026-08-11",
+      "type": "price_changed",
+      "id": "z-ai/glm-4.6",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000005",
+          "next": "0.00000055",
+          "pct_change": 10
+        },
+        {
+          "field": "completion",
+          "prev": "0.000002",
+          "next": "0.0000022",
+          "pct_change": 10
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-11",
+      "type": "model_added",
+      "id": "nvidia/nemotron-3.5-lightning:free",
+      "provider": "nvidia",
+      "snapshot": {
+        "id": "nvidia/nemotron-3.5-lightning:free",
+        "name": "NVIDIA: Nemotron 3.5 Lightning (free)",
+        "provider": "nvidia",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1000000,
+        "max_completion_tokens": 65536,
+        "expiration_date": null,
+        "created": 1786452751,
+        "first_seen": "2026-08-11",
+        "last_seen": "2026-08-11"
+      }
+    },
     {
       "ts": "2026-08-11",
       "type": "price_changed",
@@ -359,46 +402,6 @@
           "prev": "0.000002992",
           "next": "0.0000044",
           "pct_change": 47.06
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-10",
-      "type": "price_changed",
-      "id": "moonshotai/kimi-k2.6",
-      "provider": "moonshotai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000005795",
-          "next": "0.00000095",
-          "pct_change": 63.93
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000244",
-          "next": "0.000004",
-          "pct_change": 63.93
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-10",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.2",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000007",
-          "next": "0.00000076",
-          "pct_change": 985.71
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000022",
-          "next": "0.00000242",
-          "pct_change": 1000
         }
       ]
     }
