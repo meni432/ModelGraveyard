@@ -1,9 +1,169 @@
 {
-  "generated_at": "2026-08-10",
-  "active_count": 399,
+  "generated_at": "2026-08-11",
+  "active_count": 401,
   "dead_count": 109,
-  "last_event_ts": "2026-08-10",
+  "last_event_ts": "2026-08-11",
   "recent_events": [
+    {
+      "ts": "2026-08-11",
+      "type": "price_changed",
+      "id": "qwen/qwen3-coder-30b-a3b-instruct",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.00000027",
+          "next": "0.00000028",
+          "pct_change": 3.7
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-11",
+      "type": "price_changed",
+      "id": "qwen/qwen3.5-397b-a17b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000039",
+          "next": "0.0000005",
+          "pct_change": 28.21
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000234",
+          "next": "0.0000036",
+          "pct_change": 53.85
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-11",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.1",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000952",
+          "next": "0.0000014",
+          "pct_change": 47.06
+        },
+        {
+          "field": "completion",
+          "prev": "0.000002992",
+          "next": "0.0000044",
+          "pct_change": 47.06
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-11",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.6",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000005795",
+          "next": "0.00000095",
+          "pct_change": 63.93
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000244",
+          "next": "0.000004",
+          "pct_change": 63.93
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-11",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000435",
+          "next": "0.00000064432",
+          "pct_change": 48.12
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000087",
+          "next": "0.00000128864",
+          "pct_change": 48.12
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-11",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000005306",
+          "next": "0.00000076",
+          "pct_change": 43.23
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000016676",
+          "next": "0.00000242",
+          "pct_change": 45.12
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-11",
+      "type": "model_added",
+      "id": "meta/muse-glimmer-30b",
+      "provider": "meta",
+      "snapshot": {
+        "id": "meta/muse-glimmer-30b",
+        "name": "Meta: Muse Glimmer 30B",
+        "provider": "meta",
+        "pricing": {
+          "prompt": "0.00000035",
+          "completion": "0.0000015",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1786302394,
+        "first_seen": "2026-08-11",
+        "last_seen": "2026-08-11"
+      }
+    },
+    {
+      "ts": "2026-08-11",
+      "type": "model_added",
+      "id": "upstage/solar-pro4",
+      "provider": "upstage",
+      "snapshot": {
+        "id": "upstage/solar-pro4",
+        "name": "Upstage: Solar Pro 4",
+        "provider": "upstage",
+        "pricing": {
+          "prompt": "0.00000003",
+          "completion": "0.00000012",
+          "image": null,
+          "request": null
+        },
+        "context_length": 524288,
+        "max_completion_tokens": 131072,
+        "expiration_date": null,
+        "created": 1786371636,
+        "first_seen": "2026-08-11",
+        "last_seen": "2026-08-11"
+      }
+    },
     {
       "ts": "2026-08-10",
       "type": "price_changed",
@@ -224,166 +384,6 @@
           "prev": "0.00000091",
           "next": "0.00000024",
           "pct_change": -73.63
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-10",
-      "type": "price_changed",
-      "id": "qwen/qwen3.5-397b-a17b",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000005",
-          "next": "0.00000039",
-          "pct_change": -22
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000036",
-          "next": "0.00000234",
-          "pct_change": -35
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-10",
-      "type": "price_changed",
-      "id": "nvidia/nemotron-3-super-120b-a12b",
-      "provider": "nvidia",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000003",
-          "next": "0.000000085",
-          "pct_change": -71.67
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000009",
-          "next": "0.0000004",
-          "pct_change": -55.56
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-10",
-      "type": "price_changed",
-      "id": "google/gemma-4-26b-a4b-it",
-      "provider": "google",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000007",
-          "next": "0.00000012",
-          "pct_change": 71.43
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000034",
-          "next": "0.0000004",
-          "pct_change": 17.65
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-09",
-      "type": "price_changed",
-      "id": "gryphe/mythomax-l2-13b",
-      "provider": "gryphe",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000008",
-          "next": "0.00000006",
-          "pct_change": -25
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000011",
-          "next": "0.00000006",
-          "pct_change": -45.45
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-09",
-      "type": "price_changed",
-      "id": "qwen/qwen3.5-397b-a17b",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000039",
-          "next": "0.0000005",
-          "pct_change": 28.21
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000234",
-          "next": "0.0000036",
-          "pct_change": 53.85
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-09",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.2",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000000966",
-          "next": "0.00000007",
-          "pct_change": -27.54
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000003036",
-          "next": "0.00000022",
-          "pct_change": -27.54
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-09",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v3.2",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000026",
-          "next": "0.000000269",
-          "pct_change": 3.46
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000038",
-          "next": "0.0000004",
-          "pct_change": 5.26
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-09",
-      "type": "price_changed",
-      "id": "qwen/qwen3.5-397b-a17b",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000005",
-          "next": "0.00000039",
-          "pct_change": -22
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000036",
-          "next": "0.00000234",
-          "pct_change": -35
         }
       ]
     }

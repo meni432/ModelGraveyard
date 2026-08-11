@@ -4,7 +4,61 @@
   <id>https://modelgraveyard.com/feeds/by-type/price_changed.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/price_changed.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-08-10T00:00:00Z</updated>
+  <updated>2026-08-11T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-11:price_changed:z-ai%2Fglm-5.2</id>
+    <title>Price changed: z-ai/glm-5.2</title>
+    <updated>2026-08-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>prompt: $0.5306/Mtok → $0.7600/Mtok (+43.23%); completion: $1.6676/Mtok → $2.4200/Mtok (+45.12%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-11:price_changed:deepseek%2Fdeepseek-v4-pro</id>
+    <title>Price changed: deepseek/deepseek-v4-pro</title>
+    <updated>2026-08-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-pro"/>
+    <category term="price_changed"/>
+    <category term="provider:deepseek"/>
+    <summary>prompt: $0.4350/Mtok → $0.6443/Mtok (+48.12%); completion: $0.8700/Mtok → $1.2886/Mtok (+48.12%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-11:price_changed:moonshotai%2Fkimi-k2.6</id>
+    <title>Price changed: moonshotai/kimi-k2.6</title>
+    <updated>2026-08-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k2.6"/>
+    <category term="price_changed"/>
+    <category term="provider:moonshotai"/>
+    <summary>prompt: $0.5795/Mtok → $0.9500/Mtok (+63.93%); completion: $2.4400/Mtok → $4.0000/Mtok (+63.93%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-11:price_changed:z-ai%2Fglm-5.1</id>
+    <title>Price changed: z-ai/glm-5.1</title>
+    <updated>2026-08-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.1"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>prompt: $0.9520/Mtok → $1.4000/Mtok (+47.06%); completion: $2.9920/Mtok → $4.4000/Mtok (+47.06%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-11:price_changed:qwen%2Fqwen3.5-397b-a17b</id>
+    <title>Price changed: qwen/qwen3.5-397b-a17b</title>
+    <updated>2026-08-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3.5-397b-a17b"/>
+    <category term="price_changed"/>
+    <category term="provider:qwen"/>
+    <summary>prompt: $0.3900/Mtok → $0.5000/Mtok (+28.21%); completion: $2.3400/Mtok → $3.6000/Mtok (+53.85%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-11:price_changed:qwen%2Fqwen3-coder-30b-a3b-instruct</id>
+    <title>Price changed: qwen/qwen3-coder-30b-a3b-instruct</title>
+    <updated>2026-08-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3-coder-30b-a3b-instruct"/>
+    <category term="price_changed"/>
+    <category term="provider:qwen"/>
+    <summary>completion: $0.2700/Mtok → $0.2800/Mtok (+3.7%)</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-08-10:price_changed:google%2Fgemma-4-26b-a4b-it</id>
     <title>Price changed: google/gemma-4-26b-a4b-it</title>
@@ -850,59 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:poolside"/>
     <summary>prompt: $0.1000/Mtok → $0.0900/Mtok (-10%); completion: $0.2000/Mtok → $0.1800/Mtok (-10%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-31:price_changed:qwen%2Fqwen3-235b-a22b-thinking-2507</id>
-    <title>Price changed: qwen/qwen3-235b-a22b-thinking-2507</title>
-    <updated>2026-07-31T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3-235b-a22b-thinking-2507"/>
-    <category term="price_changed"/>
-    <category term="provider:qwen"/>
-    <summary>prompt: $0.3000/Mtok → $0.2300/Mtok (-23.33%); completion: $3.0000/Mtok → $2.3000/Mtok (-23.33%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-31:price_changed:z-ai%2Fglm-5.2</id>
-    <title>Price changed: z-ai/glm-5.2</title>
-    <updated>2026-07-31T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
-    <category term="price_changed"/>
-    <category term="provider:z-ai"/>
-    <summary>prompt: $0.9660/Mtok → $1.2320/Mtok (+27.54%); completion: $3.0360/Mtok → $3.8720/Mtok (+27.54%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-31:price_changed:z-ai%2Fglm-5.2</id>
-    <title>Price changed: z-ai/glm-5.2</title>
-    <updated>2026-07-31T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
-    <category term="price_changed"/>
-    <category term="provider:z-ai"/>
-    <summary>prompt: $1.2320/Mtok → $1.1200/Mtok (-9.09%); completion: $3.8720/Mtok → $3.5200/Mtok (-9.09%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-31:price_changed:qwen%2Fqwen3-vl-30b-a3b-instruct</id>
-    <title>Price changed: qwen/qwen3-vl-30b-a3b-instruct</title>
-    <updated>2026-07-31T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3-vl-30b-a3b-instruct"/>
-    <category term="price_changed"/>
-    <category term="provider:qwen"/>
-    <summary>prompt: $0.1500/Mtok → $0.1300/Mtok (-13.33%); completion: $0.6000/Mtok → $0.5200/Mtok (-13.33%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-31:price_changed:openai%2Fgpt-oss-20b</id>
-    <title>Price changed: openai/gpt-oss-20b</title>
-    <updated>2026-07-31T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-oss-20b"/>
-    <category term="price_changed"/>
-    <category term="provider:openai"/>
-    <summary>completion: $0.1300/Mtok → $0.1400/Mtok (+7.69%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-31:price_changed:mistralai%2Fmistral-small-3.2-24b-instruct</id>
-    <title>Price changed: mistralai/mistral-small-3.2-24b-instruct</title>
-    <updated>2026-07-31T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/mistralai%2Fmistral-small-3.2-24b-instruct"/>
-    <category term="price_changed"/>
-    <category term="provider:mistralai"/>
-    <summary>prompt: $0.1000/Mtok → $0.0750/Mtok (-25%); completion: $0.3000/Mtok → $0.2000/Mtok (-33.33%)</summary>
   </entry>
 </feed>
