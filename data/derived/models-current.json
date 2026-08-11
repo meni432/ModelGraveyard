@@ -74,13 +74,13 @@
       "name": "DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000000798",
-        "completion": "0.0000001596",
+        "prompt": "0.000000079996",
+        "completion": "0.000000252",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": null,
       "expiration_date": null,
       "created": 1785606009,
       "first_seen": "2026-08-01",
@@ -1315,8 +1315,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000064432",
-        "completion": "0.00000128864",
+        "prompt": "0.00000063168",
+        "completion": "0.00000126336",
         "image": null,
         "request": null
       },
@@ -6153,6 +6153,23 @@
       "expiration_date": null,
       "created": 1782276303,
       "first_seen": "2026-06-24",
+      "last_seen": "2026-08-11"
+    },
+    {
+      "id": "sakana/sakana-namazu",
+      "name": "Sakana: Sakana Namazu",
+      "provider": "sakana",
+      "pricing": {
+        "prompt": "0.00000095",
+        "completion": "0.000004",
+        "image": null,
+        "request": null
+      },
+      "context_length": 262144,
+      "max_completion_tokens": 65536,
+      "expiration_date": null,
+      "created": 1786410129,
+      "first_seen": "2026-08-11",
       "last_seen": "2026-08-11"
     },
     {

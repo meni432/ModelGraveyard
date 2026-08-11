@@ -24,6 +24,15 @@
     <summary>New model on OpenRouter. Initial prompt price: $0.3500/Mtok, context: 131072.</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-08-11:model_added:sakana%2Fsakana-namazu</id>
+    <title>Added: sakana/sakana-namazu</title>
+    <updated>2026-08-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/sakana%2Fsakana-namazu"/>
+    <category term="model_added"/>
+    <category term="provider:sakana"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.9500/Mtok, context: 262144.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-08-07:model_added:inclusionai%2Fling-3.0-tiny%3Afree</id>
     <title>Added: inclusionai/ling-3.0-tiny:free</title>
     <updated>2026-08-07T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="model_added"/>
     <category term="provider:google"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.6250/Mtok, context: 1048576.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-24:model_added:anthropic%2Fclaude-opus-5-fast</id>
-    <title>Added: anthropic/claude-opus-5-fast</title>
-    <updated>2026-07-24T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-opus-5-fast"/>
-    <category term="model_added"/>
-    <category term="provider:anthropic"/>
-    <summary>New model on OpenRouter. Initial prompt price: $10.0000/Mtok, context: 1000000.</summary>
   </entry>
 </feed>
