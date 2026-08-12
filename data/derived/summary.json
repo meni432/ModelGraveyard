@@ -1,9 +1,169 @@
 {
   "generated_at": "2026-08-12",
-  "active_count": 406,
+  "active_count": 410,
   "dead_count": 109,
   "last_event_ts": "2026-08-12",
   "recent_events": [
+    {
+      "ts": "2026-08-12",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.6",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000095",
+          "next": "0.0000005795",
+          "pct_change": -39
+        },
+        {
+          "field": "completion",
+          "prev": "0.000004",
+          "next": "0.00000244",
+          "pct_change": -39
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-12",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.7-code",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000007",
+          "next": "0.00000067",
+          "pct_change": -4.29
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000035",
+          "next": "0.0000034",
+          "pct_change": -2.86
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-12",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000005",
+          "next": "0.00000049",
+          "pct_change": -2
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000315",
+          "next": "0.00000154",
+          "pct_change": -51.11
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-12",
+      "type": "deprecation_announced",
+      "id": "inclusionai/ling-3.0-tiny:free",
+      "provider": "inclusionai",
+      "prev_expiration": null,
+      "next_expiration": "2026-08-13"
+    },
+    {
+      "ts": "2026-08-12",
+      "type": "model_added",
+      "id": "x-ai/grok-4.6",
+      "provider": "x-ai",
+      "snapshot": {
+        "id": "x-ai/grok-4.6",
+        "name": "SpaceXAI: Grok 4.6",
+        "provider": "x-ai",
+        "pricing": {
+          "prompt": "0.000002",
+          "completion": "0.000006",
+          "image": null,
+          "request": null
+        },
+        "context_length": 500000,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1786548957,
+        "first_seen": "2026-08-12",
+        "last_seen": "2026-08-12"
+      }
+    },
+    {
+      "ts": "2026-08-12",
+      "type": "model_added",
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "provider": "deepseek",
+      "snapshot": {
+        "id": "deepseek/deepseek-v4-pro-0813",
+        "name": "DeepSeek: DeepSeek V4 Pro 0813",
+        "provider": "deepseek",
+        "pricing": {
+          "prompt": "0.000000435",
+          "completion": "0.00000087",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": 384000,
+        "expiration_date": null,
+        "created": 1786549364,
+        "first_seen": "2026-08-12",
+        "last_seen": "2026-08-12"
+      }
+    },
+    {
+      "ts": "2026-08-12",
+      "type": "model_added",
+      "id": "qwen/qwen3.8-2.4t-a95b",
+      "provider": "qwen",
+      "snapshot": {
+        "id": "qwen/qwen3.8-2.4t-a95b",
+        "name": "Qwen: Qwen3.8 2.4T A95B",
+        "provider": "qwen",
+        "pricing": {
+          "prompt": "0.000002",
+          "completion": "0.000006",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 52429,
+        "expiration_date": null,
+        "created": 1786551702,
+        "first_seen": "2026-08-12",
+        "last_seen": "2026-08-12"
+      }
+    },
+    {
+      "ts": "2026-08-12",
+      "type": "model_added",
+      "id": "bytedance-seed/seed-2-1-turbo",
+      "provider": "bytedance-seed",
+      "snapshot": {
+        "id": "bytedance-seed/seed-2-1-turbo",
+        "name": "ByteDance Seed: Seed 2.1 Turbo",
+        "provider": "bytedance-seed",
+        "pricing": {
+          "prompt": "0.0000005",
+          "completion": "0.0000025",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 262144,
+        "expiration_date": null,
+        "created": 1786552176,
+        "first_seen": "2026-08-12",
+        "last_seen": "2026-08-12"
+      }
+    },
     {
       "ts": "2026-08-12",
       "type": "price_changed",
@@ -234,178 +394,14 @@
           "pct_change": -9.09
         }
       ]
-    },
-    {
-      "ts": "2026-08-11",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.1",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000014",
-          "next": "0.000000952",
-          "pct_change": -32
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000044",
-          "next": "0.000002992",
-          "pct_change": -32
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-11",
-      "type": "price_changed",
-      "id": "moonshotai/kimi-k2.6",
-      "provider": "moonshotai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000095",
-          "next": "0.0000005795",
-          "pct_change": -39
-        },
-        {
-          "field": "completion",
-          "prev": "0.000004",
-          "next": "0.00000244",
-          "pct_change": -39
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-11",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.2",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000076",
-          "next": "0.0000004886",
-          "pct_change": -35.71
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000242",
-          "next": "0.0000015356",
-          "pct_change": -36.55
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-11",
-      "type": "model_added",
-      "id": "bytedance-seed/seed-2.0-code",
-      "provider": "bytedance-seed",
-      "snapshot": {
-        "id": "bytedance-seed/seed-2.0-code",
-        "name": "ByteDance Seed: Seed-2.0-Code",
-        "provider": "bytedance-seed",
-        "pricing": {
-          "prompt": "0.0000005",
-          "completion": "0.000003",
-          "image": null,
-          "request": null
-        },
-        "context_length": 262144,
-        "max_completion_tokens": 131072,
-        "expiration_date": null,
-        "created": 1785451719,
-        "first_seen": "2026-08-11",
-        "last_seen": "2026-08-11"
-      }
-    },
-    {
-      "ts": "2026-08-11",
-      "type": "price_changed",
-      "id": "~deepseek/deepseek-v4-flash-latest",
-      "provider": "~deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000079996",
-          "next": "0.000000072",
-          "pct_change": -10
-        },
-        {
-          "field": "completion",
-          "prev": "0.000000252",
-          "next": "0.000000144",
-          "pct_change": -42.86
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-11",
-      "type": "model_added",
-      "id": "nvidia/nemotron-3.5-lightning",
-      "provider": "nvidia",
-      "snapshot": {
-        "id": "nvidia/nemotron-3.5-lightning",
-        "name": "NVIDIA: Nemotron 3.5 Lightning",
-        "provider": "nvidia",
-        "pricing": {
-          "prompt": "0.0000001",
-          "completion": "0.00000025",
-          "image": null,
-          "request": null
-        },
-        "context_length": 262144,
-        "max_completion_tokens": 262144,
-        "expiration_date": null,
-        "created": 1786452751,
-        "first_seen": "2026-08-11",
-        "last_seen": "2026-08-11"
-      }
-    },
-    {
-      "ts": "2026-08-11",
-      "type": "price_changed",
-      "id": "z-ai/glm-4.6",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000005",
-          "next": "0.00000055",
-          "pct_change": 10
-        },
-        {
-          "field": "completion",
-          "prev": "0.000002",
-          "next": "0.0000022",
-          "pct_change": 10
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-11",
-      "type": "model_added",
-      "id": "nvidia/nemotron-3.5-lightning:free",
-      "provider": "nvidia",
-      "snapshot": {
-        "id": "nvidia/nemotron-3.5-lightning:free",
-        "name": "NVIDIA: Nemotron 3.5 Lightning (free)",
-        "provider": "nvidia",
-        "pricing": {
-          "prompt": "0",
-          "completion": "0",
-          "image": null,
-          "request": null
-        },
-        "context_length": 1000000,
-        "max_completion_tokens": 65536,
-        "expiration_date": null,
-        "created": 1786452751,
-        "first_seen": "2026-08-11",
-        "last_seen": "2026-08-11"
-      }
     }
   ],
   "scheduled_funerals": [
+    {
+      "id": "inclusionai/ling-3.0-tiny:free",
+      "provider": "inclusionai",
+      "expiration_date": "2026-08-13"
+    },
     {
       "id": "z-ai/glm-4.5",
       "provider": "z-ai",
