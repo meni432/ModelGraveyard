@@ -78,6 +78,24 @@
     <summary>prompt: $0.0370/Mtok → $0.0300/Mtok (-18.92%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-08-12:price_changed:~deepseek%2Fdeepseek-v4-flash-latest</id>
+    <title>Price changed: ~deepseek/deepseek-v4-flash-latest</title>
+    <updated>2026-08-12T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/~deepseek%2Fdeepseek-v4-flash-latest"/>
+    <category term="price_changed"/>
+    <category term="provider:~deepseek"/>
+    <summary>prompt: $0.0720/Mtok → $0.0800/Mtok (+11.11%); completion: $0.1440/Mtok → $0.2520/Mtok (+75%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-12:price_changed:z-ai%2Fglm-5.2</id>
+    <title>Price changed: z-ai/glm-5.2</title>
+    <updated>2026-08-12T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>prompt: $0.4200/Mtok → $0.5000/Mtok (+19.05%); completion: $1.4000/Mtok → $3.1500/Mtok (+125%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-08-11:model_added:upstage%2Fsolar-pro4</id>
     <title>Added: upstage/solar-pro4</title>
     <updated>2026-08-11T00:00:00Z</updated>
@@ -886,23 +904,5 @@
     <category term="model_added"/>
     <category term="provider:anthropic"/>
     <summary>New model on OpenRouter. Initial prompt price: $1.0000/Mtok, context: 1000000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-06:price_changed:z-ai%2Fglm-5.2</id>
-    <title>Price changed: z-ai/glm-5.2</title>
-    <updated>2026-08-06T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
-    <category term="price_changed"/>
-    <category term="provider:z-ai"/>
-    <summary>prompt: $0.7600/Mtok → $0.5600/Mtok (-26.32%); completion: $2.4200/Mtok → $1.7600/Mtok (-27.27%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-06:model_added:z-ai%2Fglm-5.2%3Abatch</id>
-    <title>Added: z-ai/glm-5.2:batch</title>
-    <updated>2026-08-06T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2%3Abatch"/>
-    <category term="model_added"/>
-    <category term="provider:z-ai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.7000/Mtok, context: 512000.</summary>
   </entry>
 </feed>

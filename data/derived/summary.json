@@ -7,6 +7,46 @@
     {
       "ts": "2026-08-12",
       "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000042",
+          "next": "0.0000005",
+          "pct_change": 19.05
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000014",
+          "next": "0.00000315",
+          "pct_change": 125
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-12",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000072",
+          "next": "0.000000079996",
+          "pct_change": 11.11
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000144",
+          "next": "0.000000252",
+          "pct_change": 75
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-12",
+      "type": "price_changed",
       "id": "openai/gpt-oss-120b",
       "provider": "openai",
       "changes": [
@@ -363,49 +403,6 @@
           "pct_change": -1.96
         }
       ]
-    },
-    {
-      "ts": "2026-08-11",
-      "type": "price_changed",
-      "id": "~deepseek/deepseek-v4-flash-latest",
-      "provider": "~deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000000798",
-          "next": "0.000000079996",
-          "pct_change": 0.25
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000001596",
-          "next": "0.000000252",
-          "pct_change": 57.89
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-11",
-      "type": "model_added",
-      "id": "sakana/sakana-namazu",
-      "provider": "sakana",
-      "snapshot": {
-        "id": "sakana/sakana-namazu",
-        "name": "Sakana: Sakana Namazu",
-        "provider": "sakana",
-        "pricing": {
-          "prompt": "0.00000095",
-          "completion": "0.000004",
-          "image": null,
-          "request": null
-        },
-        "context_length": 262144,
-        "max_completion_tokens": 65536,
-        "expiration_date": null,
-        "created": 1786410129,
-        "first_seen": "2026-08-11",
-        "last_seen": "2026-08-11"
-      }
     }
   ],
   "scheduled_funerals": [

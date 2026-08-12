@@ -74,13 +74,13 @@
       "name": "DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.000000072",
-        "completion": "0.000000144",
+        "prompt": "0.000000079996",
+        "completion": "0.000000252",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": null,
       "expiration_date": null,
       "created": 1785606009,
       "first_seen": "2026-08-01",
@@ -6857,13 +6857,13 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.00000042",
-        "completion": "0.0000014",
+        "prompt": "0.0000005",
+        "completion": "0.00000315",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 1048576,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1781631930,
       "first_seen": "2026-06-16",
