@@ -25591,6 +25591,114 @@
           "pct_change": -39
         }
       ]
+    },
+    {
+      "ts": "2026-08-13",
+      "type": "context_changed",
+      "id": "nvidia/nemotron-3.5-lightning",
+      "provider": "nvidia",
+      "prev_context": 262144,
+      "next_context": 1000000
+    },
+    {
+      "ts": "2026-08-13",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000049",
+          "next": "0.0000005",
+          "pct_change": 2.04
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000154",
+          "next": "0.00000315",
+          "pct_change": 104.55
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-13",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.6",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000005795",
+          "next": "0.00000095",
+          "pct_change": 63.93
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000244",
+          "next": "0.000004",
+          "pct_change": 63.93
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-13",
+      "type": "price_changed",
+      "id": "qwen/qwen3.5-35b-a3b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000014",
+          "next": "0.00000025",
+          "pct_change": 78.57
+        },
+        {
+          "field": "completion",
+          "prev": "0.000001",
+          "next": "0.00000125",
+          "pct_change": 25
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-13",
+      "type": "price_changed",
+      "id": "qwen/qwen3.5-397b-a17b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000005",
+          "next": "0.00000045",
+          "pct_change": -10
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000036",
+          "next": "0.000003",
+          "pct_change": -16.67
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-13",
+      "type": "price_changed",
+      "id": "z-ai/glm-4.6",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000055",
+          "next": "0.0000005",
+          "pct_change": -9.09
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000022",
+          "next": "0.000002",
+          "pct_change": -9.09
+        }
+      ]
     }
   ]
 }
