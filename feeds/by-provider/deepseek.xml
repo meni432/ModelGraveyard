@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/deepseek.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/deepseek.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-08-12T00:00:00Z</updated>
+  <updated>2026-08-13T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-13:context_changed:deepseek%2Fdeepseek-r1</id>
+    <title>Context window changed: deepseek/deepseek-r1</title>
+    <updated>2026-08-13T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-r1"/>
+    <category term="context_changed"/>
+    <category term="provider:deepseek"/>
+    <summary>163840 → 64000 tokens</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-08-12:price_changed:deepseek%2Fdeepseek-v3.1-terminus</id>
     <title>Price changed: deepseek/deepseek-v3.1-terminus</title>
