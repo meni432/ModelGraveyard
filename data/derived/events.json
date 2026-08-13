@@ -25699,6 +25699,73 @@
           "pct_change": -9.09
         }
       ]
+    },
+    {
+      "ts": "2026-08-13",
+      "type": "context_changed",
+      "id": "qwen/qwen3.8-2.4t-a95b",
+      "provider": "qwen",
+      "prev_context": 262144,
+      "next_context": 1000000
+    },
+    {
+      "ts": "2026-08-13",
+      "type": "context_changed",
+      "id": "nvidia/nemotron-3.5-lightning",
+      "provider": "nvidia",
+      "prev_context": 1000000,
+      "next_context": 1048576
+    },
+    {
+      "ts": "2026-08-13",
+      "type": "price_changed",
+      "id": "qwen/qwen3.5-397b-a17b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000045",
+          "next": "0.0000005",
+          "pct_change": 11.11
+        },
+        {
+          "field": "completion",
+          "prev": "0.000003",
+          "next": "0.0000036",
+          "pct_change": 20
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-13",
+      "type": "context_changed",
+      "id": "anthracite-org/magnum-v4-72b",
+      "provider": "anthracite-org",
+      "prev_context": 16384,
+      "next_context": 32768
+    },
+    {
+      "ts": "2026-08-13",
+      "type": "model_removed",
+      "id": "inclusionai/ling-3.0-tiny:free",
+      "provider": "inclusionai",
+      "snapshot": {
+        "id": "inclusionai/ling-3.0-tiny:free",
+        "name": "inclusionAI: Ling 3.0 Tiny (free)",
+        "provider": "inclusionai",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 32768,
+        "expiration_date": "2026-08-13",
+        "created": 1786034890,
+        "first_seen": "2026-08-07",
+        "last_seen": "2026-08-13"
+      }
     }
   ]
 }

@@ -385,8 +385,8 @@
         "image": null,
         "request": null
       },
-      "context_length": 16384,
-      "max_completion_tokens": 2048,
+      "context_length": 32768,
+      "max_completion_tokens": 4096,
       "expiration_date": null,
       "created": 1729555200,
       "first_seen": "2026-05-27",
@@ -2161,23 +2161,6 @@
       "last_seen": "2026-08-13"
     },
     {
-      "id": "inclusionai/ling-3.0-tiny:free",
-      "name": "inclusionAI: Ling 3.0 Tiny (free)",
-      "provider": "inclusionai",
-      "pricing": {
-        "prompt": "0",
-        "completion": "0",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 32768,
-      "expiration_date": "2026-08-13",
-      "created": 1786034890,
-      "first_seen": "2026-08-07",
-      "last_seen": "2026-08-13"
-    },
-    {
       "id": "inclusionai/ring-2.6-1t",
       "name": "inclusionAI: Ring-2.6-1T",
       "provider": "inclusionai",
@@ -3411,7 +3394,7 @@
         "image": null,
         "request": null
       },
-      "context_length": 1000000,
+      "context_length": 1048576,
       "max_completion_tokens": 262144,
       "expiration_date": null,
       "created": 1786452751,
@@ -5939,13 +5922,13 @@
       "name": "Qwen: Qwen3.5 397B A17B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000045",
-        "completion": "0.000003",
+        "prompt": "0.0000005",
+        "completion": "0.0000036",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 65536,
+      "max_completion_tokens": 262144,
       "expiration_date": null,
       "created": 1771223018,
       "first_seen": "2026-05-27",
@@ -6165,7 +6148,7 @@
         "image": null,
         "request": null
       },
-      "context_length": 262144,
+      "context_length": 1000000,
       "max_completion_tokens": 52429,
       "expiration_date": null,
       "created": 1786551702,

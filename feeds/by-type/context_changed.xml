@@ -15,6 +15,33 @@
     <summary>262144 → 1000000 tokens</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-08-13:context_changed:qwen%2Fqwen3.8-2.4t-a95b</id>
+    <title>Context window changed: qwen/qwen3.8-2.4t-a95b</title>
+    <updated>2026-08-13T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3.8-2.4t-a95b"/>
+    <category term="context_changed"/>
+    <category term="provider:qwen"/>
+    <summary>262144 → 1000000 tokens</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-13:context_changed:nvidia%2Fnemotron-3.5-lightning</id>
+    <title>Context window changed: nvidia/nemotron-3.5-lightning</title>
+    <updated>2026-08-13T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nvidia%2Fnemotron-3.5-lightning"/>
+    <category term="context_changed"/>
+    <category term="provider:nvidia"/>
+    <summary>1000000 → 1048576 tokens</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-13:context_changed:anthracite-org%2Fmagnum-v4-72b</id>
+    <title>Context window changed: anthracite-org/magnum-v4-72b</title>
+    <updated>2026-08-13T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/anthracite-org%2Fmagnum-v4-72b"/>
+    <category term="context_changed"/>
+    <category term="provider:anthracite-org"/>
+    <summary>16384 → 32768 tokens</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-08-07:context_changed:inclusionai%2Fling-3.0-flash</id>
     <title>Context window changed: inclusionai/ling-3.0-flash</title>
     <updated>2026-08-07T00:00:00Z</updated>

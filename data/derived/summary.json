@@ -1,9 +1,76 @@
 {
   "generated_at": "2026-08-13",
-  "active_count": 410,
-  "dead_count": 109,
+  "active_count": 409,
+  "dead_count": 110,
   "last_event_ts": "2026-08-13",
   "recent_events": [
+    {
+      "ts": "2026-08-13",
+      "type": "model_removed",
+      "id": "inclusionai/ling-3.0-tiny:free",
+      "provider": "inclusionai",
+      "snapshot": {
+        "id": "inclusionai/ling-3.0-tiny:free",
+        "name": "inclusionAI: Ling 3.0 Tiny (free)",
+        "provider": "inclusionai",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 32768,
+        "expiration_date": "2026-08-13",
+        "created": 1786034890,
+        "first_seen": "2026-08-07",
+        "last_seen": "2026-08-13"
+      }
+    },
+    {
+      "ts": "2026-08-13",
+      "type": "context_changed",
+      "id": "anthracite-org/magnum-v4-72b",
+      "provider": "anthracite-org",
+      "prev_context": 16384,
+      "next_context": 32768
+    },
+    {
+      "ts": "2026-08-13",
+      "type": "price_changed",
+      "id": "qwen/qwen3.5-397b-a17b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000045",
+          "next": "0.0000005",
+          "pct_change": 11.11
+        },
+        {
+          "field": "completion",
+          "prev": "0.000003",
+          "next": "0.0000036",
+          "pct_change": 20
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-13",
+      "type": "context_changed",
+      "id": "nvidia/nemotron-3.5-lightning",
+      "provider": "nvidia",
+      "prev_context": 1000000,
+      "next_context": 1048576
+    },
+    {
+      "ts": "2026-08-13",
+      "type": "context_changed",
+      "id": "qwen/qwen3.8-2.4t-a95b",
+      "provider": "qwen",
+      "prev_context": 262144,
+      "next_context": 1000000
+    },
     {
       "ts": "2026-08-13",
       "type": "price_changed",
@@ -291,102 +358,9 @@
           "pct_change": 84.9
         }
       ]
-    },
-    {
-      "ts": "2026-08-12",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.2",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000042",
-          "next": "0.0000005",
-          "pct_change": 19.05
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000014",
-          "next": "0.00000315",
-          "pct_change": 125
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-12",
-      "type": "price_changed",
-      "id": "~deepseek/deepseek-v4-flash-latest",
-      "provider": "~deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000072",
-          "next": "0.000000079996",
-          "pct_change": 11.11
-        },
-        {
-          "field": "completion",
-          "prev": "0.000000144",
-          "next": "0.000000252",
-          "pct_change": 75
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-12",
-      "type": "price_changed",
-      "id": "openai/gpt-oss-120b",
-      "provider": "openai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000037",
-          "next": "0.00000003",
-          "pct_change": -18.92
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-12",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v3.1-terminus",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "completion",
-          "prev": "0.000001",
-          "next": "0.00000095",
-          "pct_change": -5
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-12",
-      "type": "price_changed",
-      "id": "qwen/qwen3-vl-235b-a22b-instruct",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000021",
-          "next": "0.00000026",
-          "pct_change": 23.81
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000019",
-          "next": "0.00000104",
-          "pct_change": -45.26
-        }
-      ]
     }
   ],
   "scheduled_funerals": [
-    {
-      "id": "inclusionai/ling-3.0-tiny:free",
-      "provider": "inclusionai",
-      "expiration_date": "2026-08-13"
-    },
     {
       "id": "z-ai/glm-4.5",
       "provider": "z-ai",
