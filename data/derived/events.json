@@ -25766,6 +25766,20 @@
         "first_seen": "2026-08-07",
         "last_seen": "2026-08-13"
       }
+    },
+    {
+      "ts": "2026-08-13",
+      "type": "price_changed",
+      "id": "qwen/qwen3-next-80b-a3b-instruct",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000009",
+          "next": "0.0000001",
+          "pct_change": 11.11
+        }
+      ]
     }
   ]
 }

@@ -5718,13 +5718,13 @@
       "name": "Qwen: Qwen3 Next 80B A3B Instruct",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000009",
+        "prompt": "0.0000001",
         "completion": "0.0000011",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 16384,
+      "max_completion_tokens": 262144,
       "expiration_date": null,
       "created": 1757612213,
       "first_seen": "2026-05-27",
@@ -5741,7 +5741,7 @@
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": 32768,
       "expiration_date": null,
       "created": 1757612284,
       "first_seen": "2026-05-27",
@@ -6149,7 +6149,7 @@
         "request": null
       },
       "context_length": 1000000,
-      "max_completion_tokens": 52429,
+      "max_completion_tokens": 262144,
       "expiration_date": null,
       "created": 1786551702,
       "first_seen": "2026-08-12",

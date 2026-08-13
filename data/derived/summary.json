@@ -6,6 +6,20 @@
   "recent_events": [
     {
       "ts": "2026-08-13",
+      "type": "price_changed",
+      "id": "qwen/qwen3-next-80b-a3b-instruct",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000009",
+          "next": "0.0000001",
+          "pct_change": 11.11
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-13",
       "type": "model_removed",
       "id": "inclusionai/ling-3.0-tiny:free",
       "provider": "inclusionai",
@@ -338,26 +352,6 @@
         "first_seen": "2026-08-12",
         "last_seen": "2026-08-12"
       }
-    },
-    {
-      "ts": "2026-08-12",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-pro",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000063168",
-          "next": "0.000001168",
-          "pct_change": 84.9
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000126336",
-          "next": "0.000002336",
-          "pct_change": 84.9
-        }
-      ]
     }
   ],
   "scheduled_funerals": [
