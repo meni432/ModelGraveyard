@@ -2273,7 +2273,7 @@
         "request": null
       },
       "context_length": 128000,
-      "max_completion_tokens": 32768,
+      "max_completion_tokens": 8192,
       "expiration_date": null,
       "created": 1786470519,
       "first_seen": "2026-08-12",
@@ -6823,8 +6823,8 @@
       "name": "Z.ai: GLM 4.6",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.00000055",
-        "completion": "0.0000022",
+        "prompt": "0.0000005",
+        "completion": "0.000002",
         "image": null,
         "request": null
       },
