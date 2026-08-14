@@ -26208,6 +26208,60 @@
           "pct_change": -9.09
         }
       ]
+    },
+    {
+      "ts": "2026-08-14",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.7-code",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000067",
+          "next": "0.00000071",
+          "pct_change": 5.97
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000034",
+          "next": "0.0000035",
+          "pct_change": 2.94
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-14",
+      "type": "price_changed",
+      "id": "qwen/qwen3.5-35b-a3b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000025",
+          "next": "0.000000225",
+          "pct_change": -10
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000125",
+          "next": "0.0000018",
+          "pct_change": 44
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-14",
+      "type": "price_changed",
+      "id": "meta-llama/llama-4-maverick",
+      "provider": "meta-llama",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.000000696",
+          "next": "0.0000008",
+          "pct_change": 14.94
+        }
+      ]
     }
   ]
 }

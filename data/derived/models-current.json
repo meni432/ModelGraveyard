@@ -2404,12 +2404,12 @@
       "provider": "meta-llama",
       "pricing": {
         "prompt": "0.0000002",
-        "completion": "0.000000696",
+        "completion": "0.0000008",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 16384,
       "expiration_date": null,
       "created": 1743881822,
       "first_seen": "2026-05-27",
@@ -3083,8 +3083,8 @@
       "name": "MoonshotAI: Kimi K2.7 Code",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.00000067",
-        "completion": "0.0000034",
+        "prompt": "0.00000071",
+        "completion": "0.0000035",
         "image": null,
         "request": null
       },
@@ -5939,13 +5939,13 @@
       "name": "Qwen: Qwen3.5-35B-A3B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000025",
-        "completion": "0.00000125",
+        "prompt": "0.000000225",
+        "completion": "0.0000018",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": 65536,
       "expiration_date": null,
       "created": 1772053822,
       "first_seen": "2026-05-27",
