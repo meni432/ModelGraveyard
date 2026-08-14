@@ -74,13 +74,13 @@
       "name": "DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.000000079996",
-        "completion": "0.000000252",
+        "prompt": "0.0000000798",
+        "completion": "0.0000001596",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1785606009,
       "first_seen": "2026-08-01",
@@ -2404,12 +2404,12 @@
       "provider": "meta-llama",
       "pricing": {
         "prompt": "0.0000002",
-        "completion": "0.0000008",
+        "completion": "0.000000696",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 16384,
+      "max_completion_tokens": null,
       "expiration_date": null,
       "created": 1743881822,
       "first_seen": "2026-05-27",
@@ -3066,8 +3066,8 @@
       "name": "MoonshotAI: Kimi K2.6",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.00000095",
-        "completion": "0.000004",
+        "prompt": "0.0000005605",
+        "completion": "0.00000236",
         "image": null,
         "request": null
       },
@@ -5956,13 +5956,13 @@
       "name": "Qwen: Qwen3.5 397B A17B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.0000005",
-        "completion": "0.0000036",
+        "prompt": "0.00000039",
+        "completion": "0.00000234",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": 65536,
       "expiration_date": null,
       "created": 1771223018,
       "first_seen": "2026-05-27",
@@ -6182,7 +6182,7 @@
         "image": null,
         "request": null
       },
-      "context_length": 1010000,
+      "context_length": 1048576,
       "max_completion_tokens": 262144,
       "expiration_date": null,
       "created": 1786551702,
@@ -6823,8 +6823,8 @@
       "name": "Z.ai: GLM 4.6",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.0000005",
-        "completion": "0.000002",
+        "prompt": "0.00000055",
+        "completion": "0.0000022",
         "image": null,
         "request": null
       },
@@ -6942,13 +6942,13 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.00000063",
-        "completion": "0.00000198",
+        "prompt": "0.00000119",
+        "completion": "0.00000374",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 262144,
       "expiration_date": null,
       "created": 1781631930,
       "first_seen": "2026-06-16",
