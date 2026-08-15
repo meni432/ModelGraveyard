@@ -15,6 +15,15 @@
     <summary>New model on OpenRouter. Initial prompt price: $0.4500/Mtok, context: 262144.</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-08-15:model_added:dots-studio%2Fdots-3-note-preview%3Afree</id>
+    <title>Added: dots-studio/dots-3-note-preview:free</title>
+    <updated>2026-08-15T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/dots-studio%2Fdots-3-note-preview%3Afree"/>
+    <category term="model_added"/>
+    <category term="provider:dots-studio"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 512000.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-08-13:model_added:google%2Fgemini-3.7-flash</id>
     <title>Added: google/gemini-3.7-flash</title>
     <updated>2026-08-13T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="model_added"/>
     <category term="provider:google"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.2500/Mtok, context: 1048576.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-28:model_added:openai%2Fgpt-5.2%3Abatch</id>
-    <title>Added: openai/gpt-5.2:batch</title>
-    <updated>2026-07-28T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5.2%3Abatch"/>
-    <category term="model_added"/>
-    <category term="provider:openai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.8750/Mtok, context: 400000.</summary>
   </entry>
 </feed>

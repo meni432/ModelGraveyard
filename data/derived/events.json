@@ -26529,6 +26529,89 @@
           "pct_change": 14.94
         }
       ]
+    },
+    {
+      "ts": "2026-08-15",
+      "type": "model_added",
+      "id": "dots-studio/dots-3-note-preview:free",
+      "provider": "dots-studio",
+      "snapshot": {
+        "id": "dots-studio/dots-3-note-preview:free",
+        "name": "Dots Studio: Dots3-Note Preview (free)",
+        "provider": "dots-studio",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 512000,
+        "max_completion_tokens": 512000,
+        "expiration_date": null,
+        "created": 1786680361,
+        "first_seen": "2026-08-15",
+        "last_seen": "2026-08-15"
+      }
+    },
+    {
+      "ts": "2026-08-15",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000798",
+          "next": "0.00000007826",
+          "pct_change": -1.93
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000001596",
+          "next": "0.00000015652",
+          "pct_change": -1.93
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-15",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000008106",
+          "next": "0.00000007546",
+          "pct_change": -6.91
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000016212",
+          "next": "0.00000015092",
+          "pct_change": -6.91
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-15",
+      "type": "price_changed",
+      "id": "tencent/hy3-preview",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000063",
+          "next": "0.00000018",
+          "pct_change": 185.71
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000021",
+          "next": "0.0000006",
+          "pct_change": 185.71
+        }
+      ]
     }
   ]
 }
