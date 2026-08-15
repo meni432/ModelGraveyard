@@ -7,6 +7,66 @@
     {
       "ts": "2026-08-15",
       "type": "price_changed",
+      "id": "moonshotai/kimi-k2.6",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000065",
+          "next": "0.0000005415",
+          "pct_change": -16.69
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000341",
+          "next": "0.00000228",
+          "pct_change": -33.14
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-15",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000007546",
+          "next": "0.00000006566",
+          "pct_change": -12.99
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000015092",
+          "next": "0.00000013132",
+          "pct_change": -12.99
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-15",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000007826",
+          "next": "0.00000006846",
+          "pct_change": -12.52
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000015652",
+          "next": "0.00000013692",
+          "pct_change": -12.52
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-15",
+      "type": "price_changed",
       "id": "tencent/hy3-preview",
       "provider": "tencent",
       "changes": [
@@ -323,48 +383,6 @@
           "prev": "0.00000198",
           "next": "0.00000374",
           "pct_change": 88.89
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-14",
-      "type": "price_changed",
-      "id": "~deepseek/deepseek-v4-flash-latest",
-      "provider": "~deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000079996",
-          "next": "0.0000000798",
-          "pct_change": -0.25
-        },
-        {
-          "field": "completion",
-          "prev": "0.000000252",
-          "next": "0.0000001596",
-          "pct_change": -36.67
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-14",
-      "type": "context_changed",
-      "id": "qwen/qwen3.8-2.4t-a95b",
-      "provider": "qwen",
-      "prev_context": 1010000,
-      "next_context": 1048576
-    },
-    {
-      "ts": "2026-08-14",
-      "type": "price_changed",
-      "id": "meta-llama/llama-4-maverick",
-      "provider": "meta-llama",
-      "changes": [
-        {
-          "field": "completion",
-          "prev": "0.000000696",
-          "next": "0.0000008",
-          "pct_change": 14.94
         }
       ]
     }
