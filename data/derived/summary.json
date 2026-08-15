@@ -7,6 +7,86 @@
     {
       "ts": "2026-08-15",
       "type": "price_changed",
+      "id": "qwen/qwen-plus-2025-07-28:thinking",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000004",
+          "next": "0.00000026",
+          "pct_change": -35
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000012",
+          "next": "0.00000078",
+          "pct_change": -35
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-15",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000006566",
+          "next": "0.00000006426",
+          "pct_change": -2.13
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000013132",
+          "next": "0.00000012852",
+          "pct_change": -2.13
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-15",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000049",
+          "next": "0.000000462",
+          "pct_change": -5.71
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000154",
+          "next": "0.000001452",
+          "pct_change": -5.71
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-15",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000006846",
+          "next": "0.0000000675",
+          "pct_change": -1.4
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000013692",
+          "next": "0.000000135",
+          "pct_change": -1.4
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-15",
+      "type": "price_changed",
       "id": "moonshotai/kimi-k2.6",
       "provider": "moonshotai",
       "changes": [
@@ -303,86 +383,6 @@
           "prev": "0.0000008",
           "next": "0.000000696",
           "pct_change": -13
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-14",
-      "type": "price_changed",
-      "id": "z-ai/glm-4.6",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000005",
-          "next": "0.00000055",
-          "pct_change": 10
-        },
-        {
-          "field": "completion",
-          "prev": "0.000002",
-          "next": "0.0000022",
-          "pct_change": 10
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-14",
-      "type": "price_changed",
-      "id": "qwen/qwen3.5-397b-a17b",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000005",
-          "next": "0.00000039",
-          "pct_change": -22
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000036",
-          "next": "0.00000234",
-          "pct_change": -35
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-14",
-      "type": "price_changed",
-      "id": "moonshotai/kimi-k2.6",
-      "provider": "moonshotai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000095",
-          "next": "0.0000005605",
-          "pct_change": -41
-        },
-        {
-          "field": "completion",
-          "prev": "0.000004",
-          "next": "0.00000236",
-          "pct_change": -41
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-14",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.2",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000063",
-          "next": "0.00000119",
-          "pct_change": 88.89
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000198",
-          "next": "0.00000374",
-          "pct_change": 88.89
         }
       ]
     }

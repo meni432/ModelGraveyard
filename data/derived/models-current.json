@@ -74,13 +74,13 @@
       "name": "DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.00000006846",
-        "completion": "0.00000013692",
+        "prompt": "0.0000000675",
+        "completion": "0.000000135",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 384000,
+      "max_completion_tokens": 262144,
       "expiration_date": null,
       "created": 1785606009,
       "first_seen": "2026-08-01",
@@ -1315,8 +1315,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000006566",
-        "completion": "0.00000013132",
+        "prompt": "0.00000006426",
+        "completion": "0.00000012852",
         "image": null,
         "request": null
       },
@@ -5463,8 +5463,8 @@
       "name": "Qwen: Qwen Plus 0728 (thinking)",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.0000004",
-        "completion": "0.0000012",
+        "prompt": "0.00000026",
+        "completion": "0.00000078",
         "image": null,
         "request": null
       },
@@ -6976,8 +6976,8 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.00000049",
-        "completion": "0.00000154",
+        "prompt": "0.000000462",
+        "completion": "0.000001452",
         "image": null,
         "request": null
       },
