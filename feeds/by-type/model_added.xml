@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_added.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_added.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-08-13T00:00:00Z</updated>
+  <updated>2026-08-15T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-15:model_added:qwen%2Fqwen3.8-27b</id>
+    <title>Added: qwen/qwen3.8-27b</title>
+    <updated>2026-08-15T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3.8-27b"/>
+    <category term="model_added"/>
+    <category term="provider:qwen"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.4500/Mtok, context: 262144.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-08-13:model_added:google%2Fgemini-3.7-flash</id>
     <title>Added: google/gemini-3.7-flash</title>
@@ -895,14 +904,5 @@
     <category term="model_added"/>
     <category term="provider:openai"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.8750/Mtok, context: 400000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-28:model_added:anthropic%2Fclaude-opus-4.5%3Abatch</id>
-    <title>Added: anthropic/claude-opus-4.5:batch</title>
-    <updated>2026-07-28T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-opus-4.5%3Abatch"/>
-    <category term="model_added"/>
-    <category term="provider:anthropic"/>
-    <summary>New model on OpenRouter. Initial prompt price: $2.5000/Mtok, context: 200000.</summary>
   </entry>
 </feed>
