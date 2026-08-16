@@ -26752,6 +26752,46 @@
           "pct_change": -35
         }
       ]
+    },
+    {
+      "ts": "2026-08-16",
+      "type": "price_changed",
+      "id": "qwen/qwen3.6-27b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000006",
+          "next": "0.0000003",
+          "pct_change": -50
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000036",
+          "next": "0.000002",
+          "pct_change": -44.44
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-16",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.6",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000005415",
+          "next": "0.00000065",
+          "pct_change": 20.04
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000228",
+          "next": "0.00000341",
+          "pct_change": 49.56
+        }
+      ]
     }
   ]
 }
