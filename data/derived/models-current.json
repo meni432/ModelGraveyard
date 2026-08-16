@@ -74,13 +74,13 @@
       "name": "DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000000675",
-        "completion": "0.000000135",
+        "prompt": "0.00000006706",
+        "completion": "0.00000013412",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": 384000,
       "expiration_date": null,
       "created": 1785606009,
       "first_seen": "2026-08-01",
@@ -1315,8 +1315,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000006426",
-        "completion": "0.00000012852",
+        "prompt": "0.00000006146",
+        "completion": "0.00000012292",
         "image": null,
         "request": null
       },
@@ -2573,7 +2573,7 @@
       "name": "MiniMax: MiniMax M1",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0.00000055",
+        "prompt": "0.0000004",
         "completion": "0.0000022",
         "image": null,
         "request": null
@@ -3083,8 +3083,8 @@
       "name": "MoonshotAI: Kimi K2.6",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.00000065",
-        "completion": "0.00000341",
+        "prompt": "0.0000005415",
+        "completion": "0.00000228",
         "image": null,
         "request": null
       },
@@ -5565,13 +5565,13 @@
       "name": "Qwen: Qwen3 30B A3B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000012",
-        "completion": "0.0000005",
+        "prompt": "0.00000013",
+        "completion": "0.00000052",
         "image": null,
         "request": null
       },
       "context_length": 131072,
-      "max_completion_tokens": 16384,
+      "max_completion_tokens": 8192,
       "expiration_date": null,
       "created": 1745878604,
       "first_seen": "2026-05-27",
@@ -6976,13 +6976,13 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.000000462",
-        "completion": "0.000001452",
+        "prompt": "0.000000308",
+        "completion": "0.000000968",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 128000,
       "expiration_date": null,
       "created": 1781631930,
       "first_seen": "2026-06-16",
