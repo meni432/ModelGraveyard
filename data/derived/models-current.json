@@ -74,13 +74,13 @@
       "name": "DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.00000006706",
-        "completion": "0.00000013412",
+        "prompt": "0.000000063",
+        "completion": "0.000000126",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 384000,
+      "max_completion_tokens": 262144,
       "expiration_date": null,
       "created": 1785606009,
       "first_seen": "2026-08-01",
@@ -2573,7 +2573,7 @@
       "name": "MiniMax: MiniMax M1",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0.0000004",
+        "prompt": "0.00000055",
         "completion": "0.0000022",
         "image": null,
         "request": null
@@ -6058,13 +6058,13 @@
       "name": "Qwen: Qwen3.6 27B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.0000003",
-        "completion": "0.000002",
+        "prompt": "0.0000006",
+        "completion": "0.0000036",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 65536,
+      "max_completion_tokens": 262144,
       "expiration_date": null,
       "created": 1777255064,
       "first_seen": "2026-05-27",
