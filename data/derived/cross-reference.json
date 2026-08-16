@@ -1,10 +1,10 @@
 {
   "generated_at": "2026-08-16",
   "openrouter_catalog_size": 401,
-  "litellm_catalog_size": 2193,
-  "shared_count": 85,
-  "openrouter_only_count": 316,
-  "litellm_only_count": 2093,
+  "litellm_catalog_size": 2211,
+  "shared_count": 86,
+  "openrouter_only_count": 315,
+  "litellm_only_count": 2110,
   "disagreements": [
     {
       "slug": "anthropic:claude-3-5-haiku",
@@ -352,6 +352,11 @@
       "slug": "meta:muse-spark-1-1",
       "openrouter_id": "meta/muse-spark-1.1",
       "litellm_id": "meta/muse-spark-1.1"
+    },
+    {
+      "slug": "meta:muse-spark-1-2",
+      "openrouter_id": "meta/muse-spark-1.2",
+      "litellm_id": "meta/muse-spark-1.2"
     },
     {
       "slug": "minimax:minimax-m2",
