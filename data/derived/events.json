@@ -27533,6 +27533,260 @@
           "pct_change": -9.09
         }
       ]
+    },
+    {
+      "ts": "2026-08-17",
+      "type": "price_changed",
+      "id": "openai/gpt-5.6-luna-pro",
+      "provider": "openai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000001",
+          "next": "0.0000002",
+          "pct_change": 100
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000006",
+          "next": "0.0000012",
+          "pct_change": 100
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-17",
+      "type": "price_changed",
+      "id": "openai/gpt-5.6-luna",
+      "provider": "openai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000001",
+          "next": "0.0000002",
+          "pct_change": 100
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000006",
+          "next": "0.0000012",
+          "pct_change": 100
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-17",
+      "type": "price_changed",
+      "id": "openai/gpt-5.6-terra-pro",
+      "provider": "openai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000001",
+          "next": "0.000002",
+          "pct_change": 100
+        },
+        {
+          "field": "completion",
+          "prev": "0.000006",
+          "next": "0.000012",
+          "pct_change": 100
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-17",
+      "type": "price_changed",
+      "id": "openai/gpt-5.6-terra",
+      "provider": "openai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000001",
+          "next": "0.000002",
+          "pct_change": 100
+        },
+        {
+          "field": "completion",
+          "prev": "0.000006",
+          "next": "0.000012",
+          "pct_change": 100
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-17",
+      "type": "price_changed",
+      "id": "openai/gpt-5.6-sol-pro",
+      "provider": "openai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000005",
+          "next": "0.0000025",
+          "pct_change": -50
+        },
+        {
+          "field": "completion",
+          "prev": "0.00003",
+          "next": "0.000015",
+          "pct_change": -50
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-17",
+      "type": "price_changed",
+      "id": "openai/gpt-5.6-sol-pro:batch",
+      "provider": "openai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000025",
+          "next": "0.00000125",
+          "pct_change": -50
+        },
+        {
+          "field": "completion",
+          "prev": "0.000015",
+          "next": "0.0000075",
+          "pct_change": -50
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-17",
+      "type": "price_changed",
+      "id": "openai/gpt-5.6-sol",
+      "provider": "openai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000005",
+          "next": "0.0000025",
+          "pct_change": -50
+        },
+        {
+          "field": "completion",
+          "prev": "0.00003",
+          "next": "0.000015",
+          "pct_change": -50
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-17",
+      "type": "price_changed",
+      "id": "openai/gpt-5.6-sol:batch",
+      "provider": "openai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000025",
+          "next": "0.00000125",
+          "pct_change": -50
+        },
+        {
+          "field": "completion",
+          "prev": "0.000015",
+          "next": "0.0000075",
+          "pct_change": -50
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-17",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000119",
+          "next": "0.00000049",
+          "pct_change": -58.82
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000374",
+          "next": "0.00000154",
+          "pct_change": -58.82
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-17",
+      "type": "price_changed",
+      "id": "~openai/gpt-latest",
+      "provider": "~openai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000005",
+          "next": "0.0000025",
+          "pct_change": -50
+        },
+        {
+          "field": "completion",
+          "prev": "0.00003",
+          "next": "0.000015",
+          "pct_change": -50
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-17",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000826",
+          "next": "0.0000000798",
+          "pct_change": -3.39
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000001652",
+          "next": "0.0000001596",
+          "pct_change": -3.39
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-17",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.6",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000095",
+          "next": "0.0000005605",
+          "pct_change": -41
+        },
+        {
+          "field": "completion",
+          "prev": "0.000004",
+          "next": "0.00000236",
+          "pct_change": -41
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-17",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v3.1-terminus",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.00000095",
+          "next": "0.000001",
+          "pct_change": 5.26
+        }
+      ]
     }
   ]
 }

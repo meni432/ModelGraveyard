@@ -4,7 +4,79 @@
   <id>https://modelgraveyard.com/feeds/by-provider/openai.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/openai.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-08-12T00:00:00Z</updated>
+  <updated>2026-08-17T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-17:price_changed:openai%2Fgpt-5.6-luna-pro</id>
+    <title>Price changed: openai/gpt-5.6-luna-pro</title>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5.6-luna-pro"/>
+    <category term="price_changed"/>
+    <category term="provider:openai"/>
+    <summary>prompt: $0.1000/Mtok → $0.2000/Mtok (+100%); completion: $0.6000/Mtok → $1.2000/Mtok (+100%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-17:price_changed:openai%2Fgpt-5.6-luna</id>
+    <title>Price changed: openai/gpt-5.6-luna</title>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5.6-luna"/>
+    <category term="price_changed"/>
+    <category term="provider:openai"/>
+    <summary>prompt: $0.1000/Mtok → $0.2000/Mtok (+100%); completion: $0.6000/Mtok → $1.2000/Mtok (+100%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-17:price_changed:openai%2Fgpt-5.6-terra-pro</id>
+    <title>Price changed: openai/gpt-5.6-terra-pro</title>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5.6-terra-pro"/>
+    <category term="price_changed"/>
+    <category term="provider:openai"/>
+    <summary>prompt: $1.0000/Mtok → $2.0000/Mtok (+100%); completion: $6.0000/Mtok → $12.0000/Mtok (+100%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-17:price_changed:openai%2Fgpt-5.6-terra</id>
+    <title>Price changed: openai/gpt-5.6-terra</title>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5.6-terra"/>
+    <category term="price_changed"/>
+    <category term="provider:openai"/>
+    <summary>prompt: $1.0000/Mtok → $2.0000/Mtok (+100%); completion: $6.0000/Mtok → $12.0000/Mtok (+100%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-17:price_changed:openai%2Fgpt-5.6-sol-pro</id>
+    <title>Price changed: openai/gpt-5.6-sol-pro</title>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5.6-sol-pro"/>
+    <category term="price_changed"/>
+    <category term="provider:openai"/>
+    <summary>prompt: $5.0000/Mtok → $2.5000/Mtok (-50%); completion: $30.0000/Mtok → $15.0000/Mtok (-50%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-17:price_changed:openai%2Fgpt-5.6-sol-pro%3Abatch</id>
+    <title>Price changed: openai/gpt-5.6-sol-pro:batch</title>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5.6-sol-pro%3Abatch"/>
+    <category term="price_changed"/>
+    <category term="provider:openai"/>
+    <summary>prompt: $2.5000/Mtok → $1.2500/Mtok (-50%); completion: $15.0000/Mtok → $7.5000/Mtok (-50%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-17:price_changed:openai%2Fgpt-5.6-sol</id>
+    <title>Price changed: openai/gpt-5.6-sol</title>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5.6-sol"/>
+    <category term="price_changed"/>
+    <category term="provider:openai"/>
+    <summary>prompt: $5.0000/Mtok → $2.5000/Mtok (-50%); completion: $30.0000/Mtok → $15.0000/Mtok (-50%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-17:price_changed:openai%2Fgpt-5.6-sol%3Abatch</id>
+    <title>Price changed: openai/gpt-5.6-sol:batch</title>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5.6-sol%3Abatch"/>
+    <category term="price_changed"/>
+    <category term="provider:openai"/>
+    <summary>prompt: $2.5000/Mtok → $1.2500/Mtok (-50%); completion: $15.0000/Mtok → $7.5000/Mtok (-50%)</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-08-12:price_changed:openai%2Fgpt-oss-120b</id>
     <title>Price changed: openai/gpt-oss-120b</title>
@@ -832,77 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:openai"/>
     <summary>prompt: $0.0360/Mtok → $0.0300/Mtok (-16.67%); completion: $0.1800/Mtok → $0.1500/Mtok (-16.67%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-14:model_removed:openai%2Fgpt-oss-120b%3Afree</id>
-    <title>Removed: openai/gpt-oss-120b:free</title>
-    <updated>2026-07-14T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-oss-120b%3Afree"/>
-    <category term="model_removed"/>
-    <category term="provider:openai"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-09:model_added:openai%2Fgpt-5.6-luna-pro</id>
-    <title>Added: openai/gpt-5.6-luna-pro</title>
-    <updated>2026-07-09T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5.6-luna-pro"/>
-    <category term="model_added"/>
-    <category term="provider:openai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $1.0000/Mtok, context: 1050000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-09:model_added:openai%2Fgpt-5.6-luna</id>
-    <title>Added: openai/gpt-5.6-luna</title>
-    <updated>2026-07-09T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5.6-luna"/>
-    <category term="model_added"/>
-    <category term="provider:openai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $1.0000/Mtok, context: 1050000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-09:model_added:openai%2Fgpt-5.6-terra-pro</id>
-    <title>Added: openai/gpt-5.6-terra-pro</title>
-    <updated>2026-07-09T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5.6-terra-pro"/>
-    <category term="model_added"/>
-    <category term="provider:openai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $2.5000/Mtok, context: 1050000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-09:model_added:openai%2Fgpt-5.6-terra</id>
-    <title>Added: openai/gpt-5.6-terra</title>
-    <updated>2026-07-09T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5.6-terra"/>
-    <category term="model_added"/>
-    <category term="provider:openai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $2.5000/Mtok, context: 1050000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-09:model_added:openai%2Fgpt-5.6-sol-pro</id>
-    <title>Added: openai/gpt-5.6-sol-pro</title>
-    <updated>2026-07-09T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5.6-sol-pro"/>
-    <category term="model_added"/>
-    <category term="provider:openai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $5.0000/Mtok, context: 1050000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-09:model_added:openai%2Fgpt-5.6-sol</id>
-    <title>Added: openai/gpt-5.6-sol</title>
-    <updated>2026-07-09T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5.6-sol"/>
-    <category term="model_added"/>
-    <category term="provider:openai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $5.0000/Mtok, context: 1050000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-09:price_changed:openai%2Fgpt-oss-120b</id>
-    <title>Price changed: openai/gpt-oss-120b</title>
-    <updated>2026-07-09T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-oss-120b"/>
-    <category term="price_changed"/>
-    <category term="provider:openai"/>
-    <summary>prompt: $0.0300/Mtok → $0.0360/Mtok (+20%); completion: $0.1500/Mtok → $0.1800/Mtok (+20%)</summary>
   </entry>
 </feed>

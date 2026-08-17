@@ -142,8 +142,8 @@
       "name": "OpenAI GPT Latest",
       "provider": "~openai",
       "pricing": {
-        "prompt": "0.000005",
-        "completion": "0.00003",
+        "prompt": "0.0000025",
+        "completion": "0.000015",
         "image": null,
         "request": null
       },
@@ -1265,13 +1265,13 @@
       "provider": "deepseek",
       "pricing": {
         "prompt": "0.00000027",
-        "completion": "0.00000095",
+        "completion": "0.000001",
         "image": null,
         "request": null
       },
       "context_length": 163840,
-      "max_completion_tokens": 32768,
-      "expiration_date": "2026-08-17",
+      "max_completion_tokens": 163840,
+      "expiration_date": null,
       "created": 1758548275,
       "first_seen": "2026-05-27",
       "last_seen": "2026-08-17"
@@ -1315,8 +1315,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000000826",
-        "completion": "0.0000001652",
+        "prompt": "0.0000000798",
+        "completion": "0.0000001596",
         "image": null,
         "request": null
       },
@@ -3083,8 +3083,8 @@
       "name": "MoonshotAI: Kimi K2.6",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.00000095",
-        "completion": "0.000004",
+        "prompt": "0.0000005605",
+        "completion": "0.00000236",
         "image": null,
         "request": null
       },
@@ -4511,8 +4511,8 @@
       "name": "OpenAI: GPT-5.6 Luna",
       "provider": "openai",
       "pricing": {
-        "prompt": "0.0000001",
-        "completion": "0.0000006",
+        "prompt": "0.0000002",
+        "completion": "0.0000012",
         "image": null,
         "request": null
       },
@@ -4528,8 +4528,8 @@
       "name": "OpenAI: GPT-5.6 Luna Pro",
       "provider": "openai",
       "pricing": {
-        "prompt": "0.0000001",
-        "completion": "0.0000006",
+        "prompt": "0.0000002",
+        "completion": "0.0000012",
         "image": null,
         "request": null
       },
@@ -4579,8 +4579,8 @@
       "name": "OpenAI: GPT-5.6 Sol",
       "provider": "openai",
       "pricing": {
-        "prompt": "0.000005",
-        "completion": "0.00003",
+        "prompt": "0.0000025",
+        "completion": "0.000015",
         "image": null,
         "request": null
       },
@@ -4596,8 +4596,8 @@
       "name": "OpenAI: GPT-5.6 Sol Pro",
       "provider": "openai",
       "pricing": {
-        "prompt": "0.000005",
-        "completion": "0.00003",
+        "prompt": "0.0000025",
+        "completion": "0.000015",
         "image": null,
         "request": null
       },
@@ -4613,8 +4613,8 @@
       "name": "OpenAI: GPT-5.6 Sol Pro (batch)",
       "provider": "openai",
       "pricing": {
-        "prompt": "0.0000025",
-        "completion": "0.000015",
+        "prompt": "0.00000125",
+        "completion": "0.0000075",
         "image": null,
         "request": null
       },
@@ -4630,8 +4630,8 @@
       "name": "OpenAI: GPT-5.6 Sol (batch)",
       "provider": "openai",
       "pricing": {
-        "prompt": "0.0000025",
-        "completion": "0.000015",
+        "prompt": "0.00000125",
+        "completion": "0.0000075",
         "image": null,
         "request": null
       },
@@ -4647,8 +4647,8 @@
       "name": "OpenAI: GPT-5.6 Terra",
       "provider": "openai",
       "pricing": {
-        "prompt": "0.000001",
-        "completion": "0.000006",
+        "prompt": "0.000002",
+        "completion": "0.000012",
         "image": null,
         "request": null
       },
@@ -4664,8 +4664,8 @@
       "name": "OpenAI: GPT-5.6 Terra Pro",
       "provider": "openai",
       "pricing": {
-        "prompt": "0.000001",
-        "completion": "0.000006",
+        "prompt": "0.000002",
+        "completion": "0.000012",
         "image": null,
         "request": null
       },
@@ -6976,13 +6976,13 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.00000119",
-        "completion": "0.00000374",
+        "prompt": "0.00000049",
+        "completion": "0.00000154",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1781631930,
       "first_seen": "2026-06-16",
