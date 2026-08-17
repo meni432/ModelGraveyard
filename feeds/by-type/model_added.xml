@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_added.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_added.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-08-15T00:00:00Z</updated>
+  <updated>2026-08-17T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-17:model_added:z-ai%2Fglm-5.2%3Afree</id>
+    <title>Added: z-ai/glm-5.2:free</title>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2%3Afree"/>
+    <category term="model_added"/>
+    <category term="provider:z-ai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 128000.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-08-15:model_added:qwen%2Fqwen3.8-27b</id>
     <title>Added: qwen/qwen3.8-27b</title>
@@ -895,14 +904,5 @@
     <category term="model_added"/>
     <category term="provider:anthropic"/>
     <summary>New model on OpenRouter. Initial prompt price: $2.5000/Mtok, context: 1000000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-28:model_added:google%2Fgemini-3-flash-preview%3Abatch</id>
-    <title>Added: google/gemini-3-flash-preview:batch</title>
-    <updated>2026-07-28T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-3-flash-preview%3Abatch"/>
-    <category term="model_added"/>
-    <category term="provider:google"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.2500/Mtok, context: 1048576.</summary>
   </entry>
 </feed>
