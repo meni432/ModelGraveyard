@@ -74,13 +74,13 @@
       "name": "DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000000603",
-        "completion": "0.0000001206",
+        "prompt": "0.000000078596",
+        "completion": "0.000000157192",
         "image": null,
         "request": null
       },
       "context_length": 1310720,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": 384000,
       "expiration_date": null,
       "created": 1785606009,
       "first_seen": "2026-08-01",
@@ -1349,8 +1349,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000132",
-        "completion": "0.00000396",
+        "prompt": "0.00000066",
+        "completion": "0.00000198",
         "image": null,
         "request": null
       },
@@ -1366,8 +1366,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000132",
-        "completion": "0.00000396",
+        "prompt": "0.00000066",
+        "completion": "0.00000198",
         "image": null,
         "request": null
       },
@@ -6058,13 +6058,13 @@
       "name": "Qwen: Qwen3.6 27B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.0000003",
-        "completion": "0.000002",
+        "prompt": "0.000000289",
+        "completion": "0.0000024",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 65536,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1777255064,
       "first_seen": "2026-05-27",
@@ -6857,8 +6857,8 @@
       "name": "Z.ai: GLM 4.6",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.00000055",
-        "completion": "0.0000022",
+        "prompt": "0.0000005",
+        "completion": "0.000002",
         "image": null,
         "request": null
       },

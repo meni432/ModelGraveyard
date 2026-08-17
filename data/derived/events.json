@@ -27433,6 +27433,106 @@
           "pct_change": 10
         }
       ]
+    },
+    {
+      "ts": "2026-08-17",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000132",
+          "next": "0.00000066",
+          "pct_change": -50
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000396",
+          "next": "0.00000198",
+          "pct_change": -50
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-17",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000603",
+          "next": "0.000000078596",
+          "pct_change": 30.34
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000001206",
+          "next": "0.000000157192",
+          "pct_change": 30.34
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-17",
+      "type": "price_changed",
+      "id": "qwen/qwen3.6-27b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000003",
+          "next": "0.000000289",
+          "pct_change": -3.67
+        },
+        {
+          "field": "completion",
+          "prev": "0.000002",
+          "next": "0.0000024",
+          "pct_change": 20
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-17",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000132",
+          "next": "0.00000066",
+          "pct_change": -50
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000396",
+          "next": "0.00000198",
+          "pct_change": -50
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-17",
+      "type": "price_changed",
+      "id": "z-ai/glm-4.6",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000055",
+          "next": "0.0000005",
+          "pct_change": -9.09
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000022",
+          "next": "0.000002",
+          "pct_change": -9.09
+        }
+      ]
     }
   ]
 }

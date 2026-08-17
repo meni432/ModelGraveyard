@@ -15,6 +15,15 @@
     <summary>prompt: $0.2600/Mtok → $0.2100/Mtok (-19.23%); completion: $1.0400/Mtok → $1.9000/Mtok (+82.69%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-08-17:price_changed:qwen%2Fqwen3.6-27b</id>
+    <title>Price changed: qwen/qwen3.6-27b</title>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3.6-27b"/>
+    <category term="price_changed"/>
+    <category term="provider:qwen"/>
+    <summary>prompt: $0.3000/Mtok → $0.2890/Mtok (-3.67%); completion: $2.0000/Mtok → $2.4000/Mtok (+20%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-08-16:price_changed:qwen%2Fqwen3.6-27b</id>
     <title>Price changed: qwen/qwen3.6-27b</title>
     <updated>2026-08-16T00:00:00Z</updated>
@@ -892,15 +901,6 @@
     <title>Removed: qwen/qwen3-coder:free</title>
     <updated>2026-07-19T00:00:00Z</updated>
     <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3-coder%3Afree"/>
-    <category term="model_removed"/>
-    <category term="provider:qwen"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-19:model_removed:qwen%2Fqwen3-next-80b-a3b-instruct%3Afree</id>
-    <title>Removed: qwen/qwen3-next-80b-a3b-instruct:free</title>
-    <updated>2026-07-19T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3-next-80b-a3b-instruct%3Afree"/>
     <category term="model_removed"/>
     <category term="provider:qwen"/>
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
