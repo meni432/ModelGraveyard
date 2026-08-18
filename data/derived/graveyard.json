@@ -18,6 +18,23 @@
       "suggested_replacement": null
     },
     {
+      "id": "z-ai/glm-5.2:free",
+      "name": "Z.ai: GLM 5.2 (free)",
+      "provider": "z-ai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 128000,
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-18",
+      "buried_at": "2026-08-18",
+      "suggested_replacement": "z-ai/glm-4.6v"
+    },
+    {
       "id": "inclusionai/ling-3.0-tiny:free",
       "name": "inclusionAI: Ling 3.0 Tiny (free)",
       "provider": "inclusionai",

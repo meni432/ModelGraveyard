@@ -1349,8 +1349,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000132",
-        "completion": "0.00000396",
+        "prompt": "0.00000066",
+        "completion": "0.00000198",
         "image": null,
         "request": null
       },
@@ -1366,8 +1366,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000132",
-        "completion": "0.00000396",
+        "prompt": "0.00000066",
+        "completion": "0.00000198",
         "image": null,
         "request": null
       },
@@ -3066,8 +3066,8 @@
       "name": "MoonshotAI: Kimi K2.6",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.00000095",
-        "completion": "0.000004",
+        "prompt": "0.0000005795",
+        "completion": "0.00000244",
         "image": null,
         "request": null
       },
@@ -6041,13 +6041,13 @@
       "name": "Qwen: Qwen3.6 27B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.0000006",
-        "completion": "0.0000036",
+        "prompt": "0.000000289",
+        "completion": "0.0000024",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1777255064,
       "first_seen": "2026-05-27",
@@ -6959,13 +6959,13 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.0000005",
-        "completion": "0.00000315",
+        "prompt": "0.00000119",
+        "completion": "0.00000374",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 262144,
       "expiration_date": null,
       "created": 1781631930,
       "first_seen": "2026-06-16",
@@ -6986,23 +6986,6 @@
       "expiration_date": null,
       "created": 1781631930,
       "first_seen": "2026-08-06",
-      "last_seen": "2026-08-18"
-    },
-    {
-      "id": "z-ai/glm-5.2:free",
-      "name": "Z.ai: GLM 5.2 (free)",
-      "provider": "z-ai",
-      "pricing": {
-        "prompt": "0",
-        "completion": "0",
-        "image": null,
-        "request": null
-      },
-      "context_length": 128000,
-      "max_completion_tokens": 128000,
-      "expiration_date": null,
-      "created": 1781631930,
-      "first_seen": "2026-08-17",
       "last_seen": "2026-08-18"
     },
     {
