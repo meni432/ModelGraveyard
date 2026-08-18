@@ -27927,6 +27927,49 @@
           "pct_change": -13.33
         }
       ]
+    },
+    {
+      "ts": "2026-08-18",
+      "type": "price_changed",
+      "id": "qwen/qwen3.5-122b-a10b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000026",
+          "next": "0.00000029",
+          "pct_change": 11.54
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000208",
+          "next": "0.0000024",
+          "pct_change": 15.38
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-18",
+      "type": "model_removed",
+      "id": "liquid/lfm-2.5-2.6b:free",
+      "provider": "liquid",
+      "snapshot": {
+        "id": "liquid/lfm-2.5-2.6b:free",
+        "name": "LiquidAI: LFM2.5-2.6B (free)",
+        "provider": "liquid",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 128000,
+        "max_completion_tokens": 8192,
+        "expiration_date": null,
+        "created": 1786470519,
+        "first_seen": "2026-08-12",
+        "last_seen": "2026-08-18"
+      }
     }
   ]
 }

@@ -1,6 +1,23 @@
 {
   "buried": [
     {
+      "id": "liquid/lfm-2.5-2.6b:free",
+      "name": "LiquidAI: LFM2.5-2.6B (free)",
+      "provider": "liquid",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 128000,
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-18",
+      "buried_at": "2026-08-18",
+      "suggested_replacement": null
+    },
+    {
       "id": "inclusionai/ling-3.0-tiny:free",
       "name": "inclusionAI: Ling 3.0 Tiny (free)",
       "provider": "inclusionai",

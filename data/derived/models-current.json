@@ -2280,23 +2280,6 @@
       "last_seen": "2026-08-18"
     },
     {
-      "id": "liquid/lfm-2.5-2.6b:free",
-      "name": "LiquidAI: LFM2.5-2.6B (free)",
-      "provider": "liquid",
-      "pricing": {
-        "prompt": "0",
-        "completion": "0",
-        "image": null,
-        "request": null
-      },
-      "context_length": 128000,
-      "max_completion_tokens": 8192,
-      "expiration_date": null,
-      "created": 1786470519,
-      "first_seen": "2026-08-12",
-      "last_seen": "2026-08-18"
-    },
-    {
       "id": "mancer/weaver",
       "name": "Mancer: Weaver (alpha)",
       "provider": "mancer",
@@ -5922,13 +5905,13 @@
       "name": "Qwen: Qwen3.5-122B-A10B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000026",
-        "completion": "0.00000208",
+        "prompt": "0.00000029",
+        "completion": "0.0000024",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": 81920,
       "expiration_date": null,
       "created": 1772053789,
       "first_seen": "2026-05-27",
