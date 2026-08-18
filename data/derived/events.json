@@ -28093,6 +28093,120 @@
         "first_seen": "2026-08-17",
         "last_seen": "2026-08-18"
       }
+    },
+    {
+      "ts": "2026-08-18",
+      "type": "model_added",
+      "id": "liquid/lfm-2.5-2.6b:free",
+      "provider": "liquid",
+      "snapshot": {
+        "id": "liquid/lfm-2.5-2.6b:free",
+        "name": "LiquidAI: LFM2.5-2.6B (free)",
+        "provider": "liquid",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 128000,
+        "max_completion_tokens": 8192,
+        "expiration_date": null,
+        "created": 1786470519,
+        "first_seen": "2026-08-18",
+        "last_seen": "2026-08-18"
+      }
+    },
+    {
+      "ts": "2026-08-18",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000119",
+          "next": "0.00000049",
+          "pct_change": -58.82
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000374",
+          "next": "0.00000154",
+          "pct_change": -58.82
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-18",
+      "type": "model_added",
+      "id": "z-ai/glm-5.2:free",
+      "provider": "z-ai",
+      "snapshot": {
+        "id": "z-ai/glm-5.2:free",
+        "name": "Z.ai: GLM 5.2 (free)",
+        "provider": "z-ai",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 256000,
+        "max_completion_tokens": 256000,
+        "expiration_date": null,
+        "created": 1781631930,
+        "first_seen": "2026-08-18",
+        "last_seen": "2026-08-18"
+      }
+    },
+    {
+      "ts": "2026-08-18",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000826",
+          "next": "0.0000000798",
+          "pct_change": -3.39
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000001652",
+          "next": "0.0000001596",
+          "pct_change": -3.39
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-18",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.6",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000005795",
+          "next": "0.0000005605",
+          "pct_change": -3.28
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000244",
+          "next": "0.00000236",
+          "pct_change": -3.28
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-18",
+      "type": "deprecation_announced",
+      "id": "nvidia/nemotron-nano-12b-v2-vl:free",
+      "provider": "nvidia",
+      "prev_expiration": null,
+      "next_expiration": "2026-08-24"
     }
   ]
 }
