@@ -1,6 +1,23 @@
 {
   "buried": [
     {
+      "id": "ai21/jamba-large-1.7",
+      "name": "AI21: Jamba Large 1.7",
+      "provider": "ai21",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.000002",
+        "completion": "0.000008",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 256000,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-08-19",
+      "buried_at": "2026-08-19",
+      "suggested_replacement": null
+    },
+    {
       "id": "liquid/lfm-2.5-2.6b:free",
       "name": "LiquidAI: LFM2.5-2.6B (free)",
       "provider": "liquid",

@@ -2,10 +2,21 @@
   "generated_at": "2026-08-19",
   "openrouter_catalog_size": 403,
   "litellm_catalog_size": 2225,
-  "shared_count": 86,
-  "openrouter_only_count": 317,
+  "shared_count": 85,
+  "openrouter_only_count": 318,
   "litellm_only_count": 2124,
   "disagreements": [
+    {
+      "slug": "ai21:jamba-large-1-7",
+      "openrouter_status": "removed",
+      "openrouter_id": "ai21/jamba-large-1.7",
+      "openrouter_removed_at": "2026-08-19",
+      "litellm_status": "active",
+      "litellm_id": "jamba-large-1.7",
+      "litellm_deprecation_date": null,
+      "severity": "high",
+      "noted_at": "2026-08-19"
+    },
     {
       "slug": "anthropic:claude-3-5-haiku",
       "openrouter_status": "removed",
@@ -173,11 +184,6 @@
     }
   ],
   "pairings": [
-    {
-      "slug": "ai21:jamba-large-1-7",
-      "openrouter_id": "ai21/jamba-large-1.7",
-      "litellm_id": "jamba-large-1.7"
-    },
     {
       "slug": "anthropic:claude-3-haiku",
       "openrouter_id": "anthropic/claude-3-haiku",

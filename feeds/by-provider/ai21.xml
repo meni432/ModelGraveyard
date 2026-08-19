@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-provider/ai21.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/ai21.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-05-27T00:00:00Z</updated>
+  <updated>2026-08-19T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-19:model_removed:ai21%2Fjamba-large-1.7</id>
+    <title>Removed: ai21/jamba-large-1.7</title>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/ai21%2Fjamba-large-1.7"/>
+    <category term="model_removed"/>
+    <category term="provider:ai21"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $2.0000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-19:disagreement_detected:ai21%2Fjamba-large-1.7</id>
+    <title>Catalog disagreement: ai21/jamba-large-1.7</title>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/ai21%2Fjamba-large-1.7"/>
+    <category term="disagreement_detected"/>
+    <category term="provider:ai21"/>
+    <summary>OpenRouter says removed; LiteLLM still lists it as jamba-large-1.7.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-05-27:model_added:ai21%2Fjamba-large-1.7</id>
     <title>Added: ai21/jamba-large-1.7</title>

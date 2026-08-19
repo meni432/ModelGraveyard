@@ -28662,6 +28662,98 @@
           "pct_change": -10.71
         }
       ]
+    },
+    {
+      "ts": "2026-08-19",
+      "type": "model_added",
+      "id": "~z-ai/glm-latest",
+      "provider": "~z-ai",
+      "snapshot": {
+        "id": "~z-ai/glm-latest",
+        "name": "Z.ai: GLM Latest",
+        "provider": "~z-ai",
+        "pricing": {
+          "prompt": "0.0000014",
+          "completion": "0.0000044",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": 131072,
+        "expiration_date": "2098-12-31",
+        "created": 1787151053,
+        "first_seen": "2026-08-19",
+        "last_seen": "2026-08-19"
+      }
+    },
+    {
+      "ts": "2026-08-19",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.6",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000009405",
+          "next": "0.0000005605",
+          "pct_change": -40.4
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000396",
+          "next": "0.00000236",
+          "pct_change": -40.4
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-19",
+      "type": "price_changed",
+      "id": "minimax/minimax-m2.5",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000022",
+          "next": "0.000000225",
+          "pct_change": 2.27
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-19",
+      "type": "model_removed",
+      "id": "ai21/jamba-large-1.7",
+      "provider": "ai21",
+      "snapshot": {
+        "id": "ai21/jamba-large-1.7",
+        "name": "AI21: Jamba Large 1.7",
+        "provider": "ai21",
+        "pricing": {
+          "prompt": "0.000002",
+          "completion": "0.000008",
+          "image": null,
+          "request": null
+        },
+        "context_length": 256000,
+        "max_completion_tokens": 4096,
+        "expiration_date": null,
+        "created": 1754669020,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-08-19"
+      }
+    },
+    {
+      "ts": "2026-08-19",
+      "type": "disagreement_detected",
+      "id": "ai21/jamba-large-1.7",
+      "provider": "ai21",
+      "disagreement": {
+        "slug": "ai21:jamba-large-1-7",
+        "openrouter_status": "removed",
+        "litellm_status": "active",
+        "litellm_id": "jamba-large-1.7"
+      }
     }
   ]
 }
