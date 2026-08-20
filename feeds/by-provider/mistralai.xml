@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/mistralai.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/mistralai.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-08-04T00:00:00Z</updated>
+  <updated>2026-08-20T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-20:model_added:mistralai%2Fministral-8b</id>
+    <title>Added: mistralai/ministral-8b</title>
+    <updated>2026-08-20T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/mistralai%2Fministral-8b"/>
+    <category term="model_added"/>
+    <category term="provider:mistralai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.1100/Mtok, context: 128000.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-08-04:price_changed:mistralai%2Fmistral-small-3.2-24b-instruct</id>
     <title>Price changed: mistralai/mistral-small-3.2-24b-instruct</title>

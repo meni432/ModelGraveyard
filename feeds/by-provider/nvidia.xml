@@ -24,6 +24,15 @@
     <summary>Provider announced retirement on 2026-08-24.</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-08-20:context_changed:nvidia%2Fnemotron-3.5-lightning</id>
+    <title>Context window changed: nvidia/nemotron-3.5-lightning</title>
+    <updated>2026-08-20T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nvidia%2Fnemotron-3.5-lightning"/>
+    <category term="context_changed"/>
+    <category term="provider:nvidia"/>
+    <summary>1000000 → 262144 tokens</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-08-19:price_changed:nvidia%2Fnemotron-3-ultra-550b-a55b%3Abatch</id>
     <title>Price changed: nvidia/nemotron-3-ultra-550b-a55b:batch</title>
     <updated>2026-08-19T00:00:00Z</updated>

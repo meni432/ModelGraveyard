@@ -28955,6 +28955,131 @@
           "pct_change": -1
         }
       ]
+    },
+    {
+      "ts": "2026-08-20",
+      "type": "model_added",
+      "id": "tencent/hy-mt2-1.8b",
+      "provider": "tencent",
+      "snapshot": {
+        "id": "tencent/hy-mt2-1.8b",
+        "name": "Tencent: Hy-MT2-1.8B",
+        "provider": "tencent",
+        "pricing": {
+          "prompt": "0.000000044",
+          "completion": "0.000000177",
+          "image": null,
+          "request": null
+        },
+        "context_length": 8192,
+        "max_completion_tokens": 4096,
+        "expiration_date": null,
+        "created": 1787231581,
+        "first_seen": "2026-08-20",
+        "last_seen": "2026-08-20"
+      }
+    },
+    {
+      "ts": "2026-08-20",
+      "type": "model_added",
+      "id": "tencent/hy-mt2-30b-a3b",
+      "provider": "tencent",
+      "snapshot": {
+        "id": "tencent/hy-mt2-30b-a3b",
+        "name": "Tencent: Hy-MT2-30B-A3B",
+        "provider": "tencent",
+        "pricing": {
+          "prompt": "0.000000074",
+          "completion": "0.000000295",
+          "image": null,
+          "request": null
+        },
+        "context_length": 8192,
+        "max_completion_tokens": 4096,
+        "expiration_date": null,
+        "created": 1787231561,
+        "first_seen": "2026-08-20",
+        "last_seen": "2026-08-20"
+      }
+    },
+    {
+      "ts": "2026-08-20",
+      "type": "deprecation_announced",
+      "id": "dots-studio/dots-3-note-preview:free",
+      "provider": "dots-studio",
+      "prev_expiration": null,
+      "next_expiration": "2026-09-30"
+    },
+    {
+      "ts": "2026-08-20",
+      "type": "context_changed",
+      "id": "nvidia/nemotron-3.5-lightning",
+      "provider": "nvidia",
+      "prev_context": 1000000,
+      "next_context": 262144
+    },
+    {
+      "ts": "2026-08-20",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000088606",
+          "next": "0.0000000784",
+          "pct_change": -11.52
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000177212",
+          "next": "0.0000001568",
+          "pct_change": -11.52
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-20",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.6",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000009405",
+          "next": "0.0000005605",
+          "pct_change": -40.4
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000396",
+          "next": "0.00000236",
+          "pct_change": -40.4
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-20",
+      "type": "model_added",
+      "id": "mistralai/ministral-8b",
+      "provider": "mistralai",
+      "snapshot": {
+        "id": "mistralai/ministral-8b",
+        "name": "Mistral: Ministral 8B",
+        "provider": "mistralai",
+        "pricing": {
+          "prompt": "0.00000011",
+          "completion": "0.00000011",
+          "image": null,
+          "request": null
+        },
+        "context_length": 128000,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1729123200,
+        "first_seen": "2026-08-20",
+        "last_seen": "2026-08-20"
+      }
     }
   ]
 }
