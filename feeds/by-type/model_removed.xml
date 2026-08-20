@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_removed.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_removed.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-08-19T00:00:00Z</updated>
+  <updated>2026-08-20T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-20:model_removed:mancer%2Fweaver</id>
+    <title>Removed: mancer/weaver</title>
+    <updated>2026-08-20T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/mancer%2Fweaver"/>
+    <category term="model_removed"/>
+    <category term="provider:mancer"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.5000/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-08-19:model_removed:ai21%2Fjamba-large-1.7</id>
     <title>Removed: ai21/jamba-large-1.7</title>
@@ -895,14 +904,5 @@
     <category term="model_removed"/>
     <category term="provider:google"/>
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0750/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-08:model_removed:minimax%2Fminimax-m2.5%3Afree</id>
-    <title>Removed: minimax/minimax-m2.5:free</title>
-    <updated>2026-06-08T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/minimax%2Fminimax-m2.5%3Afree"/>
-    <category term="model_removed"/>
-    <category term="provider:minimax"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
   </entry>
 </feed>

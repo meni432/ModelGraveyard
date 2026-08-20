@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-type/deprecation_announced.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/deprecation_announced.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-08-19T00:00:00Z</updated>
+  <updated>2026-08-20T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-20:deprecation_announced:nvidia%2Fnemotron-3-nano-30b-a3b%3Afree</id>
+    <title>Deprecation announced: nvidia/nemotron-3-nano-30b-a3b:free (sunset 2026-08-24)</title>
+    <updated>2026-08-20T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nvidia%2Fnemotron-3-nano-30b-a3b%3Afree"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:nvidia"/>
+    <summary>Provider announced retirement on 2026-08-24.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-20:deprecation_announced:nvidia%2Fnemotron-nano-9b-v2%3Afree</id>
+    <title>Deprecation announced: nvidia/nemotron-nano-9b-v2:free (sunset 2026-08-24)</title>
+    <updated>2026-08-20T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nvidia%2Fnemotron-nano-9b-v2%3Afree"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:nvidia"/>
+    <summary>Provider announced retirement on 2026-08-24.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-08-19:deprecation_announced:inclusionai%2Fring-2.6-1t</id>
     <title>Deprecation announced: inclusionai/ring-2.6-1t (sunset 2026-08-24)</title>

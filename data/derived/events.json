@@ -28754,6 +28754,113 @@
         "litellm_status": "active",
         "litellm_id": "jamba-large-1.7"
       }
+    },
+    {
+      "ts": "2026-08-20",
+      "type": "context_changed",
+      "id": "qwen/qwen3.8-27b",
+      "provider": "qwen",
+      "prev_context": 262144,
+      "next_context": 1000000
+    },
+    {
+      "ts": "2026-08-20",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000066",
+          "next": "0.000001188",
+          "pct_change": 80
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000198",
+          "next": "0.000003564",
+          "pct_change": 80
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-20",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000765",
+          "next": "0.000000065",
+          "pct_change": -15.03
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000153",
+          "next": "0.00000018",
+          "pct_change": 17.65
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-20",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.6",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000005605",
+          "next": "0.00000095",
+          "pct_change": 69.49
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000236",
+          "next": "0.000004",
+          "pct_change": 69.49
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-20",
+      "type": "deprecation_announced",
+      "id": "nvidia/nemotron-3-nano-30b-a3b:free",
+      "provider": "nvidia",
+      "prev_expiration": null,
+      "next_expiration": "2026-08-24"
+    },
+    {
+      "ts": "2026-08-20",
+      "type": "deprecation_announced",
+      "id": "nvidia/nemotron-nano-9b-v2:free",
+      "provider": "nvidia",
+      "prev_expiration": null,
+      "next_expiration": "2026-08-24"
+    },
+    {
+      "ts": "2026-08-20",
+      "type": "model_removed",
+      "id": "mancer/weaver",
+      "provider": "mancer",
+      "snapshot": {
+        "id": "mancer/weaver",
+        "name": "Mancer: Weaver (alpha)",
+        "provider": "mancer",
+        "pricing": {
+          "prompt": "0.0000005",
+          "completion": "0.00000075",
+          "image": null,
+          "request": null
+        },
+        "context_length": 8000,
+        "max_completion_tokens": 6000,
+        "expiration_date": null,
+        "created": 1690934400,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-08-19"
+      }
     }
   ]
 }

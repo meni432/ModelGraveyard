@@ -1,6 +1,23 @@
 {
   "buried": [
     {
+      "id": "mancer/weaver",
+      "name": "Mancer: Weaver (alpha)",
+      "provider": "mancer",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000005",
+        "completion": "0.00000075",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 8000,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-08-19",
+      "buried_at": "2026-08-20",
+      "suggested_replacement": null
+    },
+    {
       "id": "ai21/jamba-large-1.7",
       "name": "AI21: Jamba Large 1.7",
       "provider": "ai21",
