@@ -75,12 +75,12 @@
       "provider": "~deepseek",
       "pricing": {
         "prompt": "0.000000065",
-        "completion": "0.00000018",
+        "completion": "0.00000014",
         "image": null,
         "request": null
       },
       "context_length": 1310720,
-      "max_completion_tokens": 1048576,
+      "max_completion_tokens": 262144,
       "expiration_date": null,
       "created": 1785606009,
       "first_seen": "2026-08-01",
@@ -1315,8 +1315,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000000826",
-        "completion": "0.0000001652",
+        "prompt": "0.000000088606",
+        "completion": "0.000000177212",
         "image": null,
         "request": null
       },
@@ -1349,8 +1349,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000144",
-        "completion": "0.00000288",
+        "prompt": "0.0000016",
+        "completion": "0.0000032",
         "image": null,
         "request": null
       },
@@ -6041,13 +6041,13 @@
       "name": "Qwen: Qwen3.6 27B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.0000003",
-        "completion": "0.000002",
+        "prompt": "0.0000006",
+        "completion": "0.0000036",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 65536,
+      "max_completion_tokens": 262144,
       "expiration_date": null,
       "created": 1777255064,
       "first_seen": "2026-05-27",
