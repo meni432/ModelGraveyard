@@ -1332,16 +1332,33 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000014",
-        "completion": "0.00000028",
+        "prompt": "0.00000008",
+        "completion": "0.00000018",
         "image": null,
         "request": null
       },
       "context_length": 1310720,
-      "max_completion_tokens": 393216,
+      "max_completion_tokens": 384000,
       "expiration_date": null,
       "created": 1785478908,
       "first_seen": "2026-07-31",
+      "last_seen": "2026-08-21"
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash-vision-exp",
+      "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+      "provider": "deepseek",
+      "pricing": {
+        "prompt": "0.00000022",
+        "completion": "0.00000066",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1048576,
+      "max_completion_tokens": 384000,
+      "expiration_date": null,
+      "created": 1787311563,
+      "first_seen": "2026-08-21",
       "last_seen": "2026-08-21"
     },
     {
@@ -3100,8 +3117,8 @@
       "name": "MoonshotAI: Kimi K2.6",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.00000095",
-        "completion": "0.000004",
+        "prompt": "0.0000009405",
+        "completion": "0.00000396",
         "image": null,
         "request": null
       },
@@ -5514,13 +5531,13 @@
       "name": "Qwen: Qwen3 14B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.0000002275",
-        "completion": "0.00000091",
+        "prompt": "0.00000012",
+        "completion": "0.00000024",
         "image": null,
         "request": null
       },
       "context_length": 131072,
-      "max_completion_tokens": 8192,
+      "max_completion_tokens": 16384,
       "expiration_date": null,
       "created": 1745876478,
       "first_seen": "2026-05-27",

@@ -24,6 +24,15 @@
     <summary>New model on OpenRouter. Initial prompt price: $0.5000/Mtok, context: 8000.</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-08-21:model_added:deepseek%2Fdeepseek-v4-flash-vision-exp</id>
+    <title>Added: deepseek/deepseek-v4-flash-vision-exp</title>
+    <updated>2026-08-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-flash-vision-exp"/>
+    <category term="model_added"/>
+    <category term="provider:deepseek"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.2200/Mtok, context: 1048576.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-08-20:model_added:tencent%2Fhy-mt2-1.8b</id>
     <title>Added: tencent/hy-mt2-1.8b</title>
     <updated>2026-08-20T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="model_added"/>
     <category term="provider:minimax"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.1500/Mtok, context: 524288.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-28:model_added:anthropic%2Fclaude-opus-4.8%3Abatch</id>
-    <title>Added: anthropic/claude-opus-4.8:batch</title>
-    <updated>2026-07-28T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-opus-4.8%3Abatch"/>
-    <category term="model_added"/>
-    <category term="provider:anthropic"/>
-    <summary>New model on OpenRouter. Initial prompt price: $2.5000/Mtok, context: 1000000.</summary>
   </entry>
 </feed>
