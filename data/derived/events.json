@@ -29236,6 +29236,68 @@
         "first_seen": "2026-08-21",
         "last_seen": "2026-08-21"
       }
+    },
+    {
+      "ts": "2026-08-21",
+      "type": "context_changed",
+      "id": "liquid/lfm-2.5-2.6b:free",
+      "provider": "liquid",
+      "prev_context": 128000,
+      "next_context": 65536
+    },
+    {
+      "ts": "2026-08-21",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.00000014",
+          "next": "0.00000018",
+          "pct_change": 28.57
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-21",
+      "type": "price_changed",
+      "id": "minimax/minimax-m2.5",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000225",
+          "next": "0.00000027",
+          "pct_change": 20
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000009",
+          "next": "0.00000095",
+          "pct_change": 5.56
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-21",
+      "type": "price_changed",
+      "id": "qwen/qwen3-14b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000012",
+          "next": "0.0000002275",
+          "pct_change": 89.58
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000024",
+          "next": "0.00000091",
+          "pct_change": 279.17
+        }
+      ]
     }
   ]
 }

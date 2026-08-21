@@ -24,6 +24,15 @@
     <summary>512000 → 1048575 tokens</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-08-21:context_changed:liquid%2Flfm-2.5-2.6b%3Afree</id>
+    <title>Context window changed: liquid/lfm-2.5-2.6b:free</title>
+    <updated>2026-08-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/liquid%2Flfm-2.5-2.6b%3Afree"/>
+    <category term="context_changed"/>
+    <category term="provider:liquid"/>
+    <summary>128000 → 65536 tokens</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-08-20:context_changed:qwen%2Fqwen3.8-27b</id>
     <title>Context window changed: qwen/qwen3.8-27b</title>
     <updated>2026-08-20T00:00:00Z</updated>

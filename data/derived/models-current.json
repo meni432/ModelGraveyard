@@ -75,12 +75,12 @@
       "provider": "~deepseek",
       "pricing": {
         "prompt": "0.000000065",
-        "completion": "0.00000014",
+        "completion": "0.00000018",
         "image": null,
         "request": null
       },
       "context_length": 1310720,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": 1048576,
       "expiration_date": null,
       "created": 1785606009,
       "first_seen": "2026-08-01",
@@ -2289,7 +2289,7 @@
         "image": null,
         "request": null
       },
-      "context_length": 128000,
+      "context_length": 65536,
       "max_completion_tokens": 8192,
       "expiration_date": null,
       "created": 1786470519,
@@ -2641,13 +2641,13 @@
       "name": "MiniMax: MiniMax M2.5",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0.000000225",
-        "completion": "0.0000009",
+        "prompt": "0.00000027",
+        "completion": "0.00000095",
         "image": null,
         "request": null
       },
       "context_length": 204800,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 32768,
       "expiration_date": null,
       "created": 1770908502,
       "first_seen": "2026-05-27",
@@ -5514,13 +5514,13 @@
       "name": "Qwen: Qwen3 14B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000012",
-        "completion": "0.00000024",
+        "prompt": "0.0000002275",
+        "completion": "0.00000091",
         "image": null,
         "request": null
       },
       "context_length": 131072,
-      "max_completion_tokens": 16384,
+      "max_completion_tokens": 8192,
       "expiration_date": null,
       "created": 1745876478,
       "first_seen": "2026-05-27",
