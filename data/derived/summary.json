@@ -1,9 +1,165 @@
 {
-  "generated_at": "2026-08-20",
-  "active_count": 417,
+  "generated_at": "2026-08-21",
+  "active_count": 419,
   "dead_count": 114,
-  "last_event_ts": "2026-08-20",
+  "last_event_ts": "2026-08-21",
   "recent_events": [
+    {
+      "ts": "2026-08-21",
+      "type": "model_added",
+      "id": "mancer/weaver",
+      "provider": "mancer",
+      "snapshot": {
+        "id": "mancer/weaver",
+        "name": "Mancer: Weaver (alpha)",
+        "provider": "mancer",
+        "pricing": {
+          "prompt": "0.0000005",
+          "completion": "0.00000075",
+          "image": null,
+          "request": null
+        },
+        "context_length": 8000,
+        "max_completion_tokens": 6000,
+        "expiration_date": null,
+        "created": 1690934400,
+        "first_seen": "2026-08-21",
+        "last_seen": "2026-08-21"
+      }
+    },
+    {
+      "ts": "2026-08-21",
+      "type": "price_changed",
+      "id": "google/gemma-4-31b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000009",
+          "next": "0.0000001",
+          "pct_change": 11.11
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-21",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.6",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000005605",
+          "next": "0.00000095",
+          "pct_change": 69.49
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000236",
+          "next": "0.000004",
+          "pct_change": 69.49
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-21",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000784",
+          "next": "0.0000000826",
+          "pct_change": 5.36
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000001568",
+          "next": "0.0000001652",
+          "pct_change": 5.36
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-21",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.7-code",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000071",
+          "next": "0.00000067",
+          "pct_change": -5.63
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000035",
+          "next": "0.0000034",
+          "pct_change": -2.86
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-21",
+      "type": "context_changed",
+      "id": "z-ai/glm-5.2:batch",
+      "provider": "z-ai",
+      "prev_context": 512000,
+      "next_context": 1048575
+    },
+    {
+      "ts": "2026-08-21",
+      "type": "context_changed",
+      "id": "thinkingmachines/inkling-small",
+      "provider": "thinkingmachines",
+      "prev_context": 524288,
+      "next_context": 1048576
+    },
+    {
+      "ts": "2026-08-21",
+      "type": "price_changed",
+      "id": "meta/muse-glimmer-30b",
+      "provider": "meta",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000035",
+          "next": "0.0000003",
+          "pct_change": -14.29
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000015",
+          "next": "0.0000011",
+          "pct_change": -26.67
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-21",
+      "type": "model_added",
+      "id": "stealth/ox-alpha",
+      "provider": "stealth",
+      "snapshot": {
+        "id": "stealth/ox-alpha",
+        "name": "Ox Alpha",
+        "provider": "stealth",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": 131072,
+        "expiration_date": "2098-12-31",
+        "created": 1787256295,
+        "first_seen": "2026-08-21",
+        "last_seen": "2026-08-21"
+      }
+    },
     {
       "ts": "2026-08-20",
       "type": "model_added",
@@ -208,139 +364,6 @@
           "pct_change": 80
         }
       ]
-    },
-    {
-      "ts": "2026-08-20",
-      "type": "price_changed",
-      "id": "~deepseek/deepseek-v4-flash-latest",
-      "provider": "~deepseek",
-      "changes": [
-        {
-          "field": "completion",
-          "prev": "0.00000018",
-          "next": "0.00000014",
-          "pct_change": -22.22
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-20",
-      "type": "model_removed",
-      "id": "mancer/weaver",
-      "provider": "mancer",
-      "snapshot": {
-        "id": "mancer/weaver",
-        "name": "Mancer: Weaver (alpha)",
-        "provider": "mancer",
-        "pricing": {
-          "prompt": "0.0000005",
-          "completion": "0.00000075",
-          "image": null,
-          "request": null
-        },
-        "context_length": 8000,
-        "max_completion_tokens": 6000,
-        "expiration_date": null,
-        "created": 1690934400,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-08-19"
-      }
-    },
-    {
-      "ts": "2026-08-20",
-      "type": "deprecation_announced",
-      "id": "nvidia/nemotron-nano-9b-v2:free",
-      "provider": "nvidia",
-      "prev_expiration": null,
-      "next_expiration": "2026-08-24"
-    },
-    {
-      "ts": "2026-08-20",
-      "type": "deprecation_announced",
-      "id": "nvidia/nemotron-3-nano-30b-a3b:free",
-      "provider": "nvidia",
-      "prev_expiration": null,
-      "next_expiration": "2026-08-24"
-    },
-    {
-      "ts": "2026-08-20",
-      "type": "price_changed",
-      "id": "moonshotai/kimi-k2.6",
-      "provider": "moonshotai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000005605",
-          "next": "0.00000095",
-          "pct_change": 69.49
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000236",
-          "next": "0.000004",
-          "pct_change": 69.49
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-20",
-      "type": "price_changed",
-      "id": "~deepseek/deepseek-v4-flash-latest",
-      "provider": "~deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000000765",
-          "next": "0.000000065",
-          "pct_change": -15.03
-        },
-        {
-          "field": "completion",
-          "prev": "0.000000153",
-          "next": "0.00000018",
-          "pct_change": 17.65
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-20",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-pro-0813",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000066",
-          "next": "0.000001188",
-          "pct_change": 80
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000198",
-          "next": "0.000003564",
-          "pct_change": 80
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-20",
-      "type": "context_changed",
-      "id": "qwen/qwen3.8-27b",
-      "provider": "qwen",
-      "prev_context": 262144,
-      "next_context": 1000000
-    },
-    {
-      "ts": "2026-08-19",
-      "type": "disagreement_detected",
-      "id": "ai21/jamba-large-1.7",
-      "provider": "ai21",
-      "disagreement": {
-        "slug": "ai21:jamba-large-1-7",
-        "openrouter_status": "removed",
-        "litellm_status": "active",
-        "litellm_id": "jamba-large-1.7"
-      }
     }
   ],
   "scheduled_funerals": [
@@ -387,6 +410,11 @@
     {
       "id": "~z-ai/glm-latest",
       "provider": "~z-ai",
+      "expiration_date": "2098-12-31"
+    },
+    {
+      "id": "stealth/ox-alpha",
+      "provider": "stealth",
       "expiration_date": "2098-12-31"
     },
     {

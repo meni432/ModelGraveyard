@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/deepseek.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/deepseek.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-08-20T00:00:00Z</updated>
+  <updated>2026-08-21T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-21:price_changed:deepseek%2Fdeepseek-v4-flash</id>
+    <title>Price changed: deepseek/deepseek-v4-flash</title>
+    <updated>2026-08-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-flash"/>
+    <category term="price_changed"/>
+    <category term="provider:deepseek"/>
+    <summary>prompt: $0.0784/Mtok → $0.0826/Mtok (+5.36%); completion: $0.1568/Mtok → $0.1652/Mtok (+5.36%)</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-08-20:price_changed:deepseek%2Fdeepseek-v4-pro-0813</id>
     <title>Price changed: deepseek/deepseek-v4-pro-0813</title>
@@ -892,15 +901,6 @@
     <title>Added: deepseek/deepseek-v3.2-exp</title>
     <updated>2026-05-27T00:00:00Z</updated>
     <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v3.2-exp"/>
-    <category term="model_added"/>
-    <category term="provider:deepseek"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.2700/Mtok, context: 163840.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:deepseek%2Fdeepseek-v3.1-terminus</id>
-    <title>Added: deepseek/deepseek-v3.1-terminus</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v3.1-terminus"/>
     <category term="model_added"/>
     <category term="provider:deepseek"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.2700/Mtok, context: 163840.</summary>

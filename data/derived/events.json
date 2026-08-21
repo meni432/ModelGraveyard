@@ -29080,6 +29080,162 @@
         "first_seen": "2026-08-20",
         "last_seen": "2026-08-20"
       }
+    },
+    {
+      "ts": "2026-08-21",
+      "type": "model_added",
+      "id": "stealth/ox-alpha",
+      "provider": "stealth",
+      "snapshot": {
+        "id": "stealth/ox-alpha",
+        "name": "Ox Alpha",
+        "provider": "stealth",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": 131072,
+        "expiration_date": "2098-12-31",
+        "created": 1787256295,
+        "first_seen": "2026-08-21",
+        "last_seen": "2026-08-21"
+      }
+    },
+    {
+      "ts": "2026-08-21",
+      "type": "price_changed",
+      "id": "meta/muse-glimmer-30b",
+      "provider": "meta",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000035",
+          "next": "0.0000003",
+          "pct_change": -14.29
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000015",
+          "next": "0.0000011",
+          "pct_change": -26.67
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-21",
+      "type": "context_changed",
+      "id": "thinkingmachines/inkling-small",
+      "provider": "thinkingmachines",
+      "prev_context": 524288,
+      "next_context": 1048576
+    },
+    {
+      "ts": "2026-08-21",
+      "type": "context_changed",
+      "id": "z-ai/glm-5.2:batch",
+      "provider": "z-ai",
+      "prev_context": 512000,
+      "next_context": 1048575
+    },
+    {
+      "ts": "2026-08-21",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.7-code",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000071",
+          "next": "0.00000067",
+          "pct_change": -5.63
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000035",
+          "next": "0.0000034",
+          "pct_change": -2.86
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-21",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000784",
+          "next": "0.0000000826",
+          "pct_change": 5.36
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000001568",
+          "next": "0.0000001652",
+          "pct_change": 5.36
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-21",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.6",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000005605",
+          "next": "0.00000095",
+          "pct_change": 69.49
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000236",
+          "next": "0.000004",
+          "pct_change": 69.49
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-21",
+      "type": "price_changed",
+      "id": "google/gemma-4-31b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000009",
+          "next": "0.0000001",
+          "pct_change": 11.11
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-21",
+      "type": "model_added",
+      "id": "mancer/weaver",
+      "provider": "mancer",
+      "snapshot": {
+        "id": "mancer/weaver",
+        "name": "Mancer: Weaver (alpha)",
+        "provider": "mancer",
+        "pricing": {
+          "prompt": "0.0000005",
+          "completion": "0.00000075",
+          "image": null,
+          "request": null
+        },
+        "context_length": 8000,
+        "max_completion_tokens": 6000,
+        "expiration_date": null,
+        "created": 1690934400,
+        "first_seen": "2026-08-21",
+        "last_seen": "2026-08-21"
+      }
     }
   ]
 }
