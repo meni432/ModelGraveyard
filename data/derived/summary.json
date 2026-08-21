@@ -7,6 +7,46 @@
     {
       "ts": "2026-08-21",
       "type": "price_changed",
+      "id": "moonshotai/kimi-k2.6",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000009405",
+          "next": "0.0000005795",
+          "pct_change": -38.38
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000396",
+          "next": "0.00000244",
+          "pct_change": -38.38
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-21",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000826",
+          "next": "0.00000008106",
+          "pct_change": -1.86
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000001652",
+          "next": "0.00000016212",
+          "pct_change": -1.86
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-21",
+      "type": "price_changed",
       "id": "qwen/qwen3-14b",
       "provider": "qwen",
       "changes": [
@@ -327,46 +367,6 @@
         "first_seen": "2026-08-20",
         "last_seen": "2026-08-20"
       }
-    },
-    {
-      "ts": "2026-08-20",
-      "type": "price_changed",
-      "id": "moonshotai/kimi-k2.6",
-      "provider": "moonshotai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000009405",
-          "next": "0.0000005605",
-          "pct_change": -40.4
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000396",
-          "next": "0.00000236",
-          "pct_change": -40.4
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-20",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-flash",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000088606",
-          "next": "0.0000000784",
-          "pct_change": -11.52
-        },
-        {
-          "field": "completion",
-          "prev": "0.000000177212",
-          "next": "0.0000001568",
-          "pct_change": -11.52
-        }
-      ]
     }
   ],
   "scheduled_funerals": [
