@@ -29932,6 +29932,60 @@
           "pct_change": -11.56
         }
       ]
+    },
+    {
+      "ts": "2026-08-22",
+      "type": "price_changed",
+      "id": "meta/muse-glimmer-30b",
+      "provider": "meta",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000003",
+          "next": "0.00000035",
+          "pct_change": 16.67
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000011",
+          "next": "0.0000015",
+          "pct_change": 36.36
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-22",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000006426",
+          "next": "0.00000006006",
+          "pct_change": -6.54
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000012852",
+          "next": "0.00000012012",
+          "pct_change": -6.54
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-22",
+      "type": "price_changed",
+      "id": "openai/gpt-oss-120b",
+      "provider": "openai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000003",
+          "next": "0.000000037",
+          "pct_change": 23.33
+        }
+      ]
     }
   ]
 }
