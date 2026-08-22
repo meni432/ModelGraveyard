@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-21",
-  "openrouter_catalog_size": 408,
+  "generated_at": "2026-08-22",
+  "openrouter_catalog_size": 409,
   "litellm_catalog_size": 2265,
-  "shared_count": 85,
+  "shared_count": 86,
   "openrouter_only_count": 323,
-  "litellm_only_count": 2164,
+  "litellm_only_count": 2163,
   "disagreements": [
     {
       "slug": "ai21:jamba-large-1-7",
@@ -363,6 +363,11 @@
       "slug": "meta:muse-spark-1-2",
       "openrouter_id": "meta/muse-spark-1.2",
       "litellm_id": "meta/muse-spark-1.2"
+    },
+    {
+      "slug": "meta:muse-spark-1-2-contributor",
+      "openrouter_id": "meta/muse-spark-1.2-contributor",
+      "litellm_id": "meta/muse-spark-1.2-contributor"
     },
     {
       "slug": "minimax:minimax-m2",

@@ -4,7 +4,34 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_added.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_added.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-08-21T00:00:00Z</updated>
+  <updated>2026-08-22T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-22:model_added:meta%2Fmuse-spark-1.2-contributor</id>
+    <title>Added: meta/muse-spark-1.2-contributor</title>
+    <updated>2026-08-22T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meta%2Fmuse-spark-1.2-contributor"/>
+    <category term="model_added"/>
+    <category term="provider:meta"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.1000/Mtok, context: 1048576.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-22:model_added:thinkingmachines%2Finkling-small%3Afree</id>
+    <title>Added: thinkingmachines/inkling-small:free</title>
+    <updated>2026-08-22T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/thinkingmachines%2Finkling-small%3Afree"/>
+    <category term="model_added"/>
+    <category term="provider:thinkingmachines"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 262144.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-22:model_added:thinkingmachines%2Finkling%3Afree</id>
+    <title>Added: thinkingmachines/inkling:free</title>
+    <updated>2026-08-22T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/thinkingmachines%2Finkling%3Afree"/>
+    <category term="model_added"/>
+    <category term="provider:thinkingmachines"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 262144.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-08-21:model_added:stealth%2Fox-alpha</id>
     <title>Added: stealth/ox-alpha</title>
@@ -877,32 +904,5 @@
     <category term="model_added"/>
     <category term="provider:google"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.1500/Mtok, context: 1048576.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-28:model_added:anthropic%2Fclaude-sonnet-5%3Abatch</id>
-    <title>Added: anthropic/claude-sonnet-5:batch</title>
-    <updated>2026-07-28T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-sonnet-5%3Abatch"/>
-    <category term="model_added"/>
-    <category term="provider:anthropic"/>
-    <summary>New model on OpenRouter. Initial prompt price: $1.0000/Mtok, context: 1000000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-28:model_added:anthropic%2Fclaude-fable-5%3Abatch</id>
-    <title>Added: anthropic/claude-fable-5:batch</title>
-    <updated>2026-07-28T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-fable-5%3Abatch"/>
-    <category term="model_added"/>
-    <category term="provider:anthropic"/>
-    <summary>New model on OpenRouter. Initial prompt price: $5.0000/Mtok, context: 1000000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-28:model_added:minimax%2Fminimax-m3%3Abatch</id>
-    <title>Added: minimax/minimax-m3:batch</title>
-    <updated>2026-07-28T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/minimax%2Fminimax-m3%3Abatch"/>
-    <category term="model_added"/>
-    <category term="provider:minimax"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.1500/Mtok, context: 524288.</summary>
   </entry>
 </feed>

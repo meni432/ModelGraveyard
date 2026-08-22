@@ -1,6 +1,40 @@
 {
   "buried": [
     {
+      "id": "deepcogito/cogito-v2.1-671b",
+      "name": "Deep Cogito: Cogito v2.1 671B",
+      "provider": "deepcogito",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000125",
+        "completion": "0.00000125",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 128000,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-08-21",
+      "buried_at": "2026-08-22",
+      "suggested_replacement": null
+    },
+    {
+      "id": "openai/gpt-oss-20b:free",
+      "name": "OpenAI: gpt-oss-20b (free)",
+      "provider": "openai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 131072,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-08-21",
+      "buried_at": "2026-08-22",
+      "suggested_replacement": "openai/gpt-oss-safeguard-20b"
+    },
+    {
       "id": "mancer/weaver",
       "name": "Mancer: Weaver (alpha)",
       "provider": "mancer",

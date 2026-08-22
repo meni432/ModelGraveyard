@@ -29421,6 +29421,383 @@
           "pct_change": -38.38
         }
       ]
+    },
+    {
+      "ts": "2026-08-22",
+      "type": "model_added",
+      "id": "meta/muse-spark-1.2-contributor",
+      "provider": "meta",
+      "snapshot": {
+        "id": "meta/muse-spark-1.2-contributor",
+        "name": "Meta: Muse Spark 1.2 Contributor",
+        "provider": "meta",
+        "pricing": {
+          "prompt": "0.0000001",
+          "completion": "0.0000002",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1787336476,
+        "first_seen": "2026-08-22",
+        "last_seen": "2026-08-22"
+      }
+    },
+    {
+      "ts": "2026-08-22",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash-vision-exp",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000022",
+          "next": "0.00000044",
+          "pct_change": 100
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000066",
+          "next": "0.00000132",
+          "pct_change": 100
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-22",
+      "type": "model_added",
+      "id": "thinkingmachines/inkling-small:free",
+      "provider": "thinkingmachines",
+      "snapshot": {
+        "id": "thinkingmachines/inkling-small:free",
+        "name": "Thinking Machines: Inkling Small (free)",
+        "provider": "thinkingmachines",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 262144,
+        "expiration_date": null,
+        "created": 1785443117,
+        "first_seen": "2026-08-22",
+        "last_seen": "2026-08-22"
+      }
+    },
+    {
+      "ts": "2026-08-22",
+      "type": "model_added",
+      "id": "thinkingmachines/inkling:free",
+      "provider": "thinkingmachines",
+      "snapshot": {
+        "id": "thinkingmachines/inkling:free",
+        "name": "Thinking Machines: Inkling (free)",
+        "provider": "thinkingmachines",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 262144,
+        "expiration_date": null,
+        "created": 1784325956,
+        "first_seen": "2026-08-22",
+        "last_seen": "2026-08-22"
+      }
+    },
+    {
+      "ts": "2026-08-22",
+      "type": "price_changed",
+      "id": "openai/gpt-5.6-sol-pro",
+      "provider": "openai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000025",
+          "next": "0.000002",
+          "pct_change": -20
+        },
+        {
+          "field": "completion",
+          "prev": "0.000015",
+          "next": "0.00001",
+          "pct_change": -33.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-22",
+      "type": "price_changed",
+      "id": "openai/gpt-5.6-sol-pro:batch",
+      "provider": "openai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000125",
+          "next": "0.000001",
+          "pct_change": -20
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000075",
+          "next": "0.000005",
+          "pct_change": -33.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-22",
+      "type": "price_changed",
+      "id": "openai/gpt-5.6-sol",
+      "provider": "openai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000025",
+          "next": "0.000002",
+          "pct_change": -20
+        },
+        {
+          "field": "completion",
+          "prev": "0.000015",
+          "next": "0.00001",
+          "pct_change": -33.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-22",
+      "type": "price_changed",
+      "id": "openai/gpt-5.6-sol:batch",
+      "provider": "openai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000125",
+          "next": "0.000001",
+          "pct_change": -20
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000075",
+          "next": "0.000005",
+          "pct_change": -33.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-22",
+      "type": "price_changed",
+      "id": "~openai/gpt-latest",
+      "provider": "~openai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000025",
+          "next": "0.000002",
+          "pct_change": -20
+        },
+        {
+          "field": "completion",
+          "prev": "0.000015",
+          "next": "0.00001",
+          "pct_change": -33.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-22",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000016",
+          "next": "0.000000532092",
+          "pct_change": -66.74
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000032",
+          "next": "0.000001064184",
+          "pct_change": -66.74
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-22",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000008106",
+          "next": "0.00000007686",
+          "pct_change": -5.18
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000016212",
+          "next": "0.00000015372",
+          "pct_change": -5.18
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-22",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.6",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000005795",
+          "next": "0.0000005605",
+          "pct_change": -3.28
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000244",
+          "next": "0.00000236",
+          "pct_change": -3.28
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-22",
+      "type": "price_changed",
+      "id": "minimax/minimax-m2.5",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.00000095",
+          "next": "0.00000108",
+          "pct_change": 13.68
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-22",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v3.2",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000269",
+          "next": "0.00000026",
+          "pct_change": -3.35
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000004",
+          "next": "0.00000038",
+          "pct_change": -5
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-22",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-chat-v3.1",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000025",
+          "next": "0.00000055",
+          "pct_change": 120
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000095",
+          "next": "0.00000165",
+          "pct_change": 73.68
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-22",
+      "type": "price_changed",
+      "id": "mistralai/mistral-small-3.2-24b-instruct",
+      "provider": "mistralai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000009375",
+          "next": "0.000000075",
+          "pct_change": -20
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000025",
+          "next": "0.0000002",
+          "pct_change": -20
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-22",
+      "type": "context_changed",
+      "id": "mistralai/mistral-small-3.2-24b-instruct",
+      "provider": "mistralai",
+      "prev_context": 256000,
+      "next_context": 131072
+    },
+    {
+      "ts": "2026-08-22",
+      "type": "model_removed",
+      "id": "deepcogito/cogito-v2.1-671b",
+      "provider": "deepcogito",
+      "snapshot": {
+        "id": "deepcogito/cogito-v2.1-671b",
+        "name": "Deep Cogito: Cogito v2.1 671B",
+        "provider": "deepcogito",
+        "pricing": {
+          "prompt": "0.00000125",
+          "completion": "0.00000125",
+          "image": null,
+          "request": null
+        },
+        "context_length": 128000,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1763071233,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-08-21"
+      }
+    },
+    {
+      "ts": "2026-08-22",
+      "type": "model_removed",
+      "id": "openai/gpt-oss-20b:free",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-oss-20b:free",
+        "name": "OpenAI: gpt-oss-20b (free)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": 32768,
+        "expiration_date": null,
+        "created": 1754414229,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-08-21"
+      }
     }
   ]
 }
