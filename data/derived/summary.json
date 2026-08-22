@@ -7,6 +7,66 @@
     {
       "ts": "2026-08-22",
       "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000007266",
+          "next": "0.00000006426",
+          "pct_change": -11.56
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000014532",
+          "next": "0.00000012852",
+          "pct_change": -11.56
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-22",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000046458",
+          "next": "0.000000413772",
+          "pct_change": -10.94
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000092916",
+          "next": "0.000000827544",
+          "pct_change": -10.94
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-22",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash-vision-exp",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000044",
+          "next": "0.00000022",
+          "pct_change": -50
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000132",
+          "next": "0.00000066",
+          "pct_change": -50
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-22",
+      "type": "price_changed",
       "id": "qwen/qwen3-next-80b-a3b-instruct",
       "provider": "qwen",
       "changes": [
@@ -325,69 +385,6 @@
           "pct_change": -33.33
         }
       ]
-    },
-    {
-      "ts": "2026-08-22",
-      "type": "price_changed",
-      "id": "openai/gpt-5.6-sol-pro:batch",
-      "provider": "openai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000125",
-          "next": "0.000001",
-          "pct_change": -20
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000075",
-          "next": "0.000005",
-          "pct_change": -33.33
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-22",
-      "type": "price_changed",
-      "id": "openai/gpt-5.6-sol-pro",
-      "provider": "openai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000025",
-          "next": "0.000002",
-          "pct_change": -20
-        },
-        {
-          "field": "completion",
-          "prev": "0.000015",
-          "next": "0.00001",
-          "pct_change": -33.33
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-22",
-      "type": "model_added",
-      "id": "thinkingmachines/inkling:free",
-      "provider": "thinkingmachines",
-      "snapshot": {
-        "id": "thinkingmachines/inkling:free",
-        "name": "Thinking Machines: Inkling (free)",
-        "provider": "thinkingmachines",
-        "pricing": {
-          "prompt": "0",
-          "completion": "0",
-          "image": null,
-          "request": null
-        },
-        "context_length": 262144,
-        "max_completion_tokens": 262144,
-        "expiration_date": null,
-        "created": 1784325956,
-        "first_seen": "2026-08-22",
-        "last_seen": "2026-08-22"
-      }
     }
   ],
   "scheduled_funerals": [
