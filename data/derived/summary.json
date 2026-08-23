@@ -7,6 +7,66 @@
     {
       "ts": "2026-08-23",
       "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000005446",
+          "next": "0.00000005166",
+          "pct_change": -5.14
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000010892",
+          "next": "0.00000010332",
+          "pct_change": -5.14
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-23",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000413772",
+          "next": "0.000000396894",
+          "pct_change": -4.08
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000827544",
+          "next": "0.000000793788",
+          "pct_change": -4.08
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-23",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000639",
+          "next": "0.000000045",
+          "pct_change": -29.58
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000001278",
+          "next": "0.00000013",
+          "pct_change": 1.72
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-23",
+      "type": "price_changed",
       "id": "qwen/qwen3-30b-a3b",
       "provider": "qwen",
       "changes": [
@@ -328,72 +388,6 @@
           "pct_change": -5.46
         }
       ]
-    },
-    {
-      "ts": "2026-08-22",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-pro",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000532092",
-          "next": "0.00000046458",
-          "pct_change": -12.69
-        },
-        {
-          "field": "completion",
-          "prev": "0.000001064184",
-          "next": "0.00000092916",
-          "pct_change": -12.69
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-22",
-      "type": "model_removed",
-      "id": "openai/gpt-oss-20b:free",
-      "provider": "openai",
-      "snapshot": {
-        "id": "openai/gpt-oss-20b:free",
-        "name": "OpenAI: gpt-oss-20b (free)",
-        "provider": "openai",
-        "pricing": {
-          "prompt": "0",
-          "completion": "0",
-          "image": null,
-          "request": null
-        },
-        "context_length": 131072,
-        "max_completion_tokens": 32768,
-        "expiration_date": null,
-        "created": 1754414229,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-08-21"
-      }
-    },
-    {
-      "ts": "2026-08-22",
-      "type": "model_removed",
-      "id": "deepcogito/cogito-v2.1-671b",
-      "provider": "deepcogito",
-      "snapshot": {
-        "id": "deepcogito/cogito-v2.1-671b",
-        "name": "Deep Cogito: Cogito v2.1 671B",
-        "provider": "deepcogito",
-        "pricing": {
-          "prompt": "0.00000125",
-          "completion": "0.00000125",
-          "image": null,
-          "request": null
-        },
-        "context_length": 128000,
-        "max_completion_tokens": null,
-        "expiration_date": null,
-        "created": 1763071233,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-08-21"
-      }
     }
   ],
   "scheduled_funerals": [
