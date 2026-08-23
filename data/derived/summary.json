@@ -7,6 +7,54 @@
     {
       "ts": "2026-08-23",
       "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000005026",
+          "next": "0.00000004886",
+          "pct_change": -2.79
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000010052",
+          "next": "0.00000009772",
+          "pct_change": -2.79
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-23",
+      "type": "price_changed",
+      "id": "thinkingmachines/inkling",
+      "provider": "thinkingmachines",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000001",
+          "next": "0.00000095",
+          "pct_change": -5
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-23",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.00000013",
+          "next": "0.00000008",
+          "pct_change": -38.46
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-23",
+      "type": "price_changed",
       "id": "minimax/minimax-m2.7",
       "provider": "minimax",
       "changes": [
@@ -326,66 +374,6 @@
           "prev": "0.0000011",
           "next": "0.0000015",
           "pct_change": 36.36
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-22",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-flash",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000007266",
-          "next": "0.00000006426",
-          "pct_change": -11.56
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000014532",
-          "next": "0.00000012852",
-          "pct_change": -11.56
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-22",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-pro",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000046458",
-          "next": "0.000000413772",
-          "pct_change": -10.94
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000092916",
-          "next": "0.000000827544",
-          "pct_change": -10.94
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-22",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-flash-vision-exp",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000044",
-          "next": "0.00000022",
-          "pct_change": -50
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000132",
-          "next": "0.00000066",
-          "pct_change": -50
         }
       ]
     }

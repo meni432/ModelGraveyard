@@ -75,12 +75,12 @@
       "provider": "~deepseek",
       "pricing": {
         "prompt": "0.00000004",
-        "completion": "0.00000013",
+        "completion": "0.00000008",
         "image": null,
         "request": null
       },
       "context_length": 1310720,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": 1048576,
       "expiration_date": null,
       "created": 1785606009,
       "first_seen": "2026-08-01",
@@ -1298,8 +1298,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000005026",
-        "completion": "0.00000010052",
+        "prompt": "0.00000004886",
+        "completion": "0.00000009772",
         "image": null,
         "request": null
       },
@@ -5945,7 +5945,7 @@
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": 65536,
       "expiration_date": null,
       "created": 1772053789,
       "first_seen": "2026-05-27",
@@ -6636,13 +6636,13 @@
       "name": "Thinking Machines: Inkling",
       "provider": "thinkingmachines",
       "pricing": {
-        "prompt": "0.000001",
+        "prompt": "0.00000095",
         "completion": "0.00000405",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 262144,
       "expiration_date": null,
       "created": 1784325956,
       "first_seen": "2026-07-18",

@@ -30257,6 +30257,54 @@
           "pct_change": -20
         }
       ]
+    },
+    {
+      "ts": "2026-08-23",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.00000013",
+          "next": "0.00000008",
+          "pct_change": -38.46
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-23",
+      "type": "price_changed",
+      "id": "thinkingmachines/inkling",
+      "provider": "thinkingmachines",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000001",
+          "next": "0.00000095",
+          "pct_change": -5
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-23",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000005026",
+          "next": "0.00000004886",
+          "pct_change": -2.79
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000010052",
+          "next": "0.00000009772",
+          "pct_change": -2.79
+        }
+      ]
     }
   ]
 }
