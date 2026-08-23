@@ -74,7 +74,7 @@
       "name": "DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.000000045",
+        "prompt": "0.00000004",
         "completion": "0.00000013",
         "image": null,
         "request": null
@@ -1298,8 +1298,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000005166",
-        "completion": "0.00000010332",
+        "prompt": "0.00000005026",
+        "completion": "0.00000010052",
         "image": null,
         "request": null
       },
@@ -2675,13 +2675,13 @@
       "name": "MiniMax: MiniMax M2.7",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0.0000003",
-        "completion": "0.0000012",
+        "prompt": "0.00000024",
+        "completion": "0.00000096",
         "image": null,
         "request": null
       },
       "context_length": 204800,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": null,
       "expiration_date": null,
       "created": 1773836697,
       "first_seen": "2026-05-27",

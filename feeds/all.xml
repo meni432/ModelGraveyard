@@ -105,6 +105,33 @@
     <summary>prompt: $0.0545/Mtok → $0.0517/Mtok (-5.14%); completion: $0.1089/Mtok → $0.1033/Mtok (-5.14%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-08-23:price_changed:~deepseek%2Fdeepseek-v4-flash-latest</id>
+    <title>Price changed: ~deepseek/deepseek-v4-flash-latest</title>
+    <updated>2026-08-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/~deepseek%2Fdeepseek-v4-flash-latest"/>
+    <category term="price_changed"/>
+    <category term="provider:~deepseek"/>
+    <summary>prompt: $0.0450/Mtok → $0.0400/Mtok (-11.11%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-23:price_changed:deepseek%2Fdeepseek-v4-flash</id>
+    <title>Price changed: deepseek/deepseek-v4-flash</title>
+    <updated>2026-08-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-flash"/>
+    <category term="price_changed"/>
+    <category term="provider:deepseek"/>
+    <summary>prompt: $0.0517/Mtok → $0.0503/Mtok (-2.71%); completion: $0.1033/Mtok → $0.1005/Mtok (-2.71%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-23:price_changed:minimax%2Fminimax-m2.7</id>
+    <title>Price changed: minimax/minimax-m2.7</title>
+    <updated>2026-08-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/minimax%2Fminimax-m2.7"/>
+    <category term="price_changed"/>
+    <category term="provider:minimax"/>
+    <summary>prompt: $0.3000/Mtok → $0.2400/Mtok (-20%); completion: $1.2000/Mtok → $0.9600/Mtok (-20%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-08-22:model_added:meta%2Fmuse-spark-1.2-contributor</id>
     <title>Added: meta/muse-spark-1.2-contributor</title>
     <updated>2026-08-22T00:00:00Z</updated>
@@ -874,33 +901,6 @@
     <title>Deprecation announced: inclusionai/ring-2.6-1t (sunset 2026-08-24)</title>
     <updated>2026-08-19T00:00:00Z</updated>
     <link rel="alternate" href="https://modelgraveyard.com/model/inclusionai%2Fring-2.6-1t"/>
-    <category term="deprecation_announced"/>
-    <category term="provider:inclusionai"/>
-    <summary>Provider announced retirement on 2026-08-24.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-19:price_changed:deepseek%2Fdeepseek-v4-pro</id>
-    <title>Price changed: deepseek/deepseek-v4-pro</title>
-    <updated>2026-08-19T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-pro"/>
-    <category term="price_changed"/>
-    <category term="provider:deepseek"/>
-    <summary>prompt: $1.3200/Mtok → $1.4400/Mtok (+9.09%); completion: $3.9600/Mtok → $2.8800/Mtok (-27.27%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-19:deprecation_announced:inclusionai%2Fling-2.6-1t</id>
-    <title>Deprecation announced: inclusionai/ling-2.6-1t (sunset 2026-08-24)</title>
-    <updated>2026-08-19T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/inclusionai%2Fling-2.6-1t"/>
-    <category term="deprecation_announced"/>
-    <category term="provider:inclusionai"/>
-    <summary>Provider announced retirement on 2026-08-24.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-19:deprecation_announced:inclusionai%2Fling-2.6-flash</id>
-    <title>Deprecation announced: inclusionai/ling-2.6-flash (sunset 2026-08-24)</title>
-    <updated>2026-08-19T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/inclusionai%2Fling-2.6-flash"/>
     <category term="deprecation_announced"/>
     <category term="provider:inclusionai"/>
     <summary>Provider announced retirement on 2026-08-24.</summary>

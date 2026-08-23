@@ -30203,6 +30203,60 @@
           "pct_change": -5.14
         }
       ]
+    },
+    {
+      "ts": "2026-08-23",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000045",
+          "next": "0.00000004",
+          "pct_change": -11.11
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-23",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000005166",
+          "next": "0.00000005026",
+          "pct_change": -2.71
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000010332",
+          "next": "0.00000010052",
+          "pct_change": -2.71
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-23",
+      "type": "price_changed",
+      "id": "minimax/minimax-m2.7",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000003",
+          "next": "0.00000024",
+          "pct_change": -20
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000012",
+          "next": "0.00000096",
+          "pct_change": -20
+        }
+      ]
     }
   ]
 }
