@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-provider/deepseek.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/deepseek.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-08-22T00:00:00Z</updated>
+  <updated>2026-08-23T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-23:price_changed:deepseek%2Fdeepseek-v4-pro-0813</id>
+    <title>Price changed: deepseek/deepseek-v4-pro-0813</title>
+    <updated>2026-08-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-pro-0813"/>
+    <category term="price_changed"/>
+    <category term="provider:deepseek"/>
+    <summary>prompt: $1.1880/Mtok → $1.1220/Mtok (-5.56%); completion: $3.5640/Mtok → $3.3660/Mtok (-5.56%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-23:price_changed:deepseek%2Fdeepseek-v4-flash</id>
+    <title>Price changed: deepseek/deepseek-v4-flash</title>
+    <updated>2026-08-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-flash"/>
+    <category term="price_changed"/>
+    <category term="provider:deepseek"/>
+    <summary>prompt: $0.0601/Mtok → $0.0545/Mtok (-9.32%); completion: $0.1201/Mtok → $0.1089/Mtok (-9.32%)</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-08-22:price_changed:deepseek%2Fdeepseek-v4-flash-vision-exp</id>
     <title>Price changed: deepseek/deepseek-v4-flash-vision-exp</title>
@@ -886,23 +904,5 @@
     <category term="context_changed"/>
     <category term="provider:deepseek"/>
     <summary>163840 → 131072 tokens</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-12:context_changed:deepseek%2Fdeepseek-chat-v3-0324</id>
-    <title>Context window changed: deepseek/deepseek-chat-v3-0324</title>
-    <updated>2026-06-12T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-chat-v3-0324"/>
-    <category term="context_changed"/>
-    <category term="provider:deepseek"/>
-    <summary>131072 → 163840 tokens</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-11:price_changed:deepseek%2Fdeepseek-r1-distill-llama-70b</id>
-    <title>Price changed: deepseek/deepseek-r1-distill-llama-70b</title>
-    <updated>2026-06-11T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-r1-distill-llama-70b"/>
-    <category term="price_changed"/>
-    <category term="provider:deepseek"/>
-    <summary>prompt: $0.7000/Mtok → $0.8000/Mtok (+14.29%)</summary>
   </entry>
 </feed>
