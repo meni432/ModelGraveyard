@@ -30305,6 +30305,120 @@
           "pct_change": -2.79
         }
       ]
+    },
+    {
+      "ts": "2026-08-24",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash-0731",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000008",
+          "next": "0.00000014",
+          "pct_change": 75
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000018",
+          "next": "0.00000028",
+          "pct_change": 55.56
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-24",
+      "type": "price_changed",
+      "id": "thinkingmachines/inkling",
+      "provider": "thinkingmachines",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000095",
+          "next": "0.000001",
+          "pct_change": 5.26
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-24",
+      "type": "price_changed",
+      "id": "qwen/qwen3.6-27b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000006",
+          "next": "0.00000032",
+          "pct_change": -46.67
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000036",
+          "next": "0.0000032",
+          "pct_change": -11.11
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-24",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000396894",
+          "next": "0.000000519216",
+          "pct_change": 30.82
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000793788",
+          "next": "0.000001038432",
+          "pct_change": 30.82
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-24",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000004886",
+          "next": "0.00000005866",
+          "pct_change": 20.06
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000009772",
+          "next": "0.00000011732",
+          "pct_change": 20.06
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-24",
+      "type": "price_changed",
+      "id": "qwen/qwen3.5-397b-a17b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000039",
+          "next": "0.0000005",
+          "pct_change": 28.21
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000234",
+          "next": "0.0000036",
+          "pct_change": 53.85
+        }
+      ]
     }
   ]
 }
