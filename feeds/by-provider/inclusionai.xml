@@ -4,7 +4,34 @@
   <id>https://modelgraveyard.com/feeds/by-provider/inclusionai.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/inclusionai.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-08-19T00:00:00Z</updated>
+  <updated>2026-08-24T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-24:model_removed:inclusionai%2Fling-2.6-1t</id>
+    <title>Removed: inclusionai/ling-2.6-1t</title>
+    <updated>2026-08-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/inclusionai%2Fling-2.6-1t"/>
+    <category term="model_removed"/>
+    <category term="provider:inclusionai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0750/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-24:model_removed:inclusionai%2Fling-2.6-flash</id>
+    <title>Removed: inclusionai/ling-2.6-flash</title>
+    <updated>2026-08-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/inclusionai%2Fling-2.6-flash"/>
+    <category term="model_removed"/>
+    <category term="provider:inclusionai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0100/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-24:model_removed:inclusionai%2Fring-2.6-1t</id>
+    <title>Removed: inclusionai/ring-2.6-1t</title>
+    <updated>2026-08-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/inclusionai%2Fring-2.6-1t"/>
+    <category term="model_removed"/>
+    <category term="provider:inclusionai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0750/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-08-19:deprecation_announced:inclusionai%2Fring-2.6-1t</id>
     <title>Deprecation announced: inclusionai/ring-2.6-1t (sunset 2026-08-24)</title>

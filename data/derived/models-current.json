@@ -1315,8 +1315,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000014",
-        "completion": "0.00000028",
+        "prompt": "0.0000000658",
+        "completion": "0.0000001316",
         "image": null,
         "request": null
       },
@@ -2161,40 +2161,6 @@
       "last_seen": "2026-08-24"
     },
     {
-      "id": "inclusionai/ling-2.6-1t",
-      "name": "inclusionAI: Ling-2.6-1T",
-      "provider": "inclusionai",
-      "pricing": {
-        "prompt": "0.000000075",
-        "completion": "0.000000625",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 32768,
-      "expiration_date": "2026-08-24",
-      "created": 1776948238,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-08-24"
-    },
-    {
-      "id": "inclusionai/ling-2.6-flash",
-      "name": "inclusionAI: Ling-2.6-flash",
-      "provider": "inclusionai",
-      "pricing": {
-        "prompt": "0.00000001",
-        "completion": "0.00000003",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 32768,
-      "expiration_date": "2026-08-24",
-      "created": 1776795886,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-08-24"
-    },
-    {
       "id": "inclusionai/ling-3.0-flash",
       "name": "Ling-3.0-flash",
       "provider": "inclusionai",
@@ -2209,23 +2175,6 @@
       "expiration_date": null,
       "created": 1784818580,
       "first_seen": "2026-08-06",
-      "last_seen": "2026-08-24"
-    },
-    {
-      "id": "inclusionai/ring-2.6-1t",
-      "name": "inclusionAI: Ring-2.6-1T",
-      "provider": "inclusionai",
-      "pricing": {
-        "prompt": "0.000000075",
-        "completion": "0.000000625",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 65536,
-      "expiration_date": "2026-08-24",
-      "created": 1778247440,
-      "first_seen": "2026-05-27",
       "last_seen": "2026-08-24"
     },
     {

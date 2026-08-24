@@ -30467,6 +30467,95 @@
       "provider": "z-ai",
       "prev_expiration": null,
       "next_expiration": "2026-12-31"
+    },
+    {
+      "ts": "2026-08-24",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash-0731",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000014",
+          "next": "0.0000000658",
+          "pct_change": -53
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000028",
+          "next": "0.0000001316",
+          "pct_change": -53
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-24",
+      "type": "model_removed",
+      "id": "inclusionai/ling-2.6-1t",
+      "provider": "inclusionai",
+      "snapshot": {
+        "id": "inclusionai/ling-2.6-1t",
+        "name": "inclusionAI: Ling-2.6-1T",
+        "provider": "inclusionai",
+        "pricing": {
+          "prompt": "0.000000075",
+          "completion": "0.000000625",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 32768,
+        "expiration_date": "2026-08-24",
+        "created": 1776948238,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-08-24"
+      }
+    },
+    {
+      "ts": "2026-08-24",
+      "type": "model_removed",
+      "id": "inclusionai/ling-2.6-flash",
+      "provider": "inclusionai",
+      "snapshot": {
+        "id": "inclusionai/ling-2.6-flash",
+        "name": "inclusionAI: Ling-2.6-flash",
+        "provider": "inclusionai",
+        "pricing": {
+          "prompt": "0.00000001",
+          "completion": "0.00000003",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 32768,
+        "expiration_date": "2026-08-24",
+        "created": 1776795886,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-08-24"
+      }
+    },
+    {
+      "ts": "2026-08-24",
+      "type": "model_removed",
+      "id": "inclusionai/ring-2.6-1t",
+      "provider": "inclusionai",
+      "snapshot": {
+        "id": "inclusionai/ring-2.6-1t",
+        "name": "inclusionAI: Ring-2.6-1T",
+        "provider": "inclusionai",
+        "pricing": {
+          "prompt": "0.000000075",
+          "completion": "0.000000625",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 65536,
+        "expiration_date": "2026-08-24",
+        "created": 1778247440,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-08-24"
+      }
     }
   ]
 }

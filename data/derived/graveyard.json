@@ -1,6 +1,57 @@
 {
   "buried": [
     {
+      "id": "inclusionai/ling-2.6-1t",
+      "name": "inclusionAI: Ling-2.6-1T",
+      "provider": "inclusionai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.000000075",
+        "completion": "0.000000625",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-08-24",
+      "buried_at": "2026-08-24",
+      "suggested_replacement": "inclusionai/ling-3.0-flash"
+    },
+    {
+      "id": "inclusionai/ling-2.6-flash",
+      "name": "inclusionAI: Ling-2.6-flash",
+      "provider": "inclusionai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000001",
+        "completion": "0.00000003",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-08-24",
+      "buried_at": "2026-08-24",
+      "suggested_replacement": "inclusionai/ling-3.0-flash"
+    },
+    {
+      "id": "inclusionai/ring-2.6-1t",
+      "name": "inclusionAI: Ring-2.6-1T",
+      "provider": "inclusionai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.000000075",
+        "completion": "0.000000625",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-08-24",
+      "buried_at": "2026-08-24",
+      "suggested_replacement": "inclusionai/ling-3.0-flash"
+    },
+    {
       "id": "deepcogito/cogito-v2.1-671b",
       "name": "Deep Cogito: Cogito v2.1 671B",
       "provider": "deepcogito",
