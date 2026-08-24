@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/context_changed.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/context_changed.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-08-22T00:00:00Z</updated>
+  <updated>2026-08-24T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-24:context_changed:qwen%2Fqwen3-235b-a22b-thinking-2507</id>
+    <title>Context window changed: qwen/qwen3-235b-a22b-thinking-2507</title>
+    <updated>2026-08-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3-235b-a22b-thinking-2507"/>
+    <category term="context_changed"/>
+    <category term="provider:qwen"/>
+    <summary>262144 → 131072 tokens</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-08-22:context_changed:mistralai%2Fmistral-small-3.2-24b-instruct</id>
     <title>Context window changed: mistralai/mistral-small-3.2-24b-instruct</title>

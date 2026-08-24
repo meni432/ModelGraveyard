@@ -1,9 +1,197 @@
 {
   "generated_at": "2026-08-24",
-  "active_count": 419,
-  "dead_count": 119,
+  "active_count": 417,
+  "dead_count": 122,
   "last_event_ts": "2026-08-24",
   "recent_events": [
+    {
+      "ts": "2026-08-24",
+      "type": "model_removed",
+      "id": "nvidia/nemotron-nano-9b-v2:free",
+      "provider": "nvidia",
+      "snapshot": {
+        "id": "nvidia/nemotron-nano-9b-v2:free",
+        "name": "NVIDIA: Nemotron Nano 9B V2 (free)",
+        "provider": "nvidia",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 128000,
+        "max_completion_tokens": null,
+        "expiration_date": "2026-08-24",
+        "created": 1757106807,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-08-24"
+      }
+    },
+    {
+      "ts": "2026-08-24",
+      "type": "model_removed",
+      "id": "nvidia/nemotron-nano-12b-v2-vl:free",
+      "provider": "nvidia",
+      "snapshot": {
+        "id": "nvidia/nemotron-nano-12b-v2-vl:free",
+        "name": "NVIDIA: Nemotron Nano 12B 2 VL (free)",
+        "provider": "nvidia",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 128000,
+        "max_completion_tokens": 128000,
+        "expiration_date": "2026-08-24",
+        "created": 1761675565,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-08-24"
+      }
+    },
+    {
+      "ts": "2026-08-24",
+      "type": "model_removed",
+      "id": "nvidia/nemotron-3-nano-30b-a3b:free",
+      "provider": "nvidia",
+      "snapshot": {
+        "id": "nvidia/nemotron-3-nano-30b-a3b:free",
+        "name": "NVIDIA: Nemotron 3 Nano 30B A3B (free)",
+        "provider": "nvidia",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 256000,
+        "max_completion_tokens": null,
+        "expiration_date": "2026-08-24",
+        "created": 1765731275,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-08-24"
+      }
+    },
+    {
+      "ts": "2026-08-24",
+      "type": "context_changed",
+      "id": "qwen/qwen3-235b-a22b-thinking-2507",
+      "provider": "qwen",
+      "prev_context": 262144,
+      "next_context": 131072
+    },
+    {
+      "ts": "2026-08-24",
+      "type": "model_added",
+      "id": "mistralai/devstral-2512",
+      "provider": "mistralai",
+      "snapshot": {
+        "id": "mistralai/devstral-2512",
+        "name": "Mistral: Devstral 2 2512",
+        "provider": "mistralai",
+        "pricing": {
+          "prompt": "0.00000044",
+          "completion": "0.0000022",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1765285419,
+        "first_seen": "2026-08-24",
+        "last_seen": "2026-08-24"
+      }
+    },
+    {
+      "ts": "2026-08-24",
+      "type": "deprecation_announced",
+      "id": "moonshotai/kimi-k2.5",
+      "provider": "moonshotai",
+      "prev_expiration": null,
+      "next_expiration": "2026-08-31"
+    },
+    {
+      "ts": "2026-08-24",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.5",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000045",
+          "next": "0.0000006",
+          "pct_change": 33.33
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000225",
+          "next": "0.000003",
+          "pct_change": 33.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-24",
+      "type": "price_changed",
+      "id": "minimax/minimax-m2.7",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000024",
+          "next": "0.0000003",
+          "pct_change": 25
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000096",
+          "next": "0.0000012",
+          "pct_change": 25
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-24",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000574",
+          "next": "0.000000056",
+          "pct_change": -2.44
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000001148",
+          "next": "0.000000112",
+          "pct_change": -2.44
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-24",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000526176",
+          "next": "0.000000522",
+          "pct_change": -0.79
+        },
+        {
+          "field": "completion",
+          "prev": "0.000001052352",
+          "next": "0.000001044",
+          "pct_change": -0.79
+        }
+      ]
+    },
     {
       "ts": "2026-08-24",
       "type": "model_removed",
@@ -200,199 +388,13 @@
           "pct_change": 30.82
         }
       ]
-    },
-    {
-      "ts": "2026-08-24",
-      "type": "price_changed",
-      "id": "qwen/qwen3.6-27b",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000006",
-          "next": "0.00000032",
-          "pct_change": -46.67
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000036",
-          "next": "0.0000032",
-          "pct_change": -11.11
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-24",
-      "type": "price_changed",
-      "id": "thinkingmachines/inkling",
-      "provider": "thinkingmachines",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000095",
-          "next": "0.000001",
-          "pct_change": 5.26
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-24",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-flash-0731",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000008",
-          "next": "0.00000014",
-          "pct_change": 75
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000018",
-          "next": "0.00000028",
-          "pct_change": 55.56
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-23",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-flash",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000005026",
-          "next": "0.00000004886",
-          "pct_change": -2.79
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000010052",
-          "next": "0.00000009772",
-          "pct_change": -2.79
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-23",
-      "type": "price_changed",
-      "id": "thinkingmachines/inkling",
-      "provider": "thinkingmachines",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000001",
-          "next": "0.00000095",
-          "pct_change": -5
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-23",
-      "type": "price_changed",
-      "id": "~deepseek/deepseek-v4-flash-latest",
-      "provider": "~deepseek",
-      "changes": [
-        {
-          "field": "completion",
-          "prev": "0.00000013",
-          "next": "0.00000008",
-          "pct_change": -38.46
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-23",
-      "type": "price_changed",
-      "id": "minimax/minimax-m2.7",
-      "provider": "minimax",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000003",
-          "next": "0.00000024",
-          "pct_change": -20
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000012",
-          "next": "0.00000096",
-          "pct_change": -20
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-23",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-flash",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000005166",
-          "next": "0.00000005026",
-          "pct_change": -2.71
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000010332",
-          "next": "0.00000010052",
-          "pct_change": -2.71
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-23",
-      "type": "price_changed",
-      "id": "~deepseek/deepseek-v4-flash-latest",
-      "provider": "~deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000045",
-          "next": "0.00000004",
-          "pct_change": -11.11
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-23",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-flash",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000005446",
-          "next": "0.00000005166",
-          "pct_change": -5.14
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000010892",
-          "next": "0.00000010332",
-          "pct_change": -5.14
-        }
-      ]
     }
   ],
   "scheduled_funerals": [
     {
-      "id": "nvidia/nemotron-3-nano-30b-a3b:free",
-      "provider": "nvidia",
-      "expiration_date": "2026-08-24"
-    },
-    {
-      "id": "nvidia/nemotron-nano-12b-v2-vl:free",
-      "provider": "nvidia",
-      "expiration_date": "2026-08-24"
-    },
-    {
-      "id": "nvidia/nemotron-nano-9b-v2:free",
-      "provider": "nvidia",
-      "expiration_date": "2026-08-24"
+      "id": "moonshotai/kimi-k2.5",
+      "provider": "moonshotai",
+      "expiration_date": "2026-08-31"
     },
     {
       "id": "dots-studio/dots-3-note-preview:free",

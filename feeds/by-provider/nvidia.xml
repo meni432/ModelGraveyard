@@ -4,7 +4,34 @@
   <id>https://modelgraveyard.com/feeds/by-provider/nvidia.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/nvidia.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-08-20T00:00:00Z</updated>
+  <updated>2026-08-24T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-24:model_removed:nvidia%2Fnemotron-3-nano-30b-a3b%3Afree</id>
+    <title>Removed: nvidia/nemotron-3-nano-30b-a3b:free</title>
+    <updated>2026-08-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nvidia%2Fnemotron-3-nano-30b-a3b%3Afree"/>
+    <category term="model_removed"/>
+    <category term="provider:nvidia"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-24:model_removed:nvidia%2Fnemotron-nano-12b-v2-vl%3Afree</id>
+    <title>Removed: nvidia/nemotron-nano-12b-v2-vl:free</title>
+    <updated>2026-08-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nvidia%2Fnemotron-nano-12b-v2-vl%3Afree"/>
+    <category term="model_removed"/>
+    <category term="provider:nvidia"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-24:model_removed:nvidia%2Fnemotron-nano-9b-v2%3Afree</id>
+    <title>Removed: nvidia/nemotron-nano-9b-v2:free</title>
+    <updated>2026-08-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nvidia%2Fnemotron-nano-9b-v2%3Afree"/>
+    <category term="model_removed"/>
+    <category term="provider:nvidia"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-08-20:deprecation_announced:nvidia%2Fnemotron-3-nano-30b-a3b%3Afree</id>
     <title>Deprecation announced: nvidia/nemotron-3-nano-30b-a3b:free (sunset 2026-08-24)</title>
