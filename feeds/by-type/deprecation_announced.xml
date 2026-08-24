@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/deprecation_announced.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/deprecation_announced.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-08-20T00:00:00Z</updated>
+  <updated>2026-08-24T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-24:deprecation_announced:z-ai%2Fglm-4.5v</id>
+    <title>Deprecation announced: z-ai/glm-4.5v (sunset 2026-12-31)</title>
+    <updated>2026-08-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-4.5v"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:z-ai"/>
+    <summary>Provider announced retirement on 2026-12-31.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-08-20:deprecation_announced:nvidia%2Fnemotron-3-nano-30b-a3b%3Afree</id>
     <title>Deprecation announced: nvidia/nemotron-3-nano-30b-a3b:free (sunset 2026-08-24)</title>
