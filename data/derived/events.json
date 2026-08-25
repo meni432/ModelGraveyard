@@ -30744,6 +30744,176 @@
         "first_seen": "2026-05-27",
         "last_seen": "2026-08-24"
       }
+    },
+    {
+      "ts": "2026-08-25",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash-vision-exp",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000022",
+          "next": "0.00000044",
+          "pct_change": 100
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000066",
+          "next": "0.00000132",
+          "pct_change": 100
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-25",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000004",
+          "next": "0.000000035",
+          "pct_change": -12.5
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000008",
+          "next": "0.00000012",
+          "pct_change": 50
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-25",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash-0731",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000658",
+          "next": "0.00000014",
+          "pct_change": 112.77
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000001316",
+          "next": "0.00000028",
+          "pct_change": 112.77
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-25",
+      "type": "context_changed",
+      "id": "thinkingmachines/inkling-small:free",
+      "provider": "thinkingmachines",
+      "prev_context": 262144,
+      "next_context": 1048576
+    },
+    {
+      "ts": "2026-08-25",
+      "type": "price_changed",
+      "id": "thinkingmachines/inkling",
+      "provider": "thinkingmachines",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000001",
+          "next": "0.00000095",
+          "pct_change": -5
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-25",
+      "type": "context_changed",
+      "id": "thinkingmachines/inkling:free",
+      "provider": "thinkingmachines",
+      "prev_context": 262144,
+      "next_context": 1048576
+    },
+    {
+      "ts": "2026-08-25",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000966",
+          "next": "0.00000119",
+          "pct_change": 23.19
+        },
+        {
+          "field": "completion",
+          "prev": "0.000003036",
+          "next": "0.00000374",
+          "pct_change": 23.19
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-25",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000522",
+          "next": "0.000000790308",
+          "pct_change": 51.4
+        },
+        {
+          "field": "completion",
+          "prev": "0.000001044",
+          "next": "0.000001580616",
+          "pct_change": 51.4
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-25",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000056",
+          "next": "0.000000088606",
+          "pct_change": 58.23
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000112",
+          "next": "0.000000177212",
+          "pct_change": 58.23
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-25",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.1",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000966",
+          "next": "0.00000126",
+          "pct_change": 30.43
+        },
+        {
+          "field": "completion",
+          "prev": "0.000003036",
+          "next": "0.00000396",
+          "pct_change": 30.43
+        }
+      ]
     }
   ]
 }

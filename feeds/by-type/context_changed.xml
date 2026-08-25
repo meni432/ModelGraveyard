@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-type/context_changed.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/context_changed.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-08-24T00:00:00Z</updated>
+  <updated>2026-08-25T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-25:context_changed:thinkingmachines%2Finkling-small%3Afree</id>
+    <title>Context window changed: thinkingmachines/inkling-small:free</title>
+    <updated>2026-08-25T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/thinkingmachines%2Finkling-small%3Afree"/>
+    <category term="context_changed"/>
+    <category term="provider:thinkingmachines"/>
+    <summary>262144 → 1048576 tokens</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-25:context_changed:thinkingmachines%2Finkling%3Afree</id>
+    <title>Context window changed: thinkingmachines/inkling:free</title>
+    <updated>2026-08-25T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/thinkingmachines%2Finkling%3Afree"/>
+    <category term="context_changed"/>
+    <category term="provider:thinkingmachines"/>
+    <summary>262144 → 1048576 tokens</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-08-24:context_changed:qwen%2Fqwen3-235b-a22b-thinking-2507</id>
     <title>Context window changed: qwen/qwen3-235b-a22b-thinking-2507</title>
