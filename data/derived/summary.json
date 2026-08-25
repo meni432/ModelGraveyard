@@ -1,9 +1,89 @@
 {
   "generated_at": "2026-08-25",
-  "active_count": 417,
+  "active_count": 419,
   "dead_count": 122,
   "last_event_ts": "2026-08-25",
   "recent_events": [
+    {
+      "ts": "2026-08-25",
+      "type": "model_added",
+      "id": "minimax/minimax-m2.7:free",
+      "provider": "minimax",
+      "snapshot": {
+        "id": "minimax/minimax-m2.7:free",
+        "name": "MiniMax: MiniMax M2.7 (free)",
+        "provider": "minimax",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 196608,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1773836697,
+        "first_seen": "2026-08-25",
+        "last_seen": "2026-08-25"
+      }
+    },
+    {
+      "ts": "2026-08-25",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000026",
+          "next": "0.0000028",
+          "pct_change": 7.69
+        },
+        {
+          "field": "completion",
+          "prev": "0.000013",
+          "next": "0.000014",
+          "pct_change": 7.69
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-25",
+      "type": "model_added",
+      "id": "minimax/minimax-m3:free",
+      "provider": "minimax",
+      "snapshot": {
+        "id": "minimax/minimax-m3:free",
+        "name": "MiniMax: MiniMax M3 (free)",
+        "provider": "minimax",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1780245374,
+        "first_seen": "2026-08-25",
+        "last_seen": "2026-08-25"
+      }
+    },
+    {
+      "ts": "2026-08-25",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.00000012",
+          "next": "0.0000001",
+          "pct_change": -16.67
+        }
+      ]
+    },
     {
       "ts": "2026-08-25",
       "type": "price_changed",
@@ -281,86 +361,6 @@
       "provider": "moonshotai",
       "prev_expiration": null,
       "next_expiration": "2026-08-31"
-    },
-    {
-      "ts": "2026-08-24",
-      "type": "price_changed",
-      "id": "moonshotai/kimi-k2.5",
-      "provider": "moonshotai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000045",
-          "next": "0.0000006",
-          "pct_change": 33.33
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000225",
-          "next": "0.000003",
-          "pct_change": 33.33
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-24",
-      "type": "price_changed",
-      "id": "minimax/minimax-m2.7",
-      "provider": "minimax",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000024",
-          "next": "0.0000003",
-          "pct_change": 25
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000096",
-          "next": "0.0000012",
-          "pct_change": 25
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-24",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-flash",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000000574",
-          "next": "0.000000056",
-          "pct_change": -2.44
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000001148",
-          "next": "0.000000112",
-          "pct_change": -2.44
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-24",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-pro",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000526176",
-          "next": "0.000000522",
-          "pct_change": -0.79
-        },
-        {
-          "field": "completion",
-          "prev": "0.000001052352",
-          "next": "0.000001044",
-          "pct_change": -0.79
-        }
-      ]
     }
   ],
   "scheduled_funerals": [
@@ -376,11 +376,6 @@
     },
     {
       "id": "z-ai/glm-4.5",
-      "provider": "z-ai",
-      "expiration_date": "2026-12-31"
-    },
-    {
-      "id": "z-ai/glm-4.5v",
       "provider": "z-ai",
       "expiration_date": "2026-12-31"
     },

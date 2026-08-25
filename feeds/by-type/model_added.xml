@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_added.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_added.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-08-24T00:00:00Z</updated>
+  <updated>2026-08-25T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-25:model_added:minimax%2Fminimax-m3%3Afree</id>
+    <title>Added: minimax/minimax-m3:free</title>
+    <updated>2026-08-25T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/minimax%2Fminimax-m3%3Afree"/>
+    <category term="model_added"/>
+    <category term="provider:minimax"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 1048576.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-25:model_added:minimax%2Fminimax-m2.7%3Afree</id>
+    <title>Added: minimax/minimax-m2.7:free</title>
+    <updated>2026-08-25T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/minimax%2Fminimax-m2.7%3Afree"/>
+    <category term="model_added"/>
+    <category term="provider:minimax"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 196608.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-08-24:model_added:mistralai%2Fdevstral-2512</id>
     <title>Added: mistralai/devstral-2512</title>
@@ -886,23 +904,5 @@
     <category term="model_added"/>
     <category term="provider:thinkingmachines"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.5800/Mtok, context: 524288.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-28:model_added:qwen%2Fqwen3.7-flash</id>
-    <title>Added: qwen/qwen3.7-flash</title>
-    <updated>2026-07-28T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3.7-flash"/>
-    <category term="model_added"/>
-    <category term="provider:qwen"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.0300/Mtok, context: 1000000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-28:model_added:anthropic%2Fclaude-opus-5%3Abatch</id>
-    <title>Added: anthropic/claude-opus-5:batch</title>
-    <updated>2026-07-28T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-opus-5%3Abatch"/>
-    <category term="model_added"/>
-    <category term="provider:anthropic"/>
-    <summary>New model on OpenRouter. Initial prompt price: $2.5000/Mtok, context: 1000000.</summary>
   </entry>
 </feed>

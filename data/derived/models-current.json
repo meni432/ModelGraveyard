@@ -75,7 +75,7 @@
       "provider": "~deepseek",
       "pricing": {
         "prompt": "0.000000035",
-        "completion": "0.00000012",
+        "completion": "0.0000001",
         "image": null,
         "request": null
       },
@@ -125,13 +125,13 @@
       "name": "MoonshotAI Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.0000026",
-        "completion": "0.000013",
+        "prompt": "0.0000028",
+        "completion": "0.000014",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 974842,
+      "max_completion_tokens": 1048576,
       "expiration_date": null,
       "created": 1777318428,
       "first_seen": "2026-05-27",
@@ -2637,6 +2637,23 @@
       "last_seen": "2026-08-25"
     },
     {
+      "id": "minimax/minimax-m2.7:free",
+      "name": "MiniMax: MiniMax M2.7 (free)",
+      "provider": "minimax",
+      "pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "context_length": 196608,
+      "max_completion_tokens": null,
+      "expiration_date": null,
+      "created": 1773836697,
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-08-25"
+    },
+    {
       "id": "minimax/minimax-m3",
       "name": "MiniMax: MiniMax M3",
       "provider": "minimax",
@@ -2668,6 +2685,23 @@
       "expiration_date": null,
       "created": 1780245374,
       "first_seen": "2026-08-06",
+      "last_seen": "2026-08-25"
+    },
+    {
+      "id": "minimax/minimax-m3:free",
+      "name": "MiniMax: MiniMax M3 (free)",
+      "provider": "minimax",
+      "pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1048576,
+      "max_completion_tokens": null,
+      "expiration_date": null,
+      "created": 1780245374,
+      "first_seen": "2026-08-25",
       "last_seen": "2026-08-25"
     },
     {
@@ -6881,7 +6915,7 @@
       },
       "context_length": 65536,
       "max_completion_tokens": 16384,
-      "expiration_date": "2026-12-31",
+      "expiration_date": null,
       "created": 1754922288,
       "first_seen": "2026-05-27",
       "last_seen": "2026-08-25"

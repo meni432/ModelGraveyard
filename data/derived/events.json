@@ -30914,6 +30914,86 @@
           "pct_change": 30.43
         }
       ]
+    },
+    {
+      "ts": "2026-08-25",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.00000012",
+          "next": "0.0000001",
+          "pct_change": -16.67
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-25",
+      "type": "model_added",
+      "id": "minimax/minimax-m3:free",
+      "provider": "minimax",
+      "snapshot": {
+        "id": "minimax/minimax-m3:free",
+        "name": "MiniMax: MiniMax M3 (free)",
+        "provider": "minimax",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1780245374,
+        "first_seen": "2026-08-25",
+        "last_seen": "2026-08-25"
+      }
+    },
+    {
+      "ts": "2026-08-25",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000026",
+          "next": "0.0000028",
+          "pct_change": 7.69
+        },
+        {
+          "field": "completion",
+          "prev": "0.000013",
+          "next": "0.000014",
+          "pct_change": 7.69
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-25",
+      "type": "model_added",
+      "id": "minimax/minimax-m2.7:free",
+      "provider": "minimax",
+      "snapshot": {
+        "id": "minimax/minimax-m2.7:free",
+        "name": "MiniMax: MiniMax M2.7 (free)",
+        "provider": "minimax",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 196608,
+        "max_completion_tokens": null,
+        "expiration_date": null,
+        "created": 1773836697,
+        "first_seen": "2026-08-25",
+        "last_seen": "2026-08-25"
+      }
     }
   ]
 }
