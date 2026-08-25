@@ -31094,6 +31094,89 @@
           "pct_change": -3.62
         }
       ]
+    },
+    {
+      "ts": "2026-08-25",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash-0731",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000616",
+          "next": "0.00000004",
+          "pct_change": -35.06
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000001232",
+          "next": "0.00000008",
+          "pct_change": -35.06
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-25",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000579072",
+          "next": "0.000000572808",
+          "pct_change": -1.08
+        },
+        {
+          "field": "completion",
+          "prev": "0.000001158144",
+          "next": "0.000001145616",
+          "pct_change": -1.08
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-25",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000854",
+          "next": "0.0000000826",
+          "pct_change": -3.28
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000001708",
+          "next": "0.0000001652",
+          "pct_change": -3.28
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-25",
+      "type": "model_removed",
+      "id": "qwen/qwen-plus-2025-07-28:thinking",
+      "provider": "qwen",
+      "snapshot": {
+        "id": "qwen/qwen-plus-2025-07-28:thinking",
+        "name": "Qwen: Qwen Plus 0728 (thinking)",
+        "provider": "qwen",
+        "pricing": {
+          "prompt": "0.00000026",
+          "completion": "0.00000078",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1000000,
+        "max_completion_tokens": 32768,
+        "expiration_date": null,
+        "created": 1757347599,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-08-25"
+      }
     }
   ]
 }

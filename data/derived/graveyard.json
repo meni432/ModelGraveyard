@@ -1,6 +1,23 @@
 {
   "buried": [
     {
+      "id": "qwen/qwen-plus-2025-07-28:thinking",
+      "name": "Qwen: Qwen Plus 0728 (thinking)",
+      "provider": "qwen",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000026",
+        "completion": "0.00000078",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 1000000,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-08-25",
+      "buried_at": "2026-08-25",
+      "suggested_replacement": "qwen/qwen3.8-27b"
+    },
+    {
       "id": "inclusionai/ling-2.6-1t",
       "name": "inclusionAI: Ling-2.6-1T",
       "provider": "inclusionai",

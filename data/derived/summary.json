@@ -1,9 +1,92 @@
 {
   "generated_at": "2026-08-25",
-  "active_count": 419,
-  "dead_count": 122,
+  "active_count": 418,
+  "dead_count": 123,
   "last_event_ts": "2026-08-25",
   "recent_events": [
+    {
+      "ts": "2026-08-25",
+      "type": "model_removed",
+      "id": "qwen/qwen-plus-2025-07-28:thinking",
+      "provider": "qwen",
+      "snapshot": {
+        "id": "qwen/qwen-plus-2025-07-28:thinking",
+        "name": "Qwen: Qwen Plus 0728 (thinking)",
+        "provider": "qwen",
+        "pricing": {
+          "prompt": "0.00000026",
+          "completion": "0.00000078",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1000000,
+        "max_completion_tokens": 32768,
+        "expiration_date": null,
+        "created": 1757347599,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-08-25"
+      }
+    },
+    {
+      "ts": "2026-08-25",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000854",
+          "next": "0.0000000826",
+          "pct_change": -3.28
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000001708",
+          "next": "0.0000001652",
+          "pct_change": -3.28
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-25",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000579072",
+          "next": "0.000000572808",
+          "pct_change": -1.08
+        },
+        {
+          "field": "completion",
+          "prev": "0.000001158144",
+          "next": "0.000001145616",
+          "pct_change": -1.08
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-25",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash-0731",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000616",
+          "next": "0.00000004",
+          "pct_change": -35.06
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000001232",
+          "next": "0.00000008",
+          "pct_change": -35.06
+        }
+      ]
+    },
     {
       "ts": "2026-08-25",
       "type": "price_changed",
@@ -293,89 +376,6 @@
       "provider": "thinkingmachines",
       "prev_context": 262144,
       "next_context": 1048576
-    },
-    {
-      "ts": "2026-08-25",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-flash-0731",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000000658",
-          "next": "0.00000014",
-          "pct_change": 112.77
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000001316",
-          "next": "0.00000028",
-          "pct_change": 112.77
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-25",
-      "type": "price_changed",
-      "id": "~deepseek/deepseek-v4-flash-latest",
-      "provider": "~deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000004",
-          "next": "0.000000035",
-          "pct_change": -12.5
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000008",
-          "next": "0.00000012",
-          "pct_change": 50
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-25",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-flash-vision-exp",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000022",
-          "next": "0.00000044",
-          "pct_change": 100
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000066",
-          "next": "0.00000132",
-          "pct_change": 100
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-24",
-      "type": "model_removed",
-      "id": "nvidia/nemotron-nano-9b-v2:free",
-      "provider": "nvidia",
-      "snapshot": {
-        "id": "nvidia/nemotron-nano-9b-v2:free",
-        "name": "NVIDIA: Nemotron Nano 9B V2 (free)",
-        "provider": "nvidia",
-        "pricing": {
-          "prompt": "0",
-          "completion": "0",
-          "image": null,
-          "request": null
-        },
-        "context_length": 128000,
-        "max_completion_tokens": null,
-        "expiration_date": "2026-08-24",
-        "created": 1757106807,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-08-24"
-      }
     }
   ],
   "scheduled_funerals": [
