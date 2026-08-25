@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/qwen.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/qwen.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-08-24T00:00:00Z</updated>
+  <updated>2026-08-25T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-25:price_changed:qwen%2Fqwen3.8-27b</id>
+    <title>Price changed: qwen/qwen3.8-27b</title>
+    <updated>2026-08-25T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3.8-27b"/>
+    <category term="price_changed"/>
+    <category term="provider:qwen"/>
+    <summary>prompt: $0.4000/Mtok → $0.4250/Mtok (+6.25%); completion: $3.0000/Mtok → $2.5500/Mtok (-15%)</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-08-24:price_changed:qwen%2Fqwen3.6-27b</id>
     <title>Price changed: qwen/qwen3.6-27b</title>
@@ -895,14 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:qwen"/>
     <summary>prompt: $0.1000/Mtok → $0.1500/Mtok (+50%); completion: $1.1000/Mtok → $1.2000/Mtok (+9.09%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-23:price_changed:qwen%2Fqwen3-14b</id>
-    <title>Price changed: qwen/qwen3-14b</title>
-    <updated>2026-07-23T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3-14b"/>
-    <category term="price_changed"/>
-    <category term="provider:qwen"/>
-    <summary>prompt: $0.1200/Mtok → $0.2275/Mtok (+89.58%); completion: $0.2400/Mtok → $0.9100/Mtok (+279.17%)</summary>
   </entry>
 </feed>
