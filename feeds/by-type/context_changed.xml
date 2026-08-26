@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/context_changed.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/context_changed.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-08-25T00:00:00Z</updated>
+  <updated>2026-08-26T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-26:context_changed:meta-llama%2Fllama-guard-4-12b</id>
+    <title>Context window changed: meta-llama/llama-guard-4-12b</title>
+    <updated>2026-08-26T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meta-llama%2Fllama-guard-4-12b"/>
+    <category term="context_changed"/>
+    <category term="provider:meta-llama"/>
+    <summary>1048576 → 163840 tokens</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-08-25:context_changed:thinkingmachines%2Finkling-small%3Afree</id>
     <title>Context window changed: thinkingmachines/inkling-small:free</title>

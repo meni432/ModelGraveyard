@@ -31177,6 +31177,199 @@
         "first_seen": "2026-05-27",
         "last_seen": "2026-08-25"
       }
+    },
+    {
+      "ts": "2026-08-26",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash-vision-exp",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000022",
+          "next": "0.00000044",
+          "pct_change": 100
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000066",
+          "next": "0.00000132",
+          "pct_change": 100
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-26",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.0000001",
+          "next": "0.00000028",
+          "pct_change": 180
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-26",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000028",
+          "next": "0.00000255",
+          "pct_change": -8.93
+        },
+        {
+          "field": "completion",
+          "prev": "0.000014",
+          "next": "0.00001275",
+          "pct_change": -8.93
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-26",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000572808",
+          "next": "0.000000790308",
+          "pct_change": 37.97
+        },
+        {
+          "field": "completion",
+          "prev": "0.000001145616",
+          "next": "0.000001580616",
+          "pct_change": 37.97
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-26",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000826",
+          "next": "0.000000088606",
+          "pct_change": 7.27
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000001652",
+          "next": "0.000000177212",
+          "pct_change": 7.27
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-26",
+      "type": "deprecation_announced",
+      "id": "z-ai/glm-4.5v",
+      "provider": "z-ai",
+      "prev_expiration": null,
+      "next_expiration": "2026-12-31"
+    },
+    {
+      "ts": "2026-08-26",
+      "type": "context_changed",
+      "id": "meta-llama/llama-guard-4-12b",
+      "provider": "meta-llama",
+      "prev_context": 1048576,
+      "next_context": 163840
+    },
+    {
+      "ts": "2026-08-26",
+      "type": "price_changed",
+      "id": "meta-llama/llama-4-scout",
+      "provider": "meta-llama",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000001",
+          "next": "0.00000011",
+          "pct_change": 10
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000003",
+          "next": "0.00000034",
+          "pct_change": 13.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-26",
+      "type": "price_changed",
+      "id": "qwen/qwen2.5-vl-72b-instruct",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000008",
+          "next": "0.00000025",
+          "pct_change": -68.75
+        },
+        {
+          "field": "completion",
+          "prev": "0.000001",
+          "next": "0.00000075",
+          "pct_change": -25
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-26",
+      "type": "price_changed",
+      "id": "meta-llama/llama-3.3-70b-instruct",
+      "provider": "meta-llama",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000001",
+          "next": "0.00000071",
+          "pct_change": 610
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000032",
+          "next": "0.00000071",
+          "pct_change": 121.87
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-26",
+      "type": "model_removed",
+      "id": "google/gemma-3n-e4b-it",
+      "provider": "google",
+      "snapshot": {
+        "id": "google/gemma-3n-e4b-it",
+        "name": "Google: Gemma 3n 4B",
+        "provider": "google",
+        "pricing": {
+          "prompt": "0.00000006",
+          "completion": "0.00000012",
+          "image": null,
+          "request": null
+        },
+        "context_length": 32768,
+        "max_completion_tokens": 29491,
+        "expiration_date": null,
+        "created": 1747776824,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-08-25"
+      }
     }
   ]
 }

@@ -1,6 +1,23 @@
 {
   "buried": [
     {
+      "id": "google/gemma-3n-e4b-it",
+      "name": "Google: Gemma 3n 4B",
+      "provider": "google",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000006",
+        "completion": "0.00000012",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 32768,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-08-25",
+      "buried_at": "2026-08-26",
+      "suggested_replacement": "google/gemini-2.5-flash-image"
+    },
+    {
       "id": "qwen/qwen-plus-2025-07-28:thinking",
       "name": "Qwen: Qwen Plus 0728 (thinking)",
       "provider": "qwen",

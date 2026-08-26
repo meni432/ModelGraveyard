@@ -4,7 +4,34 @@
   <id>https://modelgraveyard.com/feeds/by-provider/meta-llama.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/meta-llama.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-08-15T00:00:00Z</updated>
+  <updated>2026-08-26T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-26:context_changed:meta-llama%2Fllama-guard-4-12b</id>
+    <title>Context window changed: meta-llama/llama-guard-4-12b</title>
+    <updated>2026-08-26T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meta-llama%2Fllama-guard-4-12b"/>
+    <category term="context_changed"/>
+    <category term="provider:meta-llama"/>
+    <summary>1048576 → 163840 tokens</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-26:price_changed:meta-llama%2Fllama-4-scout</id>
+    <title>Price changed: meta-llama/llama-4-scout</title>
+    <updated>2026-08-26T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meta-llama%2Fllama-4-scout"/>
+    <category term="price_changed"/>
+    <category term="provider:meta-llama"/>
+    <summary>prompt: $0.1000/Mtok → $0.1100/Mtok (+10%); completion: $0.3000/Mtok → $0.3400/Mtok (+13.33%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-26:price_changed:meta-llama%2Fllama-3.3-70b-instruct</id>
+    <title>Price changed: meta-llama/llama-3.3-70b-instruct</title>
+    <updated>2026-08-26T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meta-llama%2Fllama-3.3-70b-instruct"/>
+    <category term="price_changed"/>
+    <category term="provider:meta-llama"/>
+    <summary>prompt: $0.1000/Mtok → $0.7100/Mtok (+610%); completion: $0.3200/Mtok → $0.7100/Mtok (+121.87%)</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-08-15:price_changed:meta-llama%2Fllama-4-maverick</id>
     <title>Price changed: meta-llama/llama-4-maverick</title>

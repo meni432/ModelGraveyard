@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/google.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/google.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-08-21T00:00:00Z</updated>
+  <updated>2026-08-26T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-26:model_removed:google%2Fgemma-3n-e4b-it</id>
+    <title>Removed: google/gemma-3n-e4b-it</title>
+    <updated>2026-08-26T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemma-3n-e4b-it"/>
+    <category term="model_removed"/>
+    <category term="provider:google"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0600/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-08-21:price_changed:google%2Fgemma-4-31b-it</id>
     <title>Price changed: google/gemma-4-31b-it</title>
@@ -892,15 +901,6 @@
     <title>Added: google/gemini-2.5-flash-lite-preview-09-2025</title>
     <updated>2026-05-27T00:00:00Z</updated>
     <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-2.5-flash-lite-preview-09-2025"/>
-    <category term="model_added"/>
-    <category term="provider:google"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.1000/Mtok, context: 1048576.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:google%2Fgemini-2.5-flash-lite</id>
-    <title>Added: google/gemini-2.5-flash-lite</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-2.5-flash-lite"/>
     <category term="model_added"/>
     <category term="provider:google"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.1000/Mtok, context: 1048576.</summary>
