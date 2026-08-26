@@ -7,6 +7,54 @@
     {
       "ts": "2026-08-26",
       "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000088606",
+          "next": "0.00000008106",
+          "pct_change": -8.52
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000177212",
+          "next": "0.00000016212",
+          "pct_change": -8.52
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-26",
+      "type": "deprecation_announced",
+      "id": "stealth/ox-alpha",
+      "provider": "stealth",
+      "prev_expiration": "2098-12-31",
+      "next_expiration": "2026-08-26"
+    },
+    {
+      "ts": "2026-08-26",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash-vision-exp",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000044",
+          "next": "0.00000022",
+          "pct_change": -50
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000132",
+          "next": "0.00000066",
+          "pct_change": -50
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-26",
+      "type": "price_changed",
       "id": "qwen/qwen3.5-397b-a17b",
       "provider": "qwen",
       "changes": [
@@ -310,72 +358,14 @@
           "pct_change": 100
         }
       ]
-    },
-    {
-      "ts": "2026-08-25",
-      "type": "model_removed",
-      "id": "qwen/qwen-plus-2025-07-28:thinking",
-      "provider": "qwen",
-      "snapshot": {
-        "id": "qwen/qwen-plus-2025-07-28:thinking",
-        "name": "Qwen: Qwen Plus 0728 (thinking)",
-        "provider": "qwen",
-        "pricing": {
-          "prompt": "0.00000026",
-          "completion": "0.00000078",
-          "image": null,
-          "request": null
-        },
-        "context_length": 1000000,
-        "max_completion_tokens": 32768,
-        "expiration_date": null,
-        "created": 1757347599,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-08-25"
-      }
-    },
-    {
-      "ts": "2026-08-25",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-flash",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000000854",
-          "next": "0.0000000826",
-          "pct_change": -3.28
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000001708",
-          "next": "0.0000001652",
-          "pct_change": -3.28
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-25",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-pro",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000579072",
-          "next": "0.000000572808",
-          "pct_change": -1.08
-        },
-        {
-          "field": "completion",
-          "prev": "0.000001158144",
-          "next": "0.000001145616",
-          "pct_change": -1.08
-        }
-      ]
     }
   ],
   "scheduled_funerals": [
+    {
+      "id": "stealth/ox-alpha",
+      "provider": "stealth",
+      "expiration_date": "2026-08-26"
+    },
     {
       "id": "moonshotai/kimi-k2.5",
       "provider": "moonshotai",
@@ -399,11 +389,6 @@
     {
       "id": "~z-ai/glm-latest",
       "provider": "~z-ai",
-      "expiration_date": "2098-12-31"
-    },
-    {
-      "id": "stealth/ox-alpha",
-      "provider": "stealth",
       "expiration_date": "2098-12-31"
     },
     {

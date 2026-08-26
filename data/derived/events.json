@@ -31484,6 +31484,54 @@
           "pct_change": -35
         }
       ]
+    },
+    {
+      "ts": "2026-08-26",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash-vision-exp",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000044",
+          "next": "0.00000022",
+          "pct_change": -50
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000132",
+          "next": "0.00000066",
+          "pct_change": -50
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-26",
+      "type": "deprecation_announced",
+      "id": "stealth/ox-alpha",
+      "provider": "stealth",
+      "prev_expiration": "2098-12-31",
+      "next_expiration": "2026-08-26"
+    },
+    {
+      "ts": "2026-08-26",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000088606",
+          "next": "0.00000008106",
+          "pct_change": -8.52
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000177212",
+          "next": "0.00000016212",
+          "pct_change": -8.52
+        }
+      ]
     }
   ]
 }

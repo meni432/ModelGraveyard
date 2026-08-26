@@ -1298,8 +1298,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000088606",
-        "completion": "0.000000177212",
+        "prompt": "0.00000008106",
+        "completion": "0.00000016212",
         "image": null,
         "request": null
       },
@@ -1332,8 +1332,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000044",
-        "completion": "0.00000132",
+        "prompt": "0.00000022",
+        "completion": "0.00000066",
         "image": null,
         "request": null
       },
@@ -6337,7 +6337,7 @@
       },
       "context_length": 1048576,
       "max_completion_tokens": 131072,
-      "expiration_date": "2098-12-31",
+      "expiration_date": "2026-08-26",
       "created": 1787256295,
       "first_seen": "2026-08-21",
       "last_seen": "2026-08-26"
