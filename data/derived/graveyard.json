@@ -18,6 +18,40 @@
       "suggested_replacement": "google/gemini-2.5-flash-image"
     },
     {
+      "id": "stealth/ox-alpha",
+      "name": "Ox Alpha",
+      "provider": "stealth",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 1048576,
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-26",
+      "buried_at": "2026-08-26",
+      "suggested_replacement": null
+    },
+    {
+      "id": "z-ai/glm-5.2:batch",
+      "name": "Z.ai: GLM 5.2 (batch)",
+      "provider": "z-ai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000014",
+        "completion": "0.0000044",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 1048575,
+      "first_seen": "2026-08-06",
+      "last_seen": "2026-08-26",
+      "buried_at": "2026-08-26",
+      "suggested_replacement": "z-ai/glm-5.3"
+    },
+    {
       "id": "qwen/qwen-plus-2025-07-28:thinking",
       "name": "Qwen: Qwen Plus 0728 (thinking)",
       "provider": "qwen",

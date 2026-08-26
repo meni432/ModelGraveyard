@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_added.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_added.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-08-25T00:00:00Z</updated>
+  <updated>2026-08-26T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-26:model_added:z-ai%2Fglm-5.3-flash</id>
+    <title>Added: z-ai/glm-5.3-flash</title>
+    <updated>2026-08-26T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.3-flash"/>
+    <category term="model_added"/>
+    <category term="provider:z-ai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0750/Mtok, context: 1310720.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-08-25:model_added:minimax%2Fminimax-m3%3Afree</id>
     <title>Added: minimax/minimax-m3:free</title>
@@ -895,14 +904,5 @@
     <category term="model_added"/>
     <category term="provider:deepseek"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.1400/Mtok, context: 1048576.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-31:model_added:thinkingmachines%2Finkling-small</id>
-    <title>Added: thinkingmachines/inkling-small</title>
-    <updated>2026-07-31T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/thinkingmachines%2Finkling-small"/>
-    <category term="model_added"/>
-    <category term="provider:thinkingmachines"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.5800/Mtok, context: 524288.</summary>
   </entry>
 </feed>
