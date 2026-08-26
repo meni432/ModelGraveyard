@@ -74,8 +74,8 @@
       "name": "DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.000000035",
-        "completion": "0.00000028",
+        "prompt": "0.00000003",
+        "completion": "0.000000075",
         "image": null,
         "request": null
       },
@@ -1315,8 +1315,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000004",
-        "completion": "0.00000008",
+        "prompt": "0.00000006",
+        "completion": "0.00000012",
         "image": null,
         "request": null
       },
@@ -1349,8 +1349,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000790308",
-        "completion": "0.000001580616",
+        "prompt": "0.00000087",
+        "completion": "0.00000174",
         "image": null,
         "request": null
       },
@@ -2012,13 +2012,13 @@
       "name": "Google: Gemma 4 31B",
       "provider": "google",
       "pricing": {
-        "prompt": "0.0000001",
+        "prompt": "0.00000009",
         "completion": "0.00000034",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 235929,
+      "max_completion_tokens": 16384,
       "expiration_date": null,
       "created": 1775148486,
       "first_seen": "2026-05-27",
@@ -5905,13 +5905,13 @@
       "name": "Qwen: Qwen3.5 397B A17B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.0000005",
-        "completion": "0.0000036",
+        "prompt": "0.00000039",
+        "completion": "0.00000234",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 235929,
+      "max_completion_tokens": 65536,
       "expiration_date": null,
       "created": 1771223018,
       "first_seen": "2026-05-27",
@@ -5990,13 +5990,13 @@
       "name": "Qwen: Qwen3.6 27B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000032",
-        "completion": "0.0000032",
+        "prompt": "0.0000006",
+        "completion": "0.0000036",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 81920,
+      "max_completion_tokens": 235929,
       "expiration_date": null,
       "created": 1777255064,
       "first_seen": "2026-05-27",
