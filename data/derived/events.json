@@ -31681,6 +31681,171 @@
         "first_seen": "2026-08-06",
         "last_seen": "2026-08-26"
       }
+    },
+    {
+      "ts": "2026-08-27",
+      "type": "model_added",
+      "id": "qwen/qwen3.8-flash",
+      "provider": "qwen",
+      "snapshot": {
+        "id": "qwen/qwen3.8-flash",
+        "name": "Qwen: Qwen3.8 Flash",
+        "provider": "qwen",
+        "pricing": {
+          "prompt": "0.00000015",
+          "completion": "0.00000047",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1000000,
+        "max_completion_tokens": 131072,
+        "expiration_date": null,
+        "created": 1787773060,
+        "first_seen": "2026-08-27",
+        "last_seen": "2026-08-27"
+      }
+    },
+    {
+      "ts": "2026-08-27",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash-vision-exp",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000022",
+          "next": "0.00000044",
+          "pct_change": 100
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000066",
+          "next": "0.00000132",
+          "pct_change": 100
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-27",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.000000075",
+          "next": "0.0000001",
+          "pct_change": 33.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-27",
+      "type": "price_changed",
+      "id": "tencent/hy3",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000825",
+          "next": "0.000000132",
+          "pct_change": 60
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000033",
+          "next": "0.000000528",
+          "pct_change": 60
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-27",
+      "type": "price_changed",
+      "id": "qwen/qwen3.6-27b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000032",
+          "next": "0.0000006",
+          "pct_change": 87.5
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000032",
+          "next": "0.0000036",
+          "pct_change": 12.5
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-27",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.5",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000045",
+          "next": "0.0000006",
+          "pct_change": 33.33
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000225",
+          "next": "0.000003",
+          "pct_change": 33.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-27",
+      "type": "deprecation_announced",
+      "id": "moonshotai/kimi-k2.5",
+      "provider": "moonshotai",
+      "prev_expiration": null,
+      "next_expiration": "2026-08-31"
+    },
+    {
+      "ts": "2026-08-27",
+      "type": "price_changed",
+      "id": "z-ai/glm-4.6",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000005",
+          "next": "0.00000043",
+          "pct_change": -14
+        },
+        {
+          "field": "completion",
+          "prev": "0.000002",
+          "next": "0.00000175",
+          "pct_change": -12.5
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-27",
+      "type": "price_changed",
+      "id": "qwen/qwen3-235b-a22b-2507",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000009",
+          "next": "0.0000000875",
+          "pct_change": -2.78
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000055",
+          "next": "0.00000035",
+          "pct_change": -36.36
+        }
+      ]
     }
   ]
 }
