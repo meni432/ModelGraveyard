@@ -15,6 +15,15 @@
     <summary>New model on OpenRouter. Initial prompt price: $0.1500/Mtok, context: 1000000.</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-08-27:model_added:inclusionai%2Fling-3.0-flash-fin%3Afree</id>
+    <title>Added: inclusionai/ling-3.0-flash-fin:free</title>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/inclusionai%2Fling-3.0-flash-fin%3Afree"/>
+    <category term="model_added"/>
+    <category term="provider:inclusionai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 262144.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-08-26:model_added:z-ai%2Fglm-5.3-flash</id>
     <title>Added: z-ai/glm-5.3-flash</title>
     <updated>2026-08-26T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="model_added"/>
     <category term="provider:qwen"/>
     <summary>New model on OpenRouter. Initial prompt price: $2.0000/Mtok, context: 1000000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-01:model_added:~deepseek%2Fdeepseek-v4-flash-latest</id>
-    <title>Added: ~deepseek/deepseek-v4-flash-latest</title>
-    <updated>2026-08-01T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/~deepseek%2Fdeepseek-v4-flash-latest"/>
-    <category term="model_added"/>
-    <category term="provider:~deepseek"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.0900/Mtok, context: 1048576.</summary>
   </entry>
 </feed>

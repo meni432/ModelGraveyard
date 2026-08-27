@@ -4,7 +4,34 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_removed.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_removed.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-08-26T00:00:00Z</updated>
+  <updated>2026-08-27T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-27:model_removed:mistralai%2Fministral-8b</id>
+    <title>Removed: mistralai/ministral-8b</title>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/mistralai%2Fministral-8b"/>
+    <category term="model_removed"/>
+    <category term="provider:mistralai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1100/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-27:model_removed:moonshotai%2Fkimi-k2.7-code%3Abatch</id>
+    <title>Removed: moonshotai/kimi-k2.7-code:batch</title>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k2.7-code%3Abatch"/>
+    <category term="model_removed"/>
+    <category term="provider:moonshotai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.9500/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-27:model_removed:thedrummer%2Frocinante-12b</id>
+    <title>Removed: thedrummer/rocinante-12b</title>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/thedrummer%2Frocinante-12b"/>
+    <category term="model_removed"/>
+    <category term="provider:thedrummer"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.2500/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-08-26:model_removed:google%2Fgemma-3n-e4b-it</id>
     <title>Removed: google/gemma-3n-e4b-it</title>
@@ -877,32 +904,5 @@
     <category term="model_removed"/>
     <category term="provider:z-ai"/>
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-10:model_removed:z-ai%2Fglm-4.5-air%3Afree</id>
-    <title>Removed: z-ai/glm-4.5-air:free</title>
-    <updated>2026-06-10T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-4.5-air%3Afree"/>
-    <category term="model_removed"/>
-    <category term="provider:z-ai"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-10:model_removed:z-ai%2Fglm-5v-turbo</id>
-    <title>Removed: z-ai/glm-5v-turbo</title>
-    <updated>2026-06-10T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5v-turbo"/>
-    <category term="model_removed"/>
-    <category term="provider:z-ai"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $1.2000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-10:model_removed:moonshotai%2Fkimi-k2.6%3Afree</id>
-    <title>Removed: moonshotai/kimi-k2.6:free</title>
-    <updated>2026-06-10T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k2.6%3Afree"/>
-    <category term="model_removed"/>
-    <category term="provider:moonshotai"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
   </entry>
 </feed>

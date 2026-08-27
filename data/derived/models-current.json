@@ -1298,8 +1298,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000007952",
-        "completion": "0.00000015904",
+        "prompt": "0.00000007644",
+        "completion": "0.00000015288",
         "image": null,
         "request": null
       },
@@ -1315,8 +1315,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000006",
-        "completion": "0.00000012",
+        "prompt": "0.00000005",
+        "completion": "0.0000001",
         "image": null,
         "request": null
       },
@@ -1332,8 +1332,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000044",
-        "completion": "0.00000132",
+        "prompt": "0.00000022",
+        "completion": "0.00000066",
         "image": null,
         "request": null
       },
@@ -2161,6 +2161,23 @@
       "last_seen": "2026-08-27"
     },
     {
+      "id": "inclusionai/ling-3.0-flash-fin:free",
+      "name": "Ling 3.0 Flash Fin (free)",
+      "provider": "inclusionai",
+      "pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "context_length": 262144,
+      "max_completion_tokens": 32768,
+      "expiration_date": null,
+      "created": 1787846290,
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-08-27"
+    },
+    {
       "id": "kwaipilot/kat-coder-air-v2.5",
       "name": "Kwaipilot: KAT-Coder-Air V2.5",
       "provider": "kwaipilot",
@@ -2756,23 +2773,6 @@
       "last_seen": "2026-08-27"
     },
     {
-      "id": "mistralai/ministral-8b",
-      "name": "Mistral: Ministral 8B",
-      "provider": "mistralai",
-      "pricing": {
-        "prompt": "0.00000011",
-        "completion": "0.00000011",
-        "image": null,
-        "request": null
-      },
-      "context_length": 128000,
-      "max_completion_tokens": 102400,
-      "expiration_date": null,
-      "created": 1729123200,
-      "first_seen": "2026-08-20",
-      "last_seen": "2026-08-27"
-    },
-    {
       "id": "mistralai/ministral-8b-2512",
       "name": "Mistral: Ministral 3 8B 2512",
       "provider": "mistralai",
@@ -3117,7 +3117,7 @@
       "name": "MoonshotAI: Kimi K2.7 Code",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.00000067",
+        "prompt": "0.00000066",
         "completion": "0.0000034",
         "image": null,
         "request": null
@@ -3127,23 +3127,6 @@
       "expiration_date": null,
       "created": 1781266361,
       "first_seen": "2026-06-12",
-      "last_seen": "2026-08-27"
-    },
-    {
-      "id": "moonshotai/kimi-k2.7-code:batch",
-      "name": "MoonshotAI: Kimi K2.7 Code (batch)",
-      "provider": "moonshotai",
-      "pricing": {
-        "prompt": "0.00000095",
-        "completion": "0.000004",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 235929,
-      "expiration_date": null,
-      "created": 1781266361,
-      "first_seen": "2026-08-06",
       "last_seen": "2026-08-27"
     },
     {
@@ -3372,13 +3355,13 @@
       "name": "NVIDIA: Nemotron 3 Ultra",
       "provider": "nvidia",
       "pricing": {
-        "prompt": "0.0000006",
-        "completion": "0.0000036",
+        "prompt": "0.0000005",
+        "completion": "0.0000022",
         "image": null,
         "request": null
       },
-      "context_length": 512288,
-      "max_completion_tokens": 461059,
+      "context_length": 262144,
+      "max_completion_tokens": 16384,
       "expiration_date": null,
       "created": 1780551208,
       "first_seen": "2026-06-08",
@@ -6007,8 +5990,8 @@
       "name": "Qwen: Qwen3.6 35B A3B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000014",
-        "completion": "0.000001",
+        "prompt": "0.0000001",
+        "completion": "0.0000009",
         "image": null,
         "request": null
       },
@@ -6449,8 +6432,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },
@@ -6492,23 +6475,6 @@
       "max_completion_tokens": 117964,
       "expiration_date": null,
       "created": 1758931878,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-08-27"
-    },
-    {
-      "id": "thedrummer/rocinante-12b",
-      "name": "TheDrummer: Rocinante 12B",
-      "provider": "thedrummer",
-      "pricing": {
-        "prompt": "0.00000025",
-        "completion": "0.0000005",
-        "image": null,
-        "request": null
-      },
-      "context_length": 65536,
-      "max_completion_tokens": 58982,
-      "expiration_date": null,
-      "created": 1727654400,
       "first_seen": "2026-05-27",
       "last_seen": "2026-08-27"
     },

@@ -31846,6 +31846,240 @@
           "pct_change": -36.36
         }
       ]
+    },
+    {
+      "ts": "2026-08-27",
+      "type": "model_added",
+      "id": "inclusionai/ling-3.0-flash-fin:free",
+      "provider": "inclusionai",
+      "snapshot": {
+        "id": "inclusionai/ling-3.0-flash-fin:free",
+        "name": "Ling 3.0 Flash Fin (free)",
+        "provider": "inclusionai",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 32768,
+        "expiration_date": null,
+        "created": 1787846290,
+        "first_seen": "2026-08-27",
+        "last_seen": "2026-08-27"
+      }
+    },
+    {
+      "ts": "2026-08-27",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash-vision-exp",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000044",
+          "next": "0.00000022",
+          "pct_change": -50
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000132",
+          "next": "0.00000066",
+          "pct_change": -50
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-27",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash-0731",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000006",
+          "next": "0.00000005",
+          "pct_change": -16.67
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000012",
+          "next": "0.0000001",
+          "pct_change": -16.67
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-27",
+      "type": "price_changed",
+      "id": "tencent/hy3",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000132",
+          "next": "0.0000000825",
+          "pct_change": -37.5
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000528",
+          "next": "0.00000033",
+          "pct_change": -37.5
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-27",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.7-code",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000067",
+          "next": "0.00000066",
+          "pct_change": -1.49
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-27",
+      "type": "price_changed",
+      "id": "nvidia/nemotron-3-ultra-550b-a55b",
+      "provider": "nvidia",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000006",
+          "next": "0.0000005",
+          "pct_change": -16.67
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000036",
+          "next": "0.0000022",
+          "pct_change": -38.89
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-27",
+      "type": "context_changed",
+      "id": "nvidia/nemotron-3-ultra-550b-a55b",
+      "provider": "nvidia",
+      "prev_context": 512288,
+      "next_context": 262144
+    },
+    {
+      "ts": "2026-08-27",
+      "type": "price_changed",
+      "id": "qwen/qwen3.6-35b-a3b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000014",
+          "next": "0.0000001",
+          "pct_change": -28.57
+        },
+        {
+          "field": "completion",
+          "prev": "0.000001",
+          "next": "0.0000009",
+          "pct_change": -10
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-27",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000007952",
+          "next": "0.00000007644",
+          "pct_change": -3.87
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000015904",
+          "next": "0.00000015288",
+          "pct_change": -3.87
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-27",
+      "type": "model_removed",
+      "id": "mistralai/ministral-8b",
+      "provider": "mistralai",
+      "snapshot": {
+        "id": "mistralai/ministral-8b",
+        "name": "Mistral: Ministral 8B",
+        "provider": "mistralai",
+        "pricing": {
+          "prompt": "0.00000011",
+          "completion": "0.00000011",
+          "image": null,
+          "request": null
+        },
+        "context_length": 128000,
+        "max_completion_tokens": 102400,
+        "expiration_date": null,
+        "created": 1729123200,
+        "first_seen": "2026-08-20",
+        "last_seen": "2026-08-27"
+      }
+    },
+    {
+      "ts": "2026-08-27",
+      "type": "model_removed",
+      "id": "moonshotai/kimi-k2.7-code:batch",
+      "provider": "moonshotai",
+      "snapshot": {
+        "id": "moonshotai/kimi-k2.7-code:batch",
+        "name": "MoonshotAI: Kimi K2.7 Code (batch)",
+        "provider": "moonshotai",
+        "pricing": {
+          "prompt": "0.00000095",
+          "completion": "0.000004",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 235929,
+        "expiration_date": null,
+        "created": 1781266361,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-27"
+      }
+    },
+    {
+      "ts": "2026-08-27",
+      "type": "model_removed",
+      "id": "thedrummer/rocinante-12b",
+      "provider": "thedrummer",
+      "snapshot": {
+        "id": "thedrummer/rocinante-12b",
+        "name": "TheDrummer: Rocinante 12B",
+        "provider": "thedrummer",
+        "pricing": {
+          "prompt": "0.00000025",
+          "completion": "0.0000005",
+          "image": null,
+          "request": null
+        },
+        "context_length": 65536,
+        "max_completion_tokens": 58982,
+        "expiration_date": null,
+        "created": 1727654400,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-08-27"
+      }
     }
   ]
 }
