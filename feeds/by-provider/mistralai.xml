@@ -4,7 +4,61 @@
   <id>https://modelgraveyard.com/feeds/by-provider/mistralai.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/mistralai.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-08-27T00:00:00Z</updated>
+  <updated>2026-08-28T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-28:model_added:mistralai%2Fmistral-medium-3-5%3Abatch</id>
+    <title>Added: mistralai/mistral-medium-3-5:batch</title>
+    <updated>2026-08-28T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/mistralai%2Fmistral-medium-3-5%3Abatch"/>
+    <category term="model_added"/>
+    <category term="provider:mistralai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.7500/Mtok, context: 262144.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-28:model_added:mistralai%2Fmistral-small-2603%3Abatch</id>
+    <title>Added: mistralai/mistral-small-2603:batch</title>
+    <updated>2026-08-28T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/mistralai%2Fmistral-small-2603%3Abatch"/>
+    <category term="model_added"/>
+    <category term="provider:mistralai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.1500/Mtok, context: 262144.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-28:model_added:mistralai%2Fministral-8b-2512%3Abatch</id>
+    <title>Added: mistralai/ministral-8b-2512:batch</title>
+    <updated>2026-08-28T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/mistralai%2Fministral-8b-2512%3Abatch"/>
+    <category term="model_added"/>
+    <category term="provider:mistralai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.1500/Mtok, context: 262144.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-28:model_added:mistralai%2Fmistral-large-2512%3Abatch</id>
+    <title>Added: mistralai/mistral-large-2512:batch</title>
+    <updated>2026-08-28T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/mistralai%2Fmistral-large-2512%3Abatch"/>
+    <category term="model_added"/>
+    <category term="provider:mistralai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.5000/Mtok, context: 262144.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-28:model_added:mistralai%2Fmistral-medium-3.1%3Abatch</id>
+    <title>Added: mistralai/mistral-medium-3.1:batch</title>
+    <updated>2026-08-28T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/mistralai%2Fmistral-medium-3.1%3Abatch"/>
+    <category term="model_added"/>
+    <category term="provider:mistralai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.4000/Mtok, context: 131072.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-28:model_added:mistralai%2Fcodestral-2508%3Abatch</id>
+    <title>Added: mistralai/codestral-2508:batch</title>
+    <updated>2026-08-28T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/mistralai%2Fcodestral-2508%3Abatch"/>
+    <category term="model_added"/>
+    <category term="provider:mistralai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.3000/Mtok, context: 256000.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-08-27:model_removed:mistralai%2Fministral-8b</id>
     <title>Removed: mistralai/ministral-8b</title>

@@ -32080,6 +32080,1108 @@
         "first_seen": "2026-05-27",
         "last_seen": "2026-08-27"
       }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_added",
+      "id": "tencent/hy4-preview",
+      "provider": "tencent",
+      "snapshot": {
+        "id": "tencent/hy4-preview",
+        "name": "Tencent: Hy4 preview",
+        "provider": "tencent",
+        "pricing": {
+          "prompt": "0.000000834",
+          "completion": "0.000002501",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": 64000,
+        "expiration_date": null,
+        "created": 1787897375,
+        "first_seen": "2026-08-28",
+        "last_seen": "2026-08-28"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000001122",
+          "next": "0.00000066",
+          "pct_change": -41.18
+        },
+        {
+          "field": "completion",
+          "prev": "0.000003366",
+          "next": "0.00000198",
+          "pct_change": -41.18
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "price_changed",
+      "id": "nvidia/nemotron-3.5-lightning",
+      "provider": "nvidia",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000008",
+          "next": "0.0000001",
+          "pct_change": 25
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000002",
+          "next": "0.00000025",
+          "pct_change": 25
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash-0731",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000005",
+          "next": "0.00000007",
+          "pct_change": 40
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000001",
+          "next": "0.00000014",
+          "pct_change": 40
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "context_changed",
+      "id": "kwaipilot/kat-coder-pro-v2.5",
+      "provider": "kwaipilot",
+      "prev_context": 256000,
+      "next_context": 262144
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "price_changed",
+      "id": "tencent/hy3",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000825",
+          "next": "0.000000132",
+          "pct_change": 60
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000033",
+          "next": "0.000000528",
+          "pct_change": 60
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_added",
+      "id": "mistralai/mistral-medium-3-5:batch",
+      "provider": "mistralai",
+      "snapshot": {
+        "id": "mistralai/mistral-medium-3-5:batch",
+        "name": "Mistral: Mistral Medium 3.5 (batch)",
+        "provider": "mistralai",
+        "pricing": {
+          "prompt": "0.00000075",
+          "completion": "0.00000375",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 209715,
+        "expiration_date": null,
+        "created": 1777570439,
+        "first_seen": "2026-08-28",
+        "last_seen": "2026-08-28"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000007644",
+          "next": "0.000000088606",
+          "pct_change": 15.92
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000015288",
+          "next": "0.000000177212",
+          "pct_change": 15.92
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_added",
+      "id": "mistralai/mistral-small-2603:batch",
+      "provider": "mistralai",
+      "snapshot": {
+        "id": "mistralai/mistral-small-2603:batch",
+        "name": "Mistral: Mistral Small 4 (batch)",
+        "provider": "mistralai",
+        "pricing": {
+          "prompt": "0.00000015",
+          "completion": "0.0000006",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 209715,
+        "expiration_date": null,
+        "created": 1773695685,
+        "first_seen": "2026-08-28",
+        "last_seen": "2026-08-28"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_added",
+      "id": "mistralai/ministral-8b-2512:batch",
+      "provider": "mistralai",
+      "snapshot": {
+        "id": "mistralai/ministral-8b-2512:batch",
+        "name": "Mistral: Ministral 3 8B 2512 (batch)",
+        "provider": "mistralai",
+        "pricing": {
+          "prompt": "0.00000015",
+          "completion": "0.00000015",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 209715,
+        "expiration_date": null,
+        "created": 1764681654,
+        "first_seen": "2026-08-28",
+        "last_seen": "2026-08-28"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_added",
+      "id": "mistralai/mistral-large-2512:batch",
+      "provider": "mistralai",
+      "snapshot": {
+        "id": "mistralai/mistral-large-2512:batch",
+        "name": "Mistral: Mistral Large 3 2512 (batch)",
+        "provider": "mistralai",
+        "pricing": {
+          "prompt": "0.0000005",
+          "completion": "0.0000015",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 209715,
+        "expiration_date": null,
+        "created": 1764624472,
+        "first_seen": "2026-08-28",
+        "last_seen": "2026-08-28"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v3.2",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000026",
+          "next": "0.000000269",
+          "pct_change": 3.46
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000038",
+          "next": "0.0000004",
+          "pct_change": 5.26
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_added",
+      "id": "mistralai/mistral-medium-3.1:batch",
+      "provider": "mistralai",
+      "snapshot": {
+        "id": "mistralai/mistral-medium-3.1:batch",
+        "name": "Mistral: Mistral Medium 3.1 (batch)",
+        "provider": "mistralai",
+        "pricing": {
+          "prompt": "0.0000004",
+          "completion": "0.000002",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": 104857,
+        "expiration_date": null,
+        "created": 1755095639,
+        "first_seen": "2026-08-28",
+        "last_seen": "2026-08-28"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_added",
+      "id": "mistralai/codestral-2508:batch",
+      "provider": "mistralai",
+      "snapshot": {
+        "id": "mistralai/codestral-2508:batch",
+        "name": "Mistral: Codestral 2508 (batch)",
+        "provider": "mistralai",
+        "pricing": {
+          "prompt": "0.0000003",
+          "completion": "0.0000009",
+          "image": null,
+          "request": null
+        },
+        "context_length": 256000,
+        "max_completion_tokens": 204800,
+        "expiration_date": null,
+        "created": 1754079630,
+        "first_seen": "2026-08-28",
+        "last_seen": "2026-08-28"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "context_changed",
+      "id": "google/gemma-3-27b-it",
+      "provider": "google",
+      "prev_context": 262144,
+      "next_context": 131072
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_removed",
+      "id": "openai/gpt-3.5-turbo:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-3.5-turbo:batch",
+        "name": "OpenAI: GPT-3.5 Turbo (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.00000025",
+          "completion": "0.00000075",
+          "image": null,
+          "request": null
+        },
+        "context_length": 16385,
+        "max_completion_tokens": 4096,
+        "expiration_date": null,
+        "created": 1685232000,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-27"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_removed",
+      "id": "openai/gpt-4-turbo:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-4-turbo:batch",
+        "name": "OpenAI: GPT-4 Turbo (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.000005",
+          "completion": "0.000015",
+          "image": null,
+          "request": null
+        },
+        "context_length": 128000,
+        "max_completion_tokens": 4096,
+        "expiration_date": null,
+        "created": 1712620800,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-27"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_removed",
+      "id": "openai/gpt-4.1-mini:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-4.1-mini:batch",
+        "name": "OpenAI: GPT-4.1 Mini (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.0000002",
+          "completion": "0.0000008",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1047576,
+        "max_completion_tokens": 32768,
+        "expiration_date": null,
+        "created": 1744651381,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-27"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_removed",
+      "id": "openai/gpt-4.1-nano:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-4.1-nano:batch",
+        "name": "OpenAI: GPT-4.1 Nano (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.00000005",
+          "completion": "0.0000002",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1047576,
+        "max_completion_tokens": 32768,
+        "expiration_date": null,
+        "created": 1744651369,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-27"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_removed",
+      "id": "openai/gpt-4.1:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-4.1:batch",
+        "name": "OpenAI: GPT-4.1 (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.000001",
+          "completion": "0.000004",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1047576,
+        "max_completion_tokens": 32768,
+        "expiration_date": null,
+        "created": 1744651385,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-27"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_removed",
+      "id": "openai/gpt-4o-mini:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-4o-mini:batch",
+        "name": "OpenAI: GPT-4o-mini (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.000000075",
+          "completion": "0.0000003",
+          "image": null,
+          "request": null
+        },
+        "context_length": 128000,
+        "max_completion_tokens": 16384,
+        "expiration_date": null,
+        "created": 1721260800,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-27"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_removed",
+      "id": "openai/gpt-4o:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-4o:batch",
+        "name": "OpenAI: GPT-4o (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.00000125",
+          "completion": "0.000005",
+          "image": null,
+          "request": null
+        },
+        "context_length": 128000,
+        "max_completion_tokens": 16384,
+        "expiration_date": null,
+        "created": 1715558400,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-27"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_removed",
+      "id": "openai/gpt-5-codex:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-5-codex:batch",
+        "name": "OpenAI: GPT-5 Codex (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.000000625",
+          "completion": "0.000005",
+          "image": null,
+          "request": null
+        },
+        "context_length": 400000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1758643403,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-27"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_removed",
+      "id": "openai/gpt-5-mini:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-5-mini:batch",
+        "name": "OpenAI: GPT-5 Mini (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.000000125",
+          "completion": "0.000001",
+          "image": null,
+          "request": null
+        },
+        "context_length": 400000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1754587407,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-27"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_removed",
+      "id": "openai/gpt-5-nano:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-5-nano:batch",
+        "name": "OpenAI: GPT-5 Nano (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.000000025",
+          "completion": "0.0000002",
+          "image": null,
+          "request": null
+        },
+        "context_length": 400000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1754587402,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-27"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_removed",
+      "id": "openai/gpt-5-pro:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-5-pro:batch",
+        "name": "OpenAI: GPT-5 Pro (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.0000075",
+          "completion": "0.00006",
+          "image": null,
+          "request": null
+        },
+        "context_length": 400000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1759776663,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-27"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_removed",
+      "id": "openai/gpt-5:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-5:batch",
+        "name": "OpenAI: GPT-5 (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.000000625",
+          "completion": "0.000005",
+          "image": null,
+          "request": null
+        },
+        "context_length": 400000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1754587413,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-27"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_removed",
+      "id": "openai/gpt-5.1:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-5.1:batch",
+        "name": "OpenAI: GPT-5.1 (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.000000625",
+          "completion": "0.000005",
+          "image": null,
+          "request": null
+        },
+        "context_length": 400000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1763060305,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-27"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_removed",
+      "id": "openai/gpt-5.2-pro:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-5.2-pro:batch",
+        "name": "OpenAI: GPT-5.2 Pro (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.0000105",
+          "completion": "0.000084",
+          "image": null,
+          "request": null
+        },
+        "context_length": 400000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1765389780,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-27"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_removed",
+      "id": "openai/gpt-5.2:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-5.2:batch",
+        "name": "OpenAI: GPT-5.2 (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.000000875",
+          "completion": "0.000007",
+          "image": null,
+          "request": null
+        },
+        "context_length": 400000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1765389775,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-27"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_removed",
+      "id": "openai/gpt-5.4-mini:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-5.4-mini:batch",
+        "name": "OpenAI: GPT-5.4 Mini (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.000000375",
+          "completion": "0.00000225",
+          "image": null,
+          "request": null
+        },
+        "context_length": 400000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1773748178,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-27"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_removed",
+      "id": "openai/gpt-5.4-nano:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-5.4-nano:batch",
+        "name": "OpenAI: GPT-5.4 Nano (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.0000001",
+          "completion": "0.000000625",
+          "image": null,
+          "request": null
+        },
+        "context_length": 400000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1773748187,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-27"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_removed",
+      "id": "openai/gpt-5.4-pro:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-5.4-pro:batch",
+        "name": "OpenAI: GPT-5.4 Pro (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.000015",
+          "completion": "0.00009",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1772734366,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-27"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_removed",
+      "id": "openai/gpt-5.4:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-5.4:batch",
+        "name": "OpenAI: GPT-5.4 (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.00000125",
+          "completion": "0.0000075",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1772734352,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-27"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_removed",
+      "id": "openai/gpt-5.5-pro:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-5.5-pro:batch",
+        "name": "OpenAI: GPT-5.5 Pro (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.000015",
+          "completion": "0.00009",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1777051896,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-27"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_removed",
+      "id": "openai/gpt-5.5:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-5.5:batch",
+        "name": "OpenAI: GPT-5.5 (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.0000025",
+          "completion": "0.000015",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1777051893,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-27"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_removed",
+      "id": "openai/gpt-5.6-luna-pro:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-5.6-luna-pro:batch",
+        "name": "OpenAI: GPT-5.6 Luna Pro (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.0000001",
+          "completion": "0.0000006",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1783590867,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-27"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_removed",
+      "id": "openai/gpt-5.6-luna:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-5.6-luna:batch",
+        "name": "OpenAI: GPT-5.6 Luna (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.0000001",
+          "completion": "0.0000006",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1783590864,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-27"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_removed",
+      "id": "openai/gpt-5.6-sol-pro:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-5.6-sol-pro:batch",
+        "name": "OpenAI: GPT-5.6 Sol Pro (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.000001",
+          "completion": "0.000005",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1783590854,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-27"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_removed",
+      "id": "openai/gpt-5.6-sol:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-5.6-sol:batch",
+        "name": "OpenAI: GPT-5.6 Sol (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.000001",
+          "completion": "0.000005",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1783590850,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-27"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_removed",
+      "id": "openai/gpt-5.6-terra-pro:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-5.6-terra-pro:batch",
+        "name": "OpenAI: GPT-5.6 Terra Pro (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.000001",
+          "completion": "0.000006",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1783590861,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-27"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_removed",
+      "id": "openai/gpt-5.6-terra:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-5.6-terra:batch",
+        "name": "OpenAI: GPT-5.6 Terra (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.000001",
+          "completion": "0.000006",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1783590857,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-27"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_removed",
+      "id": "openai/o1-pro:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/o1-pro:batch",
+        "name": "OpenAI: o1-pro (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.000075",
+          "completion": "0.0003",
+          "image": null,
+          "request": null
+        },
+        "context_length": 200000,
+        "max_completion_tokens": 100000,
+        "expiration_date": null,
+        "created": 1742423211,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-27"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_removed",
+      "id": "openai/o1:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/o1:batch",
+        "name": "OpenAI: o1 (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.0000075",
+          "completion": "0.00003",
+          "image": null,
+          "request": null
+        },
+        "context_length": 200000,
+        "max_completion_tokens": 100000,
+        "expiration_date": null,
+        "created": 1734459999,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-27"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_removed",
+      "id": "openai/o3-mini-high:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/o3-mini-high:batch",
+        "name": "OpenAI: o3 Mini High (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.00000055",
+          "completion": "0.0000022",
+          "image": null,
+          "request": null
+        },
+        "context_length": 200000,
+        "max_completion_tokens": 100000,
+        "expiration_date": null,
+        "created": 1739372611,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-27"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_removed",
+      "id": "openai/o3-mini:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/o3-mini:batch",
+        "name": "OpenAI: o3 Mini (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.00000055",
+          "completion": "0.0000022",
+          "image": null,
+          "request": null
+        },
+        "context_length": 200000,
+        "max_completion_tokens": 100000,
+        "expiration_date": null,
+        "created": 1738351721,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-27"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_removed",
+      "id": "openai/o3-pro:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/o3-pro:batch",
+        "name": "OpenAI: o3 Pro (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.00001",
+          "completion": "0.00004",
+          "image": null,
+          "request": null
+        },
+        "context_length": 200000,
+        "max_completion_tokens": 100000,
+        "expiration_date": null,
+        "created": 1749598352,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-27"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_removed",
+      "id": "openai/o3:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/o3:batch",
+        "name": "OpenAI: o3 (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.000001",
+          "completion": "0.000004",
+          "image": null,
+          "request": null
+        },
+        "context_length": 200000,
+        "max_completion_tokens": 100000,
+        "expiration_date": null,
+        "created": 1744823457,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-27"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_removed",
+      "id": "openai/o4-mini-high:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/o4-mini-high:batch",
+        "name": "OpenAI: o4 Mini High (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.00000055",
+          "completion": "0.0000022",
+          "image": null,
+          "request": null
+        },
+        "context_length": 200000,
+        "max_completion_tokens": 100000,
+        "expiration_date": null,
+        "created": 1744824212,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-27"
+      }
+    },
+    {
+      "ts": "2026-08-28",
+      "type": "model_removed",
+      "id": "openai/o4-mini:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/o4-mini:batch",
+        "name": "OpenAI: o4 Mini (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.00000055",
+          "completion": "0.0000022",
+          "image": null,
+          "request": null
+        },
+        "context_length": 200000,
+        "max_completion_tokens": 100000,
+        "expiration_date": null,
+        "created": 1744820942,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-27"
+      }
     }
   ]
 }
