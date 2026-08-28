@@ -91,9 +91,9 @@
       "name": "Google Gemini Flash Latest",
       "provider": "~google",
       "pricing": {
-        "prompt": "0.000000375",
-        "completion": "0.000001875",
-        "image": "0.000000375",
+        "prompt": "0.00000075",
+        "completion": "0.00000375",
+        "image": "0.00000075",
         "request": null
       },
       "context_length": 1048576,
@@ -193,14 +193,14 @@
       "name": "Z.ai: GLM Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.0000014",
+        "prompt": "0.00000125",
         "completion": "0.0000044",
         "image": null,
         "request": null
       },
-      "context_length": 1048576,
+      "context_length": 1310720,
       "max_completion_tokens": 131072,
-      "expiration_date": "2098-12-31",
+      "expiration_date": null,
       "created": 1787151053,
       "first_seen": "2026-08-19",
       "last_seen": "2026-08-28"
@@ -1298,8 +1298,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000088606",
-        "completion": "0.000000177212",
+        "prompt": "0.0000000868",
+        "completion": "0.0000001736",
         "image": null,
         "request": null
       },
@@ -1315,8 +1315,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000007",
-        "completion": "0.00000014",
+        "prompt": "0.00000005",
+        "completion": "0.0000001",
         "image": null,
         "request": null
       },
@@ -1325,6 +1325,23 @@
       "expiration_date": null,
       "created": 1785478908,
       "first_seen": "2026-07-31",
+      "last_seen": "2026-08-28"
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash-0731:batch",
+      "name": "DeepSeek: DeepSeek V4 Flash 0731 (batch)",
+      "provider": "deepseek",
+      "pricing": {
+        "prompt": "0.00000014",
+        "completion": "0.00000028",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1048576,
+      "max_completion_tokens": 943718,
+      "expiration_date": null,
+      "created": 1785478908,
+      "first_seen": "2026-08-28",
       "last_seen": "2026-08-28"
     },
     {
@@ -1349,8 +1366,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000087",
-        "completion": "0.00000174",
+        "prompt": "0.000000741588",
+        "completion": "0.000001483176",
         "image": null,
         "request": null
       },
@@ -1376,6 +1393,23 @@
       "expiration_date": null,
       "created": 1786549364,
       "first_seen": "2026-08-12",
+      "last_seen": "2026-08-28"
+    },
+    {
+      "id": "deepseek/deepseek-v4-pro-0813:batch",
+      "name": "DeepSeek: DeepSeek V4 Pro 0813 (batch)",
+      "provider": "deepseek",
+      "pricing": {
+        "prompt": "0.00000132",
+        "completion": "0.00000396",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1048576,
+      "max_completion_tokens": 943718,
+      "expiration_date": null,
+      "created": 1786549364,
+      "first_seen": "2026-08-28",
       "last_seen": "2026-08-28"
     },
     {
@@ -1876,9 +1910,9 @@
       "name": "Google: Gemini 3.7 Flash",
       "provider": "google",
       "pricing": {
-        "prompt": "0.000000375",
-        "completion": "0.000001875",
-        "image": "0.000000375",
+        "prompt": "0.00000075",
+        "completion": "0.00000375",
+        "image": "0.00000075",
         "request": null
       },
       "context_length": 1048576,
@@ -2022,6 +2056,23 @@
       "expiration_date": null,
       "created": 1775148486,
       "first_seen": "2026-05-27",
+      "last_seen": "2026-08-28"
+    },
+    {
+      "id": "google/gemma-4-31b-it:batch",
+      "name": "Google: Gemma 4 31B (batch)",
+      "provider": "google",
+      "pricing": {
+        "prompt": "0.00000039",
+        "completion": "0.00000097",
+        "image": null,
+        "request": null
+      },
+      "context_length": 262144,
+      "max_completion_tokens": 235929,
+      "expiration_date": null,
+      "created": 1775148486,
+      "first_seen": "2026-08-28",
       "last_seen": "2026-08-28"
     },
     {
@@ -2420,6 +2471,23 @@
       "name": "Meta: Muse Glimmer 30B",
       "provider": "meta",
       "pricing": {
+        "prompt": "0.0000003",
+        "completion": "0.0000012",
+        "image": null,
+        "request": null
+      },
+      "context_length": 131072,
+      "max_completion_tokens": 16384,
+      "expiration_date": null,
+      "created": 1786302394,
+      "first_seen": "2026-08-11",
+      "last_seen": "2026-08-28"
+    },
+    {
+      "id": "meta/muse-glimmer-30b:batch",
+      "name": "Meta: Muse Glimmer 30B (batch)",
+      "provider": "meta",
+      "pricing": {
         "prompt": "0.00000035",
         "completion": "0.0000015",
         "image": null,
@@ -2429,7 +2497,7 @@
       "max_completion_tokens": 117964,
       "expiration_date": null,
       "created": 1786302394,
-      "first_seen": "2026-08-11",
+      "first_seen": "2026-08-28",
       "last_seen": "2026-08-28"
     },
     {
@@ -3122,8 +3190,8 @@
         "image": null,
         "request": null
       },
-      "context_length": 32000,
-      "max_completion_tokens": 25600,
+      "context_length": 32768,
+      "max_completion_tokens": 26214,
       "expiration_date": null,
       "created": 1761835144,
       "first_seen": "2026-05-27",
@@ -3236,6 +3304,23 @@
       "name": "MoonshotAI: Kimi K3",
       "provider": "moonshotai",
       "pricing": {
+        "prompt": "0.00000255",
+        "completion": "0.00001275",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1048576,
+      "max_completion_tokens": 943718,
+      "expiration_date": null,
+      "created": 1784215858,
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-08-28"
+    },
+    {
+      "id": "moonshotai/kimi-k3:batch",
+      "name": "MoonshotAI: Kimi K3 (batch)",
+      "provider": "moonshotai",
+      "pricing": {
         "prompt": "0.000003",
         "completion": "0.000015",
         "image": null,
@@ -3245,7 +3330,7 @@
       "max_completion_tokens": 943718,
       "expiration_date": null,
       "created": 1784215858,
-      "first_seen": "2026-07-16",
+      "first_seen": "2026-08-28",
       "last_seen": "2026-08-28"
     },
     {
@@ -3525,13 +3610,13 @@
       "name": "NVIDIA: Nemotron 3.5 Lightning",
       "provider": "nvidia",
       "pricing": {
-        "prompt": "0.0000001",
-        "completion": "0.00000025",
+        "prompt": "0.00000008",
+        "completion": "0.0000002",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 235929,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1786452751,
       "first_seen": "2026-08-11",
@@ -3718,7 +3803,7 @@
         "request": null
       },
       "context_length": 1047576,
-      "max_completion_tokens": 32768,
+      "max_completion_tokens": 942818,
       "expiration_date": null,
       "created": 1744651369,
       "first_seen": "2026-05-27",
@@ -4371,6 +4456,23 @@
       "last_seen": "2026-08-28"
     },
     {
+      "id": "openai/gpt-oss-120b:batch",
+      "name": "OpenAI: gpt-oss-120b (batch)",
+      "provider": "openai",
+      "pricing": {
+        "prompt": "0.00000015",
+        "completion": "0.0000006",
+        "image": null,
+        "request": null
+      },
+      "context_length": 131072,
+      "max_completion_tokens": 117964,
+      "expiration_date": null,
+      "created": 1754414231,
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-08-28"
+    },
+    {
       "id": "openai/gpt-oss-20b",
       "name": "OpenAI: gpt-oss-20b",
       "provider": "openai",
@@ -4385,6 +4487,23 @@
       "expiration_date": null,
       "created": 1754414229,
       "first_seen": "2026-05-27",
+      "last_seen": "2026-08-28"
+    },
+    {
+      "id": "openai/gpt-oss-20b:batch",
+      "name": "OpenAI: gpt-oss-20b (batch)",
+      "provider": "openai",
+      "pricing": {
+        "prompt": "0.00000005",
+        "completion": "0.0000002",
+        "image": null,
+        "request": null
+      },
+      "context_length": 131072,
+      "max_completion_tokens": 117964,
+      "expiration_date": null,
+      "created": 1754414229,
+      "first_seen": "2026-08-28",
       "last_seen": "2026-08-28"
     },
     {
@@ -5259,13 +5378,13 @@
       "name": "Qwen: Qwen3 VL 30B A3B Instruct",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000013",
-        "completion": "0.00000052",
+        "prompt": "0.00000015",
+        "completion": "0.0000006",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 32768,
+      "max_completion_tokens": 16384,
       "expiration_date": null,
       "created": 1759794476,
       "first_seen": "2026-05-27",
@@ -5344,13 +5463,13 @@
       "name": "Qwen: Qwen3.5-122B-A10B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000026",
-        "completion": "0.00000208",
+        "prompt": "0.00000029",
+        "completion": "0.0000024",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 235929,
+      "max_completion_tokens": 81920,
       "expiration_date": null,
       "created": 1772053789,
       "first_seen": "2026-05-27",
@@ -5422,6 +5541,23 @@
       "expiration_date": null,
       "created": 1773152396,
       "first_seen": "2026-05-27",
+      "last_seen": "2026-08-28"
+    },
+    {
+      "id": "qwen/qwen3.5-9b:batch",
+      "name": "Qwen: Qwen3.5-9B (batch)",
+      "provider": "qwen",
+      "pricing": {
+        "prompt": "0.00000017",
+        "completion": "0.00000025",
+        "image": null,
+        "request": null
+      },
+      "context_length": 262144,
+      "max_completion_tokens": 235929,
+      "expiration_date": null,
+      "created": 1773152396,
+      "first_seen": "2026-08-28",
       "last_seen": "2026-08-28"
     },
     {
@@ -5622,10 +5758,27 @@
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1786551702,
       "first_seen": "2026-08-12",
+      "last_seen": "2026-08-28"
+    },
+    {
+      "id": "qwen/qwen3.8-2.4t-a95b:batch",
+      "name": "Qwen: Qwen3.8 2.4T A95B (batch)",
+      "provider": "qwen",
+      "pricing": {
+        "prompt": "0.000002",
+        "completion": "0.000006",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1010000,
+      "max_completion_tokens": 909000,
+      "expiration_date": null,
+      "created": 1786551702,
+      "first_seen": "2026-08-28",
       "last_seen": "2026-08-28"
     },
     {
@@ -5939,8 +6092,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },
@@ -6068,6 +6221,23 @@
       "expiration_date": null,
       "created": 1785443117,
       "first_seen": "2026-07-31",
+      "last_seen": "2026-08-28"
+    },
+    {
+      "id": "thinkingmachines/inkling-small:batch",
+      "name": "Thinking Machines: Inkling Small (batch)",
+      "provider": "thinkingmachines",
+      "pricing": {
+        "prompt": "0.0000005",
+        "completion": "0.0000012",
+        "image": null,
+        "request": null
+      },
+      "context_length": 524288,
+      "max_completion_tokens": 471859,
+      "expiration_date": null,
+      "created": 1785443117,
+      "first_seen": "2026-08-28",
       "last_seen": "2026-08-28"
     },
     {
@@ -6539,7 +6709,7 @@
         "image": null,
         "request": null
       },
-      "context_length": 1048576,
+      "context_length": 1310720,
       "max_completion_tokens": 131072,
       "expiration_date": "2098-12-31",
       "created": 1787086655,
@@ -6561,6 +6731,23 @@
       "expiration_date": "2098-12-31",
       "created": 1787752741,
       "first_seen": "2026-08-26",
+      "last_seen": "2026-08-28"
+    },
+    {
+      "id": "z-ai/glm-5.3-flash:batch",
+      "name": "Z.ai: GLM 5.3 Flash (batch)",
+      "provider": "z-ai",
+      "pricing": {
+        "prompt": "0.00000015",
+        "completion": "0.0000005",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1048575,
+      "max_completion_tokens": 943717,
+      "expiration_date": null,
+      "created": 1787752741,
+      "first_seen": "2026-08-28",
       "last_seen": "2026-08-28"
     },
     {

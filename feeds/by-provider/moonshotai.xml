@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-provider/moonshotai.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/moonshotai.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-08-27T00:00:00Z</updated>
+  <updated>2026-08-28T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-28:price_changed:moonshotai%2Fkimi-k3</id>
+    <title>Price changed: moonshotai/kimi-k3</title>
+    <updated>2026-08-28T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k3"/>
+    <category term="price_changed"/>
+    <category term="provider:moonshotai"/>
+    <summary>prompt: $3.0000/Mtok → $2.5500/Mtok (-15%); completion: $15.0000/Mtok → $12.7500/Mtok (-15%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-28:model_added:moonshotai%2Fkimi-k3%3Abatch</id>
+    <title>Added: moonshotai/kimi-k3:batch</title>
+    <updated>2026-08-28T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k3%3Abatch"/>
+    <category term="model_added"/>
+    <category term="provider:moonshotai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $3.0000/Mtok, context: 1048576.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-08-27:price_changed:moonshotai%2Fkimi-k2.5</id>
     <title>Price changed: moonshotai/kimi-k2.5</title>
@@ -886,23 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:moonshotai"/>
     <summary>prompt: $0.6840/Mtok → $0.6800/Mtok (-0.58%); completion: $3.4200/Mtok → $3.4100/Mtok (-0.29%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:moonshotai%2Fkimi-k2.6%3Afree</id>
-    <title>Added: moonshotai/kimi-k2.6:free</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k2.6%3Afree"/>
-    <category term="model_added"/>
-    <category term="provider:moonshotai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 262144.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:moonshotai%2Fkimi-k2.6</id>
-    <title>Added: moonshotai/kimi-k2.6</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k2.6"/>
-    <category term="model_added"/>
-    <category term="provider:moonshotai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.7300/Mtok, context: 262144.</summary>
   </entry>
 </feed>

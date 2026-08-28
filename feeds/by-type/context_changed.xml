@@ -24,6 +24,33 @@
     <summary>262144 → 131072 tokens</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-08-28:context_changed:~z-ai%2Fglm-latest</id>
+    <title>Context window changed: ~z-ai/glm-latest</title>
+    <updated>2026-08-28T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/~z-ai%2Fglm-latest"/>
+    <category term="context_changed"/>
+    <category term="provider:~z-ai"/>
+    <summary>1048576 → 1310720 tokens</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-28:context_changed:z-ai%2Fglm-5.3</id>
+    <title>Context window changed: z-ai/glm-5.3</title>
+    <updated>2026-08-28T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.3"/>
+    <category term="context_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>1048576 → 1310720 tokens</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-28:context_changed:mistralai%2Fvoxtral-small-24b-2507</id>
+    <title>Context window changed: mistralai/voxtral-small-24b-2507</title>
+    <updated>2026-08-28T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/mistralai%2Fvoxtral-small-24b-2507"/>
+    <category term="context_changed"/>
+    <category term="provider:mistralai"/>
+    <summary>32000 → 32768 tokens</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-08-27:context_changed:nvidia%2Fnemotron-3-ultra-550b-a55b</id>
     <title>Context window changed: nvidia/nemotron-3-ultra-550b-a55b</title>
     <updated>2026-08-27T00:00:00Z</updated>
@@ -877,32 +904,5 @@
     <category term="context_changed"/>
     <category term="provider:deepseek"/>
     <summary>163840 → 131072 tokens</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-12:context_changed:deepseek%2Fdeepseek-chat-v3-0324</id>
-    <title>Context window changed: deepseek/deepseek-chat-v3-0324</title>
-    <updated>2026-06-12T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-chat-v3-0324"/>
-    <category term="context_changed"/>
-    <category term="provider:deepseek"/>
-    <summary>131072 → 163840 tokens</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-11:context_changed:deepseek%2Fdeepseek-r1-distill-llama-70b</id>
-    <title>Context window changed: deepseek/deepseek-r1-distill-llama-70b</title>
-    <updated>2026-06-11T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-r1-distill-llama-70b"/>
-    <category term="context_changed"/>
-    <category term="provider:deepseek"/>
-    <summary>131072 → 128000 tokens</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-10:context_changed:z-ai%2Fglm-5-turbo</id>
-    <title>Context window changed: z-ai/glm-5-turbo</title>
-    <updated>2026-06-10T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5-turbo"/>
-    <category term="context_changed"/>
-    <category term="provider:z-ai"/>
-    <summary>202752 → 262144 tokens</summary>
   </entry>
 </feed>

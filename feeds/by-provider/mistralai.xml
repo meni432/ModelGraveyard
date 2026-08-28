@@ -60,6 +60,15 @@
     <summary>New model on OpenRouter. Initial prompt price: $0.3000/Mtok, context: 256000.</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-08-28:context_changed:mistralai%2Fvoxtral-small-24b-2507</id>
+    <title>Context window changed: mistralai/voxtral-small-24b-2507</title>
+    <updated>2026-08-28T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/mistralai%2Fvoxtral-small-24b-2507"/>
+    <category term="context_changed"/>
+    <category term="provider:mistralai"/>
+    <summary>32000 → 32768 tokens</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-08-27:model_removed:mistralai%2Fministral-8b</id>
     <title>Removed: mistralai/ministral-8b</title>
     <updated>2026-08-27T00:00:00Z</updated>
