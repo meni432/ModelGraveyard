@@ -193,13 +193,13 @@
       "name": "Z.ai: GLM Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.0000012",
-        "completion": "0.000004",
+        "prompt": "0.0000011875",
+        "completion": "0.00000418",
         "image": null,
         "request": null
       },
       "context_length": 1310720,
-      "max_completion_tokens": 943718,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1787151053,
       "first_seen": "2026-08-19",
@@ -1230,13 +1230,13 @@
       "name": "DeepSeek: DeepSeek V3.2",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000026",
-        "completion": "0.00000038",
+        "prompt": "0.000000269",
+        "completion": "0.0000004",
         "image": null,
         "request": null
       },
       "context_length": 163840,
-      "max_completion_tokens": 147456,
+      "max_completion_tokens": 65536,
       "expiration_date": null,
       "created": 1764594642,
       "first_seen": "2026-05-27",
@@ -1264,8 +1264,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000008484",
-        "completion": "0.00000016968",
+        "prompt": "0.00000008316",
+        "completion": "0.00000016632",
         "image": null,
         "request": null
       },
@@ -1332,8 +1332,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000680862",
-        "completion": "0.000001361724",
+        "prompt": "0.00000057942",
+        "completion": "0.00000115884",
         "image": null,
         "request": null
       },
@@ -6058,8 +6058,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },
