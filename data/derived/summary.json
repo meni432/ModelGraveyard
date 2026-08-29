@@ -7,6 +7,66 @@
     {
       "ts": "2026-08-29",
       "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000008316",
+          "next": "0.00000008204",
+          "pct_change": -1.35
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000016632",
+          "next": "0.00000016408",
+          "pct_change": -1.35
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-29",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000057942",
+          "next": "0.00000054897",
+          "pct_change": -5.26
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000115884",
+          "next": "0.00000109794",
+          "pct_change": -5.26
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-29",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash-0731",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000045",
+          "next": "0.00000005",
+          "pct_change": 11.11
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000009",
+          "next": "0.0000001",
+          "pct_change": 11.11
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-29",
+      "type": "price_changed",
       "id": "deepseek/deepseek-v3.2",
       "provider": "deepseek",
       "changes": [
@@ -355,54 +415,6 @@
         "first_seen": "2026-08-28",
         "last_seen": "2026-08-28"
       }
-    },
-    {
-      "ts": "2026-08-28",
-      "type": "price_changed",
-      "id": "qwen/qwen3-vl-30b-a3b-instruct",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000013",
-          "next": "0.00000015",
-          "pct_change": 15.38
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000052",
-          "next": "0.0000006",
-          "pct_change": 15.38
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-28",
-      "type": "context_changed",
-      "id": "mistralai/voxtral-small-24b-2507",
-      "provider": "mistralai",
-      "prev_context": 32000,
-      "next_context": 32768
-    },
-    {
-      "ts": "2026-08-28",
-      "type": "price_changed",
-      "id": "qwen/qwen3.5-122b-a10b",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000026",
-          "next": "0.00000029",
-          "pct_change": 11.54
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000208",
-          "next": "0.0000024",
-          "pct_change": 15.38
-        }
-      ]
     }
   ],
   "scheduled_funerals": [
