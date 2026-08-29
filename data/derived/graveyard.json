@@ -1,6 +1,40 @@
 {
   "buried": [
     {
+      "id": "allenai/olmo-3-32b-think",
+      "name": "AllenAI: Olmo 3 32B Think",
+      "provider": "allenai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000015",
+        "completion": "0.0000005",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 65536,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-08-28",
+      "buried_at": "2026-08-29",
+      "suggested_replacement": null
+    },
+    {
+      "id": "arcee-ai/virtuoso-large",
+      "name": "Arcee AI: Virtuoso Large",
+      "provider": "arcee-ai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000075",
+        "completion": "0.0000012",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 131072,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-08-28",
+      "buried_at": "2026-08-29",
+      "suggested_replacement": "arcee-ai/trinity-large-thinking"
+    },
+    {
       "id": "openai/gpt-3.5-turbo:batch",
       "name": "OpenAI: GPT-3.5 Turbo (batch)",
       "provider": "openai",

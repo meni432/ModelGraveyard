@@ -33705,6 +33705,212 @@
         "first_seen": "2026-08-28",
         "last_seen": "2026-08-28"
       }
+    },
+    {
+      "ts": "2026-08-29",
+      "type": "price_changed",
+      "id": "~z-ai/glm-latest",
+      "provider": "~z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000125",
+          "next": "0.0000012",
+          "pct_change": -4
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000044",
+          "next": "0.000004",
+          "pct_change": -9.09
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-29",
+      "type": "price_changed",
+      "id": "qwen/qwen3.8-2.4t-a95b:batch",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000002",
+          "next": "0.0000025",
+          "pct_change": 25
+        },
+        {
+          "field": "completion",
+          "prev": "0.000006",
+          "next": "0.00000625",
+          "pct_change": 4.17
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-29",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash-0731",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000005",
+          "next": "0.000000045",
+          "pct_change": -10
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000001",
+          "next": "0.00000009",
+          "pct_change": -10
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-29",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k3",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000255",
+          "next": "0.000003",
+          "pct_change": 17.65
+        },
+        {
+          "field": "completion",
+          "prev": "0.00001275",
+          "next": "0.000015",
+          "pct_change": 17.65
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-29",
+      "type": "price_changed",
+      "id": "tencent/hy3",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000825",
+          "next": "0.000000132",
+          "pct_change": 60
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000033",
+          "next": "0.000000528",
+          "pct_change": 60
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-29",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000741588",
+          "next": "0.000000680862",
+          "pct_change": -8.19
+        },
+        {
+          "field": "completion",
+          "prev": "0.000001483176",
+          "next": "0.000001361724",
+          "pct_change": -8.19
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-29",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000868",
+          "next": "0.00000008484",
+          "pct_change": -2.26
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000001736",
+          "next": "0.00000016968",
+          "pct_change": -2.26
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-29",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v3.2",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000269",
+          "next": "0.00000026",
+          "pct_change": -3.35
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000004",
+          "next": "0.00000038",
+          "pct_change": -5
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-29",
+      "type": "model_removed",
+      "id": "allenai/olmo-3-32b-think",
+      "provider": "allenai",
+      "snapshot": {
+        "id": "allenai/olmo-3-32b-think",
+        "name": "AllenAI: Olmo 3 32B Think",
+        "provider": "allenai",
+        "pricing": {
+          "prompt": "0.00000015",
+          "completion": "0.0000005",
+          "image": null,
+          "request": null
+        },
+        "context_length": 65536,
+        "max_completion_tokens": 58982,
+        "expiration_date": null,
+        "created": 1763758276,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-08-28"
+      }
+    },
+    {
+      "ts": "2026-08-29",
+      "type": "model_removed",
+      "id": "arcee-ai/virtuoso-large",
+      "provider": "arcee-ai",
+      "snapshot": {
+        "id": "arcee-ai/virtuoso-large",
+        "name": "Arcee AI: Virtuoso Large",
+        "provider": "arcee-ai",
+        "pricing": {
+          "prompt": "0.00000075",
+          "completion": "0.0000012",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": 64000,
+        "expiration_date": null,
+        "created": 1746478885,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-08-28"
+      }
     }
   ]
 }
