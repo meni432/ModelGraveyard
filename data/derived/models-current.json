@@ -856,13 +856,13 @@
       "name": "Arcee AI: Trinity Large Thinking",
       "provider": "arcee-ai",
       "pricing": {
-        "prompt": "0.00000022",
-        "completion": "0.00000085",
+        "prompt": "0.00000025",
+        "completion": "0.0000008",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 235929,
+      "max_completion_tokens": 80000,
       "expiration_date": null,
       "created": 1775058318,
       "first_seen": "2026-05-27",
@@ -1264,8 +1264,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000008064",
-        "completion": "0.00000016128",
+        "prompt": "0.0000000798",
+        "completion": "0.0000001596",
         "image": null,
         "request": null
       },
@@ -1332,8 +1332,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000498336",
-        "completion": "0.000000996672",
+        "prompt": "0.000000427344",
+        "completion": "0.000000854688",
         "image": null,
         "request": null
       },

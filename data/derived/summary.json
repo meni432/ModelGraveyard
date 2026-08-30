@@ -7,6 +7,66 @@
     {
       "ts": "2026-08-30",
       "type": "price_changed",
+      "id": "arcee-ai/trinity-large-thinking",
+      "provider": "arcee-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000022",
+          "next": "0.00000025",
+          "pct_change": 13.64
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000085",
+          "next": "0.0000008",
+          "pct_change": -5.88
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-30",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000008064",
+          "next": "0.0000000798",
+          "pct_change": -1.04
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000016128",
+          "next": "0.0000001596",
+          "pct_change": -1.04
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-30",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000498336",
+          "next": "0.000000427344",
+          "pct_change": -14.25
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000996672",
+          "next": "0.000000854688",
+          "pct_change": -14.25
+        }
+      ]
+    },
+    {
+      "ts": "2026-08-30",
+      "type": "price_changed",
       "id": "qwen/qwen3-next-80b-a3b-instruct",
       "provider": "qwen",
       "changes": [
@@ -328,69 +388,6 @@
         "first_seen": "2026-05-27",
         "last_seen": "2026-08-28"
       }
-    },
-    {
-      "ts": "2026-08-29",
-      "type": "model_removed",
-      "id": "allenai/olmo-3-32b-think",
-      "provider": "allenai",
-      "snapshot": {
-        "id": "allenai/olmo-3-32b-think",
-        "name": "AllenAI: Olmo 3 32B Think",
-        "provider": "allenai",
-        "pricing": {
-          "prompt": "0.00000015",
-          "completion": "0.0000005",
-          "image": null,
-          "request": null
-        },
-        "context_length": 65536,
-        "max_completion_tokens": 58982,
-        "expiration_date": null,
-        "created": 1763758276,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-08-28"
-      }
-    },
-    {
-      "ts": "2026-08-29",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v3.2",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000269",
-          "next": "0.00000026",
-          "pct_change": -3.35
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000004",
-          "next": "0.00000038",
-          "pct_change": -5
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-29",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-flash",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000000868",
-          "next": "0.00000008484",
-          "pct_change": -2.26
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000001736",
-          "next": "0.00000016968",
-          "pct_change": -2.26
-        }
-      ]
     }
   ],
   "scheduled_funerals": [
