@@ -1,6 +1,23 @@
 {
   "buried": [
     {
+      "id": "kwaipilot/kat-coder-air-v2.5",
+      "name": "Kwaipilot: KAT-Coder-Air V2.5",
+      "provider": "kwaipilot",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000015",
+        "completion": "0.0000006",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 256000,
+      "first_seen": "2026-07-14",
+      "last_seen": "2026-08-31",
+      "buried_at": "2026-08-31",
+      "suggested_replacement": "kwaipilot/kat-coder-pro-v2.5"
+    },
+    {
       "id": "allenai/olmo-3-32b-think",
       "name": "AllenAI: Olmo 3 32B Think",
       "provider": "allenai",

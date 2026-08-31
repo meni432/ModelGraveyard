@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_removed.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_removed.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-08-29T00:00:00Z</updated>
+  <updated>2026-08-31T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-31:model_removed:kwaipilot%2Fkat-coder-air-v2.5</id>
+    <title>Removed: kwaipilot/kat-coder-air-v2.5</title>
+    <updated>2026-08-31T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/kwaipilot%2Fkat-coder-air-v2.5"/>
+    <category term="model_removed"/>
+    <category term="provider:kwaipilot"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1500/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-08-29:model_removed:allenai%2Folmo-3-32b-think</id>
     <title>Removed: allenai/olmo-3-32b-think</title>
@@ -892,15 +901,6 @@
     <title>Removed: inflection/inflection-3-pi</title>
     <updated>2026-07-26T00:00:00Z</updated>
     <link rel="alternate" href="https://modelgraveyard.com/model/inflection%2Finflection-3-pi"/>
-    <category term="model_removed"/>
-    <category term="provider:inflection"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $2.5000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-26:model_removed:inflection%2Finflection-3-productivity</id>
-    <title>Removed: inflection/inflection-3-productivity</title>
-    <updated>2026-07-26T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/inflection%2Finflection-3-productivity"/>
     <category term="model_removed"/>
     <category term="provider:inflection"/>
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $2.5000/Mtok.</summary>
