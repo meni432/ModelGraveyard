@@ -4,7 +4,52 @@
   <id>https://modelgraveyard.com/feeds/all.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/all.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-08-30T00:00:00Z</updated>
+  <updated>2026-08-31T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-31:price_changed:tencent%2Fhy3</id>
+    <title>Price changed: tencent/hy3</title>
+    <updated>2026-08-31T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/tencent%2Fhy3"/>
+    <category term="price_changed"/>
+    <category term="provider:tencent"/>
+    <summary>prompt: $0.0825/Mtok → $0.1320/Mtok (+60%); completion: $0.3300/Mtok → $0.5280/Mtok (+60%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-31:price_changed:deepseek%2Fdeepseek-v4-pro</id>
+    <title>Price changed: deepseek/deepseek-v4-pro</title>
+    <updated>2026-08-31T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-pro"/>
+    <category term="price_changed"/>
+    <category term="provider:deepseek"/>
+    <summary>prompt: $0.4173/Mtok → $1.6000/Mtok (+283.46%); completion: $0.8345/Mtok → $3.2000/Mtok (+283.46%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-31:price_changed:deepseek%2Fdeepseek-v4-flash</id>
+    <title>Price changed: deepseek/deepseek-v4-flash</title>
+    <updated>2026-08-31T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-flash"/>
+    <category term="price_changed"/>
+    <category term="provider:deepseek"/>
+    <summary>prompt: $0.0790/Mtok → $0.0886/Mtok (+12.22%); completion: $0.1579/Mtok → $0.1772/Mtok (+12.22%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-31:price_changed:moonshotai%2Fkimi-k2.5</id>
+    <title>Price changed: moonshotai/kimi-k2.5</title>
+    <updated>2026-08-31T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k2.5"/>
+    <category term="price_changed"/>
+    <category term="provider:moonshotai"/>
+    <summary>prompt: $0.6000/Mtok → $0.4500/Mtok (-25%); completion: $3.0000/Mtok → $2.2500/Mtok (-25%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-31:price_changed:meta-llama%2Fllama-4-maverick</id>
+    <title>Price changed: meta-llama/llama-4-maverick</title>
+    <updated>2026-08-31T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meta-llama%2Fllama-4-maverick"/>
+    <category term="price_changed"/>
+    <category term="provider:meta-llama"/>
+    <summary>completion: $0.8000/Mtok → $0.6960/Mtok (-13%)</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-08-30:price_changed:~deepseek%2Fdeepseek-v4-flash-latest</id>
     <title>Price changed: ~deepseek/deepseek-v4-flash-latest</title>
@@ -859,50 +904,5 @@
     <category term="model_added"/>
     <category term="provider:deepseek"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.1400/Mtok, context: 1048576.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-28:model_added:thinkingmachines%2Finkling-small%3Abatch</id>
-    <title>Added: thinkingmachines/inkling-small:batch</title>
-    <updated>2026-08-28T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/thinkingmachines%2Finkling-small%3Abatch"/>
-    <category term="model_added"/>
-    <category term="provider:thinkingmachines"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.5000/Mtok, context: 524288.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-28:price_changed:moonshotai%2Fkimi-k3</id>
-    <title>Price changed: moonshotai/kimi-k3</title>
-    <updated>2026-08-28T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k3"/>
-    <category term="price_changed"/>
-    <category term="provider:moonshotai"/>
-    <summary>prompt: $3.0000/Mtok → $2.5500/Mtok (-15%); completion: $15.0000/Mtok → $12.7500/Mtok (-15%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-28:model_added:moonshotai%2Fkimi-k3%3Abatch</id>
-    <title>Added: moonshotai/kimi-k3:batch</title>
-    <updated>2026-08-28T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k3%3Abatch"/>
-    <category term="model_added"/>
-    <category term="provider:moonshotai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $3.0000/Mtok, context: 1048576.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-28:price_changed:tencent%2Fhy3</id>
-    <title>Price changed: tencent/hy3</title>
-    <updated>2026-08-28T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/tencent%2Fhy3"/>
-    <category term="price_changed"/>
-    <category term="provider:tencent"/>
-    <summary>prompt: $0.1320/Mtok → $0.0825/Mtok (-37.5%); completion: $0.5280/Mtok → $0.3300/Mtok (-37.5%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-28:price_changed:~google%2Fgemini-flash-latest</id>
-    <title>Price changed: ~google/gemini-flash-latest</title>
-    <updated>2026-08-28T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/~google%2Fgemini-flash-latest"/>
-    <category term="price_changed"/>
-    <category term="provider:~google"/>
-    <summary>prompt: $0.3750/Mtok → $0.7500/Mtok (+100%); completion: $1.8750/Mtok → $3.7500/Mtok (+100%); image: $0.3750/Mtok → $0.7500/Mtok (+100%)</summary>
   </entry>
 </feed>
