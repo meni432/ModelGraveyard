@@ -51,6 +51,24 @@
     <summary>completion: $0.8000/Mtok → $0.6960/Mtok (-13%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-08-31:price_changed:deepseek%2Fdeepseek-v4-pro</id>
+    <title>Price changed: deepseek/deepseek-v4-pro</title>
+    <updated>2026-08-31T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-pro"/>
+    <category term="price_changed"/>
+    <category term="provider:deepseek"/>
+    <summary>prompt: $1.6000/Mtok → $1.0393/Mtok (-35.04%); completion: $3.2000/Mtok → $2.0786/Mtok (-35.04%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-08-31:price_changed:deepseek%2Fdeepseek-v4-flash</id>
+    <title>Price changed: deepseek/deepseek-v4-flash</title>
+    <updated>2026-08-31T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-flash"/>
+    <category term="price_changed"/>
+    <category term="provider:deepseek"/>
+    <summary>prompt: $0.0886/Mtok → $0.0871/Mtok (-1.72%); completion: $0.1772/Mtok → $0.1742/Mtok (-1.72%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-08-30:price_changed:~deepseek%2Fdeepseek-v4-flash-latest</id>
     <title>Price changed: ~deepseek/deepseek-v4-flash-latest</title>
     <updated>2026-08-30T00:00:00Z</updated>
@@ -886,23 +904,5 @@
     <category term="model_added"/>
     <category term="provider:meta"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.3500/Mtok, context: 131072.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-28:price_changed:deepseek%2Fdeepseek-v4-flash-0731</id>
-    <title>Price changed: deepseek/deepseek-v4-flash-0731</title>
-    <updated>2026-08-28T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-flash-0731"/>
-    <category term="price_changed"/>
-    <category term="provider:deepseek"/>
-    <summary>prompt: $0.0700/Mtok → $0.0500/Mtok (-28.57%); completion: $0.1400/Mtok → $0.1000/Mtok (-28.57%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-28:model_added:deepseek%2Fdeepseek-v4-flash-0731%3Abatch</id>
-    <title>Added: deepseek/deepseek-v4-flash-0731:batch</title>
-    <updated>2026-08-28T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-flash-0731%3Abatch"/>
-    <category term="model_added"/>
-    <category term="provider:deepseek"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.1400/Mtok, context: 1048576.</summary>
   </entry>
 </feed>
