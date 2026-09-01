@@ -51,6 +51,33 @@
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1500/Mtok.</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-09-01:model_removed:anthropic%2Fclaude-opus-4.7-fast</id>
+    <title>Removed: anthropic/claude-opus-4.7-fast</title>
+    <updated>2026-09-01T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-opus-4.7-fast"/>
+    <category term="model_removed"/>
+    <category term="provider:anthropic"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $30.0000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-01:model_removed:anthropic%2Fclaude-opus-4.8-fast</id>
+    <title>Removed: anthropic/claude-opus-4.8-fast</title>
+    <updated>2026-09-01T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-opus-4.8-fast"/>
+    <category term="model_removed"/>
+    <category term="provider:anthropic"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $10.0000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-01:model_removed:anthropic%2Fclaude-opus-5-fast</id>
+    <title>Removed: anthropic/claude-opus-5-fast</title>
+    <updated>2026-09-01T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-opus-5-fast"/>
+    <category term="model_removed"/>
+    <category term="provider:anthropic"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $10.0000/Mtok.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-08-31:model_removed:kwaipilot%2Fkat-coder-air-v2.5</id>
     <title>Removed: kwaipilot/kat-coder-air-v2.5</title>
     <updated>2026-08-31T00:00:00Z</updated>
@@ -877,32 +904,5 @@
     <category term="model_removed"/>
     <category term="provider:openai"/>
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $10.0000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-30:model_removed:openai%2Fo4-mini-deep-research</id>
-    <title>Removed: openai/o4-mini-deep-research</title>
-    <updated>2026-07-30T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fo4-mini-deep-research"/>
-    <category term="model_removed"/>
-    <category term="provider:openai"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $2.0000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-29:model_removed:anthropic%2Fclaude-opus-5%3Abatch</id>
-    <title>Removed: anthropic/claude-opus-5:batch</title>
-    <updated>2026-07-29T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-opus-5%3Abatch"/>
-    <category term="model_removed"/>
-    <category term="provider:anthropic"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $2.5000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-28:model_removed:openai%2Fgpt-5-chat</id>
-    <title>Removed: openai/gpt-5-chat</title>
-    <updated>2026-07-28T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5-chat"/>
-    <category term="model_removed"/>
-    <category term="provider:openai"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $1.2500/Mtok.</summary>
   </entry>
 </feed>

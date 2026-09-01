@@ -1,6 +1,57 @@
 {
   "buried": [
     {
+      "id": "anthropic/claude-opus-4.7-fast",
+      "name": "Anthropic: Claude Opus 4.7 (Fast)",
+      "provider": "anthropic",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00003",
+        "completion": "0.00015",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 1000000,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-09-01",
+      "buried_at": "2026-09-01",
+      "suggested_replacement": "anthropic/claude-opus-5"
+    },
+    {
+      "id": "anthropic/claude-opus-4.8-fast",
+      "name": "Anthropic: Claude Opus 4.8 (Fast)",
+      "provider": "anthropic",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00001",
+        "completion": "0.00005",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 1000000,
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-09-01",
+      "buried_at": "2026-09-01",
+      "suggested_replacement": "anthropic/claude-opus-5"
+    },
+    {
+      "id": "anthropic/claude-opus-5-fast",
+      "name": "Claude Opus 5 (Fast)",
+      "provider": "anthropic",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00001",
+        "completion": "0.00005",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 1000000,
+      "first_seen": "2026-07-24",
+      "last_seen": "2026-09-01",
+      "buried_at": "2026-09-01",
+      "suggested_replacement": "anthropic/claude-opus-5"
+    },
+    {
       "id": "mistralai/codestral-2508:batch",
       "name": "Mistral: Codestral 2508 (batch)",
       "provider": "mistralai",

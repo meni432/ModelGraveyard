@@ -74,13 +74,13 @@
       "name": "DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.00000005",
-        "completion": "0.00000016",
+        "prompt": "0.00000004998",
+        "completion": "0.00000009996",
         "image": null,
         "request": null
       },
       "context_length": 1310720,
-      "max_completion_tokens": 393216,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1785606009,
       "first_seen": "2026-08-01",
@@ -597,23 +597,6 @@
       "last_seen": "2026-09-01"
     },
     {
-      "id": "anthropic/claude-opus-4.7-fast",
-      "name": "Anthropic: Claude Opus 4.7 (Fast)",
-      "provider": "anthropic",
-      "pricing": {
-        "prompt": "0.00003",
-        "completion": "0.00015",
-        "image": null,
-        "request": null
-      },
-      "context_length": 1000000,
-      "max_completion_tokens": 128000,
-      "expiration_date": null,
-      "created": 1778613011,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-09-01"
-    },
-    {
       "id": "anthropic/claude-opus-4.7:batch",
       "name": "Anthropic: Claude Opus 4.7 (batch)",
       "provider": "anthropic",
@@ -648,23 +631,6 @@
       "last_seen": "2026-09-01"
     },
     {
-      "id": "anthropic/claude-opus-4.8-fast",
-      "name": "Anthropic: Claude Opus 4.8 (Fast)",
-      "provider": "anthropic",
-      "pricing": {
-        "prompt": "0.00001",
-        "completion": "0.00005",
-        "image": null,
-        "request": null
-      },
-      "context_length": 1000000,
-      "max_completion_tokens": 128000,
-      "expiration_date": null,
-      "created": 1779913703,
-      "first_seen": "2026-06-08",
-      "last_seen": "2026-09-01"
-    },
-    {
       "id": "anthropic/claude-opus-4.8:batch",
       "name": "Anthropic: Claude Opus 4.8 (batch)",
       "provider": "anthropic",
@@ -695,23 +661,6 @@
       "max_completion_tokens": 128000,
       "expiration_date": null,
       "created": 1784912544,
-      "first_seen": "2026-07-24",
-      "last_seen": "2026-09-01"
-    },
-    {
-      "id": "anthropic/claude-opus-5-fast",
-      "name": "Claude Opus 5 (Fast)",
-      "provider": "anthropic",
-      "pricing": {
-        "prompt": "0.00001",
-        "completion": "0.00005",
-        "image": null,
-        "request": null
-      },
-      "context_length": 1000000,
-      "max_completion_tokens": 128000,
-      "expiration_date": null,
-      "created": 1784912546,
       "first_seen": "2026-07-24",
       "last_seen": "2026-09-01"
     },
@@ -1264,8 +1213,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000008092",
-        "completion": "0.00000016184",
+        "prompt": "0.0000000763",
+        "completion": "0.0000001526",
         "image": null,
         "request": null
       },
@@ -2175,6 +2124,23 @@
       "expiration_date": null,
       "created": 1772636275,
       "first_seen": "2026-05-27",
+      "last_seen": "2026-09-01"
+    },
+    {
+      "id": "inception/mercury-2.5-preview",
+      "name": "Inception: Mercury 2.5 Preview",
+      "provider": "inception",
+      "pricing": {
+        "prompt": "0.00000004",
+        "completion": "0.00000015",
+        "image": null,
+        "request": null
+      },
+      "context_length": 260000,
+      "max_completion_tokens": 65536,
+      "expiration_date": null,
+      "created": 1788209864,
+      "first_seen": "2026-09-01",
       "last_seen": "2026-09-01"
     },
     {
@@ -6466,8 +6432,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },

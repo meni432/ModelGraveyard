@@ -35643,6 +35643,158 @@
         "first_seen": "2026-08-28",
         "last_seen": "2026-09-01"
       }
+    },
+    {
+      "ts": "2026-09-01",
+      "type": "model_added",
+      "id": "inception/mercury-2.5-preview",
+      "provider": "inception",
+      "snapshot": {
+        "id": "inception/mercury-2.5-preview",
+        "name": "Inception: Mercury 2.5 Preview",
+        "provider": "inception",
+        "pricing": {
+          "prompt": "0.00000004",
+          "completion": "0.00000015",
+          "image": null,
+          "request": null
+        },
+        "context_length": 260000,
+        "max_completion_tokens": 65536,
+        "expiration_date": null,
+        "created": 1788209864,
+        "first_seen": "2026-09-01",
+        "last_seen": "2026-09-01"
+      }
+    },
+    {
+      "ts": "2026-09-01",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000005",
+          "next": "0.00000004998",
+          "pct_change": -0.04
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000016",
+          "next": "0.00000009996",
+          "pct_change": -37.52
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-01",
+      "type": "price_changed",
+      "id": "tencent/hy3",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000132",
+          "next": "0.0000000825",
+          "pct_change": -37.5
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000528",
+          "next": "0.00000033",
+          "pct_change": -37.5
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-01",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000008092",
+          "next": "0.0000000763",
+          "pct_change": -5.71
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000016184",
+          "next": "0.0000001526",
+          "pct_change": -5.71
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-01",
+      "type": "model_removed",
+      "id": "anthropic/claude-opus-4.7-fast",
+      "provider": "anthropic",
+      "snapshot": {
+        "id": "anthropic/claude-opus-4.7-fast",
+        "name": "Anthropic: Claude Opus 4.7 (Fast)",
+        "provider": "anthropic",
+        "pricing": {
+          "prompt": "0.00003",
+          "completion": "0.00015",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1000000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1778613011,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-09-01"
+      }
+    },
+    {
+      "ts": "2026-09-01",
+      "type": "model_removed",
+      "id": "anthropic/claude-opus-4.8-fast",
+      "provider": "anthropic",
+      "snapshot": {
+        "id": "anthropic/claude-opus-4.8-fast",
+        "name": "Anthropic: Claude Opus 4.8 (Fast)",
+        "provider": "anthropic",
+        "pricing": {
+          "prompt": "0.00001",
+          "completion": "0.00005",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1000000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1779913703,
+        "first_seen": "2026-06-08",
+        "last_seen": "2026-09-01"
+      }
+    },
+    {
+      "ts": "2026-09-01",
+      "type": "model_removed",
+      "id": "anthropic/claude-opus-5-fast",
+      "provider": "anthropic",
+      "snapshot": {
+        "id": "anthropic/claude-opus-5-fast",
+        "name": "Claude Opus 5 (Fast)",
+        "provider": "anthropic",
+        "pricing": {
+          "prompt": "0.00001",
+          "completion": "0.00005",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1000000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1784912546,
+        "first_seen": "2026-07-24",
+        "last_seen": "2026-09-01"
+      }
     }
   ]
 }
