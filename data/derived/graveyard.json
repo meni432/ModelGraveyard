@@ -1,6 +1,91 @@
 {
   "buried": [
     {
+      "id": "mistralai/codestral-2508:batch",
+      "name": "Mistral: Codestral 2508 (batch)",
+      "provider": "mistralai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000003",
+        "completion": "0.0000009",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 256000,
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-09-01",
+      "buried_at": "2026-09-01",
+      "suggested_replacement": "mistralai/codestral-2508"
+    },
+    {
+      "id": "mistralai/ministral-8b-2512:batch",
+      "name": "Mistral: Ministral 3 8B 2512 (batch)",
+      "provider": "mistralai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000015",
+        "completion": "0.00000015",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-09-01",
+      "buried_at": "2026-09-01",
+      "suggested_replacement": "mistralai/mistral-medium-3-5"
+    },
+    {
+      "id": "mistralai/mistral-large-2512:batch",
+      "name": "Mistral: Mistral Large 3 2512 (batch)",
+      "provider": "mistralai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000005",
+        "completion": "0.0000015",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-09-01",
+      "buried_at": "2026-09-01",
+      "suggested_replacement": "mistralai/mistral-medium-3-5"
+    },
+    {
+      "id": "mistralai/mistral-medium-3.1:batch",
+      "name": "Mistral: Mistral Medium 3.1 (batch)",
+      "provider": "mistralai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000004",
+        "completion": "0.000002",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 131072,
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-09-01",
+      "buried_at": "2026-09-01",
+      "suggested_replacement": "mistralai/ministral-3b-2512"
+    },
+    {
+      "id": "mistralai/mistral-small-2603:batch",
+      "name": "Mistral: Mistral Small 4 (batch)",
+      "provider": "mistralai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000015",
+        "completion": "0.0000006",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-09-01",
+      "buried_at": "2026-09-01",
+      "suggested_replacement": "mistralai/mistral-medium-3-5"
+    },
+    {
       "id": "kwaipilot/kat-coder-air-v2.5",
       "name": "Kwaipilot: KAT-Coder-Air V2.5",
       "provider": "kwaipilot",

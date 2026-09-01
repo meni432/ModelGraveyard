@@ -2097,13 +2097,13 @@
       "name": "MythoMax 13B",
       "provider": "gryphe",
       "pricing": {
-        "prompt": "0.00000035",
-        "completion": "0.0000006",
+        "prompt": "0.00000006",
+        "completion": "0.00000006",
         "image": null,
         "request": null
       },
       "context_length": 8192,
-      "max_completion_tokens": 7372,
+      "max_completion_tokens": 3686,
       "expiration_date": null,
       "created": 1688256000,
       "first_seen": "2026-05-27",
@@ -2403,13 +2403,13 @@
       "name": "Meta: Llama 4 Scout",
       "provider": "meta-llama",
       "pricing": {
-        "prompt": "0.00000011",
-        "completion": "0.00000034",
+        "prompt": "0.0000001",
+        "completion": "0.0000003",
         "image": null,
         "request": null
       },
       "context_length": 1310720,
-      "max_completion_tokens": 8192,
+      "max_completion_tokens": 16384,
       "expiration_date": null,
       "created": 1743881519,
       "first_seen": "2026-05-27",
@@ -2756,23 +2756,6 @@
       "last_seen": "2026-09-01"
     },
     {
-      "id": "mistralai/codestral-2508:batch",
-      "name": "Mistral: Codestral 2508 (batch)",
-      "provider": "mistralai",
-      "pricing": {
-        "prompt": "0.0000003",
-        "completion": "0.0000009",
-        "image": null,
-        "request": null
-      },
-      "context_length": 256000,
-      "max_completion_tokens": 204800,
-      "expiration_date": null,
-      "created": 1754079630,
-      "first_seen": "2026-08-28",
-      "last_seen": "2026-09-01"
-    },
-    {
       "id": "mistralai/devstral-2512",
       "name": "Mistral: Devstral 2 2512",
       "provider": "mistralai",
@@ -2841,23 +2824,6 @@
       "last_seen": "2026-09-01"
     },
     {
-      "id": "mistralai/ministral-8b-2512:batch",
-      "name": "Mistral: Ministral 3 8B 2512 (batch)",
-      "provider": "mistralai",
-      "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.00000015",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 209715,
-      "expiration_date": null,
-      "created": 1764681654,
-      "first_seen": "2026-08-28",
-      "last_seen": "2026-09-01"
-    },
-    {
       "id": "mistralai/mistral-large",
       "name": "Mistral Large",
       "provider": "mistralai",
@@ -2906,23 +2872,6 @@
       "expiration_date": null,
       "created": 1764624472,
       "first_seen": "2026-05-27",
-      "last_seen": "2026-09-01"
-    },
-    {
-      "id": "mistralai/mistral-large-2512:batch",
-      "name": "Mistral: Mistral Large 3 2512 (batch)",
-      "provider": "mistralai",
-      "pricing": {
-        "prompt": "0.0000005",
-        "completion": "0.0000015",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 209715,
-      "expiration_date": null,
-      "created": 1764624472,
-      "first_seen": "2026-08-28",
       "last_seen": "2026-09-01"
     },
     {
@@ -2994,23 +2943,6 @@
       "last_seen": "2026-09-01"
     },
     {
-      "id": "mistralai/mistral-medium-3.1:batch",
-      "name": "Mistral: Mistral Medium 3.1 (batch)",
-      "provider": "mistralai",
-      "pricing": {
-        "prompt": "0.0000004",
-        "completion": "0.000002",
-        "image": null,
-        "request": null
-      },
-      "context_length": 131072,
-      "max_completion_tokens": 104857,
-      "expiration_date": null,
-      "created": 1755095639,
-      "first_seen": "2026-08-28",
-      "last_seen": "2026-09-01"
-    },
-    {
       "id": "mistralai/mistral-nemo",
       "name": "Mistral: Mistral Nemo",
       "provider": "mistralai",
@@ -3076,23 +3008,6 @@
       "expiration_date": null,
       "created": 1773695685,
       "first_seen": "2026-05-27",
-      "last_seen": "2026-09-01"
-    },
-    {
-      "id": "mistralai/mistral-small-2603:batch",
-      "name": "Mistral: Mistral Small 4 (batch)",
-      "provider": "mistralai",
-      "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 209715,
-      "expiration_date": null,
-      "created": 1773695685,
-      "first_seen": "2026-08-28",
       "last_seen": "2026-09-01"
     },
     {
@@ -3345,7 +3260,7 @@
       },
       "context_length": 262144,
       "max_completion_tokens": 235929,
-      "expiration_date": "2026-09-04",
+      "expiration_date": "2026-09-08",
       "created": 1782312964,
       "first_seen": "2026-07-06",
       "last_seen": "2026-09-01"
@@ -3362,7 +3277,7 @@
       },
       "context_length": 262144,
       "max_completion_tokens": 235929,
-      "expiration_date": "2026-09-04",
+      "expiration_date": "2026-09-08",
       "created": 1780937140,
       "first_seen": "2026-06-22",
       "last_seen": "2026-09-01"
@@ -5531,13 +5446,13 @@
       "name": "Qwen: Qwen3 235B A22B Instruct 2507",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000009",
-        "completion": "0.00000055",
+        "prompt": "0.0000000875",
+        "completion": "0.00000035",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 16384,
+      "max_completion_tokens": 235929,
       "expiration_date": null,
       "created": 1753119555,
       "first_seen": "2026-05-27",

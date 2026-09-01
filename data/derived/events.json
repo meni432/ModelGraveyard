@@ -35452,6 +35452,197 @@
           "pct_change": 900
         }
       ]
+    },
+    {
+      "ts": "2026-09-01",
+      "type": "deprecation_announced",
+      "id": "nex-agi/nex-n2-mini",
+      "provider": "nex-agi",
+      "prev_expiration": "2026-09-04",
+      "next_expiration": "2026-09-08"
+    },
+    {
+      "ts": "2026-09-01",
+      "type": "deprecation_announced",
+      "id": "nex-agi/nex-n2-pro",
+      "provider": "nex-agi",
+      "prev_expiration": "2026-09-04",
+      "next_expiration": "2026-09-08"
+    },
+    {
+      "ts": "2026-09-01",
+      "type": "price_changed",
+      "id": "qwen/qwen3-235b-a22b-2507",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000009",
+          "next": "0.0000000875",
+          "pct_change": -2.78
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000055",
+          "next": "0.00000035",
+          "pct_change": -36.36
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-01",
+      "type": "price_changed",
+      "id": "meta-llama/llama-4-scout",
+      "provider": "meta-llama",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000011",
+          "next": "0.0000001",
+          "pct_change": -9.09
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000034",
+          "next": "0.0000003",
+          "pct_change": -11.76
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-01",
+      "type": "price_changed",
+      "id": "gryphe/mythomax-l2-13b",
+      "provider": "gryphe",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000035",
+          "next": "0.00000006",
+          "pct_change": -82.86
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000006",
+          "next": "0.00000006",
+          "pct_change": -90
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-01",
+      "type": "model_removed",
+      "id": "mistralai/codestral-2508:batch",
+      "provider": "mistralai",
+      "snapshot": {
+        "id": "mistralai/codestral-2508:batch",
+        "name": "Mistral: Codestral 2508 (batch)",
+        "provider": "mistralai",
+        "pricing": {
+          "prompt": "0.0000003",
+          "completion": "0.0000009",
+          "image": null,
+          "request": null
+        },
+        "context_length": 256000,
+        "max_completion_tokens": 204800,
+        "expiration_date": null,
+        "created": 1754079630,
+        "first_seen": "2026-08-28",
+        "last_seen": "2026-09-01"
+      }
+    },
+    {
+      "ts": "2026-09-01",
+      "type": "model_removed",
+      "id": "mistralai/ministral-8b-2512:batch",
+      "provider": "mistralai",
+      "snapshot": {
+        "id": "mistralai/ministral-8b-2512:batch",
+        "name": "Mistral: Ministral 3 8B 2512 (batch)",
+        "provider": "mistralai",
+        "pricing": {
+          "prompt": "0.00000015",
+          "completion": "0.00000015",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 209715,
+        "expiration_date": null,
+        "created": 1764681654,
+        "first_seen": "2026-08-28",
+        "last_seen": "2026-09-01"
+      }
+    },
+    {
+      "ts": "2026-09-01",
+      "type": "model_removed",
+      "id": "mistralai/mistral-large-2512:batch",
+      "provider": "mistralai",
+      "snapshot": {
+        "id": "mistralai/mistral-large-2512:batch",
+        "name": "Mistral: Mistral Large 3 2512 (batch)",
+        "provider": "mistralai",
+        "pricing": {
+          "prompt": "0.0000005",
+          "completion": "0.0000015",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 209715,
+        "expiration_date": null,
+        "created": 1764624472,
+        "first_seen": "2026-08-28",
+        "last_seen": "2026-09-01"
+      }
+    },
+    {
+      "ts": "2026-09-01",
+      "type": "model_removed",
+      "id": "mistralai/mistral-medium-3.1:batch",
+      "provider": "mistralai",
+      "snapshot": {
+        "id": "mistralai/mistral-medium-3.1:batch",
+        "name": "Mistral: Mistral Medium 3.1 (batch)",
+        "provider": "mistralai",
+        "pricing": {
+          "prompt": "0.0000004",
+          "completion": "0.000002",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": 104857,
+        "expiration_date": null,
+        "created": 1755095639,
+        "first_seen": "2026-08-28",
+        "last_seen": "2026-09-01"
+      }
+    },
+    {
+      "ts": "2026-09-01",
+      "type": "model_removed",
+      "id": "mistralai/mistral-small-2603:batch",
+      "provider": "mistralai",
+      "snapshot": {
+        "id": "mistralai/mistral-small-2603:batch",
+        "name": "Mistral: Mistral Small 4 (batch)",
+        "provider": "mistralai",
+        "pricing": {
+          "prompt": "0.00000015",
+          "completion": "0.0000006",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 209715,
+        "expiration_date": null,
+        "created": 1773695685,
+        "first_seen": "2026-08-28",
+        "last_seen": "2026-09-01"
+      }
     }
   ]
 }

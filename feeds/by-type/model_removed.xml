@@ -4,7 +4,52 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_removed.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_removed.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-08-31T00:00:00Z</updated>
+  <updated>2026-09-01T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-01:model_removed:mistralai%2Fcodestral-2508%3Abatch</id>
+    <title>Removed: mistralai/codestral-2508:batch</title>
+    <updated>2026-09-01T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/mistralai%2Fcodestral-2508%3Abatch"/>
+    <category term="model_removed"/>
+    <category term="provider:mistralai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.3000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-01:model_removed:mistralai%2Fministral-8b-2512%3Abatch</id>
+    <title>Removed: mistralai/ministral-8b-2512:batch</title>
+    <updated>2026-09-01T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/mistralai%2Fministral-8b-2512%3Abatch"/>
+    <category term="model_removed"/>
+    <category term="provider:mistralai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1500/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-01:model_removed:mistralai%2Fmistral-large-2512%3Abatch</id>
+    <title>Removed: mistralai/mistral-large-2512:batch</title>
+    <updated>2026-09-01T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/mistralai%2Fmistral-large-2512%3Abatch"/>
+    <category term="model_removed"/>
+    <category term="provider:mistralai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.5000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-01:model_removed:mistralai%2Fmistral-medium-3.1%3Abatch</id>
+    <title>Removed: mistralai/mistral-medium-3.1:batch</title>
+    <updated>2026-09-01T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/mistralai%2Fmistral-medium-3.1%3Abatch"/>
+    <category term="model_removed"/>
+    <category term="provider:mistralai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.4000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-01:model_removed:mistralai%2Fmistral-small-2603%3Abatch</id>
+    <title>Removed: mistralai/mistral-small-2603:batch</title>
+    <updated>2026-09-01T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/mistralai%2Fmistral-small-2603%3Abatch"/>
+    <category term="model_removed"/>
+    <category term="provider:mistralai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1500/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-08-31:model_removed:kwaipilot%2Fkat-coder-air-v2.5</id>
     <title>Removed: kwaipilot/kat-coder-air-v2.5</title>
@@ -859,50 +904,5 @@
     <category term="model_removed"/>
     <category term="provider:openai"/>
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $1.2500/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-28:model_removed:poolside%2Flaguna-m.1</id>
-    <title>Removed: poolside/laguna-m.1</title>
-    <updated>2026-07-28T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/poolside%2Flaguna-m.1"/>
-    <category term="model_removed"/>
-    <category term="provider:poolside"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.2000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-28:model_removed:poolside%2Flaguna-m.1%3Afree</id>
-    <title>Removed: poolside/laguna-m.1:free</title>
-    <updated>2026-07-28T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/poolside%2Flaguna-m.1%3Afree"/>
-    <category term="model_removed"/>
-    <category term="provider:poolside"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-27:model_removed:openai%2Fgpt-4o-mini-search-preview</id>
-    <title>Removed: openai/gpt-4o-mini-search-preview</title>
-    <updated>2026-07-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-4o-mini-search-preview"/>
-    <category term="model_removed"/>
-    <category term="provider:openai"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1500/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-27:model_removed:openai%2Fgpt-4o-search-preview</id>
-    <title>Removed: openai/gpt-4o-search-preview</title>
-    <updated>2026-07-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-4o-search-preview"/>
-    <category term="model_removed"/>
-    <category term="provider:openai"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $2.5000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-26:model_removed:inflection%2Finflection-3-pi</id>
-    <title>Removed: inflection/inflection-3-pi</title>
-    <updated>2026-07-26T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/inflection%2Finflection-3-pi"/>
-    <category term="model_removed"/>
-    <category term="provider:inflection"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $2.5000/Mtok.</summary>
   </entry>
 </feed>
