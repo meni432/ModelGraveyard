@@ -35795,6 +35795,69 @@
         "first_seen": "2026-07-24",
         "last_seen": "2026-09-01"
       }
+    },
+    {
+      "ts": "2026-09-01",
+      "type": "model_added",
+      "id": "anthropic/claude-fable-5.1",
+      "provider": "anthropic",
+      "snapshot": {
+        "id": "anthropic/claude-fable-5.1",
+        "name": "Anthropic: Claude Fable 5.1",
+        "provider": "anthropic",
+        "pricing": {
+          "prompt": "0.00001",
+          "completion": "0.00005",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1000000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1788285838,
+        "first_seen": "2026-09-01",
+        "last_seen": "2026-09-01"
+      }
+    },
+    {
+      "ts": "2026-09-01",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000016",
+          "next": "0.00000102747",
+          "pct_change": -35.78
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000032",
+          "next": "0.00000205494",
+          "pct_change": -35.78
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-01",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000763",
+          "next": "0.00000007168",
+          "pct_change": -6.06
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000001526",
+          "next": "0.00000014336",
+          "pct_change": -6.06
+        }
+      ]
     }
   ]
 }

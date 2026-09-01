@@ -427,6 +427,23 @@
       "last_seen": "2026-09-01"
     },
     {
+      "id": "anthropic/claude-fable-5.1",
+      "name": "Anthropic: Claude Fable 5.1",
+      "provider": "anthropic",
+      "pricing": {
+        "prompt": "0.00001",
+        "completion": "0.00005",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1000000,
+      "max_completion_tokens": 128000,
+      "expiration_date": null,
+      "created": 1788285838,
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01"
+    },
+    {
       "id": "anthropic/claude-haiku-4.5",
       "name": "Anthropic: Claude Haiku 4.5",
       "provider": "anthropic",
@@ -1213,8 +1230,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000000763",
-        "completion": "0.0000001526",
+        "prompt": "0.00000007168",
+        "completion": "0.00000014336",
         "image": null,
         "request": null
       },
@@ -1281,13 +1298,13 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000016",
-        "completion": "0.0000032",
+        "prompt": "0.00000102747",
+        "completion": "0.00000205494",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 393216,
+      "max_completion_tokens": 384000,
       "expiration_date": null,
       "created": 1777000679,
       "first_seen": "2026-05-27",

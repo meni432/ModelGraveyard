@@ -15,6 +15,15 @@
     <summary>New model on OpenRouter. Initial prompt price: $0.0400/Mtok, context: 260000.</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-09-01:model_added:anthropic%2Fclaude-fable-5.1</id>
+    <title>Added: anthropic/claude-fable-5.1</title>
+    <updated>2026-09-01T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-fable-5.1"/>
+    <category term="model_added"/>
+    <category term="provider:anthropic"/>
+    <summary>New model on OpenRouter. Initial prompt price: $10.0000/Mtok, context: 1000000.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-08-31:model_added:ibm-granite%2Fgranite-4.2-8b</id>
     <title>Added: ibm-granite/granite-4.2-8b</title>
     <updated>2026-08-31T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="model_added"/>
     <category term="provider:anthropic"/>
     <summary>New model on OpenRouter. Initial prompt price: $1.0000/Mtok, context: 1000000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-06:model_added:z-ai%2Fglm-5.2%3Abatch</id>
-    <title>Added: z-ai/glm-5.2:batch</title>
-    <updated>2026-08-06T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2%3Abatch"/>
-    <category term="model_added"/>
-    <category term="provider:z-ai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.7000/Mtok, context: 512000.</summary>
   </entry>
 </feed>
