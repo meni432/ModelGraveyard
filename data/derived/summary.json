@@ -1,9 +1,153 @@
 {
-  "generated_at": "2026-08-31",
+  "generated_at": "2026-09-01",
   "active_count": 425,
   "dead_count": 158,
-  "last_event_ts": "2026-08-31",
+  "last_event_ts": "2026-09-01",
   "recent_events": [
+    {
+      "ts": "2026-09-01",
+      "type": "price_changed",
+      "id": "gryphe/mythomax-l2-13b",
+      "provider": "gryphe",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000006",
+          "next": "0.00000035",
+          "pct_change": 483.33
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000006",
+          "next": "0.0000006",
+          "pct_change": 900
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-01",
+      "type": "price_changed",
+      "id": "mancer/weaver",
+      "provider": "mancer",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000005",
+          "next": "0.0000004",
+          "pct_change": -20
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-01",
+      "type": "price_changed",
+      "id": "anthracite-org/magnum-v4-72b",
+      "provider": "anthracite-org",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000003",
+          "next": "0.0000025",
+          "pct_change": -16.67
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-01",
+      "type": "price_changed",
+      "id": "qwen/qwen3-235b-a22b-2507",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000875",
+          "next": "0.00000009",
+          "pct_change": 2.86
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000035",
+          "next": "0.00000055",
+          "pct_change": 57.14
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-01",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000007938",
+          "next": "0.00000008092",
+          "pct_change": 1.94
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000015876",
+          "next": "0.00000016184",
+          "pct_change": 1.94
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-01",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000087",
+          "next": "0.0000016",
+          "pct_change": 83.91
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000174",
+          "next": "0.0000032",
+          "pct_change": 83.91
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-01",
+      "type": "deprecation_announced",
+      "id": "nex-agi/nex-n2-pro",
+      "provider": "nex-agi",
+      "prev_expiration": null,
+      "next_expiration": "2026-09-04"
+    },
+    {
+      "ts": "2026-09-01",
+      "type": "deprecation_announced",
+      "id": "nex-agi/nex-n2-mini",
+      "provider": "nex-agi",
+      "prev_expiration": null,
+      "next_expiration": "2026-09-04"
+    },
+    {
+      "ts": "2026-09-01",
+      "type": "price_changed",
+      "id": "tencent/hy3",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000825",
+          "next": "0.000000132",
+          "pct_change": 60
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000033",
+          "next": "0.000000528",
+          "pct_change": 60
+        }
+      ]
+    },
     {
       "ts": "2026-08-31",
       "type": "model_removed",
@@ -256,207 +400,19 @@
         "first_seen": "2026-08-31",
         "last_seen": "2026-08-31"
       }
-    },
-    {
-      "ts": "2026-08-31",
-      "type": "model_added",
-      "id": "openai/gpt-5-nano:batch",
-      "provider": "openai",
-      "snapshot": {
-        "id": "openai/gpt-5-nano:batch",
-        "name": "OpenAI: GPT-5 Nano (batch)",
-        "provider": "openai",
-        "pricing": {
-          "prompt": "0.000000025",
-          "completion": "0.0000002",
-          "image": null,
-          "request": null
-        },
-        "context_length": 400000,
-        "max_completion_tokens": 128000,
-        "expiration_date": null,
-        "created": 1754587402,
-        "first_seen": "2026-08-31",
-        "last_seen": "2026-08-31"
-      }
-    },
-    {
-      "ts": "2026-08-31",
-      "type": "model_added",
-      "id": "openai/gpt-5-mini:batch",
-      "provider": "openai",
-      "snapshot": {
-        "id": "openai/gpt-5-mini:batch",
-        "name": "OpenAI: GPT-5 Mini (batch)",
-        "provider": "openai",
-        "pricing": {
-          "prompt": "0.000000125",
-          "completion": "0.000001",
-          "image": null,
-          "request": null
-        },
-        "context_length": 400000,
-        "max_completion_tokens": 128000,
-        "expiration_date": null,
-        "created": 1754587407,
-        "first_seen": "2026-08-31",
-        "last_seen": "2026-08-31"
-      }
-    },
-    {
-      "ts": "2026-08-31",
-      "type": "model_added",
-      "id": "openai/gpt-5:batch",
-      "provider": "openai",
-      "snapshot": {
-        "id": "openai/gpt-5:batch",
-        "name": "OpenAI: GPT-5 (batch)",
-        "provider": "openai",
-        "pricing": {
-          "prompt": "0.000000625",
-          "completion": "0.000005",
-          "image": null,
-          "request": null
-        },
-        "context_length": 400000,
-        "max_completion_tokens": 128000,
-        "expiration_date": null,
-        "created": 1754587413,
-        "first_seen": "2026-08-31",
-        "last_seen": "2026-08-31"
-      }
-    },
-    {
-      "ts": "2026-08-31",
-      "type": "price_changed",
-      "id": "qwen/qwen3-next-80b-a3b-instruct",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000009",
-          "next": "0.0000001",
-          "pct_change": 11.11
-        }
-      ]
-    },
-    {
-      "ts": "2026-08-31",
-      "type": "model_added",
-      "id": "openai/gpt-5-pro:batch",
-      "provider": "openai",
-      "snapshot": {
-        "id": "openai/gpt-5-pro:batch",
-        "name": "OpenAI: GPT-5 Pro (batch)",
-        "provider": "openai",
-        "pricing": {
-          "prompt": "0.0000075",
-          "completion": "0.00006",
-          "image": null,
-          "request": null
-        },
-        "context_length": 400000,
-        "max_completion_tokens": 128000,
-        "expiration_date": null,
-        "created": 1759776663,
-        "first_seen": "2026-08-31",
-        "last_seen": "2026-08-31"
-      }
-    },
-    {
-      "ts": "2026-08-31",
-      "type": "model_added",
-      "id": "openai/gpt-5.1:batch",
-      "provider": "openai",
-      "snapshot": {
-        "id": "openai/gpt-5.1:batch",
-        "name": "OpenAI: GPT-5.1 (batch)",
-        "provider": "openai",
-        "pricing": {
-          "prompt": "0.000000625",
-          "completion": "0.000005",
-          "image": null,
-          "request": null
-        },
-        "context_length": 400000,
-        "max_completion_tokens": 128000,
-        "expiration_date": null,
-        "created": 1763060305,
-        "first_seen": "2026-08-31",
-        "last_seen": "2026-08-31"
-      }
-    },
-    {
-      "ts": "2026-08-31",
-      "type": "model_added",
-      "id": "openai/gpt-5.2:batch",
-      "provider": "openai",
-      "snapshot": {
-        "id": "openai/gpt-5.2:batch",
-        "name": "OpenAI: GPT-5.2 (batch)",
-        "provider": "openai",
-        "pricing": {
-          "prompt": "0.000000875",
-          "completion": "0.000007",
-          "image": null,
-          "request": null
-        },
-        "context_length": 400000,
-        "max_completion_tokens": 128000,
-        "expiration_date": null,
-        "created": 1765389775,
-        "first_seen": "2026-08-31",
-        "last_seen": "2026-08-31"
-      }
-    },
-    {
-      "ts": "2026-08-31",
-      "type": "model_added",
-      "id": "openai/gpt-5.2-pro:batch",
-      "provider": "openai",
-      "snapshot": {
-        "id": "openai/gpt-5.2-pro:batch",
-        "name": "OpenAI: GPT-5.2 Pro (batch)",
-        "provider": "openai",
-        "pricing": {
-          "prompt": "0.0000105",
-          "completion": "0.000084",
-          "image": null,
-          "request": null
-        },
-        "context_length": 400000,
-        "max_completion_tokens": 128000,
-        "expiration_date": null,
-        "created": 1765389780,
-        "first_seen": "2026-08-31",
-        "last_seen": "2026-08-31"
-      }
-    },
-    {
-      "ts": "2026-08-31",
-      "type": "model_added",
-      "id": "openai/gpt-5.4:batch",
-      "provider": "openai",
-      "snapshot": {
-        "id": "openai/gpt-5.4:batch",
-        "name": "OpenAI: GPT-5.4 (batch)",
-        "provider": "openai",
-        "pricing": {
-          "prompt": "0.00000125",
-          "completion": "0.0000075",
-          "image": null,
-          "request": null
-        },
-        "context_length": 1050000,
-        "max_completion_tokens": 128000,
-        "expiration_date": null,
-        "created": 1772734352,
-        "first_seen": "2026-08-31",
-        "last_seen": "2026-08-31"
-      }
     }
   ],
   "scheduled_funerals": [
+    {
+      "id": "nex-agi/nex-n2-mini",
+      "provider": "nex-agi",
+      "expiration_date": "2026-09-04"
+    },
+    {
+      "id": "nex-agi/nex-n2-pro",
+      "provider": "nex-agi",
+      "expiration_date": "2026-09-04"
+    },
     {
       "id": "dots-studio/dots-3-note-preview:free",
       "provider": "dots-studio",
