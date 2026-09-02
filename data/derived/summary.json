@@ -1,9 +1,240 @@
 {
-  "generated_at": "2026-09-01",
-  "active_count": 419,
+  "generated_at": "2026-09-02",
+  "active_count": 420,
   "dead_count": 166,
-  "last_event_ts": "2026-09-01",
+  "last_event_ts": "2026-09-02",
   "recent_events": [
+    {
+      "ts": "2026-09-02",
+      "type": "deprecation_announced",
+      "id": "z-ai/glm-4.5v",
+      "provider": "z-ai",
+      "prev_expiration": null,
+      "next_expiration": "2026-12-31"
+    },
+    {
+      "ts": "2026-09-02",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-chat-v3.1",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000055",
+          "next": "0.00000025",
+          "pct_change": -54.55
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000165",
+          "next": "0.00000095",
+          "pct_change": -42.42
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-02",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000007168",
+          "next": "0.000000088606",
+          "pct_change": 23.61
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000014336",
+          "next": "0.000000177212",
+          "pct_change": 23.61
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-02",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000102747",
+          "next": "0.00000104226",
+          "pct_change": 1.44
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000205494",
+          "next": "0.00000208452",
+          "pct_change": 1.44
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-02",
+      "type": "price_changed",
+      "id": "nvidia/nemotron-3-ultra-550b-a55b",
+      "provider": "nvidia",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000005",
+          "next": "0.000000625",
+          "pct_change": 25
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000022",
+          "next": "0.000003125",
+          "pct_change": 42.05
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-02",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000119",
+          "next": "0.000000966",
+          "pct_change": -18.82
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000374",
+          "next": "0.000003036",
+          "pct_change": -18.82
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-02",
+      "type": "price_changed",
+      "id": "tencent/hy3",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000825",
+          "next": "0.000000132",
+          "pct_change": 60
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000033",
+          "next": "0.000000528",
+          "pct_change": 60
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-02",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000004998",
+          "next": "0.00000005",
+          "pct_change": 0.04
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000009996",
+          "next": "0.00000016",
+          "pct_change": 60.06
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-02",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000066",
+          "next": "0.0000011154",
+          "pct_change": 69
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000198",
+          "next": "0.0000033462",
+          "pct_change": 69
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-02",
+      "type": "price_changed",
+      "id": "qwen/qwen3.8-2.4t-a95b:batch",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000025",
+          "next": "0.000002",
+          "pct_change": -20
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000625",
+          "next": "0.000006",
+          "pct_change": -4
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-02",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash-vision-exp",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000022",
+          "next": "0.00000044",
+          "pct_change": 100
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000066",
+          "next": "0.00000132",
+          "pct_change": 100
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-02",
+      "type": "model_added",
+      "id": "~z-ai/glm-flash-latest",
+      "provider": "~z-ai",
+      "snapshot": {
+        "id": "~z-ai/glm-flash-latest",
+        "name": "Z.ai: GLM Flash Latest",
+        "provider": "~z-ai",
+        "pricing": {
+          "prompt": "0.000000075",
+          "completion": "0.00000025",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1310720,
+        "max_completion_tokens": 131072,
+        "expiration_date": "2098-12-31",
+        "created": 1787817633,
+        "first_seen": "2026-09-02",
+        "last_seen": "2026-09-02"
+      }
+    },
     {
       "ts": "2026-09-01",
       "type": "price_changed",
@@ -175,240 +406,6 @@
           "pct_change": -37.5
         }
       ]
-    },
-    {
-      "ts": "2026-09-01",
-      "type": "price_changed",
-      "id": "~deepseek/deepseek-v4-flash-latest",
-      "provider": "~deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000005",
-          "next": "0.00000004998",
-          "pct_change": -0.04
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000016",
-          "next": "0.00000009996",
-          "pct_change": -37.52
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-01",
-      "type": "model_added",
-      "id": "inception/mercury-2.5-preview",
-      "provider": "inception",
-      "snapshot": {
-        "id": "inception/mercury-2.5-preview",
-        "name": "Inception: Mercury 2.5 Preview",
-        "provider": "inception",
-        "pricing": {
-          "prompt": "0.00000004",
-          "completion": "0.00000015",
-          "image": null,
-          "request": null
-        },
-        "context_length": 260000,
-        "max_completion_tokens": 65536,
-        "expiration_date": null,
-        "created": 1788209864,
-        "first_seen": "2026-09-01",
-        "last_seen": "2026-09-01"
-      }
-    },
-    {
-      "ts": "2026-09-01",
-      "type": "model_removed",
-      "id": "mistralai/mistral-small-2603:batch",
-      "provider": "mistralai",
-      "snapshot": {
-        "id": "mistralai/mistral-small-2603:batch",
-        "name": "Mistral: Mistral Small 4 (batch)",
-        "provider": "mistralai",
-        "pricing": {
-          "prompt": "0.00000015",
-          "completion": "0.0000006",
-          "image": null,
-          "request": null
-        },
-        "context_length": 262144,
-        "max_completion_tokens": 209715,
-        "expiration_date": null,
-        "created": 1773695685,
-        "first_seen": "2026-08-28",
-        "last_seen": "2026-09-01"
-      }
-    },
-    {
-      "ts": "2026-09-01",
-      "type": "model_removed",
-      "id": "mistralai/mistral-medium-3.1:batch",
-      "provider": "mistralai",
-      "snapshot": {
-        "id": "mistralai/mistral-medium-3.1:batch",
-        "name": "Mistral: Mistral Medium 3.1 (batch)",
-        "provider": "mistralai",
-        "pricing": {
-          "prompt": "0.0000004",
-          "completion": "0.000002",
-          "image": null,
-          "request": null
-        },
-        "context_length": 131072,
-        "max_completion_tokens": 104857,
-        "expiration_date": null,
-        "created": 1755095639,
-        "first_seen": "2026-08-28",
-        "last_seen": "2026-09-01"
-      }
-    },
-    {
-      "ts": "2026-09-01",
-      "type": "model_removed",
-      "id": "mistralai/mistral-large-2512:batch",
-      "provider": "mistralai",
-      "snapshot": {
-        "id": "mistralai/mistral-large-2512:batch",
-        "name": "Mistral: Mistral Large 3 2512 (batch)",
-        "provider": "mistralai",
-        "pricing": {
-          "prompt": "0.0000005",
-          "completion": "0.0000015",
-          "image": null,
-          "request": null
-        },
-        "context_length": 262144,
-        "max_completion_tokens": 209715,
-        "expiration_date": null,
-        "created": 1764624472,
-        "first_seen": "2026-08-28",
-        "last_seen": "2026-09-01"
-      }
-    },
-    {
-      "ts": "2026-09-01",
-      "type": "model_removed",
-      "id": "mistralai/ministral-8b-2512:batch",
-      "provider": "mistralai",
-      "snapshot": {
-        "id": "mistralai/ministral-8b-2512:batch",
-        "name": "Mistral: Ministral 3 8B 2512 (batch)",
-        "provider": "mistralai",
-        "pricing": {
-          "prompt": "0.00000015",
-          "completion": "0.00000015",
-          "image": null,
-          "request": null
-        },
-        "context_length": 262144,
-        "max_completion_tokens": 209715,
-        "expiration_date": null,
-        "created": 1764681654,
-        "first_seen": "2026-08-28",
-        "last_seen": "2026-09-01"
-      }
-    },
-    {
-      "ts": "2026-09-01",
-      "type": "model_removed",
-      "id": "mistralai/codestral-2508:batch",
-      "provider": "mistralai",
-      "snapshot": {
-        "id": "mistralai/codestral-2508:batch",
-        "name": "Mistral: Codestral 2508 (batch)",
-        "provider": "mistralai",
-        "pricing": {
-          "prompt": "0.0000003",
-          "completion": "0.0000009",
-          "image": null,
-          "request": null
-        },
-        "context_length": 256000,
-        "max_completion_tokens": 204800,
-        "expiration_date": null,
-        "created": 1754079630,
-        "first_seen": "2026-08-28",
-        "last_seen": "2026-09-01"
-      }
-    },
-    {
-      "ts": "2026-09-01",
-      "type": "price_changed",
-      "id": "gryphe/mythomax-l2-13b",
-      "provider": "gryphe",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000035",
-          "next": "0.00000006",
-          "pct_change": -82.86
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000006",
-          "next": "0.00000006",
-          "pct_change": -90
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-01",
-      "type": "price_changed",
-      "id": "meta-llama/llama-4-scout",
-      "provider": "meta-llama",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000011",
-          "next": "0.0000001",
-          "pct_change": -9.09
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000034",
-          "next": "0.0000003",
-          "pct_change": -11.76
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-01",
-      "type": "price_changed",
-      "id": "qwen/qwen3-235b-a22b-2507",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000009",
-          "next": "0.0000000875",
-          "pct_change": -2.78
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000055",
-          "next": "0.00000035",
-          "pct_change": -36.36
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-01",
-      "type": "deprecation_announced",
-      "id": "nex-agi/nex-n2-pro",
-      "provider": "nex-agi",
-      "prev_expiration": "2026-09-04",
-      "next_expiration": "2026-09-08"
-    },
-    {
-      "ts": "2026-09-01",
-      "type": "deprecation_announced",
-      "id": "nex-agi/nex-n2-mini",
-      "provider": "nex-agi",
-      "prev_expiration": "2026-09-04",
-      "next_expiration": "2026-09-08"
     }
   ],
   "scheduled_funerals": [
@@ -431,6 +428,16 @@
       "id": "z-ai/glm-4.5",
       "provider": "z-ai",
       "expiration_date": "2026-12-31"
+    },
+    {
+      "id": "z-ai/glm-4.5v",
+      "provider": "z-ai",
+      "expiration_date": "2026-12-31"
+    },
+    {
+      "id": "~z-ai/glm-flash-latest",
+      "provider": "~z-ai",
+      "expiration_date": "2098-12-31"
     },
     {
       "id": "z-ai/glm-5-turbo",

@@ -4,7 +4,115 @@
   <id>https://modelgraveyard.com/feeds/all.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/all.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-09-01T00:00:00Z</updated>
+  <updated>2026-09-02T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-02:model_added:~z-ai%2Fglm-flash-latest</id>
+    <title>Added: ~z-ai/glm-flash-latest</title>
+    <updated>2026-09-02T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/~z-ai%2Fglm-flash-latest"/>
+    <category term="model_added"/>
+    <category term="provider:~z-ai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0750/Mtok, context: 1310720.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-02:price_changed:deepseek%2Fdeepseek-v4-flash-vision-exp</id>
+    <title>Price changed: deepseek/deepseek-v4-flash-vision-exp</title>
+    <updated>2026-09-02T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-flash-vision-exp"/>
+    <category term="price_changed"/>
+    <category term="provider:deepseek"/>
+    <summary>prompt: $0.2200/Mtok → $0.4400/Mtok (+100%); completion: $0.6600/Mtok → $1.3200/Mtok (+100%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-02:price_changed:qwen%2Fqwen3.8-2.4t-a95b%3Abatch</id>
+    <title>Price changed: qwen/qwen3.8-2.4t-a95b:batch</title>
+    <updated>2026-09-02T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3.8-2.4t-a95b%3Abatch"/>
+    <category term="price_changed"/>
+    <category term="provider:qwen"/>
+    <summary>prompt: $2.5000/Mtok → $2.0000/Mtok (-20%); completion: $6.2500/Mtok → $6.0000/Mtok (-4%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-02:price_changed:deepseek%2Fdeepseek-v4-pro-0813</id>
+    <title>Price changed: deepseek/deepseek-v4-pro-0813</title>
+    <updated>2026-09-02T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-pro-0813"/>
+    <category term="price_changed"/>
+    <category term="provider:deepseek"/>
+    <summary>prompt: $0.6600/Mtok → $1.1154/Mtok (+69%); completion: $1.9800/Mtok → $3.3462/Mtok (+69%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-02:price_changed:~deepseek%2Fdeepseek-v4-flash-latest</id>
+    <title>Price changed: ~deepseek/deepseek-v4-flash-latest</title>
+    <updated>2026-09-02T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/~deepseek%2Fdeepseek-v4-flash-latest"/>
+    <category term="price_changed"/>
+    <category term="provider:~deepseek"/>
+    <summary>prompt: $0.0500/Mtok → $0.0500/Mtok (+0.04%); completion: $0.1000/Mtok → $0.1600/Mtok (+60.06%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-02:price_changed:tencent%2Fhy3</id>
+    <title>Price changed: tencent/hy3</title>
+    <updated>2026-09-02T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/tencent%2Fhy3"/>
+    <category term="price_changed"/>
+    <category term="provider:tencent"/>
+    <summary>prompt: $0.0825/Mtok → $0.1320/Mtok (+60%); completion: $0.3300/Mtok → $0.5280/Mtok (+60%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-02:price_changed:z-ai%2Fglm-5.2</id>
+    <title>Price changed: z-ai/glm-5.2</title>
+    <updated>2026-09-02T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>prompt: $1.1900/Mtok → $0.9660/Mtok (-18.82%); completion: $3.7400/Mtok → $3.0360/Mtok (-18.82%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-02:price_changed:nvidia%2Fnemotron-3-ultra-550b-a55b</id>
+    <title>Price changed: nvidia/nemotron-3-ultra-550b-a55b</title>
+    <updated>2026-09-02T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nvidia%2Fnemotron-3-ultra-550b-a55b"/>
+    <category term="price_changed"/>
+    <category term="provider:nvidia"/>
+    <summary>prompt: $0.5000/Mtok → $0.6250/Mtok (+25%); completion: $2.2000/Mtok → $3.1250/Mtok (+42.05%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-02:price_changed:deepseek%2Fdeepseek-v4-pro</id>
+    <title>Price changed: deepseek/deepseek-v4-pro</title>
+    <updated>2026-09-02T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-pro"/>
+    <category term="price_changed"/>
+    <category term="provider:deepseek"/>
+    <summary>prompt: $1.0275/Mtok → $1.0423/Mtok (+1.44%); completion: $2.0549/Mtok → $2.0845/Mtok (+1.44%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-02:price_changed:deepseek%2Fdeepseek-v4-flash</id>
+    <title>Price changed: deepseek/deepseek-v4-flash</title>
+    <updated>2026-09-02T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-flash"/>
+    <category term="price_changed"/>
+    <category term="provider:deepseek"/>
+    <summary>prompt: $0.0717/Mtok → $0.0886/Mtok (+23.61%); completion: $0.1434/Mtok → $0.1772/Mtok (+23.61%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-02:price_changed:deepseek%2Fdeepseek-chat-v3.1</id>
+    <title>Price changed: deepseek/deepseek-chat-v3.1</title>
+    <updated>2026-09-02T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-chat-v3.1"/>
+    <category term="price_changed"/>
+    <category term="provider:deepseek"/>
+    <summary>prompt: $0.5500/Mtok → $0.2500/Mtok (-54.55%); completion: $1.6500/Mtok → $0.9500/Mtok (-42.42%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-02:deprecation_announced:z-ai%2Fglm-4.5v</id>
+    <title>Deprecation announced: z-ai/glm-4.5v (sunset 2026-12-31)</title>
+    <updated>2026-09-02T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-4.5v"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:z-ai"/>
+    <summary>Provider announced retirement on 2026-12-31.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-09-01:price_changed:tencent%2Fhy3</id>
     <title>Price changed: tencent/hy3</title>
@@ -796,113 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:mistralai"/>
     <summary>prompt: $0.4400/Mtok → $0.4000/Mtok (-9.09%); completion: $2.2000/Mtok → $2.0000/Mtok (-9.09%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-29:price_changed:~z-ai%2Fglm-latest</id>
-    <title>Price changed: ~z-ai/glm-latest</title>
-    <updated>2026-08-29T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/~z-ai%2Fglm-latest"/>
-    <category term="price_changed"/>
-    <category term="provider:~z-ai"/>
-    <summary>prompt: $1.2500/Mtok → $1.2000/Mtok (-4%); completion: $4.4000/Mtok → $4.0000/Mtok (-9.09%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-29:price_changed:qwen%2Fqwen3.8-2.4t-a95b%3Abatch</id>
-    <title>Price changed: qwen/qwen3.8-2.4t-a95b:batch</title>
-    <updated>2026-08-29T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3.8-2.4t-a95b%3Abatch"/>
-    <category term="price_changed"/>
-    <category term="provider:qwen"/>
-    <summary>prompt: $2.0000/Mtok → $2.5000/Mtok (+25%); completion: $6.0000/Mtok → $6.2500/Mtok (+4.17%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-29:price_changed:deepseek%2Fdeepseek-v4-flash-0731</id>
-    <title>Price changed: deepseek/deepseek-v4-flash-0731</title>
-    <updated>2026-08-29T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-flash-0731"/>
-    <category term="price_changed"/>
-    <category term="provider:deepseek"/>
-    <summary>prompt: $0.0500/Mtok → $0.0450/Mtok (-10%); completion: $0.1000/Mtok → $0.0900/Mtok (-10%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-29:price_changed:moonshotai%2Fkimi-k3</id>
-    <title>Price changed: moonshotai/kimi-k3</title>
-    <updated>2026-08-29T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k3"/>
-    <category term="price_changed"/>
-    <category term="provider:moonshotai"/>
-    <summary>prompt: $2.5500/Mtok → $3.0000/Mtok (+17.65%); completion: $12.7500/Mtok → $15.0000/Mtok (+17.65%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-29:price_changed:tencent%2Fhy3</id>
-    <title>Price changed: tencent/hy3</title>
-    <updated>2026-08-29T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/tencent%2Fhy3"/>
-    <category term="price_changed"/>
-    <category term="provider:tencent"/>
-    <summary>prompt: $0.0825/Mtok → $0.1320/Mtok (+60%); completion: $0.3300/Mtok → $0.5280/Mtok (+60%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-29:price_changed:deepseek%2Fdeepseek-v4-pro</id>
-    <title>Price changed: deepseek/deepseek-v4-pro</title>
-    <updated>2026-08-29T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-pro"/>
-    <category term="price_changed"/>
-    <category term="provider:deepseek"/>
-    <summary>prompt: $0.7416/Mtok → $0.6809/Mtok (-8.19%); completion: $1.4832/Mtok → $1.3617/Mtok (-8.19%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-29:price_changed:deepseek%2Fdeepseek-v4-flash</id>
-    <title>Price changed: deepseek/deepseek-v4-flash</title>
-    <updated>2026-08-29T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-flash"/>
-    <category term="price_changed"/>
-    <category term="provider:deepseek"/>
-    <summary>prompt: $0.0868/Mtok → $0.0848/Mtok (-2.26%); completion: $0.1736/Mtok → $0.1697/Mtok (-2.26%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-29:price_changed:deepseek%2Fdeepseek-v3.2</id>
-    <title>Price changed: deepseek/deepseek-v3.2</title>
-    <updated>2026-08-29T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v3.2"/>
-    <category term="price_changed"/>
-    <category term="provider:deepseek"/>
-    <summary>prompt: $0.2690/Mtok → $0.2600/Mtok (-3.35%); completion: $0.4000/Mtok → $0.3800/Mtok (-5%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-29:model_removed:allenai%2Folmo-3-32b-think</id>
-    <title>Removed: allenai/olmo-3-32b-think</title>
-    <updated>2026-08-29T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/allenai%2Folmo-3-32b-think"/>
-    <category term="model_removed"/>
-    <category term="provider:allenai"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1500/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-29:model_removed:arcee-ai%2Fvirtuoso-large</id>
-    <title>Removed: arcee-ai/virtuoso-large</title>
-    <updated>2026-08-29T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/arcee-ai%2Fvirtuoso-large"/>
-    <category term="model_removed"/>
-    <category term="provider:arcee-ai"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.7500/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-29:price_changed:~z-ai%2Fglm-latest</id>
-    <title>Price changed: ~z-ai/glm-latest</title>
-    <updated>2026-08-29T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/~z-ai%2Fglm-latest"/>
-    <category term="price_changed"/>
-    <category term="provider:~z-ai"/>
-    <summary>prompt: $1.2000/Mtok → $1.1875/Mtok (-1.04%); completion: $4.0000/Mtok → $4.1800/Mtok (+4.5%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-29:price_changed:tencent%2Fhy3</id>
-    <title>Price changed: tencent/hy3</title>
-    <updated>2026-08-29T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/tencent%2Fhy3"/>
-    <category term="price_changed"/>
-    <category term="provider:tencent"/>
-    <summary>prompt: $0.1320/Mtok → $0.0825/Mtok (-37.5%); completion: $0.5280/Mtok → $0.3300/Mtok (-37.5%)</summary>
   </entry>
 </feed>

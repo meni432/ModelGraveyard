@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_added.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_added.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-09-01T00:00:00Z</updated>
+  <updated>2026-09-02T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-02:model_added:~z-ai%2Fglm-flash-latest</id>
+    <title>Added: ~z-ai/glm-flash-latest</title>
+    <updated>2026-09-02T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/~z-ai%2Fglm-flash-latest"/>
+    <category term="model_added"/>
+    <category term="provider:~z-ai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0750/Mtok, context: 1310720.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-09-01:model_added:inception%2Fmercury-2.5-preview</id>
     <title>Added: inception/mercury-2.5-preview</title>
@@ -895,14 +904,5 @@
     <category term="model_added"/>
     <category term="provider:openai"/>
     <summary>New model on OpenRouter. Initial prompt price: $2.5000/Mtok, context: 1050000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-06:model_added:anthropic%2Fclaude-sonnet-5%3Abatch</id>
-    <title>Added: anthropic/claude-sonnet-5:batch</title>
-    <updated>2026-08-06T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-sonnet-5%3Abatch"/>
-    <category term="model_added"/>
-    <category term="provider:anthropic"/>
-    <summary>New model on OpenRouter. Initial prompt price: $1.0000/Mtok, context: 1000000.</summary>
   </entry>
 </feed>
