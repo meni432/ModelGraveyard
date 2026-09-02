@@ -15,6 +15,15 @@
     <summary>New model on OpenRouter. Initial prompt price: $0.0750/Mtok, context: 1310720.</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-09-02:model_added:anthropic%2Fclaude-fable-5.1%3Abatch</id>
+    <title>Added: anthropic/claude-fable-5.1:batch</title>
+    <updated>2026-09-02T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-fable-5.1%3Abatch"/>
+    <category term="model_added"/>
+    <category term="provider:anthropic"/>
+    <summary>New model on OpenRouter. Initial prompt price: $5.0000/Mtok, context: 1000000.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-09-01:model_added:inception%2Fmercury-2.5-preview</id>
     <title>Added: inception/mercury-2.5-preview</title>
     <updated>2026-09-01T00:00:00Z</updated>
@@ -892,15 +901,6 @@
     <title>Added: openai/gpt-5.6-sol-pro:batch</title>
     <updated>2026-08-06T00:00:00Z</updated>
     <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5.6-sol-pro%3Abatch"/>
-    <category term="model_added"/>
-    <category term="provider:openai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $2.5000/Mtok, context: 1050000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-06:model_added:openai%2Fgpt-5.6-sol%3Abatch</id>
-    <title>Added: openai/gpt-5.6-sol:batch</title>
-    <updated>2026-08-06T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5.6-sol%3Abatch"/>
     <category term="model_added"/>
     <category term="provider:openai"/>
     <summary>New model on OpenRouter. Initial prompt price: $2.5000/Mtok, context: 1050000.</summary>
