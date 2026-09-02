@@ -36304,6 +36304,112 @@
           "pct_change": -5.2
         }
       ]
+    },
+    {
+      "ts": "2026-09-02",
+      "type": "model_added",
+      "id": "meta/muse-spark-1.3",
+      "provider": "meta",
+      "snapshot": {
+        "id": "meta/muse-spark-1.3",
+        "name": "Meta: Muse Spark 1.3",
+        "provider": "meta",
+        "pricing": {
+          "prompt": "0.00000125",
+          "completion": "0.00000425",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": 943718,
+        "expiration_date": null,
+        "created": 1788378359,
+        "first_seen": "2026-09-02",
+        "last_seen": "2026-09-02"
+      }
+    },
+    {
+      "ts": "2026-09-02",
+      "type": "model_added",
+      "id": "meta/muse-spark-1.3-contributor",
+      "provider": "meta",
+      "snapshot": {
+        "id": "meta/muse-spark-1.3-contributor",
+        "name": "Meta: Muse Spark 1.3 Contributor",
+        "provider": "meta",
+        "pricing": {
+          "prompt": "0.0000001",
+          "completion": "0.0000002",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": 943718,
+        "expiration_date": null,
+        "created": 1788360486,
+        "first_seen": "2026-09-02",
+        "last_seen": "2026-09-02"
+      }
+    },
+    {
+      "ts": "2026-09-02",
+      "type": "price_changed",
+      "id": "nvidia/nemotron-3-ultra-550b-a55b",
+      "provider": "nvidia",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000625",
+          "next": "0.0000006",
+          "pct_change": -4
+        },
+        {
+          "field": "completion",
+          "prev": "0.000003125",
+          "next": "0.0000024",
+          "pct_change": -23.2
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-02",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000001030776",
+          "next": "0.00000102747",
+          "pct_change": -0.32
+        },
+        {
+          "field": "completion",
+          "prev": "0.000002061552",
+          "next": "0.00000205494",
+          "pct_change": -0.32
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-02",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000084",
+          "next": "0.00000008246",
+          "pct_change": -1.83
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000168",
+          "next": "0.00000016492",
+          "pct_change": -1.83
+        }
+      ]
     }
   ]
 }
