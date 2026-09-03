@@ -36727,6 +36727,106 @@
           "pct_change": -13.48
         }
       ]
+    },
+    {
+      "ts": "2026-09-03",
+      "type": "price_changed",
+      "id": "~z-ai/glm-latest",
+      "provider": "~z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000112",
+          "next": "0.000001134",
+          "pct_change": 1.25
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000352",
+          "next": "0.000003564",
+          "pct_change": 1.25
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-03",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000011154",
+          "next": "0.00000066",
+          "pct_change": -40.83
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000033462",
+          "next": "0.00000198",
+          "pct_change": -40.83
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-03",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000104226",
+          "next": "0.000001035996",
+          "pct_change": -0.6
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000208452",
+          "next": "0.000002071992",
+          "pct_change": -0.6
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-03",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000088606",
+          "next": "0.00000008554",
+          "pct_change": -3.46
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000177212",
+          "next": "0.00000017108",
+          "pct_change": -3.46
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-03",
+      "type": "price_changed",
+      "id": "qwen/qwen2.5-vl-72b-instruct",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000025",
+          "next": "0.0000008",
+          "pct_change": 220
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000075",
+          "next": "0.000001",
+          "pct_change": 33.33
+        }
+      ]
     }
   ]
 }

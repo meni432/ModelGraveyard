@@ -210,8 +210,8 @@
       "name": "Z.ai: GLM Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.00000112",
-        "completion": "0.00000352",
+        "prompt": "0.000001134",
+        "completion": "0.000003564",
         "image": null,
         "request": null
       },
@@ -1264,8 +1264,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000088606",
-        "completion": "0.000000177212",
+        "prompt": "0.00000008554",
+        "completion": "0.00000017108",
         "image": null,
         "request": null
       },
@@ -1332,8 +1332,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000104226",
-        "completion": "0.00000208452",
+        "prompt": "0.000001035996",
+        "completion": "0.000002071992",
         "image": null,
         "request": null
       },
@@ -1349,8 +1349,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000011154",
-        "completion": "0.0000033462",
+        "prompt": "0.00000066",
+        "completion": "0.00000198",
         "image": null,
         "request": null
       },
@@ -5463,13 +5463,13 @@
       "name": "Qwen: Qwen2.5 VL 72B Instruct",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000025",
-        "completion": "0.00000075",
+        "prompt": "0.0000008",
+        "completion": "0.000001",
         "image": null,
         "request": null
       },
       "context_length": 128000,
-      "max_completion_tokens": 28800,
+      "max_completion_tokens": 115200,
       "expiration_date": null,
       "created": 1738410311,
       "first_seen": "2026-05-27",
