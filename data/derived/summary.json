@@ -6,6 +6,86 @@
   "recent_events": [
     {
       "ts": "2026-09-03",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-chat",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000002574",
+          "next": "0.00000032",
+          "pct_change": 24.32
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000010287",
+          "next": "0.00000089",
+          "pct_change": -13.48
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-03",
+      "type": "price_changed",
+      "id": "qwen/qwen3-14b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000002275",
+          "next": "0.00000012",
+          "pct_change": -47.25
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000091",
+          "next": "0.00000024",
+          "pct_change": -73.63
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-03",
+      "type": "price_changed",
+      "id": "~z-ai/glm-latest",
+      "provider": "~z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000001092",
+          "next": "0.00000112",
+          "pct_change": 2.56
+        },
+        {
+          "field": "completion",
+          "prev": "0.000003432",
+          "next": "0.00000352",
+          "pct_change": 2.56
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-03",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash-vision-exp",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000044",
+          "next": "0.00000022",
+          "pct_change": -50
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000132",
+          "next": "0.00000066",
+          "pct_change": -50
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-03",
       "type": "model_removed",
       "id": "nvidia/nemotron-3-ultra-550b-a55b:batch",
       "provider": "nvidia",
@@ -323,89 +403,6 @@
         "first_seen": "2026-09-02",
         "last_seen": "2026-09-02"
       }
-    },
-    {
-      "ts": "2026-09-02",
-      "type": "model_added",
-      "id": "meta/muse-spark-1.3",
-      "provider": "meta",
-      "snapshot": {
-        "id": "meta/muse-spark-1.3",
-        "name": "Meta: Muse Spark 1.3",
-        "provider": "meta",
-        "pricing": {
-          "prompt": "0.00000125",
-          "completion": "0.00000425",
-          "image": null,
-          "request": null
-        },
-        "context_length": 1048576,
-        "max_completion_tokens": 943718,
-        "expiration_date": null,
-        "created": 1788378359,
-        "first_seen": "2026-09-02",
-        "last_seen": "2026-09-02"
-      }
-    },
-    {
-      "ts": "2026-09-02",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-flash",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000088606",
-          "next": "0.000000084",
-          "pct_change": -5.2
-        },
-        {
-          "field": "completion",
-          "prev": "0.000000177212",
-          "next": "0.000000168",
-          "pct_change": -5.2
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-02",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-pro",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000104226",
-          "next": "0.000001030776",
-          "pct_change": -1.1
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000208452",
-          "next": "0.000002061552",
-          "pct_change": -1.1
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-02",
-      "type": "price_changed",
-      "id": "tencent/hy3",
-      "provider": "tencent",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000132",
-          "next": "0.0000000825",
-          "pct_change": -37.5
-        },
-        {
-          "field": "completion",
-          "prev": "0.000000528",
-          "next": "0.00000033",
-          "pct_change": -37.5
-        }
-      ]
     }
   ],
   "scheduled_funerals": [
@@ -436,11 +433,6 @@
     },
     {
       "id": "z-ai/glm-5-turbo",
-      "provider": "z-ai",
-      "expiration_date": "2098-12-31"
-    },
-    {
-      "id": "z-ai/glm-5.3",
       "provider": "z-ai",
       "expiration_date": "2098-12-31"
     },
