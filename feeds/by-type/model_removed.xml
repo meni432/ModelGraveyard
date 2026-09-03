@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_removed.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_removed.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-09-01T00:00:00Z</updated>
+  <updated>2026-09-03T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-03:model_removed:nvidia%2Fnemotron-3-ultra-550b-a55b%3Abatch</id>
+    <title>Removed: nvidia/nemotron-3-ultra-550b-a55b:batch</title>
+    <updated>2026-09-03T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nvidia%2Fnemotron-3-ultra-550b-a55b%3Abatch"/>
+    <category term="model_removed"/>
+    <category term="provider:nvidia"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.6000/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-09-01:model_removed:mistralai%2Fcodestral-2508%3Abatch</id>
     <title>Removed: mistralai/codestral-2508:batch</title>
@@ -895,14 +904,5 @@
     <category term="model_removed"/>
     <category term="provider:openai"/>
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $1.2500/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-30:model_removed:openai%2Fo3-deep-research</id>
-    <title>Removed: openai/o3-deep-research</title>
-    <updated>2026-07-30T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fo3-deep-research"/>
-    <category term="model_removed"/>
-    <category term="provider:openai"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $10.0000/Mtok.</summary>
   </entry>
 </feed>
