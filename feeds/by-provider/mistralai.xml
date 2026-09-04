@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/mistralai.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/mistralai.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-09-01T00:00:00Z</updated>
+  <updated>2026-09-04T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-04:context_changed:mistralai%2Fmistral-medium-3-5%3Abatch</id>
+    <title>Context window changed: mistralai/mistral-medium-3-5:batch</title>
+    <updated>2026-09-04T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/mistralai%2Fmistral-medium-3-5%3Abatch"/>
+    <category term="context_changed"/>
+    <category term="provider:mistralai"/>
+    <summary>262144 → 32768 tokens</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-09-01:model_removed:mistralai%2Fcodestral-2508%3Abatch</id>
     <title>Removed: mistralai/codestral-2508:batch</title>
