@@ -7,6 +7,86 @@
     {
       "ts": "2026-09-04",
       "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000088606",
+          "next": "0.00000008806",
+          "pct_change": -0.62
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000177212",
+          "next": "0.00000017612",
+          "pct_change": -0.62
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-04",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000104226",
+          "next": "0.00000102225",
+          "pct_change": -1.92
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000208452",
+          "next": "0.0000020445",
+          "pct_change": -1.92
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-04",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000005",
+          "next": "0.00000004998",
+          "pct_change": -0.04
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000016",
+          "next": "0.00000009996",
+          "pct_change": -37.52
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-04",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000011154",
+          "next": "0.00000057948",
+          "pct_change": -48.05
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000033462",
+          "next": "0.00000173844",
+          "pct_change": -48.05
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-04",
+      "type": "price_changed",
       "id": "deepseek/deepseek-v4-flash-vision-exp",
       "provider": "deepseek",
       "changes": [
@@ -297,86 +377,6 @@
           "prev": "0.00000017108",
           "next": "0.00000015876",
           "pct_change": -7.2
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-03",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-pro",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000001035996",
-          "next": "0.000001030776",
-          "pct_change": -0.5
-        },
-        {
-          "field": "completion",
-          "prev": "0.000002071992",
-          "next": "0.000002061552",
-          "pct_change": -0.5
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-03",
-      "type": "price_changed",
-      "id": "~moonshotai/kimi-latest",
-      "provider": "~moonshotai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000255",
-          "next": "0.0000025",
-          "pct_change": -1.96
-        },
-        {
-          "field": "completion",
-          "prev": "0.00001275",
-          "next": "0.000014",
-          "pct_change": 9.8
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-03",
-      "type": "price_changed",
-      "id": "tencent/hy3",
-      "provider": "tencent",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000132",
-          "next": "0.0000000825",
-          "pct_change": -37.5
-        },
-        {
-          "field": "completion",
-          "prev": "0.000000528",
-          "next": "0.00000033",
-          "pct_change": -37.5
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-03",
-      "type": "price_changed",
-      "id": "qwen/qwen3.8-27b",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000425",
-          "next": "0.00000042",
-          "pct_change": -1.18
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000255",
-          "next": "0.000003",
-          "pct_change": 17.65
         }
       ]
     }
