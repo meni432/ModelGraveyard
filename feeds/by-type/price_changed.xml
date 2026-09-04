@@ -87,6 +87,15 @@
     <summary>prompt: $0.4500/Mtok → $0.3500/Mtok (-22.22%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-09-04:price_changed:deepseek%2Fdeepseek-v4-flash-vision-exp</id>
+    <title>Price changed: deepseek/deepseek-v4-flash-vision-exp</title>
+    <updated>2026-09-04T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-flash-vision-exp"/>
+    <category term="price_changed"/>
+    <category term="provider:deepseek"/>
+    <summary>prompt: $0.4400/Mtok → $0.2200/Mtok (-50%); completion: $1.3200/Mtok → $0.6600/Mtok (-50%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-09-03:price_changed:deepseek%2Fdeepseek-v4-flash-vision-exp</id>
     <title>Price changed: deepseek/deepseek-v4-flash-vision-exp</title>
     <updated>2026-09-03T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:deepseek"/>
     <summary>prompt: $0.0798/Mtok → $0.0790/Mtok (-1.05%); completion: $0.1596/Mtok → $0.1579/Mtok (-1.05%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-30:price_changed:mistralai%2Fdevstral-2512</id>
-    <title>Price changed: mistralai/devstral-2512</title>
-    <updated>2026-08-30T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/mistralai%2Fdevstral-2512"/>
-    <category term="price_changed"/>
-    <category term="provider:mistralai"/>
-    <summary>prompt: $0.4400/Mtok → $0.4000/Mtok (-9.09%); completion: $2.2000/Mtok → $2.0000/Mtok (-9.09%)</summary>
   </entry>
 </feed>

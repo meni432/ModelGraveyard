@@ -7,6 +7,26 @@
     {
       "ts": "2026-09-04",
       "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash-vision-exp",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000044",
+          "next": "0.00000022",
+          "pct_change": -50
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000132",
+          "next": "0.00000066",
+          "pct_change": -50
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-04",
+      "type": "price_changed",
       "id": "undi95/remm-slerp-l2-13b",
       "provider": "undi95",
       "changes": [
@@ -357,26 +377,6 @@
           "prev": "0.00000255",
           "next": "0.000003",
           "pct_change": 17.65
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-03",
-      "type": "price_changed",
-      "id": "~z-ai/glm-latest",
-      "provider": "~z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000001134",
-          "next": "0.000001148",
-          "pct_change": 1.23
-        },
-        {
-          "field": "completion",
-          "prev": "0.000003564",
-          "next": "0.000003608",
-          "pct_change": 1.23
         }
       ]
     }
