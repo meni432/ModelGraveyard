@@ -37346,6 +37346,198 @@
           "pct_change": -0.62
         }
       ]
+    },
+    {
+      "ts": "2026-09-04",
+      "type": "model_added",
+      "id": "openai/gpt-6-astra",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-6-astra",
+        "name": "OpenAI: GPT-6 Astra",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.00001",
+          "completion": "0.00005",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1788552838,
+        "first_seen": "2026-09-04",
+        "last_seen": "2026-09-04"
+      }
+    },
+    {
+      "ts": "2026-09-04",
+      "type": "model_added",
+      "id": "openai/gpt-6-astra-pro",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-6-astra-pro",
+        "name": "OpenAI: GPT-6 Astra Pro",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.00001",
+          "completion": "0.00005",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1788552835,
+        "first_seen": "2026-09-04",
+        "last_seen": "2026-09-04"
+      }
+    },
+    {
+      "ts": "2026-09-04",
+      "type": "model_added",
+      "id": "inclusionai/ling-3.0-flash-sante:free",
+      "provider": "inclusionai",
+      "snapshot": {
+        "id": "inclusionai/ling-3.0-flash-sante:free",
+        "name": "inclusionAI: Ling 3.0 Flash Sante (free)",
+        "provider": "inclusionai",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 32768,
+        "expiration_date": null,
+        "created": 1788545946,
+        "first_seen": "2026-09-04",
+        "last_seen": "2026-09-04"
+      }
+    },
+    {
+      "ts": "2026-09-04",
+      "type": "price_changed",
+      "id": "tencent/hy3",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000132",
+          "next": "0.0000000825",
+          "pct_change": -37.5
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000528",
+          "next": "0.00000033",
+          "pct_change": -37.5
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-04",
+      "type": "price_changed",
+      "id": "qwen/qwen3.6-27b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000006",
+          "next": "0.0000003",
+          "pct_change": -50
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000036",
+          "next": "0.000002",
+          "pct_change": -44.44
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-04",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000102225",
+          "next": "0.0000009918",
+          "pct_change": -2.98
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000020445",
+          "next": "0.0000019836",
+          "pct_change": -2.98
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-04",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000008806",
+          "next": "0.0000000875",
+          "pct_change": -0.64
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000017612",
+          "next": "0.000000175",
+          "pct_change": -0.64
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-04",
+      "type": "price_changed",
+      "id": "qwen/qwen3.5-35b-a3b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000025",
+          "next": "0.00000008",
+          "pct_change": -68
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000125",
+          "next": "0.00000075",
+          "pct_change": -40
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-04",
+      "type": "model_removed",
+      "id": "ibm-granite/granite-4.1-8b",
+      "provider": "ibm-granite",
+      "snapshot": {
+        "id": "ibm-granite/granite-4.1-8b",
+        "name": "IBM: Granite 4.1 8B",
+        "provider": "ibm-granite",
+        "pricing": {
+          "prompt": "0.00000005",
+          "completion": "0.0000001",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": 117964,
+        "expiration_date": null,
+        "created": 1777577071,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-09-04"
+      }
     }
   ]
 }

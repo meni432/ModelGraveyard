@@ -1264,8 +1264,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000008806",
-        "completion": "0.00000017612",
+        "prompt": "0.0000000875",
+        "completion": "0.000000175",
         "image": null,
         "request": null
       },
@@ -1332,8 +1332,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000102225",
-        "completion": "0.0000020445",
+        "prompt": "0.0000009918",
+        "completion": "0.0000019836",
         "image": null,
         "request": null
       },
@@ -2161,23 +2161,6 @@
       "last_seen": "2026-09-04"
     },
     {
-      "id": "ibm-granite/granite-4.1-8b",
-      "name": "IBM: Granite 4.1 8B",
-      "provider": "ibm-granite",
-      "pricing": {
-        "prompt": "0.00000005",
-        "completion": "0.0000001",
-        "image": null,
-        "request": null
-      },
-      "context_length": 131072,
-      "max_completion_tokens": 117964,
-      "expiration_date": null,
-      "created": 1777577071,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-09-04"
-    },
-    {
       "id": "ibm-granite/granite-4.2-8b",
       "name": "IBM: Granite 4.2 8B",
       "provider": "ibm-granite",
@@ -2230,7 +2213,7 @@
     },
     {
       "id": "inclusionai/ling-3.0-flash",
-      "name": "Ling-3.0-flash",
+      "name": "inclusionAI: Ling 3.0 Flash",
       "provider": "inclusionai",
       "pricing": {
         "prompt": "0.000000021",
@@ -2247,7 +2230,7 @@
     },
     {
       "id": "inclusionai/ling-3.0-flash-fin",
-      "name": "Ling 3.0 Flash Fin",
+      "name": "inclusionAI: Ling 3.0 Flash Fin",
       "provider": "inclusionai",
       "pricing": {
         "prompt": "0.00000006",
@@ -2264,7 +2247,7 @@
     },
     {
       "id": "inclusionai/ling-3.0-flash-fin:free",
-      "name": "Ling 3.0 Flash Fin (free)",
+      "name": "inclusionAI: Ling 3.0 Flash Fin (free)",
       "provider": "inclusionai",
       "pricing": {
         "prompt": "0",
@@ -2277,6 +2260,23 @@
       "expiration_date": null,
       "created": 1787846290,
       "first_seen": "2026-08-27",
+      "last_seen": "2026-09-04"
+    },
+    {
+      "id": "inclusionai/ling-3.0-flash-sante:free",
+      "name": "inclusionAI: Ling 3.0 Flash Sante (free)",
+      "provider": "inclusionai",
+      "pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "context_length": 262144,
+      "max_completion_tokens": 32768,
+      "expiration_date": null,
+      "created": 1788545946,
+      "first_seen": "2026-09-04",
       "last_seen": "2026-09-04"
     },
     {
@@ -4813,6 +4813,40 @@
       "last_seen": "2026-09-04"
     },
     {
+      "id": "openai/gpt-6-astra",
+      "name": "OpenAI: GPT-6 Astra",
+      "provider": "openai",
+      "pricing": {
+        "prompt": "0.00001",
+        "completion": "0.00005",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1050000,
+      "max_completion_tokens": 128000,
+      "expiration_date": null,
+      "created": 1788552838,
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-04"
+    },
+    {
+      "id": "openai/gpt-6-astra-pro",
+      "name": "OpenAI: GPT-6 Astra Pro",
+      "provider": "openai",
+      "pricing": {
+        "prompt": "0.00001",
+        "completion": "0.00005",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1050000,
+      "max_completion_tokens": 128000,
+      "expiration_date": null,
+      "created": 1788552835,
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-04"
+    },
+    {
       "id": "openai/gpt-audio",
       "name": "OpenAI: GPT Audio",
       "provider": "openai",
@@ -5973,13 +6007,13 @@
       "name": "Qwen: Qwen3.5-35B-A3B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000025",
-        "completion": "0.00000125",
+        "prompt": "0.00000008",
+        "completion": "0.00000075",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 235929,
+      "max_completion_tokens": 16384,
       "expiration_date": null,
       "created": 1772053822,
       "first_seen": "2026-05-27",
@@ -6092,13 +6126,13 @@
       "name": "Qwen: Qwen3.6 27B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.0000006",
-        "completion": "0.0000036",
+        "prompt": "0.0000003",
+        "completion": "0.000002",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 235929,
+      "max_completion_tokens": 65536,
       "expiration_date": null,
       "created": 1777255064,
       "first_seen": "2026-05-27",
@@ -6568,8 +6602,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },

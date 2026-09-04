@@ -24,6 +24,33 @@
     <summary>New model on OpenRouter. Initial prompt price: $1.0000/Mtok, context: 1000000.</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-09-04:model_added:openai%2Fgpt-6-astra</id>
+    <title>Added: openai/gpt-6-astra</title>
+    <updated>2026-09-04T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-6-astra"/>
+    <category term="model_added"/>
+    <category term="provider:openai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $10.0000/Mtok, context: 1050000.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-04:model_added:openai%2Fgpt-6-astra-pro</id>
+    <title>Added: openai/gpt-6-astra-pro</title>
+    <updated>2026-09-04T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-6-astra-pro"/>
+    <category term="model_added"/>
+    <category term="provider:openai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $10.0000/Mtok, context: 1050000.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-04:model_added:inclusionai%2Fling-3.0-flash-sante%3Afree</id>
+    <title>Added: inclusionai/ling-3.0-flash-sante:free</title>
+    <updated>2026-09-04T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/inclusionai%2Fling-3.0-flash-sante%3Afree"/>
+    <category term="model_added"/>
+    <category term="provider:inclusionai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 262144.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-09-03:model_added:inclusionai%2Fling-3.0-flash-fin</id>
     <title>Added: inclusionai/ling-3.0-flash-fin</title>
     <updated>2026-09-03T00:00:00Z</updated>
@@ -877,32 +904,5 @@
     <category term="model_added"/>
     <category term="provider:meta"/>
     <summary>New model on OpenRouter. Initial prompt price: $1.2500/Mtok, context: 1048576.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-06:model_added:inclusionai%2Fling-3.0-flash</id>
-    <title>Added: inclusionai/ling-3.0-flash</title>
-    <updated>2026-08-06T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/inclusionai%2Fling-3.0-flash"/>
-    <category term="model_added"/>
-    <category term="provider:inclusionai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.0750/Mtok, context: 131072.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-06:model_added:anthropic%2Fclaude-opus-5%3Abatch</id>
-    <title>Added: anthropic/claude-opus-5:batch</title>
-    <updated>2026-08-06T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-opus-5%3Abatch"/>
-    <category term="model_added"/>
-    <category term="provider:anthropic"/>
-    <summary>New model on OpenRouter. Initial prompt price: $2.5000/Mtok, context: 1000000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-06:model_added:google%2Fgemini-3.6-flash%3Abatch</id>
-    <title>Added: google/gemini-3.6-flash:batch</title>
-    <updated>2026-08-06T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-3.6-flash%3Abatch"/>
-    <category term="model_added"/>
-    <category term="provider:google"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.7500/Mtok, context: 1048576.</summary>
   </entry>
 </feed>

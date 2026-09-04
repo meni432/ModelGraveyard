@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/ibm-granite.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/ibm-granite.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-08-31T00:00:00Z</updated>
+  <updated>2026-09-04T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-04:model_removed:ibm-granite%2Fgranite-4.1-8b</id>
+    <title>Removed: ibm-granite/granite-4.1-8b</title>
+    <updated>2026-09-04T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/ibm-granite%2Fgranite-4.1-8b"/>
+    <category term="model_removed"/>
+    <category term="provider:ibm-granite"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0500/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-08-31:model_added:ibm-granite%2Fgranite-4.2-8b</id>
     <title>Added: ibm-granite/granite-4.2-8b</title>
