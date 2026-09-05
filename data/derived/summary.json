@@ -1,9 +1,155 @@
 {
-  "generated_at": "2026-09-04",
-  "active_count": 429,
+  "generated_at": "2026-09-05",
+  "active_count": 431,
   "dead_count": 168,
-  "last_event_ts": "2026-09-04",
+  "last_event_ts": "2026-09-05",
   "recent_events": [
+    {
+      "ts": "2026-09-05",
+      "type": "price_changed",
+      "id": "qwen/qwen3-235b-a22b-2507",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000875",
+          "next": "0.00000009",
+          "pct_change": 2.86
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000035",
+          "next": "0.00000055",
+          "pct_change": 57.14
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-05",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000875",
+          "next": "0.00000008694",
+          "pct_change": -0.64
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000175",
+          "next": "0.00000017388",
+          "pct_change": -0.64
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-05",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000009918",
+          "next": "0.00000096135",
+          "pct_change": -3.07
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000019836",
+          "next": "0.0000019227",
+          "pct_change": -3.07
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-05",
+      "type": "price_changed",
+      "id": "tencent/hy3",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000825",
+          "next": "0.000000132",
+          "pct_change": 60
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000033",
+          "next": "0.000000528",
+          "pct_change": 60
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-05",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000057948",
+          "next": "0.00000112068",
+          "pct_change": 93.39
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000173844",
+          "next": "0.00000336204",
+          "pct_change": 93.39
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-05",
+      "type": "model_added",
+      "id": "openai/gpt-6-astra-pro:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-6-astra-pro:batch",
+        "name": "OpenAI: GPT-6 Astra Pro (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.000005",
+          "completion": "0.000025",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1788552835,
+        "first_seen": "2026-09-05",
+        "last_seen": "2026-09-05"
+      }
+    },
+    {
+      "ts": "2026-09-05",
+      "type": "model_added",
+      "id": "openai/gpt-6-astra:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-6-astra:batch",
+        "name": "OpenAI: GPT-6 Astra (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.000005",
+          "completion": "0.000025",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1788552838,
+        "first_seen": "2026-09-05",
+        "last_seen": "2026-09-05"
+      }
+    },
     {
       "ts": "2026-09-04",
       "type": "model_removed",
@@ -275,119 +421,6 @@
           "pct_change": -48.05
         }
       ]
-    },
-    {
-      "ts": "2026-09-04",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-flash-vision-exp",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000044",
-          "next": "0.00000022",
-          "pct_change": -50
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000132",
-          "next": "0.00000066",
-          "pct_change": -50
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-04",
-      "type": "price_changed",
-      "id": "undi95/remm-slerp-l2-13b",
-      "provider": "undi95",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000045",
-          "next": "0.00000035",
-          "pct_change": -22.22
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-04",
-      "type": "deprecation_announced",
-      "id": "z-ai/glm-4.7-flash",
-      "provider": "z-ai",
-      "prev_expiration": null,
-      "next_expiration": "2026-09-10"
-    },
-    {
-      "ts": "2026-09-04",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-flash",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000007938",
-          "next": "0.000000088606",
-          "pct_change": 11.62
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000015876",
-          "next": "0.000000177212",
-          "pct_change": 11.62
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-04",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-pro",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000001030776",
-          "next": "0.00000104226",
-          "pct_change": 1.11
-        },
-        {
-          "field": "completion",
-          "prev": "0.000002061552",
-          "next": "0.00000208452",
-          "pct_change": 1.11
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-04",
-      "type": "context_changed",
-      "id": "mistralai/mistral-medium-3-5:batch",
-      "provider": "mistralai",
-      "prev_context": 262144,
-      "next_context": 32768
-    },
-    {
-      "ts": "2026-09-04",
-      "type": "model_added",
-      "id": "x-ai/grok-4.3:batch",
-      "provider": "x-ai",
-      "snapshot": {
-        "id": "x-ai/grok-4.3:batch",
-        "name": "SpaceXAI: Grok 4.3 (batch)",
-        "provider": "x-ai",
-        "pricing": {
-          "prompt": "0.000001",
-          "completion": "0.000002",
-          "image": null,
-          "request": null
-        },
-        "context_length": 1000000,
-        "max_completion_tokens": 900000,
-        "expiration_date": null,
-        "created": 1777591821,
-        "first_seen": "2026-09-04",
-        "last_seen": "2026-09-04"
-      }
     }
   ],
   "scheduled_funerals": [
