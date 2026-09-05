@@ -125,8 +125,8 @@
       "name": "MoonshotAI Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.0000025",
-        "completion": "0.000014",
+        "prompt": "0.00000255",
+        "completion": "0.00001275",
         "image": null,
         "request": null
       },
@@ -1264,8 +1264,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000008694",
-        "completion": "0.00000017388",
+        "prompt": "0.00000008554",
+        "completion": "0.00000017108",
         "image": null,
         "request": null
       },
@@ -1332,8 +1332,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000096135",
-        "completion": "0.0000019227",
+        "prompt": "0.00000090045",
+        "completion": "0.0000018009",
         "image": null,
         "request": null
       },
@@ -6360,8 +6360,8 @@
       "last_seen": "2026-09-05"
     },
     {
-      "id": "qwen/qwen3.8-max",
-      "name": "Qwen: Qwen3.8 Max",
+      "id": "qwen/qwen3.8-max-0902",
+      "name": "Qwen: Qwen3.8 Max (0902)",
       "provider": "qwen",
       "pricing": {
         "prompt": "0.000002",
@@ -6372,8 +6372,8 @@
       "context_length": 1000000,
       "max_completion_tokens": 131072,
       "expiration_date": null,
-      "created": 1785731612,
-      "first_seen": "2026-08-03",
+      "created": 1788469704,
+      "first_seen": "2026-09-05",
       "last_seen": "2026-09-05"
     },
     {

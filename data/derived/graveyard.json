@@ -1,6 +1,23 @@
 {
   "buried": [
     {
+      "id": "qwen/qwen3.8-max",
+      "name": "Qwen: Qwen3.8 Max",
+      "provider": "qwen",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.000002",
+        "completion": "0.000006",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 1000000,
+      "first_seen": "2026-08-03",
+      "last_seen": "2026-09-05",
+      "buried_at": "2026-09-05",
+      "suggested_replacement": "qwen/qwen3.8-max-0902"
+    },
+    {
       "id": "ibm-granite/granite-4.1-8b",
       "name": "IBM: Granite 4.1 8B",
       "provider": "ibm-granite",

@@ -24,6 +24,15 @@
     <summary>New model on OpenRouter. Initial prompt price: $5.0000/Mtok, context: 1050000.</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-09-05:model_added:qwen%2Fqwen3.8-max-0902</id>
+    <title>Added: qwen/qwen3.8-max-0902</title>
+    <updated>2026-09-05T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3.8-max-0902"/>
+    <category term="model_added"/>
+    <category term="provider:qwen"/>
+    <summary>New model on OpenRouter. Initial prompt price: $2.0000/Mtok, context: 1000000.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-09-04:model_added:nvidia%2Fnemotron-3.5-content-safety</id>
     <title>Added: nvidia/nemotron-3.5-content-safety</title>
     <updated>2026-09-04T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="model_added"/>
     <category term="provider:nvidia"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.1000/Mtok, context: 262144.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-11:model_added:bytedance-seed%2Fseed-2.0-code</id>
-    <title>Added: bytedance-seed/seed-2.0-code</title>
-    <updated>2026-08-11T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/bytedance-seed%2Fseed-2.0-code"/>
-    <category term="model_added"/>
-    <category term="provider:bytedance-seed"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.5000/Mtok, context: 262144.</summary>
   </entry>
 </feed>
