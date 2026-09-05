@@ -6,6 +6,66 @@
   "recent_events": [
     {
       "ts": "2026-09-05",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000008554",
+          "next": "0.0000000847",
+          "pct_change": -0.98
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000017108",
+          "next": "0.0000001694",
+          "pct_change": -0.98
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-05",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000090045",
+          "next": "0.000000859908",
+          "pct_change": -4.5
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000018009",
+          "next": "0.000001719816",
+          "pct_change": -4.5
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-05",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000112068",
+          "next": "0.00000057948",
+          "pct_change": -48.29
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000336204",
+          "next": "0.00000173844",
+          "pct_change": -48.29
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-05",
       "type": "model_removed",
       "id": "qwen/qwen3.8-max",
       "provider": "qwen",
@@ -358,72 +418,6 @@
           "pct_change": -44.44
         }
       ]
-    },
-    {
-      "ts": "2026-09-04",
-      "type": "price_changed",
-      "id": "tencent/hy3",
-      "provider": "tencent",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000132",
-          "next": "0.0000000825",
-          "pct_change": -37.5
-        },
-        {
-          "field": "completion",
-          "prev": "0.000000528",
-          "next": "0.00000033",
-          "pct_change": -37.5
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-04",
-      "type": "model_added",
-      "id": "inclusionai/ling-3.0-flash-sante:free",
-      "provider": "inclusionai",
-      "snapshot": {
-        "id": "inclusionai/ling-3.0-flash-sante:free",
-        "name": "inclusionAI: Ling 3.0 Flash Sante (free)",
-        "provider": "inclusionai",
-        "pricing": {
-          "prompt": "0",
-          "completion": "0",
-          "image": null,
-          "request": null
-        },
-        "context_length": 262144,
-        "max_completion_tokens": 32768,
-        "expiration_date": null,
-        "created": 1788545946,
-        "first_seen": "2026-09-04",
-        "last_seen": "2026-09-04"
-      }
-    },
-    {
-      "ts": "2026-09-04",
-      "type": "model_added",
-      "id": "openai/gpt-6-astra-pro",
-      "provider": "openai",
-      "snapshot": {
-        "id": "openai/gpt-6-astra-pro",
-        "name": "OpenAI: GPT-6 Astra Pro",
-        "provider": "openai",
-        "pricing": {
-          "prompt": "0.00001",
-          "completion": "0.00005",
-          "image": null,
-          "request": null
-        },
-        "context_length": 1050000,
-        "max_completion_tokens": 128000,
-        "expiration_date": null,
-        "created": 1788552835,
-        "first_seen": "2026-09-04",
-        "last_seen": "2026-09-04"
-      }
     }
   ],
   "scheduled_funerals": [
