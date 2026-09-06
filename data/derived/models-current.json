@@ -1264,8 +1264,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000008022",
-        "completion": "0.00000016044",
+        "prompt": "0.00000007966",
+        "completion": "0.00000015932",
         "image": null,
         "request": null
       },
@@ -1332,8 +1332,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000066729",
-        "completion": "0.00000133458",
+        "prompt": "0.00000063684",
+        "completion": "0.00000127368",
         "image": null,
         "request": null
       },
@@ -6058,13 +6058,13 @@
       "name": "Qwen: Qwen3.5 397B A17B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000055",
-        "completion": "0.0000035",
+        "prompt": "0.00000039",
+        "completion": "0.00000234",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 235929,
+      "max_completion_tokens": 65536,
       "expiration_date": null,
       "created": 1771223018,
       "first_seen": "2026-05-27",
@@ -6636,8 +6636,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },
