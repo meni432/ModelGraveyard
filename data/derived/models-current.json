@@ -74,13 +74,13 @@
       "name": "DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.00000004998",
-        "completion": "0.00000009996",
+        "prompt": "0.000000045",
+        "completion": "0.00000009",
         "image": null,
         "request": null
       },
       "context_length": 1310720,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 943718,
       "expiration_date": null,
       "created": 1785606009,
       "first_seen": "2026-08-01",
@@ -1264,8 +1264,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000008218",
-        "completion": "0.00000016436",
+        "prompt": "0.00000008078",
+        "completion": "0.00000016156",
         "image": null,
         "request": null
       },
@@ -1281,13 +1281,13 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000065",
-        "completion": "0.00000018",
+        "prompt": "0.00000004998",
+        "completion": "0.00000009996",
         "image": null,
         "request": null
       },
       "context_length": 1310720,
-      "max_completion_tokens": 943718,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1785478908,
       "first_seen": "2026-07-31",
@@ -1332,8 +1332,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000768732",
-        "completion": "0.000001537464",
+        "prompt": "0.00000069774",
+        "completion": "0.00000139548",
         "image": null,
         "request": null
       },
@@ -7112,8 +7112,8 @@
       "name": "Z.ai: GLM 4.6",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.0000005",
-        "completion": "0.000002",
+        "prompt": "0.00000055",
+        "completion": "0.0000022",
         "image": null,
         "request": null
       },
