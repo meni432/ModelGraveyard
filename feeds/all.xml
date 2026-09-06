@@ -105,6 +105,42 @@
     <summary>prompt: $0.5000/Mtok → $0.5500/Mtok (+10%); completion: $2.0000/Mtok → $2.2000/Mtok (+10%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-09-06:price_changed:deepseek%2Fdeepseek-v4-pro-0813</id>
+    <title>Price changed: deepseek/deepseek-v4-pro-0813</title>
+    <updated>2026-09-06T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-pro-0813"/>
+    <category term="price_changed"/>
+    <category term="provider:deepseek"/>
+    <summary>prompt: $1.1207/Mtok → $0.5795/Mtok (-48.29%); completion: $3.3620/Mtok → $1.7384/Mtok (-48.29%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-06:price_changed:deepseek%2Fdeepseek-v4-pro</id>
+    <title>Price changed: deepseek/deepseek-v4-pro</title>
+    <updated>2026-09-06T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-pro"/>
+    <category term="price_changed"/>
+    <category term="provider:deepseek"/>
+    <summary>prompt: $0.6977/Mtok → $0.6673/Mtok (-4.36%); completion: $1.3955/Mtok → $1.3346/Mtok (-4.36%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-06:price_changed:deepseek%2Fdeepseek-v4-flash</id>
+    <title>Price changed: deepseek/deepseek-v4-flash</title>
+    <updated>2026-09-06T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-flash"/>
+    <category term="price_changed"/>
+    <category term="provider:deepseek"/>
+    <summary>prompt: $0.0808/Mtok → $0.0802/Mtok (-0.69%); completion: $0.1616/Mtok → $0.1604/Mtok (-0.69%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-06:model_removed:z-ai%2Fglm-5.2%3Afree</id>
+    <title>Removed: z-ai/glm-5.2:free</title>
+    <updated>2026-09-06T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2%3Afree"/>
+    <category term="model_removed"/>
+    <category term="provider:z-ai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-09-05:model_added:openai%2Fgpt-6-astra%3Abatch</id>
     <title>Added: openai/gpt-6-astra:batch</title>
     <updated>2026-09-05T00:00:00Z</updated>
@@ -868,41 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:deepseek"/>
     <summary>prompt: $1.0275/Mtok → $1.0423/Mtok (+1.44%); completion: $2.0549/Mtok → $2.0845/Mtok (+1.44%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-02:price_changed:deepseek%2Fdeepseek-v4-flash</id>
-    <title>Price changed: deepseek/deepseek-v4-flash</title>
-    <updated>2026-09-02T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-flash"/>
-    <category term="price_changed"/>
-    <category term="provider:deepseek"/>
-    <summary>prompt: $0.0717/Mtok → $0.0886/Mtok (+23.61%); completion: $0.1434/Mtok → $0.1772/Mtok (+23.61%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-02:price_changed:deepseek%2Fdeepseek-chat-v3.1</id>
-    <title>Price changed: deepseek/deepseek-chat-v3.1</title>
-    <updated>2026-09-02T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-chat-v3.1"/>
-    <category term="price_changed"/>
-    <category term="provider:deepseek"/>
-    <summary>prompt: $0.5500/Mtok → $0.2500/Mtok (-54.55%); completion: $1.6500/Mtok → $0.9500/Mtok (-42.42%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-02:deprecation_announced:z-ai%2Fglm-4.5v</id>
-    <title>Deprecation announced: z-ai/glm-4.5v (sunset 2026-12-31)</title>
-    <updated>2026-09-02T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-4.5v"/>
-    <category term="deprecation_announced"/>
-    <category term="provider:z-ai"/>
-    <summary>Provider announced retirement on 2026-12-31.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-02:model_added:anthropic%2Fclaude-fable-5.1%3Abatch</id>
-    <title>Added: anthropic/claude-fable-5.1:batch</title>
-    <updated>2026-09-02T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-fable-5.1%3Abatch"/>
-    <category term="model_added"/>
-    <category term="provider:anthropic"/>
-    <summary>New model on OpenRouter. Initial prompt price: $5.0000/Mtok, context: 1000000.</summary>
   </entry>
 </feed>

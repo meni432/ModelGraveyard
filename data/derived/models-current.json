@@ -1264,8 +1264,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000008078",
-        "completion": "0.00000016156",
+        "prompt": "0.00000008022",
+        "completion": "0.00000016044",
         "image": null,
         "request": null
       },
@@ -1332,8 +1332,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000069774",
-        "completion": "0.00000139548",
+        "prompt": "0.00000066729",
+        "completion": "0.00000133458",
         "image": null,
         "request": null
       },
@@ -1349,8 +1349,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000112068",
-        "completion": "0.00000336204",
+        "prompt": "0.00000057948",
+        "completion": "0.00000173844",
         "image": null,
         "request": null
       },
@@ -7241,23 +7241,6 @@
       "expiration_date": null,
       "created": 1781631930,
       "first_seen": "2026-06-16",
-      "last_seen": "2026-09-06"
-    },
-    {
-      "id": "z-ai/glm-5.2:free",
-      "name": "Z.ai: GLM 5.2 (free)",
-      "provider": "z-ai",
-      "pricing": {
-        "prompt": "0",
-        "completion": "0",
-        "image": null,
-        "request": null
-      },
-      "context_length": 256000,
-      "max_completion_tokens": 230400,
-      "expiration_date": null,
-      "created": 1781631930,
-      "first_seen": "2026-08-18",
       "last_seen": "2026-09-06"
     },
     {

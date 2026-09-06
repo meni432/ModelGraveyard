@@ -38150,6 +38150,89 @@
           "pct_change": 10
         }
       ]
+    },
+    {
+      "ts": "2026-09-06",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000112068",
+          "next": "0.00000057948",
+          "pct_change": -48.29
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000336204",
+          "next": "0.00000173844",
+          "pct_change": -48.29
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-06",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000069774",
+          "next": "0.00000066729",
+          "pct_change": -4.36
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000139548",
+          "next": "0.00000133458",
+          "pct_change": -4.36
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-06",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000008078",
+          "next": "0.00000008022",
+          "pct_change": -0.69
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000016156",
+          "next": "0.00000016044",
+          "pct_change": -0.69
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-06",
+      "type": "model_removed",
+      "id": "z-ai/glm-5.2:free",
+      "provider": "z-ai",
+      "snapshot": {
+        "id": "z-ai/glm-5.2:free",
+        "name": "Z.ai: GLM 5.2 (free)",
+        "provider": "z-ai",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 256000,
+        "max_completion_tokens": 230400,
+        "expiration_date": null,
+        "created": 1781631930,
+        "first_seen": "2026-08-18",
+        "last_seen": "2026-09-06"
+      }
     }
   ]
 }
