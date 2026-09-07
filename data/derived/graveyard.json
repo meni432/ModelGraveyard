@@ -1,6 +1,40 @@
 {
   "buried": [
     {
+      "id": "minimax/minimax-m2.7:free",
+      "name": "MiniMax: MiniMax M2.7 (free)",
+      "provider": "minimax",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 196608,
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-09-07",
+      "buried_at": "2026-09-07",
+      "suggested_replacement": "minimax/minimax-m2.7"
+    },
+    {
+      "id": "minimax/minimax-m3:free",
+      "name": "MiniMax: MiniMax M3 (free)",
+      "provider": "minimax",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 1048576,
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-09-07",
+      "buried_at": "2026-09-07",
+      "suggested_replacement": "minimax/minimax-m3"
+    },
+    {
       "id": "qwen/qwen3.8-max",
       "name": "Qwen: Qwen3.8 Max",
       "provider": "qwen",

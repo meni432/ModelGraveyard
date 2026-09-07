@@ -125,8 +125,8 @@
       "name": "MoonshotAI Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.00000255",
-        "completion": "0.00001275",
+        "prompt": "0.0000025",
+        "completion": "0.000014",
         "image": null,
         "request": null
       },
@@ -1349,8 +1349,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000010494",
-        "completion": "0.0000031482",
+        "prompt": "0.00000066",
+        "completion": "0.00000198",
         "image": null,
         "request": null
       },
@@ -2773,23 +2773,6 @@
       "last_seen": "2026-09-07"
     },
     {
-      "id": "minimax/minimax-m2.7:free",
-      "name": "MiniMax: MiniMax M2.7 (free)",
-      "provider": "minimax",
-      "pricing": {
-        "prompt": "0",
-        "completion": "0",
-        "image": null,
-        "request": null
-      },
-      "context_length": 196608,
-      "max_completion_tokens": 176947,
-      "expiration_date": null,
-      "created": 1773836697,
-      "first_seen": "2026-08-25",
-      "last_seen": "2026-09-07"
-    },
-    {
       "id": "minimax/minimax-m3",
       "name": "MiniMax: MiniMax M3",
       "provider": "minimax",
@@ -2821,23 +2804,6 @@
       "expiration_date": null,
       "created": 1780245374,
       "first_seen": "2026-08-06",
-      "last_seen": "2026-09-07"
-    },
-    {
-      "id": "minimax/minimax-m3:free",
-      "name": "MiniMax: MiniMax M3 (free)",
-      "provider": "minimax",
-      "pricing": {
-        "prompt": "0",
-        "completion": "0",
-        "image": null,
-        "request": null
-      },
-      "context_length": 1048576,
-      "max_completion_tokens": 943718,
-      "expiration_date": null,
-      "created": 1780245374,
-      "first_seen": "2026-08-25",
       "last_seen": "2026-09-07"
     },
     {
@@ -3020,8 +2986,8 @@
         "image": null,
         "request": null
       },
-      "context_length": 32768,
-      "max_completion_tokens": 26214,
+      "context_length": 262144,
+      "max_completion_tokens": 209715,
       "expiration_date": null,
       "created": 1777570439,
       "first_seen": "2026-08-28",
@@ -6636,8 +6602,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },
