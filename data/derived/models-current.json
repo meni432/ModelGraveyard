@@ -193,13 +193,13 @@
       "name": "Z.ai: GLM Flash Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.00000007125",
-        "completion": "0.0000002375",
+        "prompt": "0.000000075",
+        "completion": "0.00000025",
         "image": null,
         "request": null
       },
       "context_length": 1310720,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 943718,
       "expiration_date": null,
       "created": 1787817633,
       "first_seen": "2026-09-02",
@@ -210,13 +210,13 @@
       "name": "Z.ai: GLM Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.00000112",
-        "completion": "0.00000352",
+        "prompt": "0.000001113",
+        "completion": "0.000003498",
         "image": null,
         "request": null
       },
       "context_length": 1310720,
-      "max_completion_tokens": 943718,
+      "max_completion_tokens": 128000,
       "expiration_date": null,
       "created": 1787151053,
       "first_seen": "2026-08-19",
@@ -1264,8 +1264,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000088606",
-        "completion": "0.000000177212",
+        "prompt": "0.00000008708",
+        "completion": "0.00000017416",
         "image": null,
         "request": null
       },
@@ -1298,8 +1298,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0731 (batch)",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000014",
-        "completion": "0.00000028",
+        "prompt": "0.00000011",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },
@@ -1328,6 +1328,23 @@
       "last_seen": "2026-09-08"
     },
     {
+      "id": "deepseek/deepseek-v4-flash-vision-exp:batch",
+      "name": "DeepSeek: DeepSeek V4 Flash Vision Exp (batch)",
+      "provider": "deepseek",
+      "pricing": {
+        "prompt": "0.00000011",
+        "completion": "0.00000033",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1048576,
+      "max_completion_tokens": 943718,
+      "expiration_date": null,
+      "created": 1787311563,
+      "first_seen": "2026-09-08",
+      "last_seen": "2026-09-08"
+    },
+    {
       "id": "deepseek/deepseek-v4-pro",
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
@@ -1349,13 +1366,13 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000010494",
-        "completion": "0.0000031482",
+        "prompt": "0.00000057948",
+        "completion": "0.00000173844",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 384000,
+      "max_completion_tokens": 393216,
       "expiration_date": null,
       "created": 1786549364,
       "first_seen": "2026-08-12",
@@ -1366,8 +1383,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0813 (batch)",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000132",
-        "completion": "0.00000396",
+        "prompt": "0.00000066",
+        "completion": "0.00000198",
         "image": null,
         "request": null
       },
@@ -2675,7 +2692,7 @@
       "name": "MiniMax: MiniMax M1",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0.0000004",
+        "prompt": "0.00000055",
         "completion": "0.0000022",
         "image": null,
         "request": null
@@ -3314,40 +3331,6 @@
       "expiration_date": null,
       "created": 1751910858,
       "first_seen": "2026-05-27",
-      "last_seen": "2026-09-08"
-    },
-    {
-      "id": "nex-agi/nex-n2-mini",
-      "name": "Nex AGI: Nex-N2-Mini",
-      "provider": "nex-agi",
-      "pricing": {
-        "prompt": "0.000000025",
-        "completion": "0.0000001",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 235929,
-      "expiration_date": "2026-09-08",
-      "created": 1782312964,
-      "first_seen": "2026-07-06",
-      "last_seen": "2026-09-08"
-    },
-    {
-      "id": "nex-agi/nex-n2-pro",
-      "name": "Nex AGI: Nex-N2-Pro",
-      "provider": "nex-agi",
-      "pricing": {
-        "prompt": "0.00000025",
-        "completion": "0.000001",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 235929,
-      "expiration_date": "2026-09-08",
-      "created": 1780937140,
-      "first_seen": "2026-06-22",
       "last_seen": "2026-09-08"
     },
     {
@@ -6024,13 +6007,13 @@
       "name": "Qwen: Qwen3.5 397B A17B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000039",
-        "completion": "0.00000234",
+        "prompt": "0.00000055",
+        "completion": "0.0000035",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 65536,
+      "max_completion_tokens": 235929,
       "expiration_date": null,
       "created": 1771223018,
       "first_seen": "2026-05-27",
@@ -6602,8 +6585,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },
@@ -7210,6 +7193,23 @@
       "last_seen": "2026-09-08"
     },
     {
+      "id": "z-ai/glm-5.2:batch",
+      "name": "Z.ai: GLM 5.2 (batch)",
+      "provider": "z-ai",
+      "pricing": {
+        "prompt": "0.0000007",
+        "completion": "0.0000022",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1048576,
+      "max_completion_tokens": 943718,
+      "expiration_date": null,
+      "created": 1781631930,
+      "first_seen": "2026-09-08",
+      "last_seen": "2026-09-08"
+    },
+    {
       "id": "z-ai/glm-5.3",
       "name": "Z.ai: GLM 5.3",
       "provider": "z-ai",
@@ -7258,6 +7258,23 @@
       "expiration_date": null,
       "created": 1787752741,
       "first_seen": "2026-08-28",
+      "last_seen": "2026-09-08"
+    },
+    {
+      "id": "z-ai/glm-5.3:batch",
+      "name": "Z.ai: GLM 5.3 (batch)",
+      "provider": "z-ai",
+      "pricing": {
+        "prompt": "0.0000007",
+        "completion": "0.0000022",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1048576,
+      "max_completion_tokens": 943718,
+      "expiration_date": null,
+      "created": 1787086655,
+      "first_seen": "2026-09-08",
       "last_seen": "2026-09-08"
     },
     {

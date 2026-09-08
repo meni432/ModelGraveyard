@@ -4,7 +4,34 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_added.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_added.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-09-05T00:00:00Z</updated>
+  <updated>2026-09-08T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-08:model_added:deepseek%2Fdeepseek-v4-flash-vision-exp%3Abatch</id>
+    <title>Added: deepseek/deepseek-v4-flash-vision-exp:batch</title>
+    <updated>2026-09-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-flash-vision-exp%3Abatch"/>
+    <category term="model_added"/>
+    <category term="provider:deepseek"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.1100/Mtok, context: 1048576.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-08:model_added:z-ai%2Fglm-5.3%3Abatch</id>
+    <title>Added: z-ai/glm-5.3:batch</title>
+    <updated>2026-09-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.3%3Abatch"/>
+    <category term="model_added"/>
+    <category term="provider:z-ai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.7000/Mtok, context: 1048576.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-08:model_added:z-ai%2Fglm-5.2%3Abatch</id>
+    <title>Added: z-ai/glm-5.2:batch</title>
+    <updated>2026-09-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2%3Abatch"/>
+    <category term="model_added"/>
+    <category term="provider:z-ai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.7000/Mtok, context: 1048576.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-09-05:model_added:openai%2Fgpt-6-astra%3Abatch</id>
     <title>Added: openai/gpt-6-astra:batch</title>
@@ -877,32 +904,5 @@
     <category term="model_added"/>
     <category term="provider:meta"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.3500/Mtok, context: 131072.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-11:model_added:sakana%2Fsakana-namazu</id>
-    <title>Added: sakana/sakana-namazu</title>
-    <updated>2026-08-11T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/sakana%2Fsakana-namazu"/>
-    <category term="model_added"/>
-    <category term="provider:sakana"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.9500/Mtok, context: 262144.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-11:model_added:nvidia%2Fnemotron-3.5-lightning%3Afree</id>
-    <title>Added: nvidia/nemotron-3.5-lightning:free</title>
-    <updated>2026-08-11T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/nvidia%2Fnemotron-3.5-lightning%3Afree"/>
-    <category term="model_added"/>
-    <category term="provider:nvidia"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 1000000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-11:model_added:nvidia%2Fnemotron-3.5-lightning</id>
-    <title>Added: nvidia/nemotron-3.5-lightning</title>
-    <updated>2026-08-11T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/nvidia%2Fnemotron-3.5-lightning"/>
-    <category term="model_added"/>
-    <category term="provider:nvidia"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.1000/Mtok, context: 262144.</summary>
   </entry>
 </feed>
