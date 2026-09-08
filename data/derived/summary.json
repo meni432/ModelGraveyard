@@ -1,9 +1,203 @@
 {
   "generated_at": "2026-09-08",
-  "active_count": 429,
-  "dead_count": 173,
+  "active_count": 431,
+  "dead_count": 174,
   "last_event_ts": "2026-09-08",
   "recent_events": [
+    {
+      "ts": "2026-09-08",
+      "type": "model_removed",
+      "id": "inception/mercury-2.5-preview",
+      "provider": "inception",
+      "snapshot": {
+        "id": "inception/mercury-2.5-preview",
+        "name": "Inception: Mercury 2.5 Preview",
+        "provider": "inception",
+        "pricing": {
+          "prompt": "0.00000004",
+          "completion": "0.00000015",
+          "image": null,
+          "request": null
+        },
+        "context_length": 260000,
+        "max_completion_tokens": 65536,
+        "expiration_date": null,
+        "created": 1788209864,
+        "first_seen": "2026-09-01",
+        "last_seen": "2026-09-08"
+      }
+    },
+    {
+      "ts": "2026-09-08",
+      "type": "price_changed",
+      "id": "minimax/minimax-m1",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000055",
+          "next": "0.0000004",
+          "pct_change": -27.27
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-08",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000008708",
+          "next": "0.000000084",
+          "pct_change": -3.54
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000017416",
+          "next": "0.000000168",
+          "pct_change": -3.54
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-08",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000095526",
+          "next": "0.000000948126",
+          "pct_change": -0.75
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000191052",
+          "next": "0.000001896252",
+          "pct_change": -0.75
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-08",
+      "type": "price_changed",
+      "id": "meta/muse-glimmer-30b:batch",
+      "provider": "meta",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000035",
+          "next": "0.000000175",
+          "pct_change": -50
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000015",
+          "next": "0.00000075",
+          "pct_change": -50
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-08",
+      "type": "context_changed",
+      "id": "z-ai/glm-5.3-flash:batch",
+      "provider": "z-ai",
+      "prev_context": 1048575,
+      "next_context": 1048576
+    },
+    {
+      "ts": "2026-09-08",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.3-flash:batch",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000015",
+          "next": "0.000000075",
+          "pct_change": -50
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000005",
+          "next": "0.00000025",
+          "pct_change": -50
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-08",
+      "type": "model_added",
+      "id": "nex-agi/nex-n2.5-pro:free",
+      "provider": "nex-agi",
+      "snapshot": {
+        "id": "nex-agi/nex-n2.5-pro:free",
+        "name": "Nex AGI: Nex-N2.5-Pro (free)",
+        "provider": "nex-agi",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 235929,
+        "expiration_date": null,
+        "created": 1788890050,
+        "first_seen": "2026-09-08",
+        "last_seen": "2026-09-08"
+      }
+    },
+    {
+      "ts": "2026-09-08",
+      "type": "model_added",
+      "id": "nex-agi/nex-n2.5-mini:free",
+      "provider": "nex-agi",
+      "snapshot": {
+        "id": "nex-agi/nex-n2.5-mini:free",
+        "name": "Nex AGI: Nex-N2.5-Mini (free)",
+        "provider": "nex-agi",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 235929,
+        "expiration_date": null,
+        "created": 1788890061,
+        "first_seen": "2026-09-08",
+        "last_seen": "2026-09-08"
+      }
+    },
+    {
+      "ts": "2026-09-08",
+      "type": "model_added",
+      "id": "inception/mercury-2.5",
+      "provider": "inception",
+      "snapshot": {
+        "id": "inception/mercury-2.5",
+        "name": "Inception: Mercury 2.5",
+        "provider": "inception",
+        "pricing": {
+          "prompt": "0.00000004",
+          "completion": "0.00000015",
+          "image": null,
+          "request": null
+        },
+        "context_length": 260000,
+        "max_completion_tokens": 65536,
+        "expiration_date": null,
+        "created": 1788892137,
+        "first_seen": "2026-09-08",
+        "last_seen": "2026-09-08"
+      }
+    },
     {
       "ts": "2026-09-08",
       "type": "model_removed",
@@ -204,206 +398,6 @@
           "prev": "0.0000031482",
           "next": "0.00000173844",
           "pct_change": -44.78
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-08",
-      "type": "model_added",
-      "id": "z-ai/glm-5.3:batch",
-      "provider": "z-ai",
-      "snapshot": {
-        "id": "z-ai/glm-5.3:batch",
-        "name": "Z.ai: GLM 5.3 (batch)",
-        "provider": "z-ai",
-        "pricing": {
-          "prompt": "0.0000007",
-          "completion": "0.0000022",
-          "image": null,
-          "request": null
-        },
-        "context_length": 1048576,
-        "max_completion_tokens": 943718,
-        "expiration_date": null,
-        "created": 1787086655,
-        "first_seen": "2026-09-08",
-        "last_seen": "2026-09-08"
-      }
-    },
-    {
-      "ts": "2026-09-08",
-      "type": "price_changed",
-      "id": "~z-ai/glm-latest",
-      "provider": "~z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000112",
-          "next": "0.000001113",
-          "pct_change": -0.63
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000352",
-          "next": "0.000003498",
-          "pct_change": -0.63
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-08",
-      "type": "model_added",
-      "id": "deepseek/deepseek-v4-flash-vision-exp:batch",
-      "provider": "deepseek",
-      "snapshot": {
-        "id": "deepseek/deepseek-v4-flash-vision-exp:batch",
-        "name": "DeepSeek: DeepSeek V4 Flash Vision Exp (batch)",
-        "provider": "deepseek",
-        "pricing": {
-          "prompt": "0.00000011",
-          "completion": "0.00000033",
-          "image": null,
-          "request": null
-        },
-        "context_length": 1048576,
-        "max_completion_tokens": 943718,
-        "expiration_date": null,
-        "created": 1787311563,
-        "first_seen": "2026-09-08",
-        "last_seen": "2026-09-08"
-      }
-    },
-    {
-      "ts": "2026-09-08",
-      "type": "price_changed",
-      "id": "~z-ai/glm-flash-latest",
-      "provider": "~z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000007125",
-          "next": "0.000000075",
-          "pct_change": 5.26
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000002375",
-          "next": "0.00000025",
-          "pct_change": 5.26
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-08",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-flash-0731",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000014",
-          "next": "0.000000065",
-          "pct_change": -53.57
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000028",
-          "next": "0.00000018",
-          "pct_change": -35.71
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-08",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-flash-vision-exp",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000044",
-          "next": "0.00000022",
-          "pct_change": -50
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000132",
-          "next": "0.00000066",
-          "pct_change": -50
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-08",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-chat-v3-0324",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000025",
-          "next": "0.00000029",
-          "pct_change": 16
-        },
-        {
-          "field": "completion",
-          "prev": "0.000001",
-          "next": "0.00000114",
-          "pct_change": 14
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-08",
-      "type": "price_changed",
-      "id": "qwen/qwen3-14b",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000012",
-          "next": "0.0000002275",
-          "pct_change": 89.58
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000024",
-          "next": "0.00000091",
-          "pct_change": 279.17
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-08",
-      "type": "price_changed",
-      "id": "minimax/minimax-m1",
-      "provider": "minimax",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000055",
-          "next": "0.0000004",
-          "pct_change": -27.27
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-08",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-chat-v3.1",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000055",
-          "next": "0.00000025",
-          "pct_change": -54.55
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000165",
-          "next": "0.00000095",
-          "pct_change": -42.42
         }
       ]
     }

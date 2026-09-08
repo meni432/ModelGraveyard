@@ -1,6 +1,23 @@
 {
   "buried": [
     {
+      "id": "inception/mercury-2.5-preview",
+      "name": "Inception: Mercury 2.5 Preview",
+      "provider": "inception",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000004",
+        "completion": "0.00000015",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 260000,
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-08",
+      "buried_at": "2026-09-08",
+      "suggested_replacement": "inception/mercury-2.5"
+    },
+    {
       "id": "nex-agi/nex-n2-mini",
       "name": "Nex AGI: Nex-N2-Mini",
       "provider": "nex-agi",

@@ -39204,6 +39204,200 @@
         "first_seen": "2026-06-22",
         "last_seen": "2026-09-08"
       }
+    },
+    {
+      "ts": "2026-09-08",
+      "type": "model_added",
+      "id": "inception/mercury-2.5",
+      "provider": "inception",
+      "snapshot": {
+        "id": "inception/mercury-2.5",
+        "name": "Inception: Mercury 2.5",
+        "provider": "inception",
+        "pricing": {
+          "prompt": "0.00000004",
+          "completion": "0.00000015",
+          "image": null,
+          "request": null
+        },
+        "context_length": 260000,
+        "max_completion_tokens": 65536,
+        "expiration_date": null,
+        "created": 1788892137,
+        "first_seen": "2026-09-08",
+        "last_seen": "2026-09-08"
+      }
+    },
+    {
+      "ts": "2026-09-08",
+      "type": "model_added",
+      "id": "nex-agi/nex-n2.5-mini:free",
+      "provider": "nex-agi",
+      "snapshot": {
+        "id": "nex-agi/nex-n2.5-mini:free",
+        "name": "Nex AGI: Nex-N2.5-Mini (free)",
+        "provider": "nex-agi",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 235929,
+        "expiration_date": null,
+        "created": 1788890061,
+        "first_seen": "2026-09-08",
+        "last_seen": "2026-09-08"
+      }
+    },
+    {
+      "ts": "2026-09-08",
+      "type": "model_added",
+      "id": "nex-agi/nex-n2.5-pro:free",
+      "provider": "nex-agi",
+      "snapshot": {
+        "id": "nex-agi/nex-n2.5-pro:free",
+        "name": "Nex AGI: Nex-N2.5-Pro (free)",
+        "provider": "nex-agi",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 235929,
+        "expiration_date": null,
+        "created": 1788890050,
+        "first_seen": "2026-09-08",
+        "last_seen": "2026-09-08"
+      }
+    },
+    {
+      "ts": "2026-09-08",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.3-flash:batch",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000015",
+          "next": "0.000000075",
+          "pct_change": -50
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000005",
+          "next": "0.00000025",
+          "pct_change": -50
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-08",
+      "type": "context_changed",
+      "id": "z-ai/glm-5.3-flash:batch",
+      "provider": "z-ai",
+      "prev_context": 1048575,
+      "next_context": 1048576
+    },
+    {
+      "ts": "2026-09-08",
+      "type": "price_changed",
+      "id": "meta/muse-glimmer-30b:batch",
+      "provider": "meta",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000035",
+          "next": "0.000000175",
+          "pct_change": -50
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000015",
+          "next": "0.00000075",
+          "pct_change": -50
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-08",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000095526",
+          "next": "0.000000948126",
+          "pct_change": -0.75
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000191052",
+          "next": "0.000001896252",
+          "pct_change": -0.75
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-08",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000008708",
+          "next": "0.000000084",
+          "pct_change": -3.54
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000017416",
+          "next": "0.000000168",
+          "pct_change": -3.54
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-08",
+      "type": "price_changed",
+      "id": "minimax/minimax-m1",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000055",
+          "next": "0.0000004",
+          "pct_change": -27.27
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-08",
+      "type": "model_removed",
+      "id": "inception/mercury-2.5-preview",
+      "provider": "inception",
+      "snapshot": {
+        "id": "inception/mercury-2.5-preview",
+        "name": "Inception: Mercury 2.5 Preview",
+        "provider": "inception",
+        "pricing": {
+          "prompt": "0.00000004",
+          "completion": "0.00000015",
+          "image": null,
+          "request": null
+        },
+        "context_length": 260000,
+        "max_completion_tokens": 65536,
+        "expiration_date": null,
+        "created": 1788209864,
+        "first_seen": "2026-09-01",
+        "last_seen": "2026-09-08"
+      }
     }
   ]
 }

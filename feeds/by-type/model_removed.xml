@@ -24,6 +24,15 @@
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.2500/Mtok.</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-09-08:model_removed:inception%2Fmercury-2.5-preview</id>
+    <title>Removed: inception/mercury-2.5-preview</title>
+    <updated>2026-09-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/inception%2Fmercury-2.5-preview"/>
+    <category term="model_removed"/>
+    <category term="provider:inception"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0400/Mtok.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-09-07:model_removed:minimax%2Fminimax-m2.7%3Afree</id>
     <title>Removed: minimax/minimax-m2.7:free</title>
     <updated>2026-09-07T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="model_removed"/>
     <category term="provider:openai"/>
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.6250/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-31:model_removed:openai%2Fgpt-5.1-chat</id>
-    <title>Removed: openai/gpt-5.1-chat</title>
-    <updated>2026-07-31T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5.1-chat"/>
-    <category term="model_removed"/>
-    <category term="provider:openai"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $1.2500/Mtok.</summary>
   </entry>
 </feed>
