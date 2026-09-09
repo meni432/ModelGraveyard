@@ -1366,13 +1366,13 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000057948",
-        "completion": "0.00000173844",
+        "prompt": "0.0000010494",
+        "completion": "0.0000031482",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 393216,
+      "max_completion_tokens": 384000,
       "expiration_date": null,
       "created": 1786549364,
       "first_seen": "2026-08-12",
@@ -5599,8 +5599,8 @@
       "name": "Qwen: Qwen3 235B A22B Instruct 2507",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000009",
-        "completion": "0.00000055",
+        "prompt": "0.00000022",
+        "completion": "0.00000088",
         "image": null,
         "request": null
       },

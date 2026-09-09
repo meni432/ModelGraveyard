@@ -7,6 +7,46 @@
     {
       "ts": "2026-09-09",
       "type": "price_changed",
+      "id": "qwen/qwen3-235b-a22b-2507",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000009",
+          "next": "0.00000022",
+          "pct_change": 144.44
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000055",
+          "next": "0.00000088",
+          "pct_change": 60
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-09",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000057948",
+          "next": "0.0000010494",
+          "pct_change": 81.09
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000173844",
+          "next": "0.0000031482",
+          "pct_change": 81.09
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-09",
+      "type": "price_changed",
       "id": "minimax/minimax-m1",
       "provider": "minimax",
       "changes": [
@@ -328,52 +368,6 @@
         "expiration_date": null,
         "created": 1788890061,
         "first_seen": "2026-09-08",
-        "last_seen": "2026-09-08"
-      }
-    },
-    {
-      "ts": "2026-09-08",
-      "type": "model_added",
-      "id": "inception/mercury-2.5",
-      "provider": "inception",
-      "snapshot": {
-        "id": "inception/mercury-2.5",
-        "name": "Inception: Mercury 2.5",
-        "provider": "inception",
-        "pricing": {
-          "prompt": "0.00000004",
-          "completion": "0.00000015",
-          "image": null,
-          "request": null
-        },
-        "context_length": 260000,
-        "max_completion_tokens": 65536,
-        "expiration_date": null,
-        "created": 1788892137,
-        "first_seen": "2026-09-08",
-        "last_seen": "2026-09-08"
-      }
-    },
-    {
-      "ts": "2026-09-08",
-      "type": "model_removed",
-      "id": "nex-agi/nex-n2-pro",
-      "provider": "nex-agi",
-      "snapshot": {
-        "id": "nex-agi/nex-n2-pro",
-        "name": "Nex AGI: Nex-N2-Pro",
-        "provider": "nex-agi",
-        "pricing": {
-          "prompt": "0.00000025",
-          "completion": "0.000001",
-          "image": null,
-          "request": null
-        },
-        "context_length": 262144,
-        "max_completion_tokens": 235929,
-        "expiration_date": "2026-09-08",
-        "created": 1780937140,
-        "first_seen": "2026-06-22",
         "last_seen": "2026-09-08"
       }
     }
