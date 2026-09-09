@@ -39733,6 +39733,42 @@
         "first_seen": "2026-05-27",
         "last_seen": "2026-09-09"
       }
+    },
+    {
+      "ts": "2026-09-09",
+      "type": "context_changed",
+      "id": "~z-ai/glm-latest",
+      "provider": "~z-ai",
+      "prev_context": 1048576,
+      "next_context": 1310720
+    },
+    {
+      "ts": "2026-09-09",
+      "type": "context_changed",
+      "id": "z-ai/glm-5.3",
+      "provider": "z-ai",
+      "prev_context": 1048576,
+      "next_context": 1310720
+    },
+    {
+      "ts": "2026-09-09",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000084",
+          "next": "0.00000007",
+          "pct_change": -16.67
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000168",
+          "next": "0.00000014",
+          "pct_change": -16.67
+        }
+      ]
     }
   ]
 }

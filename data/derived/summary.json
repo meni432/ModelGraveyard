@@ -6,6 +6,42 @@
   "recent_events": [
     {
       "ts": "2026-09-09",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000084",
+          "next": "0.00000007",
+          "pct_change": -16.67
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000168",
+          "next": "0.00000014",
+          "pct_change": -16.67
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-09",
+      "type": "context_changed",
+      "id": "z-ai/glm-5.3",
+      "provider": "z-ai",
+      "prev_context": 1048576,
+      "next_context": 1310720
+    },
+    {
+      "ts": "2026-09-09",
+      "type": "context_changed",
+      "id": "~z-ai/glm-latest",
+      "provider": "~z-ai",
+      "prev_context": 1048576,
+      "next_context": 1310720
+    },
+    {
+      "ts": "2026-09-09",
       "type": "model_removed",
       "id": "nousresearch/hermes-4-70b",
       "provider": "nousresearch",
@@ -298,69 +334,6 @@
           "pct_change": -14.29
         }
       ]
-    },
-    {
-      "ts": "2026-09-09",
-      "type": "price_changed",
-      "id": "tencent/hy3",
-      "provider": "tencent",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000000825",
-          "next": "0.000000132",
-          "pct_change": 60
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000033",
-          "next": "0.000000528",
-          "pct_change": 60
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-09",
-      "type": "price_changed",
-      "id": "ibm-granite/granite-4.2-8b",
-      "provider": "ibm-granite",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000001",
-          "next": "0.00000006",
-          "pct_change": -40
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000015",
-          "next": "0.00000025",
-          "pct_change": 66.67
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-08",
-      "type": "model_removed",
-      "id": "inception/mercury-2.5-preview",
-      "provider": "inception",
-      "snapshot": {
-        "id": "inception/mercury-2.5-preview",
-        "name": "Inception: Mercury 2.5 Preview",
-        "provider": "inception",
-        "pricing": {
-          "prompt": "0.00000004",
-          "completion": "0.00000015",
-          "image": null,
-          "request": null
-        },
-        "context_length": 260000,
-        "max_completion_tokens": 65536,
-        "expiration_date": null,
-        "created": 1788209864,
-        "first_seen": "2026-09-01",
-        "last_seen": "2026-09-08"
-      }
     }
   ],
   "scheduled_funerals": [
