@@ -1,9 +1,112 @@
 {
   "generated_at": "2026-09-10",
-  "active_count": 436,
+  "active_count": 437,
   "dead_count": 175,
   "last_event_ts": "2026-09-10",
   "recent_events": [
+    {
+      "ts": "2026-09-10",
+      "type": "price_changed",
+      "id": "minimax/minimax-m2.5",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000003",
+          "next": "0.00000027",
+          "pct_change": -10
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000012",
+          "next": "0.00000108",
+          "pct_change": -10
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-10",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000008708",
+          "next": "0.000000084",
+          "pct_change": -3.54
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000017416",
+          "next": "0.000000168",
+          "pct_change": -3.54
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-10",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000095526",
+          "next": "0.00000087",
+          "pct_change": -8.93
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000191052",
+          "next": "0.00000174",
+          "pct_change": -8.93
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-10",
+      "type": "price_changed",
+      "id": "tencent/hy3",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000132",
+          "next": "0.0000000825",
+          "pct_change": -37.5
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000528",
+          "next": "0.00000033",
+          "pct_change": -37.5
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-10",
+      "type": "model_added",
+      "id": "inclusionai/ling-3.0-flash-vl:free",
+      "provider": "inclusionai",
+      "snapshot": {
+        "id": "inclusionai/ling-3.0-flash-vl:free",
+        "name": "inclusionAI: Ling 3.0 Flash VL (free)",
+        "provider": "inclusionai",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 32768,
+        "expiration_date": null,
+        "created": 1789056114,
+        "first_seen": "2026-09-10",
+        "last_seen": "2026-09-10"
+      }
+    },
     {
       "ts": "2026-09-10",
       "type": "price_changed",
@@ -268,118 +371,6 @@
           "prev": "0.00000019305",
           "next": "0.0000003",
           "pct_change": 55.4
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-10",
-      "type": "model_added",
-      "id": "mistralai/codestral-2508:batch",
-      "provider": "mistralai",
-      "snapshot": {
-        "id": "mistralai/codestral-2508:batch",
-        "name": "Mistral: Codestral 2508 (batch)",
-        "provider": "mistralai",
-        "pricing": {
-          "prompt": "0.00000015",
-          "completion": "0.00000045",
-          "image": null,
-          "request": null
-        },
-        "context_length": 256000,
-        "max_completion_tokens": 204800,
-        "expiration_date": null,
-        "created": 1754079630,
-        "first_seen": "2026-09-10",
-        "last_seen": "2026-09-10"
-      }
-    },
-    {
-      "ts": "2026-09-10",
-      "type": "model_added",
-      "id": "mistralai/mistral-medium-3.1:batch",
-      "provider": "mistralai",
-      "snapshot": {
-        "id": "mistralai/mistral-medium-3.1:batch",
-        "name": "Mistral: Mistral Medium 3.1 (batch)",
-        "provider": "mistralai",
-        "pricing": {
-          "prompt": "0.0000002",
-          "completion": "0.000001",
-          "image": null,
-          "request": null
-        },
-        "context_length": 131072,
-        "max_completion_tokens": 104857,
-        "expiration_date": null,
-        "created": 1755095639,
-        "first_seen": "2026-09-10",
-        "last_seen": "2026-09-10"
-      }
-    },
-    {
-      "ts": "2026-09-10",
-      "type": "model_added",
-      "id": "mistralai/mistral-large-2512:batch",
-      "provider": "mistralai",
-      "snapshot": {
-        "id": "mistralai/mistral-large-2512:batch",
-        "name": "Mistral: Mistral Large 3 2512 (batch)",
-        "provider": "mistralai",
-        "pricing": {
-          "prompt": "0.00000025",
-          "completion": "0.00000075",
-          "image": null,
-          "request": null
-        },
-        "context_length": 262144,
-        "max_completion_tokens": 209715,
-        "expiration_date": null,
-        "created": 1764624472,
-        "first_seen": "2026-09-10",
-        "last_seen": "2026-09-10"
-      }
-    },
-    {
-      "ts": "2026-09-10",
-      "type": "model_added",
-      "id": "mistralai/ministral-8b-2512:batch",
-      "provider": "mistralai",
-      "snapshot": {
-        "id": "mistralai/ministral-8b-2512:batch",
-        "name": "Mistral: Ministral 3 8B 2512 (batch)",
-        "provider": "mistralai",
-        "pricing": {
-          "prompt": "0.000000075",
-          "completion": "0.000000075",
-          "image": null,
-          "request": null
-        },
-        "context_length": 262144,
-        "max_completion_tokens": 209715,
-        "expiration_date": null,
-        "created": 1764681654,
-        "first_seen": "2026-09-10",
-        "last_seen": "2026-09-10"
-      }
-    },
-    {
-      "ts": "2026-09-10",
-      "type": "price_changed",
-      "id": "minimax/minimax-m2.5",
-      "provider": "minimax",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000027",
-          "next": "0.0000003",
-          "pct_change": 11.11
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000108",
-          "next": "0.0000012",
-          "pct_change": 11.11
         }
       ]
     }

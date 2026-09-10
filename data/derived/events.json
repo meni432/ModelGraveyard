@@ -40359,6 +40359,109 @@
           "pct_change": -35.65
         }
       ]
+    },
+    {
+      "ts": "2026-09-10",
+      "type": "model_added",
+      "id": "inclusionai/ling-3.0-flash-vl:free",
+      "provider": "inclusionai",
+      "snapshot": {
+        "id": "inclusionai/ling-3.0-flash-vl:free",
+        "name": "inclusionAI: Ling 3.0 Flash VL (free)",
+        "provider": "inclusionai",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 32768,
+        "expiration_date": null,
+        "created": 1789056114,
+        "first_seen": "2026-09-10",
+        "last_seen": "2026-09-10"
+      }
+    },
+    {
+      "ts": "2026-09-10",
+      "type": "price_changed",
+      "id": "tencent/hy3",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000132",
+          "next": "0.0000000825",
+          "pct_change": -37.5
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000528",
+          "next": "0.00000033",
+          "pct_change": -37.5
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-10",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000095526",
+          "next": "0.00000087",
+          "pct_change": -8.93
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000191052",
+          "next": "0.00000174",
+          "pct_change": -8.93
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-10",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000008708",
+          "next": "0.000000084",
+          "pct_change": -3.54
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000017416",
+          "next": "0.000000168",
+          "pct_change": -3.54
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-10",
+      "type": "price_changed",
+      "id": "minimax/minimax-m2.5",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000003",
+          "next": "0.00000027",
+          "pct_change": -10
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000012",
+          "next": "0.00000108",
+          "pct_change": -10
+        }
+      ]
     }
   ]
 }

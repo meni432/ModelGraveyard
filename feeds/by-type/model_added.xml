@@ -60,6 +60,15 @@
     <summary>New model on OpenRouter. Initial prompt price: $0.1500/Mtok, context: 1048576.</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-09-10:model_added:inclusionai%2Fling-3.0-flash-vl%3Afree</id>
+    <title>Added: inclusionai/ling-3.0-flash-vl:free</title>
+    <updated>2026-09-10T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/inclusionai%2Fling-3.0-flash-vl%3Afree"/>
+    <category term="model_added"/>
+    <category term="provider:inclusionai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 262144.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-09-08:model_added:deepseek%2Fdeepseek-v4-flash-vision-exp%3Abatch</id>
     <title>Added: deepseek/deepseek-v4-flash-vision-exp:batch</title>
     <updated>2026-09-08T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="model_added"/>
     <category term="provider:qwen"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.4500/Mtok, context: 262144.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-15:model_added:dots-studio%2Fdots-3-note-preview%3Afree</id>
-    <title>Added: dots-studio/dots-3-note-preview:free</title>
-    <updated>2026-08-15T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/dots-studio%2Fdots-3-note-preview%3Afree"/>
-    <category term="model_added"/>
-    <category term="provider:dots-studio"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 512000.</summary>
   </entry>
 </feed>

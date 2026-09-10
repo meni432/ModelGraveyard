@@ -1264,8 +1264,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000008708",
-        "completion": "0.00000017416",
+        "prompt": "0.000000084",
+        "completion": "0.000000168",
         "image": null,
         "request": null
       },
@@ -1349,8 +1349,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000095526",
-        "completion": "0.00000191052",
+        "prompt": "0.00000087",
+        "completion": "0.00000174",
         "image": null,
         "request": null
       },
@@ -2314,6 +2314,23 @@
       "last_seen": "2026-09-10"
     },
     {
+      "id": "inclusionai/ling-3.0-flash-vl:free",
+      "name": "inclusionAI: Ling 3.0 Flash VL (free)",
+      "provider": "inclusionai",
+      "pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "context_length": 262144,
+      "max_completion_tokens": 32768,
+      "expiration_date": null,
+      "created": 1789056114,
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-09-10"
+    },
+    {
       "id": "kwaipilot/kat-coder-pro-v2",
       "name": "Kwaipilot: KAT-Coder-Pro V2",
       "provider": "kwaipilot",
@@ -2777,13 +2794,13 @@
       "name": "MiniMax: MiniMax M2.5",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0.0000003",
-        "completion": "0.0000012",
+        "prompt": "0.00000027",
+        "completion": "0.00000108",
         "image": null,
         "request": null
       },
       "context_length": 204800,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 128000,
       "expiration_date": null,
       "created": 1770908502,
       "first_seen": "2026-05-27",
@@ -6704,8 +6721,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },
