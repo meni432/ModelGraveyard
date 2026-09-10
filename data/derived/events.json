@@ -40132,6 +40132,105 @@
           "pct_change": 15.58
         }
       ]
+    },
+    {
+      "ts": "2026-09-10",
+      "type": "model_added",
+      "id": "deepseek/deepseek-v4.1-flash",
+      "provider": "deepseek",
+      "snapshot": {
+        "id": "deepseek/deepseek-v4.1-flash",
+        "name": "DeepSeek: DeepSeek V4.1 Flash",
+        "provider": "deepseek",
+        "pricing": {
+          "prompt": "0.00000015",
+          "completion": "0.0000006",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": 384000,
+        "expiration_date": null,
+        "created": 1789021285,
+        "first_seen": "2026-09-10",
+        "last_seen": "2026-09-10"
+      }
+    },
+    {
+      "ts": "2026-09-10",
+      "type": "price_changed",
+      "id": "~z-ai/glm-flash-latest",
+      "provider": "~z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000007",
+          "next": "0.000000075",
+          "pct_change": 7.14
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000002333",
+          "next": "0.00000025",
+          "pct_change": 7.16
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-10",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.3-flash",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000007",
+          "next": "0.00000015",
+          "pct_change": 114.29
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000002333",
+          "next": "0.0000005",
+          "pct_change": 114.32
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-10",
+      "type": "deprecation_announced",
+      "id": "z-ai/glm-5.3-flash",
+      "provider": "z-ai",
+      "prev_expiration": null,
+      "next_expiration": "2098-12-31"
+    },
+    {
+      "ts": "2026-09-10",
+      "type": "price_changed",
+      "id": "~z-ai/glm-latest",
+      "provider": "~z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000001092",
+          "next": "0.000001085",
+          "pct_change": -0.64
+        },
+        {
+          "field": "completion",
+          "prev": "0.000003432",
+          "next": "0.00000341",
+          "pct_change": -0.64
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-10",
+      "type": "context_changed",
+      "id": "qwen/qwen3.8-27b",
+      "provider": "qwen",
+      "prev_context": 1048576,
+      "next_context": 1000000
     }
   ]
 }

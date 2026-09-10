@@ -193,8 +193,8 @@
       "name": "Z.ai: GLM Flash Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.00000007",
-        "completion": "0.0000002333",
+        "prompt": "0.000000075",
+        "completion": "0.00000025",
         "image": null,
         "request": null
       },
@@ -210,13 +210,13 @@
       "name": "Z.ai: GLM Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.000001092",
-        "completion": "0.000003432",
+        "prompt": "0.000001085",
+        "completion": "0.00000341",
         "image": null,
         "request": null
       },
       "context_length": 1310720,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 128000,
       "expiration_date": null,
       "created": 1787151053,
       "first_seen": "2026-08-19",
@@ -1393,6 +1393,23 @@
       "expiration_date": null,
       "created": 1786549364,
       "first_seen": "2026-08-28",
+      "last_seen": "2026-09-10"
+    },
+    {
+      "id": "deepseek/deepseek-v4.1-flash",
+      "name": "DeepSeek: DeepSeek V4.1 Flash",
+      "provider": "deepseek",
+      "pricing": {
+        "prompt": "0.00000015",
+        "completion": "0.0000006",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1048576,
+      "max_completion_tokens": 384000,
+      "expiration_date": null,
+      "created": 1789021285,
+      "first_seen": "2026-09-10",
       "last_seen": "2026-09-10"
     },
     {
@@ -6386,7 +6403,7 @@
         "image": null,
         "request": null
       },
-      "context_length": 1048576,
+      "context_length": 1000000,
       "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1786722910,
@@ -7333,14 +7350,14 @@
       "name": "Z.ai: GLM 5.3 Flash",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.00000007",
-        "completion": "0.0000002333",
+        "prompt": "0.00000015",
+        "completion": "0.0000005",
         "image": null,
         "request": null
       },
       "context_length": 1310720,
       "max_completion_tokens": 131072,
-      "expiration_date": null,
+      "expiration_date": "2098-12-31",
       "created": 1787752741,
       "first_seen": "2026-08-26",
       "last_seen": "2026-09-10"
