@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/google.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/google.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-09-10T00:00:00Z</updated>
+  <updated>2026-09-11T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-11:context_changed:google%2Fgemma-4-26b-a4b-it</id>
+    <title>Context window changed: google/gemma-4-26b-a4b-it</title>
+    <updated>2026-09-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemma-4-26b-a4b-it"/>
+    <category term="context_changed"/>
+    <category term="provider:google"/>
+    <summary>262144 → 1000000 tokens</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-09-10:price_changed:google%2Fgemma-4-26b-a4b-it</id>
     <title>Price changed: google/gemma-4-26b-a4b-it</title>
@@ -892,15 +901,6 @@
     <title>Added: google/lyria-3-pro-preview</title>
     <updated>2026-05-27T00:00:00Z</updated>
     <link rel="alternate" href="https://modelgraveyard.com/model/google%2Flyria-3-pro-preview"/>
-    <category term="model_added"/>
-    <category term="provider:google"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 1048576.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:google%2Flyria-3-clip-preview</id>
-    <title>Added: google/lyria-3-clip-preview</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Flyria-3-clip-preview"/>
     <category term="model_added"/>
     <category term="provider:google"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 1048576.</summary>
