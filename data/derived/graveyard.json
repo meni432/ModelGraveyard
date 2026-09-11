@@ -1,6 +1,23 @@
 {
   "buried": [
     {
+      "id": "~openai/gpt-latest",
+      "name": "OpenAI GPT Latest",
+      "provider": "~openai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.000002",
+        "completion": "0.00001",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 1050000,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-09-11",
+      "buried_at": "2026-09-11",
+      "suggested_replacement": "~openai/gpt-astra-latest"
+    },
+    {
       "id": "nousresearch/hermes-4-70b",
       "name": "Nous: Hermes 4 70B",
       "provider": "nousresearch",

@@ -40992,6 +40992,264 @@
           "pct_change": -44.44
         }
       ]
+    },
+    {
+      "ts": "2026-09-11",
+      "type": "model_added",
+      "id": "~openai/gpt-astra-latest",
+      "provider": "~openai",
+      "snapshot": {
+        "id": "~openai/gpt-astra-latest",
+        "name": "OpenAI GPT Astra Latest",
+        "provider": "~openai",
+        "pricing": {
+          "prompt": "0.00001",
+          "completion": "0.00005",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1789130932,
+        "first_seen": "2026-09-11",
+        "last_seen": "2026-09-11"
+      }
+    },
+    {
+      "ts": "2026-09-11",
+      "type": "model_added",
+      "id": "~openai/gpt-sol-latest",
+      "provider": "~openai",
+      "snapshot": {
+        "id": "~openai/gpt-sol-latest",
+        "name": "OpenAI GPT Sol Latest",
+        "provider": "~openai",
+        "pricing": {
+          "prompt": "0.000002",
+          "completion": "0.00001",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1789130928,
+        "first_seen": "2026-09-11",
+        "last_seen": "2026-09-11"
+      }
+    },
+    {
+      "ts": "2026-09-11",
+      "type": "model_added",
+      "id": "~openai/gpt-terra-latest",
+      "provider": "~openai",
+      "snapshot": {
+        "id": "~openai/gpt-terra-latest",
+        "name": "OpenAI GPT Terra Latest",
+        "provider": "~openai",
+        "pricing": {
+          "prompt": "0.000002",
+          "completion": "0.000012",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1789130925,
+        "first_seen": "2026-09-11",
+        "last_seen": "2026-09-11"
+      }
+    },
+    {
+      "ts": "2026-09-11",
+      "type": "model_added",
+      "id": "~openai/gpt-luna-latest",
+      "provider": "~openai",
+      "snapshot": {
+        "id": "~openai/gpt-luna-latest",
+        "name": "OpenAI GPT Luna Latest",
+        "provider": "~openai",
+        "pricing": {
+          "prompt": "0.0000002",
+          "completion": "0.0000012",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1789130922,
+        "first_seen": "2026-09-11",
+        "last_seen": "2026-09-11"
+      }
+    },
+    {
+      "ts": "2026-09-11",
+      "type": "model_added",
+      "id": "inclusionai/ling-3.0-flash-vl",
+      "provider": "inclusionai",
+      "snapshot": {
+        "id": "inclusionai/ling-3.0-flash-vl",
+        "name": "inclusionAI: Ling 3.0 Flash VL",
+        "provider": "inclusionai",
+        "pricing": {
+          "prompt": "0.00000006",
+          "completion": "0.00000018",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": 32768,
+        "expiration_date": null,
+        "created": 1789056114,
+        "first_seen": "2026-09-11",
+        "last_seen": "2026-09-11"
+      }
+    },
+    {
+      "ts": "2026-09-11",
+      "type": "price_changed",
+      "id": "~z-ai/glm-latest",
+      "provider": "~z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000097",
+          "next": "0.0000008727",
+          "pct_change": -10.03
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000033077",
+          "next": "0.00000336",
+          "pct_change": 1.58
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-11",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000066",
+          "next": "0.00000057948",
+          "pct_change": -12.2
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000198",
+          "next": "0.00000173844",
+          "pct_change": -12.2
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-11",
+      "type": "price_changed",
+      "id": "tencent/hy3",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000132",
+          "next": "0.0000000825",
+          "pct_change": -37.5
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000528",
+          "next": "0.00000033",
+          "pct_change": -37.5
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-11",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000095526",
+          "next": "0.000000859908",
+          "pct_change": -9.98
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000191052",
+          "next": "0.000001719816",
+          "pct_change": -9.98
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-11",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000088606",
+          "next": "0.00000008624",
+          "pct_change": -2.67
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000177212",
+          "next": "0.00000017248",
+          "pct_change": -2.67
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-11",
+      "type": "price_changed",
+      "id": "minimax/minimax-m2.5",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000003",
+          "next": "0.00000027",
+          "pct_change": -10
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000012",
+          "next": "0.00000108",
+          "pct_change": -10
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-11",
+      "type": "model_removed",
+      "id": "~openai/gpt-latest",
+      "provider": "~openai",
+      "snapshot": {
+        "id": "~openai/gpt-latest",
+        "name": "OpenAI GPT Latest",
+        "provider": "~openai",
+        "pricing": {
+          "prompt": "0.000002",
+          "completion": "0.00001",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1777318334,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-09-11"
+      }
     }
   ]
 }

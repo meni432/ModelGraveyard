@@ -138,20 +138,37 @@
       "last_seen": "2026-09-11"
     },
     {
-      "id": "~openai/gpt-latest",
-      "name": "OpenAI GPT Latest",
+      "id": "~openai/gpt-astra-latest",
+      "name": "OpenAI GPT Astra Latest",
       "provider": "~openai",
       "pricing": {
-        "prompt": "0.000002",
-        "completion": "0.00001",
+        "prompt": "0.00001",
+        "completion": "0.00005",
         "image": null,
         "request": null
       },
       "context_length": 1050000,
       "max_completion_tokens": 128000,
       "expiration_date": null,
-      "created": 1777318334,
-      "first_seen": "2026-05-27",
+      "created": 1789130932,
+      "first_seen": "2026-09-11",
+      "last_seen": "2026-09-11"
+    },
+    {
+      "id": "~openai/gpt-luna-latest",
+      "name": "OpenAI GPT Luna Latest",
+      "provider": "~openai",
+      "pricing": {
+        "prompt": "0.0000002",
+        "completion": "0.0000012",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1050000,
+      "max_completion_tokens": 128000,
+      "expiration_date": null,
+      "created": 1789130922,
+      "first_seen": "2026-09-11",
       "last_seen": "2026-09-11"
     },
     {
@@ -169,6 +186,40 @@
       "expiration_date": null,
       "created": 1777318471,
       "first_seen": "2026-05-27",
+      "last_seen": "2026-09-11"
+    },
+    {
+      "id": "~openai/gpt-sol-latest",
+      "name": "OpenAI GPT Sol Latest",
+      "provider": "~openai",
+      "pricing": {
+        "prompt": "0.000002",
+        "completion": "0.00001",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1050000,
+      "max_completion_tokens": 128000,
+      "expiration_date": null,
+      "created": 1789130928,
+      "first_seen": "2026-09-11",
+      "last_seen": "2026-09-11"
+    },
+    {
+      "id": "~openai/gpt-terra-latest",
+      "name": "OpenAI GPT Terra Latest",
+      "provider": "~openai",
+      "pricing": {
+        "prompt": "0.000002",
+        "completion": "0.000012",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1050000,
+      "max_completion_tokens": 128000,
+      "expiration_date": null,
+      "created": 1789130925,
+      "first_seen": "2026-09-11",
       "last_seen": "2026-09-11"
     },
     {
@@ -210,8 +261,8 @@
       "name": "Z.ai: GLM Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.00000097",
-        "completion": "0.0000033077",
+        "prompt": "0.0000008727",
+        "completion": "0.00000336",
         "image": null,
         "request": null
       },
@@ -1264,8 +1315,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000088606",
-        "completion": "0.000000177212",
+        "prompt": "0.00000008624",
+        "completion": "0.00000017248",
         "image": null,
         "request": null
       },
@@ -1349,8 +1400,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000095526",
-        "completion": "0.00000191052",
+        "prompt": "0.000000859908",
+        "completion": "0.000001719816",
         "image": null,
         "request": null
       },
@@ -1366,13 +1417,13 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000066",
-        "completion": "0.00000198",
+        "prompt": "0.00000057948",
+        "completion": "0.00000173844",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 943718,
+      "max_completion_tokens": 384000,
       "expiration_date": null,
       "created": 1786549364,
       "first_seen": "2026-08-12",
@@ -2314,6 +2365,23 @@
       "last_seen": "2026-09-11"
     },
     {
+      "id": "inclusionai/ling-3.0-flash-vl",
+      "name": "inclusionAI: Ling 3.0 Flash VL",
+      "provider": "inclusionai",
+      "pricing": {
+        "prompt": "0.00000006",
+        "completion": "0.00000018",
+        "image": null,
+        "request": null
+      },
+      "context_length": 131072,
+      "max_completion_tokens": 32768,
+      "expiration_date": null,
+      "created": 1789056114,
+      "first_seen": "2026-09-11",
+      "last_seen": "2026-09-11"
+    },
+    {
       "id": "inclusionai/ling-3.0-flash-vl:free",
       "name": "inclusionAI: Ling 3.0 Flash VL (free)",
       "provider": "inclusionai",
@@ -2794,13 +2862,13 @@
       "name": "MiniMax: MiniMax M2.5",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0.0000003",
-        "completion": "0.0000012",
+        "prompt": "0.00000027",
+        "completion": "0.00000108",
         "image": null,
         "request": null
       },
       "context_length": 204800,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 128000,
       "expiration_date": null,
       "created": 1770908502,
       "first_seen": "2026-05-27",
@@ -6755,8 +6823,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },

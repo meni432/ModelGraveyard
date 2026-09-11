@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_removed.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_removed.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-09-09T00:00:00Z</updated>
+  <updated>2026-09-11T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-11:model_removed:~openai%2Fgpt-latest</id>
+    <title>Removed: ~openai/gpt-latest</title>
+    <updated>2026-09-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/~openai%2Fgpt-latest"/>
+    <category term="model_removed"/>
+    <category term="provider:~openai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $2.0000/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-09-09:model_removed:nousresearch%2Fhermes-4-70b</id>
     <title>Removed: nousresearch/hermes-4-70b</title>
@@ -895,14 +904,5 @@
     <category term="model_removed"/>
     <category term="provider:openai"/>
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1250/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-31:model_removed:openai%2Fgpt-5-nano%3Abatch</id>
-    <title>Removed: openai/gpt-5-nano:batch</title>
-    <updated>2026-07-31T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-5-nano%3Abatch"/>
-    <category term="model_removed"/>
-    <category term="provider:openai"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0250/Mtok.</summary>
   </entry>
 </feed>
