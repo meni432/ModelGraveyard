@@ -74,7 +74,7 @@
       "name": "DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.00000004",
+        "prompt": "0.00000005",
         "completion": "0.00000016",
         "image": null,
         "request": null
@@ -125,8 +125,8 @@
       "name": "MoonshotAI Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.0000021",
-        "completion": "0.00001053",
+        "prompt": "0.00000234",
+        "completion": "0.0000117",
         "image": null,
         "request": null
       },
@@ -210,8 +210,8 @@
       "name": "Z.ai: GLM Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.000001",
-        "completion": "0.00000341",
+        "prompt": "0.00000097",
+        "completion": "0.0000033077",
         "image": null,
         "request": null
       },
@@ -1128,8 +1128,8 @@
       "name": "DeepSeek: DeepSeek V3 0324",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000029",
-        "completion": "0.00000114",
+        "prompt": "0.00000025",
+        "completion": "0.000001",
         "image": null,
         "request": null
       },
@@ -1366,13 +1366,13 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000010494",
-        "completion": "0.0000031482",
+        "prompt": "0.00000066",
+        "completion": "0.00000198",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 384000,
+      "max_completion_tokens": 943718,
       "expiration_date": null,
       "created": 1786549364,
       "first_seen": "2026-08-12",
@@ -1400,8 +1400,8 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000003",
-        "completion": "0.0000012",
+        "prompt": "0.00000015",
+        "completion": "0.0000006",
         "image": null,
         "request": null
       },
@@ -2051,7 +2051,7 @@
         "image": null,
         "request": null
       },
-      "context_length": 1000000,
+      "context_length": 262144,
       "max_completion_tokens": 32768,
       "expiration_date": null,
       "created": 1775227989,
@@ -2420,13 +2420,13 @@
       "name": "Meta: Llama 3.1 70B Instruct",
       "provider": "meta-llama",
       "pricing": {
-        "prompt": "0.00000072",
-        "completion": "0.00000072",
+        "prompt": "0.0000004",
+        "completion": "0.0000004",
         "image": null,
         "request": null
       },
       "context_length": 131072,
-      "max_completion_tokens": 8192,
+      "max_completion_tokens": 16384,
       "expiration_date": null,
       "created": 1721692800,
       "first_seen": "2026-05-27",
@@ -3389,8 +3389,8 @@
       "name": "MoonshotAI: Kimi K3",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.0000021",
-        "completion": "0.00001053",
+        "prompt": "0.00000234",
+        "completion": "0.0000117",
         "image": null,
         "request": null
       },
@@ -6530,6 +6530,23 @@
       "last_seen": "2026-09-11"
     },
     {
+      "id": "sakana/fugu-max",
+      "name": "Sakana: Fugu Max",
+      "provider": "sakana",
+      "pricing": {
+        "prompt": "0.000002",
+        "completion": "0.000006",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1000000,
+      "max_completion_tokens": 128000,
+      "expiration_date": null,
+      "created": 1789104771,
+      "first_seen": "2026-09-11",
+      "last_seen": "2026-09-11"
+    },
+    {
       "id": "sakana/fugu-ultra",
       "name": "Sakana: Fugu Ultra",
       "provider": "sakana",
@@ -6544,6 +6561,23 @@
       "expiration_date": null,
       "created": 1782276303,
       "first_seen": "2026-06-24",
+      "last_seen": "2026-09-11"
+    },
+    {
+      "id": "sakana/fugu-ultra-v2",
+      "name": "Sakana: Fugu Ultra v2",
+      "provider": "sakana",
+      "pricing": {
+        "prompt": "0.000005",
+        "completion": "0.00003",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1000000,
+      "max_completion_tokens": 128000,
+      "expiration_date": null,
+      "created": 1789105383,
+      "first_seen": "2026-09-11",
       "last_seen": "2026-09-11"
     },
     {
