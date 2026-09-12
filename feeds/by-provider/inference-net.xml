@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ModelGraveyard — inference-net</title>
+  <id>https://modelgraveyard.com/feeds/by-provider/inference-net.xml</id>
+  <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/inference-net.xml"/>
+  <link rel="alternate" href="https://modelgraveyard.com"/>
+  <updated>2026-09-12T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-12:model_added:inference-net%2Fschematron-v2-turbo</id>
+    <title>Added: inference-net/schematron-v2-turbo</title>
+    <updated>2026-09-12T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/inference-net%2Fschematron-v2-turbo"/>
+    <category term="model_added"/>
+    <category term="provider:inference-net"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0300/Mtok, context: 128000.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-12:model_added:inference-net%2Fschematron-v2-small</id>
+    <title>Added: inference-net/schematron-v2-small</title>
+    <updated>2026-09-12T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/inference-net%2Fschematron-v2-small"/>
+    <category term="model_added"/>
+    <category term="provider:inference-net"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0500/Mtok, context: 128000.</summary>
+  </entry>
+</feed>

@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_added.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_added.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-09-11T00:00:00Z</updated>
+  <updated>2026-09-12T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-12:model_added:inference-net%2Fschematron-v2-turbo</id>
+    <title>Added: inference-net/schematron-v2-turbo</title>
+    <updated>2026-09-12T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/inference-net%2Fschematron-v2-turbo"/>
+    <category term="model_added"/>
+    <category term="provider:inference-net"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0300/Mtok, context: 128000.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-12:model_added:inference-net%2Fschematron-v2-small</id>
+    <title>Added: inference-net/schematron-v2-small</title>
+    <updated>2026-09-12T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/inference-net%2Fschematron-v2-small"/>
+    <category term="model_added"/>
+    <category term="provider:inference-net"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0500/Mtok, context: 128000.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-09-11:model_added:sakana%2Ffugu-ultra-v2</id>
     <title>Added: sakana/fugu-ultra-v2</title>
@@ -886,23 +904,5 @@
     <category term="model_added"/>
     <category term="provider:deepseek"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.2200/Mtok, context: 1048576.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-20:model_added:tencent%2Fhy-mt2-1.8b</id>
-    <title>Added: tencent/hy-mt2-1.8b</title>
-    <updated>2026-08-20T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/tencent%2Fhy-mt2-1.8b"/>
-    <category term="model_added"/>
-    <category term="provider:tencent"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.0440/Mtok, context: 8192.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-20:model_added:tencent%2Fhy-mt2-30b-a3b</id>
-    <title>Added: tencent/hy-mt2-30b-a3b</title>
-    <updated>2026-08-20T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/tencent%2Fhy-mt2-30b-a3b"/>
-    <category term="model_added"/>
-    <category term="provider:tencent"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.0740/Mtok, context: 8192.</summary>
   </entry>
 </feed>
