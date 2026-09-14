@@ -70,6 +70,40 @@
       "last_seen": "2026-09-14"
     },
     {
+      "id": "~deepseek/deepseek-flash-latest",
+      "name": "DeepSeek: DeepSeek Flash Latest",
+      "provider": "~deepseek",
+      "pricing": {
+        "prompt": "0.00000015",
+        "completion": "0.0000006",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1048576,
+      "max_completion_tokens": 943718,
+      "expiration_date": null,
+      "created": 1789399150,
+      "first_seen": "2026-09-14",
+      "last_seen": "2026-09-14"
+    },
+    {
+      "id": "~deepseek/deepseek-pro-latest",
+      "name": "DeepSeek: DeepSeek Pro Latest",
+      "provider": "~deepseek",
+      "pricing": {
+        "prompt": "0.00000057948",
+        "completion": "0.00000173844",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1048576,
+      "max_completion_tokens": 393216,
+      "expiration_date": null,
+      "created": 1789399174,
+      "first_seen": "2026-09-14",
+      "last_seen": "2026-09-14"
+    },
+    {
       "id": "~deepseek/deepseek-v4-flash-latest",
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
@@ -125,8 +159,8 @@
       "name": "MoonshotAI: Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.0000021",
-        "completion": "0.00001095",
+        "prompt": "0.000001975",
+        "completion": "0.00001106",
         "image": null,
         "request": null
       },
@@ -261,8 +295,8 @@
       "name": "Z.ai: GLM Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.00000092",
-        "completion": "0.0000031372",
+        "prompt": "0.0000009",
+        "completion": "0.000003069",
         "image": null,
         "request": null
       },
@@ -1315,8 +1349,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000088606",
-        "completion": "0.000000177212",
+        "prompt": "0.00000007784",
+        "completion": "0.00000015568",
         "image": null,
         "request": null
       },
@@ -1417,13 +1451,13 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000009834",
-        "completion": "0.0000029502",
+        "prompt": "0.00000057948",
+        "completion": "0.00000173844",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 384000,
+      "max_completion_tokens": 393216,
       "expiration_date": null,
       "created": 1786549364,
       "first_seen": "2026-08-12",
@@ -1596,23 +1630,6 @@
       "max_completion_tokens": 65536,
       "expiration_date": null,
       "created": 1749137257,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-09-14"
-    },
-    {
-      "id": "google/gemini-2.5-pro-preview-05-06",
-      "name": "Google: Gemini 2.5 Pro Preview 05-06",
-      "provider": "google",
-      "pricing": {
-        "prompt": "0.00000125",
-        "completion": "0.00001",
-        "image": "0.00000125",
-        "request": null
-      },
-      "context_length": 1048576,
-      "max_completion_tokens": 65535,
-      "expiration_date": null,
-      "created": 1746578513,
       "first_seen": "2026-05-27",
       "last_seen": "2026-09-14"
     },
@@ -2607,13 +2624,13 @@
       "name": "Meta: Llama 4 Maverick",
       "provider": "meta-llama",
       "pricing": {
-        "prompt": "0.0000002",
-        "completion": "0.000000696",
+        "prompt": "0.0000001875",
+        "completion": "0.0000006525",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 115200,
+      "max_completion_tokens": 16384,
       "expiration_date": null,
       "created": 1743881822,
       "first_seen": "2026-05-27",
@@ -3925,23 +3942,6 @@
       "max_completion_tokens": 4096,
       "expiration_date": null,
       "created": 1712620800,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-09-14"
-    },
-    {
-      "id": "openai/gpt-4-turbo-preview",
-      "name": "OpenAI: GPT-4 Turbo Preview",
-      "provider": "openai",
-      "pricing": {
-        "prompt": "0.00001",
-        "completion": "0.00003",
-        "image": null,
-        "request": null
-      },
-      "context_length": 128000,
-      "max_completion_tokens": 4096,
-      "expiration_date": null,
-      "created": 1706140800,
       "first_seen": "2026-05-27",
       "last_seen": "2026-09-14"
     },
@@ -6857,8 +6857,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },

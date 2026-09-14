@@ -1,9 +1,9 @@
 {
   "generated_at": "2026-09-14",
-  "openrouter_catalog_size": 432,
+  "openrouter_catalog_size": 433,
   "litellm_catalog_size": 2883,
   "shared_count": 95,
-  "openrouter_only_count": 337,
+  "openrouter_only_count": 338,
   "litellm_only_count": 2772,
   "disagreements": [
     {
@@ -471,7 +471,7 @@
     },
     {
       "slug": "openai:gpt-4-turbo",
-      "openrouter_id": "openai/gpt-4-turbo-preview",
+      "openrouter_id": "openai/gpt-4-turbo",
       "litellm_id": "gpt-4-turbo"
     },
     {

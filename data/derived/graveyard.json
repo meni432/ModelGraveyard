@@ -1,6 +1,40 @@
 {
   "buried": [
     {
+      "id": "google/gemini-2.5-pro-preview-05-06",
+      "name": "Google: Gemini 2.5 Pro Preview 05-06",
+      "provider": "google",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000125",
+        "completion": "0.00001",
+        "image": "0.00000125",
+        "request": null
+      },
+      "final_context_length": 1048576,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-09-14",
+      "buried_at": "2026-09-14",
+      "suggested_replacement": "google/gemini-3.8-flash"
+    },
+    {
+      "id": "openai/gpt-4-turbo-preview",
+      "name": "OpenAI: GPT-4 Turbo Preview",
+      "provider": "openai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00001",
+        "completion": "0.00003",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 128000,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-09-14",
+      "buried_at": "2026-09-14",
+      "suggested_replacement": "openai/gpt-audio"
+    },
+    {
       "id": "~openai/gpt-latest",
       "name": "OpenAI GPT Latest",
       "provider": "~openai",
