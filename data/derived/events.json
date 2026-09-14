@@ -42460,6 +42460,46 @@
           "pct_change": -73.63
         }
       ]
+    },
+    {
+      "ts": "2026-09-14",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000352",
+          "next": "0.00000004",
+          "pct_change": 13.64
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000001056",
+          "next": "0.0000001",
+          "pct_change": -5.3
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-14",
+      "type": "price_changed",
+      "id": "nvidia/nemotron-3-super-120b-a12b",
+      "provider": "nvidia",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000085",
+          "next": "0.00000008",
+          "pct_change": -5.88
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000004",
+          "next": "0.00000045",
+          "pct_change": 12.5
+        }
+      ]
     }
   ]
 }

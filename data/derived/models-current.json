@@ -74,13 +74,13 @@
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000000352",
-        "completion": "0.0000001056",
+        "prompt": "0.00000004",
+        "completion": "0.0000001",
         "image": null,
         "request": null
       },
       "context_length": 1310720,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 393216,
       "expiration_date": null,
       "created": 1785606009,
       "first_seen": "2026-08-01",
@@ -3678,13 +3678,13 @@
       "name": "NVIDIA: Nemotron 3 Super",
       "provider": "nvidia",
       "pricing": {
-        "prompt": "0.000000085",
-        "completion": "0.0000004",
+        "prompt": "0.00000008",
+        "completion": "0.00000045",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 16384,
+      "max_completion_tokens": 235929,
       "expiration_date": null,
       "created": 1773245239,
       "first_seen": "2026-05-27",
