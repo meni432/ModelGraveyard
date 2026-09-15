@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_added.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_added.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-09-14T00:00:00Z</updated>
+  <updated>2026-09-15T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-15:model_added:z-ai%2Fglm-5.2%3Afree</id>
+    <title>Added: z-ai/glm-5.2:free</title>
+    <updated>2026-09-15T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2%3Afree"/>
+    <category term="model_added"/>
+    <category term="provider:z-ai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 32768.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-09-14:model_added:~deepseek%2Fdeepseek-pro-latest</id>
     <title>Added: ~deepseek/deepseek-pro-latest</title>
@@ -895,14 +904,5 @@
     <category term="model_added"/>
     <category term="provider:thinkingmachines"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 262144.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-21:model_added:stealth%2Fox-alpha</id>
-    <title>Added: stealth/ox-alpha</title>
-    <updated>2026-08-21T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/stealth%2Fox-alpha"/>
-    <category term="model_added"/>
-    <category term="provider:stealth"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 1048576.</summary>
   </entry>
 </feed>
