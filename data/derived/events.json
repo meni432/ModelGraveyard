@@ -42892,6 +42892,26 @@
           "pct_change": 4
         }
       ]
+    },
+    {
+      "ts": "2026-09-15",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash-0731",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000005",
+          "next": "0.00000006",
+          "pct_change": 20
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000001",
+          "next": "0.00000012",
+          "pct_change": 20
+        }
+      ]
     }
   ]
 }

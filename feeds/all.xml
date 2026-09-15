@@ -87,6 +87,15 @@
     <summary>prompt: $0.3125/Mtok → $0.1625/Mtok (-48%); completion: $1.2500/Mtok → $1.3000/Mtok (+4%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-09-15:price_changed:deepseek%2Fdeepseek-v4-flash-0731</id>
+    <title>Price changed: deepseek/deepseek-v4-flash-0731</title>
+    <updated>2026-09-15T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-flash-0731"/>
+    <category term="price_changed"/>
+    <category term="provider:deepseek"/>
+    <summary>prompt: $0.0500/Mtok → $0.0600/Mtok (+20%); completion: $0.1000/Mtok → $0.1200/Mtok (+20%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-09-14:price_changed:~z-ai%2Fglm-latest</id>
     <title>Price changed: ~z-ai/glm-latest</title>
     <updated>2026-09-14T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="model_added"/>
     <category term="provider:sakana"/>
     <summary>New model on OpenRouter. Initial prompt price: $5.0000/Mtok, context: 1000000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-11:model_added:sakana%2Ffugu-max</id>
-    <title>Added: sakana/fugu-max</title>
-    <updated>2026-09-11T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/sakana%2Ffugu-max"/>
-    <category term="model_added"/>
-    <category term="provider:sakana"/>
-    <summary>New model on OpenRouter. Initial prompt price: $2.0000/Mtok, context: 1000000.</summary>
   </entry>
 </feed>

@@ -7,6 +7,26 @@
     {
       "ts": "2026-09-15",
       "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash-0731",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000005",
+          "next": "0.00000006",
+          "pct_change": 20
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000001",
+          "next": "0.00000012",
+          "pct_change": 20
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-15",
+      "type": "price_changed",
       "id": "qwen/qwen3.5-35b-a3b",
       "provider": "qwen",
       "changes": [
@@ -395,26 +415,6 @@
         "first_seen": "2026-09-14",
         "last_seen": "2026-09-14"
       }
-    },
-    {
-      "ts": "2026-09-14",
-      "type": "price_changed",
-      "id": "nvidia/nemotron-3-super-120b-a12b",
-      "provider": "nvidia",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000085",
-          "next": "0.00000008",
-          "pct_change": -5.88
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000004",
-          "next": "0.00000045",
-          "pct_change": 12.5
-        }
-      ]
     }
   ],
   "scheduled_funerals": [
