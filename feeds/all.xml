@@ -150,6 +150,15 @@
     <summary>prompt: $0.0886/Mtok → $0.0855/Mtok (-3.46%); completion: $0.1772/Mtok → $0.1711/Mtok (-3.46%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-09-15:price_changed:deepseek%2Fdeepseek-v4-flash</id>
+    <title>Price changed: deepseek/deepseek-v4-flash</title>
+    <updated>2026-09-15T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-flash"/>
+    <category term="price_changed"/>
+    <category term="provider:deepseek"/>
+    <summary>prompt: $0.0855/Mtok → $0.0794/Mtok (-7.2%); completion: $0.1711/Mtok → $0.1588/Mtok (-7.2%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-09-14:price_changed:~z-ai%2Fglm-latest</id>
     <title>Price changed: ~z-ai/glm-latest</title>
     <updated>2026-09-14T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="context_changed"/>
     <category term="provider:google"/>
     <summary>262144 → 1000000 tokens</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-11:deprecation_announced:z-ai%2Fglm-5v-turbo</id>
-    <title>Deprecation announced: z-ai/glm-5v-turbo (sunset 2098-12-31)</title>
-    <updated>2026-09-11T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5v-turbo"/>
-    <category term="deprecation_announced"/>
-    <category term="provider:z-ai"/>
-    <summary>Provider announced retirement on 2098-12-31.</summary>
   </entry>
 </feed>
