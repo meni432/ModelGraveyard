@@ -1,6 +1,57 @@
 {
   "buried": [
     {
+      "id": "google/gemma-4-31b-it:batch",
+      "name": "Google: Gemma 4 31B (batch)",
+      "provider": "google",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000039",
+        "completion": "0.00000097",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-09-15",
+      "buried_at": "2026-09-16",
+      "suggested_replacement": "google/gemma-4-26b-a4b-it"
+    },
+    {
+      "id": "openai/gpt-oss-20b:batch",
+      "name": "OpenAI: gpt-oss-20b (batch)",
+      "provider": "openai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000005",
+        "completion": "0.0000002",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 131072,
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-09-15",
+      "buried_at": "2026-09-16",
+      "suggested_replacement": "openai/gpt-oss-safeguard-20b"
+    },
+    {
+      "id": "thinkingmachines/inkling-small:batch",
+      "name": "Thinking Machines: Inkling Small (batch)",
+      "provider": "thinkingmachines",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000005",
+        "completion": "0.0000012",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 524288,
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-09-15",
+      "buried_at": "2026-09-16",
+      "suggested_replacement": "thinkingmachines/inkling:batch"
+    },
+    {
       "id": "google/gemini-2.5-pro-preview-05-06",
       "name": "Google: Gemini 2.5 Pro Preview 05-06",
       "provider": "google",

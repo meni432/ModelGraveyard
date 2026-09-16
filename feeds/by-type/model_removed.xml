@@ -4,7 +4,34 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_removed.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_removed.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-09-14T00:00:00Z</updated>
+  <updated>2026-09-16T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-16:model_removed:google%2Fgemma-4-31b-it%3Abatch</id>
+    <title>Removed: google/gemma-4-31b-it:batch</title>
+    <updated>2026-09-16T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemma-4-31b-it%3Abatch"/>
+    <category term="model_removed"/>
+    <category term="provider:google"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.3900/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-16:model_removed:openai%2Fgpt-oss-20b%3Abatch</id>
+    <title>Removed: openai/gpt-oss-20b:batch</title>
+    <updated>2026-09-16T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-oss-20b%3Abatch"/>
+    <category term="model_removed"/>
+    <category term="provider:openai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0500/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-16:model_removed:thinkingmachines%2Finkling-small%3Abatch</id>
+    <title>Removed: thinkingmachines/inkling-small:batch</title>
+    <updated>2026-09-16T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/thinkingmachines%2Finkling-small%3Abatch"/>
+    <category term="model_removed"/>
+    <category term="provider:thinkingmachines"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.5000/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-09-14:model_removed:google%2Fgemini-2.5-pro-preview-05-06</id>
     <title>Removed: google/gemini-2.5-pro-preview-05-06</title>
@@ -877,32 +904,5 @@
     <category term="model_removed"/>
     <category term="provider:google"/>
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $1.0000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-31:model_removed:google%2Fgemini-3.5-flash-lite%3Abatch</id>
-    <title>Removed: google/gemini-3.5-flash-lite:batch</title>
-    <updated>2026-07-31T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-3.5-flash-lite%3Abatch"/>
-    <category term="model_removed"/>
-    <category term="provider:google"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1500/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-31:model_removed:google%2Fgemini-3.5-flash%3Abatch</id>
-    <title>Removed: google/gemini-3.5-flash:batch</title>
-    <updated>2026-07-31T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-3.5-flash%3Abatch"/>
-    <category term="model_removed"/>
-    <category term="provider:google"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.7500/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-31:model_removed:google%2Fgemini-3.6-flash%3Abatch</id>
-    <title>Removed: google/gemini-3.6-flash:batch</title>
-    <updated>2026-07-31T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-3.6-flash%3Abatch"/>
-    <category term="model_removed"/>
-    <category term="provider:google"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.7500/Mtok.</summary>
   </entry>
 </feed>
