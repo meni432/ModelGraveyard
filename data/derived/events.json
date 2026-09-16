@@ -43541,6 +43541,66 @@
           "pct_change": 83.33
         }
       ]
+    },
+    {
+      "ts": "2026-09-16",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k3",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000002648138063",
+          "next": "0.000003",
+          "pct_change": 13.29
+        },
+        {
+          "field": "completion",
+          "prev": "0.00001328272425",
+          "next": "0.000015",
+          "pct_change": 12.93
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-16",
+      "type": "price_changed",
+      "id": "nvidia/nemotron-3-ultra-550b-a55b",
+      "provider": "nvidia",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000625",
+          "next": "0.0000006",
+          "pct_change": -4
+        },
+        {
+          "field": "completion",
+          "prev": "0.000003125",
+          "next": "0.0000024",
+          "pct_change": -23.2
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-16",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000008708",
+          "next": "0.00000008092",
+          "pct_change": -7.07
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000017416",
+          "next": "0.00000016184",
+          "pct_change": -7.07
+        }
+      ]
     }
   ]
 }

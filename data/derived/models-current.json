@@ -1349,8 +1349,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000008708",
-        "completion": "0.00000017416",
+        "prompt": "0.00000008092",
+        "completion": "0.00000016184",
         "image": null,
         "request": null
       },
@@ -3491,8 +3491,8 @@
       "name": "MoonshotAI: Kimi K3",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.000002648138063",
-        "completion": "0.00001328272425",
+        "prompt": "0.000003",
+        "completion": "0.000015",
         "image": null,
         "request": null
       },
@@ -3712,13 +3712,13 @@
       "name": "NVIDIA: Nemotron 3 Ultra",
       "provider": "nvidia",
       "pricing": {
-        "prompt": "0.000000625",
-        "completion": "0.000003125",
+        "prompt": "0.0000006",
+        "completion": "0.0000024",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 32768,
+      "max_completion_tokens": 182520,
       "expiration_date": null,
       "created": 1780551208,
       "first_seen": "2026-06-08",
@@ -7424,7 +7424,7 @@
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 128000,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1781631930,
       "first_seen": "2026-06-16",
