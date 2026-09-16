@@ -43318,6 +43318,66 @@
         "first_seen": "2026-08-28",
         "last_seen": "2026-09-15"
       }
+    },
+    {
+      "ts": "2026-09-16",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.3-flash",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000001",
+          "next": "0.00000009",
+          "pct_change": -10
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000003333",
+          "next": "0.0000003",
+          "pct_change": -9.99
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-16",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000021",
+          "next": "0.000002",
+          "pct_change": -4.76
+        },
+        {
+          "field": "completion",
+          "prev": "0.00001095",
+          "next": "0.0000112",
+          "pct_change": 2.28
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-16",
+      "type": "price_changed",
+      "id": "qwen/qwen3-vl-30b-a3b-instruct",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000013",
+          "next": "0.00000015",
+          "pct_change": 15.38
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000052",
+          "next": "0.0000006",
+          "pct_change": 15.38
+        }
+      ]
     }
   ]
 }
