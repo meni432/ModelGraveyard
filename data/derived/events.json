@@ -43761,6 +43761,66 @@
           "pct_change": 20
         }
       ]
+    },
+    {
+      "ts": "2026-09-17",
+      "type": "price_changed",
+      "id": "meta/muse-glimmer-30b",
+      "provider": "meta",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000035",
+          "next": "0.0000003",
+          "pct_change": -14.29
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000015",
+          "next": "0.0000011",
+          "pct_change": -26.67
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-17",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000002",
+          "next": "0.0000021",
+          "pct_change": 5
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000112",
+          "next": "0.00001095",
+          "pct_change": -2.23
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-17",
+      "type": "price_changed",
+      "id": "z-ai/glm-4.6",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000043",
+          "next": "0.0000005",
+          "pct_change": 16.28
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000175",
+          "next": "0.000002",
+          "pct_change": 14.29
+        }
+      ]
     }
   ]
 }
