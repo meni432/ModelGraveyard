@@ -1,9 +1,169 @@
 {
-  "generated_at": "2026-09-16",
+  "generated_at": "2026-09-17",
   "active_count": 444,
   "dead_count": 181,
-  "last_event_ts": "2026-09-16",
+  "last_event_ts": "2026-09-17",
   "recent_events": [
+    {
+      "ts": "2026-09-17",
+      "type": "price_changed",
+      "id": "nvidia/nemotron-3-nano-30b-a3b",
+      "provider": "nvidia",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000005",
+          "next": "0.00000006",
+          "pct_change": 20
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000002",
+          "next": "0.00000024",
+          "pct_change": 20
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-17",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000008092",
+          "next": "0.000000088606",
+          "pct_change": 9.5
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000016184",
+          "next": "0.000000177212",
+          "pct_change": 9.5
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-17",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000021",
+          "next": "0.000002",
+          "pct_change": -4.76
+        },
+        {
+          "field": "completion",
+          "prev": "0.00001095",
+          "next": "0.0000112",
+          "pct_change": 2.28
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-17",
+      "type": "price_changed",
+      "id": "nvidia/nemotron-3-ultra-550b-a55b",
+      "provider": "nvidia",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000006",
+          "next": "0.000000625",
+          "pct_change": 4.17
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000024",
+          "next": "0.000003125",
+          "pct_change": 30.21
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-17",
+      "type": "price_changed",
+      "id": "tencent/hy3",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000825",
+          "next": "0.000000132",
+          "pct_change": 60
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000033",
+          "next": "0.000000528",
+          "pct_change": 60
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-17",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000004",
+          "next": "0.00000003",
+          "pct_change": -25
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000001",
+          "next": "0.00000013",
+          "pct_change": 30
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-17",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000057948",
+          "next": "0.00000066",
+          "pct_change": 13.9
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000173844",
+          "next": "0.00000198",
+          "pct_change": 13.9
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-17",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-pro-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000057948",
+          "next": "0.00000066",
+          "pct_change": 13.9
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000173844",
+          "next": "0.00000198",
+          "pct_change": 13.9
+        }
+      ]
+    },
     {
       "ts": "2026-09-16",
       "type": "price_changed",
@@ -244,169 +404,6 @@
           "prev": "0.00000052",
           "next": "0.0000006",
           "pct_change": 15.38
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-16",
-      "type": "price_changed",
-      "id": "~moonshotai/kimi-latest",
-      "provider": "~moonshotai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000021",
-          "next": "0.000002",
-          "pct_change": -4.76
-        },
-        {
-          "field": "completion",
-          "prev": "0.00001095",
-          "next": "0.0000112",
-          "pct_change": 2.28
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-16",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.3-flash",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000001",
-          "next": "0.00000009",
-          "pct_change": -10
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000003333",
-          "next": "0.0000003",
-          "pct_change": -9.99
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-16",
-      "type": "model_removed",
-      "id": "thinkingmachines/inkling-small:batch",
-      "provider": "thinkingmachines",
-      "snapshot": {
-        "id": "thinkingmachines/inkling-small:batch",
-        "name": "Thinking Machines: Inkling Small (batch)",
-        "provider": "thinkingmachines",
-        "pricing": {
-          "prompt": "0.0000005",
-          "completion": "0.0000012",
-          "image": null,
-          "request": null
-        },
-        "context_length": 524288,
-        "max_completion_tokens": 471859,
-        "expiration_date": null,
-        "created": 1785443117,
-        "first_seen": "2026-08-28",
-        "last_seen": "2026-09-15"
-      }
-    },
-    {
-      "ts": "2026-09-16",
-      "type": "model_removed",
-      "id": "openai/gpt-oss-20b:batch",
-      "provider": "openai",
-      "snapshot": {
-        "id": "openai/gpt-oss-20b:batch",
-        "name": "OpenAI: gpt-oss-20b (batch)",
-        "provider": "openai",
-        "pricing": {
-          "prompt": "0.00000005",
-          "completion": "0.0000002",
-          "image": null,
-          "request": null
-        },
-        "context_length": 131072,
-        "max_completion_tokens": 117964,
-        "expiration_date": null,
-        "created": 1754414229,
-        "first_seen": "2026-08-28",
-        "last_seen": "2026-09-15"
-      }
-    },
-    {
-      "ts": "2026-09-16",
-      "type": "model_removed",
-      "id": "google/gemma-4-31b-it:batch",
-      "provider": "google",
-      "snapshot": {
-        "id": "google/gemma-4-31b-it:batch",
-        "name": "Google: Gemma 4 31B (batch)",
-        "provider": "google",
-        "pricing": {
-          "prompt": "0.00000039",
-          "completion": "0.00000097",
-          "image": null,
-          "request": null
-        },
-        "context_length": 262144,
-        "max_completion_tokens": 235929,
-        "expiration_date": null,
-        "created": 1775148486,
-        "first_seen": "2026-08-28",
-        "last_seen": "2026-09-15"
-      }
-    },
-    {
-      "ts": "2026-09-16",
-      "type": "price_changed",
-      "id": "minimax/minimax-m1",
-      "provider": "minimax",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000055",
-          "next": "0.0000004",
-          "pct_change": -27.27
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-16",
-      "type": "price_changed",
-      "id": "mistralai/mistral-small-3.2-24b-instruct",
-      "provider": "mistralai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000075",
-          "next": "0.00000009375",
-          "pct_change": 25
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000002",
-          "next": "0.00000025",
-          "pct_change": 25
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-16",
-      "type": "price_changed",
-      "id": "qwen/qwen3-vl-30b-a3b-instruct",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000015",
-          "next": "0.00000013",
-          "pct_change": -13.33
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000006",
-          "next": "0.00000052",
-          "pct_change": -13.33
         }
       ]
     }
