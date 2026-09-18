@@ -74,13 +74,13 @@
       "name": "DeepSeek: DeepSeek Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
+        "prompt": "0.00000014",
+        "completion": "0.00000042",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 393216,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1789399150,
       "first_seen": "2026-09-14",
@@ -159,8 +159,8 @@
       "name": "MoonshotAI: Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.0000021",
-        "completion": "0.00001095",
+        "prompt": "0.00000195",
+        "completion": "0.00001092",
         "image": null,
         "request": null
       },
@@ -295,8 +295,8 @@
       "name": "Z.ai: GLM Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.0000009",
-        "completion": "0.000003",
+        "prompt": "0.0000008918",
+        "completion": "0.0000028028",
         "image": null,
         "request": null
       },
@@ -1349,8 +1349,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000004984",
-        "completion": "0.00000009968",
+        "prompt": "0.00000004872",
+        "completion": "0.00000009744",
         "image": null,
         "request": null
       },
@@ -3491,8 +3491,8 @@
       "name": "MoonshotAI: Kimi K3",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.0000021",
-        "completion": "0.00001095",
+        "prompt": "0.00000195",
+        "completion": "0.00001092",
         "image": null,
         "request": null
       },
@@ -5629,6 +5629,23 @@
       "last_seen": "2026-09-18"
     },
     {
+      "id": "prism-ml/ternary-bonsai-2-27b",
+      "name": "PrismML: Ternary Bonsai 2 27B",
+      "provider": "prism-ml",
+      "pricing": {
+        "prompt": "0.000000075",
+        "completion": "0.0000005",
+        "image": null,
+        "request": null
+      },
+      "context_length": 262144,
+      "max_completion_tokens": 32768,
+      "expiration_date": null,
+      "created": 1789754046,
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18"
+    },
+    {
       "id": "qwen/qwen-2.5-72b-instruct",
       "name": "Qwen2.5 72B Instruct",
       "provider": "qwen",
@@ -7486,13 +7503,13 @@
       "name": "Z.ai: GLM 5.3",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.0000014",
-        "completion": "0.0000044",
+        "prompt": "0.00000091",
+        "completion": "0.00000286",
         "image": null,
         "request": null
       },
       "context_length": 1310720,
-      "max_completion_tokens": 943717,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1787086655,
       "first_seen": "2026-08-19",
