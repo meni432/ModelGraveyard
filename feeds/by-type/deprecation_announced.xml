@@ -4,7 +4,61 @@
   <id>https://modelgraveyard.com/feeds/by-type/deprecation_announced.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/deprecation_announced.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-09-13T00:00:00Z</updated>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-18:deprecation_announced:google%2Fgemini-2.5-flash-image</id>
+    <title>Deprecation announced: google/gemini-2.5-flash-image (sunset 2027-03-15)</title>
+    <updated>2026-09-18T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-2.5-flash-image"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:google"/>
+    <summary>Provider announced retirement on 2027-03-15.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-18:deprecation_announced:google%2Fgemini-2.5-flash-lite</id>
+    <title>Deprecation announced: google/gemini-2.5-flash-lite (sunset 2026-10-20)</title>
+    <updated>2026-09-18T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-2.5-flash-lite"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:google"/>
+    <summary>Provider announced retirement on 2026-10-20.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-18:deprecation_announced:google%2Fgemini-2.5-flash</id>
+    <title>Deprecation announced: google/gemini-2.5-flash (sunset 2026-10-20)</title>
+    <updated>2026-09-18T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-2.5-flash"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:google"/>
+    <summary>Provider announced retirement on 2026-10-20.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-18:deprecation_announced:google%2Fgemini-2.5-flash%3Abatch</id>
+    <title>Deprecation announced: google/gemini-2.5-flash:batch (sunset 2026-10-20)</title>
+    <updated>2026-09-18T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-2.5-flash%3Abatch"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:google"/>
+    <summary>Provider announced retirement on 2026-10-20.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-18:deprecation_announced:google%2Fgemini-2.5-pro</id>
+    <title>Deprecation announced: google/gemini-2.5-pro (sunset 2026-10-20)</title>
+    <updated>2026-09-18T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-2.5-pro"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:google"/>
+    <summary>Provider announced retirement on 2026-10-20.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-18:deprecation_announced:google%2Fgemini-2.5-pro%3Abatch</id>
+    <title>Deprecation announced: google/gemini-2.5-pro:batch (sunset 2026-10-20)</title>
+    <updated>2026-09-18T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-2.5-pro%3Abatch"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:google"/>
+    <summary>Provider announced retirement on 2026-10-20.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-09-13:deprecation_announced:z-ai%2Fglm-5.3-flash</id>
     <title>Deprecation announced: z-ai/glm-5.3-flash (sunset 2098-12-31)</title>
