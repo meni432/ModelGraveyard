@@ -1,6 +1,23 @@
 {
   "buried": [
     {
+      "id": "stealth/union-alpha",
+      "name": "Union Alpha",
+      "provider": "stealth",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-09-16",
+      "last_seen": "2026-09-17",
+      "buried_at": "2026-09-18",
+      "suggested_replacement": null
+    },
+    {
       "id": "google/gemma-4-31b-it:batch",
       "name": "Google: Gemma 4 31B (batch)",
       "provider": "google",
