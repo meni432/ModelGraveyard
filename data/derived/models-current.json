@@ -91,8 +91,8 @@
       "name": "DeepSeek: DeepSeek Pro Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000007",
-        "completion": "0.00000296",
+        "prompt": "0.00000066",
+        "completion": "0.00000198",
         "image": null,
         "request": null
       },
@@ -295,13 +295,13 @@
       "name": "Z.ai: GLM Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.0000007735",
-        "completion": "0.000002431",
+        "prompt": "0.0000008775",
+        "completion": "0.00000297",
         "image": null,
         "request": null
       },
       "context_length": 1310720,
-      "max_completion_tokens": 943718,
+      "max_completion_tokens": 235929,
       "expiration_date": null,
       "created": 1787151053,
       "first_seen": "2026-08-19",
@@ -1468,8 +1468,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000132",
-        "completion": "0.00000396",
+        "prompt": "0.00000066",
+        "completion": "0.00000198",
         "image": null,
         "request": null
       },
@@ -1502,8 +1502,8 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000003",
-        "completion": "0.0000012",
+        "prompt": "0.00000015",
+        "completion": "0.0000006",
         "image": null,
         "request": null
       },
@@ -3126,23 +3126,6 @@
       "max_completion_tokens": 104857,
       "expiration_date": null,
       "created": 1731978415,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-09-18"
-    },
-    {
-      "id": "mistralai/mistral-large-2512",
-      "name": "Mistral: Mistral Large 3 2512",
-      "provider": "mistralai",
-      "pricing": {
-        "prompt": "0.0000005",
-        "completion": "0.0000015",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 209715,
-      "expiration_date": null,
-      "created": 1764624472,
       "first_seen": "2026-05-27",
       "last_seen": "2026-09-18"
     },
@@ -7452,8 +7435,8 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.0000004875",
-        "completion": "0.00000156",
+        "prompt": "0.0000005625",
+        "completion": "0.0000018",
         "image": null,
         "request": null
       },

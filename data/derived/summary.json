@@ -1,9 +1,132 @@
 {
   "generated_at": "2026-09-18",
-  "active_count": 446,
-  "dead_count": 182,
+  "active_count": 445,
+  "dead_count": 183,
   "last_event_ts": "2026-09-18",
   "recent_events": [
+    {
+      "ts": "2026-09-18",
+      "type": "model_removed",
+      "id": "mistralai/mistral-large-2512",
+      "provider": "mistralai",
+      "snapshot": {
+        "id": "mistralai/mistral-large-2512",
+        "name": "Mistral: Mistral Large 3 2512",
+        "provider": "mistralai",
+        "pricing": {
+          "prompt": "0.0000005",
+          "completion": "0.0000015",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 209715,
+        "expiration_date": null,
+        "created": 1764624472,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-09-18"
+      }
+    },
+    {
+      "ts": "2026-09-18",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000004875",
+          "next": "0.0000005625",
+          "pct_change": 15.38
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000156",
+          "next": "0.0000018",
+          "pct_change": 15.38
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-18",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000132",
+          "next": "0.00000066",
+          "pct_change": -50
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000396",
+          "next": "0.00000198",
+          "pct_change": -50
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-18",
+      "type": "price_changed",
+      "id": "~z-ai/glm-latest",
+      "provider": "~z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000007735",
+          "next": "0.0000008775",
+          "pct_change": 13.45
+        },
+        {
+          "field": "completion",
+          "prev": "0.000002431",
+          "next": "0.00000297",
+          "pct_change": 22.17
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-18",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4.1-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000003",
+          "next": "0.00000015",
+          "pct_change": -50
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000012",
+          "next": "0.0000006",
+          "pct_change": -50
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-18",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-pro-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000007",
+          "next": "0.00000066",
+          "pct_change": -5.71
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000296",
+          "next": "0.00000198",
+          "pct_change": -33.11
+        }
+      ]
+    },
     {
       "ts": "2026-09-18",
       "type": "model_removed",
@@ -292,129 +415,6 @@
         "first_seen": "2026-09-18",
         "last_seen": "2026-09-18"
       }
-    },
-    {
-      "ts": "2026-09-17",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-chat",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000002574",
-          "next": "0.00000032",
-          "pct_change": 24.32
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000010287",
-          "next": "0.00000089",
-          "pct_change": -13.48
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-17",
-      "type": "price_changed",
-      "id": "~moonshotai/kimi-latest",
-      "provider": "~moonshotai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000001875",
-          "next": "0.0000021",
-          "pct_change": 12
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000105",
-          "next": "0.00001095",
-          "pct_change": 4.29
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-17",
-      "type": "model_added",
-      "id": "qwen/qwen3.8-27b:free",
-      "provider": "qwen",
-      "snapshot": {
-        "id": "qwen/qwen3.8-27b:free",
-        "name": "Qwen: Qwen3.8 27B (free)",
-        "provider": "qwen",
-        "pricing": {
-          "prompt": "0",
-          "completion": "0",
-          "image": null,
-          "request": null
-        },
-        "context_length": 262144,
-        "max_completion_tokens": 235929,
-        "expiration_date": null,
-        "created": 1786722910,
-        "first_seen": "2026-09-17",
-        "last_seen": "2026-09-17"
-      }
-    },
-    {
-      "ts": "2026-09-17",
-      "type": "price_changed",
-      "id": "z-ai/glm-4.6",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000005",
-          "next": "0.00000043",
-          "pct_change": -14
-        },
-        {
-          "field": "completion",
-          "prev": "0.000002",
-          "next": "0.00000175",
-          "pct_change": -12.5
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-17",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-flash",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000088606",
-          "next": "0.00000007",
-          "pct_change": -21
-        },
-        {
-          "field": "completion",
-          "prev": "0.000000177212",
-          "next": "0.00000014",
-          "pct_change": -21
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-17",
-      "type": "price_changed",
-      "id": "~moonshotai/kimi-latest",
-      "provider": "~moonshotai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000021",
-          "next": "0.000001875",
-          "pct_change": -10.71
-        },
-        {
-          "field": "completion",
-          "prev": "0.00001095",
-          "next": "0.0000105",
-          "pct_change": -4.11
-        }
-      ]
     }
   ],
   "scheduled_funerals": [

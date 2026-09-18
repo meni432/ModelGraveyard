@@ -44293,6 +44293,129 @@
         "first_seen": "2026-09-16",
         "last_seen": "2026-09-17"
       }
+    },
+    {
+      "ts": "2026-09-18",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-pro-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000007",
+          "next": "0.00000066",
+          "pct_change": -5.71
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000296",
+          "next": "0.00000198",
+          "pct_change": -33.11
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-18",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4.1-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000003",
+          "next": "0.00000015",
+          "pct_change": -50
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000012",
+          "next": "0.0000006",
+          "pct_change": -50
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-18",
+      "type": "price_changed",
+      "id": "~z-ai/glm-latest",
+      "provider": "~z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000007735",
+          "next": "0.0000008775",
+          "pct_change": 13.45
+        },
+        {
+          "field": "completion",
+          "prev": "0.000002431",
+          "next": "0.00000297",
+          "pct_change": 22.17
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-18",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000132",
+          "next": "0.00000066",
+          "pct_change": -50
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000396",
+          "next": "0.00000198",
+          "pct_change": -50
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-18",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000004875",
+          "next": "0.0000005625",
+          "pct_change": 15.38
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000156",
+          "next": "0.0000018",
+          "pct_change": 15.38
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-18",
+      "type": "model_removed",
+      "id": "mistralai/mistral-large-2512",
+      "provider": "mistralai",
+      "snapshot": {
+        "id": "mistralai/mistral-large-2512",
+        "name": "Mistral: Mistral Large 3 2512",
+        "provider": "mistralai",
+        "pricing": {
+          "prompt": "0.0000005",
+          "completion": "0.0000015",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 209715,
+        "expiration_date": null,
+        "created": 1764624472,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-09-18"
+      }
     }
   ]
 }

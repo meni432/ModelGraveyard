@@ -15,6 +15,15 @@
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-09-18:model_removed:mistralai%2Fmistral-large-2512</id>
+    <title>Removed: mistralai/mistral-large-2512</title>
+    <updated>2026-09-18T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/mistralai%2Fmistral-large-2512"/>
+    <category term="model_removed"/>
+    <category term="provider:mistralai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.5000/Mtok.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-09-16:model_removed:google%2Fgemma-4-31b-it%3Abatch</id>
     <title>Removed: google/gemma-4-31b-it:batch</title>
     <updated>2026-09-16T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="model_removed"/>
     <category term="provider:google"/>
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.2500/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-31:model_removed:google%2Fgemini-3.1-flash-lite%3Abatch</id>
-    <title>Removed: google/gemini-3.1-flash-lite:batch</title>
-    <updated>2026-07-31T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-3.1-flash-lite%3Abatch"/>
-    <category term="model_removed"/>
-    <category term="provider:google"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1250/Mtok.</summary>
   </entry>
 </feed>
