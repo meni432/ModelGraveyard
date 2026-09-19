@@ -44767,6 +44767,243 @@
           "pct_change": -2.25
         }
       ]
+    },
+    {
+      "ts": "2026-09-19",
+      "type": "model_added",
+      "id": "z-ai/glm-5.3-flashx",
+      "provider": "z-ai",
+      "snapshot": {
+        "id": "z-ai/glm-5.3-flashx",
+        "name": "Z.ai: GLM 5.3 FlashX",
+        "provider": "z-ai",
+        "pricing": {
+          "prompt": "0.00000037",
+          "completion": "0.00000125",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": 131072,
+        "expiration_date": null,
+        "created": 1789744020,
+        "first_seen": "2026-09-19",
+        "last_seen": "2026-09-19"
+      }
+    },
+    {
+      "ts": "2026-09-19",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000014",
+          "next": "0.000000135",
+          "pct_change": -3.57
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000042",
+          "next": "0.00000054",
+          "pct_change": 28.57
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-19",
+      "type": "price_changed",
+      "id": "nvidia/nemotron-3.5-lightning",
+      "provider": "nvidia",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000008",
+          "next": "0.00000007",
+          "pct_change": -12.5
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-19",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000055",
+          "next": "0.00000004928",
+          "pct_change": -10.4
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000165",
+          "next": "0.00000014784",
+          "pct_change": -10.4
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-19",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash-0731",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000006",
+          "next": "0.000000065",
+          "pct_change": 8.33
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000012",
+          "next": "0.00000018",
+          "pct_change": 50
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-19",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k3",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000195",
+          "next": "0.0000020695",
+          "pct_change": 6.13
+        },
+        {
+          "field": "completion",
+          "prev": "0.00001092",
+          "next": "0.0000115892",
+          "pct_change": 6.13
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-19",
+      "type": "price_changed",
+      "id": "tencent/hy3",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000825",
+          "next": "0.000000132",
+          "pct_change": 60
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000033",
+          "next": "0.000000528",
+          "pct_change": 60
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-19",
+      "type": "price_changed",
+      "id": "nvidia/nemotron-3-ultra-550b-a55b",
+      "provider": "nvidia",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000625",
+          "next": "0.0000006",
+          "pct_change": -4
+        },
+        {
+          "field": "completion",
+          "prev": "0.000003125",
+          "next": "0.0000024",
+          "pct_change": -23.2
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-19",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000195",
+          "next": "0.0000020695",
+          "pct_change": 6.13
+        },
+        {
+          "field": "completion",
+          "prev": "0.00001092",
+          "next": "0.0000115892",
+          "pct_change": 6.13
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-19",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000016",
+          "next": "0.000000635274",
+          "pct_change": -60.3
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000032",
+          "next": "0.000001270548",
+          "pct_change": -60.3
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-19",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000004872",
+          "next": "0.00000004844",
+          "pct_change": -0.57
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000009744",
+          "next": "0.00000009688",
+          "pct_change": -0.57
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-19",
+      "type": "price_changed",
+      "id": "qwen/qwen3-vl-30b-a3b-instruct",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000013",
+          "next": "0.0000002",
+          "pct_change": 53.85
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000052",
+          "next": "0.0000007",
+          "pct_change": 34.62
+        }
+      ]
     }
   ]
 }
