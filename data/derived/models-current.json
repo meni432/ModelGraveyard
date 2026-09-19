@@ -74,8 +74,8 @@
       "name": "DeepSeek: DeepSeek Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.000000135",
-        "completion": "0.00000054",
+        "prompt": "0.00000013",
+        "completion": "0.00000052",
         "image": null,
         "request": null
       },
@@ -108,13 +108,13 @@
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.00000004928",
-        "completion": "0.00000014784",
+        "prompt": "0.00000004",
+        "completion": "0.00000008",
         "image": null,
         "request": null
       },
       "context_length": 1310720,
-      "max_completion_tokens": 384000,
+      "max_completion_tokens": 943718,
       "expiration_date": null,
       "created": 1785606009,
       "first_seen": "2026-08-01",
@@ -159,8 +159,8 @@
       "name": "MoonshotAI: Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.0000020695",
-        "completion": "0.0000115892",
+        "prompt": "0.0000017",
+        "completion": "0.0000085",
         "image": null,
         "request": null
       },
@@ -1349,8 +1349,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000004844",
-        "completion": "0.00000009688",
+        "prompt": "0.00000004508",
+        "completion": "0.00000009016",
         "image": null,
         "request": null
       },
@@ -1366,8 +1366,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000065",
-        "completion": "0.00000018",
+        "prompt": "0.00000004",
+        "completion": "0.00000008",
         "image": null,
         "request": null
       },
@@ -1451,8 +1451,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000635274",
-        "completion": "0.000001270548",
+        "prompt": "0.00000049329",
+        "completion": "0.00000098658",
         "image": null,
         "request": null
       },
@@ -3491,8 +3491,8 @@
       "name": "MoonshotAI: Kimi K3",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.0000020695",
-        "completion": "0.0000115892",
+        "prompt": "0.0000017",
+        "completion": "0.0000085",
         "image": null,
         "request": null
       },
