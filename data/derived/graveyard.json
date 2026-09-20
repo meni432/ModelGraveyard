@@ -1,6 +1,23 @@
 {
   "buried": [
     {
+      "id": "deepseek/deepseek-v4-flash-0731:free",
+      "name": "DeepSeek: DeepSeek V4 Flash 0731 (free)",
+      "provider": "deepseek",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 1048576,
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
+      "buried_at": "2026-09-20",
+      "suggested_replacement": "deepseek/deepseek-v4.1-flash"
+    },
+    {
       "id": "mistralai/mistral-large-2512",
       "name": "Mistral: Mistral Large 3 2512",
       "provider": "mistralai",

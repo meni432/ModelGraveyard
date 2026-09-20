@@ -4,7 +4,61 @@
   <id>https://modelgraveyard.com/feeds/by-type/deprecation_announced.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/deprecation_announced.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-09-18T00:00:00Z</updated>
+  <updated>2026-09-20T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-20:deprecation_announced:minimax%2Fminimax-m2.1</id>
+    <title>Deprecation announced: minimax/minimax-m2.1 (sunset 2026-10-08)</title>
+    <updated>2026-09-20T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/minimax%2Fminimax-m2.1"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:minimax"/>
+    <summary>Provider announced retirement on 2026-10-08.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-20:deprecation_announced:deepseek%2Fdeepseek-v3.2</id>
+    <title>Deprecation announced: deepseek/deepseek-v3.2 (sunset 2026-09-28)</title>
+    <updated>2026-09-20T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v3.2"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:deepseek"/>
+    <summary>Provider announced retirement on 2026-09-28.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-20:deprecation_announced:deepseek%2Fdeepseek-v3.2-exp</id>
+    <title>Deprecation announced: deepseek/deepseek-v3.2-exp (sunset 2026-09-28)</title>
+    <updated>2026-09-20T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v3.2-exp"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:deepseek"/>
+    <summary>Provider announced retirement on 2026-09-28.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-20:deprecation_announced:deepseek%2Fdeepseek-v3.1-terminus</id>
+    <title>Deprecation announced: deepseek/deepseek-v3.1-terminus (sunset 2026-09-28)</title>
+    <updated>2026-09-20T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v3.1-terminus"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:deepseek"/>
+    <summary>Provider announced retirement on 2026-09-28.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-20:deprecation_announced:baidu%2Fernie-4.5-vl-424b-a47b</id>
+    <title>Deprecation announced: baidu/ernie-4.5-vl-424b-a47b (sunset 2026-10-08)</title>
+    <updated>2026-09-20T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/baidu%2Fernie-4.5-vl-424b-a47b"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:baidu"/>
+    <summary>Provider announced retirement on 2026-10-08.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-20:deprecation_announced:deepseek%2Fdeepseek-r1-distill-llama-70b</id>
+    <title>Deprecation announced: deepseek/deepseek-r1-distill-llama-70b (sunset 2026-09-28)</title>
+    <updated>2026-09-20T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-r1-distill-llama-70b"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:deepseek"/>
+    <summary>Provider announced retirement on 2026-09-28.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-09-18:deprecation_announced:google%2Fgemini-2.5-flash-image</id>
     <title>Deprecation announced: google/gemini-2.5-flash-image (sunset 2027-03-15)</title>
