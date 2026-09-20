@@ -91,8 +91,8 @@
       "name": "DeepSeek: DeepSeek Pro Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.00000057684",
-        "completion": "0.00000173052",
+        "prompt": "0.00000056364",
+        "completion": "0.00000169092",
         "image": null,
         "request": null
       },
@@ -284,7 +284,7 @@
         "request": null
       },
       "context_length": 1310720,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 943718,
       "expiration_date": null,
       "created": 1787817633,
       "first_seen": "2026-09-02",
@@ -1349,8 +1349,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000003668",
-        "completion": "0.00000007336",
+        "prompt": "0.0000000364",
+        "completion": "0.0000000728",
         "image": null,
         "request": null
       },
@@ -2658,13 +2658,13 @@
       "name": "Meta: Muse Glimmer 30B",
       "provider": "meta",
       "pricing": {
-        "prompt": "0.00000035",
-        "completion": "0.0000015",
+        "prompt": "0.0000003",
+        "completion": "0.0000012",
         "image": null,
         "request": null
       },
       "context_length": 131072,
-      "max_completion_tokens": 117964,
+      "max_completion_tokens": 16384,
       "expiration_date": null,
       "created": 1786302394,
       "first_seen": "2026-08-11",
@@ -6075,8 +6075,8 @@
       "name": "Qwen: Qwen3 VL 30B A3B Instruct",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000013",
-        "completion": "0.00000052",
+        "prompt": "0.0000002",
+        "completion": "0.0000007",
         "image": null,
         "request": null
       },
