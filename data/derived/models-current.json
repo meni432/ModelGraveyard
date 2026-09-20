@@ -91,8 +91,8 @@
       "name": "DeepSeek: DeepSeek Pro Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.00000054516",
-        "completion": "0.00000163548",
+        "prompt": "0.00000052668",
+        "completion": "0.00000158004",
         "image": null,
         "request": null
       },
@@ -109,7 +109,7 @@
       "provider": "~deepseek",
       "pricing": {
         "prompt": "0.00000004",
-        "completion": "0.00000008",
+        "completion": "0.00000012",
         "image": null,
         "request": null
       },
@@ -295,8 +295,8 @@
       "name": "Z.ai: GLM Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.0000008442",
-        "completion": "0.0000026532",
+        "prompt": "0.0000008316",
+        "completion": "0.0000026136",
         "image": null,
         "request": null
       },
@@ -1367,7 +1367,7 @@
       "provider": "deepseek",
       "pricing": {
         "prompt": "0.00000004",
-        "completion": "0.00000008",
+        "completion": "0.00000012",
         "image": null,
         "request": null
       },
@@ -1400,13 +1400,13 @@
       "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000002156",
-        "completion": "0.0000006468",
+        "prompt": "0.00000022",
+        "completion": "0.00000066",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": 943718,
       "expiration_date": null,
       "created": 1787311563,
       "first_seen": "2026-08-21",
@@ -1451,8 +1451,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000054516",
-        "completion": "0.00000163548",
+        "prompt": "0.00000052668",
+        "completion": "0.00000158004",
         "image": null,
         "request": null
       },
@@ -6075,8 +6075,8 @@
       "name": "Qwen: Qwen3 VL 30B A3B Instruct",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.0000002",
-        "completion": "0.0000007",
+        "prompt": "0.00000013",
+        "completion": "0.00000052",
         "image": null,
         "request": null
       },
@@ -6330,8 +6330,8 @@
       "name": "Qwen: Qwen3.6 35B A3B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.0000001",
-        "completion": "0.0000009",
+        "prompt": "0.00000015",
+        "completion": "0.000001",
         "image": null,
         "request": null
       },
@@ -6840,8 +6840,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },
