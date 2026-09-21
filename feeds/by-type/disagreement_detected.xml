@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/disagreement_detected.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/disagreement_detected.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-08-19T00:00:00Z</updated>
+  <updated>2026-09-21T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-21:disagreement_detected:anthropic%2Fclaude-opus-4</id>
+    <title>Catalog disagreement: anthropic/claude-opus-4</title>
+    <updated>2026-09-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-opus-4"/>
+    <category term="disagreement_detected"/>
+    <category term="provider:anthropic"/>
+    <summary>OpenRouter says removed; LiteLLM still lists it as claude-opus-4-20250514.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-08-19:disagreement_detected:ai21%2Fjamba-large-1.7</id>
     <title>Catalog disagreement: ai21/jamba-large-1.7</title>

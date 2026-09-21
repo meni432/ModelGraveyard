@@ -4,7 +4,34 @@
   <id>https://modelgraveyard.com/feeds/by-provider/anthropic.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/anthropic.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-09-02T00:00:00Z</updated>
+  <updated>2026-09-21T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-21:context_changed:anthropic%2Fclaude-sonnet-4</id>
+    <title>Context window changed: anthropic/claude-sonnet-4</title>
+    <updated>2026-09-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-sonnet-4"/>
+    <category term="context_changed"/>
+    <category term="provider:anthropic"/>
+    <summary>1000000 → 200000 tokens</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-21:model_removed:anthropic%2Fclaude-opus-4</id>
+    <title>Removed: anthropic/claude-opus-4</title>
+    <updated>2026-09-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-opus-4"/>
+    <category term="model_removed"/>
+    <category term="provider:anthropic"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $15.0000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-21:disagreement_detected:anthropic%2Fclaude-opus-4</id>
+    <title>Catalog disagreement: anthropic/claude-opus-4</title>
+    <updated>2026-09-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-opus-4"/>
+    <category term="disagreement_detected"/>
+    <category term="provider:anthropic"/>
+    <summary>OpenRouter says removed; LiteLLM still lists it as claude-opus-4-20250514.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-09-02:model_added:anthropic%2Fclaude-fable-5.1%3Abatch</id>
     <title>Added: anthropic/claude-fable-5.1:batch</title>

@@ -1,6 +1,108 @@
 {
   "buried": [
     {
+      "id": "anthropic/claude-opus-4",
+      "name": "Anthropic: Claude Opus 4",
+      "provider": "anthropic",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.000015",
+        "completion": "0.000075",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 200000,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-09-21",
+      "buried_at": "2026-09-21",
+      "suggested_replacement": "anthropic/claude-opus-4.5"
+    },
+    {
+      "id": "moonshotai/kimi-k3:batch",
+      "name": "MoonshotAI: Kimi K3 (batch)",
+      "provider": "moonshotai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.000003",
+        "completion": "0.000015",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 1048576,
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-09-21",
+      "buried_at": "2026-09-21",
+      "suggested_replacement": "moonshotai/kimi-k3"
+    },
+    {
+      "id": "openai/gpt-oss-120b:batch",
+      "name": "OpenAI: gpt-oss-120b (batch)",
+      "provider": "openai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000015",
+        "completion": "0.0000006",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 131072,
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-09-21",
+      "buried_at": "2026-09-21",
+      "suggested_replacement": "openai/gpt-oss-safeguard-20b"
+    },
+    {
+      "id": "qwen/qwen3.5-9b:batch",
+      "name": "Qwen: Qwen3.5-9B (batch)",
+      "provider": "qwen",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000017",
+        "completion": "0.00000025",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-09-21",
+      "buried_at": "2026-09-21",
+      "suggested_replacement": "qwen/qwen3.8-27b:free"
+    },
+    {
+      "id": "qwen/qwen3.8-2.4t-a95b:batch",
+      "name": "Qwen: Qwen3.8 2.4T A95B (batch)",
+      "provider": "qwen",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.000002",
+        "completion": "0.000006",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 1010000,
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-09-21",
+      "buried_at": "2026-09-21",
+      "suggested_replacement": "qwen/qwen3.8-max-0902"
+    },
+    {
+      "id": "thinkingmachines/inkling:batch",
+      "name": "Thinking Machines: Inkling (batch)",
+      "provider": "thinkingmachines",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.000001",
+        "completion": "0.00000405",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 524288,
+      "first_seen": "2026-08-06",
+      "last_seen": "2026-09-21",
+      "buried_at": "2026-09-21",
+      "suggested_replacement": "thinkingmachines/inkling-small"
+    },
+    {
       "id": "deepseek/deepseek-v4-flash-0731:free",
       "name": "DeepSeek: DeepSeek V4 Flash 0731 (free)",
       "provider": "deepseek",

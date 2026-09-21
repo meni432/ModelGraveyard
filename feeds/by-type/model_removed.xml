@@ -4,7 +4,70 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_removed.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_removed.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-09-20T00:00:00Z</updated>
+  <updated>2026-09-21T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-21:model_removed:anthropic%2Fclaude-opus-4</id>
+    <title>Removed: anthropic/claude-opus-4</title>
+    <updated>2026-09-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-opus-4"/>
+    <category term="model_removed"/>
+    <category term="provider:anthropic"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $15.0000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-21:model_removed:minimax%2Fminimax-m3%3Abatch</id>
+    <title>Removed: minimax/minimax-m3:batch</title>
+    <updated>2026-09-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/minimax%2Fminimax-m3%3Abatch"/>
+    <category term="model_removed"/>
+    <category term="provider:minimax"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.3000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-21:model_removed:moonshotai%2Fkimi-k3%3Abatch</id>
+    <title>Removed: moonshotai/kimi-k3:batch</title>
+    <updated>2026-09-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k3%3Abatch"/>
+    <category term="model_removed"/>
+    <category term="provider:moonshotai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $3.0000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-21:model_removed:openai%2Fgpt-oss-120b%3Abatch</id>
+    <title>Removed: openai/gpt-oss-120b:batch</title>
+    <updated>2026-09-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-oss-120b%3Abatch"/>
+    <category term="model_removed"/>
+    <category term="provider:openai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1500/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-21:model_removed:qwen%2Fqwen3.5-9b%3Abatch</id>
+    <title>Removed: qwen/qwen3.5-9b:batch</title>
+    <updated>2026-09-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3.5-9b%3Abatch"/>
+    <category term="model_removed"/>
+    <category term="provider:qwen"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1700/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-21:model_removed:qwen%2Fqwen3.8-2.4t-a95b%3Abatch</id>
+    <title>Removed: qwen/qwen3.8-2.4t-a95b:batch</title>
+    <updated>2026-09-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3.8-2.4t-a95b%3Abatch"/>
+    <category term="model_removed"/>
+    <category term="provider:qwen"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $2.0000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-21:model_removed:thinkingmachines%2Finkling%3Abatch</id>
+    <title>Removed: thinkingmachines/inkling:batch</title>
+    <updated>2026-09-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/thinkingmachines%2Finkling%3Abatch"/>
+    <category term="model_removed"/>
+    <category term="provider:thinkingmachines"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $1.0000/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-09-20:model_removed:deepseek%2Fdeepseek-v4-flash-0731%3Afree</id>
     <title>Removed: deepseek/deepseek-v4-flash-0731:free</title>
@@ -841,68 +904,5 @@
     <category term="model_removed"/>
     <category term="provider:anthropic"/>
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $2.5000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-31:model_removed:anthropic%2Fclaude-opus-4.7%3Abatch</id>
-    <title>Removed: anthropic/claude-opus-4.7:batch</title>
-    <updated>2026-07-31T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-opus-4.7%3Abatch"/>
-    <category term="model_removed"/>
-    <category term="provider:anthropic"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $2.5000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-31:model_removed:anthropic%2Fclaude-opus-4.8%3Abatch</id>
-    <title>Removed: anthropic/claude-opus-4.8:batch</title>
-    <updated>2026-07-31T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-opus-4.8%3Abatch"/>
-    <category term="model_removed"/>
-    <category term="provider:anthropic"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $2.5000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-31:model_removed:anthropic%2Fclaude-sonnet-4.5%3Abatch</id>
-    <title>Removed: anthropic/claude-sonnet-4.5:batch</title>
-    <updated>2026-07-31T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-sonnet-4.5%3Abatch"/>
-    <category term="model_removed"/>
-    <category term="provider:anthropic"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $1.5000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-31:model_removed:anthropic%2Fclaude-sonnet-5%3Abatch</id>
-    <title>Removed: anthropic/claude-sonnet-5:batch</title>
-    <updated>2026-07-31T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-sonnet-5%3Abatch"/>
-    <category term="model_removed"/>
-    <category term="provider:anthropic"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $1.0000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-31:model_removed:google%2Fgemini-2.5-flash-lite%3Abatch</id>
-    <title>Removed: google/gemini-2.5-flash-lite:batch</title>
-    <updated>2026-07-31T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-2.5-flash-lite%3Abatch"/>
-    <category term="model_removed"/>
-    <category term="provider:google"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0500/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-31:model_removed:google%2Fgemini-2.5-flash%3Abatch</id>
-    <title>Removed: google/gemini-2.5-flash:batch</title>
-    <updated>2026-07-31T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-2.5-flash%3Abatch"/>
-    <category term="model_removed"/>
-    <category term="provider:google"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1500/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-31:model_removed:google%2Fgemini-2.5-pro%3Abatch</id>
-    <title>Removed: google/gemini-2.5-pro:batch</title>
-    <updated>2026-07-31T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-2.5-pro%3Abatch"/>
-    <category term="model_removed"/>
-    <category term="provider:google"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.6250/Mtok.</summary>
   </entry>
 </feed>
