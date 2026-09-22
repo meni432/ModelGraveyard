@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/meta.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/meta.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-09-20T00:00:00Z</updated>
+  <updated>2026-09-22T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-22:model_removed:meta%2Fmuse-glimmer-30b%3Abatch</id>
+    <title>Removed: meta/muse-glimmer-30b:batch</title>
+    <updated>2026-09-22T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meta%2Fmuse-glimmer-30b%3Abatch"/>
+    <category term="model_removed"/>
+    <category term="provider:meta"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1750/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-09-20:price_changed:meta%2Fmuse-glimmer-30b</id>
     <title>Price changed: meta/muse-glimmer-30b</title>

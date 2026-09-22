@@ -33,6 +33,60 @@
     <summary>prompt: $0.0554/Mtok → $0.0886/Mtok (+59.82%); completion: $0.1109/Mtok → $0.1772/Mtok (+59.82%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-09-22:model_added:deepseek%2Fdeepseek-v4.1-flash%3Abatch</id>
+    <title>Added: deepseek/deepseek-v4.1-flash:batch</title>
+    <updated>2026-09-22T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4.1-flash%3Abatch"/>
+    <category term="model_added"/>
+    <category term="provider:deepseek"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.1120/Mtok, context: 1048576.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-22:price_changed:deepseek%2Fdeepseek-v4-pro</id>
+    <title>Price changed: deepseek/deepseek-v4-pro</title>
+    <updated>2026-09-22T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-pro"/>
+    <category term="price_changed"/>
+    <category term="provider:deepseek"/>
+    <summary>prompt: $0.9553/Mtok → $0.9245/Mtok (-3.22%); completion: $1.9105/Mtok → $1.8489/Mtok (-3.22%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-22:price_changed:deepseek%2Fdeepseek-v4-flash</id>
+    <title>Price changed: deepseek/deepseek-v4-flash</title>
+    <updated>2026-09-22T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-flash"/>
+    <category term="price_changed"/>
+    <category term="provider:deepseek"/>
+    <summary>prompt: $0.0886/Mtok → $0.0490/Mtok (-44.7%); completion: $0.1772/Mtok → $0.0980/Mtok (-44.7%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-22:model_removed:deepseek%2Fdeepseek-v4-flash-0731%3Abatch</id>
+    <title>Removed: deepseek/deepseek-v4-flash-0731:batch</title>
+    <updated>2026-09-22T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-flash-0731%3Abatch"/>
+    <category term="model_removed"/>
+    <category term="provider:deepseek"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1100/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-22:model_removed:deepseek%2Fdeepseek-v4-flash-vision-exp%3Abatch</id>
+    <title>Removed: deepseek/deepseek-v4-flash-vision-exp:batch</title>
+    <updated>2026-09-22T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-flash-vision-exp%3Abatch"/>
+    <category term="model_removed"/>
+    <category term="provider:deepseek"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1100/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-22:model_removed:deepseek%2Fdeepseek-v4-pro-0813%3Abatch</id>
+    <title>Removed: deepseek/deepseek-v4-pro-0813:batch</title>
+    <updated>2026-09-22T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-pro-0813%3Abatch"/>
+    <category term="model_removed"/>
+    <category term="provider:deepseek"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.6600/Mtok.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-09-21:price_changed:deepseek%2Fdeepseek-v4-pro-0813</id>
     <title>Price changed: deepseek/deepseek-v4-pro-0813</title>
     <updated>2026-09-21T00:00:00Z</updated>
@@ -850,59 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:deepseek"/>
     <summary>prompt: $0.8700/Mtok → $0.9553/Mtok (+9.8%); completion: $1.7400/Mtok → $1.9105/Mtok (+9.8%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-10:price_changed:deepseek%2Fdeepseek-v4-flash</id>
-    <title>Price changed: deepseek/deepseek-v4-flash</title>
-    <updated>2026-09-10T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-flash"/>
-    <category term="price_changed"/>
-    <category term="provider:deepseek"/>
-    <summary>prompt: $0.0700/Mtok → $0.0886/Mtok (+26.58%); completion: $0.1400/Mtok → $0.1772/Mtok (+26.58%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-10:price_changed:deepseek%2Fdeepseek-chat</id>
-    <title>Price changed: deepseek/deepseek-chat</title>
-    <updated>2026-09-10T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-chat"/>
-    <category term="price_changed"/>
-    <category term="provider:deepseek"/>
-    <summary>prompt: $0.3200/Mtok → $0.2574/Mtok (-19.56%); completion: $0.8900/Mtok → $1.0287/Mtok (+15.58%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-10:model_added:deepseek%2Fdeepseek-v4.1-flash</id>
-    <title>Added: deepseek/deepseek-v4.1-flash</title>
-    <updated>2026-09-10T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4.1-flash"/>
-    <category term="model_added"/>
-    <category term="provider:deepseek"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.1500/Mtok, context: 1048576.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-10:price_changed:deepseek%2Fdeepseek-v4-pro-0813</id>
-    <title>Price changed: deepseek/deepseek-v4-pro-0813</title>
-    <updated>2026-09-10T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-pro-0813"/>
-    <category term="price_changed"/>
-    <category term="provider:deepseek"/>
-    <summary>prompt: $1.0494/Mtok → $0.5795/Mtok (-44.78%); completion: $3.1482/Mtok → $1.7384/Mtok (-44.78%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-10:price_changed:deepseek%2Fdeepseek-v4-flash</id>
-    <title>Price changed: deepseek/deepseek-v4-flash</title>
-    <updated>2026-09-10T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-flash"/>
-    <category term="price_changed"/>
-    <category term="provider:deepseek"/>
-    <summary>prompt: $0.0886/Mtok → $0.0871/Mtok (-1.72%); completion: $0.1772/Mtok → $0.1742/Mtok (-1.72%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-10:price_changed:deepseek%2Fdeepseek-v4-pro</id>
-    <title>Price changed: deepseek/deepseek-v4-pro</title>
-    <updated>2026-09-10T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-pro"/>
-    <category term="price_changed"/>
-    <category term="provider:deepseek"/>
-    <summary>prompt: $0.9553/Mtok → $0.8700/Mtok (-8.93%); completion: $1.9105/Mtok → $1.7400/Mtok (-8.93%)</summary>
   </entry>
 </feed>

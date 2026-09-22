@@ -47037,6 +47037,468 @@
         "first_seen": "2026-05-27",
         "last_seen": "2026-09-22"
       }
+    },
+    {
+      "ts": "2026-09-22",
+      "type": "model_added",
+      "id": "anthropic/claude-opus-5.5",
+      "provider": "anthropic",
+      "snapshot": {
+        "id": "anthropic/claude-opus-5.5",
+        "name": "Anthropic: Claude Opus 5.5",
+        "provider": "anthropic",
+        "pricing": {
+          "prompt": "0.000004",
+          "completion": "0.00002",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1000000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1790094732,
+        "first_seen": "2026-09-22",
+        "last_seen": "2026-09-22"
+      }
+    },
+    {
+      "ts": "2026-09-22",
+      "type": "model_added",
+      "id": "anthropic/claude-opus-5.5:batch",
+      "provider": "anthropic",
+      "snapshot": {
+        "id": "anthropic/claude-opus-5.5:batch",
+        "name": "Anthropic: Claude Opus 5.5 (batch)",
+        "provider": "anthropic",
+        "pricing": {
+          "prompt": "0.000002",
+          "completion": "0.00001",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1000000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1790094732,
+        "first_seen": "2026-09-22",
+        "last_seen": "2026-09-22"
+      }
+    },
+    {
+      "ts": "2026-09-22",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-pro-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000624",
+          "next": "0.000000561",
+          "pct_change": -10.1
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000288",
+          "next": "0.000001683",
+          "pct_change": -41.56
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-22",
+      "type": "model_added",
+      "id": "deepseek/deepseek-v4.1-flash:batch",
+      "provider": "deepseek",
+      "snapshot": {
+        "id": "deepseek/deepseek-v4.1-flash:batch",
+        "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
+        "provider": "deepseek",
+        "pricing": {
+          "prompt": "0.000000112",
+          "completion": "0.000000336",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": 131072,
+        "expiration_date": null,
+        "created": 1789021285,
+        "first_seen": "2026-09-22",
+        "last_seen": "2026-09-22"
+      }
+    },
+    {
+      "ts": "2026-09-22",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.3-flash:batch",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000075",
+          "next": "0.00000006",
+          "pct_change": -20
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000025",
+          "next": "0.0000002",
+          "pct_change": -20
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-22",
+      "type": "price_changed",
+      "id": "~z-ai/glm-latest",
+      "provider": "~z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000006545",
+          "next": "0.0000006538",
+          "pct_change": -0.11
+        },
+        {
+          "field": "completion",
+          "prev": "0.000002057",
+          "next": "0.0000020548",
+          "pct_change": -0.11
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-22",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.3",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000084",
+          "next": "0.0000006538",
+          "pct_change": -22.17
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000264",
+          "next": "0.0000020548",
+          "pct_change": -22.17
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-22",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.3:batch",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000007",
+          "next": "0.00000072",
+          "pct_change": 2.86
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000022",
+          "next": "0.0000024",
+          "pct_change": 9.09
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-22",
+      "type": "deprecation_announced",
+      "id": "dots-studio/dots-3-note-preview:free",
+      "provider": "dots-studio",
+      "prev_expiration": "2026-09-30",
+      "next_expiration": "2026-12-31"
+    },
+    {
+      "ts": "2026-09-22",
+      "type": "model_added",
+      "id": "moonshotai/kimi-k3:batch",
+      "provider": "moonshotai",
+      "snapshot": {
+        "id": "moonshotai/kimi-k3:batch",
+        "name": "MoonshotAI: Kimi K3 (batch)",
+        "provider": "moonshotai",
+        "pricing": {
+          "prompt": "0.00000228",
+          "completion": "0.0000114",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": 16384,
+        "expiration_date": null,
+        "created": 1784215858,
+        "first_seen": "2026-09-22",
+        "last_seen": "2026-09-22"
+      }
+    },
+    {
+      "ts": "2026-09-22",
+      "type": "context_changed",
+      "id": "aion-labs/aion-3.0-mini",
+      "provider": "aion-labs",
+      "prev_context": 131072,
+      "next_context": 1048576
+    },
+    {
+      "ts": "2026-09-22",
+      "type": "context_changed",
+      "id": "aion-labs/aion-3.0",
+      "provider": "aion-labs",
+      "prev_context": 131072,
+      "next_context": 1048576
+    },
+    {
+      "ts": "2026-09-22",
+      "type": "price_changed",
+      "id": "tencent/hy3",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000132",
+          "next": "0.0000000825",
+          "pct_change": -37.5
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000528",
+          "next": "0.00000033",
+          "pct_change": -37.5
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-22",
+      "type": "price_changed",
+      "id": "qwen/qwen3.6-27b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000003",
+          "next": "0.00000032",
+          "pct_change": 6.67
+        },
+        {
+          "field": "completion",
+          "prev": "0.000002",
+          "next": "0.0000027",
+          "pct_change": 35
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-22",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000095526",
+          "next": "0.000000924462",
+          "pct_change": -3.22
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000191052",
+          "next": "0.000001848924",
+          "pct_change": -3.22
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-22",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000088606",
+          "next": "0.000000049",
+          "pct_change": -44.7
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000177212",
+          "next": "0.000000098",
+          "pct_change": -44.7
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-22",
+      "type": "context_changed",
+      "id": "aion-labs/aion-2.0",
+      "provider": "aion-labs",
+      "prev_context": 131072,
+      "next_context": 1048576
+    },
+    {
+      "ts": "2026-09-22",
+      "type": "price_changed",
+      "id": "openai/gpt-oss-20b",
+      "provider": "openai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000003",
+          "next": "0.000000018",
+          "pct_change": -40
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000013",
+          "next": "0.00000009",
+          "pct_change": -30.77
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-22",
+      "type": "model_added",
+      "id": "openai/gpt-oss-20b:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-oss-20b:batch",
+        "name": "OpenAI: gpt-oss-20b (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.000000024",
+          "completion": "0.000000112",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": 117964,
+        "expiration_date": null,
+        "created": 1754414229,
+        "first_seen": "2026-09-22",
+        "last_seen": "2026-09-22"
+      }
+    },
+    {
+      "ts": "2026-09-22",
+      "type": "model_removed",
+      "id": "deepseek/deepseek-v4-flash-0731:batch",
+      "provider": "deepseek",
+      "snapshot": {
+        "id": "deepseek/deepseek-v4-flash-0731:batch",
+        "name": "DeepSeek: DeepSeek V4 Flash 0731 (batch)",
+        "provider": "deepseek",
+        "pricing": {
+          "prompt": "0.00000011",
+          "completion": "0.00000033",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": 943718,
+        "expiration_date": null,
+        "created": 1785478908,
+        "first_seen": "2026-08-28",
+        "last_seen": "2026-09-22"
+      }
+    },
+    {
+      "ts": "2026-09-22",
+      "type": "model_removed",
+      "id": "deepseek/deepseek-v4-flash-vision-exp:batch",
+      "provider": "deepseek",
+      "snapshot": {
+        "id": "deepseek/deepseek-v4-flash-vision-exp:batch",
+        "name": "DeepSeek: DeepSeek V4 Flash Vision Exp (batch)",
+        "provider": "deepseek",
+        "pricing": {
+          "prompt": "0.00000011",
+          "completion": "0.00000033",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": 943718,
+        "expiration_date": null,
+        "created": 1787311563,
+        "first_seen": "2026-09-08",
+        "last_seen": "2026-09-22"
+      }
+    },
+    {
+      "ts": "2026-09-22",
+      "type": "model_removed",
+      "id": "deepseek/deepseek-v4-pro-0813:batch",
+      "provider": "deepseek",
+      "snapshot": {
+        "id": "deepseek/deepseek-v4-pro-0813:batch",
+        "name": "DeepSeek: DeepSeek V4 Pro 0813 (batch)",
+        "provider": "deepseek",
+        "pricing": {
+          "prompt": "0.00000066",
+          "completion": "0.00000198",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": 943718,
+        "expiration_date": null,
+        "created": 1786549364,
+        "first_seen": "2026-08-28",
+        "last_seen": "2026-09-22"
+      }
+    },
+    {
+      "ts": "2026-09-22",
+      "type": "model_removed",
+      "id": "meta/muse-glimmer-30b:batch",
+      "provider": "meta",
+      "snapshot": {
+        "id": "meta/muse-glimmer-30b:batch",
+        "name": "Meta: Muse Glimmer 30B (batch)",
+        "provider": "meta",
+        "pricing": {
+          "prompt": "0.000000175",
+          "completion": "0.00000075",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": 117964,
+        "expiration_date": null,
+        "created": 1786302394,
+        "first_seen": "2026-08-28",
+        "last_seen": "2026-09-22"
+      }
+    },
+    {
+      "ts": "2026-09-22",
+      "type": "model_removed",
+      "id": "z-ai/glm-5.2:batch",
+      "provider": "z-ai",
+      "snapshot": {
+        "id": "z-ai/glm-5.2:batch",
+        "name": "Z.ai: GLM 5.2 (batch)",
+        "provider": "z-ai",
+        "pricing": {
+          "prompt": "0.0000007",
+          "completion": "0.0000022",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": 943718,
+        "expiration_date": null,
+        "created": 1781631930,
+        "first_seen": "2026-09-08",
+        "last_seen": "2026-09-22"
+      }
     }
   ]
 }
