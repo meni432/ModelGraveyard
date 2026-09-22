@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_removed.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_removed.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-09-21T00:00:00Z</updated>
+  <updated>2026-09-22T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-22:model_removed:kwaipilot%2Fkat-coder-pro-v2</id>
+    <title>Removed: kwaipilot/kat-coder-pro-v2</title>
+    <updated>2026-09-22T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/kwaipilot%2Fkat-coder-pro-v2"/>
+    <category term="model_removed"/>
+    <category term="provider:kwaipilot"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.3000/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-09-21:model_removed:anthropic%2Fclaude-opus-4</id>
     <title>Removed: anthropic/claude-opus-4</title>
@@ -892,15 +901,6 @@
     <title>Removed: anthropic/claude-opus-4.5:batch</title>
     <updated>2026-07-31T00:00:00Z</updated>
     <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-opus-4.5%3Abatch"/>
-    <category term="model_removed"/>
-    <category term="provider:anthropic"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $2.5000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-31:model_removed:anthropic%2Fclaude-opus-4.6%3Abatch</id>
-    <title>Removed: anthropic/claude-opus-4.6:batch</title>
-    <updated>2026-07-31T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-opus-4.6%3Abatch"/>
     <category term="model_removed"/>
     <category term="provider:anthropic"/>
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $2.5000/Mtok.</summary>

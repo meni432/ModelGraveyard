@@ -1,9 +1,126 @@
 {
   "generated_at": "2026-09-22",
-  "active_count": 443,
-  "dead_count": 190,
+  "active_count": 444,
+  "dead_count": 191,
   "last_event_ts": "2026-09-22",
   "recent_events": [
+    {
+      "ts": "2026-09-22",
+      "type": "model_removed",
+      "id": "kwaipilot/kat-coder-pro-v2",
+      "provider": "kwaipilot",
+      "snapshot": {
+        "id": "kwaipilot/kat-coder-pro-v2",
+        "name": "Kwaipilot: KAT-Coder-Pro V2",
+        "provider": "kwaipilot",
+        "pricing": {
+          "prompt": "0.0000003",
+          "completion": "0.0000012",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 144000,
+        "expiration_date": null,
+        "created": 1774649310,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-09-22"
+      }
+    },
+    {
+      "ts": "2026-09-22",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.7-code",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.00000321",
+          "next": "0.0000033",
+          "pct_change": 2.8
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-22",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.0000008",
+          "next": "0.000001",
+          "pct_change": 25
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-22",
+      "type": "model_added",
+      "id": "nex-agi/nex-n2.5-pro",
+      "provider": "nex-agi",
+      "snapshot": {
+        "id": "nex-agi/nex-n2.5-pro",
+        "name": "Nex AGI: Nex-N2.5-Pro",
+        "provider": "nex-agi",
+        "pricing": {
+          "prompt": "0.000000075",
+          "completion": "0.00000025",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 235929,
+        "expiration_date": null,
+        "created": 1788890050,
+        "first_seen": "2026-09-22",
+        "last_seen": "2026-09-22"
+      }
+    },
+    {
+      "ts": "2026-09-22",
+      "type": "model_added",
+      "id": "nex-agi/nex-n2.5-mini",
+      "provider": "nex-agi",
+      "snapshot": {
+        "id": "nex-agi/nex-n2.5-mini",
+        "name": "Nex AGI: Nex-N2.5-Mini",
+        "provider": "nex-agi",
+        "pricing": {
+          "prompt": "0.000000025",
+          "completion": "0.0000001",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 235929,
+        "expiration_date": null,
+        "created": 1788890061,
+        "first_seen": "2026-09-22",
+        "last_seen": "2026-09-22"
+      }
+    },
+    {
+      "ts": "2026-09-22",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-pro-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000638616",
+          "next": "0.000000624",
+          "pct_change": -2.29
+        },
+        {
+          "field": "completion",
+          "prev": "0.000001915848",
+          "next": "0.00000288",
+          "pct_change": 50.33
+        }
+      ]
+    },
     {
       "ts": "2026-09-22",
       "type": "price_changed",
@@ -217,130 +334,6 @@
       "provider": "nex-agi",
       "prev_expiration": null,
       "next_expiration": "2026-09-25"
-    },
-    {
-      "ts": "2026-09-22",
-      "type": "price_changed",
-      "id": "~deepseek/deepseek-pro-latest",
-      "provider": "~deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000054252",
-          "next": "0.000000638616",
-          "pct_change": 17.71
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000162756",
-          "next": "0.000001915848",
-          "pct_change": 17.71
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-21",
-      "type": "disagreement_detected",
-      "id": "anthropic/claude-opus-4",
-      "provider": "anthropic",
-      "disagreement": {
-        "slug": "anthropic:claude-opus-4",
-        "openrouter_status": "removed",
-        "litellm_status": "active",
-        "litellm_id": "claude-opus-4-20250514"
-      }
-    },
-    {
-      "ts": "2026-09-21",
-      "type": "model_removed",
-      "id": "thinkingmachines/inkling:batch",
-      "provider": "thinkingmachines",
-      "snapshot": {
-        "id": "thinkingmachines/inkling:batch",
-        "name": "Thinking Machines: Inkling (batch)",
-        "provider": "thinkingmachines",
-        "pricing": {
-          "prompt": "0.000001",
-          "completion": "0.00000405",
-          "image": null,
-          "request": null
-        },
-        "context_length": 524288,
-        "max_completion_tokens": 471859,
-        "expiration_date": null,
-        "created": 1784325956,
-        "first_seen": "2026-08-06",
-        "last_seen": "2026-09-21"
-      }
-    },
-    {
-      "ts": "2026-09-21",
-      "type": "model_removed",
-      "id": "qwen/qwen3.8-2.4t-a95b:batch",
-      "provider": "qwen",
-      "snapshot": {
-        "id": "qwen/qwen3.8-2.4t-a95b:batch",
-        "name": "Qwen: Qwen3.8 2.4T A95B (batch)",
-        "provider": "qwen",
-        "pricing": {
-          "prompt": "0.000002",
-          "completion": "0.000006",
-          "image": null,
-          "request": null
-        },
-        "context_length": 1010000,
-        "max_completion_tokens": 909000,
-        "expiration_date": null,
-        "created": 1786551702,
-        "first_seen": "2026-08-28",
-        "last_seen": "2026-09-21"
-      }
-    },
-    {
-      "ts": "2026-09-21",
-      "type": "model_removed",
-      "id": "qwen/qwen3.5-9b:batch",
-      "provider": "qwen",
-      "snapshot": {
-        "id": "qwen/qwen3.5-9b:batch",
-        "name": "Qwen: Qwen3.5-9B (batch)",
-        "provider": "qwen",
-        "pricing": {
-          "prompt": "0.00000017",
-          "completion": "0.00000025",
-          "image": null,
-          "request": null
-        },
-        "context_length": 262144,
-        "max_completion_tokens": 235929,
-        "expiration_date": null,
-        "created": 1773152396,
-        "first_seen": "2026-08-28",
-        "last_seen": "2026-09-21"
-      }
-    },
-    {
-      "ts": "2026-09-21",
-      "type": "model_removed",
-      "id": "openai/gpt-oss-120b:batch",
-      "provider": "openai",
-      "snapshot": {
-        "id": "openai/gpt-oss-120b:batch",
-        "name": "OpenAI: gpt-oss-120b (batch)",
-        "provider": "openai",
-        "pricing": {
-          "prompt": "0.00000015",
-          "completion": "0.0000006",
-          "image": null,
-          "request": null
-        },
-        "context_length": 131072,
-        "max_completion_tokens": 117964,
-        "expiration_date": null,
-        "created": 1754414231,
-        "first_seen": "2026-08-28",
-        "last_seen": "2026-09-21"
-      }
     }
   ],
   "scheduled_funerals": [

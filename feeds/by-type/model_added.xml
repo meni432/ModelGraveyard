@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_added.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_added.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-09-21T00:00:00Z</updated>
+  <updated>2026-09-22T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-22:model_added:nex-agi%2Fnex-n2.5-mini</id>
+    <title>Added: nex-agi/nex-n2.5-mini</title>
+    <updated>2026-09-22T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nex-agi%2Fnex-n2.5-mini"/>
+    <category term="model_added"/>
+    <category term="provider:nex-agi"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0250/Mtok, context: 262144.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-22:model_added:nex-agi%2Fnex-n2.5-pro</id>
+    <title>Added: nex-agi/nex-n2.5-pro</title>
+    <updated>2026-09-22T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nex-agi%2Fnex-n2.5-pro"/>
+    <category term="model_added"/>
+    <category term="provider:nex-agi"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0750/Mtok, context: 262144.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-09-21:model_added:xiaomi%2Fmimo-v2.6-pro-ultraspeed</id>
     <title>Added: xiaomi/mimo-v2.6-pro-ultraspeed</title>
@@ -886,23 +904,5 @@
     <category term="model_added"/>
     <category term="provider:qwen"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.1700/Mtok, context: 262144.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-28:model_added:openai%2Fgpt-oss-120b%3Abatch</id>
-    <title>Added: openai/gpt-oss-120b:batch</title>
-    <updated>2026-08-28T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-oss-120b%3Abatch"/>
-    <category term="model_added"/>
-    <category term="provider:openai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.1500/Mtok, context: 131072.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-28:model_added:openai%2Fgpt-oss-20b%3Abatch</id>
-    <title>Added: openai/gpt-oss-20b:batch</title>
-    <updated>2026-08-28T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-oss-20b%3Abatch"/>
-    <category term="model_added"/>
-    <category term="provider:openai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.0500/Mtok, context: 131072.</summary>
   </entry>
 </feed>

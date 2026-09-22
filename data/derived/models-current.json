@@ -91,13 +91,13 @@
       "name": "DeepSeek: DeepSeek Pro Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.000000638616",
-        "completion": "0.000001915848",
+        "prompt": "0.000000624",
+        "completion": "0.00000288",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 384000,
+      "max_completion_tokens": 943718,
       "expiration_date": null,
       "created": 1789399174,
       "first_seen": "2026-09-14",
@@ -109,7 +109,7 @@
       "provider": "~deepseek",
       "pricing": {
         "prompt": "0.00000003",
-        "completion": "0.0000008",
+        "completion": "0.000001",
         "image": null,
         "request": null
       },
@@ -2416,23 +2416,6 @@
       "last_seen": "2026-09-22"
     },
     {
-      "id": "kwaipilot/kat-coder-pro-v2",
-      "name": "Kwaipilot: KAT-Coder-Pro V2",
-      "provider": "kwaipilot",
-      "pricing": {
-        "prompt": "0.0000003",
-        "completion": "0.0000012",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 144000,
-      "expiration_date": null,
-      "created": 1774649310,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-09-22"
-    },
-    {
       "id": "kwaipilot/kat-coder-pro-v2.5",
       "name": "Kwaipilot: KAT-Coder-Pro V2.5",
       "provider": "kwaipilot",
@@ -3424,7 +3407,7 @@
       "provider": "moonshotai",
       "pricing": {
         "prompt": "0.0000007062",
-        "completion": "0.00000321",
+        "completion": "0.0000033",
         "image": null,
         "request": null
       },
@@ -3487,6 +3470,23 @@
       "last_seen": "2026-09-22"
     },
     {
+      "id": "nex-agi/nex-n2.5-mini",
+      "name": "Nex AGI: Nex-N2.5-Mini",
+      "provider": "nex-agi",
+      "pricing": {
+        "prompt": "0.000000025",
+        "completion": "0.0000001",
+        "image": null,
+        "request": null
+      },
+      "context_length": 262144,
+      "max_completion_tokens": 235929,
+      "expiration_date": null,
+      "created": 1788890061,
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22"
+    },
+    {
       "id": "nex-agi/nex-n2.5-mini:free",
       "name": "Nex AGI: Nex-N2.5-Mini (free)",
       "provider": "nex-agi",
@@ -3501,6 +3501,23 @@
       "expiration_date": "2026-09-25",
       "created": 1788890061,
       "first_seen": "2026-09-08",
+      "last_seen": "2026-09-22"
+    },
+    {
+      "id": "nex-agi/nex-n2.5-pro",
+      "name": "Nex AGI: Nex-N2.5-Pro",
+      "provider": "nex-agi",
+      "pricing": {
+        "prompt": "0.000000075",
+        "completion": "0.00000025",
+        "image": null,
+        "request": null
+      },
+      "context_length": 262144,
+      "max_completion_tokens": 235929,
+      "expiration_date": null,
+      "created": 1788890050,
+      "first_seen": "2026-09-22",
       "last_seen": "2026-09-22"
     },
     {
@@ -5962,7 +5979,7 @@
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 32768,
+      "max_completion_tokens": 235929,
       "expiration_date": null,
       "created": 1757612284,
       "first_seen": "2026-05-27",

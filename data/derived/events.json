@@ -46920,6 +46920,123 @@
           "pct_change": -18.44
         }
       ]
+    },
+    {
+      "ts": "2026-09-22",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-pro-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000638616",
+          "next": "0.000000624",
+          "pct_change": -2.29
+        },
+        {
+          "field": "completion",
+          "prev": "0.000001915848",
+          "next": "0.00000288",
+          "pct_change": 50.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-22",
+      "type": "model_added",
+      "id": "nex-agi/nex-n2.5-mini",
+      "provider": "nex-agi",
+      "snapshot": {
+        "id": "nex-agi/nex-n2.5-mini",
+        "name": "Nex AGI: Nex-N2.5-Mini",
+        "provider": "nex-agi",
+        "pricing": {
+          "prompt": "0.000000025",
+          "completion": "0.0000001",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 235929,
+        "expiration_date": null,
+        "created": 1788890061,
+        "first_seen": "2026-09-22",
+        "last_seen": "2026-09-22"
+      }
+    },
+    {
+      "ts": "2026-09-22",
+      "type": "model_added",
+      "id": "nex-agi/nex-n2.5-pro",
+      "provider": "nex-agi",
+      "snapshot": {
+        "id": "nex-agi/nex-n2.5-pro",
+        "name": "Nex AGI: Nex-N2.5-Pro",
+        "provider": "nex-agi",
+        "pricing": {
+          "prompt": "0.000000075",
+          "completion": "0.00000025",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 235929,
+        "expiration_date": null,
+        "created": 1788890050,
+        "first_seen": "2026-09-22",
+        "last_seen": "2026-09-22"
+      }
+    },
+    {
+      "ts": "2026-09-22",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.0000008",
+          "next": "0.000001",
+          "pct_change": 25
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-22",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.7-code",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.00000321",
+          "next": "0.0000033",
+          "pct_change": 2.8
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-22",
+      "type": "model_removed",
+      "id": "kwaipilot/kat-coder-pro-v2",
+      "provider": "kwaipilot",
+      "snapshot": {
+        "id": "kwaipilot/kat-coder-pro-v2",
+        "name": "Kwaipilot: KAT-Coder-Pro V2",
+        "provider": "kwaipilot",
+        "pricing": {
+          "prompt": "0.0000003",
+          "completion": "0.0000012",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 144000,
+        "expiration_date": null,
+        "created": 1774649310,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-09-22"
+      }
     }
   ]
 }
