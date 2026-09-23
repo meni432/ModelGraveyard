@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/disagreement_detected.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/disagreement_detected.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-09-21T00:00:00Z</updated>
+  <updated>2026-09-23T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-23:disagreement_detected:meta-llama%2Fllama-guard-3-8b</id>
+    <title>Catalog disagreement: meta-llama/llama-guard-3-8b</title>
+    <updated>2026-09-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meta-llama%2Fllama-guard-3-8b"/>
+    <category term="disagreement_detected"/>
+    <category term="provider:meta-llama"/>
+    <summary>OpenRouter says removed; LiteLLM still lists it as groq/llama-guard-3-8b.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-09-21:disagreement_detected:anthropic%2Fclaude-opus-4</id>
     <title>Catalog disagreement: anthropic/claude-opus-4</title>

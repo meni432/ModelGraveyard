@@ -1,10 +1,10 @@
 {
   "generated_at": "2026-09-23",
   "openrouter_catalog_size": 442,
-  "litellm_catalog_size": 3259,
-  "shared_count": 95,
-  "openrouter_only_count": 347,
-  "litellm_only_count": 3147,
+  "litellm_catalog_size": 3044,
+  "shared_count": 94,
+  "openrouter_only_count": 348,
+  "litellm_only_count": 2940,
   "disagreements": [
     {
       "slug": "ai21:jamba-large-1-7",
@@ -29,59 +29,15 @@
       "noted_at": "2026-06-22"
     },
     {
-      "slug": "anthropic:claude-opus-4",
+      "slug": "meta-llama:llama-guard-3-8b",
       "openrouter_status": "removed",
-      "openrouter_id": "anthropic/claude-opus-4",
-      "openrouter_removed_at": "2026-09-21",
+      "openrouter_id": "meta-llama/llama-guard-3-8b",
+      "openrouter_removed_at": "2026-06-12",
       "litellm_status": "active",
-      "litellm_id": "claude-opus-4-20250514",
-      "litellm_deprecation_date": "2026-06-15",
-      "severity": "medium",
-      "noted_at": "2026-09-21"
-    },
-    {
-      "slug": "google:gemini-2-0-flash-001",
-      "openrouter_status": "removed",
-      "openrouter_id": "google/gemini-2.0-flash-001",
-      "openrouter_removed_at": "2026-06-08",
-      "litellm_status": "active",
-      "litellm_id": "gemini/gemini-2.0-flash-001",
-      "litellm_deprecation_date": "2026-06-01",
-      "severity": "medium",
-      "noted_at": "2026-06-08"
-    },
-    {
-      "slug": "google:gemini-2-0-flash-lite-001",
-      "openrouter_status": "removed",
-      "openrouter_id": "google/gemini-2.0-flash-lite-001",
-      "openrouter_removed_at": "2026-06-08",
-      "litellm_status": "active",
-      "litellm_id": "gemini/gemini-2.0-flash-lite-001",
-      "litellm_deprecation_date": "2026-06-01",
-      "severity": "medium",
-      "noted_at": "2026-06-08"
-    },
-    {
-      "slug": "google:gemini-2-5-flash-lite-preview-09-2025",
-      "openrouter_status": "removed",
-      "openrouter_id": "google/gemini-2.5-flash-lite-preview-09-2025",
-      "openrouter_removed_at": "2026-07-09",
-      "litellm_status": "active",
-      "litellm_id": "gemini/gemini-2.5-flash-lite-preview-09-2025",
-      "litellm_deprecation_date": "2026-03-31",
-      "severity": "medium",
-      "noted_at": "2026-07-09"
-    },
-    {
-      "slug": "openai:gpt-4-0314",
-      "openrouter_status": "removed",
-      "openrouter_id": "openai/gpt-4-0314",
-      "openrouter_removed_at": "2026-06-08",
-      "litellm_status": "active",
-      "litellm_id": "gpt-4-0314",
-      "litellm_deprecation_date": "2026-03-26",
-      "severity": "medium",
-      "noted_at": "2026-06-08"
+      "litellm_id": "groq/llama-guard-3-8b",
+      "litellm_deprecation_date": null,
+      "severity": "high",
+      "noted_at": "2026-09-23"
     },
     {
       "slug": "openai:gpt-4-1106",
@@ -100,8 +56,8 @@
       "openrouter_id": "openai/gpt-4o-audio-preview",
       "openrouter_removed_at": "2026-06-08",
       "litellm_status": "active",
-      "litellm_id": "gpt-4o-audio-preview",
-      "litellm_deprecation_date": "2026-05-07",
+      "litellm_id": "gpt-4o-audio-preview-2024-12-17",
+      "litellm_deprecation_date": "2027-01-20",
       "severity": "medium",
       "noted_at": "2026-06-08"
     },
@@ -128,28 +84,6 @@
       "noted_at": "2026-07-27"
     },
     {
-      "slug": "openai:gpt-5-1-chat",
-      "openrouter_status": "removed",
-      "openrouter_id": "openai/gpt-5.1-chat",
-      "openrouter_removed_at": "2026-07-31",
-      "litellm_status": "active",
-      "litellm_id": "gpt-5.1-chat-latest",
-      "litellm_deprecation_date": "2026-07-23",
-      "severity": "medium",
-      "noted_at": "2026-07-31"
-    },
-    {
-      "slug": "openai:gpt-5-3-chat",
-      "openrouter_status": "removed",
-      "openrouter_id": "openai/gpt-5.3-chat",
-      "openrouter_removed_at": "2026-08-10",
-      "litellm_status": "active",
-      "litellm_id": "gpt-5.3-chat-latest",
-      "litellm_deprecation_date": "2026-08-10",
-      "severity": "medium",
-      "noted_at": "2026-08-10"
-    },
-    {
       "slug": "openai:gpt-5-chat",
       "openrouter_status": "removed",
       "openrouter_id": "openai/gpt-5-chat",
@@ -166,8 +100,8 @@
       "openrouter_id": "openai/gpt-5-codex",
       "openrouter_removed_at": "2026-07-30",
       "litellm_status": "active",
-      "litellm_id": "gpt-5-codex",
-      "litellm_deprecation_date": "2026-07-23",
+      "litellm_id": "azure/gpt-5-codex",
+      "litellm_deprecation_date": "2027-03-17",
       "severity": "medium",
       "noted_at": "2026-07-30"
     },
@@ -177,29 +111,13 @@
       "openrouter_id": "openai/o3-deep-research",
       "openrouter_removed_at": "2026-07-30",
       "litellm_status": "active",
-      "litellm_id": "o3-deep-research",
-      "litellm_deprecation_date": "2026-07-23",
-      "severity": "medium",
-      "noted_at": "2026-07-30"
-    },
-    {
-      "slug": "openai:o4-mini-deep-research",
-      "openrouter_status": "removed",
-      "openrouter_id": "openai/o4-mini-deep-research",
-      "openrouter_removed_at": "2026-07-30",
-      "litellm_status": "active",
-      "litellm_id": "o4-mini-deep-research",
-      "litellm_deprecation_date": "2026-07-23",
+      "litellm_id": "azure/o3-deep-research",
+      "litellm_deprecation_date": "2026-11-19",
       "severity": "medium",
       "noted_at": "2026-07-30"
     }
   ],
   "pairings": [
-    {
-      "slug": "anthropic:claude-3-haiku",
-      "openrouter_id": "anthropic/claude-3-haiku",
-      "litellm_id": "claude-3-haiku-20240307"
-    },
     {
       "slug": "anthropic:claude-fable-5",
       "openrouter_id": "anthropic/claude-fable-5",
@@ -214,11 +132,6 @@
       "slug": "anthropic:claude-haiku-4-5",
       "openrouter_id": "anthropic/claude-haiku-4.5",
       "litellm_id": "claude-haiku-4-5"
-    },
-    {
-      "slug": "anthropic:claude-opus-4-1",
-      "openrouter_id": "anthropic/claude-opus-4.1",
-      "litellm_id": "claude-opus-4-1"
     },
     {
       "slug": "anthropic:claude-opus-4-5",
@@ -246,9 +159,9 @@
       "litellm_id": "claude-opus-5"
     },
     {
-      "slug": "anthropic:claude-sonnet-4",
-      "openrouter_id": "anthropic/claude-sonnet-4",
-      "litellm_id": "claude-sonnet-4-20250514"
+      "slug": "anthropic:claude-opus-5-5",
+      "openrouter_id": "anthropic/claude-opus-5.5",
+      "litellm_id": "claude-opus-5-5"
     },
     {
       "slug": "anthropic:claude-sonnet-4-5",
@@ -503,17 +416,17 @@
     {
       "slug": "openai:gpt-5-1-codex",
       "openrouter_id": "openai/gpt-5.1-codex",
-      "litellm_id": "gpt-5.1-codex"
+      "litellm_id": "azure/gpt-5.1-codex"
     },
     {
       "slug": "openai:gpt-5-1-codex-max",
       "openrouter_id": "openai/gpt-5.1-codex-max",
-      "litellm_id": "gpt-5.1-codex-max"
+      "litellm_id": "azure/gpt-5.1-codex-max"
     },
     {
       "slug": "openai:gpt-5-1-codex-mini",
       "openrouter_id": "openai/gpt-5.1-codex-mini",
-      "litellm_id": "gpt-5.1-codex-mini"
+      "litellm_id": "azure/gpt-5.1-codex-mini"
     },
     {
       "slug": "openai:gpt-5-2",
@@ -521,14 +434,9 @@
       "litellm_id": "gpt-5.2"
     },
     {
-      "slug": "openai:gpt-5-2-chat",
-      "openrouter_id": "openai/gpt-5.2-chat",
-      "litellm_id": "gpt-5.2-chat-latest"
-    },
-    {
       "slug": "openai:gpt-5-2-codex",
       "openrouter_id": "openai/gpt-5.2-codex",
-      "litellm_id": "gpt-5.2-codex"
+      "litellm_id": "azure/gpt-5.2-codex"
     },
     {
       "slug": "openai:gpt-5-2-pro",
@@ -604,6 +512,16 @@
       "slug": "openai:gpt-6-astra",
       "openrouter_id": "openai/gpt-6-astra",
       "litellm_id": "gpt-6-astra"
+    },
+    {
+      "slug": "openai:gpt-6-luna",
+      "openrouter_id": "openai/gpt-6-luna",
+      "litellm_id": "gpt-6-luna"
+    },
+    {
+      "slug": "openai:gpt-6-sol",
+      "openrouter_id": "openai/gpt-6-sol",
+      "litellm_id": "gpt-6-sol"
     },
     {
       "slug": "openai:gpt-audio",
