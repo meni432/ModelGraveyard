@@ -91,13 +91,13 @@
       "name": "DeepSeek: DeepSeek Pro Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000004",
-        "completion": "0.0000043",
+        "prompt": "0.00000039996",
+        "completion": "0.00000119988",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 384000,
+      "max_completion_tokens": 393216,
       "expiration_date": null,
       "created": 1789399174,
       "first_seen": "2026-09-14",
@@ -295,8 +295,8 @@
       "name": "Z.ai: GLM Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.0000005625",
-        "completion": "0.0000025",
+        "prompt": "0.0000005614",
+        "completion": "0.0000017644",
         "image": null,
         "request": null
       },
@@ -356,6 +356,40 @@
       "expiration_date": null,
       "created": 1783443096,
       "first_seen": "2026-07-07",
+      "last_seen": "2026-09-23"
+    },
+    {
+      "id": "aion-labs/aion-3.5",
+      "name": "AionLabs: Aion 3.5",
+      "provider": "aion-labs",
+      "pricing": {
+        "prompt": "0.000003",
+        "completion": "0.000006",
+        "image": null,
+        "request": null
+      },
+      "context_length": 262144,
+      "max_completion_tokens": 32768,
+      "expiration_date": null,
+      "created": 1790170961,
+      "first_seen": "2026-09-23",
+      "last_seen": "2026-09-23"
+    },
+    {
+      "id": "aion-labs/aion-3.5-mini",
+      "name": "AionLabs: Aion 3.5 Mini",
+      "provider": "aion-labs",
+      "pricing": {
+        "prompt": "0.0000007",
+        "completion": "0.0000014",
+        "image": null,
+        "request": null
+      },
+      "context_length": 262144,
+      "max_completion_tokens": 32768,
+      "expiration_date": null,
+      "created": 1790170962,
+      "first_seen": "2026-09-23",
       "last_seen": "2026-09-23"
     },
     {
@@ -1383,8 +1417,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000088606",
-        "completion": "0.000000177212",
+        "prompt": "0.00000008246",
+        "completion": "0.00000016492",
         "image": null,
         "request": null
       },
@@ -1434,8 +1468,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000095526",
-        "completion": "0.00000191052",
+        "prompt": "0.000000951432",
+        "completion": "0.000001902864",
         "image": null,
         "request": null
       },
@@ -1451,8 +1485,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000498696",
-        "completion": "0.000001496088",
+        "prompt": "0.000000462",
+        "completion": "0.000001386",
         "image": null,
         "request": null
       },
@@ -1468,13 +1502,13 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
+        "prompt": "0.0000001",
+        "completion": "0.0000005",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 384000,
+      "max_completion_tokens": 943718,
       "expiration_date": null,
       "created": 1789021285,
       "first_seen": "2026-09-10",
@@ -2374,28 +2408,11 @@
         "image": null,
         "request": null
       },
-      "context_length": 131072,
-      "max_completion_tokens": 32768,
-      "expiration_date": null,
-      "created": 1789056114,
-      "first_seen": "2026-09-11",
-      "last_seen": "2026-09-23"
-    },
-    {
-      "id": "inclusionai/ling-3.0-flash-vl:free",
-      "name": "inclusionAI: Ling 3.0 Flash VL (free)",
-      "provider": "inclusionai",
-      "pricing": {
-        "prompt": "0",
-        "completion": "0",
-        "image": null,
-        "request": null
-      },
       "context_length": 262144,
       "max_completion_tokens": 32768,
       "expiration_date": null,
       "created": 1789056114,
-      "first_seen": "2026-09-10",
+      "first_seen": "2026-09-11",
       "last_seen": "2026-09-23"
     },
     {
@@ -2940,23 +2957,6 @@
       "expiration_date": null,
       "created": 1754079630,
       "first_seen": "2026-09-10",
-      "last_seen": "2026-09-23"
-    },
-    {
-      "id": "mistralai/devstral-2512",
-      "name": "Mistral: Devstral 2 2512",
-      "provider": "mistralai",
-      "pricing": {
-        "prompt": "0.0000004",
-        "completion": "0.000002",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 209715,
-      "expiration_date": null,
-      "created": 1765285419,
-      "first_seen": "2026-08-24",
       "last_seen": "2026-09-23"
     },
     {
@@ -6942,8 +6942,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },
@@ -7697,7 +7697,7 @@
       },
       "context_length": 1048576,
       "max_completion_tokens": 131072,
-      "expiration_date": null,
+      "expiration_date": "2098-12-31",
       "created": 1789744020,
       "first_seen": "2026-09-19",
       "last_seen": "2026-09-23"
@@ -7707,8 +7707,8 @@
       "name": "Z.ai: GLM 5.3 (batch)",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.00000072",
-        "completion": "0.0000024",
+        "prompt": "0.00000045",
+        "completion": "0.000002",
         "image": null,
         "request": null
       },

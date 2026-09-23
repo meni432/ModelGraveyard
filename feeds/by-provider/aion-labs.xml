@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-provider/aion-labs.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/aion-labs.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-09-22T00:00:00Z</updated>
+  <updated>2026-09-23T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-23:model_added:aion-labs%2Faion-3.5-mini</id>
+    <title>Added: aion-labs/aion-3.5-mini</title>
+    <updated>2026-09-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/aion-labs%2Faion-3.5-mini"/>
+    <category term="model_added"/>
+    <category term="provider:aion-labs"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.7000/Mtok, context: 262144.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-23:model_added:aion-labs%2Faion-3.5</id>
+    <title>Added: aion-labs/aion-3.5</title>
+    <updated>2026-09-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/aion-labs%2Faion-3.5"/>
+    <category term="model_added"/>
+    <category term="provider:aion-labs"/>
+    <summary>New model on OpenRouter. Initial prompt price: $3.0000/Mtok, context: 262144.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-09-22:context_changed:aion-labs%2Faion-3.0-mini</id>
     <title>Context window changed: aion-labs/aion-3.0-mini</title>
