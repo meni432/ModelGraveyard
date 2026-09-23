@@ -74,8 +74,8 @@
       "name": "DeepSeek: DeepSeek Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.000000095",
-        "completion": "0.00000049",
+        "prompt": "0.0000001",
+        "completion": "0.0000005",
         "image": null,
         "request": null
       },
@@ -108,8 +108,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.00000003",
-        "completion": "0.0000008",
+        "prompt": "0.000000038",
+        "completion": "0.00000055",
         "image": null,
         "request": null
       },
@@ -1451,8 +1451,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000066",
-        "completion": "0.00000198",
+        "prompt": "0.000000498696",
+        "completion": "0.000001496088",
         "image": null,
         "request": null
       },
@@ -3746,13 +3746,13 @@
       "name": "NVIDIA: Nemotron 3.5 Lightning",
       "provider": "nvidia",
       "pricing": {
-        "prompt": "0.00000007",
+        "prompt": "0.00000008",
         "completion": "0.0000002",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 235929,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1786452751,
       "first_seen": "2026-08-11",
@@ -7139,6 +7139,23 @@
       "expiration_date": null,
       "created": 1689984000,
       "first_seen": "2026-05-27",
+      "last_seen": "2026-09-23"
+    },
+    {
+      "id": "upstage/solar-mini4",
+      "name": "Upstage: Solar Mini 4",
+      "provider": "upstage",
+      "pricing": {
+        "prompt": "0.00000005",
+        "completion": "0.0000002",
+        "image": null,
+        "request": null
+      },
+      "context_length": 524288,
+      "max_completion_tokens": 131072,
+      "expiration_date": null,
+      "created": 1790160358,
+      "first_seen": "2026-09-23",
       "last_seen": "2026-09-23"
     },
     {

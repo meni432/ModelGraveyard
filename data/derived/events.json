@@ -48019,6 +48019,103 @@
         "litellm_status": "active",
         "litellm_id": "groq/llama-guard-3-8b"
       }
+    },
+    {
+      "ts": "2026-09-23",
+      "type": "model_added",
+      "id": "upstage/solar-mini4",
+      "provider": "upstage",
+      "snapshot": {
+        "id": "upstage/solar-mini4",
+        "name": "Upstage: Solar Mini 4",
+        "provider": "upstage",
+        "pricing": {
+          "prompt": "0.00000005",
+          "completion": "0.0000002",
+          "image": null,
+          "request": null
+        },
+        "context_length": 524288,
+        "max_completion_tokens": 131072,
+        "expiration_date": null,
+        "created": 1790160358,
+        "first_seen": "2026-09-23",
+        "last_seen": "2026-09-23"
+      }
+    },
+    {
+      "ts": "2026-09-23",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000095",
+          "next": "0.0000001",
+          "pct_change": 5.26
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000049",
+          "next": "0.0000005",
+          "pct_change": 2.04
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-23",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000066",
+          "next": "0.000000498696",
+          "pct_change": -24.44
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000198",
+          "next": "0.000001496088",
+          "pct_change": -24.44
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-23",
+      "type": "price_changed",
+      "id": "nvidia/nemotron-3.5-lightning",
+      "provider": "nvidia",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000007",
+          "next": "0.00000008",
+          "pct_change": 14.29
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-23",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000003",
+          "next": "0.000000038",
+          "pct_change": 26.67
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000008",
+          "next": "0.00000055",
+          "pct_change": -31.25
+        }
+      ]
     }
   ]
 }

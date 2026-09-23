@@ -1,9 +1,118 @@
 {
   "generated_at": "2026-09-23",
-  "active_count": 454,
+  "active_count": 455,
   "dead_count": 195,
   "last_event_ts": "2026-09-23",
   "recent_events": [
+    {
+      "ts": "2026-09-23",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000003",
+          "next": "0.000000038",
+          "pct_change": 26.67
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000008",
+          "next": "0.00000055",
+          "pct_change": -31.25
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-23",
+      "type": "price_changed",
+      "id": "nvidia/nemotron-3.5-lightning",
+      "provider": "nvidia",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000007",
+          "next": "0.00000008",
+          "pct_change": 14.29
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-23",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000066",
+          "next": "0.000000498696",
+          "pct_change": -24.44
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000198",
+          "next": "0.000001496088",
+          "pct_change": -24.44
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-23",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000095",
+          "next": "0.0000001",
+          "pct_change": 5.26
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000049",
+          "next": "0.0000005",
+          "pct_change": 2.04
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-23",
+      "type": "model_added",
+      "id": "upstage/solar-mini4",
+      "provider": "upstage",
+      "snapshot": {
+        "id": "upstage/solar-mini4",
+        "name": "Upstage: Solar Mini 4",
+        "provider": "upstage",
+        "pricing": {
+          "prompt": "0.00000005",
+          "completion": "0.0000002",
+          "image": null,
+          "request": null
+        },
+        "context_length": 524288,
+        "max_completion_tokens": 131072,
+        "expiration_date": null,
+        "created": 1790160358,
+        "first_seen": "2026-09-23",
+        "last_seen": "2026-09-23"
+      }
+    },
+    {
+      "ts": "2026-09-23",
+      "type": "disagreement_detected",
+      "id": "meta-llama/llama-guard-3-8b",
+      "provider": "meta-llama",
+      "disagreement": {
+        "slug": "meta-llama:llama-guard-3-8b",
+        "openrouter_status": "removed",
+        "litellm_status": "active",
+        "litellm_id": "groq/llama-guard-3-8b"
+      }
+    },
     {
       "ts": "2026-09-23",
       "type": "price_changed",
@@ -250,129 +359,6 @@
       "provider": "aion-labs",
       "prev_context": 1048576,
       "next_context": 131072
-    },
-    {
-      "ts": "2026-09-22",
-      "type": "price_changed",
-      "id": "~deepseek/deepseek-v4-flash-latest",
-      "provider": "~deepseek",
-      "changes": [
-        {
-          "field": "completion",
-          "prev": "0.000001",
-          "next": "0.0000008",
-          "pct_change": -20
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-22",
-      "type": "price_changed",
-      "id": "~openai/gpt-luna-latest",
-      "provider": "~openai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000002",
-          "next": "0.0000001",
-          "pct_change": -50
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000012",
-          "next": "0.0000005",
-          "pct_change": -58.33
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-22",
-      "type": "price_changed",
-      "id": "~deepseek/deepseek-pro-latest",
-      "provider": "~deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000561",
-          "next": "0.00000039996",
-          "pct_change": -28.71
-        },
-        {
-          "field": "completion",
-          "prev": "0.000001683",
-          "next": "0.00000119988",
-          "pct_change": -28.71
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-22",
-      "type": "model_added",
-      "id": "qwen/qwen3.8-omni-flash",
-      "provider": "qwen",
-      "snapshot": {
-        "id": "qwen/qwen3.8-omni-flash",
-        "name": "Qwen: Qwen3.8 Omni Flash",
-        "provider": "qwen",
-        "pricing": {
-          "prompt": "0.00000015",
-          "completion": "0.00000047",
-          "image": null,
-          "request": null
-        },
-        "context_length": 1000000,
-        "max_completion_tokens": 131072,
-        "expiration_date": null,
-        "created": 1789959954,
-        "first_seen": "2026-09-22",
-        "last_seen": "2026-09-22"
-      }
-    },
-    {
-      "ts": "2026-09-22",
-      "type": "model_added",
-      "id": "openai/gpt-6-sol:batch",
-      "provider": "openai",
-      "snapshot": {
-        "id": "openai/gpt-6-sol:batch",
-        "name": "OpenAI: GPT-6 Sol (batch)",
-        "provider": "openai",
-        "pricing": {
-          "prompt": "0.000001",
-          "completion": "0.000005",
-          "image": null,
-          "request": null
-        },
-        "context_length": 1050000,
-        "max_completion_tokens": 128000,
-        "expiration_date": null,
-        "created": 1790100775,
-        "first_seen": "2026-09-22",
-        "last_seen": "2026-09-22"
-      }
-    },
-    {
-      "ts": "2026-09-22",
-      "type": "model_added",
-      "id": "openai/gpt-6-sol",
-      "provider": "openai",
-      "snapshot": {
-        "id": "openai/gpt-6-sol",
-        "name": "OpenAI: GPT-6 Sol",
-        "provider": "openai",
-        "pricing": {
-          "prompt": "0.000002",
-          "completion": "0.00001",
-          "image": null,
-          "request": null
-        },
-        "context_length": 1050000,
-        "max_completion_tokens": 128000,
-        "expiration_date": null,
-        "created": 1790100775,
-        "first_seen": "2026-09-22",
-        "last_seen": "2026-09-22"
-      }
     }
   ],
   "scheduled_funerals": [
