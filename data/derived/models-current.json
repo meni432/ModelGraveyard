@@ -74,8 +74,8 @@
       "name": "DeepSeek: DeepSeek Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000001",
-        "completion": "0.0000005",
+        "prompt": "0.000000099",
+        "completion": "0.0000006",
         "image": null,
         "request": null
       },
@@ -91,8 +91,8 @@
       "name": "DeepSeek: DeepSeek Pro Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.00000039996",
-        "completion": "0.00000119988",
+        "prompt": "0.00000038808",
+        "completion": "0.00000116424",
         "image": null,
         "request": null
       },
@@ -1417,8 +1417,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000008246",
-        "completion": "0.00000016492",
+        "prompt": "0.00000007784",
+        "completion": "0.00000015568",
         "image": null,
         "request": null
       },
@@ -1468,8 +1468,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000951432",
-        "completion": "0.000001902864",
+        "prompt": "0.000000946386",
+        "completion": "0.000001892772",
         "image": null,
         "request": null
       },
@@ -1502,13 +1502,13 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000001",
-        "completion": "0.0000005",
+        "prompt": "0.00000015",
+        "completion": "0.0000006",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 943718,
+      "max_completion_tokens": 393216,
       "expiration_date": null,
       "created": 1789021285,
       "first_seen": "2026-09-10",
@@ -6632,6 +6632,23 @@
       "last_seen": "2026-09-23"
     },
     {
+      "id": "qwen/qwen3.8-max-prime",
+      "name": "Qwen: Qwen3.8 Max Prime",
+      "provider": "qwen",
+      "pricing": {
+        "prompt": "0.000004",
+        "completion": "0.000012",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1000000,
+      "max_completion_tokens": 131072,
+      "expiration_date": null,
+      "created": 1790191228,
+      "first_seen": "2026-09-23",
+      "last_seen": "2026-09-23"
+    },
+    {
       "id": "qwen/qwen3.8-omni-flash",
       "name": "Qwen: Qwen3.8 Omni Flash",
       "provider": "qwen",
@@ -6833,6 +6850,23 @@
       "expiration_date": null,
       "created": 1734535928,
       "first_seen": "2026-05-27",
+      "last_seen": "2026-09-23"
+    },
+    {
+      "id": "stealth/space-bunny-alpha",
+      "name": "Space Bunny Alpha",
+      "provider": "stealth",
+      "pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1000000,
+      "max_completion_tokens": 524288,
+      "expiration_date": "2098-12-31",
+      "created": 1790174884,
+      "first_seen": "2026-09-23",
       "last_seen": "2026-09-23"
     },
     {

@@ -42,6 +42,24 @@
     <summary>New model on OpenRouter. Initial prompt price: $3.0000/Mtok, context: 262144.</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-09-23:model_added:qwen%2Fqwen3.8-max-prime</id>
+    <title>Added: qwen/qwen3.8-max-prime</title>
+    <updated>2026-09-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3.8-max-prime"/>
+    <category term="model_added"/>
+    <category term="provider:qwen"/>
+    <summary>New model on OpenRouter. Initial prompt price: $4.0000/Mtok, context: 1000000.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-23:model_added:stealth%2Fspace-bunny-alpha</id>
+    <title>Added: stealth/space-bunny-alpha</title>
+    <updated>2026-09-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/stealth%2Fspace-bunny-alpha"/>
+    <category term="model_added"/>
+    <category term="provider:stealth"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 1000000.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-09-22:model_added:nex-agi%2Fnex-n2.5-mini</id>
     <title>Added: nex-agi/nex-n2.5-mini</title>
     <updated>2026-09-22T00:00:00Z</updated>
@@ -886,23 +904,5 @@
     <category term="model_added"/>
     <category term="provider:openai"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.5500/Mtok, context: 200000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-31:model_added:openai%2Fgpt-4o-mini%3Abatch</id>
-    <title>Added: openai/gpt-4o-mini:batch</title>
-    <updated>2026-08-31T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-4o-mini%3Abatch"/>
-    <category term="model_added"/>
-    <category term="provider:openai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.0750/Mtok, context: 128000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-31:model_added:openai%2Fgpt-4o%3Abatch</id>
-    <title>Added: openai/gpt-4o:batch</title>
-    <updated>2026-08-31T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-4o%3Abatch"/>
-    <category term="model_added"/>
-    <category term="provider:openai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $1.2500/Mtok, context: 128000.</summary>
   </entry>
 </feed>
