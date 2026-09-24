@@ -1,10 +1,10 @@
 {
   "generated_at": "2026-09-24",
   "openrouter_catalog_size": 447,
-  "litellm_catalog_size": 3044,
-  "shared_count": 94,
-  "openrouter_only_count": 353,
-  "litellm_only_count": 2940,
+  "litellm_catalog_size": 3154,
+  "shared_count": 95,
+  "openrouter_only_count": 352,
+  "litellm_only_count": 3046,
   "disagreements": [
     {
       "slug": "ai21:jamba-large-1-7",
@@ -35,8 +35,8 @@
       "openrouter_removed_at": "2026-06-12",
       "litellm_status": "active",
       "litellm_id": "groq/llama-guard-3-8b",
-      "litellm_deprecation_date": null,
-      "severity": "high",
+      "litellm_deprecation_date": "2025-06-06",
+      "severity": "medium",
       "noted_at": "2026-09-23"
     },
     {
@@ -84,14 +84,36 @@
       "noted_at": "2026-07-27"
     },
     {
+      "slug": "openai:gpt-5-1-chat",
+      "openrouter_status": "removed",
+      "openrouter_id": "openai/gpt-5.1-chat",
+      "openrouter_removed_at": "2026-07-31",
+      "litellm_status": "active",
+      "litellm_id": "gpt-5.1-chat-latest",
+      "litellm_deprecation_date": null,
+      "severity": "high",
+      "noted_at": "2026-09-24"
+    },
+    {
+      "slug": "openai:gpt-5-3-chat",
+      "openrouter_status": "removed",
+      "openrouter_id": "openai/gpt-5.3-chat",
+      "openrouter_removed_at": "2026-08-10",
+      "litellm_status": "active",
+      "litellm_id": "gpt-5.3-chat-latest",
+      "litellm_deprecation_date": null,
+      "severity": "high",
+      "noted_at": "2026-09-24"
+    },
+    {
       "slug": "openai:gpt-5-chat",
       "openrouter_status": "removed",
       "openrouter_id": "openai/gpt-5-chat",
       "openrouter_removed_at": "2026-07-28",
       "litellm_status": "active",
       "litellm_id": "gpt-5-chat",
-      "litellm_deprecation_date": null,
-      "severity": "high",
+      "litellm_deprecation_date": "2026-07-23",
+      "severity": "medium",
       "noted_at": "2026-07-28"
     },
     {
@@ -100,9 +122,9 @@
       "openrouter_id": "openai/gpt-5-codex",
       "openrouter_removed_at": "2026-07-30",
       "litellm_status": "active",
-      "litellm_id": "azure/gpt-5-codex",
-      "litellm_deprecation_date": "2027-03-17",
-      "severity": "medium",
+      "litellm_id": "gpt-5-codex",
+      "litellm_deprecation_date": null,
+      "severity": "high",
       "noted_at": "2026-07-30"
     },
     {
@@ -111,10 +133,21 @@
       "openrouter_id": "openai/o3-deep-research",
       "openrouter_removed_at": "2026-07-30",
       "litellm_status": "active",
-      "litellm_id": "azure/o3-deep-research",
-      "litellm_deprecation_date": "2026-11-19",
-      "severity": "medium",
+      "litellm_id": "o3-deep-research",
+      "litellm_deprecation_date": null,
+      "severity": "high",
       "noted_at": "2026-07-30"
+    },
+    {
+      "slug": "openai:o4-mini-deep-research",
+      "openrouter_status": "removed",
+      "openrouter_id": "openai/o4-mini-deep-research",
+      "openrouter_removed_at": "2026-07-30",
+      "litellm_status": "active",
+      "litellm_id": "o4-mini-deep-research",
+      "litellm_deprecation_date": null,
+      "severity": "high",
+      "noted_at": "2026-09-24"
     }
   ],
   "pairings": [
@@ -416,17 +449,17 @@
     {
       "slug": "openai:gpt-5-1-codex",
       "openrouter_id": "openai/gpt-5.1-codex",
-      "litellm_id": "azure/gpt-5.1-codex"
+      "litellm_id": "gpt-5.1-codex"
     },
     {
       "slug": "openai:gpt-5-1-codex-max",
       "openrouter_id": "openai/gpt-5.1-codex-max",
-      "litellm_id": "azure/gpt-5.1-codex-max"
+      "litellm_id": "gpt-5.1-codex-max"
     },
     {
       "slug": "openai:gpt-5-1-codex-mini",
       "openrouter_id": "openai/gpt-5.1-codex-mini",
-      "litellm_id": "azure/gpt-5.1-codex-mini"
+      "litellm_id": "gpt-5.1-codex-mini"
     },
     {
       "slug": "openai:gpt-5-2",
@@ -434,9 +467,14 @@
       "litellm_id": "gpt-5.2"
     },
     {
+      "slug": "openai:gpt-5-2-chat",
+      "openrouter_id": "openai/gpt-5.2-chat",
+      "litellm_id": "gpt-5.2-chat-latest"
+    },
+    {
       "slug": "openai:gpt-5-2-codex",
       "openrouter_id": "openai/gpt-5.2-codex",
-      "litellm_id": "azure/gpt-5.2-codex"
+      "litellm_id": "gpt-5.2-codex"
     },
     {
       "slug": "openai:gpt-5-2-pro",
