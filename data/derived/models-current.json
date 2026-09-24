@@ -91,13 +91,13 @@
       "name": "DeepSeek: DeepSeek Pro Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.00000039",
-        "completion": "0.0000029",
+        "prompt": "0.0000003894",
+        "completion": "0.0000011682",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 943718,
+      "max_completion_tokens": 393216,
       "expiration_date": null,
       "created": 1789399174,
       "first_seen": "2026-09-14",
@@ -295,8 +295,8 @@
       "name": "Z.ai: GLM Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.0000005625",
-        "completion": "0.0000025",
+        "prompt": "0.0000005614",
+        "completion": "0.0000017644",
         "image": null,
         "request": null
       },
@@ -1417,8 +1417,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000088606",
-        "completion": "0.000000177212",
+        "prompt": "0.00000008092",
+        "completion": "0.00000016184",
         "image": null,
         "request": null
       },
@@ -1468,8 +1468,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000009396",
-        "completion": "0.0000018792",
+        "prompt": "0.000000904104",
+        "completion": "0.000001808208",
         "image": null,
         "request": null
       },
@@ -1502,13 +1502,13 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000014",
-        "completion": "0.00000042",
+        "prompt": "0.00000015",
+        "completion": "0.0000006",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 393216,
       "expiration_date": null,
       "created": 1789021285,
       "first_seen": "2026-09-10",
@@ -6976,8 +6976,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },
@@ -7673,13 +7673,13 @@
       "name": "Z.ai: GLM 5.3",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.00000084",
-        "completion": "0.00000264",
+        "prompt": "0.0000014",
+        "completion": "0.0000044",
         "image": null,
         "request": null
       },
       "context_length": 1310720,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 943717,
       "expiration_date": null,
       "created": 1787086655,
       "first_seen": "2026-08-19",
