@@ -74,8 +74,8 @@
       "name": "DeepSeek: DeepSeek Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.000000099",
-        "completion": "0.0000006",
+        "prompt": "0.00000004",
+        "completion": "0.000001",
         "image": null,
         "request": null
       },
@@ -91,7 +91,7 @@
       "name": "DeepSeek: DeepSeek Pro Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000003865",
+        "prompt": "0.00000039",
         "completion": "0.0000029",
         "image": null,
         "request": null
@@ -108,8 +108,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.000000038",
-        "completion": "0.00000055",
+        "prompt": "0.00000003",
+        "completion": "0.00000032",
         "image": null,
         "request": null
       },
@@ -159,8 +159,8 @@
       "name": "MoonshotAI: Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.00000091",
-        "completion": "0.0000069875",
+        "prompt": "0.0000014",
+        "completion": "0.00001075",
         "image": null,
         "request": null
       },
@@ -278,13 +278,13 @@
       "name": "Z.ai: GLM Flash Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.000000075",
-        "completion": "0.00000025",
+        "prompt": "0.000000045",
+        "completion": "0.00000014",
         "image": null,
         "request": null
       },
       "context_length": 1310720,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 128000,
       "expiration_date": null,
       "created": 1787817633,
       "first_seen": "2026-09-02",
@@ -1434,8 +1434,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000004",
-        "completion": "0.00000064",
+        "prompt": "0.00000003",
+        "completion": "0.00000032",
         "image": null,
         "request": null
       },
@@ -1546,6 +1546,23 @@
       "expiration_date": "2026-12-31",
       "created": 1786680361,
       "first_seen": "2026-08-15",
+      "last_seen": "2026-09-24"
+    },
+    {
+      "id": "fireworks/ember-1",
+      "name": "Fireworks: Ember-1",
+      "provider": "fireworks",
+      "pricing": {
+        "prompt": "0.000003",
+        "completion": "0.000015",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1048576,
+      "max_completion_tokens": 943718,
+      "expiration_date": null,
+      "created": 1790208461,
+      "first_seen": "2026-09-24",
       "last_seen": "2026-09-24"
     },
     {
@@ -3406,7 +3423,7 @@
       "name": "MoonshotAI: Kimi K2.7 Code",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.0000007062",
+        "prompt": "0.0000006562",
         "completion": "0.0000033",
         "image": null,
         "request": null
@@ -3487,23 +3504,6 @@
       "last_seen": "2026-09-24"
     },
     {
-      "id": "nex-agi/nex-n2.5-mini",
-      "name": "Nex AGI: Nex-N2.5-Mini",
-      "provider": "nex-agi",
-      "pricing": {
-        "prompt": "0.000000025",
-        "completion": "0.0000001",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 235929,
-      "expiration_date": null,
-      "created": 1788890061,
-      "first_seen": "2026-09-22",
-      "last_seen": "2026-09-24"
-    },
-    {
       "id": "nex-agi/nex-n2.5-mini:free",
       "name": "Nex AGI: Nex-N2.5-Mini (free)",
       "provider": "nex-agi",
@@ -3518,23 +3518,6 @@
       "expiration_date": "2026-09-25",
       "created": 1788890061,
       "first_seen": "2026-09-08",
-      "last_seen": "2026-09-24"
-    },
-    {
-      "id": "nex-agi/nex-n2.5-pro",
-      "name": "Nex AGI: Nex-N2.5-Pro",
-      "provider": "nex-agi",
-      "pricing": {
-        "prompt": "0.000000075",
-        "completion": "0.00000025",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 235929,
-      "expiration_date": null,
-      "created": 1788890050,
-      "first_seen": "2026-09-22",
       "last_seen": "2026-09-24"
     },
     {
@@ -5956,13 +5939,13 @@
       "name": "Qwen: Qwen3 30B A3B Instruct 2507",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000004815",
-        "completion": "0.00000019305",
+        "prompt": "0.0000001",
+        "completion": "0.0000003",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 32000,
+      "max_completion_tokens": 235929,
       "expiration_date": null,
       "created": 1753806965,
       "first_seen": "2026-05-27",

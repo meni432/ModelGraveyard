@@ -1,6 +1,40 @@
 {
   "buried": [
     {
+      "id": "nex-agi/nex-n2.5-mini",
+      "name": "Nex AGI: Nex-N2.5-Mini",
+      "provider": "nex-agi",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.000000025",
+        "completion": "0.0000001",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-24",
+      "buried_at": "2026-09-24",
+      "suggested_replacement": "nex-agi/nex-n2.5-mini:free"
+    },
+    {
+      "id": "nex-agi/nex-n2.5-pro",
+      "name": "Nex AGI: Nex-N2.5-Pro",
+      "provider": "nex-agi",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.000000075",
+        "completion": "0.00000025",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-24",
+      "buried_at": "2026-09-24",
+      "suggested_replacement": "nex-agi/nex-n2.5-mini:free"
+    },
+    {
       "id": "inclusionai/ling-3.0-flash-vl:free",
       "name": "inclusionAI: Ling 3.0 Flash VL (free)",
       "provider": "inclusionai",

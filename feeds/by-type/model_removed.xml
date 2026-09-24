@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_removed.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_removed.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-09-23T00:00:00Z</updated>
+  <updated>2026-09-24T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-24:model_removed:nex-agi%2Fnex-n2.5-mini</id>
+    <title>Removed: nex-agi/nex-n2.5-mini</title>
+    <updated>2026-09-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nex-agi%2Fnex-n2.5-mini"/>
+    <category term="model_removed"/>
+    <category term="provider:nex-agi"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0250/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-24:model_removed:nex-agi%2Fnex-n2.5-pro</id>
+    <title>Removed: nex-agi/nex-n2.5-pro</title>
+    <updated>2026-09-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nex-agi%2Fnex-n2.5-pro"/>
+    <category term="model_removed"/>
+    <category term="provider:nex-agi"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0750/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-09-23:model_removed:inclusionai%2Fling-3.0-flash-vl%3Afree</id>
     <title>Removed: inclusionai/ling-3.0-flash-vl:free</title>
@@ -885,24 +903,6 @@
     <link rel="alternate" href="https://modelgraveyard.com/model/liquid%2Flfm-2.5-2.6b%3Afree"/>
     <category term="model_removed"/>
     <category term="provider:liquid"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-18:model_removed:z-ai%2Fglm-5.2%3Afree</id>
-    <title>Removed: z-ai/glm-5.2:free</title>
-    <updated>2026-08-18T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2%3Afree"/>
-    <category term="model_removed"/>
-    <category term="provider:z-ai"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-13:model_removed:inclusionai%2Fling-3.0-tiny%3Afree</id>
-    <title>Removed: inclusionai/ling-3.0-tiny:free</title>
-    <updated>2026-08-13T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/inclusionai%2Fling-3.0-tiny%3Afree"/>
-    <category term="model_removed"/>
-    <category term="provider:inclusionai"/>
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
   </entry>
 </feed>
