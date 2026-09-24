@@ -159,8 +159,8 @@
       "name": "MoonshotAI: Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.0000014",
-        "completion": "0.00001075",
+        "prompt": "0.00000135",
+        "completion": "0.0000115",
         "image": null,
         "request": null
       },
@@ -1417,8 +1417,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000008092",
-        "completion": "0.00000016184",
+        "prompt": "0.00000006552",
+        "completion": "0.00000013104",
         "image": null,
         "request": null
       },
@@ -1468,8 +1468,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000904104",
-        "completion": "0.000001808208",
+        "prompt": "0.000000865302",
+        "completion": "0.000001730604",
         "image": null,
         "request": null
       },
@@ -1543,7 +1543,7 @@
       },
       "context_length": 512000,
       "max_completion_tokens": 460800,
-      "expiration_date": "2026-12-31",
+      "expiration_date": null,
       "created": 1786680361,
       "first_seen": "2026-08-15",
       "last_seen": "2026-09-24"
@@ -1594,7 +1594,7 @@
       },
       "context_length": 32768,
       "max_completion_tokens": 8192,
-      "expiration_date": "2027-03-15",
+      "expiration_date": null,
       "created": 1759870431,
       "first_seen": "2026-05-27",
       "last_seen": "2026-09-24"
@@ -6864,7 +6864,7 @@
       },
       "context_length": 1000000,
       "max_completion_tokens": 524288,
-      "expiration_date": "2098-12-31",
+      "expiration_date": null,
       "created": 1790174884,
       "first_seen": "2026-09-23",
       "last_seen": "2026-09-24"
@@ -7476,7 +7476,7 @@
       },
       "context_length": 131072,
       "max_completion_tokens": 98304,
-      "expiration_date": "2026-12-31",
+      "expiration_date": null,
       "created": 1753471347,
       "first_seen": "2026-05-27",
       "last_seen": "2026-09-24"
@@ -7612,7 +7612,7 @@
       },
       "context_length": 202752,
       "max_completion_tokens": 131072,
-      "expiration_date": "2098-12-31",
+      "expiration_date": null,
       "created": 1773583573,
       "first_seen": "2026-05-27",
       "last_seen": "2026-09-24"
@@ -7690,13 +7690,13 @@
       "name": "Z.ai: GLM 5.3 Flash",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000005",
+        "prompt": "0.000000045",
+        "completion": "0.0000006",
         "image": null,
         "request": null
       },
       "context_length": 1310720,
-      "max_completion_tokens": 943718,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1787752741,
       "first_seen": "2026-08-26",
@@ -7731,7 +7731,7 @@
       },
       "context_length": 1048576,
       "max_completion_tokens": 131072,
-      "expiration_date": "2098-12-31",
+      "expiration_date": null,
       "created": 1789744020,
       "first_seen": "2026-09-19",
       "last_seen": "2026-09-24"
@@ -7782,7 +7782,7 @@
       },
       "context_length": 202752,
       "max_completion_tokens": 131072,
-      "expiration_date": "2098-12-31",
+      "expiration_date": null,
       "created": 1775061458,
       "first_seen": "2026-06-22",
       "last_seen": "2026-09-24"
