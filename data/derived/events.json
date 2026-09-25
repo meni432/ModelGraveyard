@@ -49537,6 +49537,368 @@
           "pct_change": -3.27
         }
       ]
+    },
+    {
+      "ts": "2026-09-25",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-pro-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.00000288",
+          "next": "0.0000019584",
+          "pct_change": -32
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-25",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000004",
+          "next": "0.000000075",
+          "pct_change": 87.5
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000049",
+          "next": "0.0000003",
+          "pct_change": -38.78
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-25",
+      "type": "price_changed",
+      "id": "inclusionai/ling-3.0-flash-vl",
+      "provider": "inclusionai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000006",
+          "next": "0.000000021",
+          "pct_change": -65
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000018",
+          "next": "0.0000000616",
+          "pct_change": -65.78
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-25",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4.1-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000015",
+          "next": "0.000000075",
+          "pct_change": -50
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000006",
+          "next": "0.0000003",
+          "pct_change": -50
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-25",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000462",
+          "next": "0.00000034584",
+          "pct_change": -25.14
+        },
+        {
+          "field": "completion",
+          "prev": "0.000001386",
+          "next": "0.00000103752",
+          "pct_change": -25.14
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-25",
+      "type": "price_changed",
+      "id": "nvidia/nemotron-3.5-lightning",
+      "provider": "nvidia",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000008",
+          "next": "0.00000007",
+          "pct_change": -12.5
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-25",
+      "type": "context_changed",
+      "id": "nvidia/nemotron-3.5-lightning",
+      "provider": "nvidia",
+      "prev_context": 262144,
+      "next_context": 1000000
+    },
+    {
+      "ts": "2026-09-25",
+      "type": "price_changed",
+      "id": "tencent/hy3",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000132",
+          "next": "0.0000000825",
+          "pct_change": -37.5
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000528",
+          "next": "0.00000033",
+          "pct_change": -37.5
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-25",
+      "type": "context_changed",
+      "id": "z-ai/glm-5.2:free",
+      "provider": "z-ai",
+      "prev_context": 32768,
+      "next_context": 131072
+    },
+    {
+      "ts": "2026-09-25",
+      "type": "deprecation_announced",
+      "id": "qwen/qwen3.6-max-preview",
+      "provider": "qwen",
+      "prev_expiration": null,
+      "next_expiration": "2026-10-09"
+    },
+    {
+      "ts": "2026-09-25",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000783",
+          "next": "0.000000712878",
+          "pct_change": -8.96
+        },
+        {
+          "field": "completion",
+          "prev": "0.000001566",
+          "next": "0.000001425756",
+          "pct_change": -8.96
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-25",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000049",
+          "next": "0.00000004816",
+          "pct_change": -1.71
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000098",
+          "next": "0.00000009632",
+          "pct_change": -1.71
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-25",
+      "type": "price_changed",
+      "id": "google/gemma-4-26b-a4b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000009",
+          "next": "0.0000000675",
+          "pct_change": -25
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000003",
+          "next": "0.000000225",
+          "pct_change": -25
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-25",
+      "type": "deprecation_announced",
+      "id": "qwen/qwen3-max-thinking",
+      "provider": "qwen",
+      "prev_expiration": null,
+      "next_expiration": "2026-10-09"
+    },
+    {
+      "ts": "2026-09-25",
+      "type": "deprecation_announced",
+      "id": "qwen/qwen3-vl-32b-instruct",
+      "provider": "qwen",
+      "prev_expiration": null,
+      "next_expiration": "2026-10-09"
+    },
+    {
+      "ts": "2026-09-25",
+      "type": "deprecation_announced",
+      "id": "qwen/qwen3-vl-8b-thinking",
+      "provider": "qwen",
+      "prev_expiration": null,
+      "next_expiration": "2026-10-09"
+    },
+    {
+      "ts": "2026-09-25",
+      "type": "deprecation_announced",
+      "id": "qwen/qwen3-vl-8b-instruct",
+      "provider": "qwen",
+      "prev_expiration": null,
+      "next_expiration": "2026-10-09"
+    },
+    {
+      "ts": "2026-09-25",
+      "type": "deprecation_announced",
+      "id": "qwen/qwen3-vl-30b-a3b-thinking",
+      "provider": "qwen",
+      "prev_expiration": null,
+      "next_expiration": "2026-10-09"
+    },
+    {
+      "ts": "2026-09-25",
+      "type": "deprecation_announced",
+      "id": "qwen/qwen3-vl-235b-a22b-thinking",
+      "provider": "qwen",
+      "prev_expiration": null,
+      "next_expiration": "2026-10-09"
+    },
+    {
+      "ts": "2026-09-25",
+      "type": "deprecation_announced",
+      "id": "qwen/qwen3-max",
+      "provider": "qwen",
+      "prev_expiration": null,
+      "next_expiration": "2026-10-09"
+    },
+    {
+      "ts": "2026-09-25",
+      "type": "deprecation_announced",
+      "id": "qwen/qwen3-coder-plus",
+      "provider": "qwen",
+      "prev_expiration": null,
+      "next_expiration": "2026-10-09"
+    },
+    {
+      "ts": "2026-09-25",
+      "type": "deprecation_announced",
+      "id": "qwen/qwen-plus-2025-07-28",
+      "provider": "qwen",
+      "prev_expiration": null,
+      "next_expiration": "2026-10-09"
+    },
+    {
+      "ts": "2026-09-25",
+      "type": "deprecation_announced",
+      "id": "qwen/qwen3-30b-a3b-thinking-2507",
+      "provider": "qwen",
+      "prev_expiration": null,
+      "next_expiration": "2026-10-09"
+    },
+    {
+      "ts": "2026-09-25",
+      "type": "deprecation_announced",
+      "id": "qwen/qwen3-235b-a22b-thinking-2507",
+      "provider": "qwen",
+      "prev_expiration": null,
+      "next_expiration": "2026-10-09"
+    },
+    {
+      "ts": "2026-09-25",
+      "type": "deprecation_announced",
+      "id": "qwen/qwen3-8b",
+      "provider": "qwen",
+      "prev_expiration": null,
+      "next_expiration": "2026-10-09"
+    },
+    {
+      "ts": "2026-09-25",
+      "type": "deprecation_announced",
+      "id": "qwen/qwen3-235b-a22b",
+      "provider": "qwen",
+      "prev_expiration": null,
+      "next_expiration": "2026-10-09"
+    },
+    {
+      "ts": "2026-09-25",
+      "type": "model_removed",
+      "id": "nex-agi/nex-n2.5-mini:free",
+      "provider": "nex-agi",
+      "snapshot": {
+        "id": "nex-agi/nex-n2.5-mini:free",
+        "name": "Nex AGI: Nex-N2.5-Mini (free)",
+        "provider": "nex-agi",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 235929,
+        "expiration_date": "2026-09-25",
+        "created": 1788890061,
+        "first_seen": "2026-09-08",
+        "last_seen": "2026-09-25"
+      }
+    },
+    {
+      "ts": "2026-09-25",
+      "type": "model_removed",
+      "id": "nex-agi/nex-n2.5-pro:free",
+      "provider": "nex-agi",
+      "snapshot": {
+        "id": "nex-agi/nex-n2.5-pro:free",
+        "name": "Nex AGI: Nex-N2.5-Pro (free)",
+        "provider": "nex-agi",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 235929,
+        "expiration_date": "2026-09-25",
+        "created": 1788890050,
+        "first_seen": "2026-09-08",
+        "last_seen": "2026-09-25"
+      }
     }
   ]
 }

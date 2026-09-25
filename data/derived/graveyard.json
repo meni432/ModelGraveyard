@@ -1,6 +1,40 @@
 {
   "buried": [
     {
+      "id": "nex-agi/nex-n2.5-mini:free",
+      "name": "Nex AGI: Nex-N2.5-Mini (free)",
+      "provider": "nex-agi",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-09-08",
+      "last_seen": "2026-09-25",
+      "buried_at": "2026-09-25",
+      "suggested_replacement": null
+    },
+    {
+      "id": "nex-agi/nex-n2.5-pro:free",
+      "name": "Nex AGI: Nex-N2.5-Pro (free)",
+      "provider": "nex-agi",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-09-08",
+      "last_seen": "2026-09-25",
+      "buried_at": "2026-09-25",
+      "suggested_replacement": null
+    },
+    {
       "id": "nex-agi/nex-n2.5-mini",
       "name": "Nex AGI: Nex-N2.5-Mini",
       "provider": "nex-agi",
