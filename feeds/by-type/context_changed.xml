@@ -24,6 +24,15 @@
     <summary>32768 → 131072 tokens</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-09-25:context_changed:xiaomi%2Fmimo-v2.6-pro</id>
+    <title>Context window changed: xiaomi/mimo-v2.6-pro</title>
+    <updated>2026-09-25T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/xiaomi%2Fmimo-v2.6-pro"/>
+    <category term="context_changed"/>
+    <category term="provider:xiaomi"/>
+    <summary>1048576 → 1050000 tokens</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-09-23:context_changed:inclusionai%2Fling-3.0-flash-vl</id>
     <title>Context window changed: inclusionai/ling-3.0-flash-vl</title>
     <updated>2026-09-23T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="context_changed"/>
     <category term="provider:z-ai"/>
     <summary>202752 → 200000 tokens</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-15:context_changed:z-ai%2Fglm-5-turbo</id>
-    <title>Context window changed: z-ai/glm-5-turbo</title>
-    <updated>2026-07-15T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5-turbo"/>
-    <category term="context_changed"/>
-    <category term="provider:z-ai"/>
-    <summary>262144 → 202752 tokens</summary>
   </entry>
 </feed>

@@ -74,8 +74,8 @@
       "name": "DeepSeek: DeepSeek Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.000000075",
-        "completion": "0.0000003",
+        "prompt": "0.000000099",
+        "completion": "0.0000006",
         "image": null,
         "request": null
       },
@@ -91,8 +91,8 @@
       "name": "DeepSeek: DeepSeek Pro Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000002528",
-        "completion": "0.0000019584",
+        "prompt": "0.00000025",
+        "completion": "0.0000035",
         "image": null,
         "request": null
       },
@@ -108,8 +108,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.00000003",
-        "completion": "0.00000032",
+        "prompt": "0.0000000225",
+        "completion": "0.00000042",
         "image": null,
         "request": null
       },
@@ -159,7 +159,7 @@
       "name": "MoonshotAI: Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.0000008845",
+        "prompt": "0.0000012",
         "completion": "0.0000105346",
         "image": null,
         "request": null
@@ -1417,8 +1417,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000004816",
-        "completion": "0.00000009632",
+        "prompt": "0.00000004704",
+        "completion": "0.00000009408",
         "image": null,
         "request": null
       },
@@ -1468,8 +1468,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000712878",
-        "completion": "0.000001425756",
+        "prompt": "0.000000560802",
+        "completion": "0.000001121604",
         "image": null,
         "request": null
       },
@@ -1485,8 +1485,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000034584",
-        "completion": "0.00000103752",
+        "prompt": "0.000000264",
+        "completion": "0.000000792",
         "image": null,
         "request": null
       },
@@ -1502,8 +1502,8 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000075",
-        "completion": "0.0000003",
+        "prompt": "0.000000099",
+        "completion": "0.0000006",
         "image": null,
         "request": null
       },
@@ -5578,6 +5578,23 @@
       "last_seen": "2026-09-25"
     },
     {
+      "id": "perceptron/perceptron-mk1.5",
+      "name": "Perceptron: Perceptron Mk1.5",
+      "provider": "perceptron",
+      "pricing": {
+        "prompt": "0.00000015",
+        "completion": "0.0000015",
+        "image": null,
+        "request": null
+      },
+      "context_length": 36864,
+      "max_completion_tokens": 8192,
+      "expiration_date": null,
+      "created": 1790352661,
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25"
+    },
+    {
       "id": "perplexity/sonar",
       "name": "Perplexity: Sonar",
       "provider": "perplexity",
@@ -7440,7 +7457,7 @@
         "image": null,
         "request": null
       },
-      "context_length": 1048576,
+      "context_length": 1050000,
       "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1790021259,
@@ -7649,23 +7666,6 @@
       "expiration_date": null,
       "created": 1781631930,
       "first_seen": "2026-06-16",
-      "last_seen": "2026-09-25"
-    },
-    {
-      "id": "z-ai/glm-5.2:free",
-      "name": "Z.ai: GLM 5.2 (free)",
-      "provider": "z-ai",
-      "pricing": {
-        "prompt": "0",
-        "completion": "0",
-        "image": null,
-        "request": null
-      },
-      "context_length": 131072,
-      "max_completion_tokens": 117964,
-      "expiration_date": null,
-      "created": 1781631930,
-      "first_seen": "2026-09-15",
       "last_seen": "2026-09-25"
     },
     {

@@ -24,6 +24,15 @@
     <summary>New model on OpenRouter. Initial prompt price: $0.5000/Mtok, context: 262144.</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-09-25:model_added:perceptron%2Fperceptron-mk1.5</id>
+    <title>Added: perceptron/perceptron-mk1.5</title>
+    <updated>2026-09-25T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/perceptron%2Fperceptron-mk1.5"/>
+    <category term="model_added"/>
+    <category term="provider:perceptron"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.1500/Mtok, context: 36864.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-09-24:model_added:z-ai%2Fglm-5.3-prime</id>
     <title>Added: z-ai/glm-5.3-prime</title>
     <updated>2026-09-24T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="model_added"/>
     <category term="provider:openai"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.0250/Mtok, context: 400000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-31:model_added:openai%2Fo3%3Abatch</id>
-    <title>Added: openai/o3:batch</title>
-    <updated>2026-08-31T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fo3%3Abatch"/>
-    <category term="model_added"/>
-    <category term="provider:openai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $1.0000/Mtok, context: 200000.</summary>
   </entry>
 </feed>

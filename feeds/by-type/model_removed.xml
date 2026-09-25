@@ -24,6 +24,15 @@
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-09-25:model_removed:z-ai%2Fglm-5.2%3Afree</id>
+    <title>Removed: z-ai/glm-5.2:free</title>
+    <updated>2026-09-25T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2%3Afree"/>
+    <category term="model_removed"/>
+    <category term="provider:z-ai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-09-24:model_removed:nex-agi%2Fnex-n2.5-mini</id>
     <title>Removed: nex-agi/nex-n2.5-mini</title>
     <updated>2026-09-24T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="model_removed"/>
     <category term="provider:openai"/>
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-20:model_removed:mancer%2Fweaver</id>
-    <title>Removed: mancer/weaver</title>
-    <updated>2026-08-20T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/mancer%2Fweaver"/>
-    <category term="model_removed"/>
-    <category term="provider:mancer"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.5000/Mtok.</summary>
   </entry>
 </feed>
