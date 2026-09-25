@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_added.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_added.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-09-24T00:00:00Z</updated>
+  <updated>2026-09-25T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-25:model_added:mistralai%2Fdevstral-2512</id>
+    <title>Added: mistralai/devstral-2512</title>
+    <updated>2026-09-25T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/mistralai%2Fdevstral-2512"/>
+    <category term="model_added"/>
+    <category term="provider:mistralai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.4000/Mtok, context: 262144.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-25:model_added:mistralai%2Fmistral-large-2512</id>
+    <title>Added: mistralai/mistral-large-2512</title>
+    <updated>2026-09-25T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/mistralai%2Fmistral-large-2512"/>
+    <category term="model_added"/>
+    <category term="provider:mistralai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.5000/Mtok, context: 262144.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-09-24:model_added:z-ai%2Fglm-5.3-prime</id>
     <title>Added: z-ai/glm-5.3-prime</title>
@@ -886,23 +904,5 @@
     <category term="model_added"/>
     <category term="provider:openai"/>
     <summary>New model on OpenRouter. Initial prompt price: $1.0000/Mtok, context: 200000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-31:model_added:openai%2Fo4-mini%3Abatch</id>
-    <title>Added: openai/o4-mini:batch</title>
-    <updated>2026-08-31T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fo4-mini%3Abatch"/>
-    <category term="model_added"/>
-    <category term="provider:openai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.5500/Mtok, context: 200000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-31:model_added:openai%2Fgpt-4.1%3Abatch</id>
-    <title>Added: openai/gpt-4.1:batch</title>
-    <updated>2026-08-31T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-4.1%3Abatch"/>
-    <category term="model_added"/>
-    <category term="provider:openai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $1.0000/Mtok, context: 1047576.</summary>
   </entry>
 </feed>
