@@ -50391,6 +50391,106 @@
         "first_seen": "2026-05-27",
         "last_seen": "2026-09-25"
       }
+    },
+    {
+      "ts": "2026-09-26",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-pro-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000025",
+          "next": "0.00000024948",
+          "pct_change": -0.21
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000035",
+          "next": "0.00000074844",
+          "pct_change": -78.62
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-26",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4.1-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000014",
+          "next": "0.0000003",
+          "pct_change": 114.29
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000042",
+          "next": "0.0000012",
+          "pct_change": 185.71
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-26",
+      "type": "price_changed",
+      "id": "~z-ai/glm-latest",
+      "provider": "~z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000004746",
+          "next": "0.0000003794",
+          "pct_change": -20.06
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000014916",
+          "next": "0.0000011924",
+          "pct_change": -20.06
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-26",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.3",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000014",
+          "next": "0.0000003794",
+          "pct_change": -72.9
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000044",
+          "next": "0.0000011924",
+          "pct_change": -72.9
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-26",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000418818",
+          "next": "0.000000348",
+          "pct_change": -16.91
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000837636",
+          "next": "0.000000696",
+          "pct_change": -16.91
+        }
+      ]
     }
   ]
 }
