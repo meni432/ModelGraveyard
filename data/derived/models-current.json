@@ -159,8 +159,8 @@
       "name": "MoonshotAI: Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.0000010301",
-        "completion": "0.000009043",
+        "prompt": "0.000001",
+        "completion": "0.000009",
         "image": null,
         "request": null
       },
@@ -1485,13 +1485,13 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000003",
-        "completion": "0.0000012",
+        "prompt": "0.000000035",
+        "completion": "0.00000029",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 943718,
+      "max_completion_tokens": 384000,
       "expiration_date": null,
       "created": 1789021285,
       "first_seen": "2026-09-10",
@@ -6285,7 +6285,7 @@
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 65536,
+      "max_completion_tokens": 235929,
       "expiration_date": null,
       "created": 1772053789,
       "first_seen": "2026-05-27",

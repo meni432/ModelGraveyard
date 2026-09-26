@@ -204,6 +204,24 @@
     <summary>prompt: $0.1320/Mtok → $0.0825/Mtok (-37.5%); completion: $0.5280/Mtok → $0.3300/Mtok (-37.5%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-09-26:price_changed:deepseek%2Fdeepseek-v4.1-flash</id>
+    <title>Price changed: deepseek/deepseek-v4.1-flash</title>
+    <updated>2026-09-26T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4.1-flash"/>
+    <category term="price_changed"/>
+    <category term="provider:deepseek"/>
+    <summary>prompt: $0.3000/Mtok → $0.0350/Mtok (-88.33%); completion: $1.2000/Mtok → $0.2900/Mtok (-75.83%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-26:price_changed:~moonshotai%2Fkimi-latest</id>
+    <title>Price changed: ~moonshotai/kimi-latest</title>
+    <updated>2026-09-26T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/~moonshotai%2Fkimi-latest"/>
+    <category term="price_changed"/>
+    <category term="provider:~moonshotai"/>
+    <summary>prompt: $1.0301/Mtok → $1.0000/Mtok (-2.92%); completion: $9.0430/Mtok → $9.0000/Mtok (-0.48%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-09-25:price_changed:~deepseek%2Fdeepseek-pro-latest</id>
     <title>Price changed: ~deepseek/deepseek-pro-latest</title>
     <updated>2026-09-25T00:00:00Z</updated>
@@ -886,23 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:moonshotai"/>
     <summary>prompt: $0.7062/Mtok → $0.6562/Mtok (-7.08%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-24:price_changed:~moonshotai%2Fkimi-latest</id>
-    <title>Price changed: ~moonshotai/kimi-latest</title>
-    <updated>2026-09-24T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/~moonshotai%2Fkimi-latest"/>
-    <category term="price_changed"/>
-    <category term="provider:~moonshotai"/>
-    <summary>prompt: $0.9100/Mtok → $1.4000/Mtok (+53.85%); completion: $6.9875/Mtok → $10.7500/Mtok (+53.85%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-24:price_changed:qwen%2Fqwen3-30b-a3b-instruct-2507</id>
-    <title>Price changed: qwen/qwen3-30b-a3b-instruct-2507</title>
-    <updated>2026-09-24T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3-30b-a3b-instruct-2507"/>
-    <category term="price_changed"/>
-    <category term="provider:qwen"/>
-    <summary>prompt: $0.0481/Mtok → $0.1000/Mtok (+107.68%); completion: $0.1930/Mtok → $0.3000/Mtok (+55.4%)</summary>
   </entry>
 </feed>
