@@ -195,6 +195,15 @@
     <summary>prompt: $0.4188/Mtok → $0.3480/Mtok (-16.91%); completion: $0.8376/Mtok → $0.6960/Mtok (-16.91%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-09-26:price_changed:tencent%2Fhy3</id>
+    <title>Price changed: tencent/hy3</title>
+    <updated>2026-09-26T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/tencent%2Fhy3"/>
+    <category term="price_changed"/>
+    <category term="provider:tencent"/>
+    <summary>prompt: $0.1320/Mtok → $0.0825/Mtok (-37.5%); completion: $0.5280/Mtok → $0.3300/Mtok (-37.5%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-09-25:price_changed:~deepseek%2Fdeepseek-pro-latest</id>
     <title>Price changed: ~deepseek/deepseek-pro-latest</title>
     <updated>2026-09-25T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:qwen"/>
     <summary>prompt: $0.0481/Mtok → $0.1000/Mtok (+107.68%); completion: $0.1930/Mtok → $0.3000/Mtok (+55.4%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-24:model_removed:nex-agi%2Fnex-n2.5-mini</id>
-    <title>Removed: nex-agi/nex-n2.5-mini</title>
-    <updated>2026-09-24T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/nex-agi%2Fnex-n2.5-mini"/>
-    <category term="model_removed"/>
-    <category term="provider:nex-agi"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0250/Mtok.</summary>
   </entry>
 </feed>
