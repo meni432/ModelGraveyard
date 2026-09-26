@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-type/context_changed.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/context_changed.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-09-25T00:00:00Z</updated>
+  <updated>2026-09-26T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-26:context_changed:thinkingmachines%2Finkling-small</id>
+    <title>Context window changed: thinkingmachines/inkling-small</title>
+    <updated>2026-09-26T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/thinkingmachines%2Finkling-small"/>
+    <category term="context_changed"/>
+    <category term="provider:thinkingmachines"/>
+    <summary>1048576 → 524288 tokens</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-26:context_changed:thinkingmachines%2Finkling</id>
+    <title>Context window changed: thinkingmachines/inkling</title>
+    <updated>2026-09-26T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/thinkingmachines%2Finkling"/>
+    <category term="context_changed"/>
+    <category term="provider:thinkingmachines"/>
+    <summary>1048576 → 524288 tokens</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-09-25:context_changed:nvidia%2Fnemotron-3.5-lightning</id>
     <title>Context window changed: nvidia/nemotron-3.5-lightning</title>
@@ -886,23 +904,5 @@
     <category term="context_changed"/>
     <category term="provider:z-ai"/>
     <summary>200000 → 202752 tokens</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-16:context_changed:~moonshotai%2Fkimi-latest</id>
-    <title>Context window changed: ~moonshotai/kimi-latest</title>
-    <updated>2026-07-16T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/~moonshotai%2Fkimi-latest"/>
-    <category term="context_changed"/>
-    <category term="provider:~moonshotai"/>
-    <summary>262144 → 1048576 tokens</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-16:context_changed:z-ai%2Fglm-4.7-flash</id>
-    <title>Context window changed: z-ai/glm-4.7-flash</title>
-    <updated>2026-07-16T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-4.7-flash"/>
-    <category term="context_changed"/>
-    <category term="provider:z-ai"/>
-    <summary>202752 → 200000 tokens</summary>
   </entry>
 </feed>

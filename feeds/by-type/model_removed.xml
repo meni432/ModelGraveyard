@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_removed.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_removed.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-09-25T00:00:00Z</updated>
+  <updated>2026-09-26T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-26:model_removed:anthropic%2Fclaude-3-haiku</id>
+    <title>Removed: anthropic/claude-3-haiku</title>
+    <updated>2026-09-26T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-3-haiku"/>
+    <category term="model_removed"/>
+    <category term="provider:anthropic"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.2500/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-09-25:model_removed:nex-agi%2Fnex-n2.5-mini%3Afree</id>
     <title>Removed: nex-agi/nex-n2.5-mini:free</title>
@@ -895,14 +904,5 @@
     <category term="model_removed"/>
     <category term="provider:deepcogito"/>
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $1.2500/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-22:model_removed:openai%2Fgpt-oss-20b%3Afree</id>
-    <title>Removed: openai/gpt-oss-20b:free</title>
-    <updated>2026-08-22T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-oss-20b%3Afree"/>
-    <category term="model_removed"/>
-    <category term="provider:openai"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
   </entry>
 </feed>

@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/anthropic.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/anthropic.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-09-22T00:00:00Z</updated>
+  <updated>2026-09-26T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-26:model_removed:anthropic%2Fclaude-3-haiku</id>
+    <title>Removed: anthropic/claude-3-haiku</title>
+    <updated>2026-09-26T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-3-haiku"/>
+    <category term="model_removed"/>
+    <category term="provider:anthropic"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.2500/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-09-22:model_added:anthropic%2Fclaude-opus-5.5</id>
     <title>Added: anthropic/claude-opus-5.5</title>

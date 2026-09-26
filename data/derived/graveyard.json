@@ -1,6 +1,23 @@
 {
   "buried": [
     {
+      "id": "anthropic/claude-3-haiku",
+      "name": "Anthropic: Claude 3 Haiku",
+      "provider": "anthropic",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000025",
+        "completion": "0.00000125",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 200000,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-09-25",
+      "buried_at": "2026-09-26",
+      "suggested_replacement": "anthropic/claude-opus-4.5"
+    },
+    {
       "id": "nex-agi/nex-n2.5-mini:free",
       "name": "Nex AGI: Nex-N2.5-Mini (free)",
       "provider": "nex-agi",
