@@ -159,8 +159,8 @@
       "name": "MoonshotAI: Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.0000009875",
-        "completion": "0.00000553",
+        "prompt": "0.000001",
+        "completion": "0.000009",
         "image": null,
         "request": null
       },
@@ -295,13 +295,13 @@
       "name": "Z.ai: GLM Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.0000003032",
-        "completion": "0.000002574",
+        "prompt": "0.0000003556",
+        "completion": "0.0000011176",
         "image": null,
         "request": null
       },
       "context_length": 1310720,
-      "max_completion_tokens": 235929,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1787151053,
       "first_seen": "2026-08-19",
@@ -1468,7 +1468,7 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000024502",
+        "prompt": "0.00000029304",
         "completion": "0.0000035",
         "image": null,
         "request": null
@@ -7673,13 +7673,13 @@
       "name": "Z.ai: GLM 5.3",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.0000014",
-        "completion": "0.0000044",
+        "prompt": "0.0000003556",
+        "completion": "0.0000011176",
         "image": null,
         "request": null
       },
       "context_length": 1310720,
-      "max_completion_tokens": 943717,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1787086655,
       "first_seen": "2026-08-19",
