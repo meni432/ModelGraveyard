@@ -7,6 +7,86 @@
     {
       "ts": "2026-09-27",
       "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000004704",
+          "next": "0.0000000469",
+          "pct_change": -0.3
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000009408",
+          "next": "0.0000000938",
+          "pct_change": -0.3
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-27",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000001",
+          "next": "0.0000009875",
+          "pct_change": -1.25
+        },
+        {
+          "field": "completion",
+          "prev": "0.000009",
+          "next": "0.00000553",
+          "pct_change": -38.56
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-27",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.3",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000378",
+          "next": "0.0000014",
+          "pct_change": 270.37
+        },
+        {
+          "field": "completion",
+          "prev": "0.000001188",
+          "next": "0.0000044",
+          "pct_change": 270.37
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-27",
+      "type": "price_changed",
+      "id": "~z-ai/glm-latest",
+      "provider": "~z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000378",
+          "next": "0.0000002737",
+          "pct_change": -27.59
+        },
+        {
+          "field": "completion",
+          "prev": "0.000001188",
+          "next": "0.000002574",
+          "pct_change": 116.67
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-27",
+      "type": "price_changed",
       "id": "minimax/minimax-m2",
       "provider": "minimax",
       "changes": [
@@ -321,89 +401,6 @@
           "prev": "0.0000014916",
           "next": "0.0000011924",
           "pct_change": -20.06
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-26",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4.1-flash",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000014",
-          "next": "0.0000003",
-          "pct_change": 114.29
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000042",
-          "next": "0.0000012",
-          "pct_change": 185.71
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-26",
-      "type": "price_changed",
-      "id": "~deepseek/deepseek-pro-latest",
-      "provider": "~deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000025",
-          "next": "0.00000024948",
-          "pct_change": -0.21
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000035",
-          "next": "0.00000074844",
-          "pct_change": -78.62
-        }
-      ]
-    },
-    {
-      "ts": "2026-09-26",
-      "type": "model_removed",
-      "id": "anthropic/claude-3-haiku",
-      "provider": "anthropic",
-      "snapshot": {
-        "id": "anthropic/claude-3-haiku",
-        "name": "Anthropic: Claude 3 Haiku",
-        "provider": "anthropic",
-        "pricing": {
-          "prompt": "0.00000025",
-          "completion": "0.00000125",
-          "image": null,
-          "request": null
-        },
-        "context_length": 200000,
-        "max_completion_tokens": 4096,
-        "expiration_date": null,
-        "created": 1710288000,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-09-25"
-      }
-    },
-    {
-      "ts": "2026-09-26",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-pro",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000560802",
-          "next": "0.000000418818",
-          "pct_change": -25.32
-        },
-        {
-          "field": "completion",
-          "prev": "0.000001121604",
-          "next": "0.000000837636",
-          "pct_change": -25.32
         }
       ]
     }
