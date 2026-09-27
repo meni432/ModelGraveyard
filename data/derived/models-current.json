@@ -295,7 +295,7 @@
       "name": "Z.ai: GLM Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.0000002737",
+        "prompt": "0.0000003032",
         "completion": "0.000002574",
         "image": null,
         "request": null
@@ -1247,13 +1247,13 @@
       "name": "DeepSeek: DeepSeek V3",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000032",
-        "completion": "0.00000089",
+        "prompt": "0.0000002574",
+        "completion": "0.0000010287",
         "image": null,
         "request": null
       },
       "context_length": 163840,
-      "max_completion_tokens": 16384,
+      "max_completion_tokens": 16000,
       "expiration_date": null,
       "created": 1735241320,
       "first_seen": "2026-05-27",
@@ -2828,13 +2828,13 @@
       "name": "MiniMax: MiniMax M2",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0.000000255",
-        "completion": "0.00000102",
+        "prompt": "0.0000003",
+        "completion": "0.0000012",
         "image": null,
         "request": null
       },
       "context_length": 204800,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 176947,
       "expiration_date": null,
       "created": 1761252093,
       "first_seen": "2026-05-27",
@@ -6976,8 +6976,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },
