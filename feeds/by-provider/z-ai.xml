@@ -33,6 +33,24 @@
     <summary>prompt: $0.9646/Mtok → $1.4000/Mtok (+45.14%); completion: $3.0316/Mtok → $4.4000/Mtok (+45.14%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-09-28:price_changed:z-ai%2Fglm-5.3</id>
+    <title>Price changed: z-ai/glm-5.3</title>
+    <updated>2026-09-28T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.3"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>prompt: $0.3700/Mtok → $1.4000/Mtok (+278.38%); completion: $1.1400/Mtok → $4.4000/Mtok (+285.96%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-28:price_changed:z-ai%2Fglm-5.1</id>
+    <title>Price changed: z-ai/glm-5.1</title>
+    <updated>2026-09-28T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.1"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>prompt: $1.4000/Mtok → $0.9646/Mtok (-31.1%); completion: $4.4000/Mtok → $3.0316/Mtok (-31.1%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-09-27:price_changed:z-ai%2Fglm-5.3-flash</id>
     <title>Price changed: z-ai/glm-5.3-flash</title>
     <updated>2026-09-27T00:00:00Z</updated>
@@ -886,23 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:z-ai"/>
     <summary>prompt: $0.4900/Mtok → $0.5000/Mtok (+2.04%); completion: $1.5400/Mtok → $3.1500/Mtok (+104.55%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-18:price_changed:z-ai%2Fglm-5.2</id>
-    <title>Price changed: z-ai/glm-5.2</title>
-    <updated>2026-08-18T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
-    <category term="price_changed"/>
-    <category term="provider:z-ai"/>
-    <summary>prompt: $0.5000/Mtok → $1.1900/Mtok (+138%); completion: $3.1500/Mtok → $3.7400/Mtok (+18.73%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-18:model_removed:z-ai%2Fglm-5.2%3Afree</id>
-    <title>Removed: z-ai/glm-5.2:free</title>
-    <updated>2026-08-18T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2%3Afree"/>
-    <category term="model_removed"/>
-    <category term="provider:z-ai"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
   </entry>
 </feed>
