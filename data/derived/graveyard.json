@@ -1,6 +1,40 @@
 {
   "buried": [
     {
+      "id": "deepseek/deepseek-r1-distill-llama-70b",
+      "name": "DeepSeek: R1 Distill Llama 70B",
+      "provider": "deepseek",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000008",
+        "completion": "0.0000008",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 8192,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-09-28",
+      "buried_at": "2026-09-28",
+      "suggested_replacement": "deepseek/deepseek-r1"
+    },
+    {
+      "id": "inclusionai/ling-3.0-flash-fin:free",
+      "name": "inclusionAI: Ling 3.0 Flash Fin (free)",
+      "provider": "inclusionai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-09-28",
+      "buried_at": "2026-09-28",
+      "suggested_replacement": "inclusionai/ling-3.0-flash-vl"
+    },
+    {
       "id": "anthropic/claude-3-haiku",
       "name": "Anthropic: Claude 3 Haiku",
       "provider": "anthropic",

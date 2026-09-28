@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_removed.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_removed.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-09-26T00:00:00Z</updated>
+  <updated>2026-09-28T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-28:model_removed:deepseek%2Fdeepseek-r1-distill-llama-70b</id>
+    <title>Removed: deepseek/deepseek-r1-distill-llama-70b</title>
+    <updated>2026-09-28T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-r1-distill-llama-70b"/>
+    <category term="model_removed"/>
+    <category term="provider:deepseek"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.8000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-09-28:model_removed:inclusionai%2Fling-3.0-flash-fin%3Afree</id>
+    <title>Removed: inclusionai/ling-3.0-flash-fin:free</title>
+    <updated>2026-09-28T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/inclusionai%2Fling-3.0-flash-fin%3Afree"/>
+    <category term="model_removed"/>
+    <category term="provider:inclusionai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-09-26:model_removed:anthropic%2Fclaude-3-haiku</id>
     <title>Removed: anthropic/claude-3-haiku</title>
@@ -886,23 +904,5 @@
     <category term="model_removed"/>
     <category term="provider:nvidia"/>
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-24:model_removed:nvidia%2Fnemotron-nano-9b-v2%3Afree</id>
-    <title>Removed: nvidia/nemotron-nano-9b-v2:free</title>
-    <updated>2026-08-24T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/nvidia%2Fnemotron-nano-9b-v2%3Afree"/>
-    <category term="model_removed"/>
-    <category term="provider:nvidia"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-22:model_removed:deepcogito%2Fcogito-v2.1-671b</id>
-    <title>Removed: deepcogito/cogito-v2.1-671b</title>
-    <updated>2026-08-22T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/deepcogito%2Fcogito-v2.1-671b"/>
-    <category term="model_removed"/>
-    <category term="provider:deepcogito"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $1.2500/Mtok.</summary>
   </entry>
 </feed>
