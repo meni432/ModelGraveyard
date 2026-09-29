@@ -52229,6 +52229,184 @@
       "provider": "qwen",
       "prev_expiration": null,
       "next_expiration": "2026-10-09"
+    },
+    {
+      "ts": "2026-09-29",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-pro-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000015808",
+          "next": "0.000000096",
+          "pct_change": -39.27
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-29",
+      "type": "price_changed",
+      "id": "~z-ai/glm-latest",
+      "provider": "~z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000002",
+          "next": "0.00000019",
+          "pct_change": -5
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000034",
+          "next": "0.000004",
+          "pct_change": 17.65
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-29",
+      "type": "price_changed",
+      "id": "qwen/qwen3.8-27b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000539",
+          "next": "0.0000000428",
+          "pct_change": -20.59
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-29",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000004",
+          "next": "0.00000048",
+          "pct_change": 20
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-29",
+      "type": "context_changed",
+      "id": "nvidia/nemotron-3.5-lightning",
+      "provider": "nvidia",
+      "prev_context": 1000000,
+      "next_context": 262144
+    },
+    {
+      "ts": "2026-09-29",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.0000005",
+          "next": "0.00000125",
+          "pct_change": 150
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-29",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000003249",
+          "next": "0.0000001949",
+          "pct_change": -40.01
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-29",
+      "type": "price_changed",
+      "id": "google/gemma-4-26b-a4b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000765",
+          "next": "0.00000009",
+          "pct_change": 17.65
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000255",
+          "next": "0.0000003",
+          "pct_change": 17.65
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-29",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v3.2-exp",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000001344",
+          "next": "0.00000027",
+          "pct_change": 100.89
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000002016",
+          "next": "0.00000041",
+          "pct_change": 103.37
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-29",
+      "type": "price_changed",
+      "id": "openai/gpt-oss-120b",
+      "provider": "openai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000015",
+          "next": "0.000000037",
+          "pct_change": -75.33
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000006",
+          "next": "0.00000017",
+          "pct_change": -71.67
+        }
+      ]
+    },
+    {
+      "ts": "2026-09-29",
+      "type": "price_changed",
+      "id": "qwen/qwen3-30b-a3b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000013",
+          "next": "0.00000012",
+          "pct_change": -7.69
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000052",
+          "next": "0.0000005",
+          "pct_change": -3.85
+        }
+      ]
     }
   ]
 }
