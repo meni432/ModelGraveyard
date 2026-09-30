@@ -60,6 +60,15 @@
     <summary>1310720 → 1048576 tokens</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-09-30:context_changed:xiaomi%2Fmimo-v2.6-flash</id>
+    <title>Context window changed: xiaomi/mimo-v2.6-flash</title>
+    <updated>2026-09-30T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/xiaomi%2Fmimo-v2.6-flash"/>
+    <category term="context_changed"/>
+    <category term="provider:xiaomi"/>
+    <summary>1048576 → 1050000 tokens</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-09-29:context_changed:nvidia%2Fnemotron-3.5-lightning</id>
     <title>Context window changed: nvidia/nemotron-3.5-lightning</title>
     <updated>2026-09-29T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="context_changed"/>
     <category term="provider:qwen"/>
     <summary>131072 → 32768 tokens</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-21:context_changed:meta-llama%2Fllama-3.2-1b-instruct</id>
-    <title>Context window changed: meta-llama/llama-3.2-1b-instruct</title>
-    <updated>2026-07-21T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/meta-llama%2Fllama-3.2-1b-instruct"/>
-    <category term="context_changed"/>
-    <category term="provider:meta-llama"/>
-    <summary>131072 → 60000 tokens</summary>
   </entry>
 </feed>
