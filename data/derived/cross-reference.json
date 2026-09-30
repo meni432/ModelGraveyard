@@ -1,10 +1,10 @@
 {
   "generated_at": "2026-09-30",
   "openrouter_catalog_size": 452,
-  "litellm_catalog_size": 3235,
-  "shared_count": 96,
-  "openrouter_only_count": 356,
-  "litellm_only_count": 3126,
+  "litellm_catalog_size": 3248,
+  "shared_count": 97,
+  "openrouter_only_count": 355,
+  "litellm_only_count": 3138,
   "disagreements": [
     {
       "slug": "ai21:jamba-large-1-7",
@@ -550,6 +550,11 @@
       "slug": "openai:gpt-5-pro",
       "openrouter_id": "openai/gpt-5-pro",
       "litellm_id": "gpt-5-pro"
+    },
+    {
+      "slug": "openai:gpt-6-1-sol",
+      "openrouter_id": "openai/gpt-6.1-sol",
+      "litellm_id": "gpt-6.1-sol"
     },
     {
       "slug": "openai:gpt-6-astra",
