@@ -74,7 +74,7 @@
       "name": "DeepSeek: DeepSeek Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000000243",
+        "prompt": "0.0000000264",
         "completion": "0.0000006",
         "image": null,
         "request": null
@@ -91,8 +91,8 @@
       "name": "DeepSeek: DeepSeek Pro Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000001853",
-        "completion": "0.0000035",
+        "prompt": "0.00000015312",
+        "completion": "0.00000045936",
         "image": null,
         "request": null
       },
@@ -159,7 +159,7 @@
       "name": "MoonshotAI: Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.0000006797",
+        "prompt": "0.000000415",
         "completion": "0.00001",
         "image": null,
         "request": null
@@ -295,8 +295,8 @@
       "name": "Z.ai: GLM Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.00000006",
-        "completion": "0.000002694",
+        "prompt": "0.000000106",
+        "completion": "0.000002653",
         "image": null,
         "request": null
       },
@@ -1005,6 +1005,23 @@
       "last_seen": "2026-10-01"
     },
     {
+      "id": "apodex/apodex-1.1-mini:free",
+      "name": "Apodex: Apodex 1.1 Mini (free)",
+      "provider": "apodex",
+      "pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "context_length": 262144,
+      "max_completion_tokens": 235929,
+      "expiration_date": null,
+      "created": 1790875335,
+      "first_seen": "2026-10-01",
+      "last_seen": "2026-10-01"
+    },
+    {
       "id": "arcee-ai/trinity-large-thinking",
       "name": "Arcee AI: Trinity Large Thinking",
       "provider": "arcee-ai",
@@ -1304,7 +1321,7 @@
         "request": null
       },
       "context_length": 163840,
-      "max_completion_tokens": 147456,
+      "max_completion_tokens": 115200,
       "expiration_date": null,
       "created": 1742824755,
       "first_seen": "2026-05-27",
@@ -2165,8 +2182,8 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.00000009",
-        "completion": "0.0000003",
+        "prompt": "0.0000000765",
+        "completion": "0.000000255",
         "image": null,
         "request": null
       },
@@ -3457,7 +3474,7 @@
       "name": "MoonshotAI: Kimi K3",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.0000006797",
+        "prompt": "0.000000415",
         "completion": "0.00001",
         "image": null,
         "request": null
@@ -7044,8 +7061,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },
@@ -7078,8 +7095,8 @@
       "name": "Tencent: Hy4 preview",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000834",
-        "completion": "0.000002501",
+        "prompt": "0.0000007506",
+        "completion": "0.0000022509",
         "image": null,
         "request": null
       },
@@ -7241,6 +7258,23 @@
       "expiration_date": null,
       "created": 1789686178,
       "first_seen": "2026-09-18",
+      "last_seen": "2026-10-01"
+    },
+    {
+      "id": "unbiased/pareto-26.10-preview",
+      "name": "Pareto 26.10 Preview",
+      "provider": "unbiased",
+      "pricing": {
+        "prompt": "0.0000008",
+        "completion": "0.0000032",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1048576,
+      "max_completion_tokens": 131072,
+      "expiration_date": null,
+      "created": 1790863623,
+      "first_seen": "2026-10-01",
       "last_seen": "2026-10-01"
     },
     {
@@ -7724,8 +7758,8 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.0000014",
-        "completion": "0.0000044",
+        "prompt": "0.00000041",
+        "completion": "0.00000399",
         "image": null,
         "request": null
       },
