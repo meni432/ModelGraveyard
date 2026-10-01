@@ -1,6 +1,40 @@
 {
   "buried": [
     {
+      "id": "openai/gpt-6.1-sol-pro:batch",
+      "name": "OpenAI: GPT-6.1 Sol Pro (batch)",
+      "provider": "openai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.000001",
+        "completion": "0.000005",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 1050000,
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-30",
+      "buried_at": "2026-10-01",
+      "suggested_replacement": "openai/gpt-6.1-sol-pro"
+    },
+    {
+      "id": "openai/gpt-6.1-sol:batch",
+      "name": "OpenAI: GPT-6.1 Sol (batch)",
+      "provider": "openai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.000001",
+        "completion": "0.000005",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 1050000,
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-30",
+      "buried_at": "2026-10-01",
+      "suggested_replacement": "openai/gpt-6.1-sol-pro"
+    },
+    {
       "id": "deepseek/deepseek-r1-distill-llama-70b",
       "name": "DeepSeek: R1 Distill Llama 70B",
       "provider": "deepseek",
