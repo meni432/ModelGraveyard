@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-provider/nvidia.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/nvidia.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-10-01T00:00:00Z</updated>
+  <updated>2026-10-02T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-02:price_changed:nvidia%2Fnemotron-3.5-lightning</id>
+    <title>Price changed: nvidia/nemotron-3.5-lightning</title>
+    <updated>2026-10-02T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nvidia%2Fnemotron-3.5-lightning"/>
+    <category term="price_changed"/>
+    <category term="provider:nvidia"/>
+    <summary>prompt: $0.0595/Mtok → $0.0600/Mtok (+0.84%); completion: $0.1700/Mtok → $0.1600/Mtok (-5.88%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-02:price_changed:nvidia%2Fnemotron-3-ultra-550b-a55b</id>
+    <title>Price changed: nvidia/nemotron-3-ultra-550b-a55b</title>
+    <updated>2026-10-02T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nvidia%2Fnemotron-3-ultra-550b-a55b"/>
+    <category term="price_changed"/>
+    <category term="provider:nvidia"/>
+    <summary>prompt: $0.6000/Mtok → $0.5000/Mtok (-16.67%); completion: $2.4000/Mtok → $2.2000/Mtok (-8.33%)</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-10-01:price_changed:nvidia%2Fnemotron-3.5-lightning</id>
     <title>Price changed: nvidia/nemotron-3.5-lightning</title>
