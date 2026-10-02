@@ -33,6 +33,42 @@
     <summary>Provider announced retirement on 2026-12-31.</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-10-02:deprecation_announced:poolside%2Flaguna-s-2.1</id>
+    <title>Deprecation announced: poolside/laguna-s-2.1 (sunset 2026-10-31)</title>
+    <updated>2026-10-02T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/poolside%2Flaguna-s-2.1"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:poolside"/>
+    <summary>Provider announced retirement on 2026-10-31.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-02:deprecation_announced:poolside%2Flaguna-s-2.1%3Afree</id>
+    <title>Deprecation announced: poolside/laguna-s-2.1:free (sunset 2026-10-31)</title>
+    <updated>2026-10-02T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/poolside%2Flaguna-s-2.1%3Afree"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:poolside"/>
+    <summary>Provider announced retirement on 2026-10-31.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-02:deprecation_announced:poolside%2Flaguna-xs-2.1</id>
+    <title>Deprecation announced: poolside/laguna-xs-2.1 (sunset 2026-10-31)</title>
+    <updated>2026-10-02T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/poolside%2Flaguna-xs-2.1"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:poolside"/>
+    <summary>Provider announced retirement on 2026-10-31.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-02:deprecation_announced:poolside%2Flaguna-xs-2.1%3Afree</id>
+    <title>Deprecation announced: poolside/laguna-xs-2.1:free (sunset 2026-10-31)</title>
+    <updated>2026-10-02T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/poolside%2Flaguna-xs-2.1%3Afree"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:poolside"/>
+    <summary>Provider announced retirement on 2026-10-31.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-10-01:deprecation_announced:stealth%2Fspace-bunny-alpha</id>
     <title>Deprecation announced: stealth/space-bunny-alpha (sunset 2026-10-05)</title>
     <updated>2026-10-01T00:00:00Z</updated>
@@ -868,41 +904,5 @@
     <category term="deprecation_announced"/>
     <category term="provider:nex-agi"/>
     <summary>Provider announced retirement on 2026-06-22.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-15:deprecation_announced:xiaomi%2Fmimo-v2-flash</id>
-    <title>Deprecation announced: xiaomi/mimo-v2-flash (sunset 2026-06-17)</title>
-    <updated>2026-06-15T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/xiaomi%2Fmimo-v2-flash"/>
-    <category term="deprecation_announced"/>
-    <category term="provider:xiaomi"/>
-    <summary>Provider announced retirement on 2026-06-17.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-08:deprecation_announced:anthropic%2Fclaude-opus-4.6-fast</id>
-    <title>Deprecation announced: anthropic/claude-opus-4.6-fast (sunset 2026-06-29)</title>
-    <updated>2026-06-08T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-opus-4.6-fast"/>
-    <category term="deprecation_announced"/>
-    <category term="provider:anthropic"/>
-    <summary>Provider announced retirement on 2026-06-29.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-08:deprecation_announced:nex-agi%2Fdeepseek-v3.1-nex-n1</id>
-    <title>Deprecation announced: nex-agi/deepseek-v3.1-nex-n1 (sunset 2026-06-08)</title>
-    <updated>2026-06-08T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/nex-agi%2Fdeepseek-v3.1-nex-n1"/>
-    <category term="deprecation_announced"/>
-    <category term="provider:nex-agi"/>
-    <summary>Provider announced retirement on 2026-06-08.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-08:deprecation_announced:nvidia%2Fnemotron-nano-9b-v2</id>
-    <title>Deprecation announced: nvidia/nemotron-nano-9b-v2 (sunset 2026-06-11)</title>
-    <updated>2026-06-08T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/nvidia%2Fnemotron-nano-9b-v2"/>
-    <category term="deprecation_announced"/>
-    <category term="provider:nvidia"/>
-    <summary>Provider announced retirement on 2026-06-11.</summary>
   </entry>
 </feed>
