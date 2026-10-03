@@ -74,8 +74,8 @@
       "name": "DeepSeek: DeepSeek Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.000000015",
-        "completion": "0.000000676999",
+        "prompt": "0.00000002",
+        "completion": "0.0000006",
         "image": null,
         "request": null
       },
@@ -91,13 +91,13 @@
       "name": "DeepSeek: DeepSeek Pro Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.00000011",
-        "completion": "0.0000027",
+        "prompt": "0.00000012",
+        "completion": "0.0000042",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 393216,
+      "max_completion_tokens": 943718,
       "expiration_date": null,
       "created": 1789399174,
       "first_seen": "2026-09-14",
@@ -108,7 +108,7 @@
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000000115",
+        "prompt": "0.0000000188",
         "completion": "0.00000128",
         "image": null,
         "request": null
@@ -159,7 +159,7 @@
       "name": "MoonshotAI: Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.000000615",
+        "prompt": "0.0000009895",
         "completion": "0.000013",
         "image": null,
         "request": null
@@ -278,13 +278,13 @@
       "name": "Z.ai: GLM Flash Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.00000002625",
-        "completion": "0.000000928749",
+        "prompt": "0.000000035",
+        "completion": "0.0000005",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 943718,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1787817633,
       "first_seen": "2026-09-02",
@@ -1451,7 +1451,7 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000000115",
+        "prompt": "0.0000000188",
         "completion": "0.00000128",
         "image": null,
         "request": null
