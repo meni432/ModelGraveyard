@@ -91,7 +91,7 @@
       "name": "DeepSeek: DeepSeek Pro Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.00000012",
+        "prompt": "0.00000022",
         "completion": "0.0000042",
         "image": null,
         "request": null
@@ -1502,13 +1502,13 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000066",
-        "completion": "0.00000198",
+        "prompt": "0.00000022",
+        "completion": "0.0000042",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 393216,
+      "max_completion_tokens": 943718,
       "expiration_date": null,
       "created": 1786549364,
       "first_seen": "2026-08-12",
@@ -3491,8 +3491,8 @@
       "name": "MoonshotAI: Kimi K3",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.0000027",
-        "completion": "0.0000135",
+        "prompt": "0.00000099",
+        "completion": "0.000013",
         "image": null,
         "request": null
       },
