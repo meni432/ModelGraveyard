@@ -91,7 +91,7 @@
       "name": "DeepSeek: DeepSeek Pro Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.000000136",
+        "prompt": "0.0000001901",
         "completion": "0.0000042",
         "image": null,
         "request": null
@@ -159,7 +159,7 @@
       "name": "MoonshotAI: Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.000000576",
+        "prompt": "0.0000006371",
         "completion": "0.000013",
         "image": null,
         "request": null
@@ -296,7 +296,7 @@
       "provider": "~z-ai",
       "pricing": {
         "prompt": "0.00000005",
-        "completion": "0.0000044",
+        "completion": "0.000005",
         "image": null,
         "request": null
       },
@@ -1502,8 +1502,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000017",
-        "completion": "0.0000042",
+        "prompt": "0.00000085",
+        "completion": "0.000005",
         "image": null,
         "request": null
       },
@@ -6687,8 +6687,8 @@
       "name": "Qwen: Qwen3.8 27B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000042",
-        "completion": "0.000003",
+        "prompt": "0.000000425",
+        "completion": "0.00000255",
         "image": null,
         "request": null
       },
