@@ -91,7 +91,7 @@
       "name": "DeepSeek: DeepSeek Pro Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000001901",
+        "prompt": "0.0000002783",
         "completion": "0.0000042",
         "image": null,
         "request": null
@@ -159,7 +159,7 @@
       "name": "MoonshotAI: Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.00000066",
+        "prompt": "0.0000007959",
         "completion": "0.000013",
         "image": null,
         "request": null
@@ -1383,13 +1383,13 @@
       "name": "DeepSeek: DeepSeek V3.1 Terminus",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000027",
+        "prompt": "0.0000003",
         "completion": "0.000001",
         "image": null,
         "request": null
       },
       "context_length": 163840,
-      "max_completion_tokens": 147456,
+      "max_completion_tokens": 65536,
       "expiration_date": null,
       "created": 1758548275,
       "first_seen": "2026-05-27",
@@ -1400,13 +1400,13 @@
       "name": "DeepSeek: DeepSeek V3.2",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000028",
+        "prompt": "0.000000259",
         "completion": "0.00000042",
         "image": null,
         "request": null
       },
       "context_length": 163840,
-      "max_completion_tokens": 65536,
+      "max_completion_tokens": 147456,
       "expiration_date": null,
       "created": 1764594642,
       "first_seen": "2026-05-27",
@@ -1502,13 +1502,13 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000004",
-        "completion": "0.000005",
+        "prompt": "0.00000066",
+        "completion": "0.00000198",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 943718,
+      "max_completion_tokens": 393216,
       "expiration_date": null,
       "created": 1786549364,
       "first_seen": "2026-08-12",
@@ -2182,8 +2182,8 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.00000009",
-        "completion": "0.0000003",
+        "prompt": "0.0000000765",
+        "completion": "0.000000255",
         "image": null,
         "request": null
       },
@@ -3491,7 +3491,7 @@
       "name": "MoonshotAI: Kimi K3",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.00000067",
+        "prompt": "0.00000119",
         "completion": "0.000014",
         "image": null,
         "request": null
@@ -6700,23 +6700,6 @@
       "last_seen": "2026-10-05"
     },
     {
-      "id": "qwen/qwen3.8-27b:free",
-      "name": "Qwen: Qwen3.8 27B (free)",
-      "provider": "qwen",
-      "pricing": {
-        "prompt": "0",
-        "completion": "0",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 235929,
-      "expiration_date": null,
-      "created": 1786722910,
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-10-05"
-    },
-    {
       "id": "qwen/qwen3.8-flash",
       "name": "Qwen: Qwen3.8 Flash",
       "provider": "qwen",
@@ -6972,23 +6955,6 @@
       "last_seen": "2026-10-05"
     },
     {
-      "id": "stealth/space-bunny-alpha",
-      "name": "Space Bunny Alpha",
-      "provider": "stealth",
-      "pricing": {
-        "prompt": "0",
-        "completion": "0",
-        "image": null,
-        "request": null
-      },
-      "context_length": 1000000,
-      "max_completion_tokens": 524288,
-      "expiration_date": "2026-10-05",
-      "created": 1790174884,
-      "first_seen": "2026-09-23",
-      "last_seen": "2026-10-05"
-    },
-    {
       "id": "stepfun/step-3.5-flash",
       "name": "StepFun: Step 3.5 Flash",
       "provider": "stepfun",
@@ -7095,8 +7061,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },
@@ -7129,8 +7095,8 @@
       "name": "Tencent: Hy4 preview",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000834",
-        "completion": "0.000002501",
+        "prompt": "0.0000007506",
+        "completion": "0.0000022509",
         "image": null,
         "request": null
       },
@@ -7792,8 +7758,8 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.0000000192",
-        "completion": "0.000016",
+        "prompt": "0.000000052",
+        "completion": "0.000012",
         "image": null,
         "request": null
       },
@@ -7809,7 +7775,7 @@
       "name": "Z.ai: GLM 5.3",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.00000005",
+        "prompt": "0.00000007",
         "completion": "0.000007",
         "image": null,
         "request": null
