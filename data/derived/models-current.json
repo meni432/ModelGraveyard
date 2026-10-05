@@ -159,7 +159,7 @@
       "name": "MoonshotAI: Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.0000006382",
+        "prompt": "0.00000066",
         "completion": "0.000013",
         "image": null,
         "request": null
@@ -296,7 +296,7 @@
       "provider": "~z-ai",
       "pricing": {
         "prompt": "0.00000003",
-        "completion": "0.000016",
+        "completion": "0.000012",
         "image": null,
         "request": null
       },
@@ -1434,7 +1434,7 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000000292",
+        "prompt": "0.00000003",
         "completion": "0.00000128",
         "image": null,
         "request": null
@@ -1502,7 +1502,7 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000055",
+        "prompt": "0.0000004",
         "completion": "0.000005",
         "image": null,
         "request": null
@@ -1519,8 +1519,8 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000003",
-        "completion": "0.0000024",
+        "prompt": "0.0000003",
+        "completion": "0.0000012",
         "image": null,
         "request": null
       },
@@ -2182,8 +2182,8 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.0000000675",
-        "completion": "0.000000225",
+        "prompt": "0.00000009",
+        "completion": "0.0000003",
         "image": null,
         "request": null
       },
@@ -6535,7 +6535,7 @@
       "provider": "qwen",
       "pricing": {
         "prompt": "0.00000032",
-        "completion": "0.0000027",
+        "completion": "0.00000325",
         "image": null,
         "request": null
       },
@@ -7792,7 +7792,7 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.000000016",
+        "prompt": "0.0000000192",
         "completion": "0.000016",
         "image": null,
         "request": null
@@ -7809,13 +7809,13 @@
       "name": "Z.ai: GLM 5.3",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.0000014",
-        "completion": "0.0000044",
+        "prompt": "0.00000005",
+        "completion": "0.000007",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 943718,
       "expiration_date": null,
       "created": 1787086655,
       "first_seen": "2026-08-19",
