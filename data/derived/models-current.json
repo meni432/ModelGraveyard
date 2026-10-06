@@ -74,8 +74,8 @@
       "name": "DeepSeek: DeepSeek Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.000000012563",
-        "completion": "0.00000132",
+        "prompt": "0.000000004",
+        "completion": "0.0000012",
         "image": null,
         "request": null
       },
@@ -91,7 +91,7 @@
       "name": "DeepSeek: DeepSeek Pro Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.000000254",
+        "prompt": "0.0000002514",
         "completion": "0.0000042",
         "image": null,
         "request": null
@@ -108,7 +108,7 @@
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000000103",
+        "prompt": "0.0000000128",
         "completion": "0.00000128",
         "image": null,
         "request": null
@@ -1434,7 +1434,7 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000000093",
+        "prompt": "0.0000000253",
         "completion": "0.00000128",
         "image": null,
         "request": null
@@ -1451,7 +1451,7 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000000103",
+        "prompt": "0.0000000128",
         "completion": "0.00000128",
         "image": null,
         "request": null
@@ -1519,8 +1519,8 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000012563",
-        "completion": "0.00000132",
+        "prompt": "0.0000003",
+        "completion": "0.0000012",
         "image": null,
         "request": null
       },
@@ -2110,6 +2110,23 @@
       "last_seen": "2026-10-06"
     },
     {
+      "id": "google/gemini-nano-banana-2.1",
+      "name": "Google: Nano Banana 2.1",
+      "provider": "google",
+      "pricing": {
+        "prompt": "0.0000015",
+        "completion": "0.0000075",
+        "image": null,
+        "request": null
+      },
+      "context_length": 65536,
+      "max_completion_tokens": 58982,
+      "expiration_date": null,
+      "created": 1791300825,
+      "first_seen": "2026-10-06",
+      "last_seen": "2026-10-06"
+    },
+    {
       "id": "google/gemma-2-27b-it",
       "name": "Google: Gemma 2 27B",
       "provider": "google",
@@ -2182,8 +2199,8 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.00000009",
-        "completion": "0.0000003",
+        "prompt": "0.0000000765",
+        "completion": "0.000000255",
         "image": null,
         "request": null
       },
@@ -3147,6 +3164,23 @@
       "last_seen": "2026-10-06"
     },
     {
+      "id": "mistralai/mistral-large-4-0",
+      "name": "Mistral: Mistral Large 4",
+      "provider": "mistralai",
+      "pricing": {
+        "prompt": "0.00000068",
+        "completion": "0.00000209",
+        "image": null,
+        "request": null
+      },
+      "context_length": 524288,
+      "max_completion_tokens": 262144,
+      "expiration_date": null,
+      "created": 1791294122,
+      "first_seen": "2026-10-06",
+      "last_seen": "2026-10-06"
+    },
+    {
       "id": "mistralai/mistral-medium-3",
       "name": "Mistral: Mistral Medium 3",
       "provider": "mistralai",
@@ -3491,8 +3525,8 @@
       "name": "MoonshotAI: Kimi K3",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.00000095",
-        "completion": "0.000014",
+        "prompt": "0.00000099",
+        "completion": "0.000015",
         "image": null,
         "request": null
       },
@@ -7061,8 +7095,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },
@@ -7095,8 +7129,8 @@
       "name": "Tencent: Hy4 preview",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000834",
-        "completion": "0.000002501",
+        "prompt": "0.0000007506",
+        "completion": "0.0000022509",
         "image": null,
         "request": null
       },
