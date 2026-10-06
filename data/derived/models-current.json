@@ -74,8 +74,8 @@
       "name": "DeepSeek: DeepSeek Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.000000003",
-        "completion": "0.0000024",
+        "prompt": "0.000000012563",
+        "completion": "0.00000132",
         "image": null,
         "request": null
       },
@@ -91,13 +91,13 @@
       "name": "DeepSeek: DeepSeek Pro Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.00000019",
-        "completion": "0.000005",
+        "prompt": "0.000000254",
+        "completion": "0.0000042",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 943718,
+      "max_completion_tokens": 393216,
       "expiration_date": null,
       "created": 1789399174,
       "first_seen": "2026-09-14",
@@ -108,7 +108,7 @@
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000000134",
+        "prompt": "0.0000000103",
         "completion": "0.00000128",
         "image": null,
         "request": null
@@ -159,7 +159,7 @@
       "name": "MoonshotAI: Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.000000365",
+        "prompt": "0.00000083",
         "completion": "0.000013",
         "image": null,
         "request": null
@@ -278,7 +278,7 @@
       "name": "Z.ai: GLM Flash Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.0000000317",
+        "prompt": "0.0000000214",
         "completion": "0.0000005",
         "image": null,
         "request": null
@@ -1434,7 +1434,7 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000000072",
+        "prompt": "0.0000000093",
         "completion": "0.00000128",
         "image": null,
         "request": null
@@ -1451,7 +1451,7 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000000134",
+        "prompt": "0.0000000103",
         "completion": "0.00000128",
         "image": null,
         "request": null
@@ -1519,8 +1519,8 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000003",
-        "completion": "0.0000024",
+        "prompt": "0.000000012563",
+        "completion": "0.00000132",
         "image": null,
         "request": null
       },
@@ -2182,8 +2182,8 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.0000000765",
-        "completion": "0.000000255",
+        "prompt": "0.00000009",
+        "completion": "0.0000003",
         "image": null,
         "request": null
       },
@@ -2692,13 +2692,13 @@
       "name": "Meta: Muse Glimmer 30B",
       "provider": "meta",
       "pricing": {
-        "prompt": "0.00000035",
-        "completion": "0.0000015",
+        "prompt": "0.0000003",
+        "completion": "0.0000012",
         "image": null,
         "request": null
       },
       "context_length": 131072,
-      "max_completion_tokens": 117964,
+      "max_completion_tokens": 16384,
       "expiration_date": null,
       "created": 1786302394,
       "first_seen": "2026-08-11",
@@ -3429,7 +3429,7 @@
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 98304,
+      "max_completion_tokens": 235929,
       "expiration_date": null,
       "created": 1762440622,
       "first_seen": "2026-05-27",
@@ -3491,7 +3491,7 @@
       "name": "MoonshotAI: Kimi K3",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.00000065",
+        "prompt": "0.00000095",
         "completion": "0.000014",
         "image": null,
         "request": null
@@ -6432,13 +6432,13 @@
       "name": "Qwen: Qwen3.5-35B-A3B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.000001",
+        "prompt": "0.00000008",
+        "completion": "0.00000075",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 235929,
+      "max_completion_tokens": 32768,
       "expiration_date": null,
       "created": 1772053822,
       "first_seen": "2026-05-27",
