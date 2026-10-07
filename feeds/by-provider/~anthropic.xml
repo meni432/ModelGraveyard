@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-provider/~anthropic.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/~anthropic.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-09-22T00:00:00Z</updated>
+  <updated>2026-10-07T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-07:price_changed:~anthropic%2Fclaude-haiku-latest</id>
+    <title>Price changed: ~anthropic/claude-haiku-latest</title>
+    <updated>2026-10-07T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/~anthropic%2Fclaude-haiku-latest"/>
+    <category term="price_changed"/>
+    <category term="provider:~anthropic"/>
+    <summary>prompt: $1.0000/Mtok → $0.1000/Mtok (-90%); completion: $5.0000/Mtok → $0.5000/Mtok (-90%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-07:context_changed:~anthropic%2Fclaude-haiku-latest</id>
+    <title>Context window changed: ~anthropic/claude-haiku-latest</title>
+    <updated>2026-10-07T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/~anthropic%2Fclaude-haiku-latest"/>
+    <category term="context_changed"/>
+    <category term="provider:~anthropic"/>
+    <summary>200000 → 1000000 tokens</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-09-22:price_changed:~anthropic%2Fclaude-opus-latest</id>
     <title>Price changed: ~anthropic/claude-opus-latest</title>

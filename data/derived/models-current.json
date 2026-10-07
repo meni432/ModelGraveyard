@@ -23,13 +23,13 @@
       "name": "Anthropic: Claude Haiku Latest",
       "provider": "~anthropic",
       "pricing": {
-        "prompt": "0.000001",
-        "completion": "0.000005",
+        "prompt": "0.0000001",
+        "completion": "0.0000005",
         "image": null,
         "request": null
       },
-      "context_length": 200000,
-      "max_completion_tokens": 64000,
+      "context_length": 1000000,
+      "max_completion_tokens": 128000,
       "expiration_date": null,
       "created": 1777318492,
       "first_seen": "2026-05-27",
@@ -74,8 +74,8 @@
       "name": "DeepSeek: DeepSeek Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.00000005",
-        "completion": "0.0000012",
+        "prompt": "0.000000019",
+        "completion": "0.000000424",
         "image": null,
         "request": null
       },
@@ -91,13 +91,13 @@
       "name": "DeepSeek: DeepSeek Pro Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000004",
-        "completion": "0.0000043",
+        "prompt": "0.0000002856",
+        "completion": "0.0000042",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 384000,
+      "max_completion_tokens": 393216,
       "expiration_date": null,
       "created": 1789399174,
       "first_seen": "2026-09-14",
@@ -159,7 +159,7 @@
       "name": "MoonshotAI: Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.00000061",
+        "prompt": "0.00000049",
         "completion": "0.000013",
         "image": null,
         "request": null
@@ -278,13 +278,13 @@
       "name": "Z.ai: GLM Flash Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.00000002354",
-        "completion": "0.0000006875",
+        "prompt": "0.00000004",
+        "completion": "0.0000005",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 943718,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1787817633,
       "first_seen": "2026-09-02",
@@ -295,13 +295,13 @@
       "name": "Z.ai: GLM Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.000000063",
-        "completion": "0.0000063",
+        "prompt": "0.000000062",
+        "completion": "0.00000339",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 943718,
       "expiration_date": null,
       "created": 1787151053,
       "first_seen": "2026-08-19",
@@ -611,6 +611,40 @@
       "expiration_date": null,
       "created": 1760547638,
       "first_seen": "2026-08-06",
+      "last_seen": "2026-10-07"
+    },
+    {
+      "id": "anthropic/claude-haiku-5.5",
+      "name": "Anthropic: Claude Haiku 5.5",
+      "provider": "anthropic",
+      "pricing": {
+        "prompt": "0.0000001",
+        "completion": "0.0000005",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1000000,
+      "max_completion_tokens": 128000,
+      "expiration_date": null,
+      "created": 1791397883,
+      "first_seen": "2026-10-07",
+      "last_seen": "2026-10-07"
+    },
+    {
+      "id": "anthropic/claude-haiku-5.5:batch",
+      "name": "Anthropic: Claude Haiku 5.5 (batch)",
+      "provider": "anthropic",
+      "pricing": {
+        "prompt": "0.00000005",
+        "completion": "0.00000025",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1000000,
+      "max_completion_tokens": 128000,
+      "expiration_date": null,
+      "created": 1791397883,
+      "first_seen": "2026-10-07",
       "last_seen": "2026-10-07"
     },
     {
@@ -1400,13 +1434,13 @@
       "name": "DeepSeek: DeepSeek V3.2",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000028",
+        "prompt": "0.000000259",
         "completion": "0.00000042",
         "image": null,
         "request": null
       },
       "context_length": 163840,
-      "max_completion_tokens": 65536,
+      "max_completion_tokens": 147456,
       "expiration_date": null,
       "created": 1764594642,
       "first_seen": "2026-05-27",
@@ -1519,7 +1553,7 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000005",
+        "prompt": "0.0000003",
         "completion": "0.0000012",
         "image": null,
         "request": null
@@ -2199,8 +2233,8 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.00000009",
-        "completion": "0.0000003",
+        "prompt": "0.0000000765",
+        "completion": "0.000000255",
         "image": null,
         "request": null
       },
@@ -3508,7 +3542,7 @@
       "name": "MoonshotAI: Kimi K3",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.00000062",
+        "prompt": "0.0000005",
         "completion": "0.000015",
         "image": null,
         "request": null
@@ -3667,7 +3701,7 @@
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 235929,
+      "max_completion_tokens": 32768,
       "expiration_date": null,
       "created": 1765731275,
       "first_seen": "2026-05-27",
@@ -3797,13 +3831,13 @@
       "name": "NVIDIA: Nemotron 3.5 Lightning",
       "provider": "nvidia",
       "pricing": {
-        "prompt": "0.00000006",
-        "completion": "0.00000016",
+        "prompt": "0.000000049",
+        "completion": "0.00000014",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 32768,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1786452751,
       "first_seen": "2026-08-11",
@@ -6490,7 +6524,7 @@
       },
       "context_length": 262144,
       "max_completion_tokens": 32768,
-      "expiration_date": null,
+      "expiration_date": "2026-10-21",
       "created": 1773152396,
       "first_seen": "2026-05-27",
       "last_seen": "2026-10-07"
@@ -7078,8 +7112,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },
@@ -7112,8 +7146,8 @@
       "name": "Tencent: Hy4 preview",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000834",
-        "completion": "0.000002501",
+        "prompt": "0.0000007506",
+        "completion": "0.0000022509",
         "image": null,
         "request": null
       },
@@ -7775,7 +7809,7 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.000000171",
+        "prompt": "0.0000000855",
         "completion": "0.0000072",
         "image": null,
         "request": null
@@ -7792,8 +7826,8 @@
       "name": "Z.ai: GLM 5.3",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.00000007",
-        "completion": "0.000007",
+        "prompt": "0.000000062",
+        "completion": "0.00000339",
         "image": null,
         "request": null
       },

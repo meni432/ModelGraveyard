@@ -33,6 +33,24 @@
     <summary>prompt: $0.0616/Mtok → $0.1710/Mtok (+177.6%); completion: $12.0000/Mtok → $7.2000/Mtok (-40%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-10-07:price_changed:z-ai%2Fglm-5.3</id>
+    <title>Price changed: z-ai/glm-5.3</title>
+    <updated>2026-10-07T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.3"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>prompt: $0.0700/Mtok → $0.0620/Mtok (-11.43%); completion: $7.0000/Mtok → $3.3900/Mtok (-51.57%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-07:price_changed:z-ai%2Fglm-5.2</id>
+    <title>Price changed: z-ai/glm-5.2</title>
+    <updated>2026-10-07T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>prompt: $0.1710/Mtok → $0.0855/Mtok (-50%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-10-06:price_changed:z-ai%2Fglm-5.2</id>
     <title>Price changed: z-ai/glm-5.2</title>
     <updated>2026-10-06T00:00:00Z</updated>
@@ -886,23 +904,5 @@
     <category term="deprecation_announced"/>
     <category term="provider:z-ai"/>
     <summary>Provider announced retirement on 2098-12-31.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-10:price_changed:z-ai%2Fglm-5.2</id>
-    <title>Price changed: z-ai/glm-5.2</title>
-    <updated>2026-09-10T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2"/>
-    <category term="price_changed"/>
-    <category term="provider:z-ai"/>
-    <summary>prompt: $0.9660/Mtok → $0.2800/Mtok (-71.01%); completion: $3.0360/Mtok → $0.8800/Mtok (-71.01%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-10:context_changed:z-ai%2Fglm-4.7-flash</id>
-    <title>Context window changed: z-ai/glm-4.7-flash</title>
-    <updated>2026-09-10T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-4.7-flash"/>
-    <category term="context_changed"/>
-    <category term="provider:z-ai"/>
-    <summary>202752 → 200000 tokens</summary>
   </entry>
 </feed>
