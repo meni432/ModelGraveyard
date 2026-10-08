@@ -1,6 +1,40 @@
 {
   "buried": [
     {
+      "id": "baidu/ernie-4.5-vl-424b-a47b",
+      "name": "Baidu: ERNIE 4.5 VL 424B A47B ",
+      "provider": "baidu",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000042",
+        "completion": "0.00000125",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 123000,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-10-08",
+      "buried_at": "2026-10-08",
+      "suggested_replacement": null
+    },
+    {
+      "id": "inclusionai/ling-3.0-flash-sante:free",
+      "name": "inclusionAI: Ling 3.0 Flash Sante (free)",
+      "provider": "inclusionai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-10-08",
+      "buried_at": "2026-10-08",
+      "suggested_replacement": "inclusionai/ling-3.1-flash"
+    },
+    {
       "id": "kwaipilot/kat-coder-pro-v2.5",
       "name": "Kwaipilot: KAT-Coder-Pro V2.5",
       "provider": "kwaipilot",
