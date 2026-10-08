@@ -74,7 +74,7 @@
       "name": "DeepSeek: DeepSeek Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000000184",
+        "prompt": "0.0000000356",
         "completion": "0.000001",
         "image": null,
         "request": null
@@ -91,8 +91,8 @@
       "name": "DeepSeek: DeepSeek Pro Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000001575",
-        "completion": "0.0000042",
+        "prompt": "0.000000108",
+        "completion": "0.000008",
         "image": null,
         "request": null
       },
@@ -108,7 +108,7 @@
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000000104",
+        "prompt": "0.0000000046",
         "completion": "0.00000128",
         "image": null,
         "request": null
@@ -159,8 +159,8 @@
       "name": "MoonshotAI: Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.00000068",
-        "completion": "0.000015",
+        "prompt": "0.00000045",
+        "completion": "0.000013",
         "image": null,
         "request": null
       },
@@ -279,7 +279,7 @@
       "provider": "~z-ai",
       "pricing": {
         "prompt": "0.000000032",
-        "completion": "0.00000087846",
+        "completion": "0.000003669545",
         "image": null,
         "request": null
       },
@@ -295,7 +295,7 @@
       "name": "Z.ai: GLM Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.0000000392",
+        "prompt": "0.000000036",
         "completion": "0.000012",
         "image": null,
         "request": null
@@ -1468,7 +1468,7 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000000165",
+        "prompt": "0.0000000057",
         "completion": "0.00000128",
         "image": null,
         "request": null
@@ -1485,7 +1485,7 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000000104",
+        "prompt": "0.0000000046",
         "completion": "0.00000128",
         "image": null,
         "request": null
@@ -1519,8 +1519,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000095526",
-        "completion": "0.00000191052",
+        "prompt": "0.00000029232",
+        "completion": "0.00000058464",
         "image": null,
         "request": null
       },
@@ -1553,8 +1553,8 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000003",
-        "completion": "0.0000012",
+        "prompt": "0.0000000356",
+        "completion": "0.000001",
         "image": null,
         "request": null
       },
@@ -2233,8 +2233,8 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.0000000765",
-        "completion": "0.000000255",
+        "prompt": "0.00000009",
+        "completion": "0.0000003",
         "image": null,
         "request": null
       },
@@ -3508,7 +3508,7 @@
       "name": "MoonshotAI: Kimi K2.6",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.000000465",
+        "prompt": "0.0000004485",
         "completion": "0.00000245",
         "image": null,
         "request": null
@@ -3542,8 +3542,8 @@
       "name": "MoonshotAI: Kimi K3",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.00000072",
-        "completion": "0.000015",
+        "prompt": "0.00000062",
+        "completion": "0.0000123",
         "image": null,
         "request": null
       },
@@ -6585,8 +6585,8 @@
       "name": "Qwen: Qwen3.6 27B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.0000003",
-        "completion": "0.000002",
+        "prompt": "0.00000045",
+        "completion": "0.0000027",
         "image": null,
         "request": null
       },
@@ -7037,6 +7037,23 @@
       "expiration_date": null,
       "created": 1779985069,
       "first_seen": "2026-06-08",
+      "last_seen": "2026-10-08"
+    },
+    {
+      "id": "stepfun/step-5-preview",
+      "name": "StepFun: Step 5 Preview",
+      "provider": "stepfun",
+      "pricing": {
+        "prompt": "0.000001",
+        "completion": "0.0000027",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1000000,
+      "max_completion_tokens": 64000,
+      "expiration_date": null,
+      "created": 1791462849,
+      "first_seen": "2026-10-08",
       "last_seen": "2026-10-08"
     },
     {
