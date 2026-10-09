@@ -75,7 +75,7 @@
       "provider": "~deepseek",
       "pricing": {
         "prompt": "0.000000016",
-        "completion": "0.0000012",
+        "completion": "0.0000006",
         "image": null,
         "request": null
       },
@@ -91,8 +91,8 @@
       "name": "DeepSeek: DeepSeek Pro Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.000000198",
-        "completion": "0.000008",
+        "prompt": "0.00000014256",
+        "completion": "0.00000042768",
         "image": null,
         "request": null
       },
@@ -108,8 +108,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.00000001096",
-        "completion": "0.000000046749",
+        "prompt": "0.00000000408",
+        "completion": "0.000000009528",
         "image": null,
         "request": null
       },
@@ -159,8 +159,8 @@
       "name": "MoonshotAI: Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.00000049",
-        "completion": "0.000013",
+        "prompt": "0.0000008",
+        "completion": "0.0000135",
         "image": null,
         "request": null
       },
@@ -279,7 +279,7 @@
       "provider": "~z-ai",
       "pricing": {
         "prompt": "0.000000032",
-        "completion": "0.000000448303",
+        "completion": "0.000000083071",
         "image": null,
         "request": null
       },
@@ -295,13 +295,13 @@
       "name": "Z.ai: GLM Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.0000000312",
-        "completion": "0.0000044",
+        "prompt": "0.000000039",
+        "completion": "0.000006",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 943718,
       "expiration_date": null,
       "created": 1787151053,
       "first_seen": "2026-08-19",
@@ -1451,7 +1451,7 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000000057",
+        "prompt": "0.0000000228",
         "completion": "0.00000128",
         "image": null,
         "request": null
@@ -1468,7 +1468,7 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000000137",
+        "prompt": "0.0000000055",
         "completion": "0.00000128",
         "image": null,
         "request": null
@@ -1502,8 +1502,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000297366",
-        "completion": "0.000000594732",
+        "prompt": "0.0000002088",
+        "completion": "0.0000004176",
         "image": null,
         "request": null
       },
@@ -2216,8 +2216,8 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.00000009",
-        "completion": "0.0000003",
+        "prompt": "0.0000000675",
+        "completion": "0.000000225",
         "image": null,
         "request": null
       },
@@ -3463,7 +3463,7 @@
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 235929,
+      "max_completion_tokens": 98304,
       "expiration_date": null,
       "created": 1762440622,
       "first_seen": "2026-05-27",
@@ -3491,7 +3491,7 @@
       "name": "MoonshotAI: Kimi K2.6",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.000000465",
+        "prompt": "0.0000004344",
         "completion": "0.00000245",
         "image": null,
         "request": null
@@ -3525,8 +3525,8 @@
       "name": "MoonshotAI: Kimi K3",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.0000005",
-        "completion": "0.000012",
+        "prompt": "0.0000008",
+        "completion": "0.0000135",
         "image": null,
         "request": null
       },
@@ -3814,13 +3814,13 @@
       "name": "NVIDIA: Nemotron 3.5 Lightning",
       "provider": "nvidia",
       "pricing": {
-        "prompt": "0.0000000469",
-        "completion": "0.000000134",
+        "prompt": "0.00000007",
+        "completion": "0.0000002",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 235929,
       "expiration_date": null,
       "created": 1786452751,
       "first_seen": "2026-08-11",
@@ -6003,23 +6003,6 @@
       "last_seen": "2026-10-09"
     },
     {
-      "id": "qwen/qwen-plus-2025-07-28",
-      "name": "Qwen: Qwen Plus 0728",
-      "provider": "qwen",
-      "pricing": {
-        "prompt": "0.00000026",
-        "completion": "0.00000078",
-        "image": null,
-        "request": null
-      },
-      "context_length": 1000000,
-      "max_completion_tokens": 32768,
-      "expiration_date": "2026-10-09",
-      "created": 1757347599,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-10-09"
-    },
-    {
       "id": "qwen/qwen2.5-vl-72b-instruct",
       "name": "Qwen: Qwen2.5 VL 72B Instruct",
       "provider": "qwen",
@@ -6046,27 +6029,10 @@
         "image": null,
         "request": null
       },
-      "context_length": 131072,
+      "context_length": 40960,
       "max_completion_tokens": 16384,
       "expiration_date": null,
       "created": 1745876478,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-10-09"
-    },
-    {
-      "id": "qwen/qwen3-235b-a22b",
-      "name": "Qwen: Qwen3 235B A22B",
-      "provider": "qwen",
-      "pricing": {
-        "prompt": "0.000000455",
-        "completion": "0.00000182",
-        "image": null,
-        "request": null
-      },
-      "context_length": 131072,
-      "max_completion_tokens": 8192,
-      "expiration_date": "2026-10-09",
-      "created": 1745875757,
       "first_seen": "2026-05-27",
       "last_seen": "2026-10-09"
     },
@@ -6092,14 +6058,14 @@
       "name": "Qwen: Qwen3 235B A22B Thinking 2507",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000023",
-        "completion": "0.0000023",
+        "prompt": "0.00000045",
+        "completion": "0.0000035",
         "image": null,
         "request": null
       },
-      "context_length": 131072,
-      "max_completion_tokens": 117964,
-      "expiration_date": "2026-10-09",
+      "context_length": 128000,
+      "max_completion_tokens": 16384,
+      "expiration_date": null,
       "created": 1753449557,
       "first_seen": "2026-05-27",
       "last_seen": "2026-10-09"
@@ -6114,7 +6080,7 @@
         "image": null,
         "request": null
       },
-      "context_length": 131072,
+      "context_length": 40960,
       "max_completion_tokens": 16384,
       "expiration_date": null,
       "created": 1745878604,
@@ -6139,23 +6105,6 @@
       "last_seen": "2026-10-09"
     },
     {
-      "id": "qwen/qwen3-30b-a3b-thinking-2507",
-      "name": "Qwen: Qwen3 30B A3B Thinking 2507",
-      "provider": "qwen",
-      "pricing": {
-        "prompt": "0.0000002",
-        "completion": "0.0000024",
-        "image": null,
-        "request": null
-      },
-      "context_length": 81920,
-      "max_completion_tokens": 32768,
-      "expiration_date": "2026-10-09",
-      "created": 1756399192,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-10-09"
-    },
-    {
       "id": "qwen/qwen3-32b",
       "name": "Qwen: Qwen3 32B",
       "provider": "qwen",
@@ -6169,23 +6118,6 @@
       "max_completion_tokens": 16384,
       "expiration_date": null,
       "created": 1745875945,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-10-09"
-    },
-    {
-      "id": "qwen/qwen3-8b",
-      "name": "Qwen: Qwen3 8B",
-      "provider": "qwen",
-      "pricing": {
-        "prompt": "0.000000117",
-        "completion": "0.000000455",
-        "image": null,
-        "request": null
-      },
-      "context_length": 131072,
-      "max_completion_tokens": 8192,
-      "expiration_date": "2026-10-09",
-      "created": 1745876632,
       "first_seen": "2026-05-27",
       "last_seen": "2026-10-09"
     },
@@ -6258,57 +6190,6 @@
       "last_seen": "2026-10-09"
     },
     {
-      "id": "qwen/qwen3-coder-plus",
-      "name": "Qwen: Qwen3 Coder Plus",
-      "provider": "qwen",
-      "pricing": {
-        "prompt": "0.00000065",
-        "completion": "0.00000325",
-        "image": null,
-        "request": null
-      },
-      "context_length": 1000000,
-      "max_completion_tokens": 65536,
-      "expiration_date": "2026-10-09",
-      "created": 1758662707,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-10-09"
-    },
-    {
-      "id": "qwen/qwen3-max",
-      "name": "Qwen: Qwen3 Max",
-      "provider": "qwen",
-      "pricing": {
-        "prompt": "0.00000078",
-        "completion": "0.0000039",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 65536,
-      "expiration_date": "2026-10-09",
-      "created": 1758662808,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-10-09"
-    },
-    {
-      "id": "qwen/qwen3-max-thinking",
-      "name": "Qwen: Qwen3 Max Thinking",
-      "provider": "qwen",
-      "pricing": {
-        "prompt": "0.00000078",
-        "completion": "0.0000039",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 65536,
-      "expiration_date": "2026-10-09",
-      "created": 1770671901,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-10-09"
-    },
-    {
       "id": "qwen/qwen3-next-80b-a3b-instruct",
       "name": "Qwen: Qwen3 Next 80B A3B Instruct",
       "provider": "qwen",
@@ -6336,8 +6217,8 @@
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 32768,
-      "expiration_date": "2026-10-09",
+      "max_completion_tokens": 235929,
+      "expiration_date": null,
       "created": 1757612284,
       "first_seen": "2026-05-27",
       "last_seen": "2026-10-09"
@@ -6356,23 +6237,6 @@
       "max_completion_tokens": 32768,
       "expiration_date": null,
       "created": 1758668687,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-10-09"
-    },
-    {
-      "id": "qwen/qwen3-vl-235b-a22b-thinking",
-      "name": "Qwen: Qwen3 VL 235B A22B Thinking",
-      "provider": "qwen",
-      "pricing": {
-        "prompt": "0.0000004",
-        "completion": "0.000004",
-        "image": null,
-        "request": null
-      },
-      "context_length": 131072,
-      "max_completion_tokens": 32768,
-      "expiration_date": "2026-10-09",
-      "created": 1758668690,
       "first_seen": "2026-05-27",
       "last_seen": "2026-10-09"
     },
@@ -6398,32 +6262,15 @@
       "name": "Qwen: Qwen3 VL 30B A3B Thinking",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.0000002",
-        "completion": "0.0000024",
+        "prompt": "0.00000029",
+        "completion": "0.000001",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 32768,
-      "expiration_date": "2026-10-09",
+      "max_completion_tokens": 235929,
+      "expiration_date": null,
       "created": 1759794479,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-10-09"
-    },
-    {
-      "id": "qwen/qwen3-vl-32b-instruct",
-      "name": "Qwen: Qwen3 VL 32B Instruct",
-      "provider": "qwen",
-      "pricing": {
-        "prompt": "0.000000104",
-        "completion": "0.000000416",
-        "image": null,
-        "request": null
-      },
-      "context_length": 131072,
-      "max_completion_tokens": 32768,
-      "expiration_date": "2026-10-09",
-      "created": 1761231332,
       "first_seen": "2026-05-27",
       "last_seen": "2026-10-09"
     },
@@ -6432,32 +6279,15 @@
       "name": "Qwen: Qwen3 VL 8B Instruct",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.000000117",
-        "completion": "0.000000455",
+        "prompt": "0.00000025",
+        "completion": "0.00000075",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 32768,
-      "expiration_date": "2026-10-09",
+      "max_completion_tokens": 235929,
+      "expiration_date": null,
       "created": 1760463308,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-10-09"
-    },
-    {
-      "id": "qwen/qwen3-vl-8b-thinking",
-      "name": "Qwen: Qwen3 VL 8B Thinking",
-      "provider": "qwen",
-      "pricing": {
-        "prompt": "0.00000018",
-        "completion": "0.0000021",
-        "image": null,
-        "request": null
-      },
-      "context_length": 131072,
-      "max_completion_tokens": 32768,
-      "expiration_date": "2026-10-09",
-      "created": 1760463746,
       "first_seen": "2026-05-27",
       "last_seen": "2026-10-09"
     },
@@ -6602,13 +6432,13 @@
       "name": "Qwen: Qwen3.6 27B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000045",
-        "completion": "0.0000027",
+        "prompt": "0.00000032",
+        "completion": "0.0000032",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 65536,
+      "max_completion_tokens": 81920,
       "expiration_date": null,
       "created": 1777255064,
       "first_seen": "2026-05-27",
@@ -6645,23 +6475,6 @@
       "max_completion_tokens": 65536,
       "expiration_date": null,
       "created": 1777261362,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-10-09"
-    },
-    {
-      "id": "qwen/qwen3.6-max-preview",
-      "name": "Qwen: Qwen3.6 Max Preview",
-      "provider": "qwen",
-      "pricing": {
-        "prompt": "0.000001027",
-        "completion": "0.000006162",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 65536,
-      "expiration_date": "2026-10-09",
-      "created": 1777260242,
       "first_seen": "2026-05-27",
       "last_seen": "2026-10-09"
     },
@@ -7146,8 +6959,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },
@@ -7180,8 +6993,8 @@
       "name": "Tencent: Hy4 preview",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000834",
-        "completion": "0.000002501",
+        "prompt": "0.0000007506",
+        "completion": "0.0000022509",
         "image": null,
         "request": null
       },
@@ -7595,7 +7408,7 @@
       },
       "context_length": 1050000,
       "max_completion_tokens": 131072,
-      "expiration_date": null,
+      "expiration_date": "2026-10-21",
       "created": 1776874269,
       "first_seen": "2026-05-27",
       "last_seen": "2026-10-09"
@@ -7612,7 +7425,7 @@
       },
       "context_length": 1050000,
       "max_completion_tokens": 131072,
-      "expiration_date": null,
+      "expiration_date": "2026-10-21",
       "created": 1776874273,
       "first_seen": "2026-05-27",
       "last_seen": "2026-10-09"
@@ -7724,13 +7537,13 @@
       "name": "Z.ai: GLM 4.6",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.00000043",
-        "completion": "0.00000175",
+        "prompt": "0.0000005",
+        "completion": "0.000002",
         "image": null,
         "request": null
       },
       "context_length": 204800,
-      "max_completion_tokens": 16384,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1759235576,
       "first_seen": "2026-05-27",
@@ -7844,7 +7657,7 @@
       "provider": "z-ai",
       "pricing": {
         "prompt": "0.00000006",
-        "completion": "0.0000042",
+        "completion": "0.000007",
         "image": null,
         "request": null
       },
@@ -7860,8 +7673,8 @@
       "name": "Z.ai: GLM 5.3",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.00000004",
-        "completion": "0.0000048",
+        "prompt": "0.000000039",
+        "completion": "0.000006",
         "image": null,
         "request": null
       },

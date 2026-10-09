@@ -1,6 +1,193 @@
 {
   "buried": [
     {
+      "id": "qwen/qwen-plus-2025-07-28",
+      "name": "Qwen: Qwen Plus 0728",
+      "provider": "qwen",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000026",
+        "completion": "0.00000078",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 1000000,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-10-09",
+      "buried_at": "2026-10-09",
+      "suggested_replacement": "qwen/qwen3.8-max-prime"
+    },
+    {
+      "id": "qwen/qwen3-235b-a22b",
+      "name": "Qwen: Qwen3 235B A22B",
+      "provider": "qwen",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.000000455",
+        "completion": "0.00000182",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 131072,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-10-09",
+      "buried_at": "2026-10-09",
+      "suggested_replacement": "qwen/qwen3-32b"
+    },
+    {
+      "id": "qwen/qwen3-30b-a3b-thinking-2507",
+      "name": "Qwen: Qwen3 30B A3B Thinking 2507",
+      "provider": "qwen",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000002",
+        "completion": "0.0000024",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 81920,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-10-09",
+      "buried_at": "2026-10-09",
+      "suggested_replacement": "qwen/qwen3-30b-a3b"
+    },
+    {
+      "id": "qwen/qwen3-8b",
+      "name": "Qwen: Qwen3 8B",
+      "provider": "qwen",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.000000117",
+        "completion": "0.000000455",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 131072,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-10-09",
+      "buried_at": "2026-10-09",
+      "suggested_replacement": "qwen/qwen3-32b"
+    },
+    {
+      "id": "qwen/qwen3-coder-plus",
+      "name": "Qwen: Qwen3 Coder Plus",
+      "provider": "qwen",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000065",
+        "completion": "0.00000325",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 1000000,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-10-09",
+      "buried_at": "2026-10-09",
+      "suggested_replacement": "qwen/qwen3.8-max-prime"
+    },
+    {
+      "id": "qwen/qwen3-max",
+      "name": "Qwen: Qwen3 Max",
+      "provider": "qwen",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000078",
+        "completion": "0.0000039",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-10-09",
+      "buried_at": "2026-10-09",
+      "suggested_replacement": "qwen/qwen3.6-35b-a3b"
+    },
+    {
+      "id": "qwen/qwen3-max-thinking",
+      "name": "Qwen: Qwen3 Max Thinking",
+      "provider": "qwen",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000078",
+        "completion": "0.0000039",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-10-09",
+      "buried_at": "2026-10-09",
+      "suggested_replacement": "qwen/qwen3.6-35b-a3b"
+    },
+    {
+      "id": "qwen/qwen3-vl-235b-a22b-thinking",
+      "name": "Qwen: Qwen3 VL 235B A22B Thinking",
+      "provider": "qwen",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000004",
+        "completion": "0.000004",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 131072,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-10-09",
+      "buried_at": "2026-10-09",
+      "suggested_replacement": "qwen/qwen3-32b"
+    },
+    {
+      "id": "qwen/qwen3-vl-32b-instruct",
+      "name": "Qwen: Qwen3 VL 32B Instruct",
+      "provider": "qwen",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.000000104",
+        "completion": "0.000000416",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 131072,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-10-09",
+      "buried_at": "2026-10-09",
+      "suggested_replacement": "qwen/qwen3-32b"
+    },
+    {
+      "id": "qwen/qwen3-vl-8b-thinking",
+      "name": "Qwen: Qwen3 VL 8B Thinking",
+      "provider": "qwen",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000018",
+        "completion": "0.0000021",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 131072,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-10-09",
+      "buried_at": "2026-10-09",
+      "suggested_replacement": "qwen/qwen3-32b"
+    },
+    {
+      "id": "qwen/qwen3.6-max-preview",
+      "name": "Qwen: Qwen3.6 Max Preview",
+      "provider": "qwen",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.000001027",
+        "completion": "0.000006162",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-10-09",
+      "buried_at": "2026-10-09",
+      "suggested_replacement": "qwen/qwen3.6-35b-a3b"
+    },
+    {
       "id": "baidu/ernie-4.5-vl-424b-a47b",
       "name": "Baidu: ERNIE 4.5 VL 424B A47B ",
       "provider": "baidu",
