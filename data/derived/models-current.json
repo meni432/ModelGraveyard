@@ -91,13 +91,13 @@
       "name": "DeepSeek: DeepSeek Pro Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.00000022",
-        "completion": "0.000004",
+        "prompt": "0.00000021912",
+        "completion": "0.00000065736",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 943718,
+      "max_completion_tokens": 393216,
       "expiration_date": null,
       "created": 1789399174,
       "first_seen": "2026-09-14",
@@ -108,7 +108,7 @@
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000000107",
+        "prompt": "0.0000000095",
         "completion": "0.00000128",
         "image": null,
         "request": null
@@ -159,7 +159,7 @@
       "name": "MoonshotAI: Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.000000312",
+        "prompt": "0.000000289",
         "completion": "0.0000149",
         "image": null,
         "request": null
@@ -278,7 +278,7 @@
       "name": "Z.ai: GLM Flash Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.00000004",
+        "prompt": "0.00000003",
         "completion": "0.0000005",
         "image": null,
         "request": null
@@ -1451,7 +1451,7 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000000199",
+        "prompt": "0.00000003",
         "completion": "0.00000128",
         "image": null,
         "request": null
@@ -1468,7 +1468,7 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000000107",
+        "prompt": "0.0000000095",
         "completion": "0.00000128",
         "image": null,
         "request": null
@@ -1502,8 +1502,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000009483",
-        "completion": "0.0000018966",
+        "prompt": "0.0000002088",
+        "completion": "0.0000004176",
         "image": null,
         "request": null
       },
@@ -3491,7 +3491,7 @@
       "name": "MoonshotAI: Kimi K2.6",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.000000465",
+        "prompt": "0.0000004344",
         "completion": "0.00000245",
         "image": null,
         "request": null
@@ -3525,8 +3525,8 @@
       "name": "MoonshotAI: Kimi K3",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.00000064",
-        "completion": "0.0000135",
+        "prompt": "0.0000008",
+        "completion": "0.000015",
         "image": null,
         "request": null
       },
@@ -6449,13 +6449,13 @@
       "name": "Qwen: Qwen3.6 35B A3B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.000001",
+        "prompt": "0.0000001",
+        "completion": "0.00000095",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 235929,
+      "max_completion_tokens": 65536,
       "expiration_date": null,
       "created": 1777260255,
       "first_seen": "2026-05-27",
@@ -6959,8 +6959,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },
@@ -6993,8 +6993,8 @@
       "name": "Tencent: Hy4 preview",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000834",
-        "completion": "0.000002501",
+        "prompt": "0.0000007506",
+        "completion": "0.0000022509",
         "image": null,
         "request": null
       },
