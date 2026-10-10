@@ -74,7 +74,7 @@
       "name": "DeepSeek: DeepSeek Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000000077",
+        "prompt": "0.0000000001",
         "completion": "0.0000006",
         "image": null,
         "request": null
@@ -91,8 +91,8 @@
       "name": "DeepSeek: DeepSeek Pro Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000003",
-        "completion": "0.000005",
+        "prompt": "0.00000022",
+        "completion": "0.000004",
         "image": null,
         "request": null
       },
@@ -108,7 +108,7 @@
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000000049",
+        "prompt": "0.0000000107",
         "completion": "0.00000128",
         "image": null,
         "request": null
@@ -159,7 +159,7 @@
       "name": "MoonshotAI: Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.00000049",
+        "prompt": "0.000000312",
         "completion": "0.0000149",
         "image": null,
         "request": null
@@ -1451,7 +1451,7 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000000085",
+        "prompt": "0.0000000199",
         "completion": "0.00000128",
         "image": null,
         "request": null
@@ -1468,7 +1468,7 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000000049",
+        "prompt": "0.0000000107",
         "completion": "0.00000128",
         "image": null,
         "request": null
@@ -3814,13 +3814,13 @@
       "name": "NVIDIA: Nemotron 3.5 Lightning",
       "provider": "nvidia",
       "pricing": {
-        "prompt": "0.0000000469",
-        "completion": "0.000000134",
+        "prompt": "0.00000007",
+        "completion": "0.0000002",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 235929,
       "expiration_date": null,
       "created": 1786452751,
       "first_seen": "2026-08-11",
@@ -6024,13 +6024,13 @@
       "name": "Qwen: Qwen3 14B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.0000001",
-        "completion": "0.00000022",
+        "prompt": "0.00000012",
+        "completion": "0.00000024",
         "image": null,
         "request": null
       },
       "context_length": 40960,
-      "max_completion_tokens": 36864,
+      "max_completion_tokens": 16384,
       "expiration_date": null,
       "created": 1745876478,
       "first_seen": "2026-05-27",
