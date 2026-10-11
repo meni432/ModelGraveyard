@@ -91,8 +91,8 @@
       "name": "DeepSeek: DeepSeek Pro Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.00000021912",
-        "completion": "0.00000065736",
+        "prompt": "0.00000020988",
+        "completion": "0.00000062964",
         "image": null,
         "request": null
       },
@@ -108,8 +108,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.000000018",
-        "completion": "0.00000064",
+        "prompt": "0.000000017",
+        "completion": "0.0000012",
         "image": null,
         "request": null
       },
@@ -159,8 +159,8 @@
       "name": "MoonshotAI: Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.00000075",
-        "completion": "0.0000149",
+        "prompt": "0.00000073",
+        "completion": "0.0000135",
         "image": null,
         "request": null
       },
@@ -295,7 +295,7 @@
       "name": "Z.ai: GLM Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.000000039",
+        "prompt": "0.00000007",
         "completion": "0.0000048",
         "image": null,
         "request": null
@@ -3525,8 +3525,8 @@
       "name": "MoonshotAI: Kimi K3",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.0000008",
-        "completion": "0.00001",
+        "prompt": "0.00000073",
+        "completion": "0.0000135",
         "image": null,
         "request": null
       },
@@ -6959,8 +6959,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },
@@ -6993,8 +6993,8 @@
       "name": "Tencent: Hy4 preview",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000834",
-        "completion": "0.000002501",
+        "prompt": "0.0000007506",
+        "completion": "0.0000022509",
         "image": null,
         "request": null
       },
@@ -7673,7 +7673,7 @@
       "name": "Z.ai: GLM 5.3",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.000000039",
+        "prompt": "0.00000007",
         "completion": "0.0000048",
         "image": null,
         "request": null
