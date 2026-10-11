@@ -61241,6 +61241,106 @@
           "pct_change": 39.18
         }
       ]
+    },
+    {
+      "ts": "2026-10-11",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000001",
+          "next": "0.0000000348",
+          "pct_change": 34700
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000006",
+          "next": "0.0000001392",
+          "pct_change": -76.8
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-11",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000148",
+          "next": "0.000000018",
+          "pct_change": 21.62
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000128",
+          "next": "0.00000064",
+          "pct_change": -50
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-11",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash-0731",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000148",
+          "next": "0.000000018",
+          "pct_change": 21.62
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000128",
+          "next": "0.00000064",
+          "pct_change": -50
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-11",
+      "type": "price_changed",
+      "id": "nvidia/nemotron-3-ultra-550b-a55b",
+      "provider": "nvidia",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000005",
+          "next": "0.0000006",
+          "pct_change": 20
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000022",
+          "next": "0.0000024",
+          "pct_change": 9.09
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-11",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000044",
+          "next": "0.00000075",
+          "pct_change": 70.45
+        },
+        {
+          "field": "completion",
+          "prev": "0.00001489",
+          "next": "0.0000149",
+          "pct_change": 0.07
+        }
+      ]
     }
   ]
 }
