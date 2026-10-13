@@ -74,13 +74,13 @@
       "name": "DeepSeek: DeepSeek Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000000441",
-        "completion": "0.00000099",
+        "prompt": "0.0000000438",
+        "completion": "0.0000001752",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 943718,
+      "max_completion_tokens": 393216,
       "expiration_date": null,
       "created": 1789399150,
       "first_seen": "2026-09-14",
@@ -91,13 +91,13 @@
       "name": "DeepSeek: DeepSeek Pro Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.00000024948",
-        "completion": "0.00000074844",
+        "prompt": "0.00000025",
+        "completion": "0.000005",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 393216,
+      "max_completion_tokens": 943718,
       "expiration_date": null,
       "created": 1789399174,
       "first_seen": "2026-09-14",
@@ -109,7 +109,7 @@
       "provider": "~deepseek",
       "pricing": {
         "prompt": "0.0000000144",
-        "completion": "0.00000064",
+        "completion": "0.000000576",
         "image": null,
         "request": null
       },
@@ -279,7 +279,7 @@
       "provider": "~z-ai",
       "pricing": {
         "prompt": "0.0000000261",
-        "completion": "0.000001",
+        "completion": "0.0000009",
         "image": null,
         "request": null
       },
@@ -1451,7 +1451,7 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000000057",
+        "prompt": "0.00000005",
         "completion": "0.00000128",
         "image": null,
         "request": null
@@ -1502,8 +1502,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000041238",
-        "completion": "0.00000082476",
+        "prompt": "0.000000446136",
+        "completion": "0.000000892272",
         "image": null,
         "request": null
       },
@@ -1536,8 +1536,8 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
+        "prompt": "0.0000000438",
+        "completion": "0.0000001752",
         "image": null,
         "request": null
       },
@@ -2216,8 +2216,8 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.0000000765",
-        "completion": "0.000000255",
+        "prompt": "0.00000009",
+        "completion": "0.0000003",
         "image": null,
         "request": null
       },
@@ -6853,6 +6853,40 @@
       "last_seen": "2026-10-13"
     },
     {
+      "id": "scaledown/extract",
+      "name": "ScaleDown: Extract",
+      "provider": "scaledown",
+      "pricing": {
+        "prompt": "0.00000004",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1000000,
+      "max_completion_tokens": 900000,
+      "expiration_date": null,
+      "created": 1791893351,
+      "first_seen": "2026-10-13",
+      "last_seen": "2026-10-13"
+    },
+    {
+      "id": "scaledown/summarize",
+      "name": "ScaleDown: Summarize",
+      "provider": "scaledown",
+      "pricing": {
+        "prompt": "0.00000004",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1000000,
+      "max_completion_tokens": 4000,
+      "expiration_date": null,
+      "created": 1791893360,
+      "first_seen": "2026-10-13",
+      "last_seen": "2026-10-13"
+    },
+    {
       "id": "stepfun/step-3.5-flash",
       "name": "StepFun: Step 3.5 Flash",
       "provider": "stepfun",
@@ -7708,7 +7742,7 @@
       "provider": "z-ai",
       "pricing": {
         "prompt": "0.0000000261",
-        "completion": "0.000001",
+        "completion": "0.0000009",
         "image": null,
         "request": null
       },
