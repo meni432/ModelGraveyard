@@ -1,6 +1,23 @@
 {
   "buried": [
     {
+      "id": "unbiased/pareto",
+      "name": "Pareto",
+      "provider": "unbiased",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000025",
+        "completion": "0.0000075",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-10-13",
+      "buried_at": "2026-10-14",
+      "suggested_replacement": "unbiased/pareto-26.9"
+    },
+    {
       "id": "apodex/apodex-1.1-mini:free",
       "name": "Apodex: Apodex 1.1 Mini (free)",
       "provider": "apodex",
