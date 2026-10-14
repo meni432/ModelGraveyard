@@ -74,7 +74,7 @@
       "name": "DeepSeek: DeepSeek Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.00000002016",
+        "prompt": "0.00000001584",
         "completion": "0.000000891",
         "image": null,
         "request": null
@@ -312,7 +312,7 @@
       "name": "Z.ai: GLM Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.000000063",
+        "prompt": "0.0000000608",
         "completion": "0.0000044",
         "image": null,
         "request": null
@@ -1502,8 +1502,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000041064",
-        "completion": "0.00000082128",
+        "prompt": "0.000000365052",
+        "completion": "0.000000730104",
         "image": null,
         "request": null
       },
@@ -1536,7 +1536,7 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000002016",
+        "prompt": "0.00000001584",
         "completion": "0.000000891",
         "image": null,
         "request": null
@@ -2250,8 +2250,8 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.00000009",
-        "completion": "0.0000003",
+        "prompt": "0.0000000765",
+        "completion": "0.000000255",
         "image": null,
         "request": null
       },
@@ -3406,8 +3406,8 @@
       "name": "Mistral: Mistral Small 3.2 24B",
       "provider": "mistralai",
       "pricing": {
-        "prompt": "0.00000009375",
-        "completion": "0.00000025",
+        "prompt": "0.000000075",
+        "completion": "0.0000002",
         "image": null,
         "request": null
       },
@@ -4936,8 +4936,8 @@
       "name": "OpenAI: GPT-5.6 Sol",
       "provider": "openai",
       "pricing": {
-        "prompt": "0.000002",
-        "completion": "0.00001",
+        "prompt": "0.000004",
+        "completion": "0.00002",
         "image": null,
         "request": null
       },
@@ -4953,8 +4953,8 @@
       "name": "OpenAI: GPT-5.6 Sol Pro",
       "provider": "openai",
       "pricing": {
-        "prompt": "0.000002",
-        "completion": "0.00001",
+        "prompt": "0.000004",
+        "completion": "0.00002",
         "image": null,
         "request": null
       },
@@ -4970,8 +4970,8 @@
       "name": "OpenAI: GPT-5.6 Sol Pro (batch)",
       "provider": "openai",
       "pricing": {
-        "prompt": "0.000001",
-        "completion": "0.000005",
+        "prompt": "0.000002",
+        "completion": "0.00001",
         "image": null,
         "request": null
       },
@@ -4987,8 +4987,8 @@
       "name": "OpenAI: GPT-5.6 Sol (batch)",
       "provider": "openai",
       "pricing": {
-        "prompt": "0.000001",
-        "completion": "0.000005",
+        "prompt": "0.000002",
+        "completion": "0.00001",
         "image": null,
         "request": null
       },
@@ -6483,13 +6483,13 @@
       "name": "Qwen: Qwen3.6 35B A3B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.0000001",
-        "completion": "0.00000095",
+        "prompt": "0.00000015",
+        "completion": "0.000001",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 65536,
+      "max_completion_tokens": 235929,
       "expiration_date": null,
       "created": 1777260255,
       "first_seen": "2026-05-27",
@@ -7724,7 +7724,7 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.00000005",
+        "prompt": "0.00000004",
         "completion": "0.000007",
         "image": null,
         "request": null
