@@ -63145,6 +63145,122 @@
         "first_seen": "2026-09-18",
         "last_seen": "2026-10-13"
       }
+    },
+    {
+      "ts": "2026-10-14",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-pro-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000018",
+          "next": "0.000000225",
+          "pct_change": 25
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-14",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000001161",
+          "next": "0.00000002016",
+          "pct_change": 73.64
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-14",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4.1-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000001161",
+          "next": "0.00000002016",
+          "pct_change": 73.64
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-14",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.3-flash",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000015",
+          "next": "0.000000036",
+          "pct_change": -76
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000005",
+          "next": "0.0000009",
+          "pct_change": 80
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-14",
+      "type": "price_changed",
+      "id": "~z-ai/glm-latest",
+      "provider": "~z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000063",
+          "next": "0.0000000576",
+          "pct_change": -8.57
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-14",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000007",
+          "next": "0.000000536",
+          "pct_change": -23.43
+        },
+        {
+          "field": "completion",
+          "prev": "0.000015",
+          "next": "0.000014",
+          "pct_change": -6.67
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-14",
+      "type": "price_changed",
+      "id": "google/gemma-4-26b-a4b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000765",
+          "next": "0.00000009",
+          "pct_change": 17.65
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000255",
+          "next": "0.0000003",
+          "pct_change": 17.65
+        }
+      ]
     }
   ]
 }
