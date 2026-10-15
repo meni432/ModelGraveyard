@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/context_changed.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/context_changed.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-10-13T00:00:00Z</updated>
+  <updated>2026-10-15T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-15:context_changed:stepfun%2Fstep-5-preview</id>
+    <title>Context window changed: stepfun/step-5-preview</title>
+    <updated>2026-10-15T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/stepfun%2Fstep-5-preview"/>
+    <category term="context_changed"/>
+    <category term="provider:stepfun"/>
+    <summary>1000000 → 1048576 tokens</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-10-13:context_changed:inclusionai%2Fling-3.0-flash-vl</id>
     <title>Context window changed: inclusionai/ling-3.0-flash-vl</title>
@@ -895,14 +904,5 @@
     <category term="context_changed"/>
     <category term="provider:meta-llama"/>
     <summary>10000000 → 1310720 tokens</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-21:context_changed:google%2Fgemma-3-27b-it</id>
-    <title>Context window changed: google/gemma-3-27b-it</title>
-    <updated>2026-07-21T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemma-3-27b-it"/>
-    <category term="context_changed"/>
-    <category term="provider:google"/>
-    <summary>131072 → 262144 tokens</summary>
   </entry>
 </feed>
