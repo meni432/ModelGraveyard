@@ -24,6 +24,15 @@
     <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 1000000.</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-10-15:model_added:meta%2Fmuse-spark-open</id>
+    <title>Added: meta/muse-spark-open</title>
+    <updated>2026-10-15T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meta%2Fmuse-spark-open"/>
+    <category term="model_added"/>
+    <category term="provider:meta"/>
+    <summary>New model on OpenRouter. Initial prompt price: $1.2500/Mtok, context: 1048576.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-10-14:model_added:~unbiased%2Fpareto-latest</id>
     <title>Added: ~unbiased/pareto-latest</title>
     <updated>2026-10-14T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="model_added"/>
     <category term="provider:x-ai"/>
     <summary>New model on OpenRouter. Initial prompt price: $1.0000/Mtok, context: 1000000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-04:model_added:openai%2Fgpt-6-astra</id>
-    <title>Added: openai/gpt-6-astra</title>
-    <updated>2026-09-04T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-6-astra"/>
-    <category term="model_added"/>
-    <category term="provider:openai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $10.0000/Mtok, context: 1050000.</summary>
   </entry>
 </feed>
