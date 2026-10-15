@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/deprecation_announced.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/deprecation_announced.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-10-14T00:00:00Z</updated>
+  <updated>2026-10-15T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-15:deprecation_announced:anthropic%2Fclaude-sonnet-4</id>
+    <title>Deprecation announced: anthropic/claude-sonnet-4 (sunset 2026-10-15)</title>
+    <updated>2026-10-15T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-sonnet-4"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:anthropic"/>
+    <summary>Provider announced retirement on 2026-10-15.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-10-14:deprecation_announced:unbiased%2Fpareto-26.10-preview</id>
     <title>Deprecation announced: unbiased/pareto-26.10-preview (sunset 2026-10-15)</title>
@@ -895,14 +904,5 @@
     <category term="deprecation_announced"/>
     <category term="provider:poolside"/>
     <summary>Provider announced retirement on 9999-01-01.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-22:deprecation_announced:stepfun%2Fstep-3.5-flash</id>
-    <title>Deprecation announced: stepfun/step-3.5-flash (sunset 2026-06-29)</title>
-    <updated>2026-06-22T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/stepfun%2Fstep-3.5-flash"/>
-    <category term="deprecation_announced"/>
-    <category term="provider:stepfun"/>
-    <summary>Provider announced retirement on 2026-06-29.</summary>
   </entry>
 </feed>
