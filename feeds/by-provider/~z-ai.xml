@@ -33,6 +33,15 @@
     <summary>prompt: $0.0150/Mtok → $0.0141/Mtok (-6%); completion: $0.8000/Mtok → $0.8108/Mtok (+1.35%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-10-16:price_changed:~z-ai%2Fglm-flash-latest</id>
+    <title>Price changed: ~z-ai/glm-flash-latest</title>
+    <updated>2026-10-16T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/~z-ai%2Fglm-flash-latest"/>
+    <category term="price_changed"/>
+    <category term="provider:~z-ai"/>
+    <summary>prompt: $0.0141/Mtok → $0.0133/Mtok (-5.53%); completion: $0.8108/Mtok → $0.7222/Mtok (-10.93%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-10-15:price_changed:~z-ai%2Fglm-latest</id>
     <title>Price changed: ~z-ai/glm-latest</title>
     <updated>2026-10-15T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:~z-ai"/>
     <summary>prompt: $0.9700/Mtok → $0.8727/Mtok (-10.03%); completion: $3.3077/Mtok → $3.3600/Mtok (+1.58%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-10:price_changed:~z-ai%2Fglm-flash-latest</id>
-    <title>Price changed: ~z-ai/glm-flash-latest</title>
-    <updated>2026-09-10T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/~z-ai%2Fglm-flash-latest"/>
-    <category term="price_changed"/>
-    <category term="provider:~z-ai"/>
-    <summary>prompt: $0.0750/Mtok → $0.0700/Mtok (-6.67%); completion: $0.2500/Mtok → $0.2333/Mtok (-6.68%)</summary>
   </entry>
 </feed>
