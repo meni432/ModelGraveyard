@@ -66519,6 +66519,108 @@
           "pct_change": 0.16
         }
       ]
+    },
+    {
+      "ts": "2026-10-17",
+      "type": "price_changed",
+      "id": "nvidia/nemotron-3.5-super-vl",
+      "provider": "nvidia",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000001",
+          "next": "0.00000015",
+          "pct_change": 50
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000004",
+          "next": "0.0000005",
+          "pct_change": 25
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-17",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000001",
+          "next": "0.00000008",
+          "pct_change": -20
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-17",
+      "type": "price_changed",
+      "id": "tencent/hy4-preview",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000834",
+          "next": "0.0000007506",
+          "pct_change": -10
+        },
+        {
+          "field": "completion",
+          "prev": "0.000002501",
+          "next": "0.0000022509",
+          "pct_change": -10
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-17",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000146",
+          "next": "0.0000000045",
+          "pct_change": -69.18
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-17",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash-0731",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000146",
+          "next": "0.0000000045",
+          "pct_change": -69.18
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-17",
+      "type": "price_changed",
+      "id": "tencent/hy3",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000132",
+          "next": "0.0000000825",
+          "pct_change": -37.5
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000528",
+          "next": "0.00000033",
+          "pct_change": -37.5
+        }
+      ]
     }
   ]
 }
