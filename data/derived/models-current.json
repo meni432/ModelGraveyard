@@ -74,13 +74,13 @@
       "name": "DeepSeek: DeepSeek Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.00000004",
-        "completion": "0.0000007",
+        "prompt": "0.00000015",
+        "completion": "0.0000006",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 943718,
+      "max_completion_tokens": 393216,
       "expiration_date": null,
       "created": 1789399150,
       "first_seen": "2026-09-14",
@@ -91,8 +91,8 @@
       "name": "DeepSeek: DeepSeek Pro Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.00000024948",
-        "completion": "0.00000074844",
+        "prompt": "0.00000012332",
+        "completion": "0.0000003831",
         "image": null,
         "request": null
       },
@@ -108,13 +108,13 @@
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.000000021",
-        "completion": "0.000000528",
+        "prompt": "0.0000000083",
+        "completion": "0.0000002829",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 943718,
       "expiration_date": null,
       "created": 1785606009,
       "first_seen": "2026-08-01",
@@ -159,8 +159,8 @@
       "name": "MoonshotAI: Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.000000294",
-        "completion": "0.000024",
+        "prompt": "0.00000027",
+        "completion": "0.0000139778",
         "image": null,
         "request": null
       },
@@ -295,8 +295,8 @@
       "name": "Z.ai: GLM Flash Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.000000049",
-        "completion": "0.00000065",
+        "prompt": "0.0000000251",
+        "completion": "0.0000003966",
         "image": null,
         "request": null
       },
@@ -312,13 +312,13 @@
       "name": "Z.ai: GLM Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.000000079",
-        "completion": "0.0000048",
+        "prompt": "0.000000069",
+        "completion": "0.000003939",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 943718,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1787151053,
       "first_seen": "2026-08-19",
@@ -1451,8 +1451,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000007",
-        "completion": "0.00000014",
+        "prompt": "0.0000000083",
+        "completion": "0.0000002829",
         "image": null,
         "request": null
       },
@@ -1519,8 +1519,8 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000004",
-        "completion": "0.0000007",
+        "prompt": "0.0000000161",
+        "completion": "0.000000594",
         "image": null,
         "request": null
       },
@@ -1529,6 +1529,23 @@
       "expiration_date": null,
       "created": 1789021285,
       "first_seen": "2026-09-10",
+      "last_seen": "2026-10-17"
+    },
+    {
+      "id": "deepseek/deepseek-v4.1-flash-1017",
+      "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+      "provider": "deepseek",
+      "pricing": {
+        "prompt": "0.00000015",
+        "completion": "0.0000006",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1048576,
+      "max_completion_tokens": 393216,
+      "expiration_date": null,
+      "created": 1792225624,
+      "first_seen": "2026-10-17",
       "last_seen": "2026-10-17"
     },
     {
@@ -7877,8 +7894,8 @@
       "name": "Z.ai: GLM 5.3 Flash",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.000000049",
-        "completion": "0.00000065",
+        "prompt": "0.0000000251",
+        "completion": "0.0000003966",
         "image": null,
         "request": null
       },
