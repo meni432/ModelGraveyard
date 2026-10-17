@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/reflection.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/reflection.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-10-16T00:00:00Z</updated>
+  <updated>2026-10-17T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-17:price_changed:reflection%2Fbeam-1.0-501b-a23b</id>
+    <title>Price changed: reflection/beam-1.0-501b-a23b</title>
+    <updated>2026-10-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/reflection%2Fbeam-1.0-501b-a23b"/>
+    <category term="price_changed"/>
+    <category term="provider:reflection"/>
+    <summary>prompt: $0.2500/Mtok → $1.0000/Mtok (+300%); completion: $1.0000/Mtok → $3.0000/Mtok (+200%)</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-10-16:model_added:reflection%2Fbeam-1.0-501b-a23b</id>
     <title>Added: reflection/beam-1.0-501b-a23b</title>
