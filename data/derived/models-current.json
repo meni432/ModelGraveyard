@@ -108,8 +108,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.00000000392",
-        "completion": "0.000000143616",
+        "prompt": "0.0000000086",
+        "completion": "0.00000045",
         "image": null,
         "request": null
       },
@@ -159,8 +159,8 @@
       "name": "MoonshotAI: Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.00000027",
-        "completion": "0.000014",
+        "prompt": "0.00000025",
+        "completion": "0.000008",
         "image": null,
         "request": null
       },
@@ -312,8 +312,8 @@
       "name": "Z.ai: GLM Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.0000000632",
-        "completion": "0.0000044",
+        "prompt": "0.000000075",
+        "completion": "0.0000022",
         "image": null,
         "request": null
       },
@@ -1451,7 +1451,7 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000000049",
+        "prompt": "0.0000000086",
         "completion": "0.00000045",
         "image": null,
         "request": null
@@ -1519,7 +1519,7 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000000648",
+        "prompt": "0.00000004",
         "completion": "0.000000144",
         "image": null,
         "request": null
@@ -7895,7 +7895,7 @@
       "provider": "z-ai",
       "pricing": {
         "prompt": "0.000000079",
-        "completion": "0.0000025",
+        "completion": "0.0000018",
         "image": null,
         "request": null
       },

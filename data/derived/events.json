@@ -66928,6 +66928,108 @@
           "pct_change": 50
         }
       ]
+    },
+    {
+      "ts": "2026-10-18",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4.1-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000648",
+          "next": "0.00000004",
+          "pct_change": -38.27
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-18",
+      "type": "price_changed",
+      "id": "~z-ai/glm-latest",
+      "provider": "~z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000632",
+          "next": "0.000000075",
+          "pct_change": 18.67
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000044",
+          "next": "0.0000022",
+          "pct_change": -50
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-18",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.3",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.0000025",
+          "next": "0.0000018",
+          "pct_change": -28
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-18",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000000392",
+          "next": "0.0000000086",
+          "pct_change": 119.39
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000143616",
+          "next": "0.00000045",
+          "pct_change": 213.34
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-18",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash-0731",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000049",
+          "next": "0.0000000086",
+          "pct_change": 75.51
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-18",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000027",
+          "next": "0.00000025",
+          "pct_change": -7.41
+        },
+        {
+          "field": "completion",
+          "prev": "0.000014",
+          "next": "0.000008",
+          "pct_change": -42.86
+        }
+      ]
     }
   ]
 }

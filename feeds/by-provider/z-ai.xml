@@ -24,6 +24,15 @@
     <summary>completion: $4.8000/Mtok → $2.5000/Mtok (-47.92%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-10-18:price_changed:z-ai%2Fglm-5.3</id>
+    <title>Price changed: z-ai/glm-5.3</title>
+    <updated>2026-10-18T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.3"/>
+    <category term="price_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>completion: $2.5000/Mtok → $1.8000/Mtok (-28%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-10-17:price_changed:z-ai%2Fglm-5.3-flash</id>
     <title>Price changed: z-ai/glm-5.3-flash</title>
     <updated>2026-10-17T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="model_removed"/>
     <category term="provider:z-ai"/>
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-24:model_added:z-ai%2Fglm-5.3-prime</id>
-    <title>Added: z-ai/glm-5.3-prime</title>
-    <updated>2026-09-24T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.3-prime"/>
-    <category term="model_added"/>
-    <category term="provider:z-ai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $2.8000/Mtok, context: 1000000.</summary>
   </entry>
 </feed>
