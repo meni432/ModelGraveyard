@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-provider/~unbiased.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/~unbiased.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-10-14T00:00:00Z</updated>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-18:price_changed:~unbiased%2Fpareto-latest</id>
+    <title>Price changed: ~unbiased/pareto-latest</title>
+    <updated>2026-10-18T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/~unbiased%2Fpareto-latest"/>
+    <category term="price_changed"/>
+    <category term="provider:~unbiased"/>
+    <summary>prompt: $2.5000/Mtok → $0.8000/Mtok (-68%); completion: $7.5000/Mtok → $3.2000/Mtok (-57.33%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-18:context_changed:~unbiased%2Fpareto-latest</id>
+    <title>Context window changed: ~unbiased/pareto-latest</title>
+    <updated>2026-10-18T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/~unbiased%2Fpareto-latest"/>
+    <category term="context_changed"/>
+    <category term="provider:~unbiased"/>
+    <summary>262144 → 1048576 tokens</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-10-14:model_added:~unbiased%2Fpareto-latest</id>
     <title>Added: ~unbiased/pareto-latest</title>
