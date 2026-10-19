@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/morph.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/morph.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-05-27T00:00:00Z</updated>
+  <updated>2026-10-19T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-19:context_changed:morph%2Fmorph-v3-fast</id>
+    <title>Context window changed: morph/morph-v3-fast</title>
+    <updated>2026-10-19T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/morph%2Fmorph-v3-fast"/>
+    <category term="context_changed"/>
+    <category term="provider:morph"/>
+    <summary>81920 → 262144 tokens</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-05-27:model_added:morph%2Fmorph-v3-large</id>
     <title>Added: morph/morph-v3-large</title>
