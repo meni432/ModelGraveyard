@@ -15,6 +15,15 @@
     <summary>prompt: $0.2490/Mtok → $0.2390/Mtok (-4.02%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-10-19:price_changed:~moonshotai%2Fkimi-latest</id>
+    <title>Price changed: ~moonshotai/kimi-latest</title>
+    <updated>2026-10-19T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/~moonshotai%2Fkimi-latest"/>
+    <category term="price_changed"/>
+    <category term="provider:~moonshotai"/>
+    <summary>prompt: $0.2390/Mtok → $0.2380/Mtok (-0.42%); completion: $11.9360/Mtok → $13.0000/Mtok (+8.91%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-10-18:price_changed:~moonshotai%2Fkimi-latest</id>
     <title>Price changed: ~moonshotai/kimi-latest</title>
     <updated>2026-10-18T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="context_changed"/>
     <category term="provider:~moonshotai"/>
     <summary>262144 → 1048576 tokens</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-10:price_changed:~moonshotai%2Fkimi-latest</id>
-    <title>Price changed: ~moonshotai/kimi-latest</title>
-    <updated>2026-07-10T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/~moonshotai%2Fkimi-latest"/>
-    <category term="price_changed"/>
-    <category term="provider:~moonshotai"/>
-    <summary>prompt: $0.6500/Mtok → $0.6600/Mtok (+1.54%)</summary>
   </entry>
 </feed>

@@ -15,6 +15,15 @@
     <summary>81920 → 262144 tokens</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-10-19:context_changed:meta-llama%2Fllama-4-maverick</id>
+    <title>Context window changed: meta-llama/llama-4-maverick</title>
+    <updated>2026-10-19T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meta-llama%2Fllama-4-maverick"/>
+    <category term="context_changed"/>
+    <category term="provider:meta-llama"/>
+    <summary>1048576 → 524288 tokens</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-10-18:context_changed:~unbiased%2Fpareto-latest</id>
     <title>Context window changed: ~unbiased/pareto-latest</title>
     <updated>2026-10-18T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="context_changed"/>
     <category term="provider:mistralai"/>
     <summary>131072 → 256000 tokens</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-21:context_changed:meta-llama%2Fllama-guard-4-12b</id>
-    <title>Context window changed: meta-llama/llama-guard-4-12b</title>
-    <updated>2026-07-21T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/meta-llama%2Fllama-guard-4-12b"/>
-    <category term="context_changed"/>
-    <category term="provider:meta-llama"/>
-    <summary>163840 → 1048576 tokens</summary>
   </entry>
 </feed>

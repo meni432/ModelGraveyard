@@ -1,6 +1,57 @@
 {
   "buried": [
     {
+      "id": "deepseek/deepseek-r1",
+      "name": "DeepSeek: R1",
+      "provider": "deepseek",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000007",
+        "completion": "0.0000025",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 64000,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-10-19",
+      "buried_at": "2026-10-19",
+      "suggested_replacement": "deepseek/deepseek-v3.2"
+    },
+    {
+      "id": "microsoft/wizardlm-2-8x22b",
+      "name": "WizardLM-2 8x22B",
+      "provider": "microsoft",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000062",
+        "completion": "0.00000062",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 65535,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-10-19",
+      "buried_at": "2026-10-19",
+      "suggested_replacement": "microsoft/phi-4"
+    },
+    {
+      "id": "sao10k/l3.3-euryale-70b",
+      "name": "Sao10K: Llama 3.3 Euryale 70B",
+      "provider": "sao10k",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000065",
+        "completion": "0.00000075",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 131072,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-10-19",
+      "buried_at": "2026-10-19",
+      "suggested_replacement": "sao10k/l3.1-euryale-70b"
+    },
+    {
       "id": "anthropic/claude-sonnet-4",
       "name": "Anthropic: Claude Sonnet 4",
       "provider": "anthropic",

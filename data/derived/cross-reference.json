@@ -1,9 +1,9 @@
 {
   "generated_at": "2026-10-19",
-  "openrouter_catalog_size": 460,
+  "openrouter_catalog_size": 458,
   "litellm_catalog_size": 2935,
-  "shared_count": 101,
-  "openrouter_only_count": 359,
+  "shared_count": 100,
+  "openrouter_only_count": 358,
   "litellm_only_count": 2821,
   "disagreements": [
     {
@@ -27,6 +27,17 @@
       "litellm_deprecation_date": null,
       "severity": "high",
       "noted_at": "2026-06-22"
+    },
+    {
+      "slug": "deepseek:deepseek-r1",
+      "openrouter_status": "removed",
+      "openrouter_id": "deepseek/deepseek-r1",
+      "openrouter_removed_at": "2026-10-19",
+      "litellm_status": "active",
+      "litellm_id": "deepseek/deepseek-r1",
+      "litellm_deprecation_date": null,
+      "severity": "high",
+      "noted_at": "2026-10-19"
     },
     {
       "slug": "meta-llama:llama-guard-3-8b",
@@ -225,11 +236,6 @@
       "slug": "deepseek:deepseek-chat",
       "openrouter_id": "deepseek/deepseek-chat",
       "litellm_id": "deepseek-chat"
-    },
-    {
-      "slug": "deepseek:deepseek-r1",
-      "openrouter_id": "deepseek/deepseek-r1",
-      "litellm_id": "deepseek/deepseek-r1"
     },
     {
       "slug": "deepseek:deepseek-v3-2",

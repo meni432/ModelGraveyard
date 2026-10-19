@@ -15,6 +15,15 @@
     <summary>prompt: $0.0500/Mtok → $0.0509/Mtok (+1.8%); completion: $0.3300/Mtok → $0.3350/Mtok (+1.52%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-10-19:context_changed:meta-llama%2Fllama-4-maverick</id>
+    <title>Context window changed: meta-llama/llama-4-maverick</title>
+    <updated>2026-10-19T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meta-llama%2Fllama-4-maverick"/>
+    <category term="context_changed"/>
+    <category term="provider:meta-llama"/>
+    <summary>1048576 → 524288 tokens</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-10-16:price_changed:meta-llama%2Fllama-3.3-70b-instruct</id>
     <title>Price changed: meta-llama/llama-3.3-70b-instruct</title>
     <updated>2026-10-16T00:00:00Z</updated>
