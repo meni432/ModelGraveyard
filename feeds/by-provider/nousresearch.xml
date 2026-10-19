@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-provider/nousresearch.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/nousresearch.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-09-09T00:00:00Z</updated>
+  <updated>2026-10-19T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-19:deprecation_announced:nousresearch%2Fhermes-3-llama-3.1-70b</id>
+    <title>Deprecation announced: nousresearch/hermes-3-llama-3.1-70b (sunset 2026-11-02)</title>
+    <updated>2026-10-19T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nousresearch%2Fhermes-3-llama-3.1-70b"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:nousresearch"/>
+    <summary>Provider announced retirement on 2026-11-02.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-19:deprecation_announced:nousresearch%2Fhermes-3-llama-3.1-405b</id>
+    <title>Deprecation announced: nousresearch/hermes-3-llama-3.1-405b (sunset 2026-11-02)</title>
+    <updated>2026-10-19T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nousresearch%2Fhermes-3-llama-3.1-405b"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:nousresearch"/>
+    <summary>Provider announced retirement on 2026-11-02.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-09-09:model_removed:nousresearch%2Fhermes-4-70b</id>
     <title>Removed: nousresearch/hermes-4-70b</title>

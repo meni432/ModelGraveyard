@@ -74,7 +74,7 @@
       "name": "DeepSeek: DeepSeek Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.000000047",
+        "prompt": "0.000000035",
         "completion": "0.0000006",
         "image": null,
         "request": null
@@ -91,8 +91,8 @@
       "name": "DeepSeek: DeepSeek Pro Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000002244",
-        "completion": "0.0000006732",
+        "prompt": "0.0000001307",
+        "completion": "0.000008",
         "image": null,
         "request": null
       },
@@ -108,8 +108,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000000114",
-        "completion": "0.00000045",
+        "prompt": "0.00000000392",
+        "completion": "0.00000012",
         "image": null,
         "request": null
       },
@@ -160,7 +160,7 @@
       "provider": "~moonshotai",
       "pricing": {
         "prompt": "0.000000238",
-        "completion": "0.000013",
+        "completion": "0.000016",
         "image": null,
         "request": null
       },
@@ -312,7 +312,7 @@
       "name": "Z.ai: GLM Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.000000045",
+        "prompt": "0.000000051",
         "completion": "0.000006",
         "image": null,
         "request": null
@@ -1434,13 +1434,13 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.00000015",
+        "prompt": "0.0000001298",
+        "completion": "0.0000003894",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 943718,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1785478908,
       "first_seen": "2026-07-31",
@@ -1468,8 +1468,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000095526",
-        "completion": "0.00000191052",
+        "prompt": "0.000000368358",
+        "completion": "0.000000736716",
         "image": null,
         "request": null
       },
@@ -1502,8 +1502,8 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000000376",
-        "completion": "0.00000008",
+        "prompt": "0.000000028",
+        "completion": "0.0000000112",
         "image": null,
         "request": null
       },
@@ -2250,8 +2250,8 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.00000009",
-        "completion": "0.0000003",
+        "prompt": "0.0000000765",
+        "completion": "0.000000255",
         "image": null,
         "request": null
       },
@@ -2430,6 +2430,23 @@
       "expiration_date": null,
       "created": 1788892137,
       "first_seen": "2026-09-08",
+      "last_seen": "2026-10-19"
+    },
+    {
+      "id": "inception/mercury-3",
+      "name": "Inception: Mercury 3",
+      "provider": "inception",
+      "pricing": {
+        "prompt": "0.0000001",
+        "completion": "0.00000035",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1000000,
+      "max_completion_tokens": 131072,
+      "expiration_date": null,
+      "created": 1792158337,
+      "first_seen": "2026-10-19",
       "last_seen": "2026-10-19"
     },
     {
@@ -3719,7 +3736,7 @@
       },
       "context_length": 131072,
       "max_completion_tokens": 16384,
-      "expiration_date": null,
+      "expiration_date": "2026-11-02",
       "created": 1723766400,
       "first_seen": "2026-05-27",
       "last_seen": "2026-10-19"
@@ -3736,7 +3753,7 @@
       },
       "context_length": 131072,
       "max_completion_tokens": 16384,
-      "expiration_date": null,
+      "expiration_date": "2026-11-02",
       "created": 1723939200,
       "first_seen": "2026-05-27",
       "last_seen": "2026-10-19"
@@ -6789,8 +6806,8 @@
       "name": "Reflection: Beam 1.0 501B A23B",
       "provider": "reflection",
       "pricing": {
-        "prompt": "0.000001",
-        "completion": "0.000003",
+        "prompt": "0.0000003",
+        "completion": "0.000001",
         "image": null,
         "request": null
       },
@@ -7129,8 +7146,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },
@@ -7163,8 +7180,8 @@
       "name": "Tencent: Hy4 preview",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000834",
-        "completion": "0.000002501",
+        "prompt": "0.0000007506",
+        "completion": "0.0000022509",
         "image": null,
         "request": null
       },
