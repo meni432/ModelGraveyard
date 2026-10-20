@@ -91,7 +91,7 @@
       "name": "DeepSeek: DeepSeek Pro Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.000000225",
+        "prompt": "0.0000001307",
         "completion": "0.000008",
         "image": null,
         "request": null
@@ -108,7 +108,7 @@
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.00000000392",
+        "prompt": "0.0000000052",
         "completion": "0.00000012",
         "image": null,
         "request": null
@@ -295,7 +295,7 @@
       "name": "Z.ai: GLM Flash Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.000000037476",
+        "prompt": "0.000000048",
         "completion": "0.00000016",
         "image": null,
         "request": null
@@ -1434,8 +1434,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000044",
-        "completion": "0.00000132",
+        "prompt": "0.0000001298",
+        "completion": "0.0000003894",
         "image": null,
         "request": null
       },
@@ -1468,8 +1468,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000095526",
-        "completion": "0.00000191052",
+        "prompt": "0.000000403854",
+        "completion": "0.000000807708",
         "image": null,
         "request": null
       },
@@ -1502,7 +1502,7 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000056",
+        "prompt": "0.00000002832",
         "completion": "0.00000012",
         "image": null,
         "request": null
@@ -1611,7 +1611,7 @@
       },
       "context_length": 1048576,
       "max_completion_tokens": 65535,
-      "expiration_date": "2026-10-20",
+      "expiration_date": null,
       "created": 1750172488,
       "first_seen": "2026-05-27",
       "last_seen": "2026-10-20"
@@ -1645,7 +1645,7 @@
       },
       "context_length": 1048576,
       "max_completion_tokens": 65535,
-      "expiration_date": "2026-10-20",
+      "expiration_date": null,
       "created": 1753200276,
       "first_seen": "2026-05-27",
       "last_seen": "2026-10-20"
@@ -1668,23 +1668,6 @@
       "last_seen": "2026-10-20"
     },
     {
-      "id": "google/gemini-2.5-flash:batch",
-      "name": "Google: Gemini 2.5 Flash (batch)",
-      "provider": "google",
-      "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.00000125",
-        "image": "0.00000015",
-        "request": null
-      },
-      "context_length": 1048576,
-      "max_completion_tokens": 65535,
-      "expiration_date": "2026-10-20",
-      "created": 1750172488,
-      "first_seen": "2026-08-06",
-      "last_seen": "2026-10-20"
-    },
-    {
       "id": "google/gemini-2.5-pro",
       "name": "Google: Gemini 2.5 Pro",
       "provider": "google",
@@ -1696,7 +1679,7 @@
       },
       "context_length": 1048576,
       "max_completion_tokens": 65536,
-      "expiration_date": "2026-10-20",
+      "expiration_date": null,
       "created": 1750169544,
       "first_seen": "2026-05-27",
       "last_seen": "2026-10-20"
@@ -1716,23 +1699,6 @@
       "expiration_date": null,
       "created": 1749137257,
       "first_seen": "2026-05-27",
-      "last_seen": "2026-10-20"
-    },
-    {
-      "id": "google/gemini-2.5-pro:batch",
-      "name": "Google: Gemini 2.5 Pro (batch)",
-      "provider": "google",
-      "pricing": {
-        "prompt": "0.000000625",
-        "completion": "0.000005",
-        "image": "0.000000625",
-        "request": null
-      },
-      "context_length": 1048576,
-      "max_completion_tokens": 65536,
-      "expiration_date": "2026-10-20",
-      "created": 1750169544,
-      "first_seen": "2026-08-06",
       "last_seen": "2026-10-20"
     },
     {
@@ -6330,13 +6296,13 @@
       "name": "Qwen: Qwen3 Next 80B A3B Instruct",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000009",
+        "prompt": "0.0000001",
         "completion": "0.0000011",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 16384,
+      "max_completion_tokens": 235929,
       "expiration_date": null,
       "created": 1757612213,
       "first_seen": "2026-05-27",
@@ -7146,8 +7112,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },
@@ -7180,8 +7146,8 @@
       "name": "Tencent: Hy4 preview",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000834",
-        "completion": "0.000002501",
+        "prompt": "0.0000007506",
+        "completion": "0.0000022509",
         "image": null,
         "request": null
       },
@@ -7809,13 +7775,13 @@
       "name": "Z.ai: GLM 5",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.0000006",
-        "completion": "0.00000192",
+        "prompt": "0.000001",
+        "completion": "0.0000032",
         "image": null,
         "request": null
       },
       "context_length": 204800,
-      "max_completion_tokens": 128000,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1770829182,
       "first_seen": "2026-05-27",
@@ -7894,7 +7860,7 @@
       "name": "Z.ai: GLM 5.3 Flash",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.000000037476",
+        "prompt": "0.000000048",
         "completion": "0.00000016",
         "image": null,
         "request": null
