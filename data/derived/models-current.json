@@ -108,7 +108,7 @@
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000000052",
+        "prompt": "0.0000000168",
         "completion": "0.00000012",
         "image": null,
         "request": null
@@ -160,7 +160,7 @@
       "provider": "~moonshotai",
       "pricing": {
         "prompt": "0.000000238",
-        "completion": "0.000016",
+        "completion": "0.000024",
         "image": null,
         "request": null
       },
@@ -295,8 +295,8 @@
       "name": "Z.ai: GLM Flash Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.000000048",
-        "completion": "0.00000016",
+        "prompt": "0.000000047076",
+        "completion": "0.00000012",
         "image": null,
         "request": null
       },
@@ -1468,8 +1468,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000403854",
-        "completion": "0.000000807708",
+        "prompt": "0.000000354786",
+        "completion": "0.000000709572",
         "image": null,
         "request": null
       },
@@ -2216,8 +2216,8 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.00000009",
-        "completion": "0.0000003",
+        "prompt": "0.0000000765",
+        "completion": "0.000000255",
         "image": null,
         "request": null
       },
@@ -3202,8 +3202,8 @@
       "name": "Mistral: Mistral Large 4",
       "provider": "mistralai",
       "pricing": {
-        "prompt": "0.00000068",
-        "completion": "0.00000209",
+        "prompt": "0.00000136",
+        "completion": "0.00000418",
         "image": null,
         "request": null
       },
@@ -6432,13 +6432,13 @@
       "name": "Qwen: Qwen3.5-35B-A3B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000015",
+        "prompt": "0.00000014",
         "completion": "0.000001",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 235929,
+      "max_completion_tokens": 81920,
       "expiration_date": null,
       "created": 1772053822,
       "first_seen": "2026-05-27",
@@ -7860,8 +7860,8 @@
       "name": "Z.ai: GLM 5.3 Flash",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.000000048",
-        "completion": "0.00000016",
+        "prompt": "0.000000047076",
+        "completion": "0.00000012",
         "image": null,
         "request": null
       },
