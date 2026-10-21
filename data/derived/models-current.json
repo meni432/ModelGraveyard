@@ -74,8 +74,8 @@
       "name": "DeepSeek: DeepSeek Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.00000007",
-        "completion": "0.0000005",
+        "prompt": "0.000000049",
+        "completion": "0.000000375",
         "image": null,
         "request": null
       },
@@ -108,13 +108,13 @@
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.000000021",
-        "completion": "0.000000528",
+        "prompt": "0.0000000475",
+        "completion": "0.0000001568",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 943718,
       "expiration_date": null,
       "created": 1785606009,
       "first_seen": "2026-08-01",
@@ -160,7 +160,7 @@
       "provider": "~moonshotai",
       "pricing": {
         "prompt": "0.000000238",
-        "completion": "0.000016",
+        "completion": "0.000024",
         "image": null,
         "request": null
       },
@@ -296,7 +296,7 @@
       "provider": "~z-ai",
       "pricing": {
         "prompt": "0.000000051691",
-        "completion": "0.000000525",
+        "completion": "0.00000012",
         "image": null,
         "request": null
       },
@@ -1491,7 +1491,7 @@
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 384000,
+      "max_completion_tokens": 393216,
       "expiration_date": null,
       "created": 1786549364,
       "first_seen": "2026-08-12",
@@ -1503,7 +1503,7 @@
       "provider": "deepseek",
       "pricing": {
         "prompt": "0.000000049",
-        "completion": "0.000000525",
+        "completion": "0.000000375",
         "image": null,
         "request": null
       },
@@ -1519,8 +1519,8 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000003",
-        "completion": "0.0000012",
+        "prompt": "0.00000015",
+        "completion": "0.0000006",
         "image": null,
         "request": null
       },
@@ -2216,8 +2216,8 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.0000000765",
-        "completion": "0.000000255",
+        "prompt": "0.00000009",
+        "completion": "0.0000003",
         "image": null,
         "request": null
       },
