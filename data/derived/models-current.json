@@ -160,7 +160,7 @@
       "provider": "~moonshotai",
       "pricing": {
         "prompt": "0.000000238",
-        "completion": "0.000024",
+        "completion": "0.000016",
         "image": null,
         "request": null
       },
@@ -295,8 +295,8 @@
       "name": "Z.ai: GLM Flash Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.000000051691",
-        "completion": "0.00000012",
+        "prompt": "0.00000000441",
+        "completion": "0.000000134175",
         "image": null,
         "request": null
       },
@@ -1468,8 +1468,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000424212",
-        "completion": "0.000000848424",
+        "prompt": "0.000000398808",
+        "completion": "0.000000797616",
         "image": null,
         "request": null
       },
@@ -2216,8 +2216,8 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.00000009",
-        "completion": "0.0000003",
+        "prompt": "0.0000000765",
+        "completion": "0.000000255",
         "image": null,
         "request": null
       },
@@ -3780,8 +3780,8 @@
       "name": "NVIDIA: Nemotron 3 Super",
       "provider": "nvidia",
       "pricing": {
-        "prompt": "0.00000008",
-        "completion": "0.00000045",
+        "prompt": "0.0000003",
+        "completion": "0.0000024",
         "image": null,
         "request": null
       },
@@ -6768,6 +6768,23 @@
       "last_seen": "2026-10-21"
     },
     {
+      "id": "recursive/flint-v1.0:free",
+      "name": "Recursive: Flint (free)",
+      "provider": "recursive",
+      "pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "context_length": 262144,
+      "max_completion_tokens": 235929,
+      "expiration_date": null,
+      "created": 1792422073,
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21"
+    },
+    {
       "id": "reflection/beam-1.0-501b-a23b",
       "name": "Reflection: Beam 1.0 501B A23B",
       "provider": "reflection",
@@ -7860,13 +7877,13 @@
       "name": "Z.ai: GLM 5.3 Flash",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000005",
+        "prompt": "0.00000000441",
+        "completion": "0.000000134175",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 943717,
+      "max_completion_tokens": 943718,
       "expiration_date": null,
       "created": 1787752741,
       "first_seen": "2026-08-26",
