@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-provider/xiaomi.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/xiaomi.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-10-09T00:00:00Z</updated>
+  <updated>2026-10-21T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-21:price_changed:xiaomi%2Fmimo-v2.5-pro</id>
+    <title>Price changed: xiaomi/mimo-v2.5-pro</title>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/xiaomi%2Fmimo-v2.5-pro"/>
+    <category term="price_changed"/>
+    <category term="provider:xiaomi"/>
+    <summary>prompt: $0.4350/Mtok → $0.3045/Mtok (-30%); completion: $0.8700/Mtok → $0.6090/Mtok (-30%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-21:price_changed:xiaomi%2Fmimo-v2.5</id>
+    <title>Price changed: xiaomi/mimo-v2.5</title>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/xiaomi%2Fmimo-v2.5"/>
+    <category term="price_changed"/>
+    <category term="provider:xiaomi"/>
+    <summary>prompt: $0.1400/Mtok → $0.1190/Mtok (-15%); completion: $0.2800/Mtok → $0.2380/Mtok (-15%)</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-10-09:deprecation_announced:xiaomi%2Fmimo-v2.5-pro</id>
     <title>Deprecation announced: xiaomi/mimo-v2.5-pro (sunset 2026-10-21)</title>
