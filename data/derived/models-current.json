@@ -91,7 +91,7 @@
       "name": "DeepSeek: DeepSeek Pro Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000002235",
+        "prompt": "0.0000002503",
         "completion": "0.000008",
         "image": null,
         "request": null
@@ -160,7 +160,7 @@
       "provider": "~moonshotai",
       "pricing": {
         "prompt": "0.000000238",
-        "completion": "0.000024",
+        "completion": "0.000016",
         "image": null,
         "request": null
       },
@@ -295,13 +295,13 @@
       "name": "Z.ai: GLM Flash Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.0000000162",
-        "completion": "0.0000001443",
+        "prompt": "0.0000000052",
+        "completion": "0.0000001985",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 943718,
       "expiration_date": null,
       "created": 1787817633,
       "first_seen": "2026-09-02",
@@ -1485,8 +1485,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000132",
-        "completion": "0.00000396",
+        "prompt": "0.00000066",
+        "completion": "0.00000198",
         "image": null,
         "request": null
       },
@@ -1519,8 +1519,8 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000003",
-        "completion": "0.0000012",
+        "prompt": "0.00000015",
+        "completion": "0.0000006",
         "image": null,
         "request": null
       },
@@ -2199,8 +2199,8 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.0000000765",
-        "completion": "0.000000255",
+        "prompt": "0.00000009",
+        "completion": "0.0000003",
         "image": null,
         "request": null
       },
@@ -6772,13 +6772,13 @@
       "name": "Reflection: Beam 1.0 501B A23B",
       "provider": "reflection",
       "pricing": {
-        "prompt": "0.0000003",
+        "prompt": "0.00000025",
         "completion": "0.000001",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 943718,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1792160499,
       "first_seen": "2026-10-16",
@@ -7860,13 +7860,13 @@
       "name": "Z.ai: GLM 5.3 Flash",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.0000000162",
-        "completion": "0.0000001443",
+        "prompt": "0.0000000052",
+        "completion": "0.0000001985",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 943718,
       "expiration_date": null,
       "created": 1787752741,
       "first_seen": "2026-08-26",
