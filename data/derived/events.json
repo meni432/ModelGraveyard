@@ -69995,6 +69995,206 @@
           "pct_change": 17.65
         }
       ]
+    },
+    {
+      "ts": "2026-10-22",
+      "type": "model_added",
+      "id": "minimax/minimax-m3.1-flash",
+      "provider": "minimax",
+      "snapshot": {
+        "id": "minimax/minimax-m3.1-flash",
+        "name": "MiniMax: MiniMax M3.1 Flash",
+        "provider": "minimax",
+        "pricing": {
+          "prompt": "0.00000015",
+          "completion": "0.0000006",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1000000,
+        "max_completion_tokens": 524288,
+        "expiration_date": null,
+        "created": 1792379569,
+        "first_seen": "2026-10-22",
+        "last_seen": "2026-10-22"
+      }
+    },
+    {
+      "ts": "2026-10-22",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-pro-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000002503",
+          "next": "0.0000001307",
+          "pct_change": -47.78
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-22",
+      "type": "price_changed",
+      "id": "tencent/hy4-preview",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000834",
+          "next": "0.0000007506",
+          "pct_change": -10
+        },
+        {
+          "field": "completion",
+          "prev": "0.000002501",
+          "next": "0.0000022509",
+          "pct_change": -10
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-22",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.3",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000079",
+          "next": "0.0000007",
+          "pct_change": 786.08
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000014",
+          "next": "0.0000022",
+          "pct_change": 57.14
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-22",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000475",
+          "next": "0.0000000422",
+          "pct_change": -11.16
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000001568",
+          "next": "0.0000001729",
+          "pct_change": 10.27
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-22",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash-0731",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000044",
+          "next": "0.00000004444",
+          "pct_change": -89.9
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000132",
+          "next": "0.00000013332",
+          "pct_change": -89.9
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-22",
+      "type": "price_changed",
+      "id": "tencent/hy3",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000132",
+          "next": "0.0000000825",
+          "pct_change": -37.5
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000528",
+          "next": "0.00000033",
+          "pct_change": -37.5
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-22",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000095526",
+          "next": "0.000000442656",
+          "pct_change": -53.66
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000191052",
+          "next": "0.000000885312",
+          "pct_change": -53.66
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-22",
+      "type": "price_changed",
+      "id": "qwen/qwen3.5-122b-a10b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000004",
+          "next": "0.00000026",
+          "pct_change": -35
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000032",
+          "next": "0.00000208",
+          "pct_change": -35
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-22",
+      "type": "model_removed",
+      "id": "minimax/minimax-m3.1-flash:free",
+      "provider": "minimax",
+      "snapshot": {
+        "id": "minimax/minimax-m3.1-flash:free",
+        "name": "MiniMax: MiniMax M3.1 Flash (free)",
+        "provider": "minimax",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1000000,
+        "max_completion_tokens": 524288,
+        "expiration_date": null,
+        "created": 1792379569,
+        "first_seen": "2026-10-19",
+        "last_seen": "2026-10-22"
+      }
     }
   ]
 }

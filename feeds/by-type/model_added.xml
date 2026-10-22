@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_added.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_added.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-10-21T00:00:00Z</updated>
+  <updated>2026-10-22T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-22:model_added:minimax%2Fminimax-m3.1-flash</id>
+    <title>Added: minimax/minimax-m3.1-flash</title>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/minimax%2Fminimax-m3.1-flash"/>
+    <category term="model_added"/>
+    <category term="provider:minimax"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.1500/Mtok, context: 1000000.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-10-21:model_added:recursive%2Fflint-v1.0%3Afree</id>
     <title>Added: recursive/flint-v1.0:free</title>
@@ -895,14 +904,5 @@
     <category term="model_added"/>
     <category term="provider:deepseek"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.1500/Mtok, context: 1048576.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-10:model_added:inclusionai%2Fling-3.0-flash-vl%3Afree</id>
-    <title>Added: inclusionai/ling-3.0-flash-vl:free</title>
-    <updated>2026-09-10T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/inclusionai%2Fling-3.0-flash-vl%3Afree"/>
-    <category term="model_added"/>
-    <category term="provider:inclusionai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 262144.</summary>
   </entry>
 </feed>

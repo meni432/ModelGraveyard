@@ -91,7 +91,7 @@
       "name": "DeepSeek: DeepSeek Pro Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000002503",
+        "prompt": "0.0000001307",
         "completion": "0.000008",
         "image": null,
         "request": null
@@ -108,8 +108,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000000475",
-        "completion": "0.0000001568",
+        "prompt": "0.0000000422",
+        "completion": "0.0000001729",
         "image": null,
         "request": null
       },
@@ -1434,8 +1434,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000044",
-        "completion": "0.00000132",
+        "prompt": "0.00000004444",
+        "completion": "0.00000013332",
         "image": null,
         "request": null
       },
@@ -1468,8 +1468,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000095526",
-        "completion": "0.00000191052",
+        "prompt": "0.000000442656",
+        "completion": "0.000000885312",
         "image": null,
         "request": null
       },
@@ -2977,12 +2977,12 @@
       "last_seen": "2026-10-22"
     },
     {
-      "id": "minimax/minimax-m3.1-flash:free",
-      "name": "MiniMax: MiniMax M3.1 Flash (free)",
+      "id": "minimax/minimax-m3.1-flash",
+      "name": "MiniMax: MiniMax M3.1 Flash",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0",
-        "completion": "0",
+        "prompt": "0.00000015",
+        "completion": "0.0000006",
         "image": null,
         "request": null
       },
@@ -2990,7 +2990,7 @@
       "max_completion_tokens": 524288,
       "expiration_date": null,
       "created": 1792379569,
-      "first_seen": "2026-10-19",
+      "first_seen": "2026-10-22",
       "last_seen": "2026-10-22"
     },
     {
@@ -6381,8 +6381,8 @@
       "name": "Qwen: Qwen3.5-122B-A10B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.0000004",
-        "completion": "0.0000032",
+        "prompt": "0.00000026",
+        "completion": "0.00000208",
         "image": null,
         "request": null
       },
@@ -7112,8 +7112,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },
@@ -7146,8 +7146,8 @@
       "name": "Tencent: Hy4 preview",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000834",
-        "completion": "0.000002501",
+        "prompt": "0.0000007506",
+        "completion": "0.0000022509",
         "image": null,
         "request": null
       },
@@ -7843,13 +7843,13 @@
       "name": "Z.ai: GLM 5.3",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.000000079",
-        "completion": "0.0000014",
+        "prompt": "0.0000007",
+        "completion": "0.0000022",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 943718,
+      "max_completion_tokens": 262144,
       "expiration_date": null,
       "created": 1787086655,
       "first_seen": "2026-08-19",

@@ -1,6 +1,23 @@
 {
   "buried": [
     {
+      "id": "minimax/minimax-m3.1-flash:free",
+      "name": "MiniMax: MiniMax M3.1 Flash (free)",
+      "provider": "minimax",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 1000000,
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-22",
+      "buried_at": "2026-10-22",
+      "suggested_replacement": "minimax/minimax-m3.1-flash"
+    },
+    {
       "id": "deepseek/deepseek-r1",
       "name": "DeepSeek: R1",
       "provider": "deepseek",
