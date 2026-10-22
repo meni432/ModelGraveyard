@@ -160,7 +160,7 @@
       "provider": "~moonshotai",
       "pricing": {
         "prompt": "0.000000238",
-        "completion": "0.000016",
+        "completion": "0.000024",
         "image": null,
         "request": null
       },
@@ -1050,7 +1050,7 @@
       },
       "context_length": 262144,
       "max_completion_tokens": 80000,
-      "expiration_date": null,
+      "expiration_date": "2026-10-26",
       "created": 1775058318,
       "first_seen": "2026-05-27",
       "last_seen": "2026-10-22"
@@ -2199,8 +2199,8 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.00000009",
-        "completion": "0.0000003",
+        "prompt": "0.0000000765",
+        "completion": "0.000000255",
         "image": null,
         "request": null
       },
@@ -7288,7 +7288,7 @@
         "request": null
       },
       "context_length": 1000000,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 65536,
       "expiration_date": null,
       "created": 1790363560,
       "first_seen": "2026-09-26",

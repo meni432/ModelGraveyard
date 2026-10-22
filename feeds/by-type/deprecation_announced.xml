@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/deprecation_announced.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/deprecation_announced.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-10-19T00:00:00Z</updated>
+  <updated>2026-10-22T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-22:deprecation_announced:arcee-ai%2Ftrinity-large-thinking</id>
+    <title>Deprecation announced: arcee-ai/trinity-large-thinking (sunset 2026-10-26)</title>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/arcee-ai%2Ftrinity-large-thinking"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:arcee-ai"/>
+    <summary>Provider announced retirement on 2026-10-26.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-10-19:deprecation_announced:nousresearch%2Fhermes-3-llama-3.1-70b</id>
     <title>Deprecation announced: nousresearch/hermes-3-llama-3.1-70b (sunset 2026-11-02)</title>
@@ -895,14 +904,5 @@
     <category term="deprecation_announced"/>
     <category term="provider:arcee-ai"/>
     <summary>Provider announced retirement on 2026-07-10.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-02:deprecation_announced:poolside%2Flaguna-xs.2%3Afree</id>
-    <title>Deprecation announced: poolside/laguna-xs.2:free (sunset 2026-07-09)</title>
-    <updated>2026-07-02T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/poolside%2Flaguna-xs.2%3Afree"/>
-    <category term="deprecation_announced"/>
-    <category term="provider:poolside"/>
-    <summary>Provider announced retirement on 2026-07-09.</summary>
   </entry>
 </feed>

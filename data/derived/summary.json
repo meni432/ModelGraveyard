@@ -6,6 +6,48 @@
   "recent_events": [
     {
       "ts": "2026-10-22",
+      "type": "deprecation_announced",
+      "id": "arcee-ai/trinity-large-thinking",
+      "provider": "arcee-ai",
+      "prev_expiration": null,
+      "next_expiration": "2026-10-26"
+    },
+    {
+      "ts": "2026-10-22",
+      "type": "price_changed",
+      "id": "google/gemma-4-26b-a4b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000009",
+          "next": "0.0000000765",
+          "pct_change": -15
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000003",
+          "next": "0.000000255",
+          "pct_change": -15
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-22",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.000016",
+          "next": "0.000024",
+          "pct_change": 50
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-22",
       "type": "model_removed",
       "id": "minimax/minimax-m3.1-flash:free",
       "provider": "minimax",
@@ -325,72 +367,14 @@
           "pct_change": -16.67
         }
       ]
-    },
-    {
-      "ts": "2026-10-22",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4.1-flash-1017",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000003",
-          "next": "0.00000015",
-          "pct_change": -50
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000012",
-          "next": "0.0000006",
-          "pct_change": -50
-        }
-      ]
-    },
-    {
-      "ts": "2026-10-22",
-      "type": "model_removed",
-      "id": "google/gemini-2.5-flash-lite:batch",
-      "provider": "google",
-      "snapshot": {
-        "id": "google/gemini-2.5-flash-lite:batch",
-        "name": "Google: Gemini 2.5 Flash Lite (batch)",
-        "provider": "google",
-        "pricing": {
-          "prompt": "0.00000005",
-          "completion": "0.0000002",
-          "image": "0.00000005",
-          "request": null
-        },
-        "context_length": 1048576,
-        "max_completion_tokens": 65535,
-        "expiration_date": null,
-        "created": 1753200276,
-        "first_seen": "2026-08-06",
-        "last_seen": "2026-10-21"
-      }
-    },
-    {
-      "ts": "2026-10-22",
-      "type": "price_changed",
-      "id": "qwen/qwen3.5-397b-a17b",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000039",
-          "next": "0.0000005",
-          "pct_change": 28.21
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000234",
-          "next": "0.0000036",
-          "pct_change": 53.85
-        }
-      ]
     }
   ],
   "scheduled_funerals": [
+    {
+      "id": "arcee-ai/trinity-large-thinking",
+      "provider": "arcee-ai",
+      "expiration_date": "2026-10-26"
+    },
     {
       "id": "poolside/laguna-s-2.1",
       "provider": "poolside",
