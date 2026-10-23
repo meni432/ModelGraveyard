@@ -74,8 +74,8 @@
       "name": "DeepSeek: DeepSeek Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.000000019",
-        "completion": "0.0000006",
+        "prompt": "0.00000007",
+        "completion": "0.0000005",
         "image": null,
         "request": null
       },
@@ -160,7 +160,7 @@
       "provider": "~moonshotai",
       "pricing": {
         "prompt": "0.000000238",
-        "completion": "0.000016",
+        "completion": "0.000024",
         "image": null,
         "request": null
       },
@@ -295,13 +295,13 @@
       "name": "Z.ai: GLM Flash Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.0000000052",
-        "completion": "0.0000001985",
+        "prompt": "0.0000000285",
+        "completion": "0.0000000923",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 943718,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1787817633,
       "first_seen": "2026-09-02",
@@ -1468,8 +1468,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000864954",
-        "completion": "0.000001729908",
+        "prompt": "0.000000733236",
+        "completion": "0.000001466472",
         "image": null,
         "request": null
       },
@@ -2199,8 +2199,8 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.00000009",
-        "completion": "0.0000003",
+        "prompt": "0.0000000675",
+        "completion": "0.000000225",
         "image": null,
         "request": null
       },
@@ -3577,7 +3577,7 @@
       "provider": "moonshotai",
       "pricing": {
         "prompt": "0.000000239",
-        "completion": "0.000011936",
+        "completion": "0.0000108",
         "image": null,
         "request": null
       },
@@ -3603,6 +3603,23 @@
       "expiration_date": null,
       "created": 1784215858,
       "first_seen": "2026-09-22",
+      "last_seen": "2026-10-23"
+    },
+    {
+      "id": "moonshotai/kimi-k3.1-pro",
+      "name": "MoonshotAI: Kimi K3.1 Pro",
+      "provider": "moonshotai",
+      "pricing": {
+        "prompt": "0.000002",
+        "completion": "0.00001",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1048576,
+      "max_completion_tokens": 943718,
+      "expiration_date": null,
+      "created": 1792778188,
+      "first_seen": "2026-10-23",
       "last_seen": "2026-10-23"
     },
     {

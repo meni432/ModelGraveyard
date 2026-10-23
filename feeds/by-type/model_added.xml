@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_added.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_added.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-10-22T00:00:00Z</updated>
+  <updated>2026-10-23T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-23:model_added:moonshotai%2Fkimi-k3.1-pro</id>
+    <title>Added: moonshotai/kimi-k3.1-pro</title>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k3.1-pro"/>
+    <category term="model_added"/>
+    <category term="provider:moonshotai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $2.0000/Mtok, context: 1048576.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-10-22:model_added:minimax%2Fminimax-m3.1-flash</id>
     <title>Added: minimax/minimax-m3.1-flash</title>
@@ -895,14 +904,5 @@
     <category term="model_added"/>
     <category term="provider:mistralai"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.1500/Mtok, context: 256000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-10:model_added:deepseek%2Fdeepseek-v4.1-flash</id>
-    <title>Added: deepseek/deepseek-v4.1-flash</title>
-    <updated>2026-09-10T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4.1-flash"/>
-    <category term="model_added"/>
-    <category term="provider:deepseek"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.1500/Mtok, context: 1048576.</summary>
   </entry>
 </feed>
