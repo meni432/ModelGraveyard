@@ -70980,6 +70980,106 @@
           "pct_change": -17.99
         }
       ]
+    },
+    {
+      "ts": "2026-10-24",
+      "type": "price_changed",
+      "id": "~z-ai/glm-flash-latest",
+      "provider": "~z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000304",
+          "next": "0.0000000175",
+          "pct_change": -42.43
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000000852",
+          "next": "0.0000001425",
+          "pct_change": 67.25
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-24",
+      "type": "price_changed",
+      "id": "~z-ai/glm-latest",
+      "provider": "~z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000079",
+          "next": "0.000000075",
+          "pct_change": -5.06
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000014",
+          "next": "0.000004295",
+          "pct_change": 206.79
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-24",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000238",
+          "next": "0.00000019",
+          "pct_change": -20.17
+        },
+        {
+          "field": "completion",
+          "prev": "0.000016",
+          "next": "0.00000894",
+          "pct_change": -44.12
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-24",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000601344",
+          "next": "0.000000347826",
+          "pct_change": -42.16
+        },
+        {
+          "field": "completion",
+          "prev": "0.000001202688",
+          "next": "0.000000695652",
+          "pct_change": -42.16
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-24",
+      "type": "price_changed",
+      "id": "minimax/minimax-m2.5",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000027",
+          "next": "0.0000003",
+          "pct_change": 11.11
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000095",
+          "next": "0.0000012",
+          "pct_change": 26.32
+        }
+      ]
     }
   ]
 }
