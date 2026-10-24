@@ -1,9 +1,9 @@
 {
   "generated_at": "2026-10-24",
-  "openrouter_catalog_size": 458,
+  "openrouter_catalog_size": 455,
   "litellm_catalog_size": 2944,
-  "shared_count": 100,
-  "openrouter_only_count": 358,
+  "shared_count": 99,
+  "openrouter_only_count": 356,
   "litellm_only_count": 2830,
   "disagreements": [
     {
@@ -49,6 +49,17 @@
       "litellm_deprecation_date": "2025-06-06",
       "severity": "medium",
       "noted_at": "2026-09-23"
+    },
+    {
+      "slug": "openai:gpt-3-5-turbo",
+      "openrouter_status": "removed",
+      "openrouter_id": "openai/gpt-3.5-turbo",
+      "openrouter_removed_at": "2026-10-24",
+      "litellm_status": "active",
+      "litellm_id": "gpt-3.5-turbo",
+      "litellm_deprecation_date": "2026-10-23",
+      "severity": "medium",
+      "noted_at": "2026-10-24"
     },
     {
       "slug": "openai:gpt-4-1106",
@@ -411,11 +422,6 @@
       "slug": "morph:morph-v3-large",
       "openrouter_id": "morph/morph-v3-large",
       "litellm_id": "morph/morph-v3-large"
-    },
-    {
-      "slug": "openai:gpt-3-5-turbo",
-      "openrouter_id": "openai/gpt-3.5-turbo",
-      "litellm_id": "gpt-3.5-turbo"
     },
     {
       "slug": "openai:gpt-3-5-turbo-16k",

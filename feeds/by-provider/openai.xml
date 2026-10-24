@@ -4,7 +4,43 @@
   <id>https://modelgraveyard.com/feeds/by-provider/openai.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/openai.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-10-15T00:00:00Z</updated>
+  <updated>2026-10-24T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-24:model_removed:openai%2Fgpt-3.5-turbo</id>
+    <title>Removed: openai/gpt-3.5-turbo</title>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-3.5-turbo"/>
+    <category term="model_removed"/>
+    <category term="provider:openai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.5000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-24:model_removed:openai%2Fgpt-3.5-turbo-instruct</id>
+    <title>Removed: openai/gpt-3.5-turbo-instruct</title>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-3.5-turbo-instruct"/>
+    <category term="model_removed"/>
+    <category term="provider:openai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $1.5000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-24:model_removed:openai%2Fgpt-3.5-turbo%3Abatch</id>
+    <title>Removed: openai/gpt-3.5-turbo:batch</title>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-3.5-turbo%3Abatch"/>
+    <category term="model_removed"/>
+    <category term="provider:openai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.2500/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-24:disagreement_detected:openai%2Fgpt-3.5-turbo</id>
+    <title>Catalog disagreement: openai/gpt-3.5-turbo</title>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-3.5-turbo"/>
+    <category term="disagreement_detected"/>
+    <category term="provider:openai"/>
+    <summary>OpenRouter says removed; LiteLLM still lists it as gpt-3.5-turbo.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-10-15:price_changed:openai%2Fgpt-oss-120b</id>
     <title>Price changed: openai/gpt-oss-120b</title>
@@ -868,41 +904,5 @@
     <category term="model_removed"/>
     <category term="provider:openai"/>
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $1.0000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-28:model_removed:openai%2Fo1-pro%3Abatch</id>
-    <title>Removed: openai/o1-pro:batch</title>
-    <updated>2026-08-28T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fo1-pro%3Abatch"/>
-    <category term="model_removed"/>
-    <category term="provider:openai"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $75.0000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-28:model_removed:openai%2Fo1%3Abatch</id>
-    <title>Removed: openai/o1:batch</title>
-    <updated>2026-08-28T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fo1%3Abatch"/>
-    <category term="model_removed"/>
-    <category term="provider:openai"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $7.5000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-28:model_removed:openai%2Fo3-mini-high%3Abatch</id>
-    <title>Removed: openai/o3-mini-high:batch</title>
-    <updated>2026-08-28T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fo3-mini-high%3Abatch"/>
-    <category term="model_removed"/>
-    <category term="provider:openai"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.5500/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-28:model_removed:openai%2Fo3-mini%3Abatch</id>
-    <title>Removed: openai/o3-mini:batch</title>
-    <updated>2026-08-28T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fo3-mini%3Abatch"/>
-    <category term="model_removed"/>
-    <category term="provider:openai"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.5500/Mtok.</summary>
   </entry>
 </feed>

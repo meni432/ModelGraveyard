@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/disagreement_detected.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/disagreement_detected.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-10-19T00:00:00Z</updated>
+  <updated>2026-10-24T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-24:disagreement_detected:openai%2Fgpt-3.5-turbo</id>
+    <title>Catalog disagreement: openai/gpt-3.5-turbo</title>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-3.5-turbo"/>
+    <category term="disagreement_detected"/>
+    <category term="provider:openai"/>
+    <summary>OpenRouter says removed; LiteLLM still lists it as gpt-3.5-turbo.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-10-19:disagreement_detected:deepseek%2Fdeepseek-r1</id>
     <title>Catalog disagreement: deepseek/deepseek-r1</title>
