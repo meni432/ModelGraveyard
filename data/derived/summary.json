@@ -7,6 +7,60 @@
     {
       "ts": "2026-10-24",
       "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000347826",
+          "next": "0.0000002088",
+          "pct_change": -39.97
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000695652",
+          "next": "0.0000004176",
+          "pct_change": -39.97
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-24",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.0000001694",
+          "next": "0.0000001763",
+          "pct_change": 4.07
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-24",
+      "type": "price_changed",
+      "id": "~z-ai/glm-flash-latest",
+      "provider": "~z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000175",
+          "next": "0.0000000511",
+          "pct_change": 192
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000001425",
+          "next": "0.0000000702",
+          "pct_change": -50.74
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-24",
+      "type": "price_changed",
       "id": "minimax/minimax-m2.5",
       "provider": "minimax",
       "changes": [
@@ -319,69 +373,6 @@
           "pct_change": -9.52
         }
       ]
-    },
-    {
-      "ts": "2026-10-23",
-      "type": "price_changed",
-      "id": "~z-ai/glm-flash-latest",
-      "provider": "~z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000000052",
-          "next": "0.0000000285",
-          "pct_change": 448.08
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000001985",
-          "next": "0.0000000923",
-          "pct_change": -53.5
-        }
-      ]
-    },
-    {
-      "ts": "2026-10-23",
-      "type": "price_changed",
-      "id": "~deepseek/deepseek-flash-latest",
-      "provider": "~deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000019",
-          "next": "0.00000007",
-          "pct_change": 268.42
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000006",
-          "next": "0.0000005",
-          "pct_change": -16.67
-        }
-      ]
-    },
-    {
-      "ts": "2026-10-23",
-      "type": "model_added",
-      "id": "moonshotai/kimi-k3.1-pro",
-      "provider": "moonshotai",
-      "snapshot": {
-        "id": "moonshotai/kimi-k3.1-pro",
-        "name": "MoonshotAI: Kimi K3.1 Pro",
-        "provider": "moonshotai",
-        "pricing": {
-          "prompt": "0.000002",
-          "completion": "0.00001",
-          "image": null,
-          "request": null
-        },
-        "context_length": 1048576,
-        "max_completion_tokens": 943718,
-        "expiration_date": null,
-        "created": 1792778188,
-        "first_seen": "2026-10-23",
-        "last_seen": "2026-10-23"
-      }
     }
   ],
   "scheduled_funerals": [
