@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/liquid.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/liquid.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-10-13T00:00:00Z</updated>
+  <updated>2026-10-25T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-25:model_added:liquid%2Flfm-2.5-2.6b</id>
+    <title>Added: liquid/lfm-2.5-2.6b</title>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/liquid%2Flfm-2.5-2.6b"/>
+    <category term="model_added"/>
+    <category term="provider:liquid"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.3500/Mtok, context: 128000.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-10-13:model_added:liquid%2Flfm-2.5-24b-a2b</id>
     <title>Added: liquid/lfm-2.5-24b-a2b</title>

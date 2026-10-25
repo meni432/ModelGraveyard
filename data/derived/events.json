@@ -71289,6 +71289,191 @@
         "litellm_status": "active",
         "litellm_id": "gpt-3.5-turbo"
       }
+    },
+    {
+      "ts": "2026-10-25",
+      "type": "price_changed",
+      "id": "tencent/hy4-preview",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000007506",
+          "next": "0.000000834",
+          "pct_change": 11.11
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000022509",
+          "next": "0.000002501",
+          "pct_change": 11.11
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-25",
+      "type": "price_changed",
+      "id": "~z-ai/glm-flash-latest",
+      "provider": "~z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000507",
+          "next": "0.000000043",
+          "pct_change": -15.19
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000000702",
+          "next": "0.0000000761",
+          "pct_change": 8.4
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-25",
+      "type": "price_changed",
+      "id": "~z-ai/glm-latest",
+      "provider": "~z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000075",
+          "next": "0.0000000703",
+          "pct_change": -6.27
+        },
+        {
+          "field": "completion",
+          "prev": "0.000004295",
+          "next": "0.0000043843",
+          "pct_change": 2.08
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-25",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.3",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000908",
+          "next": "0.000000079",
+          "pct_change": -13
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000161",
+          "next": "0.0000014",
+          "pct_change": -13.04
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-25",
+      "type": "model_added",
+      "id": "liquid/lfm-2.5-2.6b",
+      "provider": "liquid",
+      "snapshot": {
+        "id": "liquid/lfm-2.5-2.6b",
+        "name": "LiquidAI: LFM2.5-2.6B",
+        "provider": "liquid",
+        "pricing": {
+          "prompt": "0.00000035",
+          "completion": "0.0000005",
+          "image": null,
+          "request": null
+        },
+        "context_length": 128000,
+        "max_completion_tokens": 8192,
+        "expiration_date": null,
+        "created": 1786470519,
+        "first_seen": "2026-10-25",
+        "last_seen": "2026-10-25"
+      }
+    },
+    {
+      "ts": "2026-10-25",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.0000001763",
+          "next": "0.0000001694",
+          "pct_change": -3.91
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-25",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash-0731",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000004444",
+          "next": "0.0000000422",
+          "pct_change": -5.04
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000013332",
+          "next": "0.0000001694",
+          "pct_change": 27.06
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-25",
+      "type": "price_changed",
+      "id": "tencent/hy3",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000825",
+          "next": "0.000000132",
+          "pct_change": 60
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000033",
+          "next": "0.000000528",
+          "pct_change": 60
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-25",
+      "type": "deprecation_announced",
+      "id": "z-ai/glm-4.5v",
+      "provider": "z-ai",
+      "prev_expiration": null,
+      "next_expiration": "2026-12-31"
+    },
+    {
+      "ts": "2026-10-25",
+      "type": "price_changed",
+      "id": "meta-llama/llama-3.2-3b-instruct",
+      "provider": "meta-llama",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000509",
+          "next": "0.00000005",
+          "pct_change": -1.77
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000335",
+          "next": "0.00000033",
+          "pct_change": -1.49
+        }
+      ]
     }
   ]
 }
