@@ -71474,6 +71474,46 @@
           "pct_change": -1.49
         }
       ]
+    },
+    {
+      "ts": "2026-10-25",
+      "type": "price_changed",
+      "id": "~z-ai/glm-flash-latest",
+      "provider": "~z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000043",
+          "next": "0.0000000513",
+          "pct_change": 19.3
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000000761",
+          "next": "0.0000000701",
+          "pct_change": -7.88
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-25",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000019",
+          "next": "0.0000001919",
+          "pct_change": 1
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000894",
+          "next": "0.0000076972",
+          "pct_change": -13.9
+        }
+      ]
     }
   ]
 }

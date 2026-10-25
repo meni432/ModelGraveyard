@@ -7,6 +7,46 @@
     {
       "ts": "2026-10-25",
       "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000019",
+          "next": "0.0000001919",
+          "pct_change": 1
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000894",
+          "next": "0.0000076972",
+          "pct_change": -13.9
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-25",
+      "type": "price_changed",
+      "id": "~z-ai/glm-flash-latest",
+      "provider": "~z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000043",
+          "next": "0.0000000513",
+          "pct_change": 19.3
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000000761",
+          "next": "0.0000000701",
+          "pct_change": -7.88
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-25",
+      "type": "price_changed",
       "id": "meta-llama/llama-3.2-3b-instruct",
       "provider": "meta-llama",
       "changes": [
@@ -341,40 +381,6 @@
           "prev": "0.000002501",
           "next": "0.0000022509",
           "pct_change": -10
-        }
-      ]
-    },
-    {
-      "ts": "2026-10-24",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-pro",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000347826",
-          "next": "0.0000002088",
-          "pct_change": -39.97
-        },
-        {
-          "field": "completion",
-          "prev": "0.000000695652",
-          "next": "0.0000004176",
-          "pct_change": -39.97
-        }
-      ]
-    },
-    {
-      "ts": "2026-10-24",
-      "type": "price_changed",
-      "id": "~deepseek/deepseek-v4-flash-latest",
-      "provider": "~deepseek",
-      "changes": [
-        {
-          "field": "completion",
-          "prev": "0.0000001694",
-          "next": "0.0000001763",
-          "pct_change": 4.07
         }
       ]
     }
