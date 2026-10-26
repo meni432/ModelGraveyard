@@ -72058,6 +72058,434 @@
           "pct_change": 11.11
         }
       ]
+    },
+    {
+      "ts": "2026-10-26",
+      "type": "model_added",
+      "id": "openai/gpt-6.1-terra",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-6.1-terra",
+        "name": "OpenAI: GPT-6.1 Terra",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.000001",
+          "completion": "0.000005",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1793038409,
+        "first_seen": "2026-10-26",
+        "last_seen": "2026-10-26"
+      }
+    },
+    {
+      "ts": "2026-10-26",
+      "type": "model_added",
+      "id": "openai/gpt-6.1-terra:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-6.1-terra:batch",
+        "name": "OpenAI: GPT-6.1 Terra (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.0000005",
+          "completion": "0.0000025",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1793038409,
+        "first_seen": "2026-10-26",
+        "last_seen": "2026-10-26"
+      }
+    },
+    {
+      "ts": "2026-10-26",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-pro-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000002565",
+          "next": "0.0000001188",
+          "pct_change": -53.68
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-26",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000002",
+          "next": "0.00000004",
+          "pct_change": 100
+        },
+        {
+          "field": "completion",
+          "prev": "0.000001",
+          "next": "0.0000005",
+          "pct_change": -50
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-26",
+      "type": "price_changed",
+      "id": "~openai/gpt-terra-latest",
+      "provider": "~openai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000002",
+          "next": "0.000001",
+          "pct_change": -50
+        },
+        {
+          "field": "completion",
+          "prev": "0.000012",
+          "next": "0.000005",
+          "pct_change": -58.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-26",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4.1-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000002",
+          "next": "0.0000000477",
+          "pct_change": 138.5
+        },
+        {
+          "field": "completion",
+          "prev": "0.000001",
+          "next": "0.0000001908",
+          "pct_change": -80.92
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-26",
+      "type": "price_changed",
+      "id": "tencent/hy4-preview",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000834",
+          "next": "0.0000007506",
+          "pct_change": -10
+        },
+        {
+          "field": "completion",
+          "prev": "0.000002501",
+          "next": "0.0000022509",
+          "pct_change": -10
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-26",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000475",
+          "next": "0.0000000422",
+          "pct_change": -11.16
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000001568",
+          "next": "0.0000001694",
+          "pct_change": 8.04
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-26",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash-0731",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000044",
+          "next": "0.00000004444",
+          "pct_change": -89.9
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000132",
+          "next": "0.00000013332",
+          "pct_change": -89.9
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-26",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k3",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000017",
+          "next": "0.00000015",
+          "pct_change": -11.76
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-26",
+      "type": "price_changed",
+      "id": "tencent/hy3",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000132",
+          "next": "0.0000000825",
+          "pct_change": -37.5
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000528",
+          "next": "0.00000033",
+          "pct_change": -37.5
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-26",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000017",
+          "next": "0.00000015",
+          "pct_change": -11.76
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-26",
+      "type": "price_changed",
+      "id": "qwen/qwen3.6-35b-a3b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.00000095",
+          "next": "0.0000009",
+          "pct_change": -5.26
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-26",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000095526",
+          "next": "0.000000716532",
+          "pct_change": -24.99
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000191052",
+          "next": "0.000001433064",
+          "pct_change": -24.99
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-26",
+      "type": "price_changed",
+      "id": "google/gemma-4-26b-a4b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000009",
+          "next": "0.0000000765",
+          "pct_change": -15
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000003",
+          "next": "0.000000255",
+          "pct_change": -15
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-26",
+      "type": "deprecation_announced",
+      "id": "upstage/solar-pro-3",
+      "provider": "upstage",
+      "prev_expiration": null,
+      "next_expiration": "2026-10-30"
+    },
+    {
+      "ts": "2026-10-26",
+      "type": "model_removed",
+      "id": "arcee-ai/trinity-large-thinking",
+      "provider": "arcee-ai",
+      "snapshot": {
+        "id": "arcee-ai/trinity-large-thinking",
+        "name": "Arcee AI: Trinity Large Thinking",
+        "provider": "arcee-ai",
+        "pricing": {
+          "prompt": "0.00000025",
+          "completion": "0.0000008",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 80000,
+        "expiration_date": "2026-10-26",
+        "created": 1775058318,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-10-26"
+      }
+    },
+    {
+      "ts": "2026-10-26",
+      "type": "model_removed",
+      "id": "mistralai/codestral-2508:batch",
+      "provider": "mistralai",
+      "snapshot": {
+        "id": "mistralai/codestral-2508:batch",
+        "name": "Mistral: Codestral 2508 (batch)",
+        "provider": "mistralai",
+        "pricing": {
+          "prompt": "0.00000015",
+          "completion": "0.00000045",
+          "image": null,
+          "request": null
+        },
+        "context_length": 256000,
+        "max_completion_tokens": 204800,
+        "expiration_date": null,
+        "created": 1754079630,
+        "first_seen": "2026-09-10",
+        "last_seen": "2026-10-26"
+      }
+    },
+    {
+      "ts": "2026-10-26",
+      "type": "model_removed",
+      "id": "mistralai/ministral-8b-2512:batch",
+      "provider": "mistralai",
+      "snapshot": {
+        "id": "mistralai/ministral-8b-2512:batch",
+        "name": "Mistral: Ministral 3 8B 2512 (batch)",
+        "provider": "mistralai",
+        "pricing": {
+          "prompt": "0.000000075",
+          "completion": "0.000000075",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 209715,
+        "expiration_date": null,
+        "created": 1764681654,
+        "first_seen": "2026-09-10",
+        "last_seen": "2026-10-26"
+      }
+    },
+    {
+      "ts": "2026-10-26",
+      "type": "model_removed",
+      "id": "mistralai/mistral-large-2512:batch",
+      "provider": "mistralai",
+      "snapshot": {
+        "id": "mistralai/mistral-large-2512:batch",
+        "name": "Mistral: Mistral Large 3 2512 (batch)",
+        "provider": "mistralai",
+        "pricing": {
+          "prompt": "0.00000025",
+          "completion": "0.00000075",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 209715,
+        "expiration_date": null,
+        "created": 1764624472,
+        "first_seen": "2026-09-10",
+        "last_seen": "2026-10-26"
+      }
+    },
+    {
+      "ts": "2026-10-26",
+      "type": "model_removed",
+      "id": "mistralai/mistral-medium-3.1:batch",
+      "provider": "mistralai",
+      "snapshot": {
+        "id": "mistralai/mistral-medium-3.1:batch",
+        "name": "Mistral: Mistral Medium 3.1 (batch)",
+        "provider": "mistralai",
+        "pricing": {
+          "prompt": "0.0000002",
+          "completion": "0.000001",
+          "image": null,
+          "request": null
+        },
+        "context_length": 131072,
+        "max_completion_tokens": 104857,
+        "expiration_date": null,
+        "created": 1755095639,
+        "first_seen": "2026-09-10",
+        "last_seen": "2026-10-26"
+      }
+    },
+    {
+      "ts": "2026-10-26",
+      "type": "model_removed",
+      "id": "mistralai/mistral-small-2603:batch",
+      "provider": "mistralai",
+      "snapshot": {
+        "id": "mistralai/mistral-small-2603:batch",
+        "name": "Mistral: Mistral Small 4 (batch)",
+        "provider": "mistralai",
+        "pricing": {
+          "prompt": "0.000000075",
+          "completion": "0.0000003",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 209715,
+        "expiration_date": null,
+        "created": 1773695685,
+        "first_seen": "2026-09-10",
+        "last_seen": "2026-10-26"
+      }
     }
   ]
 }

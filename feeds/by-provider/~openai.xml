@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/~openai.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/~openai.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-09-22T00:00:00Z</updated>
+  <updated>2026-10-26T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-26:price_changed:~openai%2Fgpt-terra-latest</id>
+    <title>Price changed: ~openai/gpt-terra-latest</title>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/~openai%2Fgpt-terra-latest"/>
+    <category term="price_changed"/>
+    <category term="provider:~openai"/>
+    <summary>prompt: $2.0000/Mtok → $1.0000/Mtok (-50%); completion: $12.0000/Mtok → $5.0000/Mtok (-58.33%)</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-09-22:price_changed:~openai%2Fgpt-luna-latest</id>
     <title>Price changed: ~openai/gpt-luna-latest</title>

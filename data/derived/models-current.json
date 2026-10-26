@@ -74,13 +74,13 @@
       "name": "DeepSeek: DeepSeek Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.00000002",
-        "completion": "0.000001",
+        "prompt": "0.00000004",
+        "completion": "0.0000005",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 943718,
+      "max_completion_tokens": 393216,
       "expiration_date": null,
       "created": 1789399150,
       "first_seen": "2026-09-14",
@@ -91,7 +91,7 @@
       "name": "DeepSeek: DeepSeek Pro Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000002565",
+        "prompt": "0.0000001188",
         "completion": "0.000008",
         "image": null,
         "request": null
@@ -108,8 +108,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000000475",
-        "completion": "0.0000001568",
+        "prompt": "0.0000000422",
+        "completion": "0.0000001694",
         "image": null,
         "request": null
       },
@@ -159,7 +159,7 @@
       "name": "MoonshotAI: Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.00000017",
+        "prompt": "0.00000015",
         "completion": "0.00002",
         "image": null,
         "request": null
@@ -244,8 +244,8 @@
       "name": "OpenAI: GPT Terra Latest",
       "provider": "~openai",
       "pricing": {
-        "prompt": "0.000002",
-        "completion": "0.000012",
+        "prompt": "0.000001",
+        "completion": "0.000005",
         "image": null,
         "request": null
       },
@@ -1039,23 +1039,6 @@
       "last_seen": "2026-10-26"
     },
     {
-      "id": "arcee-ai/trinity-large-thinking",
-      "name": "Arcee AI: Trinity Large Thinking",
-      "provider": "arcee-ai",
-      "pricing": {
-        "prompt": "0.00000025",
-        "completion": "0.0000008",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 80000,
-      "expiration_date": "2026-10-26",
-      "created": 1775058318,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-10-26"
-    },
-    {
       "id": "bytedance-seed/seed-1.6",
       "name": "ByteDance Seed: Seed 1.6",
       "provider": "bytedance-seed",
@@ -1434,8 +1417,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000044",
-        "completion": "0.00000132",
+        "prompt": "0.00000004444",
+        "completion": "0.00000013332",
         "image": null,
         "request": null
       },
@@ -1468,8 +1451,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000095526",
-        "completion": "0.00000191052",
+        "prompt": "0.000000716532",
+        "completion": "0.000001433064",
         "image": null,
         "request": null
       },
@@ -1502,13 +1485,13 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000002",
-        "completion": "0.000001",
+        "prompt": "0.0000000477",
+        "completion": "0.0000001908",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 943718,
+      "max_completion_tokens": 393216,
       "expiration_date": null,
       "created": 1789021285,
       "first_seen": "2026-09-10",
@@ -2199,8 +2182,8 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.00000009",
-        "completion": "0.0000003",
+        "prompt": "0.0000000765",
+        "completion": "0.000000255",
         "image": null,
         "request": null
       },
@@ -3028,23 +3011,6 @@
       "last_seen": "2026-10-26"
     },
     {
-      "id": "mistralai/codestral-2508:batch",
-      "name": "Mistral: Codestral 2508 (batch)",
-      "provider": "mistralai",
-      "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.00000045",
-        "image": null,
-        "request": null
-      },
-      "context_length": 256000,
-      "max_completion_tokens": 204800,
-      "expiration_date": null,
-      "created": 1754079630,
-      "first_seen": "2026-09-10",
-      "last_seen": "2026-10-26"
-    },
-    {
       "id": "mistralai/devstral-2512",
       "name": "Mistral: Devstral 2 2512",
       "provider": "mistralai",
@@ -3113,23 +3079,6 @@
       "last_seen": "2026-10-26"
     },
     {
-      "id": "mistralai/ministral-8b-2512:batch",
-      "name": "Mistral: Ministral 3 8B 2512 (batch)",
-      "provider": "mistralai",
-      "pricing": {
-        "prompt": "0.000000075",
-        "completion": "0.000000075",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 209715,
-      "expiration_date": null,
-      "created": 1764681654,
-      "first_seen": "2026-09-10",
-      "last_seen": "2026-10-26"
-    },
-    {
       "id": "mistralai/mistral-large",
       "name": "Mistral Large",
       "provider": "mistralai",
@@ -3178,23 +3127,6 @@
       "expiration_date": null,
       "created": 1764624472,
       "first_seen": "2026-09-25",
-      "last_seen": "2026-10-26"
-    },
-    {
-      "id": "mistralai/mistral-large-2512:batch",
-      "name": "Mistral: Mistral Large 3 2512 (batch)",
-      "provider": "mistralai",
-      "pricing": {
-        "prompt": "0.00000025",
-        "completion": "0.00000075",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 209715,
-      "expiration_date": null,
-      "created": 1764624472,
-      "first_seen": "2026-09-10",
       "last_seen": "2026-10-26"
     },
     {
@@ -3283,23 +3215,6 @@
       "last_seen": "2026-10-26"
     },
     {
-      "id": "mistralai/mistral-medium-3.1:batch",
-      "name": "Mistral: Mistral Medium 3.1 (batch)",
-      "provider": "mistralai",
-      "pricing": {
-        "prompt": "0.0000002",
-        "completion": "0.000001",
-        "image": null,
-        "request": null
-      },
-      "context_length": 131072,
-      "max_completion_tokens": 104857,
-      "expiration_date": null,
-      "created": 1755095639,
-      "first_seen": "2026-09-10",
-      "last_seen": "2026-10-26"
-    },
-    {
       "id": "mistralai/mistral-nemo",
       "name": "Mistral: Mistral Nemo",
       "provider": "mistralai",
@@ -3365,23 +3280,6 @@
       "expiration_date": null,
       "created": 1773695685,
       "first_seen": "2026-05-27",
-      "last_seen": "2026-10-26"
-    },
-    {
-      "id": "mistralai/mistral-small-2603:batch",
-      "name": "Mistral: Mistral Small 4 (batch)",
-      "provider": "mistralai",
-      "pricing": {
-        "prompt": "0.000000075",
-        "completion": "0.0000003",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 209715,
-      "expiration_date": null,
-      "created": 1773695685,
-      "first_seen": "2026-09-10",
       "last_seen": "2026-10-26"
     },
     {
@@ -3593,7 +3491,7 @@
       "name": "MoonshotAI: Kimi K3",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.00000017",
+        "prompt": "0.00000015",
         "completion": "0.00002",
         "image": null,
         "request": null
@@ -5374,6 +5272,40 @@
       "last_seen": "2026-10-26"
     },
     {
+      "id": "openai/gpt-6.1-terra",
+      "name": "OpenAI: GPT-6.1 Terra",
+      "provider": "openai",
+      "pricing": {
+        "prompt": "0.000001",
+        "completion": "0.000005",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1050000,
+      "max_completion_tokens": 128000,
+      "expiration_date": null,
+      "created": 1793038409,
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26"
+    },
+    {
+      "id": "openai/gpt-6.1-terra:batch",
+      "name": "OpenAI: GPT-6.1 Terra (batch)",
+      "provider": "openai",
+      "pricing": {
+        "prompt": "0.0000005",
+        "completion": "0.0000025",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1050000,
+      "max_completion_tokens": 128000,
+      "expiration_date": null,
+      "created": 1793038409,
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26"
+    },
+    {
       "id": "openai/gpt-audio",
       "name": "OpenAI: GPT Audio",
       "provider": "openai",
@@ -6518,7 +6450,7 @@
       "provider": "qwen",
       "pricing": {
         "prompt": "0.0000001",
-        "completion": "0.00000095",
+        "completion": "0.0000009",
         "image": null,
         "request": null
       },
@@ -7095,8 +7027,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },
@@ -7129,8 +7061,8 @@
       "name": "Tencent: Hy4 preview",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000834",
-        "completion": "0.000002501",
+        "prompt": "0.0000007506",
+        "completion": "0.0000022509",
         "image": null,
         "request": null
       },
@@ -7357,7 +7289,7 @@
       },
       "context_length": 131072,
       "max_completion_tokens": 117964,
-      "expiration_date": null,
+      "expiration_date": "2026-10-30",
       "created": 1769481200,
       "first_seen": "2026-05-27",
       "last_seen": "2026-10-26"
