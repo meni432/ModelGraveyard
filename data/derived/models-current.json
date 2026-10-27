@@ -75,7 +75,7 @@
       "provider": "~deepseek",
       "pricing": {
         "prompt": "0.00000002",
-        "completion": "0.000000106042",
+        "completion": "0.000001",
         "image": null,
         "request": null
       },
@@ -91,7 +91,7 @@
       "name": "DeepSeek: DeepSeek Pro Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000002211",
+        "prompt": "0.0000002428",
         "completion": "0.000008",
         "image": null,
         "request": null
@@ -160,7 +160,7 @@
       "provider": "~moonshotai",
       "pricing": {
         "prompt": "0.00000019",
-        "completion": "0.00000894",
+        "completion": "0.0000105634",
         "image": null,
         "request": null
       },
@@ -295,8 +295,8 @@
       "name": "Z.ai: GLM Flash Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.0000000513",
-        "completion": "0.0000000701",
+        "prompt": "0.0000000235",
+        "completion": "0.0000001046",
         "image": null,
         "request": null
       },
@@ -1400,13 +1400,13 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000014",
-        "completion": "0.00000028",
+        "prompt": "0.00000005",
+        "completion": "0.00000045",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 943718,
       "expiration_date": null,
       "created": 1777000666,
       "first_seen": "2026-05-27",
@@ -2165,13 +2165,13 @@
       "name": "Google: Gemma 3 4B",
       "provider": "google",
       "pricing": {
-        "prompt": "0.00000004",
-        "completion": "0.00000005",
+        "prompt": "0.00000005",
+        "completion": "0.0000001",
         "image": null,
         "request": null
       },
       "context_length": 131072,
-      "max_completion_tokens": 117964,
+      "max_completion_tokens": 16384,
       "expiration_date": null,
       "created": 1741905510,
       "first_seen": "2026-05-27",
@@ -2182,8 +2182,8 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.0000000765",
-        "completion": "0.000000255",
+        "prompt": "0.00000009",
+        "completion": "0.0000003",
         "image": null,
         "request": null
       },
@@ -2546,7 +2546,7 @@
       },
       "context_length": 131072,
       "max_completion_tokens": 16384,
-      "expiration_date": null,
+      "expiration_date": "2026-11-03",
       "created": 1721692800,
       "first_seen": "2026-05-27",
       "last_seen": "2026-10-27"
@@ -3680,23 +3680,6 @@
       "pricing": {
         "prompt": "0.0000003",
         "completion": "0.0000024",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 235929,
-      "expiration_date": null,
-      "created": 1773245239,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-10-27"
-    },
-    {
-      "id": "nvidia/nemotron-3-super-120b-a12b:free",
-      "name": "NVIDIA: Nemotron 3 Super (free)",
-      "provider": "nvidia",
-      "pricing": {
-        "prompt": "0",
-        "completion": "0",
         "image": null,
         "request": null
       },
@@ -7629,7 +7612,7 @@
       },
       "context_length": 65536,
       "max_completion_tokens": 16384,
-      "expiration_date": null,
+      "expiration_date": "2026-12-31",
       "created": 1754922288,
       "first_seen": "2026-05-27",
       "last_seen": "2026-10-27"

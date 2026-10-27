@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-type/deprecation_announced.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/deprecation_announced.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-10-26T00:00:00Z</updated>
+  <updated>2026-10-27T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-27:deprecation_announced:z-ai%2Fglm-4.5v</id>
+    <title>Deprecation announced: z-ai/glm-4.5v (sunset 2026-12-31)</title>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-4.5v"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:z-ai"/>
+    <summary>Provider announced retirement on 2026-12-31.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-27:deprecation_announced:meta-llama%2Fllama-3.1-70b-instruct</id>
+    <title>Deprecation announced: meta-llama/llama-3.1-70b-instruct (sunset 2026-11-03)</title>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meta-llama%2Fllama-3.1-70b-instruct"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:meta-llama"/>
+    <summary>Provider announced retirement on 2026-11-03.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-10-26:deprecation_announced:upstage%2Fsolar-pro-3</id>
     <title>Deprecation announced: upstage/solar-pro-3 (sunset 2026-10-30)</title>
@@ -886,23 +904,5 @@
     <category term="deprecation_announced"/>
     <category term="provider:meta-llama"/>
     <summary>Provider announced retirement on 2026-07-19.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-11:deprecation_announced:nousresearch%2Fhermes-3-llama-3.1-405b%3Afree</id>
-    <title>Deprecation announced: nousresearch/hermes-3-llama-3.1-405b:free (sunset 2026-07-19)</title>
-    <updated>2026-07-11T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/nousresearch%2Fhermes-3-llama-3.1-405b%3Afree"/>
-    <category term="deprecation_announced"/>
-    <category term="provider:nousresearch"/>
-    <summary>Provider announced retirement on 2026-07-19.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-07:deprecation_announced:google%2Fgemini-2.5-flash-lite-preview-09-2025</id>
-    <title>Deprecation announced: google/gemini-2.5-flash-lite-preview-09-2025 (sunset 2026-07-09)</title>
-    <updated>2026-07-07T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-2.5-flash-lite-preview-09-2025"/>
-    <category term="deprecation_announced"/>
-    <category term="provider:google"/>
-    <summary>Provider announced retirement on 2026-07-09.</summary>
   </entry>
 </feed>

@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/nvidia.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/nvidia.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-10-21T00:00:00Z</updated>
+  <updated>2026-10-27T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-27:model_removed:nvidia%2Fnemotron-3-super-120b-a12b%3Afree</id>
+    <title>Removed: nvidia/nemotron-3-super-120b-a12b:free</title>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nvidia%2Fnemotron-3-super-120b-a12b%3Afree"/>
+    <category term="model_removed"/>
+    <category term="provider:nvidia"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-10-21:price_changed:nvidia%2Fnemotron-3-super-120b-a12b</id>
     <title>Price changed: nvidia/nemotron-3-super-120b-a12b</title>
@@ -895,14 +904,5 @@
     <category term="model_added"/>
     <category term="provider:nvidia"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.0500/Mtok, context: 262144.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:nvidia%2Fnemotron-nano-12b-v2-vl%3Afree</id>
-    <title>Added: nvidia/nemotron-nano-12b-v2-vl:free</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/nvidia%2Fnemotron-nano-12b-v2-vl%3Afree"/>
-    <category term="model_added"/>
-    <category term="provider:nvidia"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 128000.</summary>
   </entry>
 </feed>

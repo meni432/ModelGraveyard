@@ -15,6 +15,15 @@
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0170/Mtok.</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-10-27:model_removed:nvidia%2Fnemotron-3-super-120b-a12b%3Afree</id>
+    <title>Removed: nvidia/nemotron-3-super-120b-a12b:free</title>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nvidia%2Fnemotron-3-super-120b-a12b%3Afree"/>
+    <category term="model_removed"/>
+    <category term="provider:nvidia"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-10-26:model_removed:arcee-ai%2Ftrinity-large-thinking</id>
     <title>Removed: arcee-ai/trinity-large-thinking</title>
     <updated>2026-10-26T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="model_removed"/>
     <category term="provider:openai"/>
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $1.0000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-28:model_removed:openai%2Fgpt-4o-mini%3Abatch</id>
-    <title>Removed: openai/gpt-4o-mini:batch</title>
-    <updated>2026-08-28T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-4o-mini%3Abatch"/>
-    <category term="model_removed"/>
-    <category term="provider:openai"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0750/Mtok.</summary>
   </entry>
 </feed>
