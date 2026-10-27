@@ -1,6 +1,23 @@
 {
   "buried": [
     {
+      "id": "ibm-granite/granite-4.0-h-micro",
+      "name": "IBM: Granite 4.0 Micro",
+      "provider": "ibm-granite",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.000000017",
+        "completion": "0.000000112",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 131000,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-10-26",
+      "buried_at": "2026-10-27",
+      "suggested_replacement": "ibm-granite/granite-4.2-8b"
+    },
+    {
       "id": "arcee-ai/trinity-large-thinking",
       "name": "Arcee AI: Trinity Large Thinking",
       "provider": "arcee-ai",
