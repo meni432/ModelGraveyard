@@ -74,8 +74,8 @@
       "name": "DeepSeek: DeepSeek Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.000000022",
-        "completion": "0.00000121",
+        "prompt": "0.0000000182",
+        "completion": "0.0000018",
         "image": null,
         "request": null
       },
@@ -159,8 +159,8 @@
       "name": "MoonshotAI: Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.0000001795",
-        "completion": "0.0000105634",
+        "prompt": "0.000000151",
+        "completion": "0.00000894",
         "image": null,
         "request": null
       },
@@ -295,8 +295,8 @@
       "name": "Z.ai: GLM Flash Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.0000000345",
-        "completion": "0.0000000823",
+        "prompt": "0.0000000416",
+        "completion": "0.0000000798",
         "image": null,
         "request": null
       },
@@ -1451,8 +1451,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000088044",
-        "completion": "0.00000176088",
+        "prompt": "0.000000875394",
+        "completion": "0.000001750788",
         "image": null,
         "request": null
       },
@@ -2182,8 +2182,8 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.00000009",
-        "completion": "0.0000003",
+        "prompt": "0.0000000765",
+        "completion": "0.000000255",
         "image": null,
         "request": null
       },
@@ -3474,7 +3474,7 @@
       "name": "MoonshotAI: Kimi K3",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.000000189",
+        "prompt": "0.000000159",
         "completion": "0.00002",
         "image": null,
         "request": null
@@ -5932,6 +5932,23 @@
       "expiration_date": null,
       "created": 1789754046,
       "first_seen": "2026-09-18",
+      "last_seen": "2026-10-27"
+    },
+    {
+      "id": "prism-ml/ternary-bonsai-2-9b",
+      "name": "PrismML: Ternary Bonsai 2 9B",
+      "provider": "prism-ml",
+      "pricing": {
+        "prompt": "0.00000008",
+        "completion": "0.00000013",
+        "image": null,
+        "request": null
+      },
+      "context_length": 262144,
+      "max_completion_tokens": 65536,
+      "expiration_date": null,
+      "created": 1792130995,
+      "first_seen": "2026-10-27",
       "last_seen": "2026-10-27"
     },
     {
