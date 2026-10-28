@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/inclusionai.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/inclusionai.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-10-13T00:00:00Z</updated>
+  <updated>2026-10-28T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-28:context_changed:inclusionai%2Fling-3.1-flash</id>
+    <title>Context window changed: inclusionai/ling-3.1-flash</title>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/inclusionai%2Fling-3.1-flash"/>
+    <category term="context_changed"/>
+    <category term="provider:inclusionai"/>
+    <summary>262144 → 1000000 tokens</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-10-13:price_changed:inclusionai%2Fling-3.1-flash</id>
     <title>Price changed: inclusionai/ling-3.1-flash</title>
