@@ -74,7 +74,7 @@
       "name": "DeepSeek: DeepSeek Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000000126",
+        "prompt": "0.0000000138",
         "completion": "0.0000018",
         "image": null,
         "request": null
@@ -91,7 +91,7 @@
       "name": "DeepSeek: DeepSeek Pro Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000002542",
+        "prompt": "0.0000001035",
         "completion": "0.000008",
         "image": null,
         "request": null
@@ -108,8 +108,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000000475",
-        "completion": "0.0000001568",
+        "prompt": "0.0000000422",
+        "completion": "0.0000001694",
         "image": null,
         "request": null
       },
@@ -159,8 +159,8 @@
       "name": "MoonshotAI: Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.000000179",
-        "completion": "0.00002",
+        "prompt": "0.0000001824",
+        "completion": "0.0000093388",
         "image": null,
         "request": null
       },
@@ -295,8 +295,8 @@
       "name": "Z.ai: GLM Flash Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.0000000216",
-        "completion": "0.0000001324",
+        "prompt": "0.0000000285",
+        "completion": "0.0000000923",
         "image": null,
         "request": null
       },
@@ -1321,7 +1321,7 @@
         "request": null
       },
       "context_length": 163840,
-      "max_completion_tokens": 32768,
+      "max_completion_tokens": 147456,
       "expiration_date": null,
       "created": 1755779628,
       "first_seen": "2026-05-27",
@@ -1451,8 +1451,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000095526",
-        "completion": "0.00000191052",
+        "prompt": "0.000000888966",
+        "completion": "0.000001777932",
         "image": null,
         "request": null
       },
@@ -1485,13 +1485,13 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000014",
-        "completion": "0.00000042",
+        "prompt": "0.000000045",
+        "completion": "0.0000005",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 943718,
       "expiration_date": null,
       "created": 1789021285,
       "first_seen": "2026-09-10",
@@ -2182,8 +2182,8 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.00000009",
-        "completion": "0.0000003",
+        "prompt": "0.0000000765",
+        "completion": "0.000000255",
         "image": null,
         "request": null
       },
@@ -2302,7 +2302,7 @@
       "provider": "ibm-granite",
       "pricing": {
         "prompt": "0.00000006",
-        "completion": "0.00000025",
+        "completion": "0.00000015",
         "image": null,
         "request": null
       },
@@ -2556,13 +2556,13 @@
       "name": "Meta: Llama 3.1 8B Instruct",
       "provider": "meta-llama",
       "pricing": {
-        "prompt": "0.00000002",
-        "completion": "0.00000004",
+        "prompt": "0.00000005",
+        "completion": "0.00000008",
         "image": null,
         "request": null
       },
       "context_length": 131072,
-      "max_completion_tokens": 16384,
+      "max_completion_tokens": 117964,
       "expiration_date": null,
       "created": 1721692800,
       "first_seen": "2026-05-27",
@@ -2783,7 +2783,7 @@
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 943718,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1792087069,
       "first_seen": "2026-10-15",
@@ -3474,7 +3474,7 @@
       "name": "MoonshotAI: Kimi K3",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.000000179",
+        "prompt": "0.000000192",
         "completion": "0.00002",
         "image": null,
         "request": null
@@ -3683,8 +3683,8 @@
         "image": null,
         "request": null
       },
-      "context_length": 262144,
-      "max_completion_tokens": 235929,
+      "context_length": 1048576,
+      "max_completion_tokens": 262144,
       "expiration_date": null,
       "created": 1773245239,
       "first_seen": "2026-05-27",
@@ -3891,23 +3891,6 @@
       "max_completion_tokens": 4096,
       "expiration_date": null,
       "created": 1685232000,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-10-28"
-    },
-    {
-      "id": "openai/gpt-4-turbo",
-      "name": "OpenAI: GPT-4 Turbo",
-      "provider": "openai",
-      "pricing": {
-        "prompt": "0.00001",
-        "completion": "0.00003",
-        "image": null,
-        "request": null
-      },
-      "context_length": 128000,
-      "max_completion_tokens": 4096,
-      "expiration_date": null,
-      "created": 1712620800,
       "first_seen": "2026-05-27",
       "last_seen": "2026-10-28"
     },
@@ -5442,40 +5425,6 @@
       "last_seen": "2026-10-28"
     },
     {
-      "id": "openai/o1",
-      "name": "OpenAI: o1",
-      "provider": "openai",
-      "pricing": {
-        "prompt": "0.000015",
-        "completion": "0.00006",
-        "image": null,
-        "request": null
-      },
-      "context_length": 200000,
-      "max_completion_tokens": 100000,
-      "expiration_date": null,
-      "created": 1734459999,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-10-28"
-    },
-    {
-      "id": "openai/o1-pro",
-      "name": "OpenAI: o1-pro",
-      "provider": "openai",
-      "pricing": {
-        "prompt": "0.00015",
-        "completion": "0.0006",
-        "image": null,
-        "request": null
-      },
-      "context_length": 200000,
-      "max_completion_tokens": 100000,
-      "expiration_date": null,
-      "created": 1742423211,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-10-28"
-    },
-    {
       "id": "openai/o3",
       "name": "OpenAI: o3",
       "provider": "openai",
@@ -5489,40 +5438,6 @@
       "max_completion_tokens": 100000,
       "expiration_date": null,
       "created": 1744823457,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-10-28"
-    },
-    {
-      "id": "openai/o3-mini",
-      "name": "OpenAI: o3 Mini",
-      "provider": "openai",
-      "pricing": {
-        "prompt": "0.0000011",
-        "completion": "0.0000044",
-        "image": null,
-        "request": null
-      },
-      "context_length": 200000,
-      "max_completion_tokens": 100000,
-      "expiration_date": null,
-      "created": 1738351721,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-10-28"
-    },
-    {
-      "id": "openai/o3-mini-high",
-      "name": "OpenAI: o3 Mini High",
-      "provider": "openai",
-      "pricing": {
-        "prompt": "0.0000011",
-        "completion": "0.0000044",
-        "image": null,
-        "request": null
-      },
-      "context_length": 200000,
-      "max_completion_tokens": 100000,
-      "expiration_date": null,
-      "created": 1739372611,
       "first_seen": "2026-05-27",
       "last_seen": "2026-10-28"
     },
@@ -5575,40 +5490,6 @@
       "expiration_date": null,
       "created": 1744823457,
       "first_seen": "2026-08-31",
-      "last_seen": "2026-10-28"
-    },
-    {
-      "id": "openai/o4-mini",
-      "name": "OpenAI: o4 Mini",
-      "provider": "openai",
-      "pricing": {
-        "prompt": "0.0000011",
-        "completion": "0.0000044",
-        "image": null,
-        "request": null
-      },
-      "context_length": 200000,
-      "max_completion_tokens": 100000,
-      "expiration_date": null,
-      "created": 1744820942,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-10-28"
-    },
-    {
-      "id": "openai/o4-mini-high",
-      "name": "OpenAI: o4 Mini High",
-      "provider": "openai",
-      "pricing": {
-        "prompt": "0.0000011",
-        "completion": "0.0000044",
-        "image": null,
-        "request": null
-      },
-      "context_length": 200000,
-      "max_completion_tokens": 100000,
-      "expiration_date": null,
-      "created": 1744824212,
-      "first_seen": "2026-05-27",
       "last_seen": "2026-10-28"
     },
     {
@@ -5728,6 +5609,23 @@
       "expiration_date": null,
       "created": 1776747900,
       "first_seen": "2026-05-27",
+      "last_seen": "2026-10-28"
+    },
+    {
+      "id": "particle-ai/particle-1",
+      "name": "Particle AI: Particle-1",
+      "provider": "particle-ai",
+      "pricing": {
+        "prompt": "0.00000025",
+        "completion": "0.000001",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1048576,
+      "max_completion_tokens": 131072,
+      "expiration_date": null,
+      "created": 1793207893,
+      "first_seen": "2026-10-28",
       "last_seen": "2026-10-28"
     },
     {
@@ -6224,23 +6122,6 @@
       "last_seen": "2026-10-28"
     },
     {
-      "id": "qwen/qwen3-next-80b-a3b-thinking",
-      "name": "Qwen: Qwen3 Next 80B A3B Thinking",
-      "provider": "qwen",
-      "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000012",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 235929,
-      "expiration_date": null,
-      "created": 1757612284,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-10-28"
-    },
-    {
       "id": "qwen/qwen3-vl-235b-a22b-instruct",
       "name": "Qwen: Qwen3 VL 235B A22B Instruct",
       "provider": "qwen",
@@ -6602,13 +6483,13 @@
       "name": "Qwen: Qwen3.8 27B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.000000039",
-        "completion": "0.00000125",
+        "prompt": "0.0000002",
+        "completion": "0.0000025",
         "image": null,
         "request": null
       },
       "context_length": 1000000,
-      "max_completion_tokens": 65536,
+      "max_completion_tokens": 235929,
       "expiration_date": null,
       "created": 1786722910,
       "first_seen": "2026-08-15",
@@ -7044,8 +6925,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },
@@ -7078,8 +6959,8 @@
       "name": "Tencent: Hy4 preview",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000834",
-        "completion": "0.000002501",
+        "prompt": "0.0000007506",
+        "completion": "0.0000022509",
         "image": null,
         "request": null
       },
@@ -7758,8 +7639,8 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.000000014",
-        "completion": "0.000007",
+        "prompt": "0.000000006",
+        "completion": "0.0000054",
         "image": null,
         "request": null
       },
@@ -7792,13 +7673,13 @@
       "name": "Z.ai: GLM 5.3 Flash",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000005",
+        "prompt": "0.0000000285",
+        "completion": "0.0000000923",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 943717,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1787752741,
       "first_seen": "2026-08-26",

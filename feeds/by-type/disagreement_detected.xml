@@ -4,7 +4,52 @@
   <id>https://modelgraveyard.com/feeds/by-type/disagreement_detected.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/disagreement_detected.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-10-24T00:00:00Z</updated>
+  <updated>2026-10-28T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-28:disagreement_detected:openai%2Fgpt-4-turbo-preview</id>
+    <title>Catalog disagreement: openai/gpt-4-turbo-preview</title>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-4-turbo-preview"/>
+    <category term="disagreement_detected"/>
+    <category term="provider:openai"/>
+    <summary>OpenRouter says removed; LiteLLM still lists it as gpt-4-turbo.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-28:disagreement_detected:openai%2Fo1</id>
+    <title>Catalog disagreement: openai/o1</title>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fo1"/>
+    <category term="disagreement_detected"/>
+    <category term="provider:openai"/>
+    <summary>OpenRouter says removed; LiteLLM still lists it as o1.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-28:disagreement_detected:openai%2Fo1-pro</id>
+    <title>Catalog disagreement: openai/o1-pro</title>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fo1-pro"/>
+    <category term="disagreement_detected"/>
+    <category term="provider:openai"/>
+    <summary>OpenRouter says removed; LiteLLM still lists it as o1-pro.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-28:disagreement_detected:openai%2Fo3-mini</id>
+    <title>Catalog disagreement: openai/o3-mini</title>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fo3-mini"/>
+    <category term="disagreement_detected"/>
+    <category term="provider:openai"/>
+    <summary>OpenRouter says removed; LiteLLM still lists it as o3-mini.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-28:disagreement_detected:openai%2Fo4-mini</id>
+    <title>Catalog disagreement: openai/o4-mini</title>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fo4-mini"/>
+    <category term="disagreement_detected"/>
+    <category term="provider:openai"/>
+    <summary>OpenRouter says removed; LiteLLM still lists it as o4-mini.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-10-24:disagreement_detected:openai%2Fgpt-3.5-turbo</id>
     <title>Catalog disagreement: openai/gpt-3.5-turbo</title>

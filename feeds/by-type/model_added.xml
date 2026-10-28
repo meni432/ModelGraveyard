@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_added.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_added.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-10-27T00:00:00Z</updated>
+  <updated>2026-10-28T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-28:model_added:particle-ai%2Fparticle-1</id>
+    <title>Added: particle-ai/particle-1</title>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/particle-ai%2Fparticle-1"/>
+    <category term="model_added"/>
+    <category term="provider:particle-ai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.2500/Mtok, context: 1048576.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-10-27:model_added:openai%2Fgpt-6.1-terra-pro</id>
     <title>Added: openai/gpt-6.1-terra-pro</title>
@@ -895,14 +904,5 @@
     <category term="model_added"/>
     <category term="provider:~openai"/>
     <summary>New model on OpenRouter. Initial prompt price: $2.0000/Mtok, context: 1050000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-11:model_added:~openai%2Fgpt-luna-latest</id>
-    <title>Added: ~openai/gpt-luna-latest</title>
-    <updated>2026-09-11T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/~openai%2Fgpt-luna-latest"/>
-    <category term="model_added"/>
-    <category term="provider:~openai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.2000/Mtok, context: 1050000.</summary>
   </entry>
 </feed>

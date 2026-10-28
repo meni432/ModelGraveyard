@@ -1,6 +1,142 @@
 {
   "buried": [
     {
+      "id": "openai/gpt-4-turbo",
+      "name": "OpenAI: GPT-4 Turbo",
+      "provider": "openai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00001",
+        "completion": "0.00003",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 128000,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-10-28",
+      "buried_at": "2026-10-28",
+      "suggested_replacement": "openai/gpt-audio"
+    },
+    {
+      "id": "openai/o1",
+      "name": "OpenAI: o1",
+      "provider": "openai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.000015",
+        "completion": "0.00006",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 200000,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-10-28",
+      "buried_at": "2026-10-28",
+      "suggested_replacement": "openai/o3-pro"
+    },
+    {
+      "id": "openai/o1-pro",
+      "name": "OpenAI: o1-pro",
+      "provider": "openai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00015",
+        "completion": "0.0006",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 200000,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-10-28",
+      "buried_at": "2026-10-28",
+      "suggested_replacement": "openai/o3-pro"
+    },
+    {
+      "id": "openai/o3-mini",
+      "name": "OpenAI: o3 Mini",
+      "provider": "openai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000011",
+        "completion": "0.0000044",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 200000,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-10-28",
+      "buried_at": "2026-10-28",
+      "suggested_replacement": "openai/o3-pro"
+    },
+    {
+      "id": "openai/o3-mini-high",
+      "name": "OpenAI: o3 Mini High",
+      "provider": "openai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000011",
+        "completion": "0.0000044",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 200000,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-10-28",
+      "buried_at": "2026-10-28",
+      "suggested_replacement": "openai/o3-pro"
+    },
+    {
+      "id": "openai/o4-mini",
+      "name": "OpenAI: o4 Mini",
+      "provider": "openai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000011",
+        "completion": "0.0000044",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 200000,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-10-28",
+      "buried_at": "2026-10-28",
+      "suggested_replacement": "openai/o3-pro"
+    },
+    {
+      "id": "openai/o4-mini-high",
+      "name": "OpenAI: o4 Mini High",
+      "provider": "openai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000011",
+        "completion": "0.0000044",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 200000,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-10-28",
+      "buried_at": "2026-10-28",
+      "suggested_replacement": "openai/o3-pro"
+    },
+    {
+      "id": "qwen/qwen3-next-80b-a3b-thinking",
+      "name": "Qwen: Qwen3 Next 80B A3B Thinking",
+      "provider": "qwen",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000015",
+        "completion": "0.0000012",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-10-28",
+      "buried_at": "2026-10-28",
+      "suggested_replacement": "qwen/qwen3.7-plus:batch"
+    },
+    {
       "id": "ibm-granite/granite-4.0-h-micro",
       "name": "IBM: Granite 4.0 Micro",
       "provider": "ibm-granite",

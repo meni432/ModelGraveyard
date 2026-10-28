@@ -1,9 +1,9 @@
 {
   "generated_at": "2026-10-28",
-  "openrouter_catalog_size": 453,
+  "openrouter_catalog_size": 446,
   "litellm_catalog_size": 3026,
-  "shared_count": 100,
-  "openrouter_only_count": 353,
+  "shared_count": 95,
+  "openrouter_only_count": 351,
   "litellm_only_count": 2911,
   "disagreements": [
     {
@@ -71,6 +71,17 @@
       "litellm_deprecation_date": "2026-10-23",
       "severity": "medium",
       "noted_at": "2026-06-08"
+    },
+    {
+      "slug": "openai:gpt-4-turbo",
+      "openrouter_status": "removed",
+      "openrouter_id": "openai/gpt-4-turbo-preview",
+      "openrouter_removed_at": "2026-09-14",
+      "litellm_status": "active",
+      "litellm_id": "gpt-4-turbo",
+      "litellm_deprecation_date": "2026-10-23",
+      "severity": "medium",
+      "noted_at": "2026-10-28"
     },
     {
       "slug": "openai:gpt-4o-audio",
@@ -150,6 +161,28 @@
       "noted_at": "2026-07-30"
     },
     {
+      "slug": "openai:o1",
+      "openrouter_status": "removed",
+      "openrouter_id": "openai/o1",
+      "openrouter_removed_at": "2026-10-28",
+      "litellm_status": "active",
+      "litellm_id": "o1",
+      "litellm_deprecation_date": "2026-10-23",
+      "severity": "medium",
+      "noted_at": "2026-10-28"
+    },
+    {
+      "slug": "openai:o1-pro",
+      "openrouter_status": "removed",
+      "openrouter_id": "openai/o1-pro",
+      "openrouter_removed_at": "2026-10-28",
+      "litellm_status": "active",
+      "litellm_id": "o1-pro",
+      "litellm_deprecation_date": "2026-10-23",
+      "severity": "medium",
+      "noted_at": "2026-10-28"
+    },
+    {
       "slug": "openai:o3-deep-research",
       "openrouter_status": "removed",
       "openrouter_id": "openai/o3-deep-research",
@@ -159,6 +192,28 @@
       "litellm_deprecation_date": "2026-07-23",
       "severity": "medium",
       "noted_at": "2026-07-30"
+    },
+    {
+      "slug": "openai:o3-mini",
+      "openrouter_status": "removed",
+      "openrouter_id": "openai/o3-mini",
+      "openrouter_removed_at": "2026-10-28",
+      "litellm_status": "active",
+      "litellm_id": "o3-mini",
+      "litellm_deprecation_date": "2026-10-23",
+      "severity": "medium",
+      "noted_at": "2026-10-28"
+    },
+    {
+      "slug": "openai:o4-mini",
+      "openrouter_status": "removed",
+      "openrouter_id": "openai/o4-mini",
+      "openrouter_removed_at": "2026-10-28",
+      "litellm_status": "active",
+      "litellm_id": "o4-mini",
+      "litellm_deprecation_date": "2026-10-23",
+      "severity": "medium",
+      "noted_at": "2026-10-28"
     },
     {
       "slug": "openai:o4-mini-deep-research",
@@ -449,11 +504,6 @@
       "litellm_id": "gpt-4.1-nano"
     },
     {
-      "slug": "openai:gpt-4-turbo",
-      "openrouter_id": "openai/gpt-4-turbo",
-      "litellm_id": "gpt-4-turbo"
-    },
-    {
       "slug": "openai:gpt-4o",
       "openrouter_id": "openai/gpt-4o-2024-11-20",
       "litellm_id": "gpt-4o"
@@ -614,34 +664,14 @@
       "litellm_id": "azure/gpt-chat-latest"
     },
     {
-      "slug": "openai:o1",
-      "openrouter_id": "openai/o1",
-      "litellm_id": "o1"
-    },
-    {
-      "slug": "openai:o1-pro",
-      "openrouter_id": "openai/o1-pro",
-      "litellm_id": "o1-pro"
-    },
-    {
       "slug": "openai:o3",
       "openrouter_id": "openai/o3",
       "litellm_id": "o3"
     },
     {
-      "slug": "openai:o3-mini",
-      "openrouter_id": "openai/o3-mini",
-      "litellm_id": "o3-mini"
-    },
-    {
       "slug": "openai:o3-pro",
       "openrouter_id": "openai/o3-pro",
       "litellm_id": "o3-pro"
-    },
-    {
-      "slug": "openai:o4-mini",
-      "openrouter_id": "openai/o4-mini",
-      "litellm_id": "o4-mini"
     },
     {
       "slug": "perplexity:sonar",
