@@ -7,6 +7,114 @@
     {
       "ts": "2026-10-29",
       "type": "price_changed",
+      "id": "google/gemma-4-26b-a4b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000765",
+          "next": "0.00000009",
+          "pct_change": 17.65
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000255",
+          "next": "0.0000003",
+          "pct_change": 17.65
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-29",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000095526",
+          "next": "0.000000897318",
+          "pct_change": -6.07
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000191052",
+          "next": "0.000001794636",
+          "pct_change": -6.07
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-29",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k3",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000192",
+          "next": "0.000000239",
+          "pct_change": 24.48
+        },
+        {
+          "field": "completion",
+          "prev": "0.000015",
+          "next": "0.0000108",
+          "pct_change": -28
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-29",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000475",
+          "next": "0.000000057",
+          "pct_change": 20
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000001568",
+          "next": "0.0000001341",
+          "pct_change": -14.48
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-29",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000016",
+          "next": "0.0000000233",
+          "pct_change": 45.62
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000144",
+          "next": "0.0000018",
+          "pct_change": 25
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-29",
+      "type": "context_changed",
+      "id": "stepfun/step-5-preview",
+      "provider": "stepfun",
+      "prev_context": 1048576,
+      "next_context": 1000000
+    },
+    {
+      "ts": "2026-10-29",
+      "type": "price_changed",
       "id": "z-ai/glm-4.6",
       "provider": "z-ai",
       "changes": [
@@ -246,122 +354,6 @@
         "openrouter_status": "removed",
         "litellm_status": "active",
         "litellm_id": "o1-pro"
-      }
-    },
-    {
-      "ts": "2026-10-28",
-      "type": "disagreement_detected",
-      "id": "openai/o1",
-      "provider": "openai",
-      "disagreement": {
-        "slug": "openai:o1",
-        "openrouter_status": "removed",
-        "litellm_status": "active",
-        "litellm_id": "o1"
-      }
-    },
-    {
-      "ts": "2026-10-28",
-      "type": "disagreement_detected",
-      "id": "openai/gpt-4-turbo-preview",
-      "provider": "openai",
-      "disagreement": {
-        "slug": "openai:gpt-4-turbo",
-        "openrouter_status": "removed",
-        "litellm_status": "active",
-        "litellm_id": "gpt-4-turbo"
-      }
-    },
-    {
-      "ts": "2026-10-28",
-      "type": "model_removed",
-      "id": "qwen/qwen3-next-80b-a3b-thinking",
-      "provider": "qwen",
-      "snapshot": {
-        "id": "qwen/qwen3-next-80b-a3b-thinking",
-        "name": "Qwen: Qwen3 Next 80B A3B Thinking",
-        "provider": "qwen",
-        "pricing": {
-          "prompt": "0.00000015",
-          "completion": "0.0000012",
-          "image": null,
-          "request": null
-        },
-        "context_length": 262144,
-        "max_completion_tokens": 235929,
-        "expiration_date": null,
-        "created": 1757612284,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-10-28"
-      }
-    },
-    {
-      "ts": "2026-10-28",
-      "type": "model_removed",
-      "id": "openai/o4-mini-high",
-      "provider": "openai",
-      "snapshot": {
-        "id": "openai/o4-mini-high",
-        "name": "OpenAI: o4 Mini High",
-        "provider": "openai",
-        "pricing": {
-          "prompt": "0.0000011",
-          "completion": "0.0000044",
-          "image": null,
-          "request": null
-        },
-        "context_length": 200000,
-        "max_completion_tokens": 100000,
-        "expiration_date": null,
-        "created": 1744824212,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-10-28"
-      }
-    },
-    {
-      "ts": "2026-10-28",
-      "type": "model_removed",
-      "id": "openai/o4-mini",
-      "provider": "openai",
-      "snapshot": {
-        "id": "openai/o4-mini",
-        "name": "OpenAI: o4 Mini",
-        "provider": "openai",
-        "pricing": {
-          "prompt": "0.0000011",
-          "completion": "0.0000044",
-          "image": null,
-          "request": null
-        },
-        "context_length": 200000,
-        "max_completion_tokens": 100000,
-        "expiration_date": null,
-        "created": 1744820942,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-10-28"
-      }
-    },
-    {
-      "ts": "2026-10-28",
-      "type": "model_removed",
-      "id": "openai/o3-mini-high",
-      "provider": "openai",
-      "snapshot": {
-        "id": "openai/o3-mini-high",
-        "name": "OpenAI: o3 Mini High",
-        "provider": "openai",
-        "pricing": {
-          "prompt": "0.0000011",
-          "completion": "0.0000044",
-          "image": null,
-          "request": null
-        },
-        "context_length": 200000,
-        "max_completion_tokens": 100000,
-        "expiration_date": null,
-        "created": 1739372611,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-10-28"
       }
     }
   ],

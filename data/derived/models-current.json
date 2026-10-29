@@ -74,8 +74,8 @@
       "name": "DeepSeek: DeepSeek Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.000000016",
-        "completion": "0.00000144",
+        "prompt": "0.0000000233",
+        "completion": "0.0000018",
         "image": null,
         "request": null
       },
@@ -108,8 +108,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000000475",
-        "completion": "0.0000001568",
+        "prompt": "0.000000057",
+        "completion": "0.0000001341",
         "image": null,
         "request": null
       },
@@ -1451,8 +1451,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000095526",
-        "completion": "0.00000191052",
+        "prompt": "0.000000897318",
+        "completion": "0.000001794636",
         "image": null,
         "request": null
       },
@@ -2182,8 +2182,8 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.0000000765",
-        "completion": "0.000000255",
+        "prompt": "0.00000009",
+        "completion": "0.0000003",
         "image": null,
         "request": null
       },
@@ -3474,8 +3474,8 @@
       "name": "MoonshotAI: Kimi K3",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.000000192",
-        "completion": "0.000015",
+        "prompt": "0.000000239",
+        "completion": "0.0000108",
         "image": null,
         "request": null
       },
@@ -6845,7 +6845,7 @@
         "image": null,
         "request": null
       },
-      "context_length": 1048576,
+      "context_length": 1000000,
       "max_completion_tokens": 64000,
       "expiration_date": null,
       "created": 1791462849,
@@ -7101,7 +7101,7 @@
         "request": null
       },
       "context_length": 1000000,
-      "max_completion_tokens": 65536,
+      "max_completion_tokens": 64000,
       "expiration_date": null,
       "created": 1790363560,
       "first_seen": "2026-09-26",
