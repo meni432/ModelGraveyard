@@ -74,8 +74,8 @@
       "name": "DeepSeek: DeepSeek Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000000233",
-        "completion": "0.0000018",
+        "prompt": "0.000000044",
+        "completion": "0.000000383",
         "image": null,
         "request": null
       },
@@ -108,8 +108,8 @@
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.000000057",
-        "completion": "0.0000001341",
+        "prompt": "0.0000000308",
+        "completion": "0.0000003",
         "image": null,
         "request": null
       },
@@ -159,7 +159,7 @@
       "name": "MoonshotAI: Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.0000001824",
+        "prompt": "0.0000001719",
         "completion": "0.0000093388",
         "image": null,
         "request": null
@@ -295,8 +295,8 @@
       "name": "Z.ai: GLM Flash Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.0000000457",
-        "completion": "0.0000000742",
+        "prompt": "0.0000000503",
+        "completion": "0.0000000701",
         "image": null,
         "request": null
       },
@@ -1451,13 +1451,13 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000897318",
-        "completion": "0.000001794636",
+        "prompt": "0.0000016",
+        "completion": "0.0000032",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 384000,
+      "max_completion_tokens": 393216,
       "expiration_date": null,
       "created": 1777000679,
       "first_seen": "2026-05-27",
@@ -2182,8 +2182,8 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.00000009",
-        "completion": "0.0000003",
+        "prompt": "0.0000000765",
+        "completion": "0.000000255",
         "image": null,
         "request": null
       },
@@ -3117,8 +3117,8 @@
       "name": "Mistral: Mistral Large 4",
       "provider": "mistralai",
       "pricing": {
-        "prompt": "0.00000136",
-        "completion": "0.00000418",
+        "prompt": "0.0000007",
+        "completion": "0.0000021",
         "image": null,
         "request": null
       },
@@ -5537,7 +5537,7 @@
         "request": null
       },
       "context_length": 2000000,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 65536,
       "expiration_date": null,
       "created": 1784311165,
       "first_seen": "2026-07-17",
@@ -6483,13 +6483,13 @@
       "name": "Qwen: Qwen3.8 27B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.000000039",
-        "completion": "0.00000125",
+        "prompt": "0.0000002",
+        "completion": "0.0000025",
         "image": null,
         "request": null
       },
       "context_length": 1000000,
-      "max_completion_tokens": 65536,
+      "max_completion_tokens": 262144,
       "expiration_date": null,
       "created": 1786722910,
       "first_seen": "2026-08-15",
@@ -6845,7 +6845,7 @@
         "image": null,
         "request": null
       },
-      "context_length": 1000000,
+      "context_length": 1048576,
       "max_completion_tokens": 64000,
       "expiration_date": null,
       "created": 1791462849,
@@ -6925,8 +6925,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },
@@ -6959,8 +6959,8 @@
       "name": "Tencent: Hy4 preview",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000834",
-        "completion": "0.000002501",
+        "prompt": "0.0000007506",
+        "completion": "0.0000022509",
         "image": null,
         "request": null
       },
@@ -7101,7 +7101,7 @@
         "request": null
       },
       "context_length": 1000000,
-      "max_completion_tokens": 64000,
+      "max_completion_tokens": 65536,
       "expiration_date": null,
       "created": 1790363560,
       "first_seen": "2026-09-26",
@@ -7173,23 +7173,6 @@
       "expiration_date": null,
       "created": 1790160358,
       "first_seen": "2026-09-23",
-      "last_seen": "2026-10-29"
-    },
-    {
-      "id": "upstage/solar-pro-3",
-      "name": "Upstage: Solar Pro 3",
-      "provider": "upstage",
-      "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
-        "image": null,
-        "request": null
-      },
-      "context_length": 131072,
-      "max_completion_tokens": 117964,
-      "expiration_date": "2026-10-30",
-      "created": 1769481200,
-      "first_seen": "2026-05-27",
       "last_seen": "2026-10-29"
     },
     {
@@ -7673,13 +7656,13 @@
       "name": "Z.ai: GLM 5.3 Flash",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.0000000457",
-        "completion": "0.0000000742",
+        "prompt": "0.00000015",
+        "completion": "0.0000005",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 943717,
       "expiration_date": null,
       "created": 1787752741,
       "first_seen": "2026-08-26",

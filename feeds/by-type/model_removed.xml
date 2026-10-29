@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_removed.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_removed.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-10-28T00:00:00Z</updated>
+  <updated>2026-10-29T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-29:model_removed:upstage%2Fsolar-pro-3</id>
+    <title>Removed: upstage/solar-pro-3</title>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/upstage%2Fsolar-pro-3"/>
+    <category term="model_removed"/>
+    <category term="provider:upstage"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1500/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-10-28:model_removed:openai%2Fgpt-4-turbo</id>
     <title>Removed: openai/gpt-4-turbo</title>
@@ -892,15 +901,6 @@
     <title>Removed: anthropic/claude-opus-4.8-fast</title>
     <updated>2026-09-01T00:00:00Z</updated>
     <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-opus-4.8-fast"/>
-    <category term="model_removed"/>
-    <category term="provider:anthropic"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $10.0000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-01:model_removed:anthropic%2Fclaude-opus-5-fast</id>
-    <title>Removed: anthropic/claude-opus-5-fast</title>
-    <updated>2026-09-01T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-opus-5-fast"/>
     <category term="model_removed"/>
     <category term="provider:anthropic"/>
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $10.0000/Mtok.</summary>
