@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/particle-ai.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/particle-ai.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-10-28T00:00:00Z</updated>
+  <updated>2026-10-30T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-10-30:price_changed:particle-ai%2Fparticle-1</id>
+    <title>Price changed: particle-ai/particle-1</title>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/particle-ai%2Fparticle-1"/>
+    <category term="price_changed"/>
+    <category term="provider:particle-ai"/>
+    <summary>prompt: $0.2500/Mtok → $0.0500/Mtok (-80%); completion: $1.0000/Mtok → $0.5000/Mtok (-50%)</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-10-28:model_added:particle-ai%2Fparticle-1</id>
     <title>Added: particle-ai/particle-1</title>
