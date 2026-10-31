@@ -2964,8 +2964,8 @@
       "name": "MiniMax: MiniMax M3.1 Flash",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
+        "prompt": "0.000000075",
+        "completion": "0.0000003",
         "image": null,
         "request": null
       },
@@ -5748,74 +5748,6 @@
       "last_seen": "2026-10-31"
     },
     {
-      "id": "poolside/laguna-s-2.1",
-      "name": "Poolside: Laguna S 2.1",
-      "provider": "poolside",
-      "pricing": {
-        "prompt": "0.00000009",
-        "completion": "0.00000018",
-        "image": null,
-        "request": null
-      },
-      "context_length": 1048576,
-      "max_completion_tokens": 131072,
-      "expiration_date": "2026-10-31",
-      "created": 1784652683,
-      "first_seen": "2026-07-21",
-      "last_seen": "2026-10-31"
-    },
-    {
-      "id": "poolside/laguna-s-2.1:free",
-      "name": "Poolside: Laguna S 2.1 (free)",
-      "provider": "poolside",
-      "pricing": {
-        "prompt": "0",
-        "completion": "0",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 32768,
-      "expiration_date": "2026-10-31",
-      "created": 1784652683,
-      "first_seen": "2026-07-21",
-      "last_seen": "2026-10-31"
-    },
-    {
-      "id": "poolside/laguna-xs-2.1",
-      "name": "Poolside: Laguna XS 2.1",
-      "provider": "poolside",
-      "pricing": {
-        "prompt": "0.00000006",
-        "completion": "0.00000012",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 32768,
-      "expiration_date": "2026-10-31",
-      "created": 1783002429,
-      "first_seen": "2026-07-02",
-      "last_seen": "2026-10-31"
-    },
-    {
-      "id": "poolside/laguna-xs-2.1:free",
-      "name": "Poolside: Laguna XS 2.1 (free)",
-      "provider": "poolside",
-      "pricing": {
-        "prompt": "0",
-        "completion": "0",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 32768,
-      "expiration_date": "2026-10-31",
-      "created": 1783002429,
-      "first_seen": "2026-07-02",
-      "last_seen": "2026-10-31"
-    },
-    {
       "id": "prism-ml/ternary-bonsai-2-27b",
       "name": "PrismML: Ternary Bonsai 2 27B",
       "provider": "prism-ml",
@@ -6925,8 +6857,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },
@@ -6959,8 +6891,8 @@
       "name": "Tencent: Hy4 preview",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000834",
-        "completion": "0.000002501",
+        "prompt": "0.0000007506",
+        "completion": "0.0000022509",
         "image": null,
         "request": null
       },
@@ -7537,14 +7469,14 @@
       "name": "Z.ai: GLM 4.7",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.00000054",
-        "completion": "0.00000198",
+        "prompt": "0.0000006",
+        "completion": "0.0000022",
         "image": null,
         "request": null
       },
       "context_length": 204800,
       "max_completion_tokens": 131072,
-      "expiration_date": null,
+      "expiration_date": "2026-12-31",
       "created": 1766378014,
       "first_seen": "2026-05-27",
       "last_seen": "2026-10-31"

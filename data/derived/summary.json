@@ -1,9 +1,189 @@
 {
   "generated_at": "2026-10-31",
-  "active_count": 456,
-  "dead_count": 245,
+  "active_count": 452,
+  "dead_count": 249,
   "last_event_ts": "2026-10-31",
   "recent_events": [
+    {
+      "ts": "2026-10-31",
+      "type": "model_removed",
+      "id": "poolside/laguna-xs-2.1:free",
+      "provider": "poolside",
+      "snapshot": {
+        "id": "poolside/laguna-xs-2.1:free",
+        "name": "Poolside: Laguna XS 2.1 (free)",
+        "provider": "poolside",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 32768,
+        "expiration_date": "2026-10-31",
+        "created": 1783002429,
+        "first_seen": "2026-07-02",
+        "last_seen": "2026-10-31"
+      }
+    },
+    {
+      "ts": "2026-10-31",
+      "type": "model_removed",
+      "id": "poolside/laguna-xs-2.1",
+      "provider": "poolside",
+      "snapshot": {
+        "id": "poolside/laguna-xs-2.1",
+        "name": "Poolside: Laguna XS 2.1",
+        "provider": "poolside",
+        "pricing": {
+          "prompt": "0.00000006",
+          "completion": "0.00000012",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 32768,
+        "expiration_date": "2026-10-31",
+        "created": 1783002429,
+        "first_seen": "2026-07-02",
+        "last_seen": "2026-10-31"
+      }
+    },
+    {
+      "ts": "2026-10-31",
+      "type": "model_removed",
+      "id": "poolside/laguna-s-2.1:free",
+      "provider": "poolside",
+      "snapshot": {
+        "id": "poolside/laguna-s-2.1:free",
+        "name": "Poolside: Laguna S 2.1 (free)",
+        "provider": "poolside",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 32768,
+        "expiration_date": "2026-10-31",
+        "created": 1784652683,
+        "first_seen": "2026-07-21",
+        "last_seen": "2026-10-31"
+      }
+    },
+    {
+      "ts": "2026-10-31",
+      "type": "model_removed",
+      "id": "poolside/laguna-s-2.1",
+      "provider": "poolside",
+      "snapshot": {
+        "id": "poolside/laguna-s-2.1",
+        "name": "Poolside: Laguna S 2.1",
+        "provider": "poolside",
+        "pricing": {
+          "prompt": "0.00000009",
+          "completion": "0.00000018",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": 131072,
+        "expiration_date": "2026-10-31",
+        "created": 1784652683,
+        "first_seen": "2026-07-21",
+        "last_seen": "2026-10-31"
+      }
+    },
+    {
+      "ts": "2026-10-31",
+      "type": "deprecation_announced",
+      "id": "z-ai/glm-4.7",
+      "provider": "z-ai",
+      "prev_expiration": null,
+      "next_expiration": "2026-12-31"
+    },
+    {
+      "ts": "2026-10-31",
+      "type": "price_changed",
+      "id": "z-ai/glm-4.7",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000054",
+          "next": "0.0000006",
+          "pct_change": 11.11
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000198",
+          "next": "0.0000022",
+          "pct_change": 11.11
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-31",
+      "type": "price_changed",
+      "id": "tencent/hy3",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000132",
+          "next": "0.0000000825",
+          "pct_change": -37.5
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000528",
+          "next": "0.00000033",
+          "pct_change": -37.5
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-31",
+      "type": "price_changed",
+      "id": "tencent/hy4-preview",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000834",
+          "next": "0.0000007506",
+          "pct_change": -10
+        },
+        {
+          "field": "completion",
+          "prev": "0.000002501",
+          "next": "0.0000022509",
+          "pct_change": -10
+        }
+      ]
+    },
+    {
+      "ts": "2026-10-31",
+      "type": "price_changed",
+      "id": "minimax/minimax-m3.1-flash",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000015",
+          "next": "0.000000075",
+          "pct_change": -50
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000006",
+          "next": "0.0000003",
+          "pct_change": -50
+        }
+      ]
+    },
     {
       "ts": "2026-10-31",
       "type": "price_changed",
@@ -211,209 +391,9 @@
           "pct_change": -8.01
         }
       ]
-    },
-    {
-      "ts": "2026-10-31",
-      "type": "price_changed",
-      "id": "tencent/hy3",
-      "provider": "tencent",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000000825",
-          "next": "0.000000132",
-          "pct_change": 60
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000033",
-          "next": "0.000000528",
-          "pct_change": 60
-        }
-      ]
-    },
-    {
-      "ts": "2026-10-31",
-      "type": "price_changed",
-      "id": "~deepseek/deepseek-v4-flash-latest",
-      "provider": "~deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000000496",
-          "next": "0.0000000532",
-          "pct_change": 7.26
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000001951",
-          "next": "0.0000001341",
-          "pct_change": -31.27
-        }
-      ]
-    },
-    {
-      "ts": "2026-10-31",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.3",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000008",
-          "next": "0.0000000699",
-          "pct_change": -12.63
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000036",
-          "next": "0.0000014",
-          "pct_change": -61.11
-        }
-      ]
-    },
-    {
-      "ts": "2026-10-31",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.3-flash",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000000197",
-          "next": "0.0000000237",
-          "pct_change": 20.3
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000001324",
-          "next": "0.0000001142",
-          "pct_change": -13.75
-        }
-      ]
-    },
-    {
-      "ts": "2026-10-31",
-      "type": "price_changed",
-      "id": "~z-ai/glm-flash-latest",
-      "provider": "~z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000000197",
-          "next": "0.0000000237",
-          "pct_change": 20.3
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000001324",
-          "next": "0.0000001142",
-          "pct_change": -13.75
-        }
-      ]
-    },
-    {
-      "ts": "2026-10-31",
-      "type": "price_changed",
-      "id": "tencent/hy4-preview",
-      "provider": "tencent",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000007506",
-          "next": "0.000000834",
-          "pct_change": 11.11
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000022509",
-          "next": "0.000002501",
-          "pct_change": 11.11
-        }
-      ]
-    },
-    {
-      "ts": "2026-10-31",
-      "type": "price_changed",
-      "id": "~deepseek/deepseek-flash-latest",
-      "provider": "~deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000022",
-          "next": "0.0000000187",
-          "pct_change": -15
-        },
-        {
-          "field": "completion",
-          "prev": "0.000000192",
-          "next": "0.000000208",
-          "pct_change": 8.33
-        }
-      ]
-    },
-    {
-      "ts": "2026-10-31",
-      "type": "price_changed",
-      "id": "minimax/minimax-m3.1-flash",
-      "provider": "minimax",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000075",
-          "next": "0.00000015",
-          "pct_change": 100
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000003",
-          "next": "0.0000006",
-          "pct_change": 100
-        }
-      ]
-    },
-    {
-      "ts": "2026-10-30",
-      "type": "price_changed",
-      "id": "google/gemma-4-26b-a4b-it",
-      "provider": "google",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000009",
-          "next": "0.0000000675",
-          "pct_change": -25
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000003",
-          "next": "0.000000225",
-          "pct_change": -25
-        }
-      ]
     }
   ],
   "scheduled_funerals": [
-    {
-      "id": "poolside/laguna-s-2.1",
-      "provider": "poolside",
-      "expiration_date": "2026-10-31"
-    },
-    {
-      "id": "poolside/laguna-s-2.1:free",
-      "provider": "poolside",
-      "expiration_date": "2026-10-31"
-    },
-    {
-      "id": "poolside/laguna-xs-2.1",
-      "provider": "poolside",
-      "expiration_date": "2026-10-31"
-    },
-    {
-      "id": "poolside/laguna-xs-2.1:free",
-      "provider": "poolside",
-      "expiration_date": "2026-10-31"
-    },
     {
       "id": "nousresearch/hermes-3-llama-3.1-405b",
       "provider": "nousresearch",
@@ -456,6 +436,11 @@
     },
     {
       "id": "z-ai/glm-4.5v",
+      "provider": "z-ai",
+      "expiration_date": "2026-12-31"
+    },
+    {
+      "id": "z-ai/glm-4.7",
       "provider": "z-ai",
       "expiration_date": "2026-12-31"
     }
