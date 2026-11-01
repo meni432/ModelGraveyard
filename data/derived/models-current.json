@@ -108,7 +108,7 @@
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000000434",
+        "prompt": "0.000000059",
         "completion": "0.0000003",
         "image": null,
         "request": null
@@ -2964,8 +2964,8 @@
       "name": "MiniMax: MiniMax M3.1 Flash",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
+        "prompt": "0.000000075",
+        "completion": "0.0000003",
         "image": null,
         "request": null
       },
@@ -5344,8 +5344,8 @@
       "name": "OpenAI: gpt-oss-120b",
       "provider": "openai",
       "pricing": {
-        "prompt": "0.000000017",
-        "completion": "0.000000063",
+        "prompt": "0.000000015",
+        "completion": "0.000000054",
         "image": null,
         "request": null
       },
@@ -6857,8 +6857,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },
@@ -6891,8 +6891,8 @@
       "name": "Tencent: Hy4 preview",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000834",
-        "completion": "0.000002501",
+        "prompt": "0.0000007506",
+        "completion": "0.0000022509",
         "image": null,
         "request": null
       },

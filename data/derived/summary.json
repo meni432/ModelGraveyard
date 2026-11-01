@@ -12,6 +12,100 @@
       "changes": [
         {
           "field": "prompt",
+          "prev": "0.000000017",
+          "next": "0.000000015",
+          "pct_change": -11.76
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000063",
+          "next": "0.000000054",
+          "pct_change": -14.29
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-01",
+      "type": "price_changed",
+      "id": "tencent/hy3",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000132",
+          "next": "0.0000000825",
+          "pct_change": -37.5
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000528",
+          "next": "0.00000033",
+          "pct_change": -37.5
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-01",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000434",
+          "next": "0.000000059",
+          "pct_change": 35.94
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-01",
+      "type": "price_changed",
+      "id": "tencent/hy4-preview",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000834",
+          "next": "0.0000007506",
+          "pct_change": -10
+        },
+        {
+          "field": "completion",
+          "prev": "0.000002501",
+          "next": "0.0000022509",
+          "pct_change": -10
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-01",
+      "type": "price_changed",
+      "id": "minimax/minimax-m3.1-flash",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000015",
+          "next": "0.000000075",
+          "pct_change": -50
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000006",
+          "next": "0.0000003",
+          "pct_change": -50
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-01",
+      "type": "price_changed",
+      "id": "openai/gpt-oss-120b",
+      "provider": "openai",
+      "changes": [
+        {
+          "field": "prompt",
           "prev": "0.000000028",
           "next": "0.000000017",
           "pct_change": -39.29
@@ -297,109 +391,6 @@
           "pct_change": 73.49
         }
       ]
-    },
-    {
-      "ts": "2026-10-31",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-pro-0813",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000066",
-          "next": "0.000000115",
-          "pct_change": -82.58
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000198",
-          "next": "0.000004",
-          "pct_change": 102.02
-        }
-      ]
-    },
-    {
-      "ts": "2026-10-31",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.3-flash",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000000163",
-          "next": "0.0000000149",
-          "pct_change": -8.59
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000001479",
-          "next": "0.0000001543",
-          "pct_change": 4.33
-        }
-      ]
-    },
-    {
-      "ts": "2026-10-31",
-      "type": "price_changed",
-      "id": "~z-ai/glm-flash-latest",
-      "provider": "~z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000000163",
-          "next": "0.0000000149",
-          "pct_change": -8.59
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000001479",
-          "next": "0.0000001543",
-          "pct_change": 4.33
-        }
-      ]
-    },
-    {
-      "ts": "2026-10-31",
-      "type": "price_changed",
-      "id": "~deepseek/deepseek-flash-latest",
-      "provider": "~deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000000141",
-          "next": "0.0000000155",
-          "pct_change": 9.93
-        },
-        {
-          "field": "completion",
-          "prev": "0.000000144",
-          "next": "0.00000012",
-          "pct_change": -16.67
-        }
-      ]
-    },
-    {
-      "ts": "2026-10-31",
-      "type": "model_removed",
-      "id": "poolside/laguna-xs-2.1:free",
-      "provider": "poolside",
-      "snapshot": {
-        "id": "poolside/laguna-xs-2.1:free",
-        "name": "Poolside: Laguna XS 2.1 (free)",
-        "provider": "poolside",
-        "pricing": {
-          "prompt": "0",
-          "completion": "0",
-          "image": null,
-          "request": null
-        },
-        "context_length": 262144,
-        "max_completion_tokens": 32768,
-        "expiration_date": "2026-10-31",
-        "created": 1783002429,
-        "first_seen": "2026-07-02",
-        "last_seen": "2026-10-31"
-      }
     }
   ],
   "scheduled_funerals": [
