@@ -2182,8 +2182,8 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.00000003",
-        "completion": "0.00000009",
+        "prompt": "0.000000085",
+        "completion": "0.000000256",
         "image": null,
         "request": null
       },
@@ -2783,7 +2783,7 @@
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 943718,
       "expiration_date": null,
       "created": 1792087069,
       "first_seen": "2026-10-15",
@@ -2964,8 +2964,8 @@
       "name": "MiniMax: MiniMax M3.1 Flash",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
+        "prompt": "0.000000075",
+        "completion": "0.0000003",
         "image": null,
         "request": null
       },
@@ -3586,40 +3586,6 @@
       "expiration_date": null,
       "created": 1788890050,
       "first_seen": "2026-09-28",
-      "last_seen": "2026-11-02"
-    },
-    {
-      "id": "nousresearch/hermes-3-llama-3.1-405b",
-      "name": "Nous: Hermes 3 405B Instruct",
-      "provider": "nousresearch",
-      "pricing": {
-        "prompt": "0.000001",
-        "completion": "0.000001",
-        "image": null,
-        "request": null
-      },
-      "context_length": 131072,
-      "max_completion_tokens": 16384,
-      "expiration_date": "2026-11-02",
-      "created": 1723766400,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-11-02"
-    },
-    {
-      "id": "nousresearch/hermes-3-llama-3.1-70b",
-      "name": "Nous: Hermes 3 70B Instruct",
-      "provider": "nousresearch",
-      "pricing": {
-        "prompt": "0.0000007",
-        "completion": "0.0000007",
-        "image": null,
-        "request": null
-      },
-      "context_length": 131072,
-      "max_completion_tokens": 16384,
-      "expiration_date": "2026-11-02",
-      "created": 1723939200,
-      "first_seen": "2026-05-27",
       "last_seen": "2026-11-02"
     },
     {
@@ -5344,8 +5310,8 @@
       "name": "OpenAI: gpt-oss-120b",
       "provider": "openai",
       "pricing": {
-        "prompt": "0.00000001",
-        "completion": "0.000000037",
+        "prompt": "0.00000015",
+        "completion": "0.0000006",
         "image": null,
         "request": null
       },
@@ -5990,8 +5956,8 @@
       "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
+        "prompt": "0.00000007",
+        "completion": "0.00000028",
         "image": null,
         "request": null
       },
@@ -6420,7 +6386,7 @@
         "image": null,
         "request": null
       },
-      "context_length": 1000000,
+      "context_length": 1024000,
       "max_completion_tokens": 235929,
       "expiration_date": null,
       "created": 1786722910,
@@ -7632,6 +7598,23 @@
       "expiration_date": null,
       "created": 1789744020,
       "first_seen": "2026-09-19",
+      "last_seen": "2026-11-02"
+    },
+    {
+      "id": "z-ai/glm-5.3-flashx-legal",
+      "name": "Z.ai: GLM 5.3 FlashX Legal",
+      "provider": "z-ai",
+      "pricing": {
+        "prompt": "0.00000037",
+        "completion": "0.00000125",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1048576,
+      "max_completion_tokens": 131072,
+      "expiration_date": null,
+      "created": 1793626154,
+      "first_seen": "2026-11-02",
       "last_seen": "2026-11-02"
     },
     {

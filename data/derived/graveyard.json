@@ -1,6 +1,40 @@
 {
   "buried": [
     {
+      "id": "nousresearch/hermes-3-llama-3.1-405b",
+      "name": "Nous: Hermes 3 405B Instruct",
+      "provider": "nousresearch",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.000001",
+        "completion": "0.000001",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 131072,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-11-02",
+      "buried_at": "2026-11-02",
+      "suggested_replacement": "nousresearch/hermes-4-405b"
+    },
+    {
+      "id": "nousresearch/hermes-3-llama-3.1-70b",
+      "name": "Nous: Hermes 3 70B Instruct",
+      "provider": "nousresearch",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000007",
+        "completion": "0.0000007",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 131072,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-11-02",
+      "buried_at": "2026-11-02",
+      "suggested_replacement": "nousresearch/hermes-4-405b"
+    },
+    {
       "id": "poolside/laguna-s-2.1",
       "name": "Poolside: Laguna S 2.1",
       "provider": "poolside",
