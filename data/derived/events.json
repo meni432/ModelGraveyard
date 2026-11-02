@@ -76619,6 +76619,146 @@
           "pct_change": -14.29
         }
       ]
+    },
+    {
+      "ts": "2026-11-02",
+      "type": "price_changed",
+      "id": "minimax/minimax-m3.1-flash",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000075",
+          "next": "0.00000015",
+          "pct_change": 100
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000003",
+          "next": "0.0000006",
+          "pct_change": 100
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-02",
+      "type": "price_changed",
+      "id": "tencent/hy4-preview",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000007506",
+          "next": "0.000000834",
+          "pct_change": 11.11
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000022509",
+          "next": "0.000002501",
+          "pct_change": 11.11
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-02",
+      "type": "price_changed",
+      "id": "tencent/hy3",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000825",
+          "next": "0.000000132",
+          "pct_change": 60
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000033",
+          "next": "0.000000528",
+          "pct_change": 60
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-02",
+      "type": "price_changed",
+      "id": "google/gemma-4-26b-a4b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000675",
+          "next": "0.00000003",
+          "pct_change": -55.56
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000225",
+          "next": "0.00000009",
+          "pct_change": -60
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-02",
+      "type": "price_changed",
+      "id": "openai/gpt-oss-120b",
+      "provider": "openai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000015",
+          "next": "0.00000001",
+          "pct_change": -33.33
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000054",
+          "next": "0.000000037",
+          "pct_change": -31.48
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-02",
+      "type": "price_changed",
+      "id": "qwen/qwen3-coder-30b-a3b-instruct",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000007",
+          "next": "0.00000015",
+          "pct_change": 114.29
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000028",
+          "next": "0.0000006",
+          "pct_change": 114.29
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-02",
+      "type": "price_changed",
+      "id": "meta-llama/llama-3.2-3b-instruct",
+      "provider": "meta-llama",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000005",
+          "next": "0.0000000509",
+          "pct_change": 1.8
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000033",
+          "next": "0.000000335",
+          "pct_change": 1.52
+        }
+      ]
     }
   ]
 }
