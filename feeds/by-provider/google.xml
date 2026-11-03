@@ -15,6 +15,15 @@
     <summary>prompt: $0.0850/Mtok → $0.0800/Mtok (-5.88%); completion: $0.2560/Mtok → $0.2410/Mtok (-5.86%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-11-03:price_changed:google%2Fgemma-4-26b-a4b-it</id>
+    <title>Price changed: google/gemma-4-26b-a4b-it</title>
+    <updated>2026-11-03T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemma-4-26b-a4b-it"/>
+    <category term="price_changed"/>
+    <category term="provider:google"/>
+    <summary>prompt: $0.0800/Mtok → $0.0920/Mtok (+15%); completion: $0.2410/Mtok → $0.2770/Mtok (+14.94%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-11-02:price_changed:google%2Fgemma-4-26b-a4b-it</id>
     <title>Price changed: google/gemma-4-26b-a4b-it</title>
     <updated>2026-11-02T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="model_added"/>
     <category term="provider:google"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.7500/Mtok, context: 1048576.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-06:model_added:google%2Fgemini-3.1-flash-lite%3Abatch</id>
-    <title>Added: google/gemini-3.1-flash-lite:batch</title>
-    <updated>2026-08-06T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-3.1-flash-lite%3Abatch"/>
-    <category term="model_added"/>
-    <category term="provider:google"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.1250/Mtok, context: 1048576.</summary>
   </entry>
 </feed>
