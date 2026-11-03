@@ -159,8 +159,8 @@
       "name": "MoonshotAI: Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.0000001824",
-        "completion": "0.0000093388",
+        "prompt": "0.0000001529",
+        "completion": "0.0000101551",
         "image": null,
         "request": null
       },
@@ -2182,8 +2182,8 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.000000092",
-        "completion": "0.000000277",
+        "prompt": "0.000000066",
+        "completion": "0.000000199",
         "image": null,
         "request": null
       },
@@ -2835,7 +2835,7 @@
       },
       "context_length": 1000192,
       "max_completion_tokens": 900172,
-      "expiration_date": null,
+      "expiration_date": "2026-11-05",
       "created": 1736915462,
       "first_seen": "2026-05-27",
       "last_seen": "2026-11-03"
@@ -2869,7 +2869,7 @@
       },
       "context_length": 204800,
       "max_completion_tokens": 131072,
-      "expiration_date": null,
+      "expiration_date": "2026-11-05",
       "created": 1761252093,
       "first_seen": "2026-05-27",
       "last_seen": "2026-11-03"
@@ -2886,7 +2886,7 @@
       },
       "context_length": 65536,
       "max_completion_tokens": 2048,
-      "expiration_date": null,
+      "expiration_date": "2026-11-05",
       "created": 1769177239,
       "first_seen": "2026-05-27",
       "last_seen": "2026-11-03"
@@ -2903,7 +2903,7 @@
       },
       "context_length": 204800,
       "max_completion_tokens": 131072,
-      "expiration_date": null,
+      "expiration_date": "2026-11-05",
       "created": 1766454997,
       "first_seen": "2026-05-27",
       "last_seen": "2026-11-03"
@@ -2937,7 +2937,7 @@
       },
       "context_length": 204800,
       "max_completion_tokens": 131072,
-      "expiration_date": null,
+      "expiration_date": "2026-11-05",
       "created": 1773836697,
       "first_seen": "2026-05-27",
       "last_seen": "2026-11-03"
@@ -2964,8 +2964,8 @@
       "name": "MiniMax: MiniMax M3.1 Flash",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
+        "prompt": "0.000000075",
+        "completion": "0.0000003",
         "image": null,
         "request": null
       },
@@ -3475,7 +3475,7 @@
       "provider": "moonshotai",
       "pricing": {
         "prompt": "0.000000192",
-        "completion": "0.000015",
+        "completion": "0.000016",
         "image": null,
         "request": null
       },
@@ -3769,7 +3769,7 @@
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 235929,
+      "max_completion_tokens": 943718,
       "expiration_date": null,
       "created": 1792076662,
       "first_seen": "2026-10-15",
@@ -5310,8 +5310,8 @@
       "name": "OpenAI: gpt-oss-120b",
       "provider": "openai",
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
+        "prompt": "0.000000025",
+        "completion": "0.000000092",
         "image": null,
         "request": null
       },
@@ -5854,13 +5854,13 @@
       "name": "Qwen: Qwen3 235B A22B Instruct 2507",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000009",
-        "completion": "0.00000055",
+        "prompt": "0.00000014",
+        "completion": "0.0000008",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 16384,
+      "max_completion_tokens": 117964,
       "expiration_date": null,
       "created": 1753119555,
       "first_seen": "2026-05-27",
@@ -6700,6 +6700,23 @@
       "last_seen": "2026-11-03"
     },
     {
+      "id": "stealth/crouton-alpha",
+      "name": "Crouton Alpha",
+      "provider": "stealth",
+      "pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1048576,
+      "max_completion_tokens": 943718,
+      "expiration_date": null,
+      "created": 1793669930,
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03"
+    },
+    {
       "id": "stepfun/step-3.5-flash",
       "name": "StepFun: Step 3.5 Flash",
       "provider": "stepfun",
@@ -6823,8 +6840,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },
@@ -6857,8 +6874,8 @@
       "name": "Tencent: Hy4 preview",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000834",
-        "completion": "0.000002501",
+        "prompt": "0.0000007506",
+        "completion": "0.0000022509",
         "image": null,
         "request": null
       },
@@ -7210,6 +7227,23 @@
       "last_seen": "2026-11-03"
     },
     {
+      "id": "x-ai/grok-4.6:batch",
+      "name": "SpaceXAI: Grok 4.6 (batch)",
+      "provider": "x-ai",
+      "pricing": {
+        "prompt": "0.0000016",
+        "completion": "0.0000048",
+        "image": null,
+        "request": null
+      },
+      "context_length": 500000,
+      "max_completion_tokens": 450000,
+      "expiration_date": null,
+      "created": 1786548957,
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03"
+    },
+    {
       "id": "x-ai/grok-4.7",
       "name": "SpaceXAI: Grok 4.7",
       "provider": "x-ai",
@@ -7224,6 +7258,23 @@
       "expiration_date": null,
       "created": 1790007541,
       "first_seen": "2026-09-21",
+      "last_seen": "2026-11-03"
+    },
+    {
+      "id": "x-ai/grok-4.7:batch",
+      "name": "SpaceXAI: Grok 4.7 (batch)",
+      "provider": "x-ai",
+      "pricing": {
+        "prompt": "0.0000016",
+        "completion": "0.0000048",
+        "image": null,
+        "request": null
+      },
+      "context_length": 500000,
+      "max_completion_tokens": 450000,
+      "expiration_date": null,
+      "created": 1790007541,
+      "first_seen": "2026-11-03",
       "last_seen": "2026-11-03"
     },
     {

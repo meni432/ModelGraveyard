@@ -1,9 +1,272 @@
 {
   "generated_at": "2026-11-03",
-  "active_count": 451,
+  "active_count": 454,
   "dead_count": 251,
   "last_event_ts": "2026-11-03",
   "recent_events": [
+    {
+      "ts": "2026-11-03",
+      "type": "deprecation_announced",
+      "id": "minimax/minimax-01",
+      "provider": "minimax",
+      "prev_expiration": null,
+      "next_expiration": "2026-11-05"
+    },
+    {
+      "ts": "2026-11-03",
+      "type": "price_changed",
+      "id": "qwen/qwen3-235b-a22b-2507",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000009",
+          "next": "0.00000014",
+          "pct_change": 55.56
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000055",
+          "next": "0.0000008",
+          "pct_change": 45.45
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-03",
+      "type": "price_changed",
+      "id": "openai/gpt-oss-120b",
+      "provider": "openai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000015",
+          "next": "0.000000025",
+          "pct_change": -83.33
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000006",
+          "next": "0.000000092",
+          "pct_change": -84.67
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-03",
+      "type": "deprecation_announced",
+      "id": "minimax/minimax-m2",
+      "provider": "minimax",
+      "prev_expiration": null,
+      "next_expiration": "2026-11-05"
+    },
+    {
+      "ts": "2026-11-03",
+      "type": "deprecation_announced",
+      "id": "minimax/minimax-m2.1",
+      "provider": "minimax",
+      "prev_expiration": null,
+      "next_expiration": "2026-11-05"
+    },
+    {
+      "ts": "2026-11-03",
+      "type": "deprecation_announced",
+      "id": "minimax/minimax-m2-her",
+      "provider": "minimax",
+      "prev_expiration": null,
+      "next_expiration": "2026-11-05"
+    },
+    {
+      "ts": "2026-11-03",
+      "type": "deprecation_announced",
+      "id": "minimax/minimax-m2.7",
+      "provider": "minimax",
+      "prev_expiration": null,
+      "next_expiration": "2026-11-05"
+    },
+    {
+      "ts": "2026-11-03",
+      "type": "price_changed",
+      "id": "google/gemma-4-26b-a4b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000092",
+          "next": "0.000000066",
+          "pct_change": -28.26
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000277",
+          "next": "0.000000199",
+          "pct_change": -28.16
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-03",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000001824",
+          "next": "0.0000001529",
+          "pct_change": -16.17
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000093388",
+          "next": "0.0000101551",
+          "pct_change": 8.74
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-03",
+      "type": "price_changed",
+      "id": "tencent/hy3",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000132",
+          "next": "0.0000000825",
+          "pct_change": -37.5
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000528",
+          "next": "0.00000033",
+          "pct_change": -37.5
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-03",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k3",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.000015",
+          "next": "0.000016",
+          "pct_change": 6.67
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-03",
+      "type": "model_added",
+      "id": "x-ai/grok-4.6:batch",
+      "provider": "x-ai",
+      "snapshot": {
+        "id": "x-ai/grok-4.6:batch",
+        "name": "SpaceXAI: Grok 4.6 (batch)",
+        "provider": "x-ai",
+        "pricing": {
+          "prompt": "0.0000016",
+          "completion": "0.0000048",
+          "image": null,
+          "request": null
+        },
+        "context_length": 500000,
+        "max_completion_tokens": 450000,
+        "expiration_date": null,
+        "created": 1786548957,
+        "first_seen": "2026-11-03",
+        "last_seen": "2026-11-03"
+      }
+    },
+    {
+      "ts": "2026-11-03",
+      "type": "price_changed",
+      "id": "tencent/hy4-preview",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000834",
+          "next": "0.0000007506",
+          "pct_change": -10
+        },
+        {
+          "field": "completion",
+          "prev": "0.000002501",
+          "next": "0.0000022509",
+          "pct_change": -10
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-03",
+      "type": "model_added",
+      "id": "x-ai/grok-4.7:batch",
+      "provider": "x-ai",
+      "snapshot": {
+        "id": "x-ai/grok-4.7:batch",
+        "name": "SpaceXAI: Grok 4.7 (batch)",
+        "provider": "x-ai",
+        "pricing": {
+          "prompt": "0.0000016",
+          "completion": "0.0000048",
+          "image": null,
+          "request": null
+        },
+        "context_length": 500000,
+        "max_completion_tokens": 450000,
+        "expiration_date": null,
+        "created": 1790007541,
+        "first_seen": "2026-11-03",
+        "last_seen": "2026-11-03"
+      }
+    },
+    {
+      "ts": "2026-11-03",
+      "type": "price_changed",
+      "id": "minimax/minimax-m3.1-flash",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000015",
+          "next": "0.000000075",
+          "pct_change": -50
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000006",
+          "next": "0.0000003",
+          "pct_change": -50
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-03",
+      "type": "model_added",
+      "id": "stealth/crouton-alpha",
+      "provider": "stealth",
+      "snapshot": {
+        "id": "stealth/crouton-alpha",
+        "name": "Crouton Alpha",
+        "provider": "stealth",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": 943718,
+        "expiration_date": null,
+        "created": 1793669930,
+        "first_seen": "2026-11-03",
+        "last_seen": "2026-11-03"
+      }
+    },
     {
       "ts": "2026-11-03",
       "type": "price_changed",
@@ -83,284 +346,6 @@
           "pct_change": -8.34
         }
       ]
-    },
-    {
-      "ts": "2026-11-03",
-      "type": "price_changed",
-      "id": "~z-ai/glm-flash-latest",
-      "provider": "~z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000000285",
-          "next": "0.0000000313",
-          "pct_change": 9.82
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000000923",
-          "next": "0.0000000846",
-          "pct_change": -8.34
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-03",
-      "type": "price_changed",
-      "id": "~deepseek/deepseek-flash-latest",
-      "provider": "~deepseek",
-      "changes": [
-        {
-          "field": "completion",
-          "prev": "0.0000005",
-          "next": "0.000000315",
-          "pct_change": -37
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-03",
-      "type": "price_changed",
-      "id": "minimax/minimax-m3.1-flash",
-      "provider": "minimax",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000075",
-          "next": "0.00000015",
-          "pct_change": 100
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000003",
-          "next": "0.0000006",
-          "pct_change": 100
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-03",
-      "type": "price_changed",
-      "id": "meta-llama/llama-3.3-70b-instruct",
-      "provider": "meta-llama",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000001",
-          "next": "0.0000002",
-          "pct_change": 100
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000032",
-          "next": "0.00000052",
-          "pct_change": 62.5
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-03",
-      "type": "price_changed",
-      "id": "qwen/qwen3-coder-30b-a3b-instruct",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000007",
-          "next": "0.00000015",
-          "pct_change": 114.29
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000028",
-          "next": "0.0000006",
-          "pct_change": 114.29
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-03",
-      "type": "price_changed",
-      "id": "qwen/qwen3-next-80b-a3b-instruct",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000009",
-          "next": "0.0000001",
-          "pct_change": 11.11
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-03",
-      "type": "price_changed",
-      "id": "google/gemma-4-26b-a4b-it",
-      "provider": "google",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000085",
-          "next": "0.00000008",
-          "pct_change": -5.88
-        },
-        {
-          "field": "completion",
-          "prev": "0.000000256",
-          "next": "0.000000241",
-          "pct_change": -5.86
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-03",
-      "type": "deprecation_announced",
-      "id": "thinkingmachines/inkling:free",
-      "provider": "thinkingmachines",
-      "prev_expiration": null,
-      "next_expiration": "2026-11-04"
-    },
-    {
-      "ts": "2026-11-03",
-      "type": "deprecation_announced",
-      "id": "thinkingmachines/inkling-small:free",
-      "provider": "thinkingmachines",
-      "prev_expiration": null,
-      "next_expiration": "2026-11-04"
-    },
-    {
-      "ts": "2026-11-03",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-flash-0731",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000119",
-          "next": "0.000000059",
-          "pct_change": -50.42
-        },
-        {
-          "field": "completion",
-          "prev": "0.000000238",
-          "next": "0.0000003",
-          "pct_change": 26.05
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-02",
-      "type": "model_removed",
-      "id": "nousresearch/hermes-3-llama-3.1-70b",
-      "provider": "nousresearch",
-      "snapshot": {
-        "id": "nousresearch/hermes-3-llama-3.1-70b",
-        "name": "Nous: Hermes 3 70B Instruct",
-        "provider": "nousresearch",
-        "pricing": {
-          "prompt": "0.0000007",
-          "completion": "0.0000007",
-          "image": null,
-          "request": null
-        },
-        "context_length": 131072,
-        "max_completion_tokens": 16384,
-        "expiration_date": "2026-11-02",
-        "created": 1723939200,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-11-02"
-      }
-    },
-    {
-      "ts": "2026-11-02",
-      "type": "model_removed",
-      "id": "nousresearch/hermes-3-llama-3.1-405b",
-      "provider": "nousresearch",
-      "snapshot": {
-        "id": "nousresearch/hermes-3-llama-3.1-405b",
-        "name": "Nous: Hermes 3 405B Instruct",
-        "provider": "nousresearch",
-        "pricing": {
-          "prompt": "0.000001",
-          "completion": "0.000001",
-          "image": null,
-          "request": null
-        },
-        "context_length": 131072,
-        "max_completion_tokens": 16384,
-        "expiration_date": "2026-11-02",
-        "created": 1723766400,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-11-02"
-      }
-    },
-    {
-      "ts": "2026-11-02",
-      "type": "price_changed",
-      "id": "qwen/qwen3-coder-30b-a3b-instruct",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000015",
-          "next": "0.00000007",
-          "pct_change": -53.33
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000006",
-          "next": "0.00000028",
-          "pct_change": -53.33
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-02",
-      "type": "price_changed",
-      "id": "openai/gpt-oss-120b",
-      "provider": "openai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000001",
-          "next": "0.00000015",
-          "pct_change": 1400
-        },
-        {
-          "field": "completion",
-          "prev": "0.000000037",
-          "next": "0.0000006",
-          "pct_change": 1521.62
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-02",
-      "type": "price_changed",
-      "id": "google/gemma-4-26b-a4b-it",
-      "provider": "google",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000003",
-          "next": "0.000000085",
-          "pct_change": 183.33
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000009",
-          "next": "0.000000256",
-          "pct_change": 184.44
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-02",
-      "type": "context_changed",
-      "id": "qwen/qwen3.8-27b",
-      "provider": "qwen",
-      "prev_context": 1000000,
-      "next_context": 1024000
     }
   ],
   "scheduled_funerals": [
@@ -373,6 +358,31 @@
       "id": "thinkingmachines/inkling:free",
       "provider": "thinkingmachines",
       "expiration_date": "2026-11-04"
+    },
+    {
+      "id": "minimax/minimax-01",
+      "provider": "minimax",
+      "expiration_date": "2026-11-05"
+    },
+    {
+      "id": "minimax/minimax-m2",
+      "provider": "minimax",
+      "expiration_date": "2026-11-05"
+    },
+    {
+      "id": "minimax/minimax-m2-her",
+      "provider": "minimax",
+      "expiration_date": "2026-11-05"
+    },
+    {
+      "id": "minimax/minimax-m2.1",
+      "provider": "minimax",
+      "expiration_date": "2026-11-05"
+    },
+    {
+      "id": "minimax/minimax-m2.7",
+      "provider": "minimax",
+      "expiration_date": "2026-11-05"
     },
     {
       "id": "bytedance-seed/seed-1.6",

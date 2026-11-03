@@ -4,7 +4,34 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_added.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_added.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-11-02T00:00:00Z</updated>
+  <updated>2026-11-03T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-03:model_added:stealth%2Fcrouton-alpha</id>
+    <title>Added: stealth/crouton-alpha</title>
+    <updated>2026-11-03T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/stealth%2Fcrouton-alpha"/>
+    <category term="model_added"/>
+    <category term="provider:stealth"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 1048576.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-03:model_added:x-ai%2Fgrok-4.7%3Abatch</id>
+    <title>Added: x-ai/grok-4.7:batch</title>
+    <updated>2026-11-03T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/x-ai%2Fgrok-4.7%3Abatch"/>
+    <category term="model_added"/>
+    <category term="provider:x-ai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $1.6000/Mtok, context: 500000.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-03:model_added:x-ai%2Fgrok-4.6%3Abatch</id>
+    <title>Added: x-ai/grok-4.6:batch</title>
+    <updated>2026-11-03T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/x-ai%2Fgrok-4.6%3Abatch"/>
+    <category term="model_added"/>
+    <category term="provider:x-ai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $1.6000/Mtok, context: 500000.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-11-02:model_added:z-ai%2Fglm-5.3-flashx-legal</id>
     <title>Added: z-ai/glm-5.3-flashx-legal</title>
@@ -877,32 +904,5 @@
     <category term="model_added"/>
     <category term="provider:sakana"/>
     <summary>New model on OpenRouter. Initial prompt price: $5.0000/Mtok, context: 1000000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-11:model_added:sakana%2Ffugu-max</id>
-    <title>Added: sakana/fugu-max</title>
-    <updated>2026-09-11T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/sakana%2Ffugu-max"/>
-    <category term="model_added"/>
-    <category term="provider:sakana"/>
-    <summary>New model on OpenRouter. Initial prompt price: $2.0000/Mtok, context: 1000000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-11:model_added:~openai%2Fgpt-astra-latest</id>
-    <title>Added: ~openai/gpt-astra-latest</title>
-    <updated>2026-09-11T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/~openai%2Fgpt-astra-latest"/>
-    <category term="model_added"/>
-    <category term="provider:~openai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $10.0000/Mtok, context: 1050000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-11:model_added:~openai%2Fgpt-sol-latest</id>
-    <title>Added: ~openai/gpt-sol-latest</title>
-    <updated>2026-09-11T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/~openai%2Fgpt-sol-latest"/>
-    <category term="model_added"/>
-    <category term="provider:~openai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $2.0000/Mtok, context: 1050000.</summary>
   </entry>
 </feed>

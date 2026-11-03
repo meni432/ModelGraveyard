@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/stealth.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/stealth.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-10-05T00:00:00Z</updated>
+  <updated>2026-11-03T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-03:model_added:stealth%2Fcrouton-alpha</id>
+    <title>Added: stealth/crouton-alpha</title>
+    <updated>2026-11-03T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/stealth%2Fcrouton-alpha"/>
+    <category term="model_added"/>
+    <category term="provider:stealth"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 1048576.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-10-05:model_removed:stealth%2Fspace-bunny-alpha</id>
     <title>Removed: stealth/space-bunny-alpha</title>
