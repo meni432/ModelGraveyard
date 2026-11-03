@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-provider/thinkingmachines.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/thinkingmachines.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-10-07T00:00:00Z</updated>
+  <updated>2026-11-03T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-03:deprecation_announced:thinkingmachines%2Finkling-small%3Afree</id>
+    <title>Deprecation announced: thinkingmachines/inkling-small:free (sunset 2026-11-04)</title>
+    <updated>2026-11-03T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/thinkingmachines%2Finkling-small%3Afree"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:thinkingmachines"/>
+    <summary>Provider announced retirement on 2026-11-04.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-03:deprecation_announced:thinkingmachines%2Finkling%3Afree</id>
+    <title>Deprecation announced: thinkingmachines/inkling:free (sunset 2026-11-04)</title>
+    <updated>2026-11-03T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/thinkingmachines%2Finkling%3Afree"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:thinkingmachines"/>
+    <summary>Provider announced retirement on 2026-11-04.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-10-07:price_changed:thinkingmachines%2Finkling</id>
     <title>Price changed: thinkingmachines/inkling</title>
