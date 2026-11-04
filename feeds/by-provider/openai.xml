@@ -24,6 +24,24 @@
     <summary>prompt: $0.0230/Mtok → $0.0240/Mtok (+4.35%); completion: $0.0870/Mtok → $0.0890/Mtok (+2.3%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-11-04:price_changed:openai%2Fgpt-oss-120b</id>
+    <title>Price changed: openai/gpt-oss-120b</title>
+    <updated>2026-11-04T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-oss-120b"/>
+    <category term="price_changed"/>
+    <category term="provider:openai"/>
+    <summary>prompt: $0.0240/Mtok → $0.0180/Mtok (-25%); completion: $0.0890/Mtok → $0.0660/Mtok (-25.84%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-04:price_changed:openai%2Fgpt-oss-20b</id>
+    <title>Price changed: openai/gpt-oss-20b</title>
+    <updated>2026-11-04T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-oss-20b"/>
+    <category term="price_changed"/>
+    <category term="provider:openai"/>
+    <summary>prompt: $0.0300/Mtok → $0.0180/Mtok (-40%); completion: $0.1300/Mtok → $0.0900/Mtok (-30.77%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-11-03:price_changed:openai%2Fgpt-oss-120b</id>
     <title>Price changed: openai/gpt-oss-120b</title>
     <updated>2026-11-03T00:00:00Z</updated>
@@ -886,23 +904,5 @@
     <category term="model_added"/>
     <category term="provider:openai"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.2500/Mtok, context: 16385.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-28:model_removed:openai%2Fgpt-3.5-turbo%3Abatch</id>
-    <title>Removed: openai/gpt-3.5-turbo:batch</title>
-    <updated>2026-08-28T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-3.5-turbo%3Abatch"/>
-    <category term="model_removed"/>
-    <category term="provider:openai"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.2500/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-28:model_removed:openai%2Fgpt-4-turbo%3Abatch</id>
-    <title>Removed: openai/gpt-4-turbo:batch</title>
-    <updated>2026-08-28T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-4-turbo%3Abatch"/>
-    <category term="model_removed"/>
-    <category term="provider:openai"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $5.0000/Mtok.</summary>
   </entry>
 </feed>

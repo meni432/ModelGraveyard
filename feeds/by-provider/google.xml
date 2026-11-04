@@ -24,6 +24,15 @@
     <summary>prompt: $0.0530/Mtok → $0.0830/Mtok (+56.6%); completion: $0.1600/Mtok → $0.2500/Mtok (+56.25%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-11-04:price_changed:google%2Fgemma-4-26b-a4b-it</id>
+    <title>Price changed: google/gemma-4-26b-a4b-it</title>
+    <updated>2026-11-04T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemma-4-26b-a4b-it"/>
+    <category term="price_changed"/>
+    <category term="provider:google"/>
+    <summary>prompt: $0.0830/Mtok → $0.0350/Mtok (-57.83%); completion: $0.2500/Mtok → $0.1040/Mtok (-58.4%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-11-03:price_changed:google%2Fgemma-4-26b-a4b-it</id>
     <title>Price changed: google/gemma-4-26b-a4b-it</title>
     <updated>2026-11-03T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:google"/>
     <summary>prompt: $0.7500/Mtok → $0.3750/Mtok (-50%); completion: $3.7500/Mtok → $1.8750/Mtok (-50%); image: $0.7500/Mtok → $0.3750/Mtok (-50%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-10:price_changed:google%2Fgemma-4-26b-a4b-it</id>
-    <title>Price changed: google/gemma-4-26b-a4b-it</title>
-    <updated>2026-08-10T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemma-4-26b-a4b-it"/>
-    <category term="price_changed"/>
-    <category term="provider:google"/>
-    <summary>prompt: $0.0700/Mtok → $0.1200/Mtok (+71.43%); completion: $0.3400/Mtok → $0.4000/Mtok (+17.65%)</summary>
   </entry>
 </feed>

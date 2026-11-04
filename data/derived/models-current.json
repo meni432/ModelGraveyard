@@ -74,7 +74,7 @@
       "name": "DeepSeek: DeepSeek Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.000000032",
+        "prompt": "0.000000006",
         "completion": "0.0000005",
         "image": null,
         "request": null
@@ -108,7 +108,7 @@
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.000000059",
+        "prompt": "0.0000000434",
         "completion": "0.0000003",
         "image": null,
         "request": null
@@ -159,8 +159,8 @@
       "name": "MoonshotAI: Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.0000001624",
-        "completion": "0.0000101551",
+        "prompt": "0.0000001824",
+        "completion": "0.0000093388",
         "image": null,
         "request": null
       },
@@ -295,8 +295,8 @@
       "name": "Z.ai: GLM Flash Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.0000000269",
-        "completion": "0.0000000996",
+        "prompt": "0.0000000285",
+        "completion": "0.0000000923",
         "image": null,
         "request": null
       },
@@ -1417,7 +1417,7 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000059",
+        "prompt": "0.0000000434",
         "completion": "0.0000003",
         "image": null,
         "request": null
@@ -2182,8 +2182,8 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.000000083",
-        "completion": "0.00000025",
+        "prompt": "0.000000035",
+        "completion": "0.000000104",
         "image": null,
         "request": null
       },
@@ -2964,8 +2964,8 @@
       "name": "MiniMax: MiniMax M3.1 Flash",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
+        "prompt": "0.000000075",
+        "completion": "0.0000003",
         "image": null,
         "request": null
       },
@@ -5310,8 +5310,8 @@
       "name": "OpenAI: gpt-oss-120b",
       "provider": "openai",
       "pricing": {
-        "prompt": "0.000000024",
-        "completion": "0.000000089",
+        "prompt": "0.000000018",
+        "completion": "0.000000066",
         "image": null,
         "request": null
       },
@@ -5344,13 +5344,13 @@
       "name": "OpenAI: gpt-oss-20b",
       "provider": "openai",
       "pricing": {
-        "prompt": "0.00000003",
-        "completion": "0.00000013",
+        "prompt": "0.000000018",
+        "completion": "0.00000009",
         "image": null,
         "request": null
       },
       "context_length": 131072,
-      "max_completion_tokens": 117964,
+      "max_completion_tokens": 32768,
       "expiration_date": null,
       "created": 1754414229,
       "first_seen": "2026-05-27",
@@ -6564,6 +6564,23 @@
       "last_seen": "2026-11-04"
     },
     {
+      "id": "ricursiveai/ripple-65b-preview",
+      "name": "ricursiveAI/Ripple-65B-Preview",
+      "provider": "ricursiveai",
+      "pricing": {
+        "prompt": "0.0000002",
+        "completion": "0.0000006",
+        "image": null,
+        "request": null
+      },
+      "context_length": 16384,
+      "max_completion_tokens": 14745,
+      "expiration_date": null,
+      "created": 1793818990,
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04"
+    },
+    {
       "id": "sakana/fugu-max",
       "name": "Sakana: Fugu Max",
       "provider": "sakana",
@@ -6840,8 +6857,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },
@@ -6891,8 +6908,8 @@
       "name": "Tencent: Hy4 preview",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000834",
-        "completion": "0.000002501",
+        "prompt": "0.0000007506",
+        "completion": "0.0000022509",
         "image": null,
         "request": null
       },
@@ -7571,8 +7588,8 @@
       "name": "Z.ai: GLM 5.3",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.00000008",
-        "completion": "0.0000036",
+        "prompt": "0.0000000699",
+        "completion": "0.0000014",
         "image": null,
         "request": null
       },
@@ -7588,13 +7605,13 @@
       "name": "Z.ai: GLM 5.3 Flash",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.0000000269",
-        "completion": "0.0000000996",
+        "prompt": "0.00000015",
+        "completion": "0.0000005",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 943717,
       "expiration_date": null,
       "created": 1787752741,
       "first_seen": "2026-08-26",

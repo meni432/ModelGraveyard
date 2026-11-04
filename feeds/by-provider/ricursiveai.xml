@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ModelGraveyard — ricursiveai</title>
+  <id>https://modelgraveyard.com/feeds/by-provider/ricursiveai.xml</id>
+  <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/ricursiveai.xml"/>
+  <link rel="alternate" href="https://modelgraveyard.com"/>
+  <updated>2026-11-04T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-04:model_added:ricursiveai%2Fripple-65b-preview</id>
+    <title>Added: ricursiveai/ripple-65b-preview</title>
+    <updated>2026-11-04T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/ricursiveai%2Fripple-65b-preview"/>
+    <category term="model_added"/>
+    <category term="provider:ricursiveai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.2000/Mtok, context: 16384.</summary>
+  </entry>
+</feed>
