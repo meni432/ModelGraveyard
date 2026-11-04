@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_added.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_added.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-11-03T00:00:00Z</updated>
+  <updated>2026-11-04T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-04:model_added:tencent%2Fhy4</id>
+    <title>Added: tencent/hy4</title>
+    <updated>2026-11-04T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/tencent%2Fhy4"/>
+    <category term="model_added"/>
+    <category term="provider:tencent"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.4170/Mtok, context: 1048576.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-11-03:model_added:stealth%2Fcrouton-alpha</id>
     <title>Added: stealth/crouton-alpha</title>
@@ -895,14 +904,5 @@
     <category term="model_added"/>
     <category term="provider:inference-net"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.0500/Mtok, context: 128000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-11:model_added:sakana%2Ffugu-ultra-v2</id>
-    <title>Added: sakana/fugu-ultra-v2</title>
-    <updated>2026-09-11T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/sakana%2Ffugu-ultra-v2"/>
-    <category term="model_added"/>
-    <category term="provider:sakana"/>
-    <summary>New model on OpenRouter. Initial prompt price: $5.0000/Mtok, context: 1000000.</summary>
   </entry>
 </feed>
