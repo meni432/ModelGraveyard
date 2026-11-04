@@ -74,8 +74,8 @@
       "name": "DeepSeek: DeepSeek Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000000333",
-        "completion": "0.000000475",
+        "prompt": "0.000000032",
+        "completion": "0.0000005",
         "image": null,
         "request": null
       },
@@ -159,8 +159,8 @@
       "name": "MoonshotAI: Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.00000019",
-        "completion": "0.00000894",
+        "prompt": "0.0000001624",
+        "completion": "0.0000101551",
         "image": null,
         "request": null
       },
@@ -295,8 +295,8 @@
       "name": "Z.ai: GLM Flash Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.0000000283",
-        "completion": "0.0000000933",
+        "prompt": "0.0000000269",
+        "completion": "0.0000000996",
         "image": null,
         "request": null
       },
@@ -2182,8 +2182,8 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.000000053",
-        "completion": "0.00000016",
+        "prompt": "0.000000083",
+        "completion": "0.00000025",
         "image": null,
         "request": null
       },
@@ -3474,7 +3474,7 @@
       "name": "MoonshotAI: Kimi K3",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.0000002",
+        "prompt": "0.000000192",
         "completion": "0.000016",
         "image": null,
         "request": null
@@ -5310,8 +5310,8 @@
       "name": "OpenAI: gpt-oss-120b",
       "provider": "openai",
       "pricing": {
-        "prompt": "0.000000023",
-        "completion": "0.000000087",
+        "prompt": "0.000000024",
+        "completion": "0.000000089",
         "image": null,
         "request": null
       },
@@ -5854,13 +5854,13 @@
       "name": "Qwen: Qwen3 235B A22B Instruct 2507",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000009",
-        "completion": "0.00000055",
+        "prompt": "0.00000014",
+        "completion": "0.0000008",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 16384,
+      "max_completion_tokens": 117964,
       "expiration_date": null,
       "created": 1753119555,
       "first_seen": "2026-05-27",
@@ -6989,40 +6989,6 @@
       "last_seen": "2026-11-04"
     },
     {
-      "id": "thinkingmachines/inkling-small:free",
-      "name": "Thinking Machines: Inkling Small (free)",
-      "provider": "thinkingmachines",
-      "pricing": {
-        "prompt": "0",
-        "completion": "0",
-        "image": null,
-        "request": null
-      },
-      "context_length": 1048576,
-      "max_completion_tokens": 262144,
-      "expiration_date": "2026-11-04",
-      "created": 1785443117,
-      "first_seen": "2026-08-22",
-      "last_seen": "2026-11-04"
-    },
-    {
-      "id": "thinkingmachines/inkling:free",
-      "name": "Thinking Machines: Inkling (free)",
-      "provider": "thinkingmachines",
-      "pricing": {
-        "prompt": "0",
-        "completion": "0",
-        "image": null,
-        "request": null
-      },
-      "context_length": 1048576,
-      "max_completion_tokens": 262144,
-      "expiration_date": "2026-11-04",
-      "created": 1784325956,
-      "first_seen": "2026-08-22",
-      "last_seen": "2026-11-04"
-    },
-    {
       "id": "typesafe/jev-router",
       "name": "TypeSafe: Jev Router",
       "provider": "typesafe",
@@ -7321,7 +7287,7 @@
         "image": null,
         "request": null
       },
-      "context_length": 1050000,
+      "context_length": 1000000,
       "max_completion_tokens": 65536,
       "expiration_date": null,
       "created": 1776874269,
@@ -7622,8 +7588,8 @@
       "name": "Z.ai: GLM 5.3 Flash",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.0000000283",
-        "completion": "0.0000000933",
+        "prompt": "0.0000000269",
+        "completion": "0.0000000996",
         "image": null,
         "request": null
       },

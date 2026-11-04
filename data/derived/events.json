@@ -77732,6 +77732,214 @@
           "pct_change": -38.46
         }
       ]
+    },
+    {
+      "ts": "2026-11-04",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000333",
+          "next": "0.000000032",
+          "pct_change": -3.9
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000475",
+          "next": "0.0000005",
+          "pct_change": 5.26
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-04",
+      "type": "price_changed",
+      "id": "~z-ai/glm-flash-latest",
+      "provider": "~z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000283",
+          "next": "0.0000000269",
+          "pct_change": -4.95
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000000933",
+          "next": "0.0000000996",
+          "pct_change": 6.75
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-04",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.3-flash",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000283",
+          "next": "0.0000000269",
+          "pct_change": -4.95
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000000933",
+          "next": "0.0000000996",
+          "pct_change": 6.75
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-04",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k3",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000002",
+          "next": "0.000000192",
+          "pct_change": -4
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-04",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000019",
+          "next": "0.0000001624",
+          "pct_change": -14.53
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000894",
+          "next": "0.0000101551",
+          "pct_change": 13.59
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-04",
+      "type": "context_changed",
+      "id": "xiaomi/mimo-v2.5",
+      "provider": "xiaomi",
+      "prev_context": 1050000,
+      "next_context": 1000000
+    },
+    {
+      "ts": "2026-11-04",
+      "type": "price_changed",
+      "id": "google/gemma-4-26b-a4b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000053",
+          "next": "0.000000083",
+          "pct_change": 56.6
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000016",
+          "next": "0.00000025",
+          "pct_change": 56.25
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-04",
+      "type": "price_changed",
+      "id": "openai/gpt-oss-120b",
+      "provider": "openai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000023",
+          "next": "0.000000024",
+          "pct_change": 4.35
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000087",
+          "next": "0.000000089",
+          "pct_change": 2.3
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-04",
+      "type": "price_changed",
+      "id": "qwen/qwen3-235b-a22b-2507",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000009",
+          "next": "0.00000014",
+          "pct_change": 55.56
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000055",
+          "next": "0.0000008",
+          "pct_change": 45.45
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-04",
+      "type": "model_removed",
+      "id": "thinkingmachines/inkling-small:free",
+      "provider": "thinkingmachines",
+      "snapshot": {
+        "id": "thinkingmachines/inkling-small:free",
+        "name": "Thinking Machines: Inkling Small (free)",
+        "provider": "thinkingmachines",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": 262144,
+        "expiration_date": "2026-11-04",
+        "created": 1785443117,
+        "first_seen": "2026-08-22",
+        "last_seen": "2026-11-04"
+      }
+    },
+    {
+      "ts": "2026-11-04",
+      "type": "model_removed",
+      "id": "thinkingmachines/inkling:free",
+      "provider": "thinkingmachines",
+      "snapshot": {
+        "id": "thinkingmachines/inkling:free",
+        "name": "Thinking Machines: Inkling (free)",
+        "provider": "thinkingmachines",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": 262144,
+        "expiration_date": "2026-11-04",
+        "created": 1784325956,
+        "first_seen": "2026-08-22",
+        "last_seen": "2026-11-04"
+      }
     }
   ]
 }

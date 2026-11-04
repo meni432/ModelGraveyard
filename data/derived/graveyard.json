@@ -1,6 +1,40 @@
 {
   "buried": [
     {
+      "id": "thinkingmachines/inkling-small:free",
+      "name": "Thinking Machines: Inkling Small (free)",
+      "provider": "thinkingmachines",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 1048576,
+      "first_seen": "2026-08-22",
+      "last_seen": "2026-11-04",
+      "buried_at": "2026-11-04",
+      "suggested_replacement": "thinkingmachines/inkling-small"
+    },
+    {
+      "id": "thinkingmachines/inkling:free",
+      "name": "Thinking Machines: Inkling (free)",
+      "provider": "thinkingmachines",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 1048576,
+      "first_seen": "2026-08-22",
+      "last_seen": "2026-11-04",
+      "buried_at": "2026-11-04",
+      "suggested_replacement": "thinkingmachines/inkling-small"
+    },
+    {
       "id": "nousresearch/hermes-3-llama-3.1-405b",
       "name": "Nous: Hermes 3 405B Instruct",
       "provider": "nousresearch",

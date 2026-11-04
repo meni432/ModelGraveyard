@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_removed.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_removed.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-11-02T00:00:00Z</updated>
+  <updated>2026-11-04T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-04:model_removed:thinkingmachines%2Finkling-small%3Afree</id>
+    <title>Removed: thinkingmachines/inkling-small:free</title>
+    <updated>2026-11-04T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/thinkingmachines%2Finkling-small%3Afree"/>
+    <category term="model_removed"/>
+    <category term="provider:thinkingmachines"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-04:model_removed:thinkingmachines%2Finkling%3Afree</id>
+    <title>Removed: thinkingmachines/inkling:free</title>
+    <updated>2026-11-04T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/thinkingmachines%2Finkling%3Afree"/>
+    <category term="model_removed"/>
+    <category term="provider:thinkingmachines"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-11-02:model_removed:nousresearch%2Fhermes-3-llama-3.1-405b</id>
     <title>Removed: nousresearch/hermes-3-llama-3.1-405b</title>
@@ -886,23 +904,5 @@
     <category term="model_removed"/>
     <category term="provider:ibm-granite"/>
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0500/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-03:model_removed:nvidia%2Fnemotron-3-ultra-550b-a55b%3Abatch</id>
-    <title>Removed: nvidia/nemotron-3-ultra-550b-a55b:batch</title>
-    <updated>2026-09-03T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/nvidia%2Fnemotron-3-ultra-550b-a55b%3Abatch"/>
-    <category term="model_removed"/>
-    <category term="provider:nvidia"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.6000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-01:model_removed:mistralai%2Fcodestral-2508%3Abatch</id>
-    <title>Removed: mistralai/codestral-2508:batch</title>
-    <updated>2026-09-01T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/mistralai%2Fcodestral-2508%3Abatch"/>
-    <category term="model_removed"/>
-    <category term="provider:mistralai"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.3000/Mtok.</summary>
   </entry>
 </feed>
