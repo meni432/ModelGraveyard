@@ -108,7 +108,7 @@
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000000553",
+        "prompt": "0.0000000434",
         "completion": "0.0000003",
         "image": null,
         "request": null
@@ -159,7 +159,7 @@
       "name": "MoonshotAI: Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.0000001824",
+        "prompt": "0.0000001624",
         "completion": "0.0000093388",
         "image": null,
         "request": null
@@ -1417,7 +1417,7 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000000553",
+        "prompt": "0.0000000434",
         "completion": "0.0000003",
         "image": null,
         "request": null
@@ -2110,6 +2110,40 @@
       "last_seen": "2026-11-05"
     },
     {
+      "id": "google/gemini-omni-1.1-flash",
+      "name": "Google: Gemini Omni 1.1 Flash",
+      "provider": "google",
+      "pricing": {
+        "prompt": "0.0000015",
+        "completion": "0.000009",
+        "image": null,
+        "request": null
+      },
+      "context_length": 131072,
+      "max_completion_tokens": 65536,
+      "expiration_date": null,
+      "created": 1793825668,
+      "first_seen": "2026-11-05",
+      "last_seen": "2026-11-05"
+    },
+    {
+      "id": "google/gemini-omni-1.2-flash",
+      "name": "Google: Gemini Omni 1.2 Flash",
+      "provider": "google",
+      "pricing": {
+        "prompt": "0.0000015",
+        "completion": "0.000009",
+        "image": null,
+        "request": null
+      },
+      "context_length": 131072,
+      "max_completion_tokens": 65536,
+      "expiration_date": null,
+      "created": 1793898961,
+      "first_seen": "2026-11-05",
+      "last_seen": "2026-11-05"
+    },
+    {
       "id": "google/gemma-2-27b-it",
       "name": "Google: Gemma 2 27B",
       "provider": "google",
@@ -2182,13 +2216,13 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.000000029",
-        "completion": "0.000000087",
+        "prompt": "0.0000000765",
+        "completion": "0.000000255",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 32768,
+      "max_completion_tokens": 235929,
       "expiration_date": null,
       "created": 1775227989,
       "first_seen": "2026-05-27",
@@ -2597,7 +2631,7 @@
       },
       "context_length": 60000,
       "max_completion_tokens": 54000,
-      "expiration_date": null,
+      "expiration_date": "2026-11-15",
       "created": 1727222400,
       "first_seen": "2026-05-27",
       "last_seen": "2026-11-05"
@@ -2614,7 +2648,7 @@
       },
       "context_length": 131072,
       "max_completion_tokens": 72000,
-      "expiration_date": null,
+      "expiration_date": "2026-11-15",
       "created": 1727222400,
       "first_seen": "2026-05-27",
       "last_seen": "2026-11-05"
@@ -2624,13 +2658,13 @@
       "name": "Meta: Llama 3.3 70B Instruct",
       "provider": "meta-llama",
       "pricing": {
-        "prompt": "0.0000002",
-        "completion": "0.00000052",
+        "prompt": "0.00000059",
+        "completion": "0.00000079",
         "image": null,
         "request": null
       },
       "context_length": 131072,
-      "max_completion_tokens": 128000,
+      "max_completion_tokens": 32768,
       "expiration_date": null,
       "created": 1733506137,
       "first_seen": "2026-05-27",
@@ -2913,8 +2947,8 @@
       "name": "MiniMax: MiniMax M3.1 Flash",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
+        "prompt": "0.000000075",
+        "completion": "0.0000003",
         "image": null,
         "request": null
       },
@@ -6449,13 +6483,13 @@
       "name": "Reflection: Beam 1.0 501B A23B",
       "provider": "reflection",
       "pricing": {
-        "prompt": "0.00000025",
+        "prompt": "0.0000003",
         "completion": "0.000001",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 943718,
       "expiration_date": null,
       "created": 1792160499,
       "first_seen": "2026-10-16",
@@ -6823,8 +6857,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },
@@ -6874,8 +6908,8 @@
       "name": "Tencent: Hy4 preview",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000834",
-        "completion": "0.000002501",
+        "prompt": "0.0000007506",
+        "completion": "0.0000022509",
         "image": null,
         "request": null
       },

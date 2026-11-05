@@ -24,6 +24,24 @@
     <summary>New model on OpenRouter. Initial prompt price: $-1000000.0000/Mtok, context: 2000000.</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-11-05:model_added:google%2Fgemini-omni-1.2-flash</id>
+    <title>Added: google/gemini-omni-1.2-flash</title>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-omni-1.2-flash"/>
+    <category term="model_added"/>
+    <category term="provider:google"/>
+    <summary>New model on OpenRouter. Initial prompt price: $1.5000/Mtok, context: 131072.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-05:model_added:google%2Fgemini-omni-1.1-flash</id>
+    <title>Added: google/gemini-omni-1.1-flash</title>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-omni-1.1-flash"/>
+    <category term="model_added"/>
+    <category term="provider:google"/>
+    <summary>New model on OpenRouter. Initial prompt price: $1.5000/Mtok, context: 131072.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-11-04:model_added:tencent%2Fhy4</id>
     <title>Added: tencent/hy4</title>
     <updated>2026-11-04T00:00:00Z</updated>
@@ -886,23 +904,5 @@
     <category term="model_added"/>
     <category term="provider:stealth"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 262144.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-15:model_added:z-ai%2Fglm-5.2%3Afree</id>
-    <title>Added: z-ai/glm-5.2:free</title>
-    <updated>2026-09-15T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2%3Afree"/>
-    <category term="model_added"/>
-    <category term="provider:z-ai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 32768.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-14:model_added:~deepseek%2Fdeepseek-pro-latest</id>
-    <title>Added: ~deepseek/deepseek-pro-latest</title>
-    <updated>2026-09-14T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/~deepseek%2Fdeepseek-pro-latest"/>
-    <category term="model_added"/>
-    <category term="provider:~deepseek"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.5795/Mtok, context: 1048576.</summary>
   </entry>
 </feed>
