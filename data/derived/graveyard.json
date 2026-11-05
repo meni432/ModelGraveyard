@@ -1,6 +1,74 @@
 {
   "buried": [
     {
+      "id": "minimax/minimax-01",
+      "name": "MiniMax: MiniMax-01",
+      "provider": "minimax",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000002",
+        "completion": "0.0000011",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 1000192,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-11-05",
+      "buried_at": "2026-11-05",
+      "suggested_replacement": "minimax/minimax-m1"
+    },
+    {
+      "id": "minimax/minimax-m2",
+      "name": "MiniMax: MiniMax M2",
+      "provider": "minimax",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.000000255",
+        "completion": "0.00000102",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 204800,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-11-05",
+      "buried_at": "2026-11-05",
+      "suggested_replacement": "minimax/minimax-m2.7"
+    },
+    {
+      "id": "minimax/minimax-m2-her",
+      "name": "MiniMax: MiniMax M2-her",
+      "provider": "minimax",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000003",
+        "completion": "0.0000012",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 65536,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-11-05",
+      "buried_at": "2026-11-05",
+      "suggested_replacement": "minimax/minimax-m2.7"
+    },
+    {
+      "id": "minimax/minimax-m2.1",
+      "name": "MiniMax: MiniMax M2.1",
+      "provider": "minimax",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000003",
+        "completion": "0.0000012",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 204800,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-11-05",
+      "buried_at": "2026-11-05",
+      "suggested_replacement": "minimax/minimax-m2.7"
+    },
+    {
       "id": "thinkingmachines/inkling-small:free",
       "name": "Thinking Machines: Inkling Small (free)",
       "provider": "thinkingmachines",

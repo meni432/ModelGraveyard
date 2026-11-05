@@ -91,7 +91,7 @@
       "name": "DeepSeek: DeepSeek Pro Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000000963",
+        "prompt": "0.0000000927",
         "completion": "0.000008",
         "image": null,
         "request": null
@@ -108,7 +108,7 @@
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.000000059",
+        "prompt": "0.0000000553",
         "completion": "0.0000003",
         "image": null,
         "request": null
@@ -159,8 +159,8 @@
       "name": "MoonshotAI: Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.0000001529",
-        "completion": "0.0000105572",
+        "prompt": "0.0000001824",
+        "completion": "0.0000093388",
         "image": null,
         "request": null
       },
@@ -1417,7 +1417,7 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000059",
+        "prompt": "0.0000000553",
         "completion": "0.0000003",
         "image": null,
         "request": null
@@ -1468,8 +1468,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000107",
-        "completion": "0.000004278",
+        "prompt": "0.000000103",
+        "completion": "0.00000411",
         "image": null,
         "request": null
       },
@@ -2182,8 +2182,8 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.000000027",
-        "completion": "0.000000081",
+        "prompt": "0.000000029",
+        "completion": "0.000000087",
         "image": null,
         "request": null
       },
@@ -2396,6 +2396,23 @@
       "expiration_date": null,
       "created": 1789056114,
       "first_seen": "2026-09-11",
+      "last_seen": "2026-11-05"
+    },
+    {
+      "id": "inclusionai/ling-3.0-tiny",
+      "name": "inclusionAI: Ling 3.0 Tiny",
+      "provider": "inclusionai",
+      "pricing": {
+        "prompt": "0.000000015",
+        "completion": "0.000000045",
+        "image": null,
+        "request": null
+      },
+      "context_length": 262144,
+      "max_completion_tokens": 250000,
+      "expiration_date": null,
+      "created": 1786034890,
+      "first_seen": "2026-11-05",
       "last_seen": "2026-11-05"
     },
     {
@@ -2824,23 +2841,6 @@
       "last_seen": "2026-11-05"
     },
     {
-      "id": "minimax/minimax-01",
-      "name": "MiniMax: MiniMax-01",
-      "provider": "minimax",
-      "pricing": {
-        "prompt": "0.0000002",
-        "completion": "0.0000011",
-        "image": null,
-        "request": null
-      },
-      "context_length": 1000192,
-      "max_completion_tokens": 900172,
-      "expiration_date": "2026-11-05",
-      "created": 1736915462,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-11-05"
-    },
-    {
       "id": "minimax/minimax-m1",
       "name": "MiniMax: MiniMax M1",
       "provider": "minimax",
@@ -2854,57 +2854,6 @@
       "max_completion_tokens": 40000,
       "expiration_date": null,
       "created": 1750200414,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-11-05"
-    },
-    {
-      "id": "minimax/minimax-m2",
-      "name": "MiniMax: MiniMax M2",
-      "provider": "minimax",
-      "pricing": {
-        "prompt": "0.000000255",
-        "completion": "0.00000102",
-        "image": null,
-        "request": null
-      },
-      "context_length": 204800,
-      "max_completion_tokens": 131072,
-      "expiration_date": "2026-11-05",
-      "created": 1761252093,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-11-05"
-    },
-    {
-      "id": "minimax/minimax-m2-her",
-      "name": "MiniMax: MiniMax M2-her",
-      "provider": "minimax",
-      "pricing": {
-        "prompt": "0.0000003",
-        "completion": "0.0000012",
-        "image": null,
-        "request": null
-      },
-      "context_length": 65536,
-      "max_completion_tokens": 2048,
-      "expiration_date": "2026-11-05",
-      "created": 1769177239,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-11-05"
-    },
-    {
-      "id": "minimax/minimax-m2.1",
-      "name": "MiniMax: MiniMax M2.1",
-      "provider": "minimax",
-      "pricing": {
-        "prompt": "0.0000003",
-        "completion": "0.0000012",
-        "image": null,
-        "request": null
-      },
-      "context_length": 204800,
-      "max_completion_tokens": 131072,
-      "expiration_date": "2026-11-05",
-      "created": 1766454997,
       "first_seen": "2026-05-27",
       "last_seen": "2026-11-05"
     },
@@ -2930,14 +2879,14 @@
       "name": "MiniMax: MiniMax M2.7",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0.0000003",
-        "completion": "0.0000012",
+        "prompt": "0.00000021",
+        "completion": "0.00000084",
         "image": null,
         "request": null
       },
       "context_length": 204800,
-      "max_completion_tokens": 131072,
-      "expiration_date": "2026-11-05",
+      "max_completion_tokens": 176947,
+      "expiration_date": null,
       "created": 1773836697,
       "first_seen": "2026-05-27",
       "last_seen": "2026-11-05"
@@ -5310,8 +5259,8 @@
       "name": "OpenAI: gpt-oss-120b",
       "provider": "openai",
       "pricing": {
-        "prompt": "0.000000013",
-        "completion": "0.000000048",
+        "prompt": "0.00000015",
+        "completion": "0.0000006",
         "image": null,
         "request": null
       },
@@ -5488,7 +5437,7 @@
       "context_length": 2000000,
       "max_completion_tokens": null,
       "expiration_date": null,
-      "created": 1699401600,
+      "created": 1793885889,
       "first_seen": "2026-05-27",
       "last_seen": "2026-11-05"
     },
@@ -5507,6 +5456,23 @@
       "expiration_date": null,
       "created": 1784311165,
       "first_seen": "2026-07-17",
+      "last_seen": "2026-11-05"
+    },
+    {
+      "id": "openrouter/auto-code",
+      "name": "Auto Code",
+      "provider": "openrouter",
+      "pricing": {
+        "prompt": "-1",
+        "completion": "-1",
+        "image": null,
+        "request": null
+      },
+      "context_length": 2000000,
+      "max_completion_tokens": 65536,
+      "expiration_date": null,
+      "created": 1793884321,
+      "first_seen": "2026-11-05",
       "last_seen": "2026-11-05"
     },
     {
@@ -6007,13 +5973,13 @@
       "name": "Qwen: Qwen3 Next 80B A3B Instruct",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.0000001",
+        "prompt": "0.00000009",
         "completion": "0.0000011",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 235929,
+      "max_completion_tokens": 16384,
       "expiration_date": null,
       "created": 1757612213,
       "first_seen": "2026-05-27",

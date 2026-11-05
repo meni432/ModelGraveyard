@@ -15,6 +15,69 @@
     <summary>prompt: $0.0750/Mtok → $0.1500/Mtok (+100%); completion: $0.3000/Mtok → $0.6000/Mtok (+100%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-11-05:price_changed:minimax%2Fminimax-m2.7</id>
+    <title>Price changed: minimax/minimax-m2.7</title>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/minimax%2Fminimax-m2.7"/>
+    <category term="price_changed"/>
+    <category term="provider:minimax"/>
+    <summary>prompt: $0.3000/Mtok → $0.2100/Mtok (-30%); completion: $1.2000/Mtok → $0.8400/Mtok (-30%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-05:model_removed:minimax%2Fminimax-01</id>
+    <title>Removed: minimax/minimax-01</title>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/minimax%2Fminimax-01"/>
+    <category term="model_removed"/>
+    <category term="provider:minimax"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.2000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-05:model_removed:minimax%2Fminimax-m2</id>
+    <title>Removed: minimax/minimax-m2</title>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/minimax%2Fminimax-m2"/>
+    <category term="model_removed"/>
+    <category term="provider:minimax"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.2550/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-05:model_removed:minimax%2Fminimax-m2-her</id>
+    <title>Removed: minimax/minimax-m2-her</title>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/minimax%2Fminimax-m2-her"/>
+    <category term="model_removed"/>
+    <category term="provider:minimax"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.3000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-05:model_removed:minimax%2Fminimax-m2.1</id>
+    <title>Removed: minimax/minimax-m2.1</title>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/minimax%2Fminimax-m2.1"/>
+    <category term="model_removed"/>
+    <category term="provider:minimax"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.3000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-05:disagreement_detected:minimax%2Fminimax-m2</id>
+    <title>Catalog disagreement: minimax/minimax-m2</title>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/minimax%2Fminimax-m2"/>
+    <category term="disagreement_detected"/>
+    <category term="provider:minimax"/>
+    <summary>OpenRouter says removed; LiteLLM still lists it as minimax/MiniMax-M2.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-05:disagreement_detected:minimax%2Fminimax-m2.1</id>
+    <title>Catalog disagreement: minimax/minimax-m2.1</title>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/minimax%2Fminimax-m2.1"/>
+    <category term="disagreement_detected"/>
+    <category term="provider:minimax"/>
+    <summary>OpenRouter says removed; LiteLLM still lists it as minimax/MiniMax-M2.1.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-11-04:price_changed:minimax%2Fminimax-m3.1-flash</id>
     <title>Price changed: minimax/minimax-m3.1-flash</title>
     <updated>2026-11-04T00:00:00Z</updated>
@@ -841,23 +904,5 @@
     <category term="model_added"/>
     <category term="provider:minimax"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.2550/Mtok, context: 204800.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:minimax%2Fminimax-m1</id>
-    <title>Added: minimax/minimax-m1</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/minimax%2Fminimax-m1"/>
-    <category term="model_added"/>
-    <category term="provider:minimax"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.4000/Mtok, context: 1000000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-05-27:model_added:minimax%2Fminimax-01</id>
-    <title>Added: minimax/minimax-01</title>
-    <updated>2026-05-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/minimax%2Fminimax-01"/>
-    <category term="model_added"/>
-    <category term="provider:minimax"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.2000/Mtok, context: 1000192.</summary>
   </entry>
 </feed>

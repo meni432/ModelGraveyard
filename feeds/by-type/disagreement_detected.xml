@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-type/disagreement_detected.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/disagreement_detected.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-10-28T00:00:00Z</updated>
+  <updated>2026-11-05T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-05:disagreement_detected:minimax%2Fminimax-m2</id>
+    <title>Catalog disagreement: minimax/minimax-m2</title>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/minimax%2Fminimax-m2"/>
+    <category term="disagreement_detected"/>
+    <category term="provider:minimax"/>
+    <summary>OpenRouter says removed; LiteLLM still lists it as minimax/MiniMax-M2.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-05:disagreement_detected:minimax%2Fminimax-m2.1</id>
+    <title>Catalog disagreement: minimax/minimax-m2.1</title>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/minimax%2Fminimax-m2.1"/>
+    <category term="disagreement_detected"/>
+    <category term="provider:minimax"/>
+    <summary>OpenRouter says removed; LiteLLM still lists it as minimax/MiniMax-M2.1.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-10-28:disagreement_detected:openai%2Fgpt-4-turbo-preview</id>
     <title>Catalog disagreement: openai/gpt-4-turbo-preview</title>

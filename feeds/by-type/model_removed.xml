@@ -4,7 +4,43 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_removed.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_removed.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-11-04T00:00:00Z</updated>
+  <updated>2026-11-05T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-05:model_removed:minimax%2Fminimax-01</id>
+    <title>Removed: minimax/minimax-01</title>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/minimax%2Fminimax-01"/>
+    <category term="model_removed"/>
+    <category term="provider:minimax"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.2000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-05:model_removed:minimax%2Fminimax-m2</id>
+    <title>Removed: minimax/minimax-m2</title>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/minimax%2Fminimax-m2"/>
+    <category term="model_removed"/>
+    <category term="provider:minimax"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.2550/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-05:model_removed:minimax%2Fminimax-m2-her</id>
+    <title>Removed: minimax/minimax-m2-her</title>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/minimax%2Fminimax-m2-her"/>
+    <category term="model_removed"/>
+    <category term="provider:minimax"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.3000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-05:model_removed:minimax%2Fminimax-m2.1</id>
+    <title>Removed: minimax/minimax-m2.1</title>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/minimax%2Fminimax-m2.1"/>
+    <category term="model_removed"/>
+    <category term="provider:minimax"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.3000/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-11-04:model_removed:thinkingmachines%2Finkling-small%3Afree</id>
     <title>Removed: thinkingmachines/inkling-small:free</title>
@@ -868,41 +904,5 @@
     <category term="model_removed"/>
     <category term="provider:minimax"/>
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-07:model_removed:minimax%2Fminimax-m3%3Afree</id>
-    <title>Removed: minimax/minimax-m3:free</title>
-    <updated>2026-09-07T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/minimax%2Fminimax-m3%3Afree"/>
-    <category term="model_removed"/>
-    <category term="provider:minimax"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-06:model_removed:z-ai%2Fglm-5.2%3Afree</id>
-    <title>Removed: z-ai/glm-5.2:free</title>
-    <updated>2026-09-06T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2%3Afree"/>
-    <category term="model_removed"/>
-    <category term="provider:z-ai"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-05:model_removed:qwen%2Fqwen3.8-max</id>
-    <title>Removed: qwen/qwen3.8-max</title>
-    <updated>2026-09-05T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3.8-max"/>
-    <category term="model_removed"/>
-    <category term="provider:qwen"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $2.0000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-04:model_removed:ibm-granite%2Fgranite-4.1-8b</id>
-    <title>Removed: ibm-granite/granite-4.1-8b</title>
-    <updated>2026-09-04T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/ibm-granite%2Fgranite-4.1-8b"/>
-    <category term="model_removed"/>
-    <category term="provider:ibm-granite"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0500/Mtok.</summary>
   </entry>
 </feed>
