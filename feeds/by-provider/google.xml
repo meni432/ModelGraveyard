@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/google.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/google.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-11-04T00:00:00Z</updated>
+  <updated>2026-11-05T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-05:price_changed:google%2Fgemma-4-26b-a4b-it</id>
+    <title>Price changed: google/gemma-4-26b-a4b-it</title>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemma-4-26b-a4b-it"/>
+    <category term="price_changed"/>
+    <category term="provider:google"/>
+    <summary>prompt: $0.0350/Mtok → $0.0270/Mtok (-22.86%); completion: $0.1040/Mtok → $0.0810/Mtok (-22.12%)</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-11-04:price_changed:google%2Fgemma-4-26b-a4b-it</id>
     <title>Price changed: google/gemma-4-26b-a4b-it</title>
@@ -895,14 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:google"/>
     <summary>prompt: $1.5000/Mtok → $0.7500/Mtok (-50%); completion: $7.5000/Mtok → $3.7500/Mtok (-50%); image: $1.5000/Mtok → $0.7500/Mtok (-50%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-13:price_changed:google%2Fgemini-3.6-flash%3Abatch</id>
-    <title>Price changed: google/gemini-3.6-flash:batch</title>
-    <updated>2026-08-13T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-3.6-flash%3Abatch"/>
-    <category term="price_changed"/>
-    <category term="provider:google"/>
-    <summary>prompt: $0.7500/Mtok → $0.3750/Mtok (-50%); completion: $3.7500/Mtok → $1.8750/Mtok (-50%); image: $0.7500/Mtok → $0.3750/Mtok (-50%)</summary>
   </entry>
 </feed>

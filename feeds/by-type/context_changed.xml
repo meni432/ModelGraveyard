@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/context_changed.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/context_changed.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-11-04T00:00:00Z</updated>
+  <updated>2026-11-05T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-05:context_changed:ricursiveai%2Fripple-65b-preview</id>
+    <title>Context window changed: ricursiveai/ripple-65b-preview</title>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/ricursiveai%2Fripple-65b-preview"/>
+    <category term="context_changed"/>
+    <category term="provider:ricursiveai"/>
+    <summary>16384 → 1048576 tokens</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-11-04:context_changed:xiaomi%2Fmimo-v2.5</id>
     <title>Context window changed: xiaomi/mimo-v2.5</title>
@@ -895,14 +904,5 @@
     <category term="context_changed"/>
     <category term="provider:qwen"/>
     <summary>131072 → 262144 tokens</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-21:context_changed:z-ai%2Fglm-4.6</id>
-    <title>Context window changed: z-ai/glm-4.6</title>
-    <updated>2026-07-21T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-4.6"/>
-    <category term="context_changed"/>
-    <category term="provider:z-ai"/>
-    <summary>202752 → 204800 tokens</summary>
   </entry>
 </feed>
