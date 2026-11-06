@@ -1,6 +1,23 @@
 {
   "buried": [
     {
+      "id": "nvidia/nemotron-3.5-content-safety:free",
+      "name": "NVIDIA: Nemotron 3.5 Content Safety (free)",
+      "provider": "nvidia",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 128000,
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-11-06",
+      "buried_at": "2026-11-06",
+      "suggested_replacement": "nvidia/nemotron-3.5-content-safety"
+    },
+    {
       "id": "minimax/minimax-01",
       "name": "MiniMax: MiniMax-01",
       "provider": "minimax",
