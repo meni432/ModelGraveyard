@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_added.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_added.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-11-06T00:00:00Z</updated>
+  <updated>2026-11-07T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-07:model_added:liquid%2Flfm-3-1.7b</id>
+    <title>Added: liquid/lfm-3-1.7b</title>
+    <updated>2026-11-07T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/liquid%2Flfm-3-1.7b"/>
+    <category term="model_added"/>
+    <category term="provider:liquid"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0800/Mtok, context: 262144.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-07:model_added:liquid%2Flfm-3-1.7b%3Afree</id>
+    <title>Added: liquid/lfm-3-1.7b:free</title>
+    <updated>2026-11-07T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/liquid%2Flfm-3-1.7b%3Afree"/>
+    <category term="model_added"/>
+    <category term="provider:liquid"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 262144.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-11-06:model_added:qwen%2Fqwen3.8-27b%3Abatch</id>
     <title>Added: qwen/qwen3.8-27b:batch</title>
@@ -886,23 +904,5 @@
     <category term="model_added"/>
     <category term="provider:xiaomi"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.4350/Mtok, context: 1048576.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-21:model_added:x-ai%2Fgrok-4.7</id>
-    <title>Added: x-ai/grok-4.7</title>
-    <updated>2026-09-21T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/x-ai%2Fgrok-4.7"/>
-    <category term="model_added"/>
-    <category term="provider:x-ai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $1.6000/Mtok, context: 500000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-19:model_added:z-ai%2Fglm-5.3-flashx</id>
-    <title>Added: z-ai/glm-5.3-flashx</title>
-    <updated>2026-09-19T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.3-flashx"/>
-    <category term="model_added"/>
-    <category term="provider:z-ai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.3700/Mtok, context: 1048576.</summary>
   </entry>
 </feed>
