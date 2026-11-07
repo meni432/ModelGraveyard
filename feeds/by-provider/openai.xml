@@ -15,6 +15,15 @@
     <summary>prompt: $0.0130/Mtok → $0.0100/Mtok (-23.08%); completion: $0.0460/Mtok → $0.0370/Mtok (-19.57%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-11-07:price_changed:openai%2Fgpt-oss-120b</id>
+    <title>Price changed: openai/gpt-oss-120b</title>
+    <updated>2026-11-07T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-oss-120b"/>
+    <category term="price_changed"/>
+    <category term="provider:openai"/>
+    <summary>prompt: $0.0100/Mtok → $0.0170/Mtok (+70%); completion: $0.0370/Mtok → $0.0610/Mtok (+64.86%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-11-06:price_changed:openai%2Fgpt-oss-120b</id>
     <title>Price changed: openai/gpt-oss-120b</title>
     <updated>2026-11-06T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="model_added"/>
     <category term="provider:openai"/>
     <summary>New model on OpenRouter. Initial prompt price: $1.0000/Mtok, context: 200000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-31:model_added:openai%2Fo4-mini%3Abatch</id>
-    <title>Added: openai/o4-mini:batch</title>
-    <updated>2026-08-31T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fo4-mini%3Abatch"/>
-    <category term="model_added"/>
-    <category term="provider:openai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.5500/Mtok, context: 200000.</summary>
   </entry>
 </feed>
