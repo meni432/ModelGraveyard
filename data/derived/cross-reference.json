@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-07",
-  "openrouter_catalog_size": 448,
+  "generated_at": "2026-11-08",
+  "openrouter_catalog_size": 449,
   "litellm_catalog_size": 3409,
-  "shared_count": 96,
-  "openrouter_only_count": 352,
+  "shared_count": 94,
+  "openrouter_only_count": 355,
   "litellm_only_count": 3292,
   "disagreements": [
     {
@@ -38,6 +38,28 @@
       "litellm_deprecation_date": null,
       "severity": "high",
       "noted_at": "2026-10-19"
+    },
+    {
+      "slug": "inception:mercury-2",
+      "openrouter_status": "removed",
+      "openrouter_id": "inception/mercury-2",
+      "openrouter_removed_at": "2026-11-08",
+      "litellm_status": "active",
+      "litellm_id": "inception/mercury-2",
+      "litellm_deprecation_date": null,
+      "severity": "high",
+      "noted_at": "2026-11-08"
+    },
+    {
+      "slug": "inception:mercury-2-5",
+      "openrouter_status": "removed",
+      "openrouter_id": "inception/mercury-2.5-preview",
+      "openrouter_removed_at": "2026-09-08",
+      "litellm_status": "active",
+      "litellm_id": "inception/mercury-2.5",
+      "litellm_deprecation_date": null,
+      "severity": "high",
+      "noted_at": "2026-11-08"
     },
     {
       "slug": "minimax:minimax-m2",
@@ -433,16 +455,6 @@
       "slug": "google:lyria-3-pro",
       "openrouter_id": "google/lyria-3-pro-preview",
       "litellm_id": "gemini/lyria-3-pro-preview"
-    },
-    {
-      "slug": "inception:mercury-2",
-      "openrouter_id": "inception/mercury-2",
-      "litellm_id": "inception/mercury-2"
-    },
-    {
-      "slug": "inception:mercury-2-5",
-      "openrouter_id": "inception/mercury-2.5",
-      "litellm_id": "inception/mercury-2.5"
     },
     {
       "slug": "meta:muse-spark-1-1",

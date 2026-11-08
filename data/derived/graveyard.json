@@ -1,6 +1,57 @@
 {
   "buried": [
     {
+      "id": "inception/mercury-2",
+      "name": "Inception: Mercury 2",
+      "provider": "inception",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000025",
+        "completion": "0.00000075",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 128000,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-11-07",
+      "buried_at": "2026-11-08",
+      "suggested_replacement": null
+    },
+    {
+      "id": "inception/mercury-2.5",
+      "name": "Inception: Mercury 2.5",
+      "provider": "inception",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000004",
+        "completion": "0.00000015",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 260000,
+      "first_seen": "2026-09-08",
+      "last_seen": "2026-11-07",
+      "buried_at": "2026-11-08",
+      "suggested_replacement": null
+    },
+    {
+      "id": "inception/mercury-3",
+      "name": "Inception: Mercury 3",
+      "provider": "inception",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000001",
+        "completion": "0.00000035",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 1000000,
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-11-07",
+      "buried_at": "2026-11-08",
+      "suggested_replacement": null
+    },
+    {
       "id": "nvidia/nemotron-3.5-content-safety:free",
       "name": "NVIDIA: Nemotron 3.5 Content Safety (free)",
       "provider": "nvidia",

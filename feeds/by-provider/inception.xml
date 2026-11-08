@@ -4,7 +4,52 @@
   <id>https://modelgraveyard.com/feeds/by-provider/inception.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/inception.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-11-04T00:00:00Z</updated>
+  <updated>2026-11-08T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-08:model_removed:inception%2Fmercury-2</id>
+    <title>Removed: inception/mercury-2</title>
+    <updated>2026-11-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/inception%2Fmercury-2"/>
+    <category term="model_removed"/>
+    <category term="provider:inception"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.2500/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-08:model_removed:inception%2Fmercury-2.5</id>
+    <title>Removed: inception/mercury-2.5</title>
+    <updated>2026-11-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/inception%2Fmercury-2.5"/>
+    <category term="model_removed"/>
+    <category term="provider:inception"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0400/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-08:model_removed:inception%2Fmercury-3</id>
+    <title>Removed: inception/mercury-3</title>
+    <updated>2026-11-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/inception%2Fmercury-3"/>
+    <category term="model_removed"/>
+    <category term="provider:inception"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-08:disagreement_detected:inception%2Fmercury-2</id>
+    <title>Catalog disagreement: inception/mercury-2</title>
+    <updated>2026-11-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/inception%2Fmercury-2"/>
+    <category term="disagreement_detected"/>
+    <category term="provider:inception"/>
+    <summary>OpenRouter says removed; LiteLLM still lists it as inception/mercury-2.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-08:disagreement_detected:inception%2Fmercury-2.5-preview</id>
+    <title>Catalog disagreement: inception/mercury-2.5-preview</title>
+    <updated>2026-11-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/inception%2Fmercury-2.5-preview"/>
+    <category term="disagreement_detected"/>
+    <category term="provider:inception"/>
+    <summary>OpenRouter says removed; LiteLLM still lists it as inception/mercury-2.5.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-11-04:deprecation_announced:inception%2Fmercury-3</id>
     <title>Deprecation announced: inception/mercury-3 (sunset 2026-11-08)</title>
