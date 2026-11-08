@@ -159,8 +159,8 @@
       "name": "MoonshotAI: Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.000000151",
-        "completion": "0.0000093388",
+        "prompt": "0.0000001719",
+        "completion": "0.0000101583",
         "image": null,
         "request": null
       },
@@ -1468,8 +1468,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000251604",
-        "completion": "0.000000503208",
+        "prompt": "0.0000002088",
+        "completion": "0.0000004176",
         "image": null,
         "request": null
       },
@@ -1503,7 +1503,7 @@
       "provider": "deepseek",
       "pricing": {
         "prompt": "0.000000051",
-        "completion": "0.00000041",
+        "completion": "0.000000567",
         "image": null,
         "request": null
       },
@@ -2624,13 +2624,13 @@
       "name": "Meta: Llama 3.1 8B Instruct",
       "provider": "meta-llama",
       "pricing": {
-        "prompt": "0.00000005",
-        "completion": "0.00000008",
+        "prompt": "0.00000002",
+        "completion": "0.00000004",
         "image": null,
         "request": null
       },
       "context_length": 131072,
-      "max_completion_tokens": 117964,
+      "max_completion_tokens": 16384,
       "expiration_date": null,
       "created": 1721692800,
       "first_seen": "2026-05-27",
@@ -2998,8 +2998,8 @@
       "name": "MiniMax: MiniMax M3.1 Flash",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
+        "prompt": "0.000000075",
+        "completion": "0.0000003",
         "image": null,
         "request": null
       },
@@ -5361,8 +5361,8 @@
       "name": "OpenAI: gpt-oss-120b",
       "provider": "openai",
       "pricing": {
-        "prompt": "0.000000022",
-        "completion": "0.000000081",
+        "prompt": "0.000000019",
+        "completion": "0.000000069",
         "image": null,
         "request": null
       },
@@ -6942,8 +6942,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },
@@ -6993,8 +6993,8 @@
       "name": "Tencent: Hy4 preview",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000834",
-        "completion": "0.000002501",
+        "prompt": "0.0000007506",
+        "completion": "0.0000022509",
         "image": null,
         "request": null
       },
@@ -7690,8 +7690,8 @@
       "name": "Z.ai: GLM 5.2 (batch)",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.00000037",
-        "completion": "0.0000015",
+        "prompt": "0.000000349",
+        "completion": "0.000001271",
         "image": null,
         "request": null
       },
@@ -7809,8 +7809,8 @@
       "name": "Z.ai: GLM 5.3 (batch)",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.00000037",
-        "completion": "0.0000015",
+        "prompt": "0.000000349",
+        "completion": "0.000001271",
         "image": null,
         "request": null
       },

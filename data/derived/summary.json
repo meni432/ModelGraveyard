@@ -7,6 +7,200 @@
     {
       "ts": "2026-11-08",
       "type": "price_changed",
+      "id": "meta-llama/llama-3.1-8b-instruct",
+      "provider": "meta-llama",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000005",
+          "next": "0.00000002",
+          "pct_change": -60
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000008",
+          "next": "0.00000004",
+          "pct_change": -50
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-08",
+      "type": "price_changed",
+      "id": "openai/gpt-oss-120b",
+      "provider": "openai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000022",
+          "next": "0.000000019",
+          "pct_change": -13.64
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000081",
+          "next": "0.000000069",
+          "pct_change": -14.81
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-08",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000251604",
+          "next": "0.0000002088",
+          "pct_change": -17.01
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000503208",
+          "next": "0.0000004176",
+          "pct_change": -17.01
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-08",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000151",
+          "next": "0.0000001719",
+          "pct_change": 13.84
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000093388",
+          "next": "0.0000101583",
+          "pct_change": 8.78
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-08",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2:batch",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000037",
+          "next": "0.000000349",
+          "pct_change": -5.68
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000015",
+          "next": "0.000001271",
+          "pct_change": -15.27
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-08",
+      "type": "price_changed",
+      "id": "tencent/hy3",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000132",
+          "next": "0.0000000825",
+          "pct_change": -37.5
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000528",
+          "next": "0.00000033",
+          "pct_change": -37.5
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-08",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.3:batch",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000037",
+          "next": "0.000000349",
+          "pct_change": -5.68
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000015",
+          "next": "0.000001271",
+          "pct_change": -15.27
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-08",
+      "type": "price_changed",
+      "id": "tencent/hy4-preview",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000834",
+          "next": "0.0000007506",
+          "pct_change": -10
+        },
+        {
+          "field": "completion",
+          "prev": "0.000002501",
+          "next": "0.0000022509",
+          "pct_change": -10
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-08",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4.1-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.00000041",
+          "next": "0.000000567",
+          "pct_change": 38.29
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-08",
+      "type": "price_changed",
+      "id": "minimax/minimax-m3.1-flash",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000015",
+          "next": "0.000000075",
+          "pct_change": -50
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000006",
+          "next": "0.0000003",
+          "pct_change": -50
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-08",
+      "type": "price_changed",
       "id": "openai/gpt-oss-120b",
       "provider": "openai",
       "changes": [
@@ -178,209 +372,6 @@
         "first_seen": "2026-05-27",
         "last_seen": "2026-11-07"
       }
-    },
-    {
-      "ts": "2026-11-08",
-      "type": "price_changed",
-      "id": "meta-llama/llama-3.2-3b-instruct",
-      "provider": "meta-llama",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000000509",
-          "next": "0.00000005",
-          "pct_change": -1.77
-        },
-        {
-          "field": "completion",
-          "prev": "0.000000335",
-          "next": "0.00000033",
-          "pct_change": -1.49
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-08",
-      "type": "model_added",
-      "id": "morph/morph-v3-fast:batch",
-      "provider": "morph",
-      "snapshot": {
-        "id": "morph/morph-v3-fast:batch",
-        "name": "Morph: Morph V3 Fast (batch)",
-        "provider": "morph",
-        "pricing": {
-          "prompt": "0.0000004",
-          "completion": "0.0000006",
-          "image": null,
-          "request": null
-        },
-        "context_length": 81920,
-        "max_completion_tokens": 38000,
-        "expiration_date": null,
-        "created": 1751910002,
-        "first_seen": "2026-11-08",
-        "last_seen": "2026-11-08"
-      }
-    },
-    {
-      "ts": "2026-11-08",
-      "type": "model_added",
-      "id": "morph/morph-v3-large:batch",
-      "provider": "morph",
-      "snapshot": {
-        "id": "morph/morph-v3-large:batch",
-        "name": "Morph: Morph V3 Large (batch)",
-        "provider": "morph",
-        "pricing": {
-          "prompt": "0.00000045",
-          "completion": "0.00000095",
-          "image": null,
-          "request": null
-        },
-        "context_length": 262144,
-        "max_completion_tokens": 131072,
-        "expiration_date": null,
-        "created": 1751910858,
-        "first_seen": "2026-11-08",
-        "last_seen": "2026-11-08"
-      }
-    },
-    {
-      "ts": "2026-11-08",
-      "type": "price_changed",
-      "id": "openai/gpt-oss-120b",
-      "provider": "openai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000002",
-          "next": "0.000000026",
-          "pct_change": 30
-        },
-        {
-          "field": "completion",
-          "prev": "0.000000074",
-          "next": "0.000000096",
-          "pct_change": 29.73
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-08",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-pro",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000535398",
-          "next": "0.000000413772",
-          "pct_change": -22.72
-        },
-        {
-          "field": "completion",
-          "prev": "0.000001070796",
-          "next": "0.000000827544",
-          "pct_change": -22.72
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-08",
-      "type": "price_changed",
-      "id": "qwen/qwen3.6-27b",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000045",
-          "next": "0.00000032",
-          "pct_change": -28.89
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000027",
-          "next": "0.0000032",
-          "pct_change": 18.52
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-08",
-      "type": "price_changed",
-      "id": "~moonshotai/kimi-latest",
-      "provider": "~moonshotai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000001558",
-          "next": "0.0000001567",
-          "pct_change": 0.58
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-08",
-      "type": "model_added",
-      "id": "z-ai/glm-5.2:batch",
-      "provider": "z-ai",
-      "snapshot": {
-        "id": "z-ai/glm-5.2:batch",
-        "name": "Z.ai: GLM 5.2 (batch)",
-        "provider": "z-ai",
-        "pricing": {
-          "prompt": "0.00000037",
-          "completion": "0.0000015",
-          "image": null,
-          "request": null
-        },
-        "context_length": 1048576,
-        "max_completion_tokens": 943718,
-        "expiration_date": null,
-        "created": 1781631930,
-        "first_seen": "2026-11-08",
-        "last_seen": "2026-11-08"
-      }
-    },
-    {
-      "ts": "2026-11-08",
-      "type": "price_changed",
-      "id": "tencent/hy3",
-      "provider": "tencent",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000000825",
-          "next": "0.000000132",
-          "pct_change": 60
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000033",
-          "next": "0.000000528",
-          "pct_change": 60
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-08",
-      "type": "price_changed",
-      "id": "moonshotai/kimi-k3:batch",
-      "provider": "moonshotai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000228",
-          "next": "0.000001084",
-          "pct_change": -52.46
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000114",
-          "next": "0.000006",
-          "pct_change": -47.37
-        }
-      ]
     }
   ],
   "scheduled_funerals": [
