@@ -80766,6 +80766,88 @@
         "litellm_status": "active",
         "litellm_id": "inception/mercury-2.5"
       }
+    },
+    {
+      "ts": "2026-11-08",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4.1-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.000000567",
+          "next": "0.00000041",
+          "pct_change": -27.69
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-08",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k3:batch",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000001084",
+          "next": "0.000000917",
+          "pct_change": -15.41
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-08",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000001567",
+          "next": "0.000000151",
+          "pct_change": -3.64
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-08",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000413772",
+          "next": "0.000000251604",
+          "pct_change": -39.19
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000827544",
+          "next": "0.000000503208",
+          "pct_change": -39.19
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-08",
+      "type": "price_changed",
+      "id": "openai/gpt-oss-120b",
+      "provider": "openai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000026",
+          "next": "0.000000022",
+          "pct_change": -15.38
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000096",
+          "next": "0.000000081",
+          "pct_change": -15.63
+        }
+      ]
     }
   ]
 }
