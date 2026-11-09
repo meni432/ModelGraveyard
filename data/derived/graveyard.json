@@ -1,6 +1,23 @@
 {
   "buried": [
     {
+      "id": "minimax/minimax-m1",
+      "name": "MiniMax: MiniMax M1",
+      "provider": "minimax",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000055",
+        "completion": "0.0000022",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 1000000,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-11-08",
+      "buried_at": "2026-11-09",
+      "suggested_replacement": "minimax/minimax-m3.1-flash"
+    },
+    {
       "id": "inception/mercury-2",
       "name": "Inception: Mercury 2",
       "provider": "inception",
