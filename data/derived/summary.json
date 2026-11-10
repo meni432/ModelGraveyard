@@ -1,9 +1,148 @@
 {
   "generated_at": "2026-11-10",
-  "active_count": 464,
+  "active_count": 465,
   "dead_count": 263,
   "last_event_ts": "2026-11-10",
   "recent_events": [
+    {
+      "ts": "2026-11-10",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000001719",
+          "next": "0.0000001824",
+          "pct_change": 6.11
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-10",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2:batch",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000623",
+          "next": "0.000000527",
+          "pct_change": -15.41
+        },
+        {
+          "field": "completion",
+          "prev": "0.000001271",
+          "next": "0.000001075",
+          "pct_change": -15.42
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-10",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000006",
+          "next": "0.000000007",
+          "pct_change": 16.67
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-10",
+      "type": "context_changed",
+      "id": "qwen/qwen3.8-27b",
+      "provider": "qwen",
+      "prev_context": 1024000,
+      "next_context": 1048575
+    },
+    {
+      "ts": "2026-11-10",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.3-flash",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000015",
+          "next": "0.0000000399",
+          "pct_change": -73.4
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000005",
+          "next": "0.0000000784",
+          "pct_change": -84.32
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-10",
+      "type": "price_changed",
+      "id": "~z-ai/glm-flash-latest",
+      "provider": "~z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000335",
+          "next": "0.0000000399",
+          "pct_change": 19.1
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000083",
+          "next": "0.0000000784",
+          "pct_change": -5.54
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-10",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4.1-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000051",
+          "next": "0.0000003",
+          "pct_change": 488.24
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000567",
+          "next": "0.0000012",
+          "pct_change": 111.64
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-10",
+      "type": "model_added",
+      "id": "nex-agi/nex-n2.6",
+      "provider": "nex-agi",
+      "snapshot": {
+        "id": "nex-agi/nex-n2.6",
+        "name": "Nex AGI: Nex-N2.6",
+        "provider": "nex-agi",
+        "pricing": {
+          "prompt": "0.00000012",
+          "completion": "0.0000004",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 235929,
+        "expiration_date": null,
+        "created": 1794282379,
+        "first_seen": "2026-11-10",
+        "last_seen": "2026-11-10"
+      }
+    },
     {
       "ts": "2026-11-10",
       "type": "model_removed",
@@ -228,160 +367,6 @@
           "pct_change": 502.41
         }
       ]
-    },
-    {
-      "ts": "2026-11-10",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4.1-flash:batch",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000011",
-          "next": "0.000000112",
-          "pct_change": 918.18
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000002",
-          "next": "0.000000336",
-          "pct_change": 68
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-10",
-      "type": "context_changed",
-      "id": "stepfun/step-5-preview",
-      "provider": "stepfun",
-      "prev_context": 1048576,
-      "next_context": 1000000
-    },
-    {
-      "ts": "2026-11-10",
-      "type": "price_changed",
-      "id": "nvidia/nemotron-3.5-super-vl",
-      "provider": "nvidia",
-      "changes": [
-        {
-          "field": "completion",
-          "prev": "0.0000005",
-          "next": "0.00000047",
-          "pct_change": -6
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-10",
-      "type": "price_changed",
-      "id": "minimax/minimax-m3.1-flash",
-      "provider": "minimax",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000075",
-          "next": "0.00000015",
-          "pct_change": 100
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000003",
-          "next": "0.0000006",
-          "pct_change": 100
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-10",
-      "type": "model_added",
-      "id": "meta/muse-ember",
-      "provider": "meta",
-      "snapshot": {
-        "id": "meta/muse-ember",
-        "name": "Meta: Muse Ember",
-        "provider": "meta",
-        "pricing": {
-          "prompt": "0.0000001",
-          "completion": "0.0000005",
-          "image": null,
-          "request": null
-        },
-        "context_length": 1048576,
-        "max_completion_tokens": 943718,
-        "expiration_date": null,
-        "created": 1794247648,
-        "first_seen": "2026-11-10",
-        "last_seen": "2026-11-10"
-      }
-    },
-    {
-      "ts": "2026-11-10",
-      "type": "model_added",
-      "id": "anthropic/claude-fable-5.2:batch",
-      "provider": "anthropic",
-      "snapshot": {
-        "id": "anthropic/claude-fable-5.2:batch",
-        "name": "Anthropic: Claude Fable 5.2 (batch)",
-        "provider": "anthropic",
-        "pricing": {
-          "prompt": "0.000004",
-          "completion": "0.00002",
-          "image": null,
-          "request": null
-        },
-        "context_length": 1000000,
-        "max_completion_tokens": 128000,
-        "expiration_date": null,
-        "created": 1794253781,
-        "first_seen": "2026-11-10",
-        "last_seen": "2026-11-10"
-      }
-    },
-    {
-      "ts": "2026-11-10",
-      "type": "model_added",
-      "id": "anthropic/claude-fable-5.2",
-      "provider": "anthropic",
-      "snapshot": {
-        "id": "anthropic/claude-fable-5.2",
-        "name": "Anthropic: Claude Fable 5.2",
-        "provider": "anthropic",
-        "pricing": {
-          "prompt": "0.000008",
-          "completion": "0.00004",
-          "image": null,
-          "request": null
-        },
-        "context_length": 1000000,
-        "max_completion_tokens": 128000,
-        "expiration_date": null,
-        "created": 1794253781,
-        "first_seen": "2026-11-10",
-        "last_seen": "2026-11-10"
-      }
-    },
-    {
-      "ts": "2026-11-10",
-      "type": "model_added",
-      "id": "thinkingmachines/inkling-2-small:free",
-      "provider": "thinkingmachines",
-      "snapshot": {
-        "id": "thinkingmachines/inkling-2-small:free",
-        "name": "Thinking Machines: Inkling 2 Small (free)",
-        "provider": "thinkingmachines",
-        "pricing": {
-          "prompt": "0",
-          "completion": "0",
-          "image": null,
-          "request": null
-        },
-        "context_length": 1048576,
-        "max_completion_tokens": 131072,
-        "expiration_date": null,
-        "created": 1794261847,
-        "first_seen": "2026-11-10",
-        "last_seen": "2026-11-10"
-      }
     }
   ],
   "scheduled_funerals": [

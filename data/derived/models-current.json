@@ -159,7 +159,7 @@
       "name": "MoonshotAI: Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.0000001719",
+        "prompt": "0.0000001824",
         "completion": "0.0000093388",
         "image": null,
         "request": null
@@ -295,8 +295,8 @@
       "name": "Z.ai: GLM Flash Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.0000000335",
-        "completion": "0.000000083",
+        "prompt": "0.0000000399",
+        "completion": "0.0000000784",
         "image": null,
         "request": null
       },
@@ -1536,8 +1536,8 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000051",
-        "completion": "0.000000567",
+        "prompt": "0.0000003",
+        "completion": "0.0000012",
         "image": null,
         "request": null
       },
@@ -3688,6 +3688,23 @@
       "expiration_date": null,
       "created": 1788890050,
       "first_seen": "2026-09-28",
+      "last_seen": "2026-11-10"
+    },
+    {
+      "id": "nex-agi/nex-n2.6",
+      "name": "Nex AGI: Nex-N2.6",
+      "provider": "nex-agi",
+      "pricing": {
+        "prompt": "0.00000012",
+        "completion": "0.0000004",
+        "image": null,
+        "request": null
+      },
+      "context_length": 262144,
+      "max_completion_tokens": 235929,
+      "expiration_date": null,
+      "created": 1794282379,
+      "first_seen": "2026-11-10",
       "last_seen": "2026-11-10"
     },
     {
@@ -6488,7 +6505,7 @@
         "image": null,
         "request": null
       },
-      "context_length": 1024000,
+      "context_length": 1048575,
       "max_completion_tokens": 235929,
       "expiration_date": null,
       "created": 1786722910,
@@ -7724,7 +7741,7 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.000000006",
+        "prompt": "0.000000007",
         "completion": "0.0000068",
         "image": null,
         "request": null
@@ -7741,8 +7758,8 @@
       "name": "Z.ai: GLM 5.2 (batch)",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.000000623",
-        "completion": "0.000001271",
+        "prompt": "0.000000527",
+        "completion": "0.000001075",
         "image": null,
         "request": null
       },
@@ -7775,13 +7792,13 @@
       "name": "Z.ai: GLM 5.3 Flash",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000005",
+        "prompt": "0.0000000399",
+        "completion": "0.0000000784",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 943717,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1787752741,
       "first_seen": "2026-08-26",
