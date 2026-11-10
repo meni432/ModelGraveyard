@@ -1073,6 +1073,40 @@
       "last_seen": "2026-11-10"
     },
     {
+      "id": "baidu/ernie-5.5-flash-preview",
+      "name": "Baidu: ERNIE-5.5-Flash-Preview",
+      "provider": "baidu",
+      "pricing": {
+        "prompt": "0.00000028",
+        "completion": "0.00000113",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1024000,
+      "max_completion_tokens": 921600,
+      "expiration_date": null,
+      "created": 1794333533,
+      "first_seen": "2026-11-10",
+      "last_seen": "2026-11-10"
+    },
+    {
+      "id": "baidu/ernie-light-dt-1.0-intl",
+      "name": "Baidu: ERNIE-Light-DT-1.0",
+      "provider": "baidu",
+      "pricing": {
+        "prompt": "0.00000113",
+        "completion": "0.00000394",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1024000,
+      "max_completion_tokens": 131072,
+      "expiration_date": null,
+      "created": 1794331260,
+      "first_seen": "2026-11-10",
+      "last_seen": "2026-11-10"
+    },
+    {
       "id": "bytedance-seed/seed-1.6",
       "name": "ByteDance Seed: Seed 1.6",
       "provider": "bytedance-seed",
@@ -1502,8 +1536,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000095526",
-        "completion": "0.00000191052",
+        "prompt": "0.000000883746",
+        "completion": "0.000001767492",
         "image": null,
         "request": null
       },
@@ -2161,6 +2195,40 @@
       "last_seen": "2026-11-10"
     },
     {
+      "id": "google/gemini-4-carbon",
+      "name": "Google: Gemini 4 Carbon",
+      "provider": "google",
+      "pricing": {
+        "prompt": "0.000002",
+        "completion": "0.00001",
+        "image": "0.000002",
+        "request": null
+      },
+      "context_length": 1048576,
+      "max_completion_tokens": 943718,
+      "expiration_date": null,
+      "created": 1794326871,
+      "first_seen": "2026-11-10",
+      "last_seen": "2026-11-10"
+    },
+    {
+      "id": "google/gemini-4-carbon:batch",
+      "name": "Google: Gemini 4 Carbon (batch)",
+      "provider": "google",
+      "pricing": {
+        "prompt": "0.000001",
+        "completion": "0.000005",
+        "image": "0.000001",
+        "request": null
+      },
+      "context_length": 1048576,
+      "max_completion_tokens": 943718,
+      "expiration_date": null,
+      "created": 1794326871,
+      "first_seen": "2026-11-10",
+      "last_seen": "2026-11-10"
+    },
+    {
       "id": "google/gemini-nano-banana-2.1",
       "name": "Google: Nano Banana 2.1",
       "provider": "google",
@@ -2607,8 +2675,8 @@
       "name": "Mancer: Weaver (alpha)",
       "provider": "mancer",
       "pricing": {
-        "prompt": "0.0000004",
-        "completion": "0.00000075",
+        "prompt": "0.0000003",
+        "completion": "0.0000005",
         "image": null,
         "request": null
       },
@@ -2919,7 +2987,7 @@
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 262144,
       "expiration_date": null,
       "created": 1792087069,
       "first_seen": "2026-10-15",
@@ -3032,8 +3100,8 @@
       "name": "MiniMax: MiniMax M3.1 Flash",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
+        "prompt": "0.000000075",
+        "completion": "0.0000003",
         "image": null,
         "request": null
       },
@@ -6993,8 +7061,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },
@@ -7044,8 +7112,8 @@
       "name": "Tencent: Hy4 preview",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000834",
-        "completion": "0.000002501",
+        "prompt": "0.0000007506",
+        "completion": "0.0000022509",
         "image": null,
         "request": null
       },
@@ -7231,8 +7299,8 @@
       "name": "ReMM SLERP 13B",
       "provider": "undi95",
       "pricing": {
-        "prompt": "0.00000035",
-        "completion": "0.00000065",
+        "prompt": "0.0000003",
+        "completion": "0.0000005",
         "image": null,
         "request": null
       },
@@ -7809,7 +7877,7 @@
       "name": "Z.ai: GLM 5.3 Flash (batch)",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.00000003",
+        "prompt": "0.000000042",
         "completion": "0.000000061",
         "image": null,
         "request": null
