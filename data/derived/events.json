@@ -81354,6 +81354,385 @@
         "first_seen": "2026-05-27",
         "last_seen": "2026-11-08"
       }
+    },
+    {
+      "ts": "2026-11-10",
+      "type": "model_added",
+      "id": "thinkingmachines/inkling-2-small:free",
+      "provider": "thinkingmachines",
+      "snapshot": {
+        "id": "thinkingmachines/inkling-2-small:free",
+        "name": "Thinking Machines: Inkling 2 Small (free)",
+        "provider": "thinkingmachines",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": 131072,
+        "expiration_date": null,
+        "created": 1794261847,
+        "first_seen": "2026-11-10",
+        "last_seen": "2026-11-10"
+      }
+    },
+    {
+      "ts": "2026-11-10",
+      "type": "model_added",
+      "id": "anthropic/claude-fable-5.2",
+      "provider": "anthropic",
+      "snapshot": {
+        "id": "anthropic/claude-fable-5.2",
+        "name": "Anthropic: Claude Fable 5.2",
+        "provider": "anthropic",
+        "pricing": {
+          "prompt": "0.000008",
+          "completion": "0.00004",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1000000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1794253781,
+        "first_seen": "2026-11-10",
+        "last_seen": "2026-11-10"
+      }
+    },
+    {
+      "ts": "2026-11-10",
+      "type": "model_added",
+      "id": "anthropic/claude-fable-5.2:batch",
+      "provider": "anthropic",
+      "snapshot": {
+        "id": "anthropic/claude-fable-5.2:batch",
+        "name": "Anthropic: Claude Fable 5.2 (batch)",
+        "provider": "anthropic",
+        "pricing": {
+          "prompt": "0.000004",
+          "completion": "0.00002",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1000000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1794253781,
+        "first_seen": "2026-11-10",
+        "last_seen": "2026-11-10"
+      }
+    },
+    {
+      "ts": "2026-11-10",
+      "type": "model_added",
+      "id": "meta/muse-ember",
+      "provider": "meta",
+      "snapshot": {
+        "id": "meta/muse-ember",
+        "name": "Meta: Muse Ember",
+        "provider": "meta",
+        "pricing": {
+          "prompt": "0.0000001",
+          "completion": "0.0000005",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": 943718,
+        "expiration_date": null,
+        "created": 1794247648,
+        "first_seen": "2026-11-10",
+        "last_seen": "2026-11-10"
+      }
+    },
+    {
+      "ts": "2026-11-10",
+      "type": "price_changed",
+      "id": "minimax/minimax-m3.1-flash",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000075",
+          "next": "0.00000015",
+          "pct_change": 100
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000003",
+          "next": "0.0000006",
+          "pct_change": 100
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-10",
+      "type": "price_changed",
+      "id": "nvidia/nemotron-3.5-super-vl",
+      "provider": "nvidia",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.0000005",
+          "next": "0.00000047",
+          "pct_change": -6
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-10",
+      "type": "context_changed",
+      "id": "stepfun/step-5-preview",
+      "provider": "stepfun",
+      "prev_context": 1048576,
+      "next_context": 1000000
+    },
+    {
+      "ts": "2026-11-10",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4.1-flash:batch",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000011",
+          "next": "0.000000112",
+          "pct_change": 918.18
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000002",
+          "next": "0.000000336",
+          "pct_change": 68
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-10",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.3-flash",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000335",
+          "next": "0.00000015",
+          "pct_change": 347.76
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000083",
+          "next": "0.0000005",
+          "pct_change": 502.41
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-10",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.3-flash:batch",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000005",
+          "next": "0.00000003",
+          "pct_change": -40
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000018",
+          "next": "0.000000061",
+          "pct_change": -66.11
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-10",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k3:batch",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000883",
+          "next": "0.00000228",
+          "pct_change": 158.21
+        },
+        {
+          "field": "completion",
+          "prev": "0.000006",
+          "next": "0.0000114",
+          "pct_change": 90
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-10",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000075",
+          "next": "0.000000006",
+          "pct_change": -20
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-10",
+      "type": "price_changed",
+      "id": "~anthropic/claude-fable-latest",
+      "provider": "~anthropic",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00001",
+          "next": "0.000008",
+          "pct_change": -20
+        },
+        {
+          "field": "completion",
+          "prev": "0.00005",
+          "next": "0.00004",
+          "pct_change": -20
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-10",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000001634",
+          "next": "0.0000001719",
+          "pct_change": 5.2
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000101489",
+          "next": "0.0000093388",
+          "pct_change": -7.98
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-10",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000894012",
+          "next": "0.00000095526",
+          "pct_change": 6.85
+        },
+        {
+          "field": "completion",
+          "prev": "0.000001788024",
+          "next": "0.00000191052",
+          "pct_change": 6.85
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-10",
+      "type": "context_changed",
+      "id": "xiaomi/mimo-v2.5-pro",
+      "provider": "xiaomi",
+      "prev_context": 1050000,
+      "next_context": 1024000
+    },
+    {
+      "ts": "2026-11-10",
+      "type": "price_changed",
+      "id": "google/gemma-4-26b-a4b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000009",
+          "next": "0.00000008",
+          "pct_change": -11.11
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000003",
+          "next": "0.0000001",
+          "pct_change": -66.67
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-10",
+      "type": "price_changed",
+      "id": "qwen/qwen3-14b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000012",
+          "next": "0.0000001",
+          "pct_change": -16.67
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000024",
+          "next": "0.00000022",
+          "pct_change": -8.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-10",
+      "type": "price_changed",
+      "id": "meta-llama/llama-3.3-70b-instruct",
+      "provider": "meta-llama",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000059",
+          "next": "0.00000071",
+          "pct_change": 20.34
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000079",
+          "next": "0.00000071",
+          "pct_change": -10.13
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-10",
+      "type": "model_removed",
+      "id": "stealth/crouton-alpha",
+      "provider": "stealth",
+      "snapshot": {
+        "id": "stealth/crouton-alpha",
+        "name": "Crouton Alpha",
+        "provider": "stealth",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": 943718,
+        "expiration_date": null,
+        "created": 1793669930,
+        "first_seen": "2026-11-03",
+        "last_seen": "2026-11-09"
+      }
     }
   ]
 }

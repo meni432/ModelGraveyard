@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_removed.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_removed.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-11-09T00:00:00Z</updated>
+  <updated>2026-11-10T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-10:model_removed:stealth%2Fcrouton-alpha</id>
+    <title>Removed: stealth/crouton-alpha</title>
+    <updated>2026-11-10T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/stealth%2Fcrouton-alpha"/>
+    <category term="model_removed"/>
+    <category term="provider:stealth"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-11-09:model_removed:minimax%2Fminimax-m1</id>
     <title>Removed: minimax/minimax-m1</title>
@@ -895,14 +904,5 @@
     <category term="model_removed"/>
     <category term="provider:openai"/>
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $10.0000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-11:model_removed:~openai%2Fgpt-latest</id>
-    <title>Removed: ~openai/gpt-latest</title>
-    <updated>2026-09-11T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/~openai%2Fgpt-latest"/>
-    <category term="model_removed"/>
-    <category term="provider:~openai"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $2.0000/Mtok.</summary>
   </entry>
 </feed>
