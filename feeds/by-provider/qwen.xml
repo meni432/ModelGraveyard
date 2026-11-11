@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/qwen.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/qwen.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-11-10T00:00:00Z</updated>
+  <updated>2026-11-11T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-11:model_removed:qwen%2Fqwen-2.5-7b-instruct</id>
+    <title>Removed: qwen/qwen-2.5-7b-instruct</title>
+    <updated>2026-11-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen-2.5-7b-instruct"/>
+    <category term="model_removed"/>
+    <category term="provider:qwen"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1000/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-11-10:price_changed:qwen%2Fqwen3-14b</id>
     <title>Price changed: qwen/qwen3-14b</title>
@@ -895,14 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:qwen"/>
     <summary>completion: $2.7000/Mtok → $3.2500/Mtok (+20.37%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-10-05:model_removed:qwen%2Fqwen3.8-27b%3Afree</id>
-    <title>Removed: qwen/qwen3.8-27b:free</title>
-    <updated>2026-10-05T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3.8-27b%3Afree"/>
-    <category term="model_removed"/>
-    <category term="provider:qwen"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
   </entry>
 </feed>

@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_added.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_added.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-11-10T00:00:00Z</updated>
+  <updated>2026-11-11T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-11:model_added:kt%2Fmidm-k-3.0-pro</id>
+    <title>Added: kt/midm-k-3.0-pro</title>
+    <updated>2026-11-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/kt%2Fmidm-k-3.0-pro"/>
+    <category term="model_added"/>
+    <category term="provider:kt"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.2000/Mtok, context: 261795.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-11:model_added:motif-technologies%2Fmotif-3</id>
+    <title>Added: motif-technologies/motif-3</title>
+    <updated>2026-11-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/motif-technologies%2Fmotif-3"/>
+    <category term="model_added"/>
+    <category term="provider:motif-technologies"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.3000/Mtok, context: 262144.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-11-10:model_added:thinkingmachines%2Finkling-2-small%3Afree</id>
     <title>Added: thinkingmachines/inkling-2-small:free</title>
@@ -886,23 +904,5 @@
     <category term="model_added"/>
     <category term="provider:anthropic"/>
     <summary>New model on OpenRouter. Initial prompt price: $4.0000/Mtok, context: 1000000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-22:model_added:anthropic%2Fclaude-opus-5.5%3Abatch</id>
-    <title>Added: anthropic/claude-opus-5.5:batch</title>
-    <updated>2026-09-22T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-opus-5.5%3Abatch"/>
-    <category term="model_added"/>
-    <category term="provider:anthropic"/>
-    <summary>New model on OpenRouter. Initial prompt price: $2.0000/Mtok, context: 1000000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-22:model_added:deepseek%2Fdeepseek-v4.1-flash%3Abatch</id>
-    <title>Added: deepseek/deepseek-v4.1-flash:batch</title>
-    <updated>2026-09-22T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4.1-flash%3Abatch"/>
-    <category term="model_added"/>
-    <category term="provider:deepseek"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.1120/Mtok, context: 1048576.</summary>
   </entry>
 </feed>

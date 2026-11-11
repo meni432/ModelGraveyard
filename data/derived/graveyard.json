@@ -1,6 +1,40 @@
 {
   "buried": [
     {
+      "id": "qwen/qwen-2.5-7b-instruct",
+      "name": "Qwen: Qwen2.5 7B Instruct",
+      "provider": "qwen",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000001",
+        "completion": "0.0000002",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 32768,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-11-10",
+      "buried_at": "2026-11-11",
+      "suggested_replacement": "qwen/qwen-2.5-coder-32b-instruct"
+    },
+    {
+      "id": "xingchen-agi/xing4.0-29b-a4b:free",
+      "name": "XingChen: Xing4.0 29B A4B (free)",
+      "provider": "xingchen-agi",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-10-16",
+      "last_seen": "2026-11-10",
+      "buried_at": "2026-11-11",
+      "suggested_replacement": null
+    },
+    {
       "id": "stealth/crouton-alpha",
       "name": "Crouton Alpha",
       "provider": "stealth",
