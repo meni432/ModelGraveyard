@@ -24,6 +24,42 @@
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-11-11:model_removed:baidu%2Fernie-5.5-flash-preview</id>
+    <title>Removed: baidu/ernie-5.5-flash-preview</title>
+    <updated>2026-11-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/baidu%2Fernie-5.5-flash-preview"/>
+    <category term="model_removed"/>
+    <category term="provider:baidu"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.2800/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-11:model_removed:bytedance-seed%2Fseed-1.6</id>
+    <title>Removed: bytedance-seed/seed-1.6</title>
+    <updated>2026-11-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/bytedance-seed%2Fseed-1.6"/>
+    <category term="model_removed"/>
+    <category term="provider:bytedance-seed"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.2500/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-11:model_removed:bytedance-seed%2Fseed-1.6-flash</id>
+    <title>Removed: bytedance-seed/seed-1.6-flash</title>
+    <updated>2026-11-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/bytedance-seed%2Fseed-1.6-flash"/>
+    <category term="model_removed"/>
+    <category term="provider:bytedance-seed"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0750/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-11:model_removed:bytedance-seed%2Fseed-2.0-code</id>
+    <title>Removed: bytedance-seed/seed-2.0-code</title>
+    <updated>2026-11-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/bytedance-seed%2Fseed-2.0-code"/>
+    <category term="model_removed"/>
+    <category term="provider:bytedance-seed"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.5000/Mtok.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-11-10:model_removed:stealth%2Fcrouton-alpha</id>
     <title>Removed: stealth/crouton-alpha</title>
     <updated>2026-11-10T00:00:00Z</updated>
@@ -868,41 +904,5 @@
     <category term="model_removed"/>
     <category term="provider:stealth"/>
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-18:model_removed:mistralai%2Fmistral-large-2512</id>
-    <title>Removed: mistralai/mistral-large-2512</title>
-    <updated>2026-09-18T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/mistralai%2Fmistral-large-2512"/>
-    <category term="model_removed"/>
-    <category term="provider:mistralai"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.5000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-16:model_removed:google%2Fgemma-4-31b-it%3Abatch</id>
-    <title>Removed: google/gemma-4-31b-it:batch</title>
-    <updated>2026-09-16T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemma-4-31b-it%3Abatch"/>
-    <category term="model_removed"/>
-    <category term="provider:google"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.3900/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-16:model_removed:openai%2Fgpt-oss-20b%3Abatch</id>
-    <title>Removed: openai/gpt-oss-20b:batch</title>
-    <updated>2026-09-16T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-oss-20b%3Abatch"/>
-    <category term="model_removed"/>
-    <category term="provider:openai"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0500/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-16:model_removed:thinkingmachines%2Finkling-small%3Abatch</id>
-    <title>Removed: thinkingmachines/inkling-small:batch</title>
-    <updated>2026-09-16T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/thinkingmachines%2Finkling-small%3Abatch"/>
-    <category term="model_removed"/>
-    <category term="provider:thinkingmachines"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.5000/Mtok.</summary>
   </entry>
 </feed>

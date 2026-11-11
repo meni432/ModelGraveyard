@@ -24,6 +24,15 @@
     <summary>New model on OpenRouter. Initial prompt price: $0.3000/Mtok, context: 262144.</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-11-11:model_added:baidu%2Fernie-5.5-flash-preview%3Afree</id>
+    <title>Added: baidu/ernie-5.5-flash-preview:free</title>
+    <updated>2026-11-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/baidu%2Fernie-5.5-flash-preview%3Afree"/>
+    <category term="model_added"/>
+    <category term="provider:baidu"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 1024000.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-11-10:model_added:thinkingmachines%2Finkling-2-small%3Afree</id>
     <title>Added: thinkingmachines/inkling-2-small:free</title>
     <updated>2026-11-10T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="model_added"/>
     <category term="provider:nex-agi"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.0750/Mtok, context: 262144.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-22:model_added:anthropic%2Fclaude-opus-5.5</id>
-    <title>Added: anthropic/claude-opus-5.5</title>
-    <updated>2026-09-22T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-opus-5.5"/>
-    <category term="model_added"/>
-    <category term="provider:anthropic"/>
-    <summary>New model on OpenRouter. Initial prompt price: $4.0000/Mtok, context: 1000000.</summary>
   </entry>
 </feed>

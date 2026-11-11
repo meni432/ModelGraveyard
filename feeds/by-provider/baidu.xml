@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-provider/baidu.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/baidu.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-11-10T00:00:00Z</updated>
+  <updated>2026-11-11T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-11:model_added:baidu%2Fernie-5.5-flash-preview%3Afree</id>
+    <title>Added: baidu/ernie-5.5-flash-preview:free</title>
+    <updated>2026-11-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/baidu%2Fernie-5.5-flash-preview%3Afree"/>
+    <category term="model_added"/>
+    <category term="provider:baidu"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 1024000.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-11:model_removed:baidu%2Fernie-5.5-flash-preview</id>
+    <title>Removed: baidu/ernie-5.5-flash-preview</title>
+    <updated>2026-11-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/baidu%2Fernie-5.5-flash-preview"/>
+    <category term="model_removed"/>
+    <category term="provider:baidu"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.2800/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-11-10:model_added:baidu%2Fernie-5.5-flash-preview</id>
     <title>Added: baidu/ernie-5.5-flash-preview</title>

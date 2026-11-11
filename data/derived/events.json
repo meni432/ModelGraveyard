@@ -82344,6 +82344,279 @@
         "first_seen": "2026-10-16",
         "last_seen": "2026-11-10"
       }
+    },
+    {
+      "ts": "2026-11-11",
+      "type": "model_added",
+      "id": "baidu/ernie-5.5-flash-preview:free",
+      "provider": "baidu",
+      "snapshot": {
+        "id": "baidu/ernie-5.5-flash-preview:free",
+        "name": "Baidu: ERNIE-5.5-Flash-Preview (free)",
+        "provider": "baidu",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1024000,
+        "max_completion_tokens": 921600,
+        "expiration_date": null,
+        "created": 1794333533,
+        "first_seen": "2026-11-11",
+        "last_seen": "2026-11-11"
+      }
+    },
+    {
+      "ts": "2026-11-11",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.3-flash:batch",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000042",
+          "next": "0.000000047",
+          "pct_change": 11.9
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-11",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000095526",
+          "next": "0.000000892272",
+          "pct_change": -6.59
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000191052",
+          "next": "0.000001784544",
+          "pct_change": -6.59
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-11",
+      "type": "context_changed",
+      "id": "nvidia/nemotron-3-super-120b-a12b",
+      "provider": "nvidia",
+      "prev_context": 1048576,
+      "next_context": 262144
+    },
+    {
+      "ts": "2026-11-11",
+      "type": "price_changed",
+      "id": "minimax/minimax-m2.5",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000003",
+          "next": "0.00000027",
+          "pct_change": -10
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000012",
+          "next": "0.00000108",
+          "pct_change": -10
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-11",
+      "type": "deprecation_announced",
+      "id": "openai/gpt-5-image",
+      "provider": "openai",
+      "prev_expiration": null,
+      "next_expiration": "2026-12-11"
+    },
+    {
+      "ts": "2026-11-11",
+      "type": "deprecation_announced",
+      "id": "openai/gpt-5-pro",
+      "provider": "openai",
+      "prev_expiration": null,
+      "next_expiration": "2026-12-11"
+    },
+    {
+      "ts": "2026-11-11",
+      "type": "deprecation_announced",
+      "id": "openai/gpt-5-pro:batch",
+      "provider": "openai",
+      "prev_expiration": null,
+      "next_expiration": "2026-12-11"
+    },
+    {
+      "ts": "2026-11-11",
+      "type": "deprecation_announced",
+      "id": "openai/gpt-5",
+      "provider": "openai",
+      "prev_expiration": null,
+      "next_expiration": "2026-12-11"
+    },
+    {
+      "ts": "2026-11-11",
+      "type": "deprecation_announced",
+      "id": "openai/gpt-5:batch",
+      "provider": "openai",
+      "prev_expiration": null,
+      "next_expiration": "2026-12-11"
+    },
+    {
+      "ts": "2026-11-11",
+      "type": "deprecation_announced",
+      "id": "openai/gpt-5-mini",
+      "provider": "openai",
+      "prev_expiration": null,
+      "next_expiration": "2026-12-11"
+    },
+    {
+      "ts": "2026-11-11",
+      "type": "deprecation_announced",
+      "id": "openai/gpt-5-mini:batch",
+      "provider": "openai",
+      "prev_expiration": null,
+      "next_expiration": "2026-12-11"
+    },
+    {
+      "ts": "2026-11-11",
+      "type": "deprecation_announced",
+      "id": "openai/gpt-5-nano",
+      "provider": "openai",
+      "prev_expiration": null,
+      "next_expiration": "2026-12-11"
+    },
+    {
+      "ts": "2026-11-11",
+      "type": "deprecation_announced",
+      "id": "openai/gpt-5-nano:batch",
+      "provider": "openai",
+      "prev_expiration": null,
+      "next_expiration": "2026-12-11"
+    },
+    {
+      "ts": "2026-11-11",
+      "type": "deprecation_announced",
+      "id": "openai/o3-pro",
+      "provider": "openai",
+      "prev_expiration": null,
+      "next_expiration": "2026-12-11"
+    },
+    {
+      "ts": "2026-11-11",
+      "type": "deprecation_announced",
+      "id": "openai/o3",
+      "provider": "openai",
+      "prev_expiration": null,
+      "next_expiration": "2026-12-11"
+    },
+    {
+      "ts": "2026-11-11",
+      "type": "deprecation_announced",
+      "id": "openai/o3:batch",
+      "provider": "openai",
+      "prev_expiration": null,
+      "next_expiration": "2026-12-11"
+    },
+    {
+      "ts": "2026-11-11",
+      "type": "model_removed",
+      "id": "baidu/ernie-5.5-flash-preview",
+      "provider": "baidu",
+      "snapshot": {
+        "id": "baidu/ernie-5.5-flash-preview",
+        "name": "Baidu: ERNIE-5.5-Flash-Preview",
+        "provider": "baidu",
+        "pricing": {
+          "prompt": "0.00000028",
+          "completion": "0.00000113",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1024000,
+        "max_completion_tokens": 921600,
+        "expiration_date": null,
+        "created": 1794333533,
+        "first_seen": "2026-11-10",
+        "last_seen": "2026-11-11"
+      }
+    },
+    {
+      "ts": "2026-11-11",
+      "type": "model_removed",
+      "id": "bytedance-seed/seed-1.6",
+      "provider": "bytedance-seed",
+      "snapshot": {
+        "id": "bytedance-seed/seed-1.6",
+        "name": "ByteDance Seed: Seed 1.6",
+        "provider": "bytedance-seed",
+        "pricing": {
+          "prompt": "0.00000025",
+          "completion": "0.000002",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 32768,
+        "expiration_date": "2026-11-11",
+        "created": 1766504997,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-11-11"
+      }
+    },
+    {
+      "ts": "2026-11-11",
+      "type": "model_removed",
+      "id": "bytedance-seed/seed-1.6-flash",
+      "provider": "bytedance-seed",
+      "snapshot": {
+        "id": "bytedance-seed/seed-1.6-flash",
+        "name": "ByteDance Seed: Seed 1.6 Flash",
+        "provider": "bytedance-seed",
+        "pricing": {
+          "prompt": "0.000000075",
+          "completion": "0.0000003",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 32768,
+        "expiration_date": "2026-11-11",
+        "created": 1766505011,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-11-11"
+      }
+    },
+    {
+      "ts": "2026-11-11",
+      "type": "model_removed",
+      "id": "bytedance-seed/seed-2.0-code",
+      "provider": "bytedance-seed",
+      "snapshot": {
+        "id": "bytedance-seed/seed-2.0-code",
+        "name": "ByteDance Seed: Seed-2.0-Code",
+        "provider": "bytedance-seed",
+        "pricing": {
+          "prompt": "0.0000005",
+          "completion": "0.000003",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 131072,
+        "expiration_date": "2026-11-11",
+        "created": 1786550701,
+        "first_seen": "2026-08-11",
+        "last_seen": "2026-11-11"
+      }
     }
   ]
 }

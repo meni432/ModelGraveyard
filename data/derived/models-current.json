@@ -1073,12 +1073,12 @@
       "last_seen": "2026-11-11"
     },
     {
-      "id": "baidu/ernie-5.5-flash-preview",
-      "name": "Baidu: ERNIE-5.5-Flash-Preview",
+      "id": "baidu/ernie-5.5-flash-preview:free",
+      "name": "Baidu: ERNIE-5.5-Flash-Preview (free)",
       "provider": "baidu",
       "pricing": {
-        "prompt": "0.00000028",
-        "completion": "0.00000113",
+        "prompt": "0",
+        "completion": "0",
         "image": null,
         "request": null
       },
@@ -1086,7 +1086,7 @@
       "max_completion_tokens": 921600,
       "expiration_date": null,
       "created": 1794333533,
-      "first_seen": "2026-11-10",
+      "first_seen": "2026-11-11",
       "last_seen": "2026-11-11"
     },
     {
@@ -1107,40 +1107,6 @@
       "last_seen": "2026-11-11"
     },
     {
-      "id": "bytedance-seed/seed-1.6",
-      "name": "ByteDance Seed: Seed 1.6",
-      "provider": "bytedance-seed",
-      "pricing": {
-        "prompt": "0.00000025",
-        "completion": "0.000002",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 32768,
-      "expiration_date": "2026-11-11",
-      "created": 1766504997,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-11-11"
-    },
-    {
-      "id": "bytedance-seed/seed-1.6-flash",
-      "name": "ByteDance Seed: Seed 1.6 Flash",
-      "provider": "bytedance-seed",
-      "pricing": {
-        "prompt": "0.000000075",
-        "completion": "0.0000003",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 32768,
-      "expiration_date": "2026-11-11",
-      "created": 1766505011,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-11-11"
-    },
-    {
       "id": "bytedance-seed/seed-2-1-turbo",
       "name": "ByteDance Seed: Seed 2.1 Turbo",
       "provider": "bytedance-seed",
@@ -1155,23 +1121,6 @@
       "expiration_date": null,
       "created": 1786552176,
       "first_seen": "2026-08-12",
-      "last_seen": "2026-11-11"
-    },
-    {
-      "id": "bytedance-seed/seed-2.0-code",
-      "name": "ByteDance Seed: Seed-2.0-Code",
-      "provider": "bytedance-seed",
-      "pricing": {
-        "prompt": "0.0000005",
-        "completion": "0.000003",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 131072,
-      "expiration_date": "2026-11-11",
-      "created": 1786550701,
-      "first_seen": "2026-08-11",
       "last_seen": "2026-11-11"
     },
     {
@@ -1536,8 +1485,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000095526",
-        "completion": "0.00000191052",
+        "prompt": "0.000000892272",
+        "completion": "0.000001784544",
         "image": null,
         "request": null
       },
@@ -3049,13 +2998,13 @@
       "name": "MiniMax: MiniMax M2.5",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0.0000003",
-        "completion": "0.0000012",
+        "prompt": "0.00000027",
+        "completion": "0.00000108",
         "image": null,
         "request": null
       },
       "context_length": 200000,
-      "max_completion_tokens": 58982,
+      "max_completion_tokens": 128000,
       "expiration_date": null,
       "created": 1770908502,
       "first_seen": "2026-05-27",
@@ -3870,7 +3819,7 @@
         "image": null,
         "request": null
       },
-      "context_length": 1048576,
+      "context_length": 262144,
       "max_completion_tokens": 16384,
       "expiration_date": null,
       "created": 1773245239,
@@ -4331,7 +4280,7 @@
       },
       "context_length": 400000,
       "max_completion_tokens": 128000,
-      "expiration_date": null,
+      "expiration_date": "2026-12-11",
       "created": 1754587413,
       "first_seen": "2026-05-27",
       "last_seen": "2026-11-11"
@@ -4348,7 +4297,7 @@
       },
       "context_length": 400000,
       "max_completion_tokens": 128000,
-      "expiration_date": null,
+      "expiration_date": "2026-12-11",
       "created": 1760447986,
       "first_seen": "2026-05-27",
       "last_seen": "2026-11-11"
@@ -4382,7 +4331,7 @@
       },
       "context_length": 400000,
       "max_completion_tokens": 128000,
-      "expiration_date": null,
+      "expiration_date": "2026-12-11",
       "created": 1754587407,
       "first_seen": "2026-05-27",
       "last_seen": "2026-11-11"
@@ -4399,7 +4348,7 @@
       },
       "context_length": 400000,
       "max_completion_tokens": 128000,
-      "expiration_date": null,
+      "expiration_date": "2026-12-11",
       "created": 1754587407,
       "first_seen": "2026-08-31",
       "last_seen": "2026-11-11"
@@ -4416,7 +4365,7 @@
       },
       "context_length": 400000,
       "max_completion_tokens": 128000,
-      "expiration_date": null,
+      "expiration_date": "2026-12-11",
       "created": 1754587402,
       "first_seen": "2026-05-27",
       "last_seen": "2026-11-11"
@@ -4433,7 +4382,7 @@
       },
       "context_length": 400000,
       "max_completion_tokens": 128000,
-      "expiration_date": null,
+      "expiration_date": "2026-12-11",
       "created": 1754587402,
       "first_seen": "2026-08-31",
       "last_seen": "2026-11-11"
@@ -4450,7 +4399,7 @@
       },
       "context_length": 400000,
       "max_completion_tokens": 128000,
-      "expiration_date": null,
+      "expiration_date": "2026-12-11",
       "created": 1759776663,
       "first_seen": "2026-05-27",
       "last_seen": "2026-11-11"
@@ -4467,7 +4416,7 @@
       },
       "context_length": 400000,
       "max_completion_tokens": 128000,
-      "expiration_date": null,
+      "expiration_date": "2026-12-11",
       "created": 1759776663,
       "first_seen": "2026-08-31",
       "last_seen": "2026-11-11"
@@ -4484,7 +4433,7 @@
       },
       "context_length": 400000,
       "max_completion_tokens": 128000,
-      "expiration_date": null,
+      "expiration_date": "2026-12-11",
       "created": 1754587413,
       "first_seen": "2026-08-31",
       "last_seen": "2026-11-11"
@@ -5606,7 +5555,7 @@
       },
       "context_length": 200000,
       "max_completion_tokens": 100000,
-      "expiration_date": null,
+      "expiration_date": "2026-12-11",
       "created": 1744823457,
       "first_seen": "2026-05-27",
       "last_seen": "2026-11-11"
@@ -5640,7 +5589,7 @@
       },
       "context_length": 200000,
       "max_completion_tokens": 100000,
-      "expiration_date": null,
+      "expiration_date": "2026-12-11",
       "created": 1749598352,
       "first_seen": "2026-05-27",
       "last_seen": "2026-11-11"
@@ -5657,7 +5606,7 @@
       },
       "context_length": 200000,
       "max_completion_tokens": 100000,
-      "expiration_date": null,
+      "expiration_date": "2026-12-11",
       "created": 1744823457,
       "first_seen": "2026-08-31",
       "last_seen": "2026-11-11"
@@ -7877,7 +7826,7 @@
       "name": "Z.ai: GLM 5.3 Flash (batch)",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.000000042",
+        "prompt": "0.000000047",
         "completion": "0.000000061",
         "image": null,
         "request": null

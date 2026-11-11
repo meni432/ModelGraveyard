@@ -1,6 +1,74 @@
 {
   "buried": [
     {
+      "id": "baidu/ernie-5.5-flash-preview",
+      "name": "Baidu: ERNIE-5.5-Flash-Preview",
+      "provider": "baidu",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000028",
+        "completion": "0.00000113",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 1024000,
+      "first_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
+      "buried_at": "2026-11-11",
+      "suggested_replacement": "baidu/ernie-5.5-flash-preview:free"
+    },
+    {
+      "id": "bytedance-seed/seed-1.6",
+      "name": "ByteDance Seed: Seed 1.6",
+      "provider": "bytedance-seed",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000025",
+        "completion": "0.000002",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-11-11",
+      "buried_at": "2026-11-11",
+      "suggested_replacement": "bytedance-seed/seed-2-1-turbo"
+    },
+    {
+      "id": "bytedance-seed/seed-1.6-flash",
+      "name": "ByteDance Seed: Seed 1.6 Flash",
+      "provider": "bytedance-seed",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.000000075",
+        "completion": "0.0000003",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-11-11",
+      "buried_at": "2026-11-11",
+      "suggested_replacement": "bytedance-seed/seed-2-1-turbo"
+    },
+    {
+      "id": "bytedance-seed/seed-2.0-code",
+      "name": "ByteDance Seed: Seed-2.0-Code",
+      "provider": "bytedance-seed",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000005",
+        "completion": "0.000003",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-08-11",
+      "last_seen": "2026-11-11",
+      "buried_at": "2026-11-11",
+      "suggested_replacement": "bytedance-seed/seed-2-1-turbo"
+    },
+    {
       "id": "qwen/qwen-2.5-7b-instruct",
       "name": "Qwen: Qwen2.5 7B Instruct",
       "provider": "qwen",
