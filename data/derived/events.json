@@ -82788,6 +82788,249 @@
           "pct_change": -22.22
         }
       ]
+    },
+    {
+      "ts": "2026-11-12",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k3.1-pro",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000002",
+          "next": "0.0000002375",
+          "pct_change": -88.12
+        },
+        {
+          "field": "completion",
+          "prev": "0.00001",
+          "next": "0.0000087856",
+          "pct_change": -12.14
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-12",
+      "type": "model_added",
+      "id": "moonshotai/kimi-k3.1-pro:batch",
+      "provider": "moonshotai",
+      "snapshot": {
+        "id": "moonshotai/kimi-k3.1-pro:batch",
+        "name": "MoonshotAI: Kimi K3.1 Pro (batch)",
+        "provider": "moonshotai",
+        "pricing": {
+          "prompt": "0.0000007",
+          "completion": "0.000006",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": 943718,
+        "expiration_date": null,
+        "created": 1792778188,
+        "first_seen": "2026-11-12",
+        "last_seen": "2026-11-12"
+      }
+    },
+    {
+      "ts": "2026-11-12",
+      "type": "price_changed",
+      "id": "minimax/minimax-m3.1-flash",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000075",
+          "next": "0.00000015",
+          "pct_change": 100
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000003",
+          "next": "0.0000006",
+          "pct_change": 100
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-12",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4.1-flash-1017",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000006",
+          "next": "0.00000015",
+          "pct_change": 2400
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000005",
+          "next": "0.0000006",
+          "pct_change": 20
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-12",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4.1-flash-1017:batch",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000011",
+          "next": "0.00000005",
+          "pct_change": 354.55
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000002",
+          "next": "0.00000015",
+          "pct_change": -25
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-12",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000006",
+          "next": "0.000000022",
+          "pct_change": 266.67
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000005",
+          "next": "0.0000004",
+          "pct_change": -20
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-12",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4.1-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000006",
+          "next": "0.0000003",
+          "pct_change": 4900
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000005",
+          "next": "0.0000012",
+          "pct_change": 140
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-12",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.3-flash:batch",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000047",
+          "next": "0.00000005",
+          "pct_change": 6.38
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000061",
+          "next": "0.00000018",
+          "pct_change": 195.08
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-12",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2:batch",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000527",
+          "next": "0.000000322",
+          "pct_change": -38.9
+        },
+        {
+          "field": "completion",
+          "prev": "0.000001075",
+          "next": "0.000000989",
+          "pct_change": -8
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-12",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000095526",
+          "next": "0.000000892272",
+          "pct_change": -6.59
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000191052",
+          "next": "0.000001784544",
+          "pct_change": -6.59
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-12",
+      "type": "price_changed",
+      "id": "qwen/qwen3.5-9b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000142",
+          "next": "0.00000017",
+          "pct_change": 19.72
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000209",
+          "next": "0.00000025",
+          "pct_change": 19.62
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-12",
+      "type": "price_changed",
+      "id": "qwen/qwen3-14b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000001",
+          "next": "0.00000012",
+          "pct_change": 20
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000022",
+          "next": "0.00000024",
+          "pct_change": 9.09
+        }
+      ]
     }
   ]
 }

@@ -1,9 +1,252 @@
 {
   "generated_at": "2026-11-12",
-  "active_count": 467,
+  "active_count": 468,
   "dead_count": 269,
   "last_event_ts": "2026-11-12",
   "recent_events": [
+    {
+      "ts": "2026-11-12",
+      "type": "price_changed",
+      "id": "qwen/qwen3-14b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000001",
+          "next": "0.00000012",
+          "pct_change": 20
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000022",
+          "next": "0.00000024",
+          "pct_change": 9.09
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-12",
+      "type": "price_changed",
+      "id": "qwen/qwen3.5-9b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000142",
+          "next": "0.00000017",
+          "pct_change": 19.72
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000209",
+          "next": "0.00000025",
+          "pct_change": 19.62
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-12",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000095526",
+          "next": "0.000000892272",
+          "pct_change": -6.59
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000191052",
+          "next": "0.000001784544",
+          "pct_change": -6.59
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-12",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2:batch",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000527",
+          "next": "0.000000322",
+          "pct_change": -38.9
+        },
+        {
+          "field": "completion",
+          "prev": "0.000001075",
+          "next": "0.000000989",
+          "pct_change": -8
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-12",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.3-flash:batch",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000047",
+          "next": "0.00000005",
+          "pct_change": 6.38
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000061",
+          "next": "0.00000018",
+          "pct_change": 195.08
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-12",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4.1-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000006",
+          "next": "0.0000003",
+          "pct_change": 4900
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000005",
+          "next": "0.0000012",
+          "pct_change": 140
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-12",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000006",
+          "next": "0.000000022",
+          "pct_change": 266.67
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000005",
+          "next": "0.0000004",
+          "pct_change": -20
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-12",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4.1-flash-1017:batch",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000011",
+          "next": "0.00000005",
+          "pct_change": 354.55
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000002",
+          "next": "0.00000015",
+          "pct_change": -25
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-12",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4.1-flash-1017",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000006",
+          "next": "0.00000015",
+          "pct_change": 2400
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000005",
+          "next": "0.0000006",
+          "pct_change": 20
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-12",
+      "type": "price_changed",
+      "id": "minimax/minimax-m3.1-flash",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000075",
+          "next": "0.00000015",
+          "pct_change": 100
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000003",
+          "next": "0.0000006",
+          "pct_change": 100
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-12",
+      "type": "model_added",
+      "id": "moonshotai/kimi-k3.1-pro:batch",
+      "provider": "moonshotai",
+      "snapshot": {
+        "id": "moonshotai/kimi-k3.1-pro:batch",
+        "name": "MoonshotAI: Kimi K3.1 Pro (batch)",
+        "provider": "moonshotai",
+        "pricing": {
+          "prompt": "0.0000007",
+          "completion": "0.000006",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": 943718,
+        "expiration_date": null,
+        "created": 1792778188,
+        "first_seen": "2026-11-12",
+        "last_seen": "2026-11-12"
+      }
+    },
+    {
+      "ts": "2026-11-12",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k3.1-pro",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000002",
+          "next": "0.0000002375",
+          "pct_change": -88.12
+        },
+        {
+          "field": "completion",
+          "prev": "0.00001",
+          "next": "0.0000087856",
+          "pct_change": -12.14
+        }
+      ]
+    },
     {
       "ts": "2026-11-12",
       "type": "price_changed",
@@ -154,174 +397,6 @@
         "first_seen": "2026-11-12",
         "last_seen": "2026-11-12"
       }
-    },
-    {
-      "ts": "2026-11-12",
-      "type": "price_changed",
-      "id": "minimax/minimax-m3.1-flash",
-      "provider": "minimax",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000015",
-          "next": "0.000000075",
-          "pct_change": -50
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000006",
-          "next": "0.0000003",
-          "pct_change": -50
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-11",
-      "type": "model_removed",
-      "id": "bytedance-seed/seed-2.0-code",
-      "provider": "bytedance-seed",
-      "snapshot": {
-        "id": "bytedance-seed/seed-2.0-code",
-        "name": "ByteDance Seed: Seed-2.0-Code",
-        "provider": "bytedance-seed",
-        "pricing": {
-          "prompt": "0.0000005",
-          "completion": "0.000003",
-          "image": null,
-          "request": null
-        },
-        "context_length": 262144,
-        "max_completion_tokens": 131072,
-        "expiration_date": "2026-11-11",
-        "created": 1786550701,
-        "first_seen": "2026-08-11",
-        "last_seen": "2026-11-11"
-      }
-    },
-    {
-      "ts": "2026-11-11",
-      "type": "model_removed",
-      "id": "bytedance-seed/seed-1.6-flash",
-      "provider": "bytedance-seed",
-      "snapshot": {
-        "id": "bytedance-seed/seed-1.6-flash",
-        "name": "ByteDance Seed: Seed 1.6 Flash",
-        "provider": "bytedance-seed",
-        "pricing": {
-          "prompt": "0.000000075",
-          "completion": "0.0000003",
-          "image": null,
-          "request": null
-        },
-        "context_length": 262144,
-        "max_completion_tokens": 32768,
-        "expiration_date": "2026-11-11",
-        "created": 1766505011,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-11-11"
-      }
-    },
-    {
-      "ts": "2026-11-11",
-      "type": "model_removed",
-      "id": "bytedance-seed/seed-1.6",
-      "provider": "bytedance-seed",
-      "snapshot": {
-        "id": "bytedance-seed/seed-1.6",
-        "name": "ByteDance Seed: Seed 1.6",
-        "provider": "bytedance-seed",
-        "pricing": {
-          "prompt": "0.00000025",
-          "completion": "0.000002",
-          "image": null,
-          "request": null
-        },
-        "context_length": 262144,
-        "max_completion_tokens": 32768,
-        "expiration_date": "2026-11-11",
-        "created": 1766504997,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-11-11"
-      }
-    },
-    {
-      "ts": "2026-11-11",
-      "type": "model_removed",
-      "id": "baidu/ernie-5.5-flash-preview",
-      "provider": "baidu",
-      "snapshot": {
-        "id": "baidu/ernie-5.5-flash-preview",
-        "name": "Baidu: ERNIE-5.5-Flash-Preview",
-        "provider": "baidu",
-        "pricing": {
-          "prompt": "0.00000028",
-          "completion": "0.00000113",
-          "image": null,
-          "request": null
-        },
-        "context_length": 1024000,
-        "max_completion_tokens": 921600,
-        "expiration_date": null,
-        "created": 1794333533,
-        "first_seen": "2026-11-10",
-        "last_seen": "2026-11-11"
-      }
-    },
-    {
-      "ts": "2026-11-11",
-      "type": "deprecation_announced",
-      "id": "openai/o3:batch",
-      "provider": "openai",
-      "prev_expiration": null,
-      "next_expiration": "2026-12-11"
-    },
-    {
-      "ts": "2026-11-11",
-      "type": "deprecation_announced",
-      "id": "openai/o3",
-      "provider": "openai",
-      "prev_expiration": null,
-      "next_expiration": "2026-12-11"
-    },
-    {
-      "ts": "2026-11-11",
-      "type": "deprecation_announced",
-      "id": "openai/o3-pro",
-      "provider": "openai",
-      "prev_expiration": null,
-      "next_expiration": "2026-12-11"
-    },
-    {
-      "ts": "2026-11-11",
-      "type": "deprecation_announced",
-      "id": "openai/gpt-5-nano:batch",
-      "provider": "openai",
-      "prev_expiration": null,
-      "next_expiration": "2026-12-11"
-    },
-    {
-      "ts": "2026-11-11",
-      "type": "deprecation_announced",
-      "id": "openai/gpt-5-nano",
-      "provider": "openai",
-      "prev_expiration": null,
-      "next_expiration": "2026-12-11"
-    },
-    {
-      "ts": "2026-11-11",
-      "type": "deprecation_announced",
-      "id": "openai/gpt-5-mini:batch",
-      "provider": "openai",
-      "prev_expiration": null,
-      "next_expiration": "2026-12-11"
-    },
-    {
-      "ts": "2026-11-11",
-      "type": "deprecation_announced",
-      "id": "openai/gpt-5-mini",
-      "provider": "openai",
-      "prev_expiration": null,
-      "next_expiration": "2026-12-11"
     }
   ],
   "scheduled_funerals": [
