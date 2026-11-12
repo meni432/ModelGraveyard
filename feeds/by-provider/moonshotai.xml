@@ -24,6 +24,24 @@
     <summary>New model on OpenRouter. Initial prompt price: $0.7000/Mtok, context: 1048576.</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-11-12:price_changed:moonshotai%2Fkimi-k3.1-pro</id>
+    <title>Price changed: moonshotai/kimi-k3.1-pro</title>
+    <updated>2026-11-12T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k3.1-pro"/>
+    <category term="price_changed"/>
+    <category term="provider:moonshotai"/>
+    <summary>completion: $8.7856/Mtok → $8.4114/Mtok (-4.26%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-12:price_changed:moonshotai%2Fkimi-k2.5</id>
+    <title>Price changed: moonshotai/kimi-k2.5</title>
+    <updated>2026-11-12T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k2.5"/>
+    <category term="price_changed"/>
+    <category term="provider:moonshotai"/>
+    <summary>prompt: $0.5320/Mtok → $0.5000/Mtok (-6.02%); completion: $3.3250/Mtok → $2.5000/Mtok (-24.81%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-11-10:price_changed:moonshotai%2Fkimi-k3%3Abatch</id>
     <title>Price changed: moonshotai/kimi-k3:batch</title>
     <updated>2026-11-10T00:00:00Z</updated>
@@ -886,23 +904,5 @@
     <category term="model_added"/>
     <category term="provider:moonshotai"/>
     <summary>New model on OpenRouter. Initial prompt price: $3.0000/Mtok, context: 1048576.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-27:price_changed:moonshotai%2Fkimi-k2.5</id>
-    <title>Price changed: moonshotai/kimi-k2.5</title>
-    <updated>2026-08-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k2.5"/>
-    <category term="price_changed"/>
-    <category term="provider:moonshotai"/>
-    <summary>prompt: $0.4500/Mtok → $0.6000/Mtok (+33.33%); completion: $2.2500/Mtok → $3.0000/Mtok (+33.33%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-27:deprecation_announced:moonshotai%2Fkimi-k2.5</id>
-    <title>Deprecation announced: moonshotai/kimi-k2.5 (sunset 2026-08-31)</title>
-    <updated>2026-08-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k2.5"/>
-    <category term="deprecation_announced"/>
-    <category term="provider:moonshotai"/>
-    <summary>Provider announced retirement on 2026-08-31.</summary>
   </entry>
 </feed>

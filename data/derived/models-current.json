@@ -125,13 +125,13 @@
       "name": "Google: Gemini Flash Latest",
       "provider": "~google",
       "pricing": {
-        "prompt": "0.00000075",
-        "completion": "0.00000375",
-        "image": "0.00000075",
+        "prompt": "0.0000015",
+        "completion": "0.0000075",
+        "image": "0.0000015",
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 65536,
+      "max_completion_tokens": 943718,
       "expiration_date": null,
       "created": 1777318398,
       "first_seen": "2026-05-27",
@@ -1073,6 +1073,23 @@
       "last_seen": "2026-11-12"
     },
     {
+      "id": "apodex/apodex-1.1-mini:free",
+      "name": "Apodex: Apodex 1.1 Mini (free)",
+      "provider": "apodex",
+      "pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "context_length": 262144,
+      "max_completion_tokens": 235929,
+      "expiration_date": null,
+      "created": 1790875335,
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12"
+    },
+    {
       "id": "baidu/ernie-5.5-flash-preview:free",
       "name": "Baidu: ERNIE-5.5-Flash-Preview (free)",
       "provider": "baidu",
@@ -1485,8 +1502,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000892272",
-        "completion": "0.000001784544",
+        "prompt": "0.000000888966",
+        "completion": "0.000001777932",
         "image": null,
         "request": null
       },
@@ -2178,6 +2195,40 @@
       "last_seen": "2026-11-12"
     },
     {
+      "id": "google/gemini-4-hydrogen",
+      "name": "Google: Gemini 4 Hydrogen",
+      "provider": "google",
+      "pricing": {
+        "prompt": "0.0000015",
+        "completion": "0.0000075",
+        "image": "0.0000015",
+        "request": null
+      },
+      "context_length": 1048576,
+      "max_completion_tokens": 943718,
+      "expiration_date": null,
+      "created": 1794506460,
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12"
+    },
+    {
+      "id": "google/gemini-4-hydrogen:batch",
+      "name": "Google: Gemini 4 Hydrogen (batch)",
+      "provider": "google",
+      "pricing": {
+        "prompt": "0.00000075",
+        "completion": "0.00000375",
+        "image": "0.00000075",
+        "request": null
+      },
+      "context_length": 1048576,
+      "max_completion_tokens": 943718,
+      "expiration_date": null,
+      "created": 1794506460,
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12"
+    },
+    {
       "id": "google/gemini-nano-banana-2.1",
       "name": "Google: Nano Banana 2.1",
       "provider": "google",
@@ -2301,13 +2352,13 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.00000008",
-        "completion": "0.0000001",
+        "prompt": "0.0000000765",
+        "completion": "0.000000255",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 128000,
+      "max_completion_tokens": 235929,
       "expiration_date": null,
       "created": 1775227989,
       "first_seen": "2026-05-27",
@@ -2447,6 +2498,40 @@
       "expiration_date": null,
       "created": 1784818580,
       "first_seen": "2026-08-06",
+      "last_seen": "2026-11-12"
+    },
+    {
+      "id": "inclusionai/ling-3.0-flash-fin",
+      "name": "inclusionAI: Ling 3.0 Flash Fin",
+      "provider": "inclusionai",
+      "pricing": {
+        "prompt": "0.000000042",
+        "completion": "0.0000001232",
+        "image": null,
+        "request": null
+      },
+      "context_length": 262144,
+      "max_completion_tokens": 32768,
+      "expiration_date": null,
+      "created": 1787846290,
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12"
+    },
+    {
+      "id": "inclusionai/ling-3.0-flash-sante",
+      "name": "inclusionAI: Ling 3.0 Flash Sante",
+      "provider": "inclusionai",
+      "pricing": {
+        "prompt": "0.000000042",
+        "completion": "0.0000001232",
+        "image": null,
+        "request": null
+      },
+      "context_length": 262144,
+      "max_completion_tokens": 32768,
+      "expiration_date": null,
+      "created": 1788545946,
+      "first_seen": "2026-11-12",
       "last_seen": "2026-11-12"
     },
     {
@@ -3066,8 +3151,8 @@
       "name": "MiniMax: MiniMax M3.1 Flash",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
+        "prompt": "0.000000075",
+        "completion": "0.0000003",
         "image": null,
         "request": null
       },
@@ -3525,14 +3610,14 @@
       "name": "MoonshotAI: Kimi K2.5",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.000000532",
-        "completion": "0.000003325",
+        "prompt": "0.0000005",
+        "completion": "0.0000025",
         "image": null,
         "request": null
       },
       "context_length": 262144,
-      "max_completion_tokens": 65536,
-      "expiration_date": "2026-11-18",
+      "max_completion_tokens": 235929,
+      "expiration_date": null,
       "created": 1769487076,
       "first_seen": "2026-05-27",
       "last_seen": "2026-11-12"
@@ -3611,7 +3696,7 @@
       "provider": "moonshotai",
       "pricing": {
         "prompt": "0.0000002375",
-        "completion": "0.0000087856",
+        "completion": "0.0000084114",
         "image": null,
         "request": null
       },
@@ -5782,6 +5867,23 @@
       "last_seen": "2026-11-12"
     },
     {
+      "id": "particle-ai/particle-1:free",
+      "name": "Particle AI: Particle-1 (free)",
+      "provider": "particle-ai",
+      "pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1048576,
+      "max_completion_tokens": 131072,
+      "expiration_date": null,
+      "created": 1793207893,
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12"
+    },
+    {
       "id": "perceptron/perceptron-mk1",
       "name": "Perceptron: Perceptron Mk1",
       "provider": "perceptron",
@@ -6330,8 +6432,8 @@
       "name": "Qwen: Qwen3.5-9B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000017",
-        "completion": "0.00000025",
+        "prompt": "0.000000093",
+        "completion": "0.000000137",
         "image": null,
         "request": null
       },
@@ -7044,8 +7146,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },
@@ -7095,8 +7197,8 @@
       "name": "Tencent: Hy4 preview",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000834",
-        "completion": "0.000002501",
+        "prompt": "0.0000007506",
+        "completion": "0.0000022509",
         "image": null,
         "request": null
       },
@@ -7173,6 +7275,23 @@
       "expiration_date": null,
       "created": 1784325956,
       "first_seen": "2026-07-18",
+      "last_seen": "2026-11-12"
+    },
+    {
+      "id": "thinkingmachines/inkling-2-small",
+      "name": "Thinking Machines: Inkling 2 Small",
+      "provider": "thinkingmachines",
+      "pricing": {
+        "prompt": "0.0000003",
+        "completion": "0.000001",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1048576,
+      "max_completion_tokens": 943718,
+      "expiration_date": null,
+      "created": 1794261847,
+      "first_seen": "2026-11-12",
       "last_seen": "2026-11-12"
     },
     {

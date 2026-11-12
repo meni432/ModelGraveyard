@@ -24,6 +24,69 @@
     <summary>New model on OpenRouter. Initial prompt price: $0.7000/Mtok, context: 1048576.</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-11-12:model_added:google%2Fgemini-4-hydrogen</id>
+    <title>Added: google/gemini-4-hydrogen</title>
+    <updated>2026-11-12T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-4-hydrogen"/>
+    <category term="model_added"/>
+    <category term="provider:google"/>
+    <summary>New model on OpenRouter. Initial prompt price: $1.5000/Mtok, context: 1048576.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-12:model_added:google%2Fgemini-4-hydrogen%3Abatch</id>
+    <title>Added: google/gemini-4-hydrogen:batch</title>
+    <updated>2026-11-12T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-4-hydrogen%3Abatch"/>
+    <category term="model_added"/>
+    <category term="provider:google"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.7500/Mtok, context: 1048576.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-12:model_added:thinkingmachines%2Finkling-2-small</id>
+    <title>Added: thinkingmachines/inkling-2-small</title>
+    <updated>2026-11-12T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/thinkingmachines%2Finkling-2-small"/>
+    <category term="model_added"/>
+    <category term="provider:thinkingmachines"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.3000/Mtok, context: 1048576.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-12:model_added:particle-ai%2Fparticle-1%3Afree</id>
+    <title>Added: particle-ai/particle-1:free</title>
+    <updated>2026-11-12T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/particle-ai%2Fparticle-1%3Afree"/>
+    <category term="model_added"/>
+    <category term="provider:particle-ai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 1048576.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-12:model_added:apodex%2Fapodex-1.1-mini%3Afree</id>
+    <title>Added: apodex/apodex-1.1-mini:free</title>
+    <updated>2026-11-12T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/apodex%2Fapodex-1.1-mini%3Afree"/>
+    <category term="model_added"/>
+    <category term="provider:apodex"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 262144.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-12:model_added:inclusionai%2Fling-3.0-flash-sante</id>
+    <title>Added: inclusionai/ling-3.0-flash-sante</title>
+    <updated>2026-11-12T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/inclusionai%2Fling-3.0-flash-sante"/>
+    <category term="model_added"/>
+    <category term="provider:inclusionai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0420/Mtok, context: 262144.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-12:model_added:inclusionai%2Fling-3.0-flash-fin</id>
+    <title>Added: inclusionai/ling-3.0-flash-fin</title>
+    <updated>2026-11-12T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/inclusionai%2Fling-3.0-flash-fin"/>
+    <category term="model_added"/>
+    <category term="provider:inclusionai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0420/Mtok, context: 262144.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-11-11:model_added:kt%2Fmidm-k-3.0-pro</id>
     <title>Added: kt/midm-k-3.0-pro</title>
     <updated>2026-11-11T00:00:00Z</updated>
@@ -841,68 +904,5 @@
     <category term="model_added"/>
     <category term="provider:openai"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.0296/Mtok, context: 131072.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-24:model_added:fireworks%2Fember-1</id>
-    <title>Added: fireworks/ember-1</title>
-    <updated>2026-09-24T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/fireworks%2Fember-1"/>
-    <category term="model_added"/>
-    <category term="provider:fireworks"/>
-    <summary>New model on OpenRouter. Initial prompt price: $3.0000/Mtok, context: 1048576.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-23:model_added:cohere%2Fcommand-a-plus</id>
-    <title>Added: cohere/command-a-plus</title>
-    <updated>2026-09-23T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/cohere%2Fcommand-a-plus"/>
-    <category term="model_added"/>
-    <category term="provider:cohere"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.3000/Mtok, context: 192000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-23:model_added:upstage%2Fsolar-mini4</id>
-    <title>Added: upstage/solar-mini4</title>
-    <updated>2026-09-23T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/upstage%2Fsolar-mini4"/>
-    <category term="model_added"/>
-    <category term="provider:upstage"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.0500/Mtok, context: 524288.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-23:model_added:aion-labs%2Faion-3.5-mini</id>
-    <title>Added: aion-labs/aion-3.5-mini</title>
-    <updated>2026-09-23T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/aion-labs%2Faion-3.5-mini"/>
-    <category term="model_added"/>
-    <category term="provider:aion-labs"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.7000/Mtok, context: 262144.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-23:model_added:aion-labs%2Faion-3.5</id>
-    <title>Added: aion-labs/aion-3.5</title>
-    <updated>2026-09-23T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/aion-labs%2Faion-3.5"/>
-    <category term="model_added"/>
-    <category term="provider:aion-labs"/>
-    <summary>New model on OpenRouter. Initial prompt price: $3.0000/Mtok, context: 262144.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-23:model_added:qwen%2Fqwen3.8-max-prime</id>
-    <title>Added: qwen/qwen3.8-max-prime</title>
-    <updated>2026-09-23T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3.8-max-prime"/>
-    <category term="model_added"/>
-    <category term="provider:qwen"/>
-    <summary>New model on OpenRouter. Initial prompt price: $4.0000/Mtok, context: 1000000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-23:model_added:stealth%2Fspace-bunny-alpha</id>
-    <title>Added: stealth/space-bunny-alpha</title>
-    <updated>2026-09-23T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/stealth%2Fspace-bunny-alpha"/>
-    <category term="model_added"/>
-    <category term="provider:stealth"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 1000000.</summary>
   </entry>
 </feed>
