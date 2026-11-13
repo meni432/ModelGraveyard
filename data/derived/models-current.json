@@ -160,7 +160,7 @@
       "provider": "~moonshotai",
       "pricing": {
         "prompt": "0.0000001824",
-        "completion": "0.0000106066",
+        "completion": "0.0000110055",
         "image": null,
         "request": null
       },
@@ -1298,13 +1298,13 @@
       "name": "DeepSeek: DeepSeek V3",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000032",
-        "completion": "0.00000089",
+        "prompt": "0.0000002574",
+        "completion": "0.0000010287",
         "image": null,
         "request": null
       },
       "context_length": 163840,
-      "max_completion_tokens": 16384,
+      "max_completion_tokens": 16000,
       "expiration_date": null,
       "created": 1735241320,
       "first_seen": "2026-05-27",
@@ -2335,8 +2335,8 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.00000009",
-        "completion": "0.0000003",
+        "prompt": "0.0000000675",
+        "completion": "0.000000225",
         "image": null,
         "request": null
       },
@@ -2535,6 +2535,23 @@
       "last_seen": "2026-11-13"
     },
     {
+      "id": "inclusionai/ling-3.2-flash:free",
+      "name": "inclusionAI: Ling 3.2 Flash (free)",
+      "provider": "inclusionai",
+      "pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1048576,
+      "max_completion_tokens": 262144,
+      "expiration_date": null,
+      "created": 1794591958,
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13"
+    },
+    {
       "id": "inference-net/schematron-v2-small",
       "name": "Inference.net: Schematron V2 Small",
       "provider": "inference-net",
@@ -2726,14 +2743,14 @@
       "name": "Meta: Llama 3.2 3B Instruct",
       "provider": "meta-llama",
       "pricing": {
-        "prompt": "0.00000005",
-        "completion": "0.00000033",
+        "prompt": "0.0000000509",
+        "completion": "0.000000335",
         "image": null,
         "request": null
       },
       "context_length": 131072,
-      "max_completion_tokens": 117964,
-      "expiration_date": null,
+      "max_completion_tokens": 72000,
+      "expiration_date": "2026-11-20",
       "created": 1727222400,
       "first_seen": "2026-05-27",
       "last_seen": "2026-11-13"
@@ -3066,8 +3083,8 @@
       "name": "MiniMax: MiniMax M3.1 Flash",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
+        "prompt": "0.000000075",
+        "completion": "0.0000003",
         "image": null,
         "request": null
       },
@@ -6347,8 +6364,8 @@
       "name": "Qwen: Qwen3.5-9B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000007",
-        "completion": "0.000000103",
+        "prompt": "0.000000169",
+        "completion": "0.000000249",
         "image": null,
         "request": null
       },
@@ -7061,8 +7078,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },
@@ -7112,8 +7129,8 @@
       "name": "Tencent: Hy4 preview",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000834",
-        "completion": "0.000002501",
+        "prompt": "0.0000007506",
+        "completion": "0.0000022509",
         "image": null,
         "request": null
       },
@@ -7843,8 +7860,8 @@
       "name": "Z.ai: GLM 5.2 (batch)",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.000000322",
-        "completion": "0.000000989",
+        "prompt": "0.000000347",
+        "completion": "0.000001068",
         "image": null,
         "request": null
       },
