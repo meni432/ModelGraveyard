@@ -83572,6 +83572,315 @@
           "pct_change": 5.11
         }
       ]
+    },
+    {
+      "ts": "2026-11-13",
+      "type": "price_changed",
+      "id": "ricursiveai/ripple-65b-preview",
+      "provider": "ricursiveai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000002",
+          "next": "0.0000001",
+          "pct_change": -50
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000006",
+          "next": "0.0000003",
+          "pct_change": -50
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-13",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4.1-flash-1017",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000015",
+          "next": "0.000000038",
+          "pct_change": -74.67
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000006",
+          "next": "0.0000005",
+          "pct_change": -16.67
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-13",
+      "type": "price_changed",
+      "id": "ibm-granite/granite-4.2-8b",
+      "provider": "ibm-granite",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.00000015",
+          "next": "0.00000025",
+          "pct_change": 66.67
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-13",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2:batch",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000298",
+          "next": "0.000000322",
+          "pct_change": 8.05
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000916",
+          "next": "0.000000989",
+          "pct_change": 7.97
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-13",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.0000110055",
+          "next": "0.0000106066",
+          "pct_change": -3.62
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-13",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000095526",
+          "next": "0.0000009",
+          "pct_change": -5.78
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000191052",
+          "next": "0.0000015",
+          "pct_change": -21.49
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-13",
+      "type": "price_changed",
+      "id": "google/gemma-4-26b-a4b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000765",
+          "next": "0.00000009",
+          "pct_change": 17.65
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000255",
+          "next": "0.0000003",
+          "pct_change": 17.65
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-13",
+      "type": "price_changed",
+      "id": "qwen/qwen3.5-9b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000098",
+          "next": "0.00000007",
+          "pct_change": -28.57
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000144",
+          "next": "0.000000103",
+          "pct_change": -28.47
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-13",
+      "type": "price_changed",
+      "id": "minimax/minimax-m2.5",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.00000108",
+          "next": "0.00000095",
+          "pct_change": -12.04
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-13",
+      "type": "context_changed",
+      "id": "minimax/minimax-m2.5",
+      "provider": "minimax",
+      "prev_context": 200000,
+      "next_context": 198000
+    },
+    {
+      "ts": "2026-11-13",
+      "type": "deprecation_announced",
+      "id": "stepfun/step-3.5-flash",
+      "provider": "stepfun",
+      "prev_expiration": null,
+      "next_expiration": "2026-11-15"
+    },
+    {
+      "ts": "2026-11-13",
+      "type": "deprecation_announced",
+      "id": "qwen/qwen3-vl-30b-a3b-thinking",
+      "provider": "qwen",
+      "prev_expiration": null,
+      "next_expiration": "2026-11-15"
+    },
+    {
+      "ts": "2026-11-13",
+      "type": "deprecation_announced",
+      "id": "tencent/hunyuan-a13b-instruct",
+      "provider": "tencent",
+      "prev_expiration": null,
+      "next_expiration": "2026-11-15"
+    },
+    {
+      "ts": "2026-11-13",
+      "type": "model_removed",
+      "id": "apodex/apodex-1.1-mini:free",
+      "provider": "apodex",
+      "snapshot": {
+        "id": "apodex/apodex-1.1-mini:free",
+        "name": "Apodex: Apodex 1.1 Mini (free)",
+        "provider": "apodex",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 235929,
+        "expiration_date": null,
+        "created": 1790875335,
+        "first_seen": "2026-11-12",
+        "last_seen": "2026-11-13"
+      }
+    },
+    {
+      "ts": "2026-11-13",
+      "type": "model_removed",
+      "id": "inclusionai/ling-3.0-flash-fin",
+      "provider": "inclusionai",
+      "snapshot": {
+        "id": "inclusionai/ling-3.0-flash-fin",
+        "name": "inclusionAI: Ling 3.0 Flash Fin",
+        "provider": "inclusionai",
+        "pricing": {
+          "prompt": "0.000000042",
+          "completion": "0.0000001232",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 32768,
+        "expiration_date": null,
+        "created": 1787846290,
+        "first_seen": "2026-11-12",
+        "last_seen": "2026-11-13"
+      }
+    },
+    {
+      "ts": "2026-11-13",
+      "type": "model_removed",
+      "id": "inclusionai/ling-3.0-flash-sante",
+      "provider": "inclusionai",
+      "snapshot": {
+        "id": "inclusionai/ling-3.0-flash-sante",
+        "name": "inclusionAI: Ling 3.0 Flash Sante",
+        "provider": "inclusionai",
+        "pricing": {
+          "prompt": "0.000000042",
+          "completion": "0.0000001232",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 32768,
+        "expiration_date": null,
+        "created": 1788545946,
+        "first_seen": "2026-11-12",
+        "last_seen": "2026-11-13"
+      }
+    },
+    {
+      "ts": "2026-11-13",
+      "type": "model_removed",
+      "id": "liquid/lfm-2.5-2.6b",
+      "provider": "liquid",
+      "snapshot": {
+        "id": "liquid/lfm-2.5-2.6b",
+        "name": "LiquidAI: LFM2.5-2.6B",
+        "provider": "liquid",
+        "pricing": {
+          "prompt": "0.00000035",
+          "completion": "0.0000005",
+          "image": null,
+          "request": null
+        },
+        "context_length": 128000,
+        "max_completion_tokens": 8192,
+        "expiration_date": "2026-11-13",
+        "created": 1786470519,
+        "first_seen": "2026-10-25",
+        "last_seen": "2026-11-13"
+      }
+    },
+    {
+      "ts": "2026-11-13",
+      "type": "model_removed",
+      "id": "liquid/lfm-2.5-2.6b:free",
+      "provider": "liquid",
+      "snapshot": {
+        "id": "liquid/lfm-2.5-2.6b:free",
+        "name": "LiquidAI: LFM2.5-2.6B (free)",
+        "provider": "liquid",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 65536,
+        "max_completion_tokens": 8192,
+        "expiration_date": "2026-11-13",
+        "created": 1786470519,
+        "first_seen": "2026-08-18",
+        "last_seen": "2026-11-13"
+      }
     }
   ]
 }

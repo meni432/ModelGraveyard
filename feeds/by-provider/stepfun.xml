@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/stepfun.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/stepfun.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-11-10T00:00:00Z</updated>
+  <updated>2026-11-13T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-13:deprecation_announced:stepfun%2Fstep-3.5-flash</id>
+    <title>Deprecation announced: stepfun/step-3.5-flash (sunset 2026-11-15)</title>
+    <updated>2026-11-13T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/stepfun%2Fstep-3.5-flash"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:stepfun"/>
+    <summary>Provider announced retirement on 2026-11-15.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-11-10:context_changed:stepfun%2Fstep-5-preview</id>
     <title>Context window changed: stepfun/step-5-preview</title>

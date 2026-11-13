@@ -1,6 +1,23 @@
 {
   "buried": [
     {
+      "id": "liquid/lfm-2.5-2.6b",
+      "name": "LiquidAI: LFM2.5-2.6B",
+      "provider": "liquid",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000035",
+        "completion": "0.0000005",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 128000,
+      "first_seen": "2026-10-25",
+      "last_seen": "2026-11-13",
+      "buried_at": "2026-11-13",
+      "suggested_replacement": "liquid/lfm-2.5-24b-a2b"
+    },
+    {
       "id": "baidu/ernie-5.5-flash-preview",
       "name": "Baidu: ERNIE-5.5-Flash-Preview",
       "provider": "baidu",

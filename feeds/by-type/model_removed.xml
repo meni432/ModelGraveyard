@@ -4,7 +4,52 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_removed.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_removed.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-11-11T00:00:00Z</updated>
+  <updated>2026-11-13T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-13:model_removed:apodex%2Fapodex-1.1-mini%3Afree</id>
+    <title>Removed: apodex/apodex-1.1-mini:free</title>
+    <updated>2026-11-13T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/apodex%2Fapodex-1.1-mini%3Afree"/>
+    <category term="model_removed"/>
+    <category term="provider:apodex"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-13:model_removed:inclusionai%2Fling-3.0-flash-fin</id>
+    <title>Removed: inclusionai/ling-3.0-flash-fin</title>
+    <updated>2026-11-13T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/inclusionai%2Fling-3.0-flash-fin"/>
+    <category term="model_removed"/>
+    <category term="provider:inclusionai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0420/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-13:model_removed:inclusionai%2Fling-3.0-flash-sante</id>
+    <title>Removed: inclusionai/ling-3.0-flash-sante</title>
+    <updated>2026-11-13T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/inclusionai%2Fling-3.0-flash-sante"/>
+    <category term="model_removed"/>
+    <category term="provider:inclusionai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0420/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-13:model_removed:liquid%2Flfm-2.5-2.6b</id>
+    <title>Removed: liquid/lfm-2.5-2.6b</title>
+    <updated>2026-11-13T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/liquid%2Flfm-2.5-2.6b"/>
+    <category term="model_removed"/>
+    <category term="provider:liquid"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.3500/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-13:model_removed:liquid%2Flfm-2.5-2.6b%3Afree</id>
+    <title>Removed: liquid/lfm-2.5-2.6b:free</title>
+    <updated>2026-11-13T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/liquid%2Flfm-2.5-2.6b%3Afree"/>
+    <category term="model_removed"/>
+    <category term="provider:liquid"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-11-11:model_removed:qwen%2Fqwen-2.5-7b-instruct</id>
     <title>Removed: qwen/qwen-2.5-7b-instruct</title>
@@ -859,50 +904,5 @@
     <category term="model_removed"/>
     <category term="provider:openai"/>
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1500/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-21:model_removed:qwen%2Fqwen3.5-9b%3Abatch</id>
-    <title>Removed: qwen/qwen3.5-9b:batch</title>
-    <updated>2026-09-21T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3.5-9b%3Abatch"/>
-    <category term="model_removed"/>
-    <category term="provider:qwen"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1700/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-21:model_removed:qwen%2Fqwen3.8-2.4t-a95b%3Abatch</id>
-    <title>Removed: qwen/qwen3.8-2.4t-a95b:batch</title>
-    <updated>2026-09-21T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/qwen%2Fqwen3.8-2.4t-a95b%3Abatch"/>
-    <category term="model_removed"/>
-    <category term="provider:qwen"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $2.0000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-21:model_removed:thinkingmachines%2Finkling%3Abatch</id>
-    <title>Removed: thinkingmachines/inkling:batch</title>
-    <updated>2026-09-21T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/thinkingmachines%2Finkling%3Abatch"/>
-    <category term="model_removed"/>
-    <category term="provider:thinkingmachines"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $1.0000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-20:model_removed:deepseek%2Fdeepseek-v4-flash-0731%3Afree</id>
-    <title>Removed: deepseek/deepseek-v4-flash-0731:free</title>
-    <updated>2026-09-20T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-flash-0731%3Afree"/>
-    <category term="model_removed"/>
-    <category term="provider:deepseek"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-18:model_removed:stealth%2Funion-alpha</id>
-    <title>Removed: stealth/union-alpha</title>
-    <updated>2026-09-18T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/stealth%2Funion-alpha"/>
-    <category term="model_removed"/>
-    <category term="provider:stealth"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
   </entry>
 </feed>

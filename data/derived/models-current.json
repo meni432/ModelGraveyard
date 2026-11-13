@@ -160,7 +160,7 @@
       "provider": "~moonshotai",
       "pricing": {
         "prompt": "0.0000001824",
-        "completion": "0.0000110055",
+        "completion": "0.0000106066",
         "image": null,
         "request": null
       },
@@ -1073,23 +1073,6 @@
       "last_seen": "2026-11-13"
     },
     {
-      "id": "apodex/apodex-1.1-mini:free",
-      "name": "Apodex: Apodex 1.1 Mini (free)",
-      "provider": "apodex",
-      "pricing": {
-        "prompt": "0",
-        "completion": "0",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 235929,
-      "expiration_date": null,
-      "created": 1790875335,
-      "first_seen": "2026-11-12",
-      "last_seen": "2026-11-13"
-    },
-    {
       "id": "baidu/ernie-5.5-flash-preview:free",
       "name": "Baidu: ERNIE-5.5-Flash-Preview (free)",
       "provider": "baidu",
@@ -1502,13 +1485,13 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000095526",
-        "completion": "0.00000191052",
+        "prompt": "0.0000009",
+        "completion": "0.0000015",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 384000,
+      "max_completion_tokens": 393216,
       "expiration_date": null,
       "created": 1777000679,
       "first_seen": "2026-05-27",
@@ -1553,13 +1536,13 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
+        "prompt": "0.000000038",
+        "completion": "0.0000005",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 393216,
+      "max_completion_tokens": 943718,
       "expiration_date": null,
       "created": 1792225624,
       "first_seen": "2026-10-17",
@@ -2352,8 +2335,8 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.0000000765",
-        "completion": "0.000000255",
+        "prompt": "0.00000009",
+        "completion": "0.0000003",
         "image": null,
         "request": null
       },
@@ -2472,7 +2455,7 @@
       "provider": "ibm-granite",
       "pricing": {
         "prompt": "0.00000006",
-        "completion": "0.00000015",
+        "completion": "0.00000025",
         "image": null,
         "request": null
       },
@@ -2498,40 +2481,6 @@
       "expiration_date": null,
       "created": 1784818580,
       "first_seen": "2026-08-06",
-      "last_seen": "2026-11-13"
-    },
-    {
-      "id": "inclusionai/ling-3.0-flash-fin",
-      "name": "inclusionAI: Ling 3.0 Flash Fin",
-      "provider": "inclusionai",
-      "pricing": {
-        "prompt": "0.000000042",
-        "completion": "0.0000001232",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 32768,
-      "expiration_date": null,
-      "created": 1787846290,
-      "first_seen": "2026-11-12",
-      "last_seen": "2026-11-13"
-    },
-    {
-      "id": "inclusionai/ling-3.0-flash-sante",
-      "name": "inclusionAI: Ling 3.0 Flash Sante",
-      "provider": "inclusionai",
-      "pricing": {
-        "prompt": "0.000000042",
-        "completion": "0.0000001232",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 32768,
-      "expiration_date": null,
-      "created": 1788545946,
-      "first_seen": "2026-11-12",
       "last_seen": "2026-11-13"
     },
     {
@@ -2634,40 +2583,6 @@
       "expiration_date": null,
       "created": 1793897701,
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-13"
-    },
-    {
-      "id": "liquid/lfm-2.5-2.6b",
-      "name": "LiquidAI: LFM2.5-2.6B",
-      "provider": "liquid",
-      "pricing": {
-        "prompt": "0.00000035",
-        "completion": "0.0000005",
-        "image": null,
-        "request": null
-      },
-      "context_length": 128000,
-      "max_completion_tokens": 8192,
-      "expiration_date": "2026-11-13",
-      "created": 1786470519,
-      "first_seen": "2026-10-25",
-      "last_seen": "2026-11-13"
-    },
-    {
-      "id": "liquid/lfm-2.5-2.6b:free",
-      "name": "LiquidAI: LFM2.5-2.6B (free)",
-      "provider": "liquid",
-      "pricing": {
-        "prompt": "0",
-        "completion": "0",
-        "image": null,
-        "request": null
-      },
-      "context_length": 65536,
-      "max_completion_tokens": 8192,
-      "expiration_date": "2026-11-13",
-      "created": 1786470519,
-      "first_seen": "2026-08-18",
       "last_seen": "2026-11-13"
     },
     {
@@ -3084,12 +2999,12 @@
       "provider": "minimax",
       "pricing": {
         "prompt": "0.00000027",
-        "completion": "0.00000108",
+        "completion": "0.00000095",
         "image": null,
         "request": null
       },
-      "context_length": 200000,
-      "max_completion_tokens": 128000,
+      "context_length": 198000,
+      "max_completion_tokens": 32768,
       "expiration_date": null,
       "created": 1770908502,
       "first_seen": "2026-05-27",
@@ -6337,7 +6252,7 @@
       },
       "context_length": 262144,
       "max_completion_tokens": 235929,
-      "expiration_date": null,
+      "expiration_date": "2026-11-15",
       "created": 1759794479,
       "first_seen": "2026-05-27",
       "last_seen": "2026-11-13"
@@ -6432,8 +6347,8 @@
       "name": "Qwen: Qwen3.5-9B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.000000098",
-        "completion": "0.000000144",
+        "prompt": "0.00000007",
+        "completion": "0.000000103",
         "image": null,
         "request": null
       },
@@ -6874,8 +6789,8 @@
       "name": "Ricursive: Ripple 65B Preview",
       "provider": "ricursiveai",
       "pricing": {
-        "prompt": "0.0000002",
-        "completion": "0.0000006",
+        "prompt": "0.0000001",
+        "completion": "0.0000003",
         "image": null,
         "request": null
       },
@@ -7034,7 +6949,7 @@
       },
       "context_length": 262144,
       "max_completion_tokens": 65536,
-      "expiration_date": null,
+      "expiration_date": "2026-11-15",
       "created": 1769728337,
       "first_seen": "2026-05-27",
       "last_seen": "2026-11-13"
@@ -7085,7 +7000,7 @@
       },
       "context_length": 131072,
       "max_completion_tokens": 117964,
-      "expiration_date": null,
+      "expiration_date": "2026-11-15",
       "created": 1751987664,
       "first_seen": "2026-05-27",
       "last_seen": "2026-11-13"
@@ -7928,8 +7843,8 @@
       "name": "Z.ai: GLM 5.2 (batch)",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.000000298",
-        "completion": "0.000000916",
+        "prompt": "0.000000322",
+        "completion": "0.000000989",
         "image": null,
         "request": null
       },
