@@ -1,9 +1,209 @@
 {
-  "generated_at": "2026-11-12",
+  "generated_at": "2026-11-13",
   "active_count": 475,
   "dead_count": 269,
-  "last_event_ts": "2026-11-12",
+  "last_event_ts": "2026-11-13",
   "recent_events": [
+    {
+      "ts": "2026-11-13",
+      "type": "price_changed",
+      "id": "qwen/qwen3.5-9b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000093",
+          "next": "0.000000098",
+          "pct_change": 5.38
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000137",
+          "next": "0.000000144",
+          "pct_change": 5.11
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-13",
+      "type": "price_changed",
+      "id": "xiaomi/mimo-v2.5-pro",
+      "provider": "xiaomi",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000048",
+          "next": "0.000000435",
+          "pct_change": -9.37
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000018",
+          "next": "0.00000087",
+          "pct_change": -51.67
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-13",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000888966",
+          "next": "0.00000095526",
+          "pct_change": 7.46
+        },
+        {
+          "field": "completion",
+          "prev": "0.000001777932",
+          "next": "0.00000191052",
+          "pct_change": 7.46
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-13",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.2:batch",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000322",
+          "next": "0.000000298",
+          "pct_change": -7.45
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000989",
+          "next": "0.000000916",
+          "pct_change": -7.38
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-13",
+      "type": "price_changed",
+      "id": "tencent/hy3",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000825",
+          "next": "0.000000132",
+          "pct_change": 60
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000033",
+          "next": "0.000000528",
+          "pct_change": 60
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-13",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.3",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000699",
+          "next": "0.000000084",
+          "pct_change": 20.17
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000014",
+          "next": "0.0000036",
+          "pct_change": 157.14
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-13",
+      "type": "price_changed",
+      "id": "tencent/hy4-preview",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000007506",
+          "next": "0.000000834",
+          "pct_change": 11.11
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000022509",
+          "next": "0.000002501",
+          "pct_change": 11.11
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-13",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000022",
+          "next": "0.000000038",
+          "pct_change": 72.73
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000004",
+          "next": "0.0000005",
+          "pct_change": 25
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-13",
+      "type": "price_changed",
+      "id": "minimax/minimax-m3.1-flash",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000075",
+          "next": "0.00000015",
+          "pct_change": 100
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000003",
+          "next": "0.0000006",
+          "pct_change": 100
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-13",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k3.1-pro",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000002375",
+          "next": "0.000002",
+          "pct_change": 742.11
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000084114",
+          "next": "0.00001",
+          "pct_change": 18.89
+        }
+      ]
+    },
     {
       "ts": "2026-11-12",
       "type": "price_changed",
@@ -218,212 +418,6 @@
         "first_seen": "2026-11-12",
         "last_seen": "2026-11-12"
       }
-    },
-    {
-      "ts": "2026-11-12",
-      "type": "price_changed",
-      "id": "minimax/minimax-m3.1-flash",
-      "provider": "minimax",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000015",
-          "next": "0.000000075",
-          "pct_change": -50
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000006",
-          "next": "0.0000003",
-          "pct_change": -50
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-12",
-      "type": "price_changed",
-      "id": "moonshotai/kimi-k3.1-pro",
-      "provider": "moonshotai",
-      "changes": [
-        {
-          "field": "completion",
-          "prev": "0.0000087856",
-          "next": "0.0000084114",
-          "pct_change": -4.26
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-12",
-      "type": "model_added",
-      "id": "particle-ai/particle-1:free",
-      "provider": "particle-ai",
-      "snapshot": {
-        "id": "particle-ai/particle-1:free",
-        "name": "Particle AI: Particle-1 (free)",
-        "provider": "particle-ai",
-        "pricing": {
-          "prompt": "0",
-          "completion": "0",
-          "image": null,
-          "request": null
-        },
-        "context_length": 1048576,
-        "max_completion_tokens": 131072,
-        "expiration_date": null,
-        "created": 1793207893,
-        "first_seen": "2026-11-12",
-        "last_seen": "2026-11-12"
-      }
-    },
-    {
-      "ts": "2026-11-12",
-      "type": "model_added",
-      "id": "thinkingmachines/inkling-2-small",
-      "provider": "thinkingmachines",
-      "snapshot": {
-        "id": "thinkingmachines/inkling-2-small",
-        "name": "Thinking Machines: Inkling 2 Small",
-        "provider": "thinkingmachines",
-        "pricing": {
-          "prompt": "0.0000003",
-          "completion": "0.000001",
-          "image": null,
-          "request": null
-        },
-        "context_length": 1048576,
-        "max_completion_tokens": 943718,
-        "expiration_date": null,
-        "created": 1794261847,
-        "first_seen": "2026-11-12",
-        "last_seen": "2026-11-12"
-      }
-    },
-    {
-      "ts": "2026-11-12",
-      "type": "model_added",
-      "id": "google/gemini-4-hydrogen:batch",
-      "provider": "google",
-      "snapshot": {
-        "id": "google/gemini-4-hydrogen:batch",
-        "name": "Google: Gemini 4 Hydrogen (batch)",
-        "provider": "google",
-        "pricing": {
-          "prompt": "0.00000075",
-          "completion": "0.00000375",
-          "image": "0.00000075",
-          "request": null
-        },
-        "context_length": 1048576,
-        "max_completion_tokens": 943718,
-        "expiration_date": null,
-        "created": 1794506460,
-        "first_seen": "2026-11-12",
-        "last_seen": "2026-11-12"
-      }
-    },
-    {
-      "ts": "2026-11-12",
-      "type": "model_added",
-      "id": "google/gemini-4-hydrogen",
-      "provider": "google",
-      "snapshot": {
-        "id": "google/gemini-4-hydrogen",
-        "name": "Google: Gemini 4 Hydrogen",
-        "provider": "google",
-        "pricing": {
-          "prompt": "0.0000015",
-          "completion": "0.0000075",
-          "image": "0.0000015",
-          "request": null
-        },
-        "context_length": 1048576,
-        "max_completion_tokens": 943718,
-        "expiration_date": null,
-        "created": 1794506460,
-        "first_seen": "2026-11-12",
-        "last_seen": "2026-11-12"
-      }
-    },
-    {
-      "ts": "2026-11-12",
-      "type": "price_changed",
-      "id": "qwen/qwen3-14b",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000001",
-          "next": "0.00000012",
-          "pct_change": 20
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000022",
-          "next": "0.00000024",
-          "pct_change": 9.09
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-12",
-      "type": "price_changed",
-      "id": "qwen/qwen3.5-9b",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000142",
-          "next": "0.00000017",
-          "pct_change": 19.72
-        },
-        {
-          "field": "completion",
-          "prev": "0.000000209",
-          "next": "0.00000025",
-          "pct_change": 19.62
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-12",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-pro",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000095526",
-          "next": "0.000000892272",
-          "pct_change": -6.59
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000191052",
-          "next": "0.000001784544",
-          "pct_change": -6.59
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-12",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.2:batch",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000527",
-          "next": "0.000000322",
-          "pct_change": -38.9
-        },
-        {
-          "field": "completion",
-          "prev": "0.000001075",
-          "next": "0.000000989",
-          "pct_change": -8
-        }
-      ]
     }
   ],
   "scheduled_funerals": [
