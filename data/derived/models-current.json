@@ -1349,13 +1349,13 @@
       "name": "DeepSeek: R1 0528",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000005",
-        "completion": "0.00000215",
+        "prompt": "0.000000571",
+        "completion": "0.000002286",
         "image": null,
         "request": null
       },
       "context_length": 163840,
-      "max_completion_tokens": 32768,
+      "max_completion_tokens": 32000,
       "expiration_date": null,
       "created": 1748455170,
       "first_seen": "2026-05-27",
@@ -3083,8 +3083,8 @@
       "name": "MiniMax: MiniMax M3.1 Flash",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
+        "prompt": "0.000000075",
+        "completion": "0.0000003",
         "image": null,
         "request": null
       },
@@ -5786,7 +5786,7 @@
       "name": "Particle AI: Particle-1",
       "provider": "particle-ai",
       "pricing": {
-        "prompt": "0.00000005",
+        "prompt": "0.00000006",
         "completion": "0.0000005",
         "image": null,
         "request": null
@@ -6364,8 +6364,8 @@
       "name": "Qwen: Qwen3.5-9B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.000000168",
-        "completion": "0.000000247",
+        "prompt": "0.000000115",
+        "completion": "0.000000168",
         "image": null,
         "request": null
       },
@@ -7078,8 +7078,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },
@@ -7129,8 +7129,8 @@
       "name": "Tencent: Hy4 preview",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000834",
-        "completion": "0.000002501",
+        "prompt": "0.0000007506",
+        "completion": "0.0000022509",
         "image": null,
         "request": null
       },
@@ -7832,8 +7832,8 @@
         "request": null
       },
       "context_length": 204800,
-      "max_completion_tokens": 131072,
-      "expiration_date": null,
+      "max_completion_tokens": 182476,
+      "expiration_date": "2026-11-20",
       "created": 1775578025,
       "first_seen": "2026-05-27",
       "last_seen": "2026-11-14"
