@@ -5531,8 +5531,8 @@
       "name": "OpenAI: gpt-oss-20b",
       "provider": "openai",
       "pricing": {
-        "prompt": "0.000000018",
-        "completion": "0.00000009",
+        "prompt": "0.00000003",
+        "completion": "0.00000013",
         "image": null,
         "request": null
       },
@@ -6364,8 +6364,8 @@
       "name": "Qwen: Qwen3.5-9B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.000000085",
-        "completion": "0.000000126",
+        "prompt": "0.000000168",
+        "completion": "0.000000247",
         "image": null,
         "request": null
       },
@@ -7860,8 +7860,8 @@
       "name": "Z.ai: GLM 5.2 (batch)",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.000000298",
-        "completion": "0.000000916",
+        "prompt": "0.000000322",
+        "completion": "0.000000989",
         "image": null,
         "request": null
       },
