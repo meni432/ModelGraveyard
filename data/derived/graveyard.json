@@ -1,6 +1,57 @@
 {
   "buried": [
     {
+      "id": "qwen/qwen3-vl-30b-a3b-thinking",
+      "name": "Qwen: Qwen3 VL 30B A3B Thinking",
+      "provider": "qwen",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000029",
+        "completion": "0.000001",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-11-15",
+      "buried_at": "2026-11-15",
+      "suggested_replacement": "qwen/qwen3.8-max-0902:batch"
+    },
+    {
+      "id": "stepfun/step-3.5-flash",
+      "name": "StepFun: Step 3.5 Flash",
+      "provider": "stepfun",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000001",
+        "completion": "0.0000003",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-11-15",
+      "buried_at": "2026-11-15",
+      "suggested_replacement": "stepfun/step-3.7-flash"
+    },
+    {
+      "id": "tencent/hunyuan-a13b-instruct",
+      "name": "Tencent: Hunyuan A13B Instruct",
+      "provider": "tencent",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000014",
+        "completion": "0.00000057",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 131072,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-11-15",
+      "buried_at": "2026-11-15",
+      "suggested_replacement": "tencent/hy-mt2-1.8b"
+    },
+    {
       "id": "liquid/lfm-2.5-2.6b",
       "name": "LiquidAI: LFM2.5-2.6B",
       "provider": "liquid",
