@@ -1,9 +1,126 @@
 {
   "generated_at": "2026-11-16",
-  "active_count": 468,
+  "active_count": 469,
   "dead_count": 273,
   "last_event_ts": "2026-11-16",
   "recent_events": [
+    {
+      "ts": "2026-11-16",
+      "type": "price_changed",
+      "id": "qwen/qwen3.5-9b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000062",
+          "next": "0.0000001",
+          "pct_change": 61.29
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000092",
+          "next": "0.000000147",
+          "pct_change": 59.78
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-16",
+      "type": "price_changed",
+      "id": "google/gemma-4-26b-a4b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000675",
+          "next": "0.00000009",
+          "pct_change": 33.33
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000225",
+          "next": "0.0000003",
+          "pct_change": 33.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-16",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.7-code",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000006",
+          "next": "0.0000007125",
+          "pct_change": 18.75
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-16",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4.1-flash-1017:batch",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000039",
+          "next": "0.000000035",
+          "pct_change": -10.26
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000343",
+          "next": "0.000000311",
+          "pct_change": -9.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-16",
+      "type": "price_changed",
+      "id": "minimax/minimax-m3.1-flash",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000015",
+          "next": "0.000000075",
+          "pct_change": -50
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000006",
+          "next": "0.0000003",
+          "pct_change": -50
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-16",
+      "type": "model_added",
+      "id": "tencent/hy4-flash",
+      "provider": "tencent",
+      "snapshot": {
+        "id": "tencent/hy4-flash",
+        "name": "Tencent: Hy4 flash",
+        "provider": "tencent",
+        "pricing": {
+          "prompt": "0.00000004375",
+          "completion": "0.000000175625",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": 65536,
+        "expiration_date": null,
+        "created": 1794838706,
+        "first_seen": "2026-11-16",
+        "last_seen": "2026-11-16"
+      }
+    },
     {
       "ts": "2026-11-16",
       "type": "price_changed",
@@ -281,129 +398,6 @@
           "prev": "0.0000003",
           "next": "0.0000006",
           "pct_change": 100
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-16",
-      "type": "price_changed",
-      "id": "moonshotai/kimi-k3.1-pro",
-      "provider": "moonshotai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000002",
-          "next": "0.0000002403",
-          "pct_change": -87.98
-        },
-        {
-          "field": "completion",
-          "prev": "0.00001",
-          "next": "0.0000084023",
-          "pct_change": -15.98
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-16",
-      "type": "model_added",
-      "id": "qwen/qwen4-max",
-      "provider": "qwen",
-      "snapshot": {
-        "id": "qwen/qwen4-max",
-        "name": "Qwen: Qwen4 Max",
-        "provider": "qwen",
-        "pricing": {
-          "prompt": "0.0000015",
-          "completion": "0.0000045",
-          "image": null,
-          "request": null
-        },
-        "context_length": 1000000,
-        "max_completion_tokens": 393216,
-        "expiration_date": null,
-        "created": 1794795526,
-        "first_seen": "2026-11-16",
-        "last_seen": "2026-11-16"
-      }
-    },
-    {
-      "ts": "2026-11-15",
-      "type": "price_changed",
-      "id": "openai/gpt-oss-20b",
-      "provider": "openai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000003",
-          "next": "0.000000075",
-          "pct_change": 150
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000013",
-          "next": "0.0000003",
-          "pct_change": 130.77
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-15",
-      "type": "price_changed",
-      "id": "qwen/qwen3.5-9b",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000023",
-          "next": "0.000000124",
-          "pct_change": 439.13
-        },
-        {
-          "field": "completion",
-          "prev": "0.000000034",
-          "next": "0.000000183",
-          "pct_change": 438.24
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-15",
-      "type": "price_changed",
-      "id": "tencent/hy3",
-      "provider": "tencent",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000132",
-          "next": "0.0000000825",
-          "pct_change": -37.5
-        },
-        {
-          "field": "completion",
-          "prev": "0.000000528",
-          "next": "0.00000033",
-          "pct_change": -37.5
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-15",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.3:batch",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000322",
-          "next": "0.00000045",
-          "pct_change": 39.75
-        },
-        {
-          "field": "completion",
-          "prev": "0.000000989",
-          "next": "0.000002",
-          "pct_change": 102.22
         }
       ]
     }

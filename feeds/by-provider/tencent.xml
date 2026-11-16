@@ -24,6 +24,15 @@
     <summary>prompt: $0.0825/Mtok → $0.1320/Mtok (+60%); completion: $0.3300/Mtok → $0.5280/Mtok (+60%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-11-16:model_added:tencent%2Fhy4-flash</id>
+    <title>Added: tencent/hy4-flash</title>
+    <updated>2026-11-16T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/tencent%2Fhy4-flash"/>
+    <category term="model_added"/>
+    <category term="provider:tencent"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0437/Mtok, context: 1048576.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-11-15:price_changed:tencent%2Fhy4-preview</id>
     <title>Price changed: tencent/hy4-preview</title>
     <updated>2026-11-15T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:tencent"/>
     <summary>prompt: $0.0825/Mtok → $0.1320/Mtok (+60%); completion: $0.3300/Mtok → $0.5280/Mtok (+60%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-10-20:price_changed:tencent%2Fhy4-preview</id>
-    <title>Price changed: tencent/hy4-preview</title>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/tencent%2Fhy4-preview"/>
-    <category term="price_changed"/>
-    <category term="provider:tencent"/>
-    <summary>prompt: $0.8340/Mtok → $0.7506/Mtok (-10%); completion: $2.5010/Mtok → $2.2509/Mtok (-10%)</summary>
   </entry>
 </feed>

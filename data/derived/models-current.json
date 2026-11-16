@@ -1553,8 +1553,8 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash 1017 (batch)",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000039",
-        "completion": "0.000000343",
+        "prompt": "0.000000035",
+        "completion": "0.000000311",
         "image": null,
         "request": null
       },
@@ -2335,8 +2335,8 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.0000000675",
-        "completion": "0.000000225",
+        "prompt": "0.00000009",
+        "completion": "0.0000003",
         "image": null,
         "request": null
       },
@@ -3083,8 +3083,8 @@
       "name": "MiniMax: MiniMax M3.1 Flash",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
+        "prompt": "0.000000075",
+        "completion": "0.0000003",
         "image": null,
         "request": null
       },
@@ -3576,7 +3576,7 @@
       "name": "MoonshotAI: Kimi K2.7 Code",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.0000006",
+        "prompt": "0.0000007125",
         "completion": "0.0000035",
         "image": null,
         "request": null
@@ -6347,8 +6347,8 @@
       "name": "Qwen: Qwen3.5-9B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.000000062",
-        "completion": "0.000000092",
+        "prompt": "0.0000001",
+        "completion": "0.000000147",
         "image": null,
         "request": null
       },
@@ -6693,7 +6693,7 @@
         "request": null
       },
       "context_length": 1000000,
-      "max_completion_tokens": 393216,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1794795526,
       "first_seen": "2026-11-16",
@@ -7088,6 +7088,23 @@
       "expiration_date": null,
       "created": 1793766031,
       "first_seen": "2026-11-04",
+      "last_seen": "2026-11-16"
+    },
+    {
+      "id": "tencent/hy4-flash",
+      "name": "Tencent: Hy4 flash",
+      "provider": "tencent",
+      "pricing": {
+        "prompt": "0.00000004375",
+        "completion": "0.000000175625",
+        "image": null,
+        "request": null
+      },
+      "context_length": 1048576,
+      "max_completion_tokens": 65536,
+      "expiration_date": null,
+      "created": 1794838706,
+      "first_seen": "2026-11-16",
       "last_seen": "2026-11-16"
     },
     {

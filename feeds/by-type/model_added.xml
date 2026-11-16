@@ -15,6 +15,15 @@
     <summary>New model on OpenRouter. Initial prompt price: $1.5000/Mtok, context: 1000000.</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-11-16:model_added:tencent%2Fhy4-flash</id>
+    <title>Added: tencent/hy4-flash</title>
+    <updated>2026-11-16T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/tencent%2Fhy4-flash"/>
+    <category term="model_added"/>
+    <category term="provider:tencent"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0437/Mtok, context: 1048576.</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-11-13:model_added:inclusionai%2Fling-3.2-flash%3Afree</id>
     <title>Added: inclusionai/ling-3.2-flash:free</title>
     <updated>2026-11-13T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="model_added"/>
     <category term="provider:mistralai"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.5000/Mtok, context: 262144.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-25:model_added:perceptron%2Fperceptron-mk1.5</id>
-    <title>Added: perceptron/perceptron-mk1.5</title>
-    <updated>2026-09-25T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/perceptron%2Fperceptron-mk1.5"/>
-    <category term="model_added"/>
-    <category term="provider:perceptron"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.1500/Mtok, context: 36864.</summary>
   </entry>
 </feed>

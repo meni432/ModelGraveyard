@@ -85479,6 +85479,123 @@
           "pct_change": -22.73
         }
       ]
+    },
+    {
+      "ts": "2026-11-16",
+      "type": "model_added",
+      "id": "tencent/hy4-flash",
+      "provider": "tencent",
+      "snapshot": {
+        "id": "tencent/hy4-flash",
+        "name": "Tencent: Hy4 flash",
+        "provider": "tencent",
+        "pricing": {
+          "prompt": "0.00000004375",
+          "completion": "0.000000175625",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": 65536,
+        "expiration_date": null,
+        "created": 1794838706,
+        "first_seen": "2026-11-16",
+        "last_seen": "2026-11-16"
+      }
+    },
+    {
+      "ts": "2026-11-16",
+      "type": "price_changed",
+      "id": "minimax/minimax-m3.1-flash",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000015",
+          "next": "0.000000075",
+          "pct_change": -50
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000006",
+          "next": "0.0000003",
+          "pct_change": -50
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-16",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4.1-flash-1017:batch",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000039",
+          "next": "0.000000035",
+          "pct_change": -10.26
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000343",
+          "next": "0.000000311",
+          "pct_change": -9.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-16",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.7-code",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000006",
+          "next": "0.0000007125",
+          "pct_change": 18.75
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-16",
+      "type": "price_changed",
+      "id": "google/gemma-4-26b-a4b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000675",
+          "next": "0.00000009",
+          "pct_change": 33.33
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000225",
+          "next": "0.0000003",
+          "pct_change": 33.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-16",
+      "type": "price_changed",
+      "id": "qwen/qwen3.5-9b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000062",
+          "next": "0.0000001",
+          "pct_change": 61.29
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000092",
+          "next": "0.000000147",
+          "pct_change": 59.78
+        }
+      ]
     }
   ]
 }
