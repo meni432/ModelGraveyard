@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/mistralai.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/mistralai.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-11-09T00:00:00Z</updated>
+  <updated>2026-11-17T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-17:deprecation_announced:mistralai%2Fmistral-medium-3-5</id>
+    <title>Deprecation announced: mistralai/mistral-medium-3-5 (sunset 2027-01-31)</title>
+    <updated>2026-11-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/mistralai%2Fmistral-medium-3-5"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:mistralai"/>
+    <summary>Provider announced retirement on 2027-01-31.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-11-09:price_changed:mistralai%2Fmistral-small-3.2-24b-instruct</id>
     <title>Price changed: mistralai/mistral-small-3.2-24b-instruct</title>
