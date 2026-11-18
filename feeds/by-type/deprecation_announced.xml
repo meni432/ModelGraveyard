@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/deprecation_announced.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/deprecation_announced.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-11-17T00:00:00Z</updated>
+  <updated>2026-11-18T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-18:deprecation_announced:thinkingmachines%2Finkling-2-small%3Afree</id>
+    <title>Deprecation announced: thinkingmachines/inkling-2-small:free (sunset 2026-11-19)</title>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/thinkingmachines%2Finkling-2-small%3Afree"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:thinkingmachines"/>
+    <summary>Provider announced retirement on 2026-11-19.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-11-17:deprecation_announced:mistralai%2Fmistral-medium-3-5</id>
     <title>Deprecation announced: mistralai/mistral-medium-3-5 (sunset 2027-01-31)</title>
@@ -892,15 +901,6 @@
     <title>Deprecation announced: z-ai/glm-5v-turbo (sunset 2098-12-31)</title>
     <updated>2026-09-11T00:00:00Z</updated>
     <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5v-turbo"/>
-    <category term="deprecation_announced"/>
-    <category term="provider:z-ai"/>
-    <summary>Provider announced retirement on 2098-12-31.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-11:deprecation_announced:z-ai%2Fglm-5-turbo</id>
-    <title>Deprecation announced: z-ai/glm-5-turbo (sunset 2098-12-31)</title>
-    <updated>2026-09-11T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5-turbo"/>
     <category term="deprecation_announced"/>
     <category term="provider:z-ai"/>
     <summary>Provider announced retirement on 2098-12-31.</summary>

@@ -86049,6 +86049,460 @@
           "pct_change": -30.77
         }
       ]
+    },
+    {
+      "ts": "2026-11-18",
+      "type": "model_added",
+      "id": "openai/gpt-6.2-astra-pro",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-6.2-astra-pro",
+        "name": "OpenAI: GPT-6.2 Astra Pro",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.000008",
+          "completion": "0.00004",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1794938432,
+        "first_seen": "2026-11-18",
+        "last_seen": "2026-11-18"
+      }
+    },
+    {
+      "ts": "2026-11-18",
+      "type": "model_added",
+      "id": "openai/gpt-6.2-astra-pro:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-6.2-astra-pro:batch",
+        "name": "OpenAI: GPT-6.2 Astra Pro (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.000004",
+          "completion": "0.00002",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1794938432,
+        "first_seen": "2026-11-18",
+        "last_seen": "2026-11-18"
+      }
+    },
+    {
+      "ts": "2026-11-18",
+      "type": "model_added",
+      "id": "openai/gpt-6.2-astra",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-6.2-astra",
+        "name": "OpenAI: GPT-6.2 Astra",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.000008",
+          "completion": "0.00004",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1794938423,
+        "first_seen": "2026-11-18",
+        "last_seen": "2026-11-18"
+      }
+    },
+    {
+      "ts": "2026-11-18",
+      "type": "model_added",
+      "id": "openai/gpt-6.2-astra:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-6.2-astra:batch",
+        "name": "OpenAI: GPT-6.2 Astra (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.000004",
+          "completion": "0.00002",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1794938423,
+        "first_seen": "2026-11-18",
+        "last_seen": "2026-11-18"
+      }
+    },
+    {
+      "ts": "2026-11-18",
+      "type": "model_added",
+      "id": "openai/gpt-6.2-sol-pro",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-6.2-sol-pro",
+        "name": "OpenAI: GPT-6.2 Sol Pro",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.000002",
+          "completion": "0.00001",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1794938409,
+        "first_seen": "2026-11-18",
+        "last_seen": "2026-11-18"
+      }
+    },
+    {
+      "ts": "2026-11-18",
+      "type": "model_added",
+      "id": "openai/gpt-6.2-sol-pro:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-6.2-sol-pro:batch",
+        "name": "OpenAI: GPT-6.2 Sol Pro (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.000001",
+          "completion": "0.000005",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1794938409,
+        "first_seen": "2026-11-18",
+        "last_seen": "2026-11-18"
+      }
+    },
+    {
+      "ts": "2026-11-18",
+      "type": "model_added",
+      "id": "openai/gpt-6.2-sol",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-6.2-sol",
+        "name": "OpenAI: GPT-6.2 Sol",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.000002",
+          "completion": "0.00001",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1794938371,
+        "first_seen": "2026-11-18",
+        "last_seen": "2026-11-18"
+      }
+    },
+    {
+      "ts": "2026-11-18",
+      "type": "model_added",
+      "id": "openai/gpt-6.2-sol:batch",
+      "provider": "openai",
+      "snapshot": {
+        "id": "openai/gpt-6.2-sol:batch",
+        "name": "OpenAI: GPT-6.2 Sol (batch)",
+        "provider": "openai",
+        "pricing": {
+          "prompt": "0.000001",
+          "completion": "0.000005",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "expiration_date": null,
+        "created": 1794938371,
+        "first_seen": "2026-11-18",
+        "last_seen": "2026-11-18"
+      }
+    },
+    {
+      "ts": "2026-11-18",
+      "type": "deprecation_announced",
+      "id": "thinkingmachines/inkling-2-small:free",
+      "provider": "thinkingmachines",
+      "prev_expiration": null,
+      "next_expiration": "2026-11-19"
+    },
+    {
+      "ts": "2026-11-18",
+      "type": "price_changed",
+      "id": "~openai/gpt-astra-latest",
+      "provider": "~openai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00001",
+          "next": "0.000008",
+          "pct_change": -20
+        },
+        {
+          "field": "completion",
+          "prev": "0.00005",
+          "next": "0.00004",
+          "pct_change": -20
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-18",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4.1-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000003",
+          "next": "0.000000051",
+          "pct_change": -83
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000012",
+          "next": "0.000000567",
+          "pct_change": -52.75
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-18",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.3-flash",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000015",
+          "next": "0.0000000399",
+          "pct_change": -73.4
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000005",
+          "next": "0.0000000784",
+          "pct_change": -84.32
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-18",
+      "type": "price_changed",
+      "id": "qwen/qwen3.8-27b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000015",
+          "next": "0.00000006",
+          "pct_change": -60
+        },
+        {
+          "field": "completion",
+          "prev": "0.000001875",
+          "next": "0.0000022",
+          "pct_change": 17.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-18",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k3",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000192",
+          "next": "0.0000002",
+          "pct_change": 4.17
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-18",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000001824",
+          "next": "0.00000019",
+          "pct_change": 4.17
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000110055",
+          "next": "0.0000106066",
+          "pct_change": -3.62
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-18",
+      "type": "price_changed",
+      "id": "google/gemma-4-26b-a4b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000009",
+          "next": "0.0000000765",
+          "pct_change": -15
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000003",
+          "next": "0.000000255",
+          "pct_change": -15
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-18",
+      "type": "price_changed",
+      "id": "qwen/qwen3.5-9b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000017",
+          "next": "0.000000057",
+          "pct_change": -66.47
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000025",
+          "next": "0.000000084",
+          "pct_change": -66.4
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-18",
+      "type": "price_changed",
+      "id": "qwen/qwen3.5-27b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000026",
+          "next": "0.0000003",
+          "pct_change": 15.38
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000026",
+          "next": "0.0000024",
+          "pct_change": -7.69
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-18",
+      "type": "price_changed",
+      "id": "qwen/qwen3-next-80b-a3b-instruct",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000009",
+          "next": "0.0000001",
+          "pct_change": 11.11
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-18",
+      "type": "price_changed",
+      "id": "mistralai/mistral-medium-3.1",
+      "provider": "mistralai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000004",
+          "next": "0.00000044",
+          "pct_change": 10
+        },
+        {
+          "field": "completion",
+          "prev": "0.000002",
+          "next": "0.0000022",
+          "pct_change": 10
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-18",
+      "type": "price_changed",
+      "id": "mistralai/mistral-small-3.2-24b-instruct",
+      "provider": "mistralai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000001",
+          "next": "0.000000075",
+          "pct_change": -25
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000003",
+          "next": "0.0000002",
+          "pct_change": -33.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-18",
+      "type": "price_changed",
+      "id": "mistralai/mistral-medium-3",
+      "provider": "mistralai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000004",
+          "next": "0.00000044",
+          "pct_change": 10
+        },
+        {
+          "field": "completion",
+          "prev": "0.000002",
+          "next": "0.0000022",
+          "pct_change": 10
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-18",
+      "type": "price_changed",
+      "id": "google/gemma-3-27b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.00000035",
+          "next": "0.00000045",
+          "pct_change": 28.57
+        }
+      ]
     }
   ]
 }
