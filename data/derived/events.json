@@ -86503,6 +86503,168 @@
           "pct_change": 28.57
         }
       ]
+    },
+    {
+      "ts": "2026-11-18",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4.1-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000051",
+          "next": "0.0000000507",
+          "pct_change": -0.59
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000567",
+          "next": "0.0000002028",
+          "pct_change": -64.23
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-18",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.3-flash",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000399",
+          "next": "0.00000015",
+          "pct_change": 275.94
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000000784",
+          "next": "0.0000005",
+          "pct_change": 537.76
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-18",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k3",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000002",
+          "next": "0.000000192",
+          "pct_change": -4
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-18",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000019",
+          "next": "0.0000001824",
+          "pct_change": -4
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000106066",
+          "next": "0.0000110055",
+          "pct_change": 3.76
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-18",
+      "type": "price_changed",
+      "id": "xiaomi/mimo-v2.5-pro",
+      "provider": "xiaomi",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000435",
+          "next": "0.00000048",
+          "pct_change": 10.34
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000087",
+          "next": "0.0000018",
+          "pct_change": 106.9
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-18",
+      "type": "context_changed",
+      "id": "xiaomi/mimo-v2.5-pro",
+      "provider": "xiaomi",
+      "prev_context": 1024000,
+      "next_context": 262144
+    },
+    {
+      "ts": "2026-11-18",
+      "type": "price_changed",
+      "id": "google/gemma-4-26b-a4b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000765",
+          "next": "0.00000009",
+          "pct_change": 17.65
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000255",
+          "next": "0.0000003",
+          "pct_change": 17.65
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-18",
+      "type": "price_changed",
+      "id": "qwen/qwen3.5-9b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000057",
+          "next": "0.00000017",
+          "pct_change": 198.25
+        },
+        {
+          "field": "completion",
+          "prev": "0.000000084",
+          "next": "0.00000025",
+          "pct_change": 197.62
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-18",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-r1-0528",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000005",
+          "next": "0.000000571",
+          "pct_change": 14.2
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000215",
+          "next": "0.000002286",
+          "pct_change": 6.33
+        }
+      ]
     }
   ]
 }

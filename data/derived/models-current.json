@@ -159,8 +159,8 @@
       "name": "MoonshotAI: Kimi Latest",
       "provider": "~moonshotai",
       "pricing": {
-        "prompt": "0.00000019",
-        "completion": "0.0000106066",
+        "prompt": "0.0000001824",
+        "completion": "0.0000110055",
         "image": null,
         "request": null
       },
@@ -1349,13 +1349,13 @@
       "name": "DeepSeek: R1 0528",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000005",
-        "completion": "0.00000215",
+        "prompt": "0.000000571",
+        "completion": "0.000002286",
         "image": null,
         "request": null
       },
       "context_length": 163840,
-      "max_completion_tokens": 32768,
+      "max_completion_tokens": 32000,
       "expiration_date": null,
       "created": 1748455170,
       "first_seen": "2026-05-27",
@@ -1519,13 +1519,13 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000051",
-        "completion": "0.000000567",
+        "prompt": "0.0000000507",
+        "completion": "0.0000002028",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 943718,
+      "max_completion_tokens": 393216,
       "expiration_date": null,
       "created": 1789021285,
       "first_seen": "2026-09-10",
@@ -2335,8 +2335,8 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.0000000765",
-        "completion": "0.000000255",
+        "prompt": "0.00000009",
+        "completion": "0.0000003",
         "image": null,
         "request": null
       },
@@ -3593,7 +3593,7 @@
       "name": "MoonshotAI: Kimi K3",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.0000002",
+        "prompt": "0.000000192",
         "completion": "0.000016",
         "image": null,
         "request": null
@@ -6483,8 +6483,8 @@
       "name": "Qwen: Qwen3.5-9B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.000000057",
-        "completion": "0.000000084",
+        "prompt": "0.00000017",
+        "completion": "0.00000025",
         "image": null,
         "request": null
       },
@@ -7724,13 +7724,13 @@
       "name": "Xiaomi: MiMo-V2.5-Pro",
       "provider": "xiaomi",
       "pricing": {
-        "prompt": "0.000000435",
-        "completion": "0.00000087",
+        "prompt": "0.00000048",
+        "completion": "0.0000018",
         "image": null,
         "request": null
       },
-      "context_length": 1024000,
-      "max_completion_tokens": 131072,
+      "context_length": 262144,
+      "max_completion_tokens": 235929,
       "expiration_date": null,
       "created": 1776874273,
       "first_seen": "2026-05-27",
@@ -8013,13 +8013,13 @@
       "name": "Z.ai: GLM 5.3 Flash",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.0000000399",
-        "completion": "0.0000000784",
+        "prompt": "0.00000015",
+        "completion": "0.0000005",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 943717,
       "expiration_date": null,
       "created": 1787752741,
       "first_seen": "2026-08-26",
