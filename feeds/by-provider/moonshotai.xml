@@ -15,6 +15,24 @@
     <summary>prompt: $0.7000/Mtok → $0.6000/Mtok (-14.29%); completion: $3.7500/Mtok → $3.5000/Mtok (-6.67%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-11-19:price_changed:moonshotai%2Fkimi-k3.1-pro</id>
+    <title>Price changed: moonshotai/kimi-k3.1-pro</title>
+    <updated>2026-11-19T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k3.1-pro"/>
+    <category term="price_changed"/>
+    <category term="provider:moonshotai"/>
+    <summary>prompt: $0.2403/Mtok → $0.2530/Mtok (+5.29%); completion: $8.4023/Mtok → $8.8000/Mtok (+4.73%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-19:price_changed:moonshotai%2Fkimi-k2.7-code</id>
+    <title>Price changed: moonshotai/kimi-k2.7-code</title>
+    <updated>2026-11-19T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k2.7-code"/>
+    <category term="price_changed"/>
+    <category term="provider:moonshotai"/>
+    <summary>prompt: $0.6000/Mtok → $0.6500/Mtok (+8.33%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-11-18:price_changed:moonshotai%2Fkimi-k3</id>
     <title>Price changed: moonshotai/kimi-k3</title>
     <updated>2026-11-18T00:00:00Z</updated>
@@ -886,23 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:moonshotai"/>
     <summary>prompt: $1.7000/Mtok → $3.0000/Mtok (+76.47%); completion: $8.5000/Mtok → $15.0000/Mtok (+76.47%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-21:model_removed:moonshotai%2Fkimi-k3%3Abatch</id>
-    <title>Removed: moonshotai/kimi-k3:batch</title>
-    <updated>2026-09-21T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k3%3Abatch"/>
-    <category term="model_removed"/>
-    <category term="provider:moonshotai"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $3.0000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-19:price_changed:moonshotai%2Fkimi-k3</id>
-    <title>Price changed: moonshotai/kimi-k3</title>
-    <updated>2026-09-19T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k3"/>
-    <category term="price_changed"/>
-    <category term="provider:moonshotai"/>
-    <summary>prompt: $1.9500/Mtok → $2.0695/Mtok (+6.13%); completion: $10.9200/Mtok → $11.5892/Mtok (+6.13%)</summary>
   </entry>
 </feed>

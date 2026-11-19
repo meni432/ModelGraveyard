@@ -1,6 +1,23 @@
 {
   "buried": [
     {
+      "id": "thinkingmachines/inkling-2-small:free",
+      "name": "Thinking Machines: Inkling 2 Small (free)",
+      "provider": "thinkingmachines",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 1048576,
+      "first_seen": "2026-11-10",
+      "last_seen": "2026-11-19",
+      "buried_at": "2026-11-19",
+      "suggested_replacement": "thinkingmachines/inkling-2-small"
+    },
+    {
       "id": "qwen/qwen3-vl-30b-a3b-thinking",
       "name": "Qwen: Qwen3 VL 30B A3B Thinking",
       "provider": "qwen",
