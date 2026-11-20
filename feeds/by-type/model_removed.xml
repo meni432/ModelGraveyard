@@ -4,7 +4,34 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_removed.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_removed.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-11-19T00:00:00Z</updated>
+  <updated>2026-11-20T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-20:model_removed:cohere%2Fnorth-mini-code%3Afree</id>
+    <title>Removed: cohere/north-mini-code:free</title>
+    <updated>2026-11-20T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/cohere%2Fnorth-mini-code%3Afree"/>
+    <category term="model_removed"/>
+    <category term="provider:cohere"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-20:model_removed:meta-llama%2Fllama-3.2-1b-instruct</id>
+    <title>Removed: meta-llama/llama-3.2-1b-instruct</title>
+    <updated>2026-11-20T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meta-llama%2Fllama-3.2-1b-instruct"/>
+    <category term="model_removed"/>
+    <category term="provider:meta-llama"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0270/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-20:model_removed:x-ai%2Fgrok-build-0.1</id>
+    <title>Removed: x-ai/grok-build-0.1</title>
+    <updated>2026-11-20T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/x-ai%2Fgrok-build-0.1"/>
+    <category term="model_removed"/>
+    <category term="provider:x-ai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $2.0000/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-11-19:model_removed:thinkingmachines%2Finkling-2-small%3Afree</id>
     <title>Removed: thinkingmachines/inkling-2-small:free</title>
@@ -877,32 +904,5 @@
     <category term="model_removed"/>
     <category term="provider:deepseek"/>
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1100/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-22:model_removed:deepseek%2Fdeepseek-v4-flash-vision-exp%3Abatch</id>
-    <title>Removed: deepseek/deepseek-v4-flash-vision-exp:batch</title>
-    <updated>2026-09-22T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-flash-vision-exp%3Abatch"/>
-    <category term="model_removed"/>
-    <category term="provider:deepseek"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1100/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-22:model_removed:deepseek%2Fdeepseek-v4-pro-0813%3Abatch</id>
-    <title>Removed: deepseek/deepseek-v4-pro-0813:batch</title>
-    <updated>2026-09-22T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-v4-pro-0813%3Abatch"/>
-    <category term="model_removed"/>
-    <category term="provider:deepseek"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.6600/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-22:model_removed:meta%2Fmuse-glimmer-30b%3Abatch</id>
-    <title>Removed: meta/muse-glimmer-30b:batch</title>
-    <updated>2026-09-22T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/meta%2Fmuse-glimmer-30b%3Abatch"/>
-    <category term="model_removed"/>
-    <category term="provider:meta"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.1750/Mtok.</summary>
   </entry>
 </feed>

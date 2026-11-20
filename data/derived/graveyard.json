@@ -1,6 +1,57 @@
 {
   "buried": [
     {
+      "id": "cohere/north-mini-code:free",
+      "name": "Cohere: North Mini Code (free)",
+      "provider": "cohere",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 256000,
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-11-20",
+      "buried_at": "2026-11-20",
+      "suggested_replacement": "cohere/command-a"
+    },
+    {
+      "id": "meta-llama/llama-3.2-1b-instruct",
+      "name": "Meta: Llama 3.2 1B Instruct",
+      "provider": "meta-llama",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.000000027",
+        "completion": "0.000000201",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 60000,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-11-20",
+      "buried_at": "2026-11-20",
+      "suggested_replacement": "meta-llama/llama-3.3-70b-instruct"
+    },
+    {
+      "id": "x-ai/grok-build-0.1",
+      "name": "SpaceXAI: Grok Build 0.1",
+      "provider": "x-ai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.000002",
+        "completion": "0.000004",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 256000,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-11-20",
+      "buried_at": "2026-11-20",
+      "suggested_replacement": "x-ai/grok-4.7"
+    },
+    {
       "id": "thinkingmachines/inkling-2-small:free",
       "name": "Thinking Machines: Inkling 2 Small (free)",
       "provider": "thinkingmachines",

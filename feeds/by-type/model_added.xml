@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_added.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_added.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-11-19T00:00:00Z</updated>
+  <updated>2026-11-20T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-20:model_added:mistralai%2Fpixtral-large-2502</id>
+    <title>Added: mistralai/pixtral-large-2502</title>
+    <updated>2026-11-20T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/mistralai%2Fpixtral-large-2502"/>
+    <category term="model_added"/>
+    <category term="provider:mistralai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $2.0000/Mtok, context: 128000.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-11-19:model_added:google%2Fgemini-4-neon</id>
     <title>Added: google/gemini-4-neon</title>
@@ -895,14 +904,5 @@
     <category term="model_added"/>
     <category term="provider:apodex"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.0000/Mtok, context: 262144.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-10-01:model_added:unbiased%2Fpareto-26.10-preview</id>
-    <title>Added: unbiased/pareto-26.10-preview</title>
-    <updated>2026-10-01T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/unbiased%2Fpareto-26.10-preview"/>
-    <category term="model_added"/>
-    <category term="provider:unbiased"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.8000/Mtok, context: 1048576.</summary>
   </entry>
 </feed>
