@@ -35,6 +35,23 @@
       "suggested_replacement": "meta-llama/llama-3.3-70b-instruct"
     },
     {
+      "id": "tencent/hy3-preview",
+      "name": "Tencent: Hy3 preview",
+      "provider": "tencent",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000018",
+        "completion": "0.0000006",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-11-20",
+      "buried_at": "2026-11-20",
+      "suggested_replacement": "tencent/hy3"
+    },
+    {
       "id": "x-ai/grok-build-0.1",
       "name": "SpaceXAI: Grok Build 0.1",
       "provider": "x-ai",
