@@ -87176,6 +87176,262 @@
         "first_seen": "2026-11-10",
         "last_seen": "2026-11-19"
       }
+    },
+    {
+      "ts": "2026-11-20",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4.1-flash-1017",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000015",
+          "next": "0.000000036",
+          "pct_change": -76
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000006",
+          "next": "0.0000005",
+          "pct_change": -16.67
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-20",
+      "type": "price_changed",
+      "id": "reflection/beam-1.0-501b-a23b",
+      "provider": "reflection",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000003",
+          "next": "0.00000025",
+          "pct_change": -16.67
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-20",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-pro-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000999",
+          "next": "0.000000198",
+          "pct_change": 98.2
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-20",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000035",
+          "next": "0.000000036",
+          "pct_change": 2.86
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000015",
+          "next": "0.0000005",
+          "pct_change": 233.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-20",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4.1-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000507",
+          "next": "0.0000003",
+          "pct_change": 491.72
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000002028",
+          "next": "0.0000012",
+          "pct_change": 491.72
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-20",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000111",
+          "next": "0.00000022",
+          "pct_change": 98.2
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000444",
+          "next": "0.0000095",
+          "pct_change": 113.96
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-20",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000004664",
+          "next": "0.00000006",
+          "pct_change": 28.64
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000013992",
+          "next": "0.00000018",
+          "pct_change": 28.64
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-20",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-flash-0731",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000062",
+          "next": "0.0000001",
+          "pct_change": 61.29
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-20",
+      "type": "price_changed",
+      "id": "moonshotai/kimi-k2.7-code",
+      "provider": "moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000065",
+          "next": "0.0000006",
+          "pct_change": -7.69
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000035",
+          "next": "0.000003",
+          "pct_change": -14.29
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-20",
+      "type": "price_changed",
+      "id": "x-ai/grok-build-0.1",
+      "provider": "x-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000001",
+          "next": "0.000002",
+          "pct_change": 100
+        },
+        {
+          "field": "completion",
+          "prev": "0.000002",
+          "next": "0.000004",
+          "pct_change": 100
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-20",
+      "type": "price_changed",
+      "id": "~moonshotai/kimi-latest",
+      "provider": "~moonshotai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000001824",
+          "next": "0.0000001805",
+          "pct_change": -1.04
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-20",
+      "type": "price_changed",
+      "id": "google/gemma-4-26b-a4b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000009",
+          "next": "0.0000000765",
+          "pct_change": -15
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000003",
+          "next": "0.000000255",
+          "pct_change": -15
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-20",
+      "type": "price_changed",
+      "id": "qwen/qwen3.5-27b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000195",
+          "next": "0.00000026",
+          "pct_change": 33.33
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000156",
+          "next": "0.0000026",
+          "pct_change": 66.67
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-20",
+      "type": "price_changed",
+      "id": "openai/gpt-oss-120b",
+      "provider": "openai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000015",
+          "next": "0.00000009",
+          "pct_change": -40
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000006",
+          "next": "0.00000036",
+          "pct_change": -40
+        }
+      ]
     }
   ]
 }

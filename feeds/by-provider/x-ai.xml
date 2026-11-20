@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/x-ai.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/x-ai.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-11-03T00:00:00Z</updated>
+  <updated>2026-11-20T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-20:price_changed:x-ai%2Fgrok-build-0.1</id>
+    <title>Price changed: x-ai/grok-build-0.1</title>
+    <updated>2026-11-20T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/x-ai%2Fgrok-build-0.1"/>
+    <category term="price_changed"/>
+    <category term="provider:x-ai"/>
+    <summary>prompt: $1.0000/Mtok → $2.0000/Mtok (+100%); completion: $2.0000/Mtok → $4.0000/Mtok (+100%)</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-11-03:model_added:x-ai%2Fgrok-4.7%3Abatch</id>
     <title>Added: x-ai/grok-4.7:batch</title>
