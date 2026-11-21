@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_removed.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_removed.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-11-20T00:00:00Z</updated>
+  <updated>2026-11-21T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-21:model_removed:dots-studio%2Fdots-3-note-preview%3Afree</id>
+    <title>Removed: dots-studio/dots-3-note-preview:free</title>
+    <updated>2026-11-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/dots-studio%2Fdots-3-note-preview%3Afree"/>
+    <category term="model_removed"/>
+    <category term="provider:dots-studio"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-21:model_removed:meituan%2Flongcat-2.0</id>
+    <title>Removed: meituan/longcat-2.0</title>
+    <updated>2026-11-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meituan%2Flongcat-2.0"/>
+    <category term="model_removed"/>
+    <category term="provider:meituan"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.3000/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-11-20:model_removed:cohere%2Fnorth-mini-code%3Afree</id>
     <title>Removed: cohere/north-mini-code:free</title>
@@ -886,23 +904,5 @@
     <category term="model_removed"/>
     <category term="provider:inclusionai"/>
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-23:model_removed:mistralai%2Fdevstral-2512</id>
-    <title>Removed: mistralai/devstral-2512</title>
-    <updated>2026-09-23T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/mistralai%2Fdevstral-2512"/>
-    <category term="model_removed"/>
-    <category term="provider:mistralai"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.4000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-22:model_removed:kwaipilot%2Fkat-coder-pro-v2</id>
-    <title>Removed: kwaipilot/kat-coder-pro-v2</title>
-    <updated>2026-09-22T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/kwaipilot%2Fkat-coder-pro-v2"/>
-    <category term="model_removed"/>
-    <category term="provider:kwaipilot"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.3000/Mtok.</summary>
   </entry>
 </feed>

@@ -1,6 +1,40 @@
 {
   "buried": [
     {
+      "id": "dots-studio/dots-3-note-preview:free",
+      "name": "Dots Studio: Dots3-Note Preview (free)",
+      "provider": "dots-studio",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 512000,
+      "first_seen": "2026-08-15",
+      "last_seen": "2026-11-20",
+      "buried_at": "2026-11-21",
+      "suggested_replacement": null
+    },
+    {
+      "id": "meituan/longcat-2.0",
+      "name": "Meituan: LongCat 2.0",
+      "provider": "meituan",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000003",
+        "completion": "0.0000012",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 1048756,
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-11-20",
+      "buried_at": "2026-11-21",
+      "suggested_replacement": null
+    },
+    {
       "id": "cohere/north-mini-code:free",
       "name": "Cohere: North Mini Code (free)",
       "provider": "cohere",

@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/meituan.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/meituan.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-07-20T00:00:00Z</updated>
+  <updated>2026-11-21T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-21:model_removed:meituan%2Flongcat-2.0</id>
+    <title>Removed: meituan/longcat-2.0</title>
+    <updated>2026-11-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/meituan%2Flongcat-2.0"/>
+    <category term="model_removed"/>
+    <category term="provider:meituan"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.3000/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-07-20:model_added:meituan%2Flongcat-2.0</id>
     <title>Added: meituan/longcat-2.0</title>

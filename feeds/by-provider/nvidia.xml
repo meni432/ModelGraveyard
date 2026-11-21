@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/nvidia.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/nvidia.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-11-17T00:00:00Z</updated>
+  <updated>2026-11-21T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-21:price_changed:nvidia%2Fnemotron-3.5-super-vl</id>
+    <title>Price changed: nvidia/nemotron-3.5-super-vl</title>
+    <updated>2026-11-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nvidia%2Fnemotron-3.5-super-vl"/>
+    <category term="price_changed"/>
+    <category term="provider:nvidia"/>
+    <summary>completion: $0.5000/Mtok → $0.4700/Mtok (-6%)</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-11-17:context_changed:nvidia%2Fnemotron-3.5-lightning</id>
     <title>Context window changed: nvidia/nemotron-3.5-lightning</title>
@@ -895,14 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:nvidia"/>
     <summary>completion: $2.5000/Mtok → $2.2000/Mtok (-12%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-06-11:model_removed:nvidia%2Fnemotron-nano-9b-v2</id>
-    <title>Removed: nvidia/nemotron-nano-9b-v2</title>
-    <updated>2026-06-11T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/nvidia%2Fnemotron-nano-9b-v2"/>
-    <category term="model_removed"/>
-    <category term="provider:nvidia"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0400/Mtok.</summary>
   </entry>
 </feed>

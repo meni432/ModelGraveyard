@@ -1,9 +1,275 @@
 {
-  "generated_at": "2026-11-20",
+  "generated_at": "2026-11-21",
   "active_count": 476,
-  "dead_count": 278,
-  "last_event_ts": "2026-11-20",
+  "dead_count": 280,
+  "last_event_ts": "2026-11-21",
   "recent_events": [
+    {
+      "ts": "2026-11-21",
+      "type": "model_removed",
+      "id": "meituan/longcat-2.0",
+      "provider": "meituan",
+      "snapshot": {
+        "id": "meituan/longcat-2.0",
+        "name": "Meituan: LongCat 2.0",
+        "provider": "meituan",
+        "pricing": {
+          "prompt": "0.0000003",
+          "completion": "0.0000012",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048756,
+        "max_completion_tokens": 262144,
+        "expiration_date": null,
+        "created": 1784554658,
+        "first_seen": "2026-07-20",
+        "last_seen": "2026-11-20"
+      }
+    },
+    {
+      "ts": "2026-11-21",
+      "type": "model_removed",
+      "id": "dots-studio/dots-3-note-preview:free",
+      "provider": "dots-studio",
+      "snapshot": {
+        "id": "dots-studio/dots-3-note-preview:free",
+        "name": "Dots Studio: Dots3-Note Preview (free)",
+        "provider": "dots-studio",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0",
+          "image": null,
+          "request": null
+        },
+        "context_length": 512000,
+        "max_completion_tokens": 460800,
+        "expiration_date": "2026-12-31",
+        "created": 1786680361,
+        "first_seen": "2026-08-15",
+        "last_seen": "2026-11-20"
+      }
+    },
+    {
+      "ts": "2026-11-21",
+      "type": "price_changed",
+      "id": "google/gemma-3-4b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000004",
+          "next": "0.00000005",
+          "pct_change": 25
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000005",
+          "next": "0.0000001",
+          "pct_change": 100
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-21",
+      "type": "price_changed",
+      "id": "qwen/qwen3-coder-30b-a3b-instruct",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000015",
+          "next": "0.00000007",
+          "pct_change": -53.33
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000006",
+          "next": "0.00000028",
+          "pct_change": -53.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-21",
+      "type": "price_changed",
+      "id": "minimax/minimax-m2.5",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000295",
+          "next": "0.00000027",
+          "pct_change": -8.47
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000012",
+          "next": "0.00000095",
+          "pct_change": -20.83
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-21",
+      "type": "price_changed",
+      "id": "tencent/hy3",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000825",
+          "next": "0.000000132",
+          "pct_change": 60
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000033",
+          "next": "0.000000528",
+          "pct_change": 60
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-21",
+      "type": "price_changed",
+      "id": "tencent/hy4-preview",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000007506",
+          "next": "0.000000834",
+          "pct_change": 11.11
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000022509",
+          "next": "0.000002501",
+          "pct_change": 11.11
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-21",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4.1-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000003",
+          "next": "0.0000000498",
+          "pct_change": -83.4
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000012",
+          "next": "0.0000001992",
+          "pct_change": -83.4
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-21",
+      "type": "price_changed",
+      "id": "nvidia/nemotron-3.5-super-vl",
+      "provider": "nvidia",
+      "changes": [
+        {
+          "field": "completion",
+          "prev": "0.0000005",
+          "next": "0.00000047",
+          "pct_change": -6
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-21",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4.1-flash-1017",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000036",
+          "next": "0.00000015",
+          "pct_change": 316.67
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000005",
+          "next": "0.0000006",
+          "pct_change": 20
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-21",
+      "type": "price_changed",
+      "id": "minimax/minimax-m3.1-flash",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000075",
+          "next": "0.00000015",
+          "pct_change": 100
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000003",
+          "next": "0.0000006",
+          "pct_change": 100
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-21",
+      "type": "model_added",
+      "id": "radixark/daisyrose-27b",
+      "provider": "radixark",
+      "snapshot": {
+        "id": "radixark/daisyrose-27b",
+        "name": "RadixArk: DaisyRose 27B",
+        "provider": "radixark",
+        "pricing": {
+          "prompt": "0.00000015",
+          "completion": "0.000001875",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 235929,
+        "expiration_date": null,
+        "created": 1795222188,
+        "first_seen": "2026-11-21",
+        "last_seen": "2026-11-21"
+      }
+    },
+    {
+      "ts": "2026-11-21",
+      "type": "model_added",
+      "id": "thinkingmachines/inkling-2-mini",
+      "provider": "thinkingmachines",
+      "snapshot": {
+        "id": "thinkingmachines/inkling-2-mini",
+        "name": "Thinking Machines: Inkling 2 Mini",
+        "provider": "thinkingmachines",
+        "pricing": {
+          "prompt": "0.0000001",
+          "completion": "0.0000004",
+          "image": null,
+          "request": null
+        },
+        "context_length": 1048576,
+        "max_completion_tokens": 65536,
+        "expiration_date": null,
+        "created": 1795227585,
+        "first_seen": "2026-11-21",
+        "last_seen": "2026-11-21"
+      }
+    },
     {
       "ts": "2026-11-20",
       "type": "model_removed",
@@ -140,245 +406,6 @@
           "pct_change": -25
         }
       ]
-    },
-    {
-      "ts": "2026-11-20",
-      "type": "price_changed",
-      "id": "tencent/hy3",
-      "provider": "tencent",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000132",
-          "next": "0.0000000825",
-          "pct_change": -37.5
-        },
-        {
-          "field": "completion",
-          "prev": "0.000000528",
-          "next": "0.00000033",
-          "pct_change": -37.5
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-20",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4-flash-vision-exp",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000044",
-          "next": "0.0000002156",
-          "pct_change": -51
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000132",
-          "next": "0.0000006468",
-          "pct_change": -51
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-20",
-      "type": "price_changed",
-      "id": "tencent/hy4-preview",
-      "provider": "tencent",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000834",
-          "next": "0.0000007506",
-          "pct_change": -10
-        },
-        {
-          "field": "completion",
-          "prev": "0.000002501",
-          "next": "0.0000022509",
-          "pct_change": -10
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-20",
-      "type": "price_changed",
-      "id": "~deepseek/deepseek-pro-latest",
-      "provider": "~deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000001663",
-          "next": "0.0000000999",
-          "pct_change": -39.93
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-20",
-      "type": "context_changed",
-      "id": "xiaomi/mimo-v2.6-pro",
-      "provider": "xiaomi",
-      "prev_context": 1050000,
-      "next_context": 1048576
-    },
-    {
-      "ts": "2026-11-20",
-      "type": "context_changed",
-      "id": "xiaomi/mimo-v2.6-flash",
-      "provider": "xiaomi",
-      "prev_context": 1050000,
-      "next_context": 1048576
-    },
-    {
-      "ts": "2026-11-20",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4.1-flash-1017",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000015",
-          "next": "0.000000036",
-          "pct_change": -76
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000006",
-          "next": "0.0000005",
-          "pct_change": -16.67
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-20",
-      "type": "model_removed",
-      "id": "x-ai/grok-build-0.1",
-      "provider": "x-ai",
-      "snapshot": {
-        "id": "x-ai/grok-build-0.1",
-        "name": "SpaceXAI: Grok Build 0.1",
-        "provider": "x-ai",
-        "pricing": {
-          "prompt": "0.000002",
-          "completion": "0.000004",
-          "image": null,
-          "request": null
-        },
-        "context_length": 256000,
-        "max_completion_tokens": 230400,
-        "expiration_date": null,
-        "created": 1779298123,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-11-20"
-      }
-    },
-    {
-      "ts": "2026-11-20",
-      "type": "model_removed",
-      "id": "meta-llama/llama-3.2-1b-instruct",
-      "provider": "meta-llama",
-      "snapshot": {
-        "id": "meta-llama/llama-3.2-1b-instruct",
-        "name": "Meta: Llama 3.2 1B Instruct",
-        "provider": "meta-llama",
-        "pricing": {
-          "prompt": "0.000000027",
-          "completion": "0.000000201",
-          "image": null,
-          "request": null
-        },
-        "context_length": 60000,
-        "max_completion_tokens": 54000,
-        "expiration_date": "2026-11-20",
-        "created": 1727222400,
-        "first_seen": "2026-05-27",
-        "last_seen": "2026-11-20"
-      }
-    },
-    {
-      "ts": "2026-11-20",
-      "type": "model_removed",
-      "id": "cohere/north-mini-code:free",
-      "provider": "cohere",
-      "snapshot": {
-        "id": "cohere/north-mini-code:free",
-        "name": "Cohere: North Mini Code (free)",
-        "provider": "cohere",
-        "pricing": {
-          "prompt": "0",
-          "completion": "0",
-          "image": null,
-          "request": null
-        },
-        "context_length": 256000,
-        "max_completion_tokens": 64000,
-        "expiration_date": null,
-        "created": 1781723748,
-        "first_seen": "2026-06-18",
-        "last_seen": "2026-11-20"
-      }
-    },
-    {
-      "ts": "2026-11-20",
-      "type": "price_changed",
-      "id": "meta-llama/llama-3.2-3b-instruct",
-      "provider": "meta-llama",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000000509",
-          "next": "0.00000005",
-          "pct_change": -1.77
-        },
-        {
-          "field": "completion",
-          "prev": "0.000000335",
-          "next": "0.00000033",
-          "pct_change": -1.49
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-20",
-      "type": "price_changed",
-      "id": "qwen/qwen3.5-27b",
-      "provider": "qwen",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000026",
-          "next": "0.000000195",
-          "pct_change": -25
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000026",
-          "next": "0.00000156",
-          "pct_change": -40
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-20",
-      "type": "price_changed",
-      "id": "google/gemma-4-26b-a4b-it",
-      "provider": "google",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000000765",
-          "next": "0.00000009",
-          "pct_change": 17.65
-        },
-        {
-          "field": "completion",
-          "prev": "0.000000255",
-          "next": "0.0000003",
-          "pct_change": 17.65
-        }
-      ]
     }
   ],
   "scheduled_funerals": [
@@ -446,11 +473,6 @@
       "id": "openai/o3:batch",
       "provider": "openai",
       "expiration_date": "2026-12-11"
-    },
-    {
-      "id": "dots-studio/dots-3-note-preview:free",
-      "provider": "dots-studio",
-      "expiration_date": "2026-12-31"
     },
     {
       "id": "z-ai/glm-4.5",
