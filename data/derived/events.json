@@ -88701,6 +88701,80 @@
           "pct_change": 252.94
         }
       ]
+    },
+    {
+      "ts": "2026-11-22",
+      "type": "price_changed",
+      "id": "minimax/minimax-m3.1-flash",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000015",
+          "next": "0.000000075",
+          "pct_change": -50
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000006",
+          "next": "0.0000003",
+          "pct_change": -50
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-22",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-pro-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000001188",
+          "next": "0.0000000999",
+          "pct_change": -15.91
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-22",
+      "type": "price_changed",
+      "id": "tencent/hy4-preview",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000834",
+          "next": "0.0000007506",
+          "pct_change": -10
+        },
+        {
+          "field": "completion",
+          "prev": "0.000002501",
+          "next": "0.0000022509",
+          "pct_change": -10
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-22",
+      "type": "price_changed",
+      "id": "openai/gpt-oss-20b",
+      "provider": "openai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000075",
+          "next": "0.00000003",
+          "pct_change": -60
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000003",
+          "next": "0.00000013",
+          "pct_change": -56.67
+        }
+      ]
     }
   ]
 }

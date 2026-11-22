@@ -91,7 +91,7 @@
       "name": "DeepSeek: DeepSeek Pro Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000001188",
+        "prompt": "0.0000000999",
         "completion": "0.000008",
         "image": null,
         "request": null
@@ -3049,8 +3049,8 @@
       "name": "MiniMax: MiniMax M3.1 Flash",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
+        "prompt": "0.000000075",
+        "completion": "0.0000003",
         "image": null,
         "request": null
       },
@@ -5650,13 +5650,13 @@
       "name": "OpenAI: gpt-oss-20b",
       "provider": "openai",
       "pricing": {
-        "prompt": "0.000000075",
-        "completion": "0.0000003",
+        "prompt": "0.00000003",
+        "completion": "0.00000013",
         "image": null,
         "request": null
       },
       "context_length": 131072,
-      "max_completion_tokens": 65536,
+      "max_completion_tokens": 117964,
       "expiration_date": null,
       "created": 1754414229,
       "first_seen": "2026-05-27",
@@ -7231,8 +7231,8 @@
       "name": "Tencent: Hy4 preview",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000834",
-        "completion": "0.000002501",
+        "prompt": "0.0000007506",
+        "completion": "0.0000022509",
         "image": null,
         "request": null
       },
