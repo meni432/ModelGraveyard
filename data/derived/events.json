@@ -88447,6 +88447,166 @@
           "pct_change": 17.65
         }
       ]
+    },
+    {
+      "ts": "2026-11-22",
+      "type": "price_changed",
+      "id": "minimax/minimax-m3.1-flash",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000075",
+          "next": "0.00000015",
+          "pct_change": 100
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000003",
+          "next": "0.0000006",
+          "pct_change": 100
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-22",
+      "type": "price_changed",
+      "id": "tencent/hy4-preview",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000007506",
+          "next": "0.000000834",
+          "pct_change": 11.11
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000022509",
+          "next": "0.000002501",
+          "pct_change": 11.11
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-22",
+      "type": "price_changed",
+      "id": "qwen/qwen3.8-27b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000006",
+          "next": "0.000000035",
+          "pct_change": -41.67
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000196",
+          "next": "0.0000015",
+          "pct_change": -23.47
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-22",
+      "type": "price_changed",
+      "id": "tencent/hy3",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000825",
+          "next": "0.00000014",
+          "pct_change": 69.7
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000033",
+          "next": "0.00000058",
+          "pct_change": 75.76
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-22",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.1",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000014",
+          "next": "0.00000119",
+          "pct_change": -15
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000044",
+          "next": "0.00000374",
+          "pct_change": -15
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-22",
+      "type": "price_changed",
+      "id": "qwen/qwen3.5-27b",
+      "provider": "qwen",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000195",
+          "next": "0.00000026",
+          "pct_change": 33.33
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000156",
+          "next": "0.0000026",
+          "pct_change": 66.67
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-22",
+      "type": "price_changed",
+      "id": "google/gemma-3-4b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000005",
+          "next": "0.00000004",
+          "pct_change": -20
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000001",
+          "next": "0.00000005",
+          "pct_change": -50
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-22",
+      "type": "price_changed",
+      "id": "gryphe/mythomax-l2-13b",
+      "provider": "gryphe",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000008",
+          "next": "0.0000003",
+          "pct_change": 275
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000011",
+          "next": "0.0000005",
+          "pct_change": 354.55
+        }
+      ]
     }
   ]
 }
