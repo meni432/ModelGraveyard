@@ -91,7 +91,7 @@
       "name": "DeepSeek: DeepSeek Pro Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000000999",
+        "prompt": "0.0000001188",
         "completion": "0.000008",
         "image": null,
         "request": null
@@ -3610,8 +3610,8 @@
       "name": "MoonshotAI: Kimi K3.1 Pro",
       "provider": "moonshotai",
       "pricing": {
-        "prompt": "0.000000253",
-        "completion": "0.0000088",
+        "prompt": "0.0000002403",
+        "completion": "0.0000084023",
         "image": null,
         "request": null
       },
@@ -5650,13 +5650,13 @@
       "name": "OpenAI: gpt-oss-20b",
       "provider": "openai",
       "pricing": {
-        "prompt": "0.000000017",
-        "completion": "0.000000085",
+        "prompt": "0.000000075",
+        "completion": "0.0000003",
         "image": null,
         "request": null
       },
       "context_length": 131072,
-      "max_completion_tokens": 117964,
+      "max_completion_tokens": 65536,
       "expiration_date": null,
       "created": 1754414229,
       "first_seen": "2026-05-27",
@@ -7843,8 +7843,8 @@
       "name": "Z.ai: GLM 4.7",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.0000004",
-        "completion": "0.00000175",
+        "prompt": "0.0000006",
+        "completion": "0.0000022",
         "image": null,
         "request": null
       },
@@ -7911,8 +7911,8 @@
       "name": "Z.ai: GLM 5.1",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.00000119",
-        "completion": "0.00000374",
+        "prompt": "0.0000014",
+        "completion": "0.0000044",
         "image": null,
         "request": null
       },
