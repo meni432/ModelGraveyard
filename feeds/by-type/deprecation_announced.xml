@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-type/deprecation_announced.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/deprecation_announced.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-11-18T00:00:00Z</updated>
+  <updated>2026-11-23T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-23:deprecation_announced:nvidia%2Fnemotron-3.5-content-safety</id>
+    <title>Deprecation announced: nvidia/nemotron-3.5-content-safety (sunset 2026-11-30)</title>
+    <updated>2026-11-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/nvidia%2Fnemotron-3.5-content-safety"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:nvidia"/>
+    <summary>Provider announced retirement on 2026-11-30.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-11-18:deprecation_announced:thinkingmachines%2Finkling-2-small%3Afree</id>
     <title>Deprecation announced: thinkingmachines/inkling-2-small:free (sunset 2026-11-19)</title>
@@ -895,14 +904,5 @@
     <category term="deprecation_announced"/>
     <category term="provider:dots-studio"/>
     <summary>Provider announced retirement on 2026-09-30.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-11:deprecation_announced:z-ai%2Fglm-5v-turbo</id>
-    <title>Deprecation announced: z-ai/glm-5v-turbo (sunset 2098-12-31)</title>
-    <updated>2026-09-11T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5v-turbo"/>
-    <category term="deprecation_announced"/>
-    <category term="provider:z-ai"/>
-    <summary>Provider announced retirement on 2098-12-31.</summary>
   </entry>
 </feed>

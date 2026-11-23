@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/openai.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/openai.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-11-22T00:00:00Z</updated>
+  <updated>2026-11-23T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-23:price_changed:openai%2Fgpt-oss-120b</id>
+    <title>Price changed: openai/gpt-oss-120b</title>
+    <updated>2026-11-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-oss-120b"/>
+    <category term="price_changed"/>
+    <category term="provider:openai"/>
+    <summary>prompt: $0.0900/Mtok → $0.0500/Mtok (-44.44%); completion: $0.3600/Mtok → $0.2500/Mtok (-30.56%)</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-11-22:price_changed:openai%2Fgpt-oss-20b</id>
     <title>Price changed: openai/gpt-oss-20b</title>
@@ -895,14 +904,5 @@
     <category term="disagreement_detected"/>
     <category term="provider:openai"/>
     <summary>OpenRouter says removed; LiteLLM still lists it as gpt-5.1-chat-latest.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-24:disagreement_detected:openai%2Fo4-mini-deep-research</id>
-    <title>Catalog disagreement: openai/o4-mini-deep-research</title>
-    <updated>2026-09-24T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fo4-mini-deep-research"/>
-    <category term="disagreement_detected"/>
-    <category term="provider:openai"/>
-    <summary>OpenRouter says removed; LiteLLM still lists it as o4-mini-deep-research.</summary>
   </entry>
 </feed>
