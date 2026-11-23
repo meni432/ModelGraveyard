@@ -1,9 +1,242 @@
 {
   "generated_at": "2026-11-23",
-  "active_count": 477,
-  "dead_count": 280,
+  "active_count": 476,
+  "dead_count": 281,
   "last_event_ts": "2026-11-23",
   "recent_events": [
+    {
+      "ts": "2026-11-23",
+      "type": "model_removed",
+      "id": "xiaomi/mimo-v2.5-pro",
+      "provider": "xiaomi",
+      "snapshot": {
+        "id": "xiaomi/mimo-v2.5-pro",
+        "name": "Xiaomi: MiMo-V2.5-Pro",
+        "provider": "xiaomi",
+        "pricing": {
+          "prompt": "0.00000048",
+          "completion": "0.0000018",
+          "image": null,
+          "request": null
+        },
+        "context_length": 262144,
+        "max_completion_tokens": 235929,
+        "expiration_date": null,
+        "created": 1776874273,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-11-23"
+      }
+    },
+    {
+      "ts": "2026-11-23",
+      "type": "price_changed",
+      "id": "google/gemma-4-26b-a4b-it",
+      "provider": "google",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000009",
+          "next": "0.0000000765",
+          "pct_change": -15
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000003",
+          "next": "0.000000255",
+          "pct_change": -15
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-23",
+      "type": "context_changed",
+      "id": "thinkingmachines/inkling",
+      "provider": "thinkingmachines",
+      "prev_context": 524288,
+      "next_context": 1048576
+    },
+    {
+      "ts": "2026-11-23",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000132",
+          "next": "0.000000111",
+          "pct_change": -91.59
+        },
+        {
+          "field": "completion",
+          "prev": "0.00000396",
+          "next": "0.00000444",
+          "pct_change": 12.12
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-23",
+      "type": "price_changed",
+      "id": "z-ai/glm-5.3-flash",
+      "provider": "z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000399",
+          "next": "0.00000015",
+          "pct_change": 275.94
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000000784",
+          "next": "0.0000005",
+          "pct_change": 537.76
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-23",
+      "type": "price_changed",
+      "id": "~z-ai/glm-flash-latest",
+      "provider": "~z-ai",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000399",
+          "next": "0.0000000356",
+          "pct_change": -10.78
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000000784",
+          "next": "0.0000000815",
+          "pct_change": 3.95
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-23",
+      "type": "price_changed",
+      "id": "tencent/hy4-preview",
+      "provider": "tencent",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000834",
+          "next": "0.0000007506",
+          "pct_change": -10
+        },
+        {
+          "field": "completion",
+          "prev": "0.000002501",
+          "next": "0.0000022509",
+          "pct_change": -10
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-23",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4.1-flash",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000000498",
+          "next": "0.0000003",
+          "pct_change": 502.41
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000001992",
+          "next": "0.0000012",
+          "pct_change": 502.41
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-23",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-flash-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.000000036",
+          "next": "0.00000003",
+          "pct_change": -16.67
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000005",
+          "next": "0.0000002",
+          "pct_change": -60
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-23",
+      "type": "price_changed",
+      "id": "~deepseek/deepseek-pro-latest",
+      "provider": "~deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000001188",
+          "next": "0.0000000999",
+          "pct_change": -15.91
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-23",
+      "type": "context_changed",
+      "id": "inclusionai/ling-3.1-flash",
+      "provider": "inclusionai",
+      "prev_context": 1000000,
+      "next_context": 1048576
+    },
+    {
+      "ts": "2026-11-23",
+      "type": "price_changed",
+      "id": "deepseek/deepseek-v4.1-flash-1017",
+      "provider": "deepseek",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.0000003",
+          "next": "0.00000003",
+          "pct_change": -90
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000012",
+          "next": "0.0000002",
+          "pct_change": -83.33
+        }
+      ]
+    },
+    {
+      "ts": "2026-11-23",
+      "type": "price_changed",
+      "id": "minimax/minimax-m3.1-flash",
+      "provider": "minimax",
+      "changes": [
+        {
+          "field": "prompt",
+          "prev": "0.00000015",
+          "next": "0.000000075",
+          "pct_change": -50
+        },
+        {
+          "field": "completion",
+          "prev": "0.0000006",
+          "next": "0.0000003",
+          "pct_change": -50
+        }
+      ]
+    },
     {
       "ts": "2026-11-23",
       "type": "price_changed",
@@ -117,257 +350,6 @@
           "prev": "0.000000132",
           "next": "0.0000003",
           "pct_change": 127.27
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-23",
-      "type": "model_added",
-      "id": "dots-studio/dots-3-note-preview:free",
-      "provider": "dots-studio",
-      "snapshot": {
-        "id": "dots-studio/dots-3-note-preview:free",
-        "name": "Dots Studio: Dots3-Note Preview (free)",
-        "provider": "dots-studio",
-        "pricing": {
-          "prompt": "0",
-          "completion": "0",
-          "image": null,
-          "request": null
-        },
-        "context_length": 512000,
-        "max_completion_tokens": 460800,
-        "expiration_date": "2026-12-31",
-        "created": 1786680361,
-        "first_seen": "2026-11-23",
-        "last_seen": "2026-11-23"
-      }
-    },
-    {
-      "ts": "2026-11-23",
-      "type": "price_changed",
-      "id": "tencent/hy4-preview",
-      "provider": "tencent",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000007506",
-          "next": "0.000000834",
-          "pct_change": 11.11
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000022509",
-          "next": "0.000002501",
-          "pct_change": 11.11
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-23",
-      "type": "price_changed",
-      "id": "~deepseek/deepseek-pro-latest",
-      "provider": "~deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000000999",
-          "next": "0.0000001188",
-          "pct_change": 18.92
-        },
-        {
-          "field": "completion",
-          "prev": "0.000008",
-          "next": "0.000005",
-          "pct_change": -37.5
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-23",
-      "type": "price_changed",
-      "id": "deepseek/deepseek-v4.1-flash-1017",
-      "provider": "deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000015",
-          "next": "0.0000003",
-          "pct_change": 100
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000006",
-          "next": "0.0000012",
-          "pct_change": 100
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-23",
-      "type": "price_changed",
-      "id": "minimax/minimax-m3.1-flash",
-      "provider": "minimax",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000075",
-          "next": "0.00000015",
-          "pct_change": 100
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000003",
-          "next": "0.0000006",
-          "pct_change": 100
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-22",
-      "type": "price_changed",
-      "id": "openai/gpt-oss-20b",
-      "provider": "openai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000075",
-          "next": "0.00000003",
-          "pct_change": -60
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000003",
-          "next": "0.00000013",
-          "pct_change": -56.67
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-22",
-      "type": "price_changed",
-      "id": "tencent/hy4-preview",
-      "provider": "tencent",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000834",
-          "next": "0.0000007506",
-          "pct_change": -10
-        },
-        {
-          "field": "completion",
-          "prev": "0.000002501",
-          "next": "0.0000022509",
-          "pct_change": -10
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-22",
-      "type": "price_changed",
-      "id": "~deepseek/deepseek-pro-latest",
-      "provider": "~deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000001188",
-          "next": "0.0000000999",
-          "pct_change": -15.91
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-22",
-      "type": "price_changed",
-      "id": "minimax/minimax-m3.1-flash",
-      "provider": "minimax",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000015",
-          "next": "0.000000075",
-          "pct_change": -50
-        },
-        {
-          "field": "completion",
-          "prev": "0.0000006",
-          "next": "0.0000003",
-          "pct_change": -50
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-22",
-      "type": "price_changed",
-      "id": "openai/gpt-oss-20b",
-      "provider": "openai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.000000017",
-          "next": "0.000000075",
-          "pct_change": 341.18
-        },
-        {
-          "field": "completion",
-          "prev": "0.000000085",
-          "next": "0.0000003",
-          "pct_change": 252.94
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-22",
-      "type": "price_changed",
-      "id": "z-ai/glm-4.7",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000004",
-          "next": "0.0000006",
-          "pct_change": 50
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000175",
-          "next": "0.0000022",
-          "pct_change": 25.71
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-22",
-      "type": "price_changed",
-      "id": "z-ai/glm-5.1",
-      "provider": "z-ai",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.00000119",
-          "next": "0.0000014",
-          "pct_change": 17.65
-        },
-        {
-          "field": "completion",
-          "prev": "0.00000374",
-          "next": "0.0000044",
-          "pct_change": 17.65
-        }
-      ]
-    },
-    {
-      "ts": "2026-11-22",
-      "type": "price_changed",
-      "id": "~deepseek/deepseek-pro-latest",
-      "provider": "~deepseek",
-      "changes": [
-        {
-          "field": "prompt",
-          "prev": "0.0000000999",
-          "next": "0.0000001188",
-          "pct_change": 18.92
         }
       ]
     }

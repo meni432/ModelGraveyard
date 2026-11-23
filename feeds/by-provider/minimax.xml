@@ -15,6 +15,15 @@
     <summary>prompt: $0.0750/Mtok → $0.1500/Mtok (+100%); completion: $0.3000/Mtok → $0.6000/Mtok (+100%)</summary>
   </entry>
   <entry>
+    <id>tag:modelgraveyard,2026-11-23:price_changed:minimax%2Fminimax-m3.1-flash</id>
+    <title>Price changed: minimax/minimax-m3.1-flash</title>
+    <updated>2026-11-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/minimax%2Fminimax-m3.1-flash"/>
+    <category term="price_changed"/>
+    <category term="provider:minimax"/>
+    <summary>prompt: $0.1500/Mtok → $0.0750/Mtok (-50%); completion: $0.6000/Mtok → $0.3000/Mtok (-50%)</summary>
+  </entry>
+  <entry>
     <id>tag:modelgraveyard,2026-11-22:price_changed:minimax%2Fminimax-m3.1-flash</id>
     <title>Price changed: minimax/minimax-m3.1-flash</title>
     <updated>2026-11-22T00:00:00Z</updated>
@@ -895,14 +904,5 @@
     <category term="price_changed"/>
     <category term="provider:minimax"/>
     <summary>completion: $0.9500/Mtok → $1.0800/Mtok (+13.68%)</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-08-21:price_changed:minimax%2Fminimax-m2.5</id>
-    <title>Price changed: minimax/minimax-m2.5</title>
-    <updated>2026-08-21T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/minimax%2Fminimax-m2.5"/>
-    <category term="price_changed"/>
-    <category term="provider:minimax"/>
-    <summary>prompt: $0.2250/Mtok → $0.2700/Mtok (+20%); completion: $0.9000/Mtok → $0.9500/Mtok (+5.56%)</summary>
   </entry>
 </feed>

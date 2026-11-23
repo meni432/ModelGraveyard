@@ -1,6 +1,23 @@
 {
   "buried": [
     {
+      "id": "xiaomi/mimo-v2.5-pro",
+      "name": "Xiaomi: MiMo-V2.5-Pro",
+      "provider": "xiaomi",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000048",
+        "completion": "0.0000018",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-11-23",
+      "buried_at": "2026-11-23",
+      "suggested_replacement": "xiaomi/mimo-v2.5"
+    },
+    {
       "id": "dots-studio/dots-3-note-preview:free",
       "name": "Dots Studio: Dots3-Note Preview (free)",
       "provider": "dots-studio",

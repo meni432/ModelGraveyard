@@ -74,13 +74,13 @@
       "name": "DeepSeek: DeepSeek Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.000000036",
-        "completion": "0.0000005",
+        "prompt": "0.00000003",
+        "completion": "0.0000002",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 943718,
+      "max_completion_tokens": 393216,
       "expiration_date": null,
       "created": 1789399150,
       "first_seen": "2026-09-14",
@@ -91,7 +91,7 @@
       "name": "DeepSeek: DeepSeek Pro Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.0000001188",
+        "prompt": "0.0000000999",
         "completion": "0.000005",
         "image": null,
         "request": null
@@ -295,8 +295,8 @@
       "name": "Z.ai: GLM Flash Latest",
       "provider": "~z-ai",
       "pricing": {
-        "prompt": "0.0000000399",
-        "completion": "0.0000000784",
+        "prompt": "0.0000000356",
+        "completion": "0.0000000815",
         "image": null,
         "request": null
       },
@@ -1485,8 +1485,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000132",
-        "completion": "0.00000396",
+        "prompt": "0.000000111",
+        "completion": "0.00000444",
         "image": null,
         "request": null
       },
@@ -1502,13 +1502,13 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000000498",
-        "completion": "0.0000001992",
+        "prompt": "0.0000003",
+        "completion": "0.0000012",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 393216,
+      "max_completion_tokens": 943718,
       "expiration_date": null,
       "created": 1789021285,
       "first_seen": "2026-09-10",
@@ -1519,8 +1519,8 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000003",
-        "completion": "0.0000012",
+        "prompt": "0.00000003",
+        "completion": "0.0000002",
         "image": null,
         "request": null
       },
@@ -2352,8 +2352,8 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.00000009",
-        "completion": "0.0000003",
+        "prompt": "0.0000000765",
+        "completion": "0.000000255",
         "image": null,
         "request": null
       },
@@ -2544,7 +2544,7 @@
         "image": null,
         "request": null
       },
-      "context_length": 1000000,
+      "context_length": 1048576,
       "max_completion_tokens": 262144,
       "expiration_date": null,
       "created": 1790950024,
@@ -3066,8 +3066,8 @@
       "name": "MiniMax: MiniMax M3.1 Flash",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
+        "prompt": "0.000000075",
+        "completion": "0.0000003",
         "image": null,
         "request": null
       },
@@ -7248,8 +7248,8 @@
       "name": "Tencent: Hy4 preview",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000834",
-        "completion": "0.000002501",
+        "prompt": "0.0000007506",
+        "completion": "0.0000022509",
         "image": null,
         "request": null
       },
@@ -7321,7 +7321,7 @@
         "image": null,
         "request": null
       },
-      "context_length": 524288,
+      "context_length": 1048576,
       "max_completion_tokens": 471859,
       "expiration_date": null,
       "created": 1784325956,
@@ -7703,23 +7703,6 @@
       "last_seen": "2026-11-23"
     },
     {
-      "id": "xiaomi/mimo-v2.5-pro",
-      "name": "Xiaomi: MiMo-V2.5-Pro",
-      "provider": "xiaomi",
-      "pricing": {
-        "prompt": "0.00000048",
-        "completion": "0.0000018",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 235929,
-      "expiration_date": null,
-      "created": 1776874273,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-11-23"
-    },
-    {
       "id": "xiaomi/mimo-v2.6-flash",
       "name": "Xiaomi: MiMo-V2.6-Flash",
       "provider": "xiaomi",
@@ -7996,13 +7979,13 @@
       "name": "Z.ai: GLM 5.3 Flash",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.0000000399",
-        "completion": "0.0000000784",
+        "prompt": "0.00000015",
+        "completion": "0.0000005",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 943717,
       "expiration_date": null,
       "created": 1787752741,
       "first_seen": "2026-08-26",
