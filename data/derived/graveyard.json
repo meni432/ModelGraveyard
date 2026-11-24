@@ -1,6 +1,57 @@
 {
   "buried": [
     {
+      "id": "moonshotai/kimi-k2",
+      "name": "MoonshotAI: Kimi K2 0711",
+      "provider": "moonshotai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000057",
+        "completion": "0.0000023",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 131072,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-11-23",
+      "buried_at": "2026-11-24",
+      "suggested_replacement": "moonshotai/kimi-k2.7-code"
+    },
+    {
+      "id": "moonshotai/kimi-k2-0905",
+      "name": "MoonshotAI: Kimi K2 0905",
+      "provider": "moonshotai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000006",
+        "completion": "0.0000025",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-11-23",
+      "buried_at": "2026-11-24",
+      "suggested_replacement": "moonshotai/kimi-k2.7-code"
+    },
+    {
+      "id": "moonshotai/kimi-k2-thinking",
+      "name": "MoonshotAI: Kimi K2 Thinking",
+      "provider": "moonshotai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000006",
+        "completion": "0.0000025",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-11-23",
+      "buried_at": "2026-11-24",
+      "suggested_replacement": "moonshotai/kimi-k2.7-code"
+    },
+    {
       "id": "xiaomi/mimo-v2.5-pro",
       "name": "Xiaomi: MiMo-V2.5-Pro",
       "provider": "xiaomi",

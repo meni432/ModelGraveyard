@@ -4,7 +4,34 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_removed.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_removed.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-11-23T00:00:00Z</updated>
+  <updated>2026-11-24T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-24:model_removed:moonshotai%2Fkimi-k2</id>
+    <title>Removed: moonshotai/kimi-k2</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k2"/>
+    <category term="model_removed"/>
+    <category term="provider:moonshotai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.5700/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-24:model_removed:moonshotai%2Fkimi-k2-0905</id>
+    <title>Removed: moonshotai/kimi-k2-0905</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k2-0905"/>
+    <category term="model_removed"/>
+    <category term="provider:moonshotai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.6000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-24:model_removed:moonshotai%2Fkimi-k2-thinking</id>
+    <title>Removed: moonshotai/kimi-k2-thinking</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k2-thinking"/>
+    <category term="model_removed"/>
+    <category term="provider:moonshotai"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.6000/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-11-23:model_removed:xiaomi%2Fmimo-v2.5-pro</id>
     <title>Removed: xiaomi/mimo-v2.5-pro</title>
@@ -877,32 +904,5 @@
     <category term="model_removed"/>
     <category term="provider:nex-agi"/>
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-25:model_removed:z-ai%2Fglm-5.2%3Afree</id>
-    <title>Removed: z-ai/glm-5.2:free</title>
-    <updated>2026-09-25T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.2%3Afree"/>
-    <category term="model_removed"/>
-    <category term="provider:z-ai"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-24:model_removed:nex-agi%2Fnex-n2.5-mini</id>
-    <title>Removed: nex-agi/nex-n2.5-mini</title>
-    <updated>2026-09-24T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/nex-agi%2Fnex-n2.5-mini"/>
-    <category term="model_removed"/>
-    <category term="provider:nex-agi"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0250/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-24:model_removed:nex-agi%2Fnex-n2.5-pro</id>
-    <title>Removed: nex-agi/nex-n2.5-pro</title>
-    <updated>2026-09-24T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/nex-agi%2Fnex-n2.5-pro"/>
-    <category term="model_removed"/>
-    <category term="provider:nex-agi"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0750/Mtok.</summary>
   </entry>
 </feed>
