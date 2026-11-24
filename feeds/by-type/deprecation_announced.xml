@@ -4,7 +4,43 @@
   <id>https://modelgraveyard.com/feeds/by-type/deprecation_announced.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/deprecation_announced.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-11-23T00:00:00Z</updated>
+  <updated>2026-11-24T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-24:deprecation_announced:unbiased%2Fpareto-26.10</id>
+    <title>Deprecation announced: unbiased/pareto-26.10 (sunset 2026-11-25)</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/unbiased%2Fpareto-26.10"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:unbiased"/>
+    <summary>Provider announced retirement on 2026-11-25.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-24:deprecation_announced:~unbiased%2Fpareto-latest</id>
+    <title>Deprecation announced: ~unbiased/pareto-latest (sunset 2026-11-25)</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/~unbiased%2Fpareto-latest"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:~unbiased"/>
+    <summary>Provider announced retirement on 2026-11-25.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-24:deprecation_announced:unbiased%2Fpareto-26.9</id>
+    <title>Deprecation announced: unbiased/pareto-26.9 (sunset 2026-11-25)</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/unbiased%2Fpareto-26.9"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:unbiased"/>
+    <summary>Provider announced retirement on 2026-11-25.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-24:deprecation_announced:unbiased%2Fpareto-26.10-preview</id>
+    <title>Deprecation announced: unbiased/pareto-26.10-preview (sunset 2026-11-25)</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/unbiased%2Fpareto-26.10-preview"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:unbiased"/>
+    <summary>Provider announced retirement on 2026-11-25.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-11-23:deprecation_announced:nvidia%2Fnemotron-3.5-content-safety</id>
     <title>Deprecation announced: nvidia/nemotron-3.5-content-safety (sunset 2026-11-30)</title>
@@ -868,41 +904,5 @@
     <category term="deprecation_announced"/>
     <category term="provider:google"/>
     <summary>Provider announced retirement on 2026-10-20.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-13:deprecation_announced:z-ai%2Fglm-5.3-flash</id>
-    <title>Deprecation announced: z-ai/glm-5.3-flash (sunset 2098-12-31)</title>
-    <updated>2026-09-13T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.3-flash"/>
-    <category term="deprecation_announced"/>
-    <category term="provider:z-ai"/>
-    <summary>Provider announced retirement on 2098-12-31.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-12:deprecation_announced:z-ai%2Fglm-5.3-flash</id>
-    <title>Deprecation announced: z-ai/glm-5.3-flash (sunset 2098-12-31)</title>
-    <updated>2026-09-12T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.3-flash"/>
-    <category term="deprecation_announced"/>
-    <category term="provider:z-ai"/>
-    <summary>Provider announced retirement on 2098-12-31.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-11:deprecation_announced:z-ai%2Fglm-5.3-flash</id>
-    <title>Deprecation announced: z-ai/glm-5.3-flash (sunset 2098-12-31)</title>
-    <updated>2026-09-11T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-5.3-flash"/>
-    <category term="deprecation_announced"/>
-    <category term="provider:z-ai"/>
-    <summary>Provider announced retirement on 2098-12-31.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-11:deprecation_announced:dots-studio%2Fdots-3-note-preview%3Afree</id>
-    <title>Deprecation announced: dots-studio/dots-3-note-preview:free (sunset 2026-09-30)</title>
-    <updated>2026-09-11T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/dots-studio%2Fdots-3-note-preview%3Afree"/>
-    <category term="deprecation_announced"/>
-    <category term="provider:dots-studio"/>
-    <summary>Provider announced retirement on 2026-09-30.</summary>
   </entry>
 </feed>

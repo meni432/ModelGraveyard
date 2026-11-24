@@ -4,7 +4,16 @@
   <id>https://modelgraveyard.com/feeds/by-provider/~unbiased.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/~unbiased.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-10-18T00:00:00Z</updated>
+  <updated>2026-11-24T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-24:deprecation_announced:~unbiased%2Fpareto-latest</id>
+    <title>Deprecation announced: ~unbiased/pareto-latest (sunset 2026-11-25)</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/~unbiased%2Fpareto-latest"/>
+    <category term="deprecation_announced"/>
+    <category term="provider:~unbiased"/>
+    <summary>Provider announced retirement on 2026-11-25.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-10-18:price_changed:~unbiased%2Fpareto-latest</id>
     <title>Price changed: ~unbiased/pareto-latest</title>

@@ -1,6 +1,40 @@
 {
   "buried": [
     {
+      "id": "mistralai/mistral-medium-3",
+      "name": "Mistral: Mistral Medium 3",
+      "provider": "mistralai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000044",
+        "completion": "0.0000022",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 131072,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-11-24",
+      "buried_at": "2026-11-24",
+      "suggested_replacement": "mistralai/ministral-3b-2512"
+    },
+    {
+      "id": "mistralai/mistral-medium-3.1",
+      "name": "Mistral: Mistral Medium 3.1",
+      "provider": "mistralai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000044",
+        "completion": "0.0000022",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 131072,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-11-24",
+      "buried_at": "2026-11-24",
+      "suggested_replacement": "mistralai/ministral-3b-2512"
+    },
+    {
       "id": "moonshotai/kimi-k2",
       "name": "MoonshotAI: Kimi K2 0711",
       "provider": "moonshotai",
@@ -50,6 +84,23 @@
       "last_seen": "2026-11-23",
       "buried_at": "2026-11-24",
       "suggested_replacement": "moonshotai/kimi-k2.7-code"
+    },
+    {
+      "id": "xiaomi/mimo-v2.5",
+      "name": "Xiaomi: MiMo-V2.5",
+      "provider": "xiaomi",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000004",
+        "completion": "0.000002",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 1000000,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-11-24",
+      "buried_at": "2026-11-24",
+      "suggested_replacement": "xiaomi/mimo-v2.6-pro-ultraspeed"
     },
     {
       "id": "xiaomi/mimo-v2.5-pro",

@@ -108,13 +108,13 @@
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.000000047",
-        "completion": "0.0000003",
+        "prompt": "0.00000004532",
+        "completion": "0.00000013596",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 943718,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1785606009,
       "first_seen": "2026-08-01",
@@ -268,7 +268,7 @@
       },
       "context_length": 1048576,
       "max_completion_tokens": 131072,
-      "expiration_date": null,
+      "expiration_date": "2026-11-25",
       "created": 1791933050,
       "first_seen": "2026-10-14",
       "last_seen": "2026-11-24"
@@ -1417,7 +1417,7 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000047",
+        "prompt": "0.0000000456",
         "completion": "0.0000003",
         "image": null,
         "request": null
@@ -1451,13 +1451,13 @@
       "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000002156",
-        "completion": "0.0000006468",
+        "prompt": "0.00000044",
+        "completion": "0.00000132",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": 393216,
       "expiration_date": null,
       "created": 1787311563,
       "first_seen": "2026-08-21",
@@ -1502,8 +1502,8 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000014",
-        "completion": "0.00000042",
+        "prompt": "0.0000000507",
+        "completion": "0.0000002028",
         "image": null,
         "request": null
       },
@@ -1563,23 +1563,6 @@
       "expiration_date": null,
       "created": 1789021285,
       "first_seen": "2026-09-22",
-      "last_seen": "2026-11-24"
-    },
-    {
-      "id": "dots-studio/dots-3-note-preview:free",
-      "name": "Dots Studio: Dots3-Note Preview (free)",
-      "provider": "dots-studio",
-      "pricing": {
-        "prompt": "0",
-        "completion": "0",
-        "image": null,
-        "request": null
-      },
-      "context_length": 512000,
-      "max_completion_tokens": 460800,
-      "expiration_date": "2026-12-31",
-      "created": 1786680361,
-      "first_seen": "2026-11-23",
       "last_seen": "2026-11-24"
     },
     {
@@ -2352,8 +2335,8 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.00000009",
-        "completion": "0.0000003",
+        "prompt": "0.0000000765",
+        "completion": "0.000000255",
         "image": null,
         "request": null
       },
@@ -2998,13 +2981,13 @@
       "name": "MiniMax: MiniMax M2.5",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0.00000027",
-        "completion": "0.00000095",
+        "prompt": "0.0000003",
+        "completion": "0.0000012",
         "image": null,
         "request": null
       },
-      "context_length": 198000,
-      "max_completion_tokens": 32768,
+      "context_length": 65536,
+      "max_completion_tokens": 58982,
       "expiration_date": null,
       "created": 1770908502,
       "first_seen": "2026-05-27",
@@ -3066,8 +3049,8 @@
       "name": "MiniMax: MiniMax M3.1 Flash",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
+        "prompt": "0.000000075",
+        "completion": "0.0000003",
         "image": null,
         "request": null
       },
@@ -3232,23 +3215,6 @@
       "last_seen": "2026-11-24"
     },
     {
-      "id": "mistralai/mistral-medium-3",
-      "name": "Mistral: Mistral Medium 3",
-      "provider": "mistralai",
-      "pricing": {
-        "prompt": "0.00000044",
-        "completion": "0.0000022",
-        "image": null,
-        "request": null
-      },
-      "context_length": 131072,
-      "max_completion_tokens": 104857,
-      "expiration_date": null,
-      "created": 1746627341,
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-11-24"
-    },
-    {
       "id": "mistralai/mistral-medium-3-5",
       "name": "Mistral: Mistral Medium 3.5",
       "provider": "mistralai",
@@ -3280,23 +3246,6 @@
       "expiration_date": null,
       "created": 1777570439,
       "first_seen": "2026-08-28",
-      "last_seen": "2026-11-24"
-    },
-    {
-      "id": "mistralai/mistral-medium-3.1",
-      "name": "Mistral: Mistral Medium 3.1",
-      "provider": "mistralai",
-      "pricing": {
-        "prompt": "0.00000044",
-        "completion": "0.0000022",
-        "image": null,
-        "request": null
-      },
-      "context_length": 131072,
-      "max_completion_tokens": 104857,
-      "expiration_date": null,
-      "created": 1755095639,
-      "first_seen": "2026-05-27",
       "last_seen": "2026-11-24"
     },
     {
@@ -6517,8 +6466,8 @@
       "name": "Qwen: Qwen3.6 35B A3B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.00000005",
-        "completion": "0.0000007",
+        "prompt": "0.0000001",
+        "completion": "0.00000089",
         "image": null,
         "request": null
       },
@@ -6653,13 +6602,13 @@
       "name": "Qwen: Qwen3.8 27B",
       "provider": "qwen",
       "pricing": {
-        "prompt": "0.000000035",
-        "completion": "0.0000015",
+        "prompt": "0.00000006",
+        "completion": "0.00000196",
         "image": null,
         "request": null
       },
       "context_length": 1024000,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 235929,
       "expiration_date": null,
       "created": 1786722910,
       "first_seen": "2026-08-15",
@@ -7146,8 +7095,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },
@@ -7197,8 +7146,8 @@
       "name": "Tencent: Hy4 preview",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000834",
-        "completion": "0.000002501",
+        "prompt": "0.0000007506",
+        "completion": "0.0000022509",
         "image": null,
         "request": null
       },
@@ -7374,7 +7323,7 @@
       },
       "context_length": 1048576,
       "max_completion_tokens": 131072,
-      "expiration_date": null,
+      "expiration_date": "2026-11-25",
       "created": 1792073620,
       "first_seen": "2026-10-18",
       "last_seen": "2026-11-24"
@@ -7391,7 +7340,7 @@
       },
       "context_length": 1048576,
       "max_completion_tokens": 131072,
-      "expiration_date": null,
+      "expiration_date": "2026-11-25",
       "created": 1790863623,
       "first_seen": "2026-11-12",
       "last_seen": "2026-11-24"
@@ -7408,7 +7357,7 @@
       },
       "context_length": 262144,
       "max_completion_tokens": 131072,
-      "expiration_date": null,
+      "expiration_date": "2026-11-25",
       "created": 1791930537,
       "first_seen": "2026-10-14",
       "last_seen": "2026-11-24"
@@ -7632,23 +7581,6 @@
       "expiration_date": null,
       "created": 1790007541,
       "first_seen": "2026-11-03",
-      "last_seen": "2026-11-24"
-    },
-    {
-      "id": "xiaomi/mimo-v2.5",
-      "name": "Xiaomi: MiMo-V2.5",
-      "provider": "xiaomi",
-      "pricing": {
-        "prompt": "0.0000004",
-        "completion": "0.000002",
-        "image": null,
-        "request": null
-      },
-      "context_length": 1000000,
-      "max_completion_tokens": 65536,
-      "expiration_date": null,
-      "created": 1776874269,
-      "first_seen": "2026-05-27",
       "last_seen": "2026-11-24"
     },
     {
@@ -7928,13 +7860,13 @@
       "name": "Z.ai: GLM 5.3 Flash",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.00000012",
-        "completion": "0.00000038",
+        "prompt": "0.00000015",
+        "completion": "0.0000005",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 943718,
+      "max_completion_tokens": 943717,
       "expiration_date": null,
       "created": 1787752741,
       "first_seen": "2026-08-26",
