@@ -4,7 +4,34 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_removed.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_removed.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-11-24T00:00:00Z</updated>
+  <updated>2026-11-25T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-25:model_removed:unbiased%2Fpareto-26.10</id>
+    <title>Removed: unbiased/pareto-26.10</title>
+    <updated>2026-11-25T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/unbiased%2Fpareto-26.10"/>
+    <category term="model_removed"/>
+    <category term="provider:unbiased"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.8000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-25:model_removed:unbiased%2Fpareto-26.10-preview</id>
+    <title>Removed: unbiased/pareto-26.10-preview</title>
+    <updated>2026-11-25T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/unbiased%2Fpareto-26.10-preview"/>
+    <category term="model_removed"/>
+    <category term="provider:unbiased"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.8000/Mtok.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-25:model_removed:unbiased%2Fpareto-26.9</id>
+    <title>Removed: unbiased/pareto-26.9</title>
+    <updated>2026-11-25T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/unbiased%2Fpareto-26.9"/>
+    <category term="model_removed"/>
+    <category term="provider:unbiased"/>
+    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $2.5000/Mtok.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-11-24:model_removed:moonshotai%2Fkimi-k2</id>
     <title>Removed: moonshotai/kimi-k2</title>
@@ -877,32 +904,5 @@
     <category term="model_removed"/>
     <category term="provider:stealth"/>
     <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.0000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-10-01:model_removed:openai%2Fgpt-6.1-sol-pro%3Abatch</id>
-    <title>Removed: openai/gpt-6.1-sol-pro:batch</title>
-    <updated>2026-10-01T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-6.1-sol-pro%3Abatch"/>
-    <category term="model_removed"/>
-    <category term="provider:openai"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $1.0000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-10-01:model_removed:openai%2Fgpt-6.1-sol%3Abatch</id>
-    <title>Removed: openai/gpt-6.1-sol:batch</title>
-    <updated>2026-10-01T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/openai%2Fgpt-6.1-sol%3Abatch"/>
-    <category term="model_removed"/>
-    <category term="provider:openai"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $1.0000/Mtok.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-09-28:model_removed:deepseek%2Fdeepseek-r1-distill-llama-70b</id>
-    <title>Removed: deepseek/deepseek-r1-distill-llama-70b</title>
-    <updated>2026-09-28T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/deepseek%2Fdeepseek-r1-distill-llama-70b"/>
-    <category term="model_removed"/>
-    <category term="provider:deepseek"/>
-    <summary>Model no longer present in OpenRouter catalog. Final prompt price: $0.8000/Mtok.</summary>
   </entry>
 </feed>

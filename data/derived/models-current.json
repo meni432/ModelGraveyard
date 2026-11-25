@@ -108,13 +108,13 @@
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
       "pricing": {
-        "prompt": "0.000000047",
-        "completion": "0.0000003",
+        "prompt": "0.00000004532",
+        "completion": "0.00000013596",
         "image": null,
         "request": null
       },
       "context_length": 1048576,
-      "max_completion_tokens": 943718,
+      "max_completion_tokens": 131072,
       "expiration_date": null,
       "created": 1785606009,
       "first_seen": "2026-08-01",
@@ -261,14 +261,14 @@
       "name": "Pareto Latest",
       "provider": "~unbiased",
       "pricing": {
-        "prompt": "0.0000008",
-        "completion": "0.0000032",
+        "prompt": "-1",
+        "completion": "-1",
         "image": null,
         "request": null
       },
-      "context_length": 1048576,
-      "max_completion_tokens": 131072,
-      "expiration_date": "2026-11-25",
+      "context_length": 262144,
+      "max_completion_tokens": null,
+      "expiration_date": null,
       "created": 1791933050,
       "first_seen": "2026-10-14",
       "last_seen": "2026-11-25"
@@ -1417,7 +1417,7 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.000000047",
+        "prompt": "0.0000000456",
         "completion": "0.0000003",
         "image": null,
         "request": null
@@ -1468,8 +1468,8 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000128",
-        "completion": "0.00000256",
+        "prompt": "0.00000063389",
+        "completion": "0.0000015722",
         "image": null,
         "request": null
       },
@@ -1502,8 +1502,8 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.00000014",
-        "completion": "0.00000042",
+        "prompt": "0.0000000507",
+        "completion": "0.0000002028",
         "image": null,
         "request": null
       },
@@ -1519,8 +1519,8 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
       "provider": "deepseek",
       "pricing": {
-        "prompt": "0.0000003",
-        "completion": "0.0000012",
+        "prompt": "0.00000015",
+        "completion": "0.0000006",
         "image": null,
         "request": null
       },
@@ -1611,7 +1611,7 @@
       },
       "context_length": 1048576,
       "max_completion_tokens": 65535,
-      "expiration_date": null,
+      "expiration_date": "2026-12-01",
       "created": 1750172488,
       "first_seen": "2026-05-27",
       "last_seen": "2026-11-25"
@@ -1662,7 +1662,7 @@
       },
       "context_length": 1048576,
       "max_completion_tokens": 65536,
-      "expiration_date": null,
+      "expiration_date": "2026-12-01",
       "created": 1750169544,
       "first_seen": "2026-05-27",
       "last_seen": "2026-11-25"
@@ -2335,8 +2335,8 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "pricing": {
-        "prompt": "0.00000009",
-        "completion": "0.0000003",
+        "prompt": "0.0000000765",
+        "completion": "0.000000255",
         "image": null,
         "request": null
       },
@@ -3049,8 +3049,8 @@
       "name": "MiniMax: MiniMax M3.1 Flash",
       "provider": "minimax",
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
+        "prompt": "0.000000075",
+        "completion": "0.0000003",
         "image": null,
         "request": null
       },
@@ -3076,6 +3076,23 @@
       "expiration_date": null,
       "created": 1754079630,
       "first_seen": "2026-05-27",
+      "last_seen": "2026-11-25"
+    },
+    {
+      "id": "mistralai/codestral-2508:batch",
+      "name": "Mistral: Codestral 2508 (batch)",
+      "provider": "mistralai",
+      "pricing": {
+        "prompt": "0.00000015",
+        "completion": "0.00000045",
+        "image": null,
+        "request": null
+      },
+      "context_length": 256000,
+      "max_completion_tokens": 204800,
+      "expiration_date": null,
+      "created": 1754079630,
+      "first_seen": "2026-11-25",
       "last_seen": "2026-11-25"
     },
     {
@@ -3147,6 +3164,23 @@
       "last_seen": "2026-11-25"
     },
     {
+      "id": "mistralai/ministral-8b-2512:batch",
+      "name": "Mistral: Ministral 3 8B 2512 (batch)",
+      "provider": "mistralai",
+      "pricing": {
+        "prompt": "0.000000075",
+        "completion": "0.000000075",
+        "image": null,
+        "request": null
+      },
+      "context_length": 262144,
+      "max_completion_tokens": 209715,
+      "expiration_date": null,
+      "created": 1764681654,
+      "first_seen": "2026-11-25",
+      "last_seen": "2026-11-25"
+    },
+    {
       "id": "mistralai/mistral-large",
       "name": "Mistral Large",
       "provider": "mistralai",
@@ -3195,6 +3229,23 @@
       "expiration_date": null,
       "created": 1764624472,
       "first_seen": "2026-09-25",
+      "last_seen": "2026-11-25"
+    },
+    {
+      "id": "mistralai/mistral-large-2512:batch",
+      "name": "Mistral: Mistral Large 3 2512 (batch)",
+      "provider": "mistralai",
+      "pricing": {
+        "prompt": "0.00000025",
+        "completion": "0.00000075",
+        "image": null,
+        "request": null
+      },
+      "context_length": 262144,
+      "max_completion_tokens": 209715,
+      "expiration_date": null,
+      "created": 1764624472,
+      "first_seen": "2026-11-25",
       "last_seen": "2026-11-25"
     },
     {
@@ -3314,6 +3365,23 @@
       "expiration_date": null,
       "created": 1773695685,
       "first_seen": "2026-05-27",
+      "last_seen": "2026-11-25"
+    },
+    {
+      "id": "mistralai/mistral-small-2603:batch",
+      "name": "Mistral: Mistral Small 4 (batch)",
+      "provider": "mistralai",
+      "pricing": {
+        "prompt": "0.000000075",
+        "completion": "0.0000003",
+        "image": null,
+        "request": null
+      },
+      "context_length": 262144,
+      "max_completion_tokens": 209715,
+      "expiration_date": null,
+      "created": 1773695685,
+      "first_seen": "2026-11-25",
       "last_seen": "2026-11-25"
     },
     {
@@ -3814,7 +3882,7 @@
       "name": "NVIDIA: Nemotron 3.5 Lightning",
       "provider": "nvidia",
       "pricing": {
-        "prompt": "0.00000005",
+        "prompt": "0.00000007",
         "completion": "0.0000002",
         "image": null,
         "request": null
@@ -7095,8 +7163,8 @@
       "name": "Tencent: Hy3",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
         "image": null,
         "request": null
       },
@@ -7146,8 +7214,8 @@
       "name": "Tencent: Hy4 preview",
       "provider": "tencent",
       "pricing": {
-        "prompt": "0.000000834",
-        "completion": "0.000002501",
+        "prompt": "0.0000007506",
+        "completion": "0.0000022509",
         "image": null,
         "request": null
       },
@@ -7295,6 +7363,23 @@
       "last_seen": "2026-11-25"
     },
     {
+      "id": "tngtech/deepseek-r1t2-chimera",
+      "name": "TNG: DeepSeek R1T2 Chimera",
+      "provider": "tngtech",
+      "pricing": {
+        "prompt": "0.000001",
+        "completion": "0.000002625",
+        "image": null,
+        "request": null
+      },
+      "context_length": 131072,
+      "max_completion_tokens": 32768,
+      "expiration_date": null,
+      "created": 1751986985,
+      "first_seen": "2026-11-25",
+      "last_seen": "2026-11-25"
+    },
+    {
       "id": "typesafe/jev-router",
       "name": "TypeSafe: Jev Router",
       "provider": "typesafe",
@@ -7309,57 +7394,6 @@
       "expiration_date": null,
       "created": 1790363560,
       "first_seen": "2026-09-26",
-      "last_seen": "2026-11-25"
-    },
-    {
-      "id": "unbiased/pareto-26.10",
-      "name": "Pareto 26.10",
-      "provider": "unbiased",
-      "pricing": {
-        "prompt": "0.0000008",
-        "completion": "0.0000032",
-        "image": null,
-        "request": null
-      },
-      "context_length": 1048576,
-      "max_completion_tokens": 131072,
-      "expiration_date": "2026-11-25",
-      "created": 1792073620,
-      "first_seen": "2026-10-18",
-      "last_seen": "2026-11-25"
-    },
-    {
-      "id": "unbiased/pareto-26.10-preview",
-      "name": "Pareto 26.10 Preview",
-      "provider": "unbiased",
-      "pricing": {
-        "prompt": "0.0000008",
-        "completion": "0.0000032",
-        "image": null,
-        "request": null
-      },
-      "context_length": 1048576,
-      "max_completion_tokens": 131072,
-      "expiration_date": "2026-11-25",
-      "created": 1790863623,
-      "first_seen": "2026-11-12",
-      "last_seen": "2026-11-25"
-    },
-    {
-      "id": "unbiased/pareto-26.9",
-      "name": "Pareto 26.9",
-      "provider": "unbiased",
-      "pricing": {
-        "prompt": "0.0000025",
-        "completion": "0.0000075",
-        "image": null,
-        "request": null
-      },
-      "context_length": 262144,
-      "max_completion_tokens": 131072,
-      "expiration_date": "2026-11-25",
-      "created": 1791930537,
-      "first_seen": "2026-10-14",
       "last_seen": "2026-11-25"
     },
     {
@@ -7707,8 +7741,8 @@
       "name": "Z.ai: GLM 4.5 Air",
       "provider": "z-ai",
       "pricing": {
-        "prompt": "0.00000013",
-        "completion": "0.00000085",
+        "prompt": "0.0000002",
+        "completion": "0.0000011",
         "image": null,
         "request": null
       },
@@ -7797,7 +7831,7 @@
         "image": null,
         "request": null
       },
-      "context_length": 200000,
+      "context_length": 131072,
       "max_completion_tokens": 117964,
       "expiration_date": null,
       "created": 1768833913,

@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-type/context_changed.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/context_changed.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-11-24T00:00:00Z</updated>
+  <updated>2026-11-25T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-25:context_changed:~unbiased%2Fpareto-latest</id>
+    <title>Context window changed: ~unbiased/pareto-latest</title>
+    <updated>2026-11-25T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/~unbiased%2Fpareto-latest"/>
+    <category term="context_changed"/>
+    <category term="provider:~unbiased"/>
+    <summary>1048576 → 262144 tokens</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-25:context_changed:z-ai%2Fglm-4.7-flash</id>
+    <title>Context window changed: z-ai/glm-4.7-flash</title>
+    <updated>2026-11-25T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/z-ai%2Fglm-4.7-flash"/>
+    <category term="context_changed"/>
+    <category term="provider:z-ai"/>
+    <summary>200000 → 131072 tokens</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-11-24:context_changed:stepfun%2Fstep-3.7-flash</id>
     <title>Context window changed: stepfun/step-3.7-flash</title>
@@ -886,23 +904,5 @@
     <category term="context_changed"/>
     <category term="provider:thedrummer"/>
     <summary>32768 → 1024000 tokens</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-27:context_changed:google%2Fgemini-3.1-flash-image-preview</id>
-    <title>Context window changed: google/gemini-3.1-flash-image-preview</title>
-    <updated>2026-07-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-3.1-flash-image-preview"/>
-    <category term="context_changed"/>
-    <category term="provider:google"/>
-    <summary>131072 → 65536 tokens</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-07-23:context_changed:thinkingmachines%2Finkling</id>
-    <title>Context window changed: thinkingmachines/inkling</title>
-    <updated>2026-07-23T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/thinkingmachines%2Finkling"/>
-    <category term="context_changed"/>
-    <category term="provider:thinkingmachines"/>
-    <summary>524288 → 1048576 tokens</summary>
   </entry>
 </feed>

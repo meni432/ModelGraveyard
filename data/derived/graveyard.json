@@ -1,6 +1,40 @@
 {
   "buried": [
     {
+      "id": "unbiased/pareto-26.10",
+      "name": "Pareto 26.10",
+      "provider": "unbiased",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000008",
+        "completion": "0.0000032",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 1048576,
+      "first_seen": "2026-10-18",
+      "last_seen": "2026-11-25",
+      "buried_at": "2026-11-25",
+      "suggested_replacement": null
+    },
+    {
+      "id": "unbiased/pareto-26.9",
+      "name": "Pareto 26.9",
+      "provider": "unbiased",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.0000025",
+        "completion": "0.0000075",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 262144,
+      "first_seen": "2026-10-14",
+      "last_seen": "2026-11-25",
+      "buried_at": "2026-11-25",
+      "suggested_replacement": null
+    },
+    {
       "id": "mistralai/mistral-medium-3",
       "name": "Mistral: Mistral Medium 3",
       "provider": "mistralai",
