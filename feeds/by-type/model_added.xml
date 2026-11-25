@@ -4,7 +4,34 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_added.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_added.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-11-23T00:00:00Z</updated>
+  <updated>2026-11-25T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-25:model_added:upstage%2Fsolar-mini-4-5</id>
+    <title>Added: upstage/solar-mini-4-5</title>
+    <updated>2026-11-25T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/upstage%2Fsolar-mini-4-5"/>
+    <category term="model_added"/>
+    <category term="provider:upstage"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0100/Mtok, context: 524288.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-25:model_added:upstage%2Fsolar-pro-4-contributor</id>
+    <title>Added: upstage/solar-pro-4-contributor</title>
+    <updated>2026-11-25T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/upstage%2Fsolar-pro-4-contributor"/>
+    <category term="model_added"/>
+    <category term="provider:upstage"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0900/Mtok, context: 524288.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-25:model_added:xiaomi%2Fmimo-v2.6-flash-mopd</id>
+    <title>Added: xiaomi/mimo-v2.6-flash-mopd</title>
+    <updated>2026-11-25T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/xiaomi%2Fmimo-v2.6-flash-mopd"/>
+    <category term="model_added"/>
+    <category term="provider:xiaomi"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.5000/Mtok, context: 1048576.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-11-23:model_added:dots-studio%2Fdots-3-note-preview%3Afree</id>
     <title>Added: dots-studio/dots-3-note-preview:free</title>
@@ -877,32 +904,5 @@
     <category term="model_added"/>
     <category term="provider:anthropic"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.1000/Mtok, context: 1000000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-10-07:model_added:anthropic%2Fclaude-haiku-5.5%3Abatch</id>
-    <title>Added: anthropic/claude-haiku-5.5:batch</title>
-    <updated>2026-10-07T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/anthropic%2Fclaude-haiku-5.5%3Abatch"/>
-    <category term="model_added"/>
-    <category term="provider:anthropic"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.0500/Mtok, context: 1000000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-10-06:model_added:google%2Fgemini-nano-banana-2.1</id>
-    <title>Added: google/gemini-nano-banana-2.1</title>
-    <updated>2026-10-06T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-nano-banana-2.1"/>
-    <category term="model_added"/>
-    <category term="provider:google"/>
-    <summary>New model on OpenRouter. Initial prompt price: $1.5000/Mtok, context: 65536.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-10-06:model_added:mistralai%2Fmistral-large-4-0</id>
-    <title>Added: mistralai/mistral-large-4-0</title>
-    <updated>2026-10-06T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/mistralai%2Fmistral-large-4-0"/>
-    <category term="model_added"/>
-    <category term="provider:mistralai"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.6800/Mtok, context: 524288.</summary>
   </entry>
 </feed>
