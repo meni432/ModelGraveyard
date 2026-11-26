@@ -4,7 +4,34 @@
   <id>https://modelgraveyard.com/feeds/by-type/model_added.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-type/model_added.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-11-25T00:00:00Z</updated>
+  <updated>2026-11-26T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-26:model_added:inclusionai%2Flingsante-3.1-air-vl</id>
+    <title>Added: inclusionai/lingsante-3.1-air-vl</title>
+    <updated>2026-11-26T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/inclusionai%2Flingsante-3.1-air-vl"/>
+    <category term="model_added"/>
+    <category term="provider:inclusionai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.0600/Mtok, context: 131072.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-26:model_added:moonshotai%2Fkimi-k2-0905</id>
+    <title>Added: moonshotai/kimi-k2-0905</title>
+    <updated>2026-11-26T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k2-0905"/>
+    <category term="model_added"/>
+    <category term="provider:moonshotai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.6000/Mtok, context: 262144.</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-26:model_added:moonshotai%2Fkimi-k2</id>
+    <title>Added: moonshotai/kimi-k2</title>
+    <updated>2026-11-26T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/moonshotai%2Fkimi-k2"/>
+    <category term="model_added"/>
+    <category term="provider:moonshotai"/>
+    <summary>New model on OpenRouter. Initial prompt price: $0.5700/Mtok, context: 131072.</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-11-25:model_added:upstage%2Fsolar-mini-4-5</id>
     <title>Added: upstage/solar-mini-4-5</title>
@@ -877,32 +904,5 @@
     <category term="model_added"/>
     <category term="provider:scaledown"/>
     <summary>New model on OpenRouter. Initial prompt price: $0.0400/Mtok, context: 1000000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-10-13:model_added:liquid%2Flfm-2.5-24b-a2b</id>
-    <title>Added: liquid/lfm-2.5-24b-a2b</title>
-    <updated>2026-10-13T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/liquid%2Flfm-2.5-24b-a2b"/>
-    <category term="model_added"/>
-    <category term="provider:liquid"/>
-    <summary>New model on OpenRouter. Initial prompt price: $0.0500/Mtok, context: 128000.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-10-13:model_added:google%2Fgemini-4-argon</id>
-    <title>Added: google/gemini-4-argon</title>
-    <updated>2026-10-13T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-4-argon"/>
-    <category term="model_added"/>
-    <category term="provider:google"/>
-    <summary>New model on OpenRouter. Initial prompt price: $2.0000/Mtok, context: 1048576.</summary>
-  </entry>
-  <entry>
-    <id>tag:modelgraveyard,2026-10-13:model_added:google%2Fgemini-4-argon%3Abatch</id>
-    <title>Added: google/gemini-4-argon:batch</title>
-    <updated>2026-10-13T00:00:00Z</updated>
-    <link rel="alternate" href="https://modelgraveyard.com/model/google%2Fgemini-4-argon%3Abatch"/>
-    <category term="model_added"/>
-    <category term="provider:google"/>
-    <summary>New model on OpenRouter. Initial prompt price: $1.0000/Mtok, context: 1048576.</summary>
   </entry>
 </feed>
