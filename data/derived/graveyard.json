@@ -1,6 +1,23 @@
 {
   "buried": [
     {
+      "id": "inclusionai/ling-3.2-flash:free",
+      "name": "inclusionAI: Ling 3.2 Flash (free)",
+      "provider": "inclusionai",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0",
+        "completion": "0",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 1048576,
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-27",
+      "buried_at": "2026-11-27",
+      "suggested_replacement": "inclusionai/ling-3.2-flash"
+    },
+    {
       "id": "unbiased/pareto-26.10",
       "name": "Pareto 26.10",
       "provider": "unbiased",

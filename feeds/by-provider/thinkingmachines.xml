@@ -4,7 +4,25 @@
   <id>https://modelgraveyard.com/feeds/by-provider/thinkingmachines.xml</id>
   <link rel="self" href="https://modelgraveyard.com/feeds/by-provider/thinkingmachines.xml"/>
   <link rel="alternate" href="https://modelgraveyard.com"/>
-  <updated>2026-11-23T00:00:00Z</updated>
+  <updated>2026-11-27T00:00:00Z</updated>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-27:price_changed:thinkingmachines%2Finkling-2-mini</id>
+    <title>Price changed: thinkingmachines/inkling-2-mini</title>
+    <updated>2026-11-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/thinkingmachines%2Finkling-2-mini"/>
+    <category term="price_changed"/>
+    <category term="provider:thinkingmachines"/>
+    <summary>prompt: $0.0750/Mtok → $0.0600/Mtok (-20%); completion: $0.3000/Mtok → $0.2400/Mtok (-20%)</summary>
+  </entry>
+  <entry>
+    <id>tag:modelgraveyard,2026-11-27:price_changed:thinkingmachines%2Finkling-2-small</id>
+    <title>Price changed: thinkingmachines/inkling-2-small</title>
+    <updated>2026-11-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://modelgraveyard.com/model/thinkingmachines%2Finkling-2-small"/>
+    <category term="price_changed"/>
+    <category term="provider:thinkingmachines"/>
+    <summary>prompt: $0.3000/Mtok → $0.1500/Mtok (-50%); completion: $1.0000/Mtok → $0.5000/Mtok (-50%)</summary>
+  </entry>
   <entry>
     <id>tag:modelgraveyard,2026-11-23:context_changed:thinkingmachines%2Finkling</id>
     <title>Context window changed: thinkingmachines/inkling</title>
