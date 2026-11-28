@@ -1,6 +1,23 @@
 {
   "buried": [
     {
+      "id": "qwen/qwen3-235b-a22b-thinking-2507",
+      "name": "Qwen: Qwen3 235B A22B Thinking 2507",
+      "provider": "qwen",
+      "cause": "removed",
+      "final_pricing": {
+        "prompt": "0.00000045",
+        "completion": "0.0000035",
+        "image": null,
+        "request": null
+      },
+      "final_context_length": 128000,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-11-27",
+      "buried_at": "2026-11-28",
+      "suggested_replacement": "qwen/qwen2.5-vl-72b-instruct"
+    },
+    {
       "id": "inclusionai/ling-3.2-flash:free",
       "name": "inclusionAI: Ling 3.2 Flash (free)",
       "provider": "inclusionai",
